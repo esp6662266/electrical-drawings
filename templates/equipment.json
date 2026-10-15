@@ -1,0 +1,12 @@
+{
+  "id": "",
+  "name": "",
+  "group": "",
+  "location": "",
+  "description": "",
+  "source_version": "",
+  "priority": true,
+  "manual": {"overview":"","io":"","control":"","circuits":"","alarms":"","repair":"","completion":""},
+  "io": [], "hmi": [], "networks": [], "calls": [], "signals": [], "drawings": [],
+  "alarms": [], "repair": [], "checks": [], "reviews": [], "tests": []
+}
