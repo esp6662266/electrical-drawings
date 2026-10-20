@@ -1,0 +1,14 @@
+{
+  "sha256": "e8435240ddb91d043a6a2dd989f48f92bd299e616783d9744dce3a330f7a2151",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "BAG FILTER 1500CMM 세진메탈 본사 (주) 정일플랜트\nLOWER FRAME DRAWING",
+      "width": 595.2,
+      "height": 841.92
+    }
+  ],
+  "page_count": 1
+}

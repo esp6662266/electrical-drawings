@@ -1,0 +1,14 @@
+{
+  "sha256": "c32d03985320d275198ac43ca6bcd12cd57e7cf0dbfe0a7d7574211c88b031fd",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "세진메탈(주) 3공장",
+      "width": 841.68,
+      "height": 1190.64
+    }
+  ],
+  "page_count": 1
+}

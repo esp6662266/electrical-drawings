@@ -1,0 +1,342 @@
+{
+  "equipment_id": "ROLLING85-08",
+  "number": 8,
+  "name": "8번 85톤로 (압연)",
+  "source_folder": "\\\\192.168.20.250\\시설관리\\통합지원본부\\김범주(작업정리중)\\8번 85톤로 (압연)",
+  "source_count": 27,
+  "unique_source_count": 26,
+  "sources": [
+    {
+      "id": "Scc9033079470bf33",
+      "name": "85톤-조립도 Model (1).pdf",
+      "relative_path": "85톤로(압연)/85톤-조립도 Model (1).pdf",
+      "file": "/documents/source-store/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.pdf",
+      "sha256": "cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325",
+      "bytes": 233575,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S6bba82a3a4528d7e",
+      "name": "85톤-조립도 Model (2).pdf",
+      "relative_path": "85톤로(압연)/85톤-조립도 Model (2).pdf",
+      "file": "/documents/source-store/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.pdf",
+      "sha256": "6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05",
+      "bytes": 228880,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S47db5dab17943e01",
+      "name": "85톤UBC-내화벽돌007-2016.10.17.pdf",
+      "relative_path": "85톤로(압연)/85톤UBC-내화벽돌007-2016.10.17.pdf",
+      "file": "/documents/source-store/47db5dab17943e01fa4ec32ad81670db9e0e3d24a6ccc4d8527a9a6b1c784ae2.pdf",
+      "sha256": "47db5dab17943e01fa4ec32ad81670db9e0e3d24a6ccc4d8527a9a6b1c784ae2",
+      "bytes": 707862,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/47db5dab17943e01fa4ec32ad81670db9e0e3d24a6ccc4d8527a9a6b1c784ae2.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "Sdf3f4177b13ec5a9",
+      "name": "85톤로.tif",
+      "relative_path": "85톤로(압연)/85톤로.tif",
+      "file": "/documents/source-store/df3f4177b13ec5a94bb0b32d7cea69debb8aa31c37e6e96f9d9b87cf6cd59820.tif",
+      "sha256": "df3f4177b13ec5a94bb0b32d7cea69debb8aa31c37e6e96f9d9b87cf6cd59820",
+      "bytes": 287312,
+      "extension": ".tif",
+      "inspection": "/documents/source-text/df3f4177b13ec5a94bb0b32d7cea69debb8aa31c37e6e96f9d9b87cf6cd59820.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 3310,
+        "height": 2340,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Scd6b6e4f48ff6c29",
+      "name": "5. 85톤 용해로.pdf",
+      "relative_path": "기존 도면/5. 85톤 용해로.pdf",
+      "file": "/documents/source-store/cd6b6e4f48ff6c29f64ea3e601d6d6098bf01f7f4cf4c4c639abc5ce9cfa3030.pdf",
+      "sha256": "cd6b6e4f48ff6c29f64ea3e601d6d6098bf01f7f4cf4c4c639abc5ce9cfa3030",
+      "bytes": 757637,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/cd6b6e4f48ff6c29f64ea3e601d6d6098bf01f7f4cf4c4c639abc5ce9cfa3030.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S9bacb9c09929516a",
+      "name": "7. 85톤 용해로 내화벽돌.pdf",
+      "relative_path": "기존 도면/7. 85톤 용해로 내화벽돌.pdf",
+      "file": "/documents/source-store/9bacb9c09929516aac404b709dd957643b6c3689776b29fd27360dc2cfd054fe.pdf",
+      "sha256": "9bacb9c09929516aac404b709dd957643b6c3689776b29fd27360dc2cfd054fe",
+      "bytes": 1171676,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/9bacb9c09929516aac404b709dd957643b6c3689776b29fd27360dc2cfd054fe.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S1f06e8e9469a04b0",
+      "name": "85톤로.tif",
+      "relative_path": "기존 도면/과거 백업본/85톤로.tif",
+      "file": "/documents/source-store/1f06e8e9469a04b0f298008764cb85e0397e8f95b0adfeb76049dc828fd0da1f.tif",
+      "sha256": "1f06e8e9469a04b0f298008764cb85e0397e8f95b0adfeb76049dc828fd0da1f",
+      "bytes": 173312,
+      "extension": ".tif",
+      "inspection": "/documents/source-text/1f06e8e9469a04b0f298008764cb85e0397e8f95b0adfeb76049dc828fd0da1f.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2340,
+        "height": 3310,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S921c6a0087fe9be1",
+      "name": "RSH-400GO(압연85톤).dwg",
+      "relative_path": "배관·버너 도면/1. 1차 도면/RSH-400GO(압연85톤).dwg",
+      "file": "/documents/source-store/921c6a0087fe9be11f82eac2d7a7e901eaf74a681a354fcedb35b5a7883ec952.dwg",
+      "sha256": "921c6a0087fe9be11f82eac2d7a7e901eaf74a681a354fcedb35b5a7883ec952",
+      "bytes": 422608,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/921c6a0087fe9be11f82eac2d7a7e901eaf74a681a354fcedb35b5a7883ec952.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S36ac2fe8550a7373",
+      "name": "RSH-400GO(압연85톤).dwg",
+      "relative_path": "배관·버너 도면/2. 2차 도면/RSH-400GO(압연85톤).dwg",
+      "file": "/documents/source-store/36ac2fe8550a7373bb2d4632ec9f157f7b00f4f773672f74bdd6d0cb87388a7f.dwg",
+      "sha256": "36ac2fe8550a7373bb2d4632ec9f157f7b00f4f773672f74bdd6d0cb87388a7f",
+      "bytes": 422645,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/36ac2fe8550a7373bb2d4632ec9f157f7b00f4f773672f74bdd6d0cb87388a7f.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S36c5e683b52b22e2",
+      "name": "7. 85톤 압연로.dwg",
+      "relative_path": "배관·버너 도면/LNG 배관/7. 85톤 압연로.dwg",
+      "file": "/documents/source-store/36c5e683b52b22e2817592a0be66293c892b0039c412070a59c16d1bd79d9d3b.dwg",
+      "sha256": "36c5e683b52b22e2817592a0be66293c892b0039c412070a59c16d1bd79d9d3b",
+      "bytes": 416609,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/36c5e683b52b22e2817592a0be66293c892b0039c412070a59c16d1bd79d9d3b.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S9ac72f58f841e6bc",
+      "name": "RSH-400GO(축열400만)-압연.dwg",
+      "relative_path": "배관·버너 도면/기존 버너도면/RSH-400GO(축열400만)-압연.dwg",
+      "file": "/documents/source-store/9ac72f58f841e6bcf4021db6bff1ad786c4d503d68c1b612774a4aa2b869c493.dwg",
+      "sha256": "9ac72f58f841e6bcf4021db6bff1ad786c4d503d68c1b612774a4aa2b869c493",
+      "bytes": 363392,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/9ac72f58f841e6bcf4021db6bff1ad786c4d503d68c1b612774a4aa2b869c493.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S36ac2fe8550a7373",
+      "name": "3. RSH-400GO(압연85톤).dwg",
+      "relative_path": "배관·버너 도면/정제유 변경배관/3. RSH-400GO(압연85톤).dwg",
+      "file": "/documents/source-store/36ac2fe8550a7373bb2d4632ec9f157f7b00f4f773672f74bdd6d0cb87388a7f.dwg",
+      "sha256": "36ac2fe8550a7373bb2d4632ec9f157f7b00f4f773672f74bdd6d0cb87388a7f",
+      "bytes": 422645,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/36ac2fe8550a7373bb2d4632ec9f157f7b00f4f773672f74bdd6d0cb87388a7f.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S2869e611cef4a0c2",
+      "name": "85톤로.tif",
+      "relative_path": "생산부공용 추가도면/85톤로 참고자료(적용확인필요)/85톤로.tif",
+      "file": "/documents/source-store/2869e611cef4a0c22cfc7b1851d973b8efb0117a22e5a70ab7ccccc80695d3b0.tif",
+      "sha256": "2869e611cef4a0c22cfc7b1851d973b8efb0117a22e5a70ab7ccccc80695d3b0",
+      "bytes": 57636,
+      "extension": ".tif",
+      "inspection": "/documents/source-text/2869e611cef4a0c22cfc7b1851d973b8efb0117a22e5a70ab7ccccc80695d3b0.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2340,
+        "height": 1654,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S87b8dae5701e0e45",
+      "name": "세진메탈_85톤-내화벽돌.pdf",
+      "relative_path": "생산부공용 추가도면/85톤로 참고자료(적용확인필요)/세진메탈_85톤-내화벽돌.pdf",
+      "file": "/documents/source-store/87b8dae5701e0e4559bd2152fba8232ebe80a428de41281d0484091af2d50fe0.pdf",
+      "sha256": "87b8dae5701e0e4559bd2152fba8232ebe80a428de41281d0484091af2d50fe0",
+      "bytes": 1083777,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/87b8dae5701e0e4559bd2152fba8232ebe80a428de41281d0484091af2d50fe0.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S5e88f3351db32edf",
+      "name": "RSH-400GO(압연85톤).dwg",
+      "relative_path": "생산부공용 추가도면/버너 및 설비도면/RSH-400GO(압연85톤).dwg",
+      "file": "/documents/source-store/5e88f3351db32edfb549587bd7e58285e0cf0712c9ed0d8a03b56540d6cc2d66.dwg",
+      "sha256": "5e88f3351db32edfb549587bd7e58285e0cf0712c9ed0d8a03b56540d6cc2d66",
+      "bytes": 293728,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/5e88f3351db32edfb549587bd7e58285e0cf0712c9ed0d8a03b56540d6cc2d66.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S5cf01e9fb35341a0",
+      "name": "RSH-400GO(압연85톤).pdf",
+      "relative_path": "생산부공용 추가도면/버너 및 설비도면/RSH-400GO(압연85톤).pdf",
+      "file": "/documents/source-store/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.pdf",
+      "sha256": "5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3",
+      "bytes": 280534,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S7b310a0e479f6d21",
+      "name": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf",
+      "relative_path": "생산부공용 추가도면/버너 및 설비도면/세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf",
+      "file": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf",
+      "sha256": "7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6",
+      "bytes": 1408951,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S6006bf0fcd00ce9b",
+      "name": "스케줄 및 도면.tif",
+      "relative_path": "생산부공용 추가도면/버너 및 설비도면/스케줄 및 도면.tif",
+      "file": "/documents/source-store/6006bf0fcd00ce9b377c024cdac4ea235a5827ced6c53aad4c04eeef09bf502b.tif",
+      "sha256": "6006bf0fcd00ce9b377c024cdac4ea235a5827ced6c53aad4c04eeef09bf502b",
+      "bytes": 383360,
+      "extension": ".tif",
+      "inspection": "/documents/source-text/6006bf0fcd00ce9b377c024cdac4ea235a5827ced6c53aad4c04eeef09bf502b.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2340,
+        "height": 3310,
+        "frames": 2
+      }
+    },
+    {
+      "id": "S9d4839f2a4e99d62",
+      "name": "압연85톤 가스버너P&ID.pdf",
+      "relative_path": "생산부공용 추가도면/버너 및 설비도면/압연85톤 가스버너P&ID.pdf",
+      "file": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf",
+      "sha256": "9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c",
+      "bytes": 569617,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S62f8557123105540",
+      "name": "2.85 TON.pdf",
+      "relative_path": "소방 도면·계산서/2.85 TON.pdf",
+      "file": "/documents/source-store/62f85571231055401ad0894b0ea92705c0cb52c3c4f30f0032484b9040d8cb57.pdf",
+      "sha256": "62f85571231055401ad0894b0ea92705c0cb52c3c4f30f0032484b9040d8cb57",
+      "bytes": 56644,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/62f85571231055401ad0894b0ea92705c0cb52c3c4f30f0032484b9040d8cb57.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 2
+    },
+    {
+      "id": "Sb176e42655bdd95b",
+      "name": "CO2 - 85ton.pdf",
+      "relative_path": "소방 도면·계산서/CO2 - 85ton.pdf",
+      "file": "/documents/source-store/b176e42655bdd95bc11770e4ac616ba0f465e22ed0fea62280a9eb562f3832c4.pdf",
+      "sha256": "b176e42655bdd95bc11770e4ac616ba0f465e22ed0fea62280a9eb562f3832c4",
+      "bytes": 98868,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/b176e42655bdd95bc11770e4ac616ba0f465e22ed0fea62280a9eb562f3832c4.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S1c7c2b5431ad8d08",
+      "name": "2379-021.dwg",
+      "relative_path": "압연 85ton furnace/2379-021.dwg",
+      "file": "/documents/source-store/1c7c2b5431ad8d080448f4dc5c500ec85ffe07929f23d7db2e2c722fcb94bb99.dwg",
+      "sha256": "1c7c2b5431ad8d080448f4dc5c500ec85ffe07929f23d7db2e2c722fcb94bb99",
+      "bytes": 521124,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/1c7c2b5431ad8d080448f4dc5c500ec85ffe07929f23d7db2e2c722fcb94bb99.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S440d4bdff5cc696d",
+      "name": "2379-022.dwg",
+      "relative_path": "압연 85ton furnace/2379-022.dwg",
+      "file": "/documents/source-store/440d4bdff5cc696d3cfade9139a6c0b9029435cd8b1f031fc1b8f0303d7fdf93.dwg",
+      "sha256": "440d4bdff5cc696d3cfade9139a6c0b9029435cd8b1f031fc1b8f0303d7fdf93",
+      "bytes": 413016,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/440d4bdff5cc696d3cfade9139a6c0b9029435cd8b1f031fc1b8f0303d7fdf93.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S600404339aca3151",
+      "name": "2379-026.dwg",
+      "relative_path": "압연 85ton furnace/2379-026.dwg",
+      "file": "/documents/source-store/600404339aca3151788f2a9803b1c2999fd1a849ed380dfead6cb776c11e1251.dwg",
+      "sha256": "600404339aca3151788f2a9803b1c2999fd1a849ed380dfead6cb776c11e1251",
+      "bytes": 1083276,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/600404339aca3151788f2a9803b1c2999fd1a849ed380dfead6cb776c11e1251.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S5be591b3c61b2bd8",
+      "name": "2379-027.dwg",
+      "relative_path": "압연 85ton furnace/2379-027.dwg",
+      "file": "/documents/source-store/5be591b3c61b2bd80edc7a6bcaf6d9f76c9e3847ae2bcdaaf9e22cbd803c92d4.dwg",
+      "sha256": "5be591b3c61b2bd80edc7a6bcaf6d9f76c9e3847ae2bcdaaf9e22cbd803c92d4",
+      "bytes": 972928,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/5be591b3c61b2bd80edc7a6bcaf6d9f76c9e3847ae2bcdaaf9e22cbd803c92d4.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "Sfeb5477d3e0ce65c",
+      "name": "2379-028.dwg",
+      "relative_path": "압연 85ton furnace/2379-028.dwg",
+      "file": "/documents/source-store/feb5477d3e0ce65cc91f0ea095550c1628891e524abb3077d5d63bba6d7aa94a.dwg",
+      "sha256": "feb5477d3e0ce65cc91f0ea095550c1628891e524abb3077d5d63bba6d7aa94a",
+      "bytes": 406934,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/feb5477d3e0ce65cc91f0ea095550c1628891e524abb3077d5d63bba6d7aa94a.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S801d6417519160af",
+      "name": "압연(85ton)도면.pdf",
+      "relative_path": "압연 85ton furnace/압연(85ton)도면.pdf",
+      "file": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf",
+      "sha256": "801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125",
+      "bytes": 535597,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    }
+  ],
+  "excluded_cache_count": 0,
+  "archive_member_count": 0,
+  "coverage_note": "원본 해시 보존·정적 본문 추출·핵심 자료 중심 검토. 모든 부품 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님."
+}

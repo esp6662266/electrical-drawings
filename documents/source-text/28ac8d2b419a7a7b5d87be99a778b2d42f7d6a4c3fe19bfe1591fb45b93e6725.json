@@ -1,0 +1,14 @@
+{
+  "sha256": "28ac8d2b419a7a7b5d87be99a778b2d42f7d6a4c3fe19bfe1591fb45b93e6725",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "세진메탈(주) 3공장\n용제 저장탱크\n(지하)\n측정계단",
+      "width": 841.68,
+      "height": 1190.64
+    }
+  ],
+  "page_count": 1
+}

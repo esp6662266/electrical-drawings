@@ -1,0 +1,14 @@
+{
+  "sha256": "5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "M O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\nFURNACE PRESS\"  Diagram\nAC 1Ø 220V 60Hz\nR201\n0 1 2 3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nT200\n149 10 11 12 13 15\nR201\n16\n2010-09\nALCO -  E06\n10\n한국울파\n01\n02\nFURNACE PRESURE CONTROL\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nCOM\nNC\nNO\nNO\nNC\nN 24\nP0019\nP001A\nMain Gas Valve\nMV 01\n16101\nRY001\nMV 02\n161101\nRY004\nMV 02\n161201\nRY005\nCylinder on\nCylinder off\n161301 161401\nRY003\nMeting Lamp\nFurnace Lamp\nPL\n002\nPL\n001\nMain gas  P B L\nPBL\n002\nRY\n001\nRY\n002\nRY\n003\n16102\n16102\nPB-03\nPB-04\nSS-01\n16401Meting /Furnace -Relay\nOutlet 4 ~ 20 mA\nMeting /Furnace LAMP-Relay",
+      "width": 841.68,
+      "height": 595.2
+    }
+  ],
+  "page_count": 1
+}

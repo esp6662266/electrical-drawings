@@ -1,0 +1,650 @@
+{
+  "id": "ROLLING30-07",
+  "name": "7번 30톤로 (압연)",
+  "group": "압연·30톤 용해로",
+  "location": "사용자 지정 7번 설비 · 현재 명판/실물·적용 범위 미확정",
+  "priority": true,
+  "source_count": 31,
+  "archive_member_count": 0,
+  "source_unique_count": 31,
+  "source_pages": 37,
+  "source_version": "현재 PLC 프로젝트·전체 래더 미확보 · 도면/설명서 참조",
+  "description": "7번은 압연30톤로입니다. 압연 전용 명칭 버너/배관 자료와 합금·압연 공용 기계도, 적용 확인이 필요한 열교환/내화/소방 자료로 나눴습니다. 같은 30톤이라는 이유로 5번 합금 2호기의 전기도면·프로그램·정격을 대입하지 않았습니다.",
+  "documentation_status": "원본 보존·핵심 전기/제어/운전 자료 중심 문서화 완료(미확정 포함). 일반/부품 카탈로그 전체 페이지의 상세 판독·현재 적용 검증, 현장 측정·운전·수리·안전 시험은 미수행입니다.",
+  "native_plc_available": false,
+  "native_project_files": [],
+  "field_verified": false,
+  "manual_url": "/documents/equipment-07/manual.html",
+  "library_url": "/documents/equipment-07/library.html?source=S77304d53ec365658",
+  "source_manifest": "/documents/equipment-07/source-manifest.json",
+  "plc_analysis_note": "PLC 원본 프로젝트와 실행 래더는 미확보입니다. 도면상의 PLC 베이스/입출력·접점·단자·공정 설명을 현재 실행 프로그램으로 복원하지 않았습니다.",
+  "subsystems": [
+    {
+      "id": "DOC-7-1",
+      "name": "압연30톤 전용 명칭 자료",
+      "description": "압연30톤로 및 IBB-2000 관련 CAD/버너·송풍 도면입니다.",
+      "boundary": "CAD 편집기를 실행하지 않았고 현재 배선은 미확정."
+    },
+    {
+      "id": "DOC-7-2",
+      "name": "합금·압연 공용도",
+      "description": "세진 30톤 PDF(합금,압연 공용) 및 과거 조립·열교환기 자료입니다.",
+      "boundary": "5번 합금30톤의 PLC/I/O를 7번으로 복사하지 않음."
+    },
+    {
+      "id": "DOC-7-3",
+      "name": "열교환·내화·소방 참고",
+      "description": "열교환기 사용설명서·문짝/내화물·CO2 및 장입대 자료입니다.",
+      "boundary": "적용확인필요 경로를 그대로 표시."
+    }
+  ],
+  "manual": {
+    "overview": "7번은 압연30톤로입니다. 압연 전용 명칭 버너/배관 자료와 합금·압연 공용 기계도, 적용 확인이 필요한 열교환/내화/소방 자료로 나눴습니다. 같은 30톤이라는 이유로 5번 합금 2호기의 전기도면·프로그램·정격을 대입하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.\n\n원본 범위\n폴더 파일 31개, 압축 내부 자료 0개, 고유 해시 31개입니다. 동일 내용의 원래 경로·이름을 보존했고 서로 다른 버전은 유지했습니다. Windows 캐시/로그는 기술 자료 목록에서 제외했습니다. PDF·이미지 미리보기, 추출 본문·표·원본은 자료실에서 확인할 수 있습니다. DOC/HWP/PPT/Excel 열람은 원본 페이지/도형 배치를 재현한 것이 아닙니다.",
+    "io": "이번 폴더에서는 압연30톤 현행 PLC 할당표를 확정할 수 없습니다. 버너 계통도와 기계/부품 기호는 해당 원본의 전기·계장 참조로 남깁니다. CAD 파일은 원형 보존했고 대응 PDF를 우선 열람할 수 있게 했습니다. 공용도에 있는 태그와 전용 제어기의 관계는 현장/최신 도면 대조 전입니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "control": "자료의 범위는 용해로 본체·버너 연소/송풍·열교환·도어/장입 및 관련 배관입니다. 완전한 전기도면·PLC/HMI 원본·버너관리 로직은 확보 여부를 별도 표시했습니다. 열교환기 설명의 운전 조건이나 다른 30톤의 제어를 이 설비의 시퀀스로 재구성하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "circuits": "압연30톤로 PDF와 송풍기 외형, RECUPERATOR 조립/열교환 경로를 분리 연결했습니다. 가스/오일/공기/배기 경로의 적용과 현재 배관·밸브·인터록은 확인 전입니다. 장입대·문짝·내화물은 기계 계통, CO2는 소방 참고로 다룹니다. 원본에 없는 PLC 출력·단자 번호는 새로 부여하지 않습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "alarms": "연소·송풍·온도·열교환/배기·문짝/장입 기계 구간을 점검 범주로 정리했습니다. 현행 알람 코드·임계값·복구/재점화 조건은 제공 자료만으로 확정하지 않았습니다. 소방 자료를 현재 보호설비 동작 검증으로 표시하지 않습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "repair": "1. 가열/온도 이상\n압연 전용 버너·송풍·열교환 자료 적용을 먼저 대조\n근거: 압연30톤로.pdf · PDF 1쪽\n\n2. 열교환기/배기 문제\n공용/참고 조립도와 현장 유로·장착 모델 구분\n근거: (주)세진메탈-30톤 용해로-열교환기.pdf · PDF 1쪽\n\n3. 문짝·장입·내화물 점검\n공용/다른 버전 기계도를 현재 호기와 대조\n근거: 세진 30톤 PDF (합금,압연 공용).pdf · PDF 1쪽\n\n기록 기준\n실제 최초 시각·표시/코드·정지 구간·관찰·측정·조치·복구 근거를 구분해 수리 기록 양식에 남깁니다. 이번 작업에서 현장 고장/수리 이력을 새로 생성하지 않았습니다.",
+    "completion": "작성한 것\n- 사용자 지정 폴더 원본 31개와 압축 내부 0개 연결·해시 보존\n- 설비 계통 구분·7개 매뉴얼 항목·전기/I/O/단자 참조 0행·조작 참조 1행\n- 핵심 PDF 페이지 미리보기 24개·원본 자료실·추출 텍스트/표/그림 연결\n- 증상별 점검 3개·확인 대장 6개\n\n미확정·추가 확인\n- 압연 전용 PLC/I/O: 합금30톤과 설비 구분; 전용 현행 할당 미확보 / 압연 반번호·CPU·프로그램·최신 전기도면\n- 공용·적용확인필요 자료: 경로에 적용확인필요로 분류된 자료 다수 / 전용/공용 적용 범위 승인 근거\n- 기계 버전: 문짝 다른 버전·여러 열교환기/과거도 / 현재 실물·개조일·제작도 대조\n- PLC/HMI 원본 및 현재 적용: 도면·설명서 범위로 정리 / 현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조\n- 현장·안전·복구 확인: 파일 검토·로컬 문서화만 수행 / 실제 관찰·측정·현재 보호/재기동·복구 기록 별도\n- 문서 판독 범위: 모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시. / 설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조\n\n판정\n문서화 완료(핵심 자료·정적 참조 범위)입니다. 전체 카탈로그의 모든 페이지 판독·PLC 전체 의미 해석·현장 운전/안전/복구 검증 완료가 아닙니다. 실제 수리 이력은 생성하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "(주)세진메탈-30톤 용해로-열교환기.pdf",
+        "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=1"
+      },
+      {
+        "label": "압연30톤로.pdf",
+        "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+      },
+      {
+        "label": "1. 30톤 용해로_열교환기(RECUPERATOR).pdf",
+        "url": "/documents/source-store/205c98ed2031945fe4c3787230df805cb8bb086ef7399b7b2a061d2aba186d93.pdf#page=1"
+      },
+      {
+        "label": "2. 30톤 용해로_열교환기 Assey.pdf",
+        "url": "/documents/source-store/144aba866284f75d52e87463760ab953aad03017de3cdb5333f0e206c1aa05bd.pdf#page=1"
+      },
+      {
+        "label": "세진 30톤 PDF (합금,압연 공용).pdf",
+        "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=1"
+      }
+    ],
+    "io": [
+      {
+        "label": "(주)세진메탈-30톤 용해로-열교환기.pdf",
+        "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=1"
+      },
+      {
+        "label": "압연30톤로.pdf",
+        "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+      },
+      {
+        "label": "1. 30톤 용해로_열교환기(RECUPERATOR).pdf",
+        "url": "/documents/source-store/205c98ed2031945fe4c3787230df805cb8bb086ef7399b7b2a061d2aba186d93.pdf#page=1"
+      },
+      {
+        "label": "2. 30톤 용해로_열교환기 Assey.pdf",
+        "url": "/documents/source-store/144aba866284f75d52e87463760ab953aad03017de3cdb5333f0e206c1aa05bd.pdf#page=1"
+      },
+      {
+        "label": "세진 30톤 PDF (합금,압연 공용).pdf",
+        "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=1"
+      }
+    ],
+    "control": [
+      {
+        "label": "(주)세진메탈-30톤 용해로-열교환기.pdf",
+        "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=1"
+      },
+      {
+        "label": "압연30톤로.pdf",
+        "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+      },
+      {
+        "label": "1. 30톤 용해로_열교환기(RECUPERATOR).pdf",
+        "url": "/documents/source-store/205c98ed2031945fe4c3787230df805cb8bb086ef7399b7b2a061d2aba186d93.pdf#page=1"
+      },
+      {
+        "label": "2. 30톤 용해로_열교환기 Assey.pdf",
+        "url": "/documents/source-store/144aba866284f75d52e87463760ab953aad03017de3cdb5333f0e206c1aa05bd.pdf#page=1"
+      },
+      {
+        "label": "세진 30톤 PDF (합금,압연 공용).pdf",
+        "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=1"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "(주)세진메탈-30톤 용해로-열교환기.pdf",
+        "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=1"
+      },
+      {
+        "label": "압연30톤로.pdf",
+        "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+      },
+      {
+        "label": "1. 30톤 용해로_열교환기(RECUPERATOR).pdf",
+        "url": "/documents/source-store/205c98ed2031945fe4c3787230df805cb8bb086ef7399b7b2a061d2aba186d93.pdf#page=1"
+      },
+      {
+        "label": "2. 30톤 용해로_열교환기 Assey.pdf",
+        "url": "/documents/source-store/144aba866284f75d52e87463760ab953aad03017de3cdb5333f0e206c1aa05bd.pdf#page=1"
+      },
+      {
+        "label": "세진 30톤 PDF (합금,압연 공용).pdf",
+        "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=1"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "(주)세진메탈-30톤 용해로-열교환기.pdf",
+        "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=1"
+      },
+      {
+        "label": "압연30톤로.pdf",
+        "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+      },
+      {
+        "label": "1. 30톤 용해로_열교환기(RECUPERATOR).pdf",
+        "url": "/documents/source-store/205c98ed2031945fe4c3787230df805cb8bb086ef7399b7b2a061d2aba186d93.pdf#page=1"
+      },
+      {
+        "label": "2. 30톤 용해로_열교환기 Assey.pdf",
+        "url": "/documents/source-store/144aba866284f75d52e87463760ab953aad03017de3cdb5333f0e206c1aa05bd.pdf#page=1"
+      },
+      {
+        "label": "세진 30톤 PDF (합금,압연 공용).pdf",
+        "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=1"
+      }
+    ],
+    "repair": [
+      {
+        "label": "(주)세진메탈-30톤 용해로-열교환기.pdf",
+        "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=1"
+      },
+      {
+        "label": "압연30톤로.pdf",
+        "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+      },
+      {
+        "label": "1. 30톤 용해로_열교환기(RECUPERATOR).pdf",
+        "url": "/documents/source-store/205c98ed2031945fe4c3787230df805cb8bb086ef7399b7b2a061d2aba186d93.pdf#page=1"
+      },
+      {
+        "label": "2. 30톤 용해로_열교환기 Assey.pdf",
+        "url": "/documents/source-store/144aba866284f75d52e87463760ab953aad03017de3cdb5333f0e206c1aa05bd.pdf#page=1"
+      },
+      {
+        "label": "세진 30톤 PDF (합금,압연 공용).pdf",
+        "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=1"
+      }
+    ],
+    "completion": [
+      {
+        "label": "(주)세진메탈-30톤 용해로-열교환기.pdf",
+        "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=1"
+      },
+      {
+        "label": "압연30톤로.pdf",
+        "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+      },
+      {
+        "label": "1. 30톤 용해로_열교환기(RECUPERATOR).pdf",
+        "url": "/documents/source-store/205c98ed2031945fe4c3787230df805cb8bb086ef7399b7b2a061d2aba186d93.pdf#page=1"
+      },
+      {
+        "label": "2. 30톤 용해로_열교환기 Assey.pdf",
+        "url": "/documents/source-store/144aba866284f75d52e87463760ab953aad03017de3cdb5333f0e206c1aa05bd.pdf#page=1"
+      },
+      {
+        "label": "세진 30톤 PDF (합금,압연 공용).pdf",
+        "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=1"
+      }
+    ]
+  },
+  "io": [],
+  "hmi": [
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "전용 운전/알람",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "압연30톤로.pdf",
+      "description": "현행 조작반/HMI 정의 미확보; 공용 기계도와 구분",
+      "source": "압연30톤로.pdf · PDF 1쪽",
+      "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [],
+  "drawings": [
+    {
+      "name": "(주)세진메탈-30톤 용해로-열교환기.pdf · 1쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S50d728ef0028519c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 1쪽",
+      "source_id": "S50d728ef0028519c",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=1",
+      "preview": "/documents/source-previews/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b-0001.webp"
+    },
+    {
+      "name": "(주)세진메탈-30톤 용해로-열교환기.pdf · 2쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S50d728ef0028519c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 2쪽",
+      "source_id": "S50d728ef0028519c",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=2",
+      "preview": "/documents/source-previews/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b-0002.webp"
+    },
+    {
+      "name": "(주)세진메탈-30톤 용해로-열교환기.pdf · 3쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S50d728ef0028519c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 3쪽",
+      "source_id": "S50d728ef0028519c",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=3",
+      "preview": "/documents/source-previews/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b-0003.webp"
+    },
+    {
+      "name": "(주)세진메탈-30톤 용해로-열교환기.pdf · 4쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S50d728ef0028519c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 4쪽",
+      "source_id": "S50d728ef0028519c",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=4",
+      "preview": "/documents/source-previews/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b-0004.webp"
+    },
+    {
+      "name": "(주)세진메탈-30톤 용해로-열교환기.pdf · 5쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S50d728ef0028519c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 5쪽",
+      "source_id": "S50d728ef0028519c",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=5",
+      "preview": "/documents/source-previews/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b-0005.webp"
+    },
+    {
+      "name": "(주)세진메탈-30톤 용해로-열교환기.pdf · 6쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S50d728ef0028519c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 6쪽",
+      "source_id": "S50d728ef0028519c",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=6",
+      "preview": "/documents/source-previews/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b-0006.webp"
+    },
+    {
+      "name": "(주)세진메탈-30톤 용해로-열교환기.pdf · 7쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S50d728ef0028519c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 7쪽",
+      "source_id": "S50d728ef0028519c",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=7",
+      "preview": "/documents/source-previews/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b-0007.webp"
+    },
+    {
+      "name": "(주)세진메탈-30톤 용해로-열교환기.pdf · 8쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S50d728ef0028519c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 8쪽",
+      "source_id": "S50d728ef0028519c",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=8",
+      "preview": "/documents/source-previews/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b-0008.webp"
+    },
+    {
+      "name": "(주)세진메탈-30톤 용해로-열교환기.pdf · 9쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S50d728ef0028519c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 9쪽",
+      "source_id": "S50d728ef0028519c",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=9",
+      "preview": "/documents/source-previews/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b-0009.webp"
+    },
+    {
+      "name": "압연30톤로.pdf · 1쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S77304d53ec365658 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "압연30톤로.pdf · PDF 1쪽",
+      "source_id": "S77304d53ec365658",
+      "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1",
+      "preview": "/documents/source-previews/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba-0001.webp"
+    },
+    {
+      "name": "1. 30톤 용해로_열교환기(RECUPERATOR).pdf · 1쪽",
+      "system": "참고자료(적용확인필요)",
+      "kind": "원본 PDF",
+      "version": "원본 S205c98ed2031945f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "1. 30톤 용해로_열교환기(RECUPERATOR).pdf · PDF 1쪽",
+      "source_id": "S205c98ed2031945f",
+      "url": "/documents/source-store/205c98ed2031945fe4c3787230df805cb8bb086ef7399b7b2a061d2aba186d93.pdf#page=1",
+      "preview": "/documents/source-previews/205c98ed2031945fe4c3787230df805cb8bb086ef7399b7b2a061d2aba186d93-0001.webp"
+    },
+    {
+      "name": "2. 30톤 용해로_열교환기 Assey.pdf · 1쪽",
+      "system": "참고자료(적용확인필요)",
+      "kind": "원본 PDF",
+      "version": "원본 S144aba866284f75d / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "2. 30톤 용해로_열교환기 Assey.pdf · PDF 1쪽",
+      "source_id": "S144aba866284f75d",
+      "url": "/documents/source-store/144aba866284f75d52e87463760ab953aad03017de3cdb5333f0e206c1aa05bd.pdf#page=1",
+      "preview": "/documents/source-previews/144aba866284f75d52e87463760ab953aad03017de3cdb5333f0e206c1aa05bd-0001.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 1쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 1쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=1",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0001.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 2쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 2쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=2",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0002.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 3쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 3쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=3",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0003.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 4쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 4쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=4",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0004.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 5쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 5쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=5",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0005.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 6쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 6쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=6",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0006.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 7쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 7쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=7",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0007.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 8쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 8쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=8",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0008.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 9쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 9쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=9",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0009.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 10쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 10쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=10",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0010.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 11쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 11쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=11",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0011.webp"
+    },
+    {
+      "name": "세진 30톤 PDF (합금,압연 공용).pdf · 12쪽",
+      "system": "합금·압연 공용도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sfc45de725e430ba0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 12쪽",
+      "source_id": "Sfc45de725e430ba0",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=12",
+      "preview": "/documents/source-previews/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048-0012.webp"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "원본 알람/보호 확인 범위",
+      "name": "알람·보호·복구 근거",
+      "address": "현행 코드/임계값·정상극성 미확정",
+      "trigger": "연소·송풍·온도·열교환/배기·문짝/장입 기계 구간을 점검 범주로 정리했습니다. 현행 알람 코드·임계값·복구/재점화 조건은 제공 자료만으로 확정하지 않았습니다. 소방 자료를 현재 보호설비 동작 검증으로 표시하지 않습니다.",
+      "reset": "실제 표시·원인·현행 승인 조건을 확인하기 전 임의 우회·강제출력·설정 변경/재기동을 수행하지 않음",
+      "source": "압연30톤로.pdf · PDF 1쪽",
+      "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "가열/온도 이상",
+      "check": "압연 전용 버너·송풍·열교환 자료 적용을 먼저 대조",
+      "source": "압연30톤로.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/77304d53ec3656582f8be6bfa5eb3c0f9c9c2b156922ee068c28926d379f45ba.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "열교환기/배기 문제",
+      "check": "공용/참고 조립도와 현장 유로·장착 모델 구분",
+      "source": "(주)세진메탈-30톤 용해로-열교환기.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/50d728ef0028519c485ccb72aa65d956559fdd4a21298369954b87756a3bf57b.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "문짝·장입·내화물 점검",
+      "check": "공용/다른 버전 기계도를 현재 호기와 대조",
+      "source": "세진 30톤 PDF (합금,압연 공용).pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/fc45de725e430ba0ceb96e16d88b375b4bb067c1310ef3901914690e6f5cc048.pdf#page=1"
+    }
+  ],
+  "checks": [
+    {
+      "title": "압연 전용 PLC/I/O",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "합금30톤과 설비 구분; 전용 현행 할당 미확보",
+      "next": "압연 반번호·CPU·프로그램·최신 전기도면"
+    },
+    {
+      "title": "공용·적용확인필요 자료",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "경로에 적용확인필요로 분류된 자료 다수",
+      "next": "전용/공용 적용 범위 승인 근거"
+    },
+    {
+      "title": "기계 버전",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "문짝 다른 버전·여러 열교환기/과거도",
+      "next": "현재 실물·개조일·제작도 대조"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "evidence": "도면·설명서 범위로 정리",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "evidence": "파일 검토·로컬 문서화만 수행",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "evidence": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "압연 전용 PLC/I/O",
+      "status": "미확정·원문 차이 보존",
+      "source": "합금30톤과 설비 구분; 전용 현행 할당 미확보",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "압연 반번호·CPU·프로그램·최신 전기도면"
+    },
+    {
+      "title": "공용·적용확인필요 자료",
+      "status": "미확정·원문 차이 보존",
+      "source": "경로에 적용확인필요로 분류된 자료 다수",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "전용/공용 적용 범위 승인 근거"
+    },
+    {
+      "title": "기계 버전",
+      "status": "미확정·원문 차이 보존",
+      "source": "문짝 다른 버전·여러 열교환기/과거도",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 실물·개조일·제작도 대조"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "source": "도면·설명서 범위로 정리",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "source": "파일 검토·로컬 문서화만 수행",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "source": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본·압축 자료 보존",
+      "status": "파일검증 완료",
+      "evidence": "폴더 원본 복사 전후 bytes/SHA-256 및 압축 추출 바이트/해시 대조",
+      "source": "/documents/equipment-07/source-manifest.json"
+    },
+    {
+      "title": "문서 검토 범위",
+      "status": "핵심 자료 중심 문서화",
+      "evidence": "(주)세진메탈-30톤 용해로-열교환기.pdf; 압연30톤로.pdf; 1. 30톤 용해로_열교환기(RECUPERATOR).pdf; 2. 30톤 용해로_열교환기 Assey.pdf; 세진 30톤 PDF (합금,압연 공용).pdf / 참고·대량 카탈로그 전체 상세 판독은 아님",
+      "source": "/documents/equipment-07/library.html?source=S77304d53ec365658"
+    },
+    {
+      "title": "현재 PLC·현장 시험",
+      "status": "미수행",
+      "evidence": "프로그램 현행 적용·통전/운전/안전/복구 시험·현장 설정 변경은 수행하지 않음",
+      "source": "사용자 지정 폴더 자료 범위"
+    }
+  ]
+}

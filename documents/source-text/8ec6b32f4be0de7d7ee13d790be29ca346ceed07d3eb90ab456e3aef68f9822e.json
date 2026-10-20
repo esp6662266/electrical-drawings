@@ -1,0 +1,44 @@
+{
+  "sha256": "8ec6b32f4be0de7d7ee13d790be29ca346ceed07d3eb90ab456e3aef68f9822e",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "PLC/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "encrypted": false
+    },
+    {
+      "name": "PLC/50TON 용해로_20251112.xgwx",
+      "bytes": 19440,
+      "compressed_bytes": 19072,
+      "encrypted": false
+    },
+    {
+      "name": "TOUCH/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "encrypted": false
+    },
+    {
+      "name": "TOUCH/50TON 용해로.xpd",
+      "bytes": 3137359,
+      "compressed_bytes": 844021,
+      "encrypted": false
+    },
+    {
+      "name": "전기도면/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "encrypted": false
+    },
+    {
+      "name": "전기도면/세진메탈 50TON 용해로 전기도면.dwg",
+      "bytes": 3833682,
+      "compressed_bytes": 3018028,
+      "encrypted": false
+    }
+  ]
+}

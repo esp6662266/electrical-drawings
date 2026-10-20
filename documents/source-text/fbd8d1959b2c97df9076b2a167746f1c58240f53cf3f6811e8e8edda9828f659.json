@@ -1,0 +1,824 @@
+{
+  "sha256": "fbd8d1959b2c97df9076b2a167746f1c58240f53cf3f6811e8e8edda9828f659",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Steinert GmbH  \nWiddersdorfer Straße 329-331 • D-50933 Köln \nPostfach 45 11 60 • D-50886 Köln \n \nTelephone:  \nSwitchboard +49-(0)221 / 49 84 - 0 \nSpare parts +49-(0)221 / 49 84 - 177 \nService / repairs +49-(0)221 / 49 84 - 132 \nTelefax +49-(0)221 / 49 84 - 102 \nE-mail sales@steinert.de \n www.steinert.de \n \n \n \nOPERATING INSTRUCTIONS (EN) \n \nUnit Non-Ferrous Metal Separator \nType NES 125 220 E 50095 \nManufacturer’s no. 18 0143 180 01 + 18 0143 190 01 +  \n18 0143 200 01  \nJob no. A1180143 \nCustomer Sejin Metal CO., LTD.               \n                                     \n 15, Wonbong-m                       \n Onsan-eup                           \n ROK -            Ulju-gun, Ulsan                \nOrder number                                     \nOrder date 2018-02-06 \nProject name                                \nEnd customer  \n  \n  \n  \n  \nYear of manufacture 2018 \nTRANSLATION OF THE ORIGINAL",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 2,
+      "text": " \n \n \n \n \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 3,
+      "text": "   \n \nContents  \n \n \n \n \n \n \nNon-Ferrous Metal Separator  NES \n \n \n \n \n \n \n \n  \n  \n  \n \n \n  Read Operating Instructions before starting any work! \n   \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 4,
+      "text": " \n \n \n \n \n \n \n \n  \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 5,
+      "text": " \nNon-Ferrous Metal Separator NES \n Contents \n \n \nGB_NES 050 -200 _ E50_ + N ES 050 - 250_ E61_ - 03 oo  \n5 \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03  \n \n1 General .................................................................................... 9 \n1.1  Notes on the present instructions .................................. 9 \n1.2  Explanation of symbols ................................................ 10  \n1.3  Limitation of liability ...................................................... 11  \n1.4  Copyright ...................................................................... 12  \n1.5  Spare parts .................................................................. 12 \n1.6  Warranty conditions ..................................................... 12  \n1.7  Customer service ......................................................... 12  \n2 Safety .................................................................................... 13  \n2.1  Limit values for magnetic field strength for the \nprotection of persons ................................................... 13 \n \n2.2  Responsibility of the owner .......................................... 14  \n2.3  Staff requirements ....................................................... 15  \n2.3.1  Qualification .................................................. 15  \n2.3.2  Unauthorised persons .................................. 16  \n2.3.3  Instruction ..................................................... 16  \n2.4  Intended use ................................................................ 17  \n2.5  Personal protection ...................................................... 18  \n2.6  Particular hazards ........................................................ 19  \n2.7  Safety devices.............................................................. 24  \n2.8  Protection against switching on ................................... 28  \n2.9  Behaviour in case of danger or accident ..................... 29  \n2.10  Environmental protection ............................................. 29  \n2.11  Labelling ....................................................................... 30  \n3 Technical data ...................................................................... 33  \n3.1  General data NES … … E50… ................................... 33  \n3.2  Material feeding (option, please see contract for \ndetail) ........................................................................... 34 \n \n3.3  Operating conditions .................................................... 35  \n3.4  Emissions ..................................................................... 35  \n3.5  Type plate .................................................................... 35  \n3.6  Consumables ............................................................... 36  \n4 Construction and function .................................................. 37  \n4.1  Overview ...................................................................... 37  \n4.2  Brief description ........................................................... 38  \n4.3  Connections ................................................................. 39  \n4.4  Work area .................................................................... 40  \n4.5  Location of emergency stop buttons ............................ 41  \n4.6  Controls ........................................................................ 42  \n4.7  Operating modes ......................................................... 43  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 6,
+      "text": " \nNon-Ferrous Metal Separator NES \n Contents \n \n \nGB_NES 050 -200 _ E50_ + N ES 050 - 250_ E61_ - 03 oo  \n6 \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03  \n \n5 Transport, packaging and storage .....................................44  \n5.1  Safety instructions for transport ...................................45  \n5.2  Symbols on the packaging ...........................................47  \n5.3  Transport inspection.....................................................48  \n5.4  Packaging ....................................................................48  \n5.5  Transport ......................................................................49  \n6 Installation and commissioning .........................................52  \n6.1  Safety ...........................................................................53  \n6.2  Preparations .................................................................55  \n6.3  Connection to the power supply ...................................57  \n6.4  Commissioning .............................................................57  \n6.5  Basic adjustment of the splitter ....................................58  \n6.6  Basic adjustment of magnet pole system ....................59  \n6.7  Inspections ...................................................................59  \n7 Operation ..............................................................................60  \n7.1  Safety ...........................................................................60  \n7.2  Steps required before operation ..................................61  \n7.3  Adjustment of non-ferrous metal separator .................62  \n7.3.1  General .........................................................62  \n7.3.2  Hints on adjustment of the non-ferrous \nmetal separator .............................................64 \n \n7.3.3  Belt speed adjustment ..................................64  \n7.3.4  Setting the pole system speed .....................64  \n7.3.5  Adjusting the splitter .....................................65  \n7.3.6  Eccentric system pole drum adjustment .......68  \n7.3.6.1  Adjusting system NES... E 36... ... 68  \n7.3.6.2  Adjusting systems NES... E 50... \nand NES... E61............................. 68 \n \n7.3.7  Application examples ....................................69  \n7.4  Switching on, switching off, automatic mode and \nmanual mode ...............................................................70 \n \n7.5  Shut down in an emergency ........................................71  \n7.6  Steps to be performed after operation .........................71  \n8 Malfunctions .........................................................................72  \n8.1  Safety ...........................................................................72  \n8.2  Fault indicators .............................................................75  \n8.3  List of mechanical faults ...............................................76  \n8.4  Troubleshooting measures ..........................................77  \n8.5  Start following an eliminated malfunction ....................77  \n8.6  Acknowledging faults ...................................................77  \n8.7  Acknowledging emergency stop ..................................77  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 7,
+      "text": " \nNon-Ferrous Metal Separator NES \n Contents \n \n \nGB_NES 050 -200 _ E50_ + N ES 050 - 250_ E61_ - 03 oo  \n7 \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03  \n \n9 Maintenance ......................................................................... 78  \n9.1  Safety ........................................................................... 78  \n9.2  Cleaning ....................................................................... 80  \n9.3  Maintenance schedule ................................................. 81  \n9.4  Maintenance steps ....................................................... 84  \n9.4.1  Checking conveyor belt and GRP drum \njacket ............................................................ 84 \n \n9.4.2  Checking the fastening of the GRP drum \njacket ............................................................ 84 \n \n9.4.3  Checking the conveyor belt surface ............. 85 \n9.4.4  Checking the conveyor belt cross rib ........... 85 \n9.4.5  Checking lateral ribs and scraper of \nconveyor belt ................................................ 85 \n \n9.4.6  Checking the conveyor belt speed \nsensor/skew sensor/impulse transmitter ...... 86 \n \n9.5  Checking/replacing the conveyor belt .......................... 86  \n9.5.1  General ......................................................... 86  \n9.5.2  Tightening the conveyor belt ........................ 87  \n9.5.3  Replacing the conveyor belt ......................... 88  \n9.5.4  Removing and storing the GRP jacket ......... 91  \n9.6  Lubricating roller bearings ........................................... 94  \n9.7  Lubricating drives ......................................................... 95  \n9.8  Replacing belt steering rollers ..................................... 96  \n9.9  Checking the material discharge ................................. 97  \n9.10  Inspections ................................................................... 98  \n9.11  Screw tightening torques ............................................. 98  \n9.12  Steps after completed maintenance ............................ 99  \n10  Disassembly ....................................................................... 100  \n10.1  Safety ......................................................................... 100  \n10.2  Disassembly ............................................................... 101  \n10.3  Disposal ..................................................................... 102  \n11  Appendix ............................................................................. 103  \n11.1  Dimension sheet ........................................................ 103  \n11.2  Installation plan .......................................................... 105  \n11.3  3-phase motor ............................................................ 107  \n11.4  Gear ........................................................................... 109  \n11.5  Inductive Sensor ........................................................ 111  \n11.6  Operating instructions, controller ............................... 113  \n11.7  Wiring diagrams ......................................................... 115  \n11.8  Spare parts list ........................................................... 117  \n12  Index .................................................................................... 119  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 8,
+      "text": " \nNon-Ferrous Metal Separator NES \n Contents \n \n \nGB_NES 050 -200 _ E50_ + N ES 050 - 250_ E61_ - 03 oo  \n8 \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03  \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 9,
+      "text": " \nNon-Ferrous Metal Separator NES \n General \n \n \n9  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n1 General \n \n1.1 Notes on the present instructions \nThe present instructions are to ensure safe and efficient handling \nof the plant. \nThe instructions are an integral part of the plant; they must be \nstored in the immediate vicinity of the plant and always be \naccessible to the staff. The staff must have carefully read and \nunderstood the instructions before starting any work. Compliance \nwith all safety and work instructions contained in the present \ninstructions is an essential prerequisite for safe working. \nIn addition, local accident prevention regulations and general \nsafety regulations apply to the plant’s area of operation. \nIllustrations in the present instructions illustrate the general \nfunction and can differ from the actual design of the plant. \n \nThe instructions in the Appendix covering third-party components \nshall apply in addition to the present instructions. \n \n   \n \nNOTE! \nIt is the owner’s obligation to store the order \nconfirmation with the complete third-party \ndocumentation along with the present operating \ninstructions in the immediate vicinity of the plant \ncomponent. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 10,
+      "text": " \nNon-Ferrous Metal Separator NES \n General \n \n \n10  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n1.2 Explanation of symbols \n \nSafety notes Symbols indicate safety notes in the present instructions. Signal \nwords preceding the safety notes indicate the extent of the risk. \nIt is vital to adhere to the safety notes and to act cautiously in order \nto prevent accidents, injury to persons and damage to material. \n \n  \n \nDANGER! \n… indicates an immediately dangerous situation \nthat, if not avoided, will cause death or severe \ninjuries.   \n \n \n \nWARNING! \n… indicates a potentially dangerous situation that, if \nnot avoided, can cause death or severe injuries. \n \n \n \n \nCAUTION! \n… indicates a potentially dangerous situation that, if \nnot avoided, can cause minor injuries. \n \n \n \n \nCAUTION! \n… indicates a potentially dangerous situation that, if \nnot avoided, can cause damage to material. \n \n \n \nTips and recommendations \n \n \n \nNOTE! \n… points out useful tips and recommendations as \nwell as information necessary for efficient and \ntrouble free operation. \n   ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 11,
+      "text": " \nNon-Ferrous Metal Separator NES \n General \n \n \n11  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n   \nSpecial safety notes The following symbols are used in the safety notes to point out \nspecial dangers: \n  \n \nDANGER! \nDanger of life due to electrical current! \n… points out life-threatening situations due to \nelectrical current. There is a risk of severe injuries \nor death when safety notes are not heeded. \n   \n \n \n1.3 Limitation of liability \nAll information and notes in the present instructions are based on \nvalid standards and regulations, current state of technology and \nour long-standing experience and expertise. \nThe manufacturer will not assume liability in case of: \n non-adherence to instructions \n improper use \n employment of untrained staff \n unauthorised conversions \n technical modification \n use of unapproved spare parts \nThe actual scope of delivery can differ from the present \ndescriptions and illustrations in case of special variants, when \nadditional options are ordered or because of late-breaking \ntechnical changes. \nThe liabilities agreed in the supply contract, the General Terms and \nConditions and the legal provisions applicable at the time of \nexecution of the agreement shall apply. \n  \nWe reserve the right of technical modification in the context of \nimproving the performance characteristics and further \ndevelopment. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 12,
+      "text": " \nNon-Ferrous Metal Separator NES \n General \n \n \n12  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n1.4 Copyright \nThe present instructions are protected by copyright and exclusively \nintended for internal purposes. \nCession of the instructions to third persons, reproduction in any \nway or format – even partially – and utilisation and/or disclosure of \nthe contents is not permitted, except for internal use, without our \nwritten approval. \nNoncompliance will cause indemnities. We reserve the right to \nclaim additional indemnities. \n \n \n \n1.5 Spare parts \n     \n \nWARNING! \nRisk of injuries due to improper spare parts! \nImproper or defective spare parts can result in \ndamage, malfunction or complete failure and impair \nthe safety. \nTherefore: \n– Use only genuine spare parts offered by the \nmanufacturer. \n \nPurchase spare parts from an authorised dealer or directly from the \nmanufacturer. Address: see cover page. \nThe spare parts list is located in the Appendix. \n \n  \n1.6 Warranty conditions \n \nThe warranty conditions are part of the manufacturer’s General \nTerms and Conditions. \n \n \n \n1.7 Customer service \nContact our customer service when you have technical questions. \nYou can always find out the contact partner responsible for you via \ntelephone, fax, email or internet, see cover page. \nOur employees are also eager to listen to your application-related \ninformation and experience that might prove valuable for improving \nour products. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 13,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n13  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n2 Safety \n \nThis section gives an overview of all safety aspects vital for an \noptimum protection of employees and for safe and trouble-free \noperation. \nFailure to comply with the safety and work instructions contained in \nthe present instructions can result in severe hazards. \n \n \nGrenzwerte für magnetische  \n2.1 Limit values for magnetic field strength for th e protection of persons \nProtection against magnetic fields \n The maximum permitted limit value for persons with an \nimplanted pacemaker  is 1 mT (equal to 10 gauss). \n This value is not exceeded at a distance ≥ 5 m to the strongest \nmagnet. \n With limited exposure time, the maximum permitted value for \npersons without implants is 2 T (20000 gauss). \n The permitted average value for prolonged exposure (approx. 8 h)  \nis 212 mT. \n At a distance of approx. 1 m to a magnet with maxi mum \nmagnetic field intensity and power of 70 kW, the maximum \nmeasured values were less than 100 mT. \n \n \nProtection against rotating magnetic \nfields with a frequency \n≥ 1 Hz to 30 kHz \n The maximum permitted limit value for persons with an  \nimplanted pacemaker  is 0.1 mT (equal to 1 gauss).  \n This value is not exceeded at a distance ≥ 3 m to the strongest \nmagnet.  \n With limited exposure time, the maximum permitted value for \npersons without implants is 0.2 T (2 gauss).  \n This value is not exceeded at a distance ≥ 1.5 m to the \nstrongest magnet. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 14,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n14  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n2.2 Responsibility of the owner \n \nThe plant is used in an industrial environment. The owner therefore \nis subject to the legal duties of occupational safety.  \nIn addition to the safety notes contained in the present instructions, \nyou must heed the safety, accident prevention and environment \nprotection regulations. In particular: \n The owner must inform himself of applicable indust rial safety \nregulations and must identify additional hazards resulting from \nthe special work conditions in force at the plant site in a risk \nassessment. He must convert such findings into work \ninstructions for operation of the plant. \n The owner must verify whether or not the instructi ons he \ncompiled comply with the current state of rules and standards \nand amend the instructions if necessary throughout the entire \nservice life of the plant. \n The owner must clearly define and assign the respo nsibilities \nfor installation, operation, maintenance and cleaning. \n The owner must make sure all employees handling th e plant \nhave read and understood the operating instructions. \nHe must also train the staff at regular intervals and instruct \nthem with regard to the hazards. \n The owner must provide the required personal prote ction. \nThe owner is also responsible for a technically perfect condition of \nthe plant at all times; the following therefore applies: \n The owner must make sure the maintenance intervals  \nmentioned in the present operating instructions are heeded. \n The owner must have all safety devices tested for proper \nfunction and completeness at regular intervals. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 15,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n15  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n2.3 Staff requirements \n \n2.3.1 Qualification \n  \n \nWARNING! \nRisk of injury due to insufficient qualification! \nInexpert handling can result in severe injuries and \ndamage to material. \nTherefore: \n– Assign all work to qualified staff only. \n \nThe operating instructions define the following qualifications for the \nvarious areas of operation: \n \nOnly persons who may be expected to work reliably m ust be \nemployed. Persons whose ability to respond is impai red, e.g. by \nnarcotics, alcohol or drugs, are not allowed to work. \n Observe the locally applicable regulations regardi ng age and \njob-related issues when choosing staff. \n \n Instructed person  \nwas instructed by the owner with regard to the tasks assigned \nto him and of potential hazards in case of inexpert behaviour. \n Specialist staff  \nis capable of performing the tasks assigned to him, recognising \nand avoiding potential hazards due to his training, knowledge, \nexperience and knowledge of commonly applicable regulations. \n  \n Authorised electrician  \nis capable of performing work on electrical systems, recognising \nand avoiding potential hazards due to his training, knowledge, \nexperience and familiarity with commonly applicable standards \nand regulations. \nThe authorised electrician has been trained with regard to the \nparticular site is working on and is familiar with relevant \nstandards and regulations.  \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 16,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n16  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n2.3.2 Unauthorised persons \n \n \nWARNING! \nDanger to unauthorised persons! \nUnauthorised persons not meeting the \nrequirements mentioned here are not familiar with \nthe hazards posed by the work area. \nTherefore: \n– Keep unauthorised persons away from the work \narea. \n– If in doubt, address persons and ban them from \nthe work area. \n– Stop operation as long as unauthorised persons \nare in the work area. \n  \n \n \n2.3.3 Instruction \nThe owner must instruct the staff at regular intervals. For better \ntraceability, the implementation of instructions must be \ndocumented. \n \nDate Name Type of instruction Instruction given \nby \nSignature \n     \n     \n     \n  \nFig. 1 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 17,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n17  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n2.4 Intended use \nThe plant has been exclusively designed and built for the intended \nuse described here. \n   \nThe plant is exclusively intended for grading bulk goods. For the \nproperties of the bulk goods please refer to the order \nconfirmation. \n \n \n \n \nWARNING!  \nBeware of unintended use! \nDangerous situations may arise when the plant is \nnot operated as intended or is used for other \npurposes. \nTherefore: \n– Operate the plant as intended only. \n– Strictly adhere to all information given in the \npresent operating instructions. \n– The maximum specified pole system speed \nmust not be exceeded (see chapter \"Setting the \npole system speed\"). \n– In particular, do not use the plant for the \nfollowing, unintended purposes: \n– Transportation of persons \n– Walking on the conveyor \n– Material storage \n– Feed of material with incorrect or too large \ngrading \n– Excess of the maximum permissible mass \nflow/flow rate \n– Feed of sticky, liquid and highly flammable \nsubstances \n– Iron separation \n \n \nClaims for damages of any kind resulting from unintended use are \nexcluded. \nThe owner is solely responsible for all damage resulting from \nunintended use. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 18,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n18  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n2.5 Personal protection \nTo minimise the health hazard, the use of personal protection is \nmandatory. \n Make sure to always wear the protective equipment required for \nthe respective task.  \n Heed the instructions regarding personal protectio n on display \nin the work area. \n \nWear always Make sure to always wear: \n  \n \nProtective clothing \nis closely fitting work clothing with low tensile strength, narrow \nsleeves and without protruding parts. Its main purpose is to prevent \nbeing caught by moving machine parts.  \nDo not wear rings, chains or other jewellery. \n  \n \nSafety shoes \nprotect against heavy falling objects and slipping on slippery floors. \n  \n \nGoggles \nprotect the eyes against flying debris and splashing liquids. \n  \n \nHearing protection \nprotects against hearing damage. \n  \n \nProtective gloves \nprotect the hands against friction, abrasion, penetration or deeper \ninjuries and contact with hot surfaces. \n  \n \nBreathing protection \nprotects against hazardous dusts. \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 19,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n19  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nWear for particular work Special protective equipment is required when performing \nparticular work. Reference to such equipment is made in separate \nchapters of the present instructions. Such special protective \nequipment is explained below: \n  \n \nHard hat  \nprotects against falling and flying objects and material. \n  \n \nSafety harness \nprotects against dropping in case of increased risk of dropping. \nSuch a risk is given when certain height differences have been \nexceeded and when the work place is not secured with a railing.  \nPut on the safety harness so that the safety rope connects to the \nsafety harness and a fixed attachment point, use a drop damper if \nnecessary. \nSafety harnesses must be worn by specially trained persons only. \n  \n \n \n2.6 Particular hazards \nThe following section describes residual risks determined as a \nresult of a risk assessment. \n Heed the safety notes mentioned here and the warni ngs in the \nfollowing chapters of the present instructions in order to lower \nhealth risks and prevent dangerous situations. \n \n \n \nMagnetic radiation \n \n \nDANGER! \nDanger of life due to magnetic radiation! \nFor persons with implanted pacemaker and \nmetallic implants there is a risk of severe bodily \ninjury or even death in a radiation area. \nTherefore: \n– Make sure there are no persons with implanted \npacemaker in the direct and indirect hazard \narea. \n– Make sure there are no persons with metallic \nimplants in the direct and indirect hazard area.  \n  \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 20,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n20  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nElectrical power \n \n \nDANGER! \nDanger of life due to electrical power! \nThere is an immediate danger to life when touching \nlive wires. Damage to insulation or individual parts \ncan pose a hazard to life. \nTherefore: \n– When insulation damage is found, interrupt the \npower supply and have insulation repaired \nimmediately. \n– Assign work on the electric system to trained \nelectricians only. \n– Deenergise the electrical system and test it for \nabsence of voltage before performing any work. \n– Switch off the power supply and secure it \nagainst switching on prior to maintenance, \ncleaning and repair work. \n– Do not bypass or disable fuses. Heed the \ncorrect current rating when replacing fuses. \n– Keep moisture away from live parts because it \ncan cause short circuits. \n     \n \n \nNoise \n \n \nWARNING!  \nHearing loss due to noise! \nThe noise level present in the work area can cause \nsevere hearing loss. \nTherefore: \n– Always wear hearing protection during work. \n– Restrict your stay in the danger area as far as \npossible. \n   \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 21,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n21  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nHighly flammable substances \n \n \nWARNING!  \nRisk of fire due to highly flammable \nsubstances! \nHighly flammable substances, liquids or gases can \ncatch fire and cause severe or even fatal injuries. \nTherefore: \n– Do not smoke in the danger area and its closer \nenvironment. Do not handle open fires or \nignition sources. \n– Have fire extinguishers at hand. \n– Report suspicious substances, liquids or gases \nto the supervisor immediately. \n– Interrupt work immediately in case of a fire. \nLeave the danger area until all-clear has been \ngiven. \n   \n \n \nExplosive dusts \n \n \nWARNING!  \nRisk of explosion due to dust! \nDust deposits can be raised and form an explosive \nmixture with ambient air. \nTherefore: \n– Smoking, handling open fires and/or ignition \nsources of all kinds is strictly forbidden in the \narea around the plant and in the hall. \n– Keep the danger area free of dust. \n– Interrupt work immediately if excessive dust \nformation occurs. Wait until the dust has settled \nand then remove the dust layer. \n   \n \n \nNoxious dusts \n \n \nWARNING! \nHealth risk due to dust! \nIn the long term, inhaled dusts can result in lung \ndamage and other health impairments. \nTherefore: \n– Always wear breathing protection during work. \n    \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 22,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n22  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nMoving parts \n \n \nWARNING!  \nRisk of injury due to moving parts! \nRotating and/or linear moving parts can cause \nsevere injuries. \nTherefore: \n– Do not reach into/do not handle moving parts \nduring operation. \n– Do not open covers during operation. \n– Observe rundown time: \nverify that all parts have stopped before you \nopen covers. \n– Wear closely fitting protective clothing in the \ndanger area. \n   \n \n \nVibrations \n \n \nWARNING!  \nLong term injuries due to strong vibrations! \nStrong vibrations can result in long term health \nimpairments. \nVibration dampers isolate the vibration source from \nthe environment. \nTherefore: \n– do not disable the vibration dampers. \n– Stay out of the vibrating area during operation. \n   \n \n \nFalling material \n \n \nWARNING!  \nRisk of injury due to falling material! \nMaterial falling down or being expelled during \noperation can cause severe injuries. \nTherefore: \n– Do not enter the danger areas while the \nautomatic mode is in force. \n– Enter the danger area (e.g. during set-up) with \nhard hat, safety shoes and protective clothing \nonly.  \n   \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 23,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n23  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nHot consumables \n \n \nWARNING!  \nRisk of burns due to hot consumables! \nConsumables can reach high temperatures during \noperation, and contact with them can cause burns. \nTherefore: \n– Check whether consumables are hot before \nhandling them. Let them cool down if \nnecessary. \n \n \n \nDirt and scattered objects \n \n \nCAUTION!  \nRisk of stumbling due to dirt and scattered \nobjects! \nDirt and scattered objects represent slipping and \nstumbling hazards and can result in severe injuries. \nTherefore: \n– Keep the work area tidy at all times. \n– Remove objects no longer required. \n– Mark off obstacles with yellow-black marker \ntape. \n      \n \n \nSharp edges and pointed corners \n \n \nCAUTION!  \nRisk of injury on edges and corners! \nSharp edges and pointed corners can cause \nchafing of the skin and cuts. \nTherefore: \n– Take particular care when performing work next \nto sharp edges and pointed corners. \n– Wear protective gloves if you are unsure. \n   \n \n \nHot surfaces \n \n \nCAUTION!  \nRisk of burns due to hot surfaces! \nContact with hot components can cause burns. \nTherefore: \n– Always wear protective work clothing and safety \ngloves when carrying out any work near hot \ncomponents. \n– Before performing any work, ensure that all \ncomponents have cooled to ambient \ntemperature. \n   \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 24,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n24  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n2.7 Safety devices \n \n \nWARNING!  \nRisk of life due to non-functioning safety \ndevices! \nOnly properly functioning safety devices ensure \nsafety. \nTherefore: \n– Check whether the safety devices are \nfunctioning and correctly installed before \nstarting work. \n– Never disable safety devices. \n– Make sure all safety devices such as \nemergency stop buttons, grab wires etc. are \naccessible at all times. \n \n \n \n \nNOTE! \nFor more information on the position of the safety \ndevices see chapter “Construction and function”. \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 25,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n25  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nThe following safety devices are installed: \n \n \nIll. 2 \nEmergency stop button \nPressing the emergency stop button triggers an emergency stop. \nOnce you have pressed the emergency stop button you must \nunlock it by turning/pulling to be able to switch on again.  \n \n \nWARNING!  \nRisk of life due to unauthorised switching on! \nUncontrolled switching on can result in severe \ninjuries or even death! \nTherefore: \n– Make sure before switching on that the reason \nfor the emergency stop has been eliminated, all \nsafety devices are fitted and functioning. \n– Unlock the emergency stop button only when \nthere is no danger any more. \n  \n \n  \n \nIll. 3 \nMaster switch \nThe master switch does not feature emergency stop functions. \nTurn the master switch to “0” to positively interrupt the power \nsupply. \n \n \nWARNING!  \nRisk of life due to unauthorised switching on! \nUncontrolled switching on can result in severe \ninjuries or even death! \nTherefore: \n– Make sure before switching on that the reason \nfor the emergency stop has been eliminated, all \nsafety devices are fitted and functioning. \n   \n \n \n \n1\n0",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 26,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n26  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n1\n0\n \nIll. 4 \nSecuring the master switch \nWhen set to “0”, the master switch can be secured against \nswitching on with a padlock.  \n \n \nDANGER! \nRisk of life due to unauthorised switching on! \nThere can be persons in the danger area when the \nmaster switch is secured with a padlock. Switching \non can result in life-threatening injuries to these \npersons. \nTherefore: \n– Never remove the padlock without being \nauthorised. \n– Make sure before removing the padlock that no \npersons are left in the danger area. \n     \n \n \n \nIll. 5: Inductive sensor \nInductive sensor \nThe sensor mounted at the conveyor belt of the plant monitors the \nspeed and skewing of the belt. \nA malfunction or bypassing of the sensor triggers a message to the \ncontroller. \n1 Inductive speed sensor \n2 Impulse transmitter \n \n   \n \n \n Inspection hatches \nThere are inspection hatches on closed housing sections that you \ncan use to reach difficult to access components during \nmaintenance and repair.  \nOpen inspection hatches only when the plant is at a standstill and \nthe power supply has been switched off and padlocked. \nTools are required to open inspection hatches. Close the \ninspection hatches and return all fasteners after completion of \nwork. \n  \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 27,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n27  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nThe owner must retrofit the following safety devices : \n \nIntegration in an emergency stop \nsystem required \nThe machine is intended for operation within a system. The latter \nhas a controller of its own and an autonomous emergency stop \nfunction. \nInstall emergency stop devices for the machine and integrate them \nin the plant controller’s safety chain before commissioning the \ndevice. \n  \nConnect the emergency stop devices so that interrupting or re-\nestablishing the power supply will not cause hazardous situations \nfor persons and material assets. \nThe emergency stop devices must be accessible at all times. \n \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 28,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n28  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n2.8 Protection against switching on \n \n \n \n \nDANGER! \nRisk of life due to unauthorised switching on! \nWhen working in the danger area, there is a risk \nthat an unauthorized person switches on the \nenergy supply. This represents a potentially fatal \nhazard for persons working in the danger area. \nTherefore: \n– Observe the instructions regarding protection \nagainst unauthorized switching on in the \nchapters of the present operating instructions. \n– Always observe the procedure described below \nto secure against unauthorised switching on. \n \n \n \nSwitch safeguarded by lock \non: ……..          at …...  \nDO NOT SWITCH ON \nThe lock may only be removed \nby: ………………… \nonce steps have been taken to ensure \nthat no persons are present in the \ndanger area.  \n \nIll. 6 \nProtection against switching on:  \n1. Switch off the power supply. \n2. If possible, secure the switch with a lock and att ach a sign \nacc. to Ill. 6 in an easily visible location at the switch. \n3. Have the key looked after by the employee named on  the \nsign. \n \nSwitched off \non: ……..          at …...  \nDO NOT SWITCH ON \nSwitching on is only allowed \nto: ………………… \nonce steps have been taken to ensure \nthat no persons are present in the \ndanger area.  \nIll. 7 \n4. Where it is not possible to secure a switch using a lock, set up \na sign acc. to Ill. 7. \n5. Once all the work has been carried out, make sure no persons \nare left in the danger area. \n6. Ensure that all safety devices are installed and a re fully \nfunctional. \n7. Remove the sign only then. \n  \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 29,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n29  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n2.9 Behaviour in case of danger or accident \n \nPreventive measures  Always be prepared for accidents and for fires! \n Have first aid equipment (first aid kit, blankets etc.) and a fire \nextinguisher at hand. \n Familiarise staff with accident alarm, first aid a nd rescue \nfacilities. \n Keep access paths for emergency vehicles clear. \n \n \n \nMeasures in case of accidents  Immediately trigger emergency stop. \n Initiate first aid measures.  \n Evacuate any persons from the danger area. \n Inform the person responsible on site. \n Alarm the rescue service. \n Clear access paths for emergency vehicles. \n  \n \n \n2.10 Environmental protection \n \n \nCAUTION! \nEnvironmental hazard due to inexpert handling! \nInexpert handling of substances harmful to the \nenvironment, in particular inexpert disposal, can \nresult in considerable environmental damage. \nTherefore: \n– Make sure to always heed the instructions \nbelow. \n– Take suitable measures immediately if \nsubstances harmful to the environment are \nreleased inadvertently. If in doubt, inform the \nresponsible local authorities of the damage. \n \n \nThe following substances harmful to the environment are being \nused: \n \n \nLubricants \n \nLubricants such as grease and oil contain noxious substances. \nThey must not reach the environment. Disposal must be performed \nby a waste management company. \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 30,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n30  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n2.11 Labelling \nThere are following symbols and information signs in the work \narea. They refer to the immediate vicinity of the place where they \nare affixed. \n \n \nWARNING!  \nRisk of injury due to unreadable symbols! \nDecals and signs can become soiled or unreadable \ndue to other circumstances in the course of time. \nTherefore: \n– Keep all safety, warning and operating notes in \na clearly legible condition at all times. \n– Replace damaged signs or decals immediately. \n  \n \n \n \n \nHeed the operating instructions \nUse the identified object only when you have read the operating \ninstructions. \n  \n \n \n \n \nNo access for unauthorised persons \nOnly persons authorised by the owner may enter the danger area. \n  \n \n \n \n \nFall hazard \nBe careful when entering a danger zone. \nPut on the safety harness or appropriate protective clothing if \nnecessary. \n  \n \n \n \n \nElectrical power \nOnly trained electricians are allowed to work in rooms marked with \nthis sign. \nUnauthorised persons are not allowed to enter work stations or \nopen switch cabinets identified accordingly. \n  \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 31,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n31  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n \nHot surface \nHot surfaces such as hot machine parts, containers or materials \nbut also hot surfaces are not always identifiable. Do not touch \nthese without protective gloves. \n  \n \n \n \n \nFalling objects \nWork in areas identified by this symbol must be performed under \nan overhead guard or safety scaffold only. This does not exempt \nfrom the obligation to wear a hard hat. \nAvoid a stay in the area identified by this symbol. \nObjects can fall down during operation, in particular when the \npower supply fails. \n   \n \n \n \n \nMagnetic field \nMagnetic fields as such are not dangerous to persons but strong \nmagnetic fields can erase audio and data tapes, data memories \nand magnet strips on bank and identification cards. \nEddy currents resulting from alternating magnetic fields can heat \nup metallic objects considerably. This also applies to jewellery \nsuch as rings or watches. \nKeep metallic objects away from areas marked with this symbol. \n  \n \n \n \n \nNo persons with pacemakers \nStrong electromagnetic or magnetic fields in the area around this \nsign must be expected to interfere with pacemakers or render them \ninoperable. \nPersons wearing a pacemaker must not come near a machine \nbearing this safety sign.  \n  \n \n \n \n \nNo persons with metallic implants \nMetallic implants may be expected to heat up and injure the bearer \nwhen subjected to strong magnetic and electromagnetic fields. \nBearers of metallic implants must stay away from the area marked \nwith the above safety sign. \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 32,
+      "text": " \nNon-Ferrous Metal Separator NES \n Safety \n \n \n32  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n \nHearing protection \nprotects against hearing damage. \n  \n \n \n \n \nCentre of gravity \nmarks the centre of gravity of a packing piece. \nHeed the centre of gravity when lifting and transporting. \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 33,
+      "text": " \nNon-Ferrous Metal Separator NES \n Technical data \n \n \n33  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n3 Technical data \n \n3.1 General data NES … … E50… \n   \nNon ferrous metal separator \n \n \nNOTE! \nThe table below indicates values of series models; \nfor data of custom models see the order and/or \ndimension sheet in the Appendix. \n \n \n NES 50... \n140 E 50... \nNES 75... \n140 E 50... \nNES 100... \n220 E 50... \nNES 125... \n220 E 50... \nNES 150... \n220 E 50... \nNES 200... \n220 E 50... \nConveyor belt speed  m/s  1.0 to 2.5  \nMax. permissible bearing \ncapacity  kg  see purchase agreement  \nMax. permissible mass \nflow/flow rate  kg  see purchase agreement  \nPower draw of conveyor  \ndrive motor  kW  2.2 3.0 \nProtection class of conveyor \ndrive motor  IP 55  \nPower draw of pole system \ndrive motor  kW  4.0 5.5 \nProtection class of pole \nsystem drive motor  IP 55  \nPole system  fixed field frequency, swivelling  \nGrain size  mm  4 to 100  \nMaterial feed width  mm  450 700 950 1200 1450 1950 \nPermissible ambient \ntemperature  -10 °C to +35 °C  \nTotal weight  kg  1320 1760 2000 2250 2500 3100 \nDimensions  see dimension sheet  \n    M ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 34,
+      "text": " \nNon-Ferrous Metal Separator NES \n Technical data \n \n \n34  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n3.2 Material feeding (option, please see contract f or detail) \n \nATTENTION!  The customer is responsible for material feed. \n \n \nNOTE! \nIn order to reach the most effective FM and NFM \ndischarge in case that the material feeding is carried \nout by the customer , please note the following: \n- Consider a adequate drop height \n- Because eddy current separators are working in \nthe principle of the “single particle separation” it \nis necessary, that in the previous process stage \na “single-particle-stage” is included. \n- It is necessary to assure a dispersal of the material \non the complete working width of the specific \ncustomer material feeding equipment. \n- Furthermore no heaps, material over coverings or \nagglutinations on the conveyor belt are allowed.  \n \nPlease take care during any installation work of the material \nfeeding device. \nDo respect observe and follow the work security, safety, and \nenvironmental regulations.  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 35,
+      "text": " \nNon-Ferrous Metal Separator NES \n Technical data \n \n \n35  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n3.3 Operating conditions \n   \nEnvironment \n  \nSpecification Value  Unit \nTemperature range -10 to +35  °C \nMax. relative humidity 60  % \n  \n \nDuration \n  \nSpecification Value  Unit \nMaximum continuous operating \ntime \n24  hours \n   \n \n \n \n \n3.4 Emissions \n \nSpecification Value  Unit \nNoise emission while idling > 85 dB(A) \n \n*Depending on the goods to convey, a higher noise level can be \nreached. \n = Take suitable hearing protection measures. \n \n \n \n3.5 Type plate \n  \n \n \n \n \n \n \n \n \nIll. 8: Type plate  \nThe type plate is located on the base chassis and comprises the \nfollowing data: \n Manufacturer with address \n Type \n Year of manufacture \n Order number \n Serial number \n Supply voltage \n Weight \n \n \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 36,
+      "text": " \nNon-Ferrous Metal Separator NES \n Technical data \n \n \n36  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n3.6  Consumables \nLubrication \npoint Consumable Typ Filling quantity Unit \nTension bearing  \nPHUSE 50-N \nHigh performance \ngrease DIN 51825 \nSKF LGHP 2 \n- relubrication: \n- relubrication: approx.  \nper bearing  \n5 \n15  \ncm 3 \nPole drum \nDeep grove ball \nbearing  \nSKF LGHP 2 \n- relubrication: \n- relubrication: approx. \nper bearing  \n20 \n400 \nPole system  \nSelf aligning \nroller bearing  \nSKF LGHP 2 \n- relubrication: \n- relubrication: approx. \nper bearing  \n5 \n20 \nGear motor \nSEW  \nSynthetic oil  \nCLP (HC) VG 460  \n(for ambient \ntemperatures of \n-20°C to +60°C)  \nKlübersynth. GEM 4-460 N  \nDetails see  \nthird party documentation  \nin the Appendix  \nMobil SHC 634 \nShell Omala S4 GX 460 \nRoller bearings \nof drive motor \n \n(the bearings are \n2Z or 2RS \nclosed bearings \nand cannot be re-\nlubricated)  \nMineral-based  \nroller bearing grease \nEsso Polyrex EM \n(for ambient temperatures of \n-20 °C bis +80 °C) \nDetails see  \nthird party documentation  \nin the Appendix  Synthetic-based  \nroller bearing grease \nKlüber Barrierta L55/2  \n(for ambient temperatures of \n+20°C to +100 C) \nKyodo Yushi Multemp SRL \n(for ambient temperatures to \n-40°C to +60°C) \nRoller bearings \nof transmission \n(SEW recommends \nre-greasing roller \nbearings with a \ngrease fill at the \nsame time as \nchanging the oil)  \nRoller bearing grease \nFuchs Renolit CX TOM 15 \n(for ambient temperatures of \n-40°C to +80°C) Details see  \nthird party documentation  \nin the Appendix  Klüber Petamo GHY 133 \n(for ambient temperatures to \n-40°C to +80°C) N \n     \n \n     ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 37,
+      "text": " \nNon-Ferrous Metal Separator NES \n Construction and function \n \n \n37  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n4 Construction and function \n \n4.1 Overview \n  \n \nIll. 9: General view: configuration example with ZOR (1) \n \n1 Material feed (option - see purchase agreement) \n2 Conveyor \n3 Material discharge AL_ \n4 Material discharge/splitter \n5 Pole drum drive \n \n  \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 38,
+      "text": " \nNon-Ferrous Metal Separator NES \n Construction and function \n \n \n38  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n4.2 Brief description \n  \nThe non-ferrous metal separator functions according to the eddy \ncurrent principle. It is distinguished by its adjustable, eccentric \nmagnet pole system.  \nThe non-ferrous metal separator comprises a rapidly rotating \npermanent magnet pole system. The fast alternating frequency of \nthe magnetic field causes strong eddy currents in the non-ferrous \nmetal parts which, in turn, create magnetic fields with a repulsing \neffect to the external magnetic fields. The non-ferrous parts are \nrepulsed and ejected from the remaining material flow.  \n \n \nThe non-ferrous metal separator can be equipped with the \nfollowing options: vibration monitor, skewing switch on the \nconveyor belt, fast-acting brakes (electric/mechanic) and/or \nelectronic frequency converters for pole system and conveyor belt \nspeed. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 39,
+      "text": " \nNon-Ferrous Metal Separator NES \n Construction and function \n \n \n39  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n4.3 Connections \n \n \nIll. 10: Switch cabinet (example) \n The owner supplies power to the plant. The main po wer input is \nlocated in the external switch cabinet from where it is distributed \namong the components and drives. \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 40,
+      "text": " \nNon-Ferrous Metal Separator NES \n Construction and function \n \n \n40  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n4.4 Work area \n \n  \n \nIll. 11: Switch cabinet (example) \nThe owner operates the plant via a control station. For \nmaintenance and set-up, the external switch cabinet (1) is \nequipped with a touch screen (2) where the specialist has access \nto several functions with which he directly controls the plant in the \nmanual and automatic mode. The switch cabinet also features an \nemergency stop button (3) and the master switch (4). \n \n \nNOTE! \nThe switch cabinet optionally features a modem for \nremote maintenance that allows the manufacturer \naccess to the controller for maintenance and repair. \n \n \nIll. 12: Conveyor belt \nThe operator must visually check the conveyor belt (arrow) for \ncanted objects. \n \n  \n \nWARNING! \nRisk of injury when reaching into the conveyor \ntrough! \nUncontrolled and careless reaching into the \nrunning conveyor trough will result in severe \ninjuries. \nTherefore: \n– Do not reach into the running conveyor trough. \n– Always wear long-sleeved protective clothing \nand gloves. \n   \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 41,
+      "text": " \nNon-Ferrous Metal Separator NES \n Construction and function \n \n \n41  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n4.5 Location of emergency stop buttons \n  \n \nIll. 13: Emergency stop button (example) \n The emergency stop button (1) is located on the do or of the \nswitch cabinet. \nThe owner must install additional emergency stop buttons near the \nplant and/or at the remote control station. \n     \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 42,
+      "text": " \nNon-Ferrous Metal Separator NES \n Construction and function \n \n \n42  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n4.6 Controls \n  \n \nIll. 14: Switch cabinet overview (example) \n \nItem Designation Function \n1 Touch screen, Professional variant Display and operation panel \n2 Emergency stop button Immediately deenergises all plant components \n3 Master switch Switches off all plant components \n \n \n \n \nNOTE! \nThe present example shows the Professional \nvariant of the controller. For additional information \nand notes on operation for the entire controller see \n“Controller” in the Appendix. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 43,
+      "text": " \nNon-Ferrous Metal Separator NES \n Construction and function \n \n \n43  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n4.7 Operating modes \n \n \n \n \nAutomatic mode \n \nThe plant can be run in two different modes. \n \n The automatic mode is designed for continuous oper ation. Each \nof the drives starts separately during the start-up sequence. \nAfter this, production is released. \n Production stops, and then each of the drives swit ches off in \nsuccession while the stop sequence of the plant is running. \n \nActivation of the automatic mode is described in the “Controller” \ndocumentation in the Appendix.  \n  \n \n \n \nManual mode \n- only possible with the Professional \ncontroller variant  \n \n The manual mode is intended as partial operation. Pressing the \nappropriate button starts and stops individual actuators. The \nmanual mode is suited for maintenance/set-up of the plant only. \n \nActivation of the manual mode is described in the “Controller” \ndocumentation in the Appendix. \n \n \n \n \nNOTE! \nProduction is not possible in the manual mode! \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 44,
+      "text": " \nNon-Ferrous Metal Separator NES \n Transport, packaging and storage \n \n \n44  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n5 Transport, packaging and storage \n \n \nNOTE! \nInstallation and commissioning is performed by \nqualified employees of the owner or by persons \nauthorised by him and instructed by the \nmanufacturer. Make sure to heed the notes below. \n \n \n \nMagnetic radiation \n \n \nDANGER! \nDanger of life due to magnetic radiation! \nFor persons with implanted pacemaker and \nmetallic implants there is a risk of severe bodily \ninjury or even death in a radiation area. \nTherefore: \n– Make sure there are no persons with implanted \npacemaker in the direct and indirect hazard \narea. \n– Make sure there are no persons with metallic \nimplants in the direct and indirect hazard area.  \n  \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 45,
+      "text": " \nNon-Ferrous Metal Separator NES \n Transport, packaging and storage \n \n \n45  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n5.1 Safety instructions for transport \n      \nSuspended loads \n \n \nWARNING! \nRisk of life due to suspended loads! \nLifting of loads represents a risk of life due to falling \nobjects or objects swinging about in an \nuncontrolled manner. \nTherefore: \n– Never step under suspended loads. \n– Heed the information regarding the provided \nlashing points. \n– Do not sling to protruding machine parts or eyes \nof mounted components. Make sure the sling \ngear is securely seated. \n– Use approved hoist gear and sling gear with \nsufficient capacity only. \n– Do not use ropes or belts with cracks or wear \nsigns.  \n– Do not put ropes and belts around sharp edges \nand corners, do not kink or twist them.  \n   \n \n \nCentre of gravity outside the \nobject’s centre \n \n \nWARNING! \nRisk of dropping due to centre of gravity \noutside the object’s centre! \nThe centre of gravity of packing pieces can be \noutside the object’s geometrical centre. When \nslung incorrectly, such packing pieces can tilt over \nand cause life-threatening injuries. \nTherefore: \n– Heed the marking of the packing pieces. \n– Sling the crane hook such that it is above the \ncentre of gravity. \n– Lift carefully and watch whether or not the load \nis tilting. If necessary, sling to a different point. \n   \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 46,
+      "text": " \nNon-Ferrous Metal Separator NES \n Transport, packaging and storage \n \n \n46  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nInexpert transport \n \n \nCAUTION! \nDamage due to inexpert transport! \nInexpert transport can result in a considerable \ndamage to material. \nTherefore: \n– When unloading packaging pieces on delivery, \nand when transporting within the premises, take \nextreme care and observe the symbols and \ninstructions on the packaging. \n– Only use the provided lashing points. \n– Remove the packaging only shortly before \ninstallation. \n– When transporting within the premises, do not \nuse a lift truck to transport plant components not \nmounted on pallets. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 47,
+      "text": " \nNon-Ferrous Metal Separator NES \n Transport, packaging and storage \n \n \n47  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n5.2 Symbols on the packaging \n \n \nTop \nThe arrows of this symbol point towards the top of the packing \npiece. They must always point upwards in order to prevent damage \nto the contents. \n  \n \nKeep dry \nProtect packing pieces against water and keep them dry. \n  \n \nSling here \nFasten sling gear (chain, belt) to the points identified by this \nsymbol only. \n  \n \nCentre of gravity \nMarks the centre of gravity of the packing piece. \nHeed the centre of gravity when lifting and transporting. \n  \n \nWeight of slung load \nIndicates the weight of packing pieces.  \nHandle the packing piece marked with this symbol according to its \nweight. \n  \n \nNo fork lift \nDo not transport the packing piece with a fork lift since this will \ndamage the packing piece. \n \n \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 48,
+      "text": " \nNon-Ferrous Metal Separator NES \n Transport, packaging and storage \n \n \n48  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n5.3 Transport inspection \n \nCheck the delivery for completeness and transport damage without \ndelay upon receipt. \nProceed as follows in case of externally recognizable transport \ndamage: \n Do not accept the delivery or accept it under rese rve only. \n Note the extent of the damage on the transport doc uments or \non the shipping agent’s delivery note.  \n Initiate a complaint. \n \n \nNOTE! \nReport every defect as soon as it is detected. \nClaims for damages can only be asserted within \nthe applicable deadlines for the filing of complaints. \n  \n \n \n5.4 Packaging \n \nOn packaging Each of the packing pieces has been packed in accordance with \nthe transport conditions to be expected. The packaging is \nexclusively made of environmentally compatible material.  \nThe packaging is to protect the individual components from \ntransport damage, corrosion and other damage until they are \nassembled. For this reason, do not destroy the packaging and only \nremove it shortly before assembly. \n  \n \n \nHandling packaging materials Dispose of packaging material in line with applicable law and local \nregulations. \n \n \nCAUTION! \nEnvironmental damage due to incorrect \ndisposal! \nPackaging materials are valuable raw materials \nand in many cases can be reused or usefully \nprocessed and recycled. \nTherefore: \n– Ensure environmentally responsible disposal of \npackaging materials. \n– Observe locally applicable disposal regulations. \nAssign disposal to a specialist company if \nnecessary. \n     \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 49,
+      "text": " \nNon-Ferrous Metal Separator NES \n Transport, packaging and storage \n \n \n49  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n5.5 Transport \n  \nInexpert transport \n \n \nCAUTION! \nDamage due to inexpert transport! \nInexpert transport can result in a considerable \ndamage to material. \nTherefore: \n– When unloading packaging pieces on delivery, \nand when transporting within the premises, take \nextreme care and observe the symbols and \ninstructions on the packaging. \n– Only use the provided lashing points. \n– Remove the packaging only shortly before \ninstallation. \n– When transporting within the premises, do not \nuse a lift truck to transport plant components not \nmounted on pallets. \n   \n \n \nCrane transport of packing pieces \n \nIll. 15 \nPacking pieces equipped with lifting eyes can be transported with a \ncrane when the following conditions are met: \n Crane and hoist gear must match the weight of the packing \npieces. \n The operator must be authorised to operate the cra ne. \nSlinging: \n1. Sling ropes, belts or multi leg slings according t o Ill. 15. \n2. Make sure the packing piece is hanging straight; h eed center \nof gravity outside object’s ´center if applicable. \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 50,
+      "text": " \nNon-Ferrous Metal Separator NES \n Transport, packaging and storage \n \n \n50  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nCrane transport of pallets \n \nIll. 16 \nPacking pieces fastened to pallets can be transported with a crane \nif the following prerequisites are met: \n Crane and hoist gear must match the weight of the packing \npieces. \n The operator must be authorised to operate the cra ne. \nSlinging: \n1. Sling ropes, belts or multi leg slings to the pall et according to \nIll. 16. \n2. Check that the sling gear does not damage the pack ing \npieces. Use other sling gear if necessary. \n \n  \n \n \nFork lift transport of pallets \n \nIll. 17 \nPacking pieces fastened to pallets can be transported with a fork \nlift if the following prerequisites are met: \n The capacity of the fork lift must match the weigh t of the pieces \nto be transported. \n The operator must be authorised to operate the for k lift. \nPicking up: \n1. Move the fork lift with its forks between or under neath the \nbeams of the pallet. \n2. Push the forks through until they become visible o n the other \nside. \n3. Make sure the pallet cannot tip over when the cent re of gravity \nis not in the object’s centre. \n4. Lift the packing piece.  \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 51,
+      "text": " \nNon-Ferrous Metal Separator NES \n Transport, packaging and storage \n \n \n51  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nStorage of packing pieces Ensure the following conditions are met when storing the packing \npieces: \n Do not store outdoors. \n Store in a dry and dust free environment. \n Do not expose to corrosive substances. \n Protect against sunlight. \n Avoid mechanical vibrations. \n Storage temperature: +5 °C to +50 °C. \n Relative humidity: max. 60%. \n Regularly check the condition of all parts and the  packaging \nwhen storing for longer than 3 months. If necessary refresh or \nreplace the conservation. \n \n \n \nNOTE! \nThe packaging pieces may come with storage \ninstructions applicable in addition to the \nrequirements outlined here. These must be \nadhered to. \n  \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 52,
+      "text": " \nNon-Ferrous Metal Separator NES \n Installation and commissioning \n \n \n52  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n6 Installation and commissioning \n \n \nNOTE! \nInstallation and commissioning is performed by \nqualified employees of the owner or by persons \nauthorised by him and instructed by the \nmanufacturer. Make sure to heed the notes below. \n \n \n \nNOTE! \nIn the event that an unstable control response \n(pronounced oscillation of the motor after attaining \nthe setpoint speed) arises during initial \ncommissioning or after the exchange of the drum \n(pole system) frequency converter in the series \nE6119 NES non-ferrous metals separator, then a \n“SET UP” is to be carried out on the drum frequency \nconverter.  \nConsultation with Steinert is essential in such \na case.  \n \n \n \nWARNING! \nDanger due to incorrect installation and \ncommissioning! \nInstallation and commissioning require trained \nspecialists with sufficient experience. Error during \ninstallation can lead to life-threatening situations or \nresult in considerable damage to material. \nTherefore: \n– Have commissioning performed by \nmanufacturer’s staff only. \n– Also contact the manufacturer when you change \nthe plant’s position. \n– Do not perform installation and do not change \nlocations without being authorised. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 53,
+      "text": " \nNon-Ferrous Metal Separator NES \n Installation and commissioning \n \n \n53  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n6.1 Safety \n  \nStaff  Only trained specialist staff is allowed to perfor m installation \nand commissioning. \n Assign work on the electric system to trained elec tricians only. \n  \n \n \nPersonal protection Make sure to always wear the following protective equipment \nduring installation and commissioning: \n Protective clothing \n Hard hat  \n Safety shoes \n Protective gloves \n \n \n \nNOTE! \nThe warnings in the present chapter identify \nadditional protective equipment required for \nparticular work steps. \n   \n \n \nMagnetic radiation \n \n \nDANGER! \nDanger of life due to magnetic radiation! \nFor persons with implanted pacemaker and \nmetallic implants there is a risk of severe bodily \ninjury or even death in a radiation area. \nTherefore: \n– Make sure there are no persons with implanted \npacemaker in the direct and indirect hazard \narea. \n– Make sure there are no persons with metallic \nimplants in the direct and indirect hazard area.  \n  \n \n \n \n   \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 54,
+      "text": " \nNon-Ferrous Metal Separator NES \n Installation and commissioning \n \n \n54  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nElectrical system \n \n \nDANGER! \nDanger of life due to electrical power! \nDanger of life when touching live components. \nEnergised electrical components can execute \nuncontrolled movements and be the cause for \nserious injuries. \nTherefore: \n– Switch off the power supply and make sure it \ncannot be switched on again before starting \nwork. \n    \n \n \nProtection against switching on \n \n \nDANGER! \nRisk of life due to unauthorised switching on! \nDuring installation there is a risk that an \nunauthorised person switches on the energy \nsupply. This represents a potentially fatal hazard \nfor persons working in the danger area. \nTherefore: \n– Switch off all the power supplies and make sure \nthey cannot be switched on again before \nstarting work. \n   \n \nInexpert installation and \ncommissioning \n \n \nWARNING! \nRisk of injuries due to incorrect installation and \ncommissioning! \nInexpert installation and commissioning can result \nin severe injury to persons and damage to material. \nTherefore: \n– Ensure there is enough clear space before \nstarting installation. \n– Handle open, sharp edged components with \ncare. \n– Ensure tidiness and cleanliness at the \ninstallation site! Loosely stacked or scattered \ncomponents represent an accident risk. \n– Install components in an expert manner. Adhere \nto stipulated screw tightening torques. \n– Secure components to prevent them from falling \nor toppling over. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 55,
+      "text": " \nNon-Ferrous Metal Separator NES \n Installation and commissioning \n \n \n55  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n6.2 Preparations \n \nHave a structural engineer verify the required properties of the \nfoundation. \n \n \n \nDANGER! \nRisk of life due to collapsing parts of the \nbuilding! \nOverloading of ceilings will result in severe damage \nto material and injuries or even death. \nTherefore: \n– Heed the dynamic stresses caused by the \nmovement of the machine when installing the \nplant on a self-supporting ceiling. \n \n \nPlace the plant components according to the fastening method \nspecified by the owner level on a flat, vibration-resistant and fully \ncured foundation. \n \n \nNOTE! \nRemove all transport devices from the plant \ncomponents after having deposited them at the \ninstallation site. \n  \n \n \nInstallation of switch cabinet \nThe switch cabinet has protection class IP 55. The ambient air \nmust be able to freely circulate around the switch cabinet and must \nnot be heated by other heat generators. Prevent direct sun \nirradiation.  \nInstall the switch cabinet on a vibration free substructure. \nVibrations of all kinds can cause damage to the electrical \ncomponents and connections. \nBags with desiccant have been suspended inside the switch \ncabinet. The desiccant protects the electrical components against \nhumidity during transport and short term storage. Remove the \ndesiccant bags from the switch cabinet before commissioning the \ncontroller. Remove all desiccant beads from the switch cabinet if \nbags are torn. The controller of the non-ferrous metal separator \ncomes in a floor-mounted cabinet that can be installed up to 10 m \naway from the machine using the enclosed cable.   \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 56,
+      "text": " \nNon-Ferrous Metal Separator NES \n Installation and commissioning \n \n \n56  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n    \nConnecting the switch cabinet \nEstablish the power supply wiring to the switch cabinet and from \ncabinet to machine according to the wiring diagram, grounding and \nprotective measures according to VDE or local energy supply \ncompany.  \nThe plant has been fully wired at the factory, preliminary \ncommissioning has taken place. The cables from the electrical \ncomponents of the plant to the switch cabinet are equipped with \nencoded connectors. Plug the connectors to their respective \ncounterparts in the cabinet and lock them after having installed the \nswitch cabinet. Establish the power supply for the switch cabinet \nand the signal exchange with the owner's controller according to \nthe wiring diagram. \nPlease note that the chassis must be connected to local protective \nearth with a cable of sufficient cross section (min. 16 mm²). \nIn the EU you must heed the respective regulations on \nelectromagnetic compatibility (EMC). \n \n \n \nNOTE! \nMake sure to route data cables (cables connecting \nthe sensor strip with the sensor) at a distance to \nthe other cables! \n   \n \n \n For further information please refer to the wiring diagram provided \nby the manufacturer in the “Appendix”. \n \nInstallation note: \n For the total power draw please refer to the wirin g diagram in \nthe “Appendix”. \n The electrical connection between switch cabinet a nd machine \nis established with tagged terminal strips and connectors. \n The electrical connection of multi part plants is established with \ntagged terminal strips. \n Establish the electrical connection of the plant t o the power \nsupply at the terminals of the master switch. (Heed the wiring \ndiagram in the switch cabinet!) \n \n \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 57,
+      "text": " \nNon-Ferrous Metal Separator NES \n Installation and commissioning \n \n \n57  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n6.3 Connection to the power supply \n \nOnly trained electricians are allowed to connect the plant to the \npower supply. For further information regarding connection \ninstructions and cable cross sections please refer to the wiring \ndiagram in the Appendix. \n \n  \n6.4 Commissioning \n   \nPrior to commissioning \n \n \nCAUTION! \nDamage to material due to missing \nconsumables! \nMissing consumables or filling levels below \nminimum will result in damage to material or even \ntotal destruction! \nTherefore: \n– Check all filling levels and top up with suitable  \nconsumables if necessary prior to \ncommissioning; see “Consumables”. \n     \n \n \nHeed the following items after completion of installation and prior to \ncommissioning: \n Guard rotating components with suitable safety dev ices \nprovided by the owner. \n Remove the protection of the magnet drum. \n Check all liquid levels, safety devices and covers . \n Check the conveyor belt tension, see “Tightening t he conveyor \nbelt”. \n Check that there are no foreign objects on conveyo r belt and \ndrive units and remove any if necessary. \n Check the conveyor belt for damage. \n Check the running direction of the conveyor belt. \n Check the skew sensor and readjust it if necessary . \n Check the gear for leaks visually. \n Make sure all protection and safety devices are pr esent, \ncorrectly installed and functioning. \n Check all components and screwed connections for s ecure \nseat. \n Make sure the direction of rotation of the unbalan ced drives of \nthe vibratory conveyor matches the direction specified by the \nmanufacturer. \n Make sure the ambient temperature complies with th e specified \nrange. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 58,
+      "text": " \nNon-Ferrous Metal Separator NES \n Installation and commissioning \n \n \n58  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n Check the magnet pole system and adjust it if nece ssary in line \nwith section “Adjusting the magnet pole system”. \n Make sure the iron separator is working upstream o f the non-\nferrous metal separator. \n Heed additional instructions in sections “Operatio n” and \n“Controller”. \n \n   \nWear the protective equipment listed below during commissioning, \ntest and maintenance runs of the plant: \n \n \n \n \nHearing protection \nprotects against hearing damage. \n  \n \nGoggles \nprotect the eyes against flying debris and splashing liquids. \n \n \n \n \n6.5 Basic adjustment of the splitter \n \n \nNOTE! \nThe splitter has been adjusted by the \nmanufacturer. \n \n \nTake the largest non-metallic samples from the material to be \nseparated. Adjust the splitter in such a way that the material falls \nbefore it reaches the crown of the splitter. \nRun the material flow with this setting. Optimising the splitter \naffects the material discharge quality in the discharge hoppers, see \n“Splitter adjustment”. \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 59,
+      "text": " \nNon-Ferrous Metal Separator NES \n Installation and commissioning \n \n \n59  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n6.6 Basic adjustment of magnet pole system \n \nNOTE! \nThe magnet pole system has been adjusted by the \nmanufacturer. \n \nReadjust the drum and the magnet pole system if necessary when \nthe drum jacket has been replaced or the entire drum has been \nremoved for maintenance and repair, see “Maintenance”. \n  \n \n \n6.7 Inspections \n \nAfter installation, subject the entire plant to an inspection in line \nwith locally applicable regulations before commissioning. Later you \nmust inspect the entire plant for technical defects in line with locally \napplicable regulations at regular intervals. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 60,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n60  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n7 Operation \n \n7.1 Safety \n \nPersonal protection No protective equipment is required when you operate the plant \nform the remote control station.  \n \nAlways wear the following protective equipment when operating \nthe plant: \n Hearing protection  \n Goggles \n Long sleeved protective clothing \n Protective gloves \n \n \n \nNOTE! \nThe warnings in the present chapter identify \nadditional protective equipment required for \nparticular work steps. \n    \n \n \nMagnetic radiation \n \n \nDANGER! \nDanger of life due to magnetic radiation! \nFor persons with implanted pacemaker and \nmetallic implants there is a risk of severe bodily \ninjury or even death in a radiation area. \nTherefore: \n– Make sure there are no persons with implanted \npacemaker in the direct and indirect hazard \narea. \n– Make sure there are no persons with metallic \nimplants in the direct and indirect hazard area.  \n  \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 61,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n61  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nInexpert operation \n \n \nWARNING! \nRisk of injury due to inexpert operation! \nInexpert operation and commissioning can result in \nsevere injury to persons and damage to material. \nTherefore: \n– Perform all operation steps according to the \npresent operating instructions. \n– Make sure all covers and safety devices are \ninstalled and functioning properly before starting \nwork. \n– Never disable any safety device during \noperation. \n– Ensure tidiness and cleanliness at the work \nstation! Loosely stacked or scattered \ncomponents represent an accident risk. \n  \n \n \n \n7.2 Steps required before operation \n   \nHeed the following prior to commissioning: \n Check all liquid levels, safety devices and covers . \n Check the conveyor belt tension, see “Tightening t he conveyor \nbelt”. \n Check that there are no foreign objects on conveyo r belt and \ndrive units and remove any if necessary. \n Check the conveyor belt for damage. \n Check conveyor belt for skewing and correct if nec essary. \n Check the gear for leaks visually. \n Make sure all protection and safety devices are pr esent, \ncorrectly installed and functioning. \n Check all components and screwed connections for s ecure \nseat. \n The ambient temperature must meet the manufacturer 's \nspecification, see “Technical data”. \n \n    ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 62,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n62  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n7.3 Adjustment of non-ferrous metal separator \n \n7.3.1 General \n \nPrinciple \nThe material on the conveyor belt reaches the pole drum in the \narea of the rapidly rotating pole system. Eddy currents are induced \nin electrical conductors. These eddy currents accelerate particles \nin the conveying direction, ejecting the particles from the material. \nThe particle reaches the area downstream of the splitter. No eddy \ncurrents are formed in non-conducting material (rubber, wood, \netc.). Particles of such material drop in front of the splitter in the \nnormal vertically parabolic trajectory. \n \n \nGeneral information on the material \nGrading the material into particle size fractions increases the \nefficiency of the non-ferrous materials separator considerably \nbecause there is no overlapping of small non-ferrous particles with \nlarge-surface rubber particles. Furthermore, the separator splitter \ncan be better adjusted to the vertically parabolic trajectory, \nespecially for fine-grained particles. \n \n \nSystem position \nAcceleration of non-ferrous particles basically occurs tangentially \nto the system, i.e. at 0 degrees the particles fly away almost \nhorizontally. These particles cover the greatest distance. But the \naccelerated particles can also carry away rubber particles lying in \nfront of them. Select this position if all non-ferrous particles are to \nbe separated from the material flow as far as possible and if purity \nof the material is of secondary importance. \nThe distance covered becomes shorter when the angle increases, \nbut then the rubber particles reach the curved area of the conveyor \nand start slipping. Following non-ferrous metal particles can then \nbe accelerated without being impeded by the rubber particles. This \nsetting is recommended if a clean non-ferrous product is desired.  \n \n \n \nNOTE! \nThe manufacturer recommends setting a higher \ndegree with smaller particle sizes. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 63,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n63  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nSystem speed \nThe manufacturer recommends choosing a lower speed with great \nparticles of large surface and material wall thickness. The \nmanufacturer recommends setting the maximum speed for small \nparticle sizes. \n \n \nConveyor speed \nThe manufacturer specifies a default conveyor speed of \n1.0 to 2.5 m/s. \n \n \nCoarse adjustment \nTake the largest non-metallic samples from the material to be \nseparated. Adjust splitter and conveyor speed such that the \nparticles drop in front of the splitter.  \nMake sure the smallest non-ferrous samples drop behind the \nsplitter. \nRun the material flow with this setting. You can control the quality \nof the discharged material by varying the conveyor belt speed.  \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 64,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n64  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n7.3.2 Hints on adjustment of the non-ferrous metal separator \n  \n \nIll. 18: Adjustment options of the non-ferrous metal separator \n \n All eccentric non-ferrous metal separators feature – depending on \nthe model – up to four adjustment options that influence the \nseparation: \n1 Variable belt speed \n2 Variable speed of the eccentric pole system \n3 Variable splitter position(s) \n4 Variable position of the eccentric pole system \n  \n \n \n7.3.3 Belt speed adjustment \nThe PLC controls the speed of the conveyor belt electronically, see \n“Touch screen operation”.  \nThe belt speed ranges between 1.0 and 2.5 m/s. \n \n \n \n7.3.4 Setting the pole system speed \nThe pole system speed is dependent on the main frequency and \nthe drive speed of the three-phase motor. \nThe PLC controls the speed of the pole system belt electronically, \nsee “Touch screen operation”.  \nPole system speed .............................................. max. 2610 rpm. \n \n \nDANGER! \nIf the maximum pole system speed is exceeded, \nthis will lead to a total failure of the system.  \nDanger to life!  \nTherefore: \n– The corresponding values for the drive must be \ntaken into account. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 65,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n65  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n7.3.5 Adjusting the splitter \n   \n \nNOTE! \nAlways maintain the parallelism between splitter \nand belt drum! \n \n \nThe relative position of the splitter to the pole drum is set by \ndisplacing and - depending on the design of the material discharge \n– also by swivelling and pulling out the splitter plate. \n \nTo adjust the splitter, proceed as follows: \n \n \nIll. 19: Removing the cover \n1. Protect the cover (1) against dropping. \n2. Open the locks (arrows) with a suitable key. \n3. Remove the cover (1) in upward direction. \n4. Repeat the steps on the opposite side. \n \n \nIll. 20: Checking the splitter \n5. Check the condition and adjustment of the splitter (1). ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 66,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n66  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nIll. 21: Setting the splitter angle \n6. Undo the lock lever (1) to change the splitter plate angle. \n7. Repeat the step on the opposite side. \n8. Set the desired angle and tighten both levers (1) again. \n \nIll. 22: Setting the splitter height \n \n9. To adjust the splitter height, loosen the screws (arrows). \n10. Repeat the step on the opposite side. \n11. Set the splitter height and tighten the screws (ar rows). \n \nIll. 23: Setting the splitter position \nTo change the distance between splitter and pole drum, move the \nsplitter and secure it against dropping with suitable means. To do \nso: \n1. Remove the lock levers (1). \n2. Remove the lock screws (2). \n3. Repeat the steps on the opposite side. \n4. Set the splitter and the fasteners underneath it i n the desired \nposition (arrows). \n5. Make sure the splitter is parallel to the belt dru m. \n6. Insert and tighten screws (arrows). \n7. Insert the lock levers (1). \n8. Repeat the steps on the opposite side. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 67,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n67  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n \nIll. 24: Installing the cover \n9. Insert the cover (1) from above and secure it agai nst \ndropping. \n10. Close the locks (arrows) with a suitable key. \n11. Repeat the steps on the opposite side. \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 68,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n68  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n7.3.6 Eccentric system pole drum adjustment \n \nAdjusting the eccentric system determines the position of the \nhighest field intensity on the conveyor belt. When set to 0 degrees, \nthe highest field intensity is at the pole drum’s zenith. \n \n \n \n \n7.3.6.1 Adjusting system NES... E 36... \n \n \nIll. 25: Fastening of the adjusting unit \nThe system can be swivelled up to 48 degrees in steps of 12 \ndegrees.  \n1. To displace the system, undo the locking screws (1 ) of the \npole drum.  \n2. Using the drive motor as a lever, swivel the syste m into the \ndesired position. \n3. Tighten the locking screws (1). \n \n \n \n7.3.6.2 Adjusting systems NES... E 50... and NES...  E61... \n \n \nIll. 26: Locking bolt for pole drum \nThe system can be swivelled up to 48 degrees in steps of 6 \ndegrees.  \n1. To displace the system, pull out and hold the lock ing bolt \n(arrow) of the pole drum (3). \n \n \n \nNOTE! \nAt 0 degrees, the locking bolt is in the top hole (2), \nat 48 degrees it is in the bottom hole (1). \n \n \n2. Using the drive motor (4) as a lever, swivel the s ystem into the \ndesired position. \n3. Release the locking bolt (arrow). \n4. Make sure the locking bolt (arrow) has fully engag ed.  \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 69,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n69  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n7.3.7 Application examples \n \nMaterial \nObjective \nSpeed of conveyor \nbelt [m/s] \nSystem set to \nSpeed [rpm] \nRemark \nAluminium profile \nscrap \nRemoval of \nstainless steel \nand plastic \n1.5 24 \ndegrees 1800 \n Splitter low \nHeavy shredder \nrefuse approx. \n10 to 150 mm \n \nIn the grain size \nration, lower to \nupper grain size \nfrom 1:3 to 1:4  \nCaution:  Small non-ferrous metal particles could be lost as large rubber particles could \ncover them. \nHigh \nconcentration \nof metals. \nPurity of metals \nis secondary. \n1.8 0 \ndegrees 2610 \n Splitter low \nHigh purity of \nmetals 1.8 24 \ndegrees 2610  Splitter low \nAluminium/PE \nbottle caps \nHigh purity of \naluminium and \nPE fraction 1.2 48 \ndegrees 1800 \n Splitter low \n Throughput approx. 1.6 t/(h x m)  \n Bulk density approx. 0.11 –\n 0.21 t/m³   depending on the \nmixture \nAluminium/stones \nfrom sink/float \nplant approx. \n10 to 100 mm \nHigh purity of \naluminium \nfraction 1.7 24 \ndegrees 2610 \n Splitter low \n Throughput approx. 10 t/(h x m) \n Bulk density approx. 0.8 t/m³   \nAluminium/magne-\nsium/rubber from \nsink/float plant \napprox. \n10 to 100 mm \nHigh yield of \nmagnesium \nfraction 1.7 18 \ndegrees 2610 \n Splitter low \n Throughput approx. 5 t/(h x m) \n Bulk density approx. 0.3 t/m³ \nGlass waste  \nca. 8 to 30 mm \nHigh yield of \nnon-ferrous \nmetals \n1.8 0 \ndegrees 2610 \n Splitter high \n Throughput approx. 10 t/(h x m) \n Bulk density approx. 1.2 t/m³ ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 70,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n70  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nMaterial \nObjective \nSpeed of conveyor \nbelt [m/s] \nSystem set to \nSpeed [rpm] \nRemark \nMoulding sand \nfrom non-ferrous \nmetal foundry \nHigh yield of \nmetals 1.7 6 \ndegrees 2610 \n Splitter low \n Throughput approx. 5 t/(h x m) \n Bulk density approx. 0.3 t/m³ \nScrap lumber High yield of \nmetals 1.7 18 \ndegrees 2610 \n Splitter low \n Throughput approx. 5 t/(h x m) \n Bulk density approx. 0.3 t/m³ \nFluff High yield of \nmetals \n2.2 0 \ndegrees 2610 \n Splitter low \n Throughput approx. \n10 to 15 t/(h x m) \n Bulk density approx. 0.35 t/m³ \n  \n   \n \n \n \n \n7.4 Switching on, switching off, automatic mode and  manual mode \n \n \nNOTE! \nFor further information regarding switching on/off \nand manual/automatic mode see the “Controller” \ndocument in the Appendix. \n \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 71,
+      "text": " \nNon-Ferrous Metal Separator NES \n Operation \n \n \n71  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n7.5 Shut down in an emergency \n \n Machine movements must be stopped and the power supply \nswitched off as fast as possible in case of an emergency.  \nShut down in an emergency Proceed as follows in an emergency: \n1. Trigger an emergency stop immediately. \n2. Evacuate persons from the danger zone and initiate  first-aid \nmeasures if you are not endangered. \n3. Alarm a doctor and the fire brigade. \n4. Inform the person responsible on site. \n5. Switch off the master switch and secure it against  switching \non. \n6. Keep access paths for emergency vehicles clear. \nAfter rescue 7.  Inform responsible authorities if demanded by the severity of \nthe emergency. \n8. Have specialists eliminate the malfunction. \n \n \nWARNING! \nRisk of life due to premature switching on! \nRisk of life for all persons in the danger area due to \npremature switching on. \nTherefore: \n– Make sure before switching on that no persons \nare left in the danger area. \n \n9. Check the plant before restarting it and make sure  all safety \ndevices are installed and functioning. \n  \n \n \n  \n7.6 Steps to be performed after operation \n     \nCheck the following after operation: \n Check that there are no foreign objects on conveyo r belt and \ndrive units and remove any if necessary. \n Check the conveyor belt for damage. \n Check all components and screwed connections for s ecure \nseat. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 72,
+      "text": " \nNon-Ferrous Metal Separator NES \n Malfunctions \n \n \n72  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n8 Malfunctions \nThe following chapter describes possible causes for malfunctions \nand steps necessary to eliminate them.  \nReduce the maintenance intervals according to the actual \nrequirements if malfunctions occur more frequently. \nContact the manufacturer if malfunctions cannot be eliminated by \nfollowing the hints below (see the service address on the cover \npage). \n \n \n8.1 Safety \n  \nStaff  If not specified otherwise, the troubleshooting me asures can be \nperformed by the operator. \n Some of the work is restricted to specially traine d staff or the \nmanufacturer; this will be indicated in the description of \nrespective malfunctions. \n Always assign work on the electric system to train ed \nelectricians only. \n  \n \n \nPersonal protection Always wear the following protective equipment when working on \nthe plant: \n Long sleeved protective clothing \n Hard hat  \n Safety shoes \n Protective gloves \n Hearing protection \n Goggles \n \n \n \nNOTE! \nThe warnings in the present chapter identify \nadditional protective equipment required for \nparticular work steps. \n   \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 73,
+      "text": " \nNon-Ferrous Metal Separator NES \n Malfunctions \n \n \n73  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nMagnetic radiation \n \n \nDANGER! \nDanger of life due to magnetic radiation! \nFor persons with implanted pacemaker and \nmetallic implants there is a risk of severe bodily \ninjury or even death in a radiation area. \nTherefore: \n– Make sure there are no persons with implanted \npacemaker in the direct and indirect hazard \narea. \n– Make sure there are no persons with metallic \nimplants in the direct and indirect hazard area.  \n  \n \nElectrical system \n \n \nDANGER! \nDanger of life due to electrical power! \nDanger of life when touching live components. \nEnergised electrical components can execute \nuncontrolled movements and be the cause for \nserious injuries. \nTherefore: \n– Switch off the power supply and make sure it \ncannot be switched on again before starting \nwork. \n  \n \nProtection against switching on \n \n \nDANGER! \nRisk of life due to unauthorised switching on! \nWhen performing troubleshooting work there is a \nrisk that an unauthorized person switches on the \nenergy supply. This represents a potentially fatal \nhazard for persons working in the danger area. \nTherefore: \n– Switch off all the power supplies and make sure \nthey cannot be switched on again before \nstarting work. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 74,
+      "text": " \nNon-Ferrous Metal Separator NES \n Malfunctions \n \n \n74  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nInexpert malfunction elimination \n \n \nWARNING! \nRisk of injury due to inexpert malfunction \nelimination! \nInexpert malfunction elimination can result in \nsevere injury to persons and damage to material. \nTherefore: \n– Ensure there is enough clear space before \nstarting work. \n– Ensure tidiness and cleanliness at the \ninstallation site! Loosely stacked or scattered \ncomponents represent an accident risk. \n– When components were removed: make sure \nthey are correctly installed, fit all fastening \nelements again and heed the tightening torques \nfor the screws. \n        \n \n \nBehaviour in case of malfunctions As a rule: \n1. Press the emergency stop button immediately in cas e of \nmalfunctions representing a direct hazard to staff or material \nassets. \n2. Determine the cause of the malfunction. \n3. Switch off the plant and secure it against switchi ng on if \nmalfunction elimination requires working in the danger area. \n4. Inform the supervisor on site of the malfunction i mmediately. \n5. Depending on the malfunction, have authorised spec ialists \neliminate it or eliminate it yourself.  \n \n \n \n \nNOTE! \nThe malfunction table below indicates the group of \npersons authorised to eliminate the fault. \n   \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 75,
+      "text": " \nNon-Ferrous Metal Separator NES \n Malfunctions \n \n \n75  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n8.2 Fault indicators \n \nThe following devices indicate faults: \nExample Professional \n   \n \nIll. 27: “Fault” button \n \n \n \n \n \n \n \nIll. 28: Plant status “NES fault”  \n \n \n \nThe controller display in the switch cabinet indicates faults in clear \ntext. The “Fault” button (1) also turns red. As an option, the faults \nare sent to the owner’s external control panel. \n1. Press the “Fault” button (1) to view the list of f aults. \n \n \nNOTE! \nThe fault list shows date, time and message text of \nfaults that occurred. A fault flagged with “T” is a \ncurrent fault. The “R” flag indicates an eliminated \nfault. \n \n \n \n \nExample: Standard  \nThe operating panel in the switch cabinet indicates faults in clear \ntext.  The status (3) of the plant indicates the plant status, and a \nblack frame (2) flashes around the word “Alarm”. The faults are \nsent to the owner’s external control panel. \n1. Press the F1 “Alarm” button (1) to view the list of faults. \n \n \nNOTE! \nThe list of faults only shows currently pending \nfaults! \n \n \n \n \n \n \nA lit illuminated pushbutton “Emergency stop fault acknowledge” \n(1) also indicates a fault. \n \n \n3 \n2 \n1 \nControl ON \nFault \nAdjustment ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 76,
+      "text": " \nNon-Ferrous Metal Separator NES \n Malfunctions \n \n \n76  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n8.3 List of mechanical faults \n  \nFault Possible cause Elimination Elimination by \nConveyor does not \nmove \nBelt torn Stop plant, replace belt  Operator \nBelt tension too high Reduce belt tension Operator \nBelt tension too low Increase belt tension Operator \nMotor defective Check motor Authorised \nelectrician \nBelt running askew Uneven belt tension Reduce belt tension, evenly tighten \non both sides \nOperator \nBearing noise Insufficient lubrication Lubricate all bearings Operator \nDefective bearings Replace bearings  Operator \nMotor sways heavily \n(wobbles) \nDrive journal bent Replace drive journal Operator \nBuffer bent/defective \n(NES 250 only) \nReplace buffer Operator \nBelt soiled heavily Poor scraper contact (option)  Adjust scraper Operator \nDefective scraper (option) Replace rubber in scraper Operator \nSupport roller soiled Clean support roller, replace in \ncase of severe material inclusion  \nOperator \nGrinding noise at \nthe belt \nAgglomeration of material in \nthe bottom strand \nClean bottom strand and support \nroller \nOperator \nSupport roller rings soiled Clean support roller rings, replace \nin case of severe material inclusion  \nOperator \nScraper defective Replace rubber in scraper,  \nreduce the pressure of the rubber \non the belt \nOperator \nNo/poor conveying \nof material \nHeavy deposits in the trough  Clean trough Operator \nIncorrectly adjusted trough \nmotors \nCheck direction of rotation Authorised \nelectrician \nTrough defective Check trough Authorised \nelectrician \nPoor or wrong \nseparation yield \nIncorrect field strength on \nconveyor belt \nReadjust the position of the \neccentric system \nOperator \nAgglomeration of material \nat/around the splitter \nClean splitter Operator \nPosition of splitter does not \nmatch material \nReadjust position of splitter relative \nto pole drum \nOperator \nSplitter worn Replace splitter sheet metal Operator \nIncorrect system speed Match system speed with material Specialist \nCoverage of small non-\nferrous particles with large \nrubber parts \nGrading of material into fractions Operator \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 77,
+      "text": " \nNon-Ferrous Metal Separator NES \n Malfunctions \n \n \n77  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n8.4 Troubleshooting measures \n  \nImmediately check the tension and adjustment of the conveyor belt \nwhen skewing, single sided wear and partial destruction of the belt \noccur, see “Tightening the conveyor belt”. \n \n \n \n8.5 Start following an eliminated malfunction \n \nTo restart after having eliminated the malfunction, carry out the \nfollowing steps: \n1. Reset emergency stop devices if necessary, see \n“Acknowledging emergency stop”.  \n2. Acknowledge the fault at the controller if necessa ry, see \n“Acknowledging faults”. \n3. Make sure there are no persons in the danger area.  \n4. Start in line with the instructions in chapter “Op eration”. \n \n \n8.6 Acknowledging faults \nAcknowledge faults in line with the “Controller” document in the \nAppendix in order to restart the plant. \n \n \n \n8.7 Acknowledging emergency stop \nAcknowl edg e faul ts i n line with the “C ontroller” document i n the Appendi x in or der  to restart the pl ant. \nAcknowledge emergency stop messages in line with the \n“Controller” document in the Appendix in order to restart the plant. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 78,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n78  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n9 Maintenance \n \n9.1 Safety \n  \nStaff  If not specified otherwise, the maintenance work c an be \nperformed by the operator. \n Some of the maintenance work is restricted to spec ially trained \nstaff or the manufacturer; this will be indicated in the description \nof respective maintenance measures. \n Always assign work on the electric system to train ed \nelectricians only. \n  \n \n \nPersonal protection Always wear the following protective equipment when working on \nthe plant: \n Long sleeved protective clothing \n Hard hat  \n Safety shoes \n Protective gloves \n Hearing protection \n Goggles \n \n \n \nNOTE! \nThe warnings in the present chapter identify \nadditional protective equipment required for \nparticular work steps. \n   \n \nElectrical system \n \n \nDANGER! \nDanger of life due to electrical power! \nDanger of life when touching live components. \nEnergised electrical components can execute \nuncontrolled movements and be the cause for \nserious injuries. \nTherefore: \n– Switch off the power supply and make sure it \ncannot be switched on again before starting \nwork. \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 79,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n79  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nMagnetic radiation \n \n \nDANGER! \nDanger of life due to magnetic radiation! \nFor persons with implanted pacemaker and \nmetallic implants there is a risk of severe bodily \ninjury or even death in a radiation area. \nTherefore: \n– Make sure there are no persons with implanted \npacemaker in the direct and indirect hazard \narea. \n– Make sure there are no persons with metallic \nimplants in the direct and indirect hazard area.  \n  \n \nProtection against switching on \n \n \nDANGER! \nRisk of life due to unauthorised switching on! \nDuring maintenance there is a risk that an \nunauthorised person switches on the energy \nsupply. This represents a potentially fatal hazard \nfor persons working in the danger area. \nTherefore: \n– Switch off all the power supplies and make sure \nthey cannot be switched on again before \nstarting work. \n  \n \n \nInexpertly performed maintenance \nwork \n \n \nWARNING! \nRisk of injuries due to inexpertly performed \nmaintenance work! \nInexpert maintenance can result in severe injury to \npersons and damage to material. \nTherefore: \n– Ensure there is enough clear space before \nstarting work. \n– Ensure tidiness and cleanliness at the \ninstallation site! Loosely stacked or scattered \ncomponents represent an accident risk. \n– When components were removed: make sure \nthey are correctly installed, fit all fastening \nelements again and heed the tightening torques \nfor the screws. \n   \n \n   \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 80,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n80  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n      \nEnvironmental protection Heed the following notes on environmental protection when \nperforming maintenance work: \n  \n Remove used or superfluous grease from all lubrica ting points \nwhere grease is applied manually and dispose of in line with \nlocally applicable regulations. \n \n Collect waste oil in suitable containers and dispo se of in line \nwith locally applicable regulations. \n \n \n \n9.2 Cleaning \n  \n \nDANGER! \nDanger of life due to electrical power! \nCleaning agents and water reaching the interior of \nswitch cabinets and electrical components can \ncause short-circuits and result in damage to \nmaterial and total failure. \nTherefore: \n– Do not clean components with high-pressure \ncleaners. \n \n \n \n \nCAUTION! \nDamage to material due to ingress of moisture! \nCleaning agents and water reaching the interior of \nelectrical components can cause damage to \nmaterial. \nTherefore: \n– Do not clean components with high-pressure \ncleaners. \n \n \nRemove dust and dirt from plant components and switch cabinets \ncarefully with a soft cloth and mild acid-free cleanser only.  \n \n If necessary, remove coarse dirt and dust from the  plant with \ncompressed air. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 81,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n81  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n9.3 Maintenance schedule \nThe following sections describe maintenance steps required for an \noptimum and trouble free operation. \nReduce the maintenance intervals according to the actual signs of \nwear if regular inspections reveal an increased wear.  \nContact the manufacturer (see cover page) if you have questions \nregarding maintenance work and intervals. \n \n  \nInterval  Maintenance step  Remarks  To be done \nby  Interval for a daily operating time of approx. 16 operating hours  (OH) \nDaily Check conveyor belt surface for damage and \ncracks Visual inspection Specialist \nCheck hatches and doors for proper seat Visual inspection Specialist \nCheck pole drum for foreign objects Visual inspection Specialist \nCheck the outside of the GRP drum jacket for \nstuck foreign objects. Remove foreign objects \nfrom the drum jacket and the inside of the \nconveyor belt. \nVisual inspection Specialist \nCheck sensor faces and clean if necessary Visual inspection Specialist \nCheck material discharge trough for material \ndeposits Visual inspection Specialist \nAfter first 24 \noperating \nhours (OH) \nRelubricate the bearings Visual inspection Specialist \nRunning behaviour of conveyor belt  Visual inspection Specialist \nWeekly Clean inside and outside of the conveyor belt – \ncheck for metallic inclusions Clean Operator \nLateral and cross ribs for iron discharge  Visual inspection/clean Operator \nSupport roller  Clean Operator \nCheck fastening screws of GRP drum jacket \nfor secure seat \nInsert with new thread \nlocker if necessary Specialist \nClean belt steering drums Readjust if necessary Operator \nSplitter/splitter sheet metal(s) soiled Clean Operator \nCheck scraper for wear (option) Visual inspection Operator ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 82,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n82  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nInterval  Maintenance step  Remarks  To be done \nby  Interval for a daily operating time of approx. 16 operating hours  (OH) \nEvery 80 OH, \nin case of \nsevere \nconditions: \nevery 40 OH \nAll lubricating points  Relubricate Operator \nMonthly Running behaviour of conveyor belt Visual inspection Operator \nCheck belt tension Visual inspection Specialist \nVibration monitor (option) Check for proper function  Specialist \nSkew sensor (option) Check for proper function  Specialist \nExcessive loss of oil at the drives Visual inspection Operator \nCheck oil and oil level of the drive motors Visual inspection* Operator \nExcessive loss of grease at the bearings Visual inspection Operator \nAnnually Gear oil  Check top up if \nnecessary .* Specialist \nCheck all screwed connections for secure seat Tighten if necessary Specialist \nCheck for corrosion and surface condition Visual inspection Operator \nEvery 18 \nmonths or \nafter 2000 OH \nGrease in bearing Replace \nSpecialist \nEvery 3 years \nor after \n10000 OH \nReplace synthetic oil in drive motor Heed the operating \ninstructions* Specialist \nReplace roller bearing grease in the drive \nmotor \n* Specialist \nReplace shaft seal in the drive motor * Specialist \n* = see third party documentation in the Appendix ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 83,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n83  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \nDisplay of due maintenance  \n \n \nIll. 29 Maintenance screen (example from Professional model) \nItem Implementation Function \n1 “Operating hours” display The operating hours counter indicates the \noperating hours of the plant. \n2 “Done” button Press the respective button to acknowledge the \nmaintenance step to be performed. \n3 “Back” button Press the “Back” button to return to the start \nscreen. \n4 “Next belt check” display Indicates when the next belt check is due.  \n5 “New grease filling” display Indicates when the next grease filling is due. \n6 “Next lubrication” display Indicates when the next lubrication is due. \n7 “Next maintenance at” display Indicates when the next maintenance is due. \n8 “Last maintenance at” display Indicates when the last maintenance was \nperformed. \n \nOperating hours : \nLast maintenance at : \nNext maintenance at : \nNext lubrication : \n               Anzahl der Schmierstellen :   6 \nNew grease filling : \nNext belt check: \n              Check the tension belt \n              Check the central running \nBack \nDone \nDone \nDone \nDUE! ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 84,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n84  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n9.4 Maintenance steps \n d  \n9.4.1 Checking conveyor belt and GRP drum jacket \n \nCAUTION! \nDamage to material due to foreign objects! \nForeign objects in the conveyor belt and on the \ndrum jacket result in damage to material and even \ncomplete failure. \nTherefore: \n– Check the drum jacket and the inside of the \nconveyor belt for stuck foreign objects and \nremove them if applicable. \n \n \n \n \nIll. 30: Drum jacket and conveyor belt \n Examine the entire drum jacket circumference (arro w) and the \ninside of the conveyor belt for stuck foreign objects. Remove \nforeign objects with a suitable tool if applicable. \n \n \n9.4.2 Checking the fastening of the GRP drum jacket  \n \nIll. 31: Countersunk screw fastening the \nGRP drum jacket \n Check all countersunk screws (arrow) fastening the  GRP drum \njacket (1) for secure seat.  \n Unscrew loose screws and apply medium strength thr ead \nlocker (e.g. Loctite 242). Then insert screws again and tighten \nto 6 Nm.  \n Check GRP jacket (1) for damage and replace if nec essary. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 85,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n85  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n9.4.3 Checking the conveyor belt surface \n \n \nIll. 32: Checking the conveyor belt \n Check the entire surface of the conveyor belt (arr ow) for \ndamage and cracks. Repair or replace conveyor belt if \nnecessary. \n \n \n \n9.4.4 Checking the conveyor belt cross rib \n \n \nIll. 33: Checking the cross rib \n Check cross rib for iron discharge (arrow) for dam age, dirt \naccumulations and proper function. \n \n \n9.4.5 Checking lateral ribs and scraper of conveyor  belt \n \n \nIll. 34: Checking lateral ribs \n Check lateral ribs (arrows) on the conveyor belt f or damage. \nReplace the conveyor belt if necessary, see “Replacing the \nconveyor belt”. \n Check the scraper (1) for wear and damage. Replace  if \nnecessary. To do so, unscrew the nuts (2) and remove the \nretaining strip (3). Repeat the steps on all other retaining strips. \nAssemble in the reverse order of steps. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 86,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n86  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n9.4.6 Checking the conveyor belt speed sensor/skew sensor/impulse transmitter \n \n \nIll. 35: Checking the sensor \n Check the conveyor belt speed sensor/skew sensor ( 1) for \ndamage. \n Wipe off dirt from the sensor with a clean, soft a nd lint-free \ncloth. \n Check the impulse transmitter (2) for damage. \n Wipe off dirt from the impulse transmitter with a clean, soft and \nlint-free cloth. \n \n \n \n  \n9.5 Checking/replacing the conveyor belt \n \n9.5.1 General \n \n \nDANGER! \nRisk of life due to uncontrolled plant \nmovements! \nUncontrolled switching on of the plant while \nmaintenance is in progress will result in injuries or \neven death. \nTherefore: \n– Switch off the plant and secure it against \nswitching on before starting maintenance. \n \n \n \n1\n0\n \nIll. 36: Master switch \n \n1. Turn master switch (1) in the switch cabinet to “0” and protect \nit against switching on. \n \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 87,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n87  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n9.5.2 Tightening the conveyor belt \n \n \nCAUTION! \nDamage to material due to incorrect \nadjustment! \nExcessive tension of the conveyor belt will cause \ndamage to bearings and drum. \nTherefore: \n– Tighten the conveyor belt only until it is safely  \ndriven by friction. \n \n \n \nIll. 37: Removing the cover \n1. Protect the maintenance hatch (1) against dropping. \n2. Open the locks (arrows). \n3. Carefully lift out the maintenance hatch (1). \n4. Repeat the step on the opposite side. \n \nIll. 38: Adjusting the belt tension \n5. Loosen the lock nut (1) with a suitable tool. \n6. Turn the adjusting screw (2) with a suitable tool in clockwise \ndirection to tighten the belt.  \n7. Repeat the steps on the opposite side. \n8. Check the drive roller for parallel running. \n9. Retain adjusting screw (1) and tighten the lock nu t (2). \n10. Repeat the step on the opposite side. \n11. Run the conveyor belt for at least 20 minutes in t he manual \nmode, see “Manual mode”. \n12. Check the tension of the conveyor belt and readjus t if \nnecessary.  \n13. Mount all maintenance hatches again. \n \n \n \n \n1 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 88,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n88  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n9.5.3 Replacing the conveyor belt \nConfiguration example: \nIll. 39: NES 150 220 E 50….  Ill. 40: NES 150 210 E 61… with counterweight (kg) \n Supported load  \ntotal  \nCounterweight  \napprox. \ninformation   \nDepending on the model, you need the following \nto replace a conveyor belt:  \nNES … 140 E 50… / \nNot required \n 2 beams, at least U180,  \nlength = 2.5 x conveyor belt width  \n 2 suitable support blocks  \nto support the trestles  \nNES 100 220 E 50… 3600 N \nNES 125 220 E 50… 4100 N \nNES 150 220 E 50… 4800 N \nNES 200 220 E 50… 5500 N \nNES … 120 E 61… 4000 N \n   \nNES 100 210 E 61… 5150 N 150 kg \n 2 beams, at least I180 (IPBL,HE-A),  \nlength = 2.5 x conveyor belt width \n 2 suitable support blocks  \nto support the trestles \n Counterweight (kg = width-dependent)  \nNES 125 210 E 61… 5900 N 200 kg \nNES 150 210 E 61… 6500 N 250 kg \nNES 200 210 E 61… 7100 N 300 kg \nNES 250 300 E 61… 9000 N Not required \n \n   \n \nDANGER! \nRisk of life due to uncontrolled movements! \nThe use of beams and trestles of insufficient capacity \ncan result in severe contusions and injuries and even \ndeath should such aids fail. \nTherefore: \n– Use aids of sufficient capacity only. \n– Secure aids against slipping. \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 89,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n89  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n \nIll. 41: Impulse transmitter of conveyor belt \n \n \nNOTE! \nThe conveyor belt features an impulse transmitter \nthat electrically monitors the standstill and skewing \nof the belt. When using a third-party conveyor belt, \nyou must retrofit a suitable impulse transmitter \n(arrow). \n \n \n \n \n1 2 1  \nIll. 42: Remove the maintenance doors on \nthe non-drive side \nThe conveyor belt is replaced on the opposite side to the \ndrive . \n1. Secure all maintenance doors (1) on the non-drive side \nagainst falling down. Open the locks (arrows). \nCarefully lift the maintenance doors (3 pieces) up and out. \n2.  Uninstall the bolted side wall (2). \n \n3 5 6 4 \nIll. 43 : Removing the protective plates \n3.  Release the conveyor belt (3) tension, see \"Releas ing the \nconveyor belt tension\". \n \n4.  Disassemble the protective plates (4 + 5) and the guide \nroller (6). \nIll. 44: Fitting the new conveyor belt \n5.  To replace   \nthe old conveyor belt (3), use a suitable tool to completely \ncut the old belt at one point and remove it from the \nmachine. \nNOTE!  \nDuring removal  of the conveyor belt (3) only, do not cut  \nthe conveyor belt if it will not be replaced.  \n3 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 90,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n90  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nIll.45: New conveyor belt \n6. Slide suitable supports (7) through the lateral opening of the \ndevice and brace against the floor plate. \nCaution!  \nDepending on the configuration and the working width, fit a \nrequired counterweight (kg) in the machine for later \nremoval, see Fig. 32 and table.  \n7.  Fit the new conveyor belt (3). \n8.  Support the trestle (7) using suitable support blo cks (8). \nPay attention to the specified supported load, see table.  \n 9 8 7 8 9 \nIll. 46: Mounting the new conveyor belt  \n9.  Remove the supports (9) on the non-drive side. \n(Leave the supports in place on the drive side). \n10. Fit the positioned conveyor belt (3) and align in the \nmachine. \n11. Reinstall the supports (9). \n \n12. Remove any counterweights (kg) which may have been \nused. \n13. Remove the supports (8) and trestles (7).  \n 5 6 4 \nIll. 47: Installing the protective plates \n14. Align and tighten the drive roller, see “Tightenin g the \nconveyor belt”. \n \n15. Disassemble the guide roller (4+5) and the protect ive plates \n(4 + 6). \n \n 1 2 1 \nIll. 48: Installing the maintenance doors \n16.  Reinstall the bolted side wall (2). \n \n17.  Attach and lock all maintenance doors (1). \n \n \n \n \nCAUTION! \nDamage to material due to incorrect \nadjustment! \nExcessive tension of the conveyor belt will cause \ndamage to bearings and drum.  \nTherefore: \n– Tighten the conveyor belt only until it is safely  \ndriven by friction. \n \n \n8 \n3 7 \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 91,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n91  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n   \n9.5.4 Removing and storing the GRP jacket \nf  \n \nIll. 49: Removing the GRP jacket ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 92,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n92  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \n \n \nDANGER! \nDanger of life due to magnetic radiation! \nFor persons with implanted pacemaker there is a \nrisk of severe bodily injury or even death in a \nradiation area. \nTherefore: \n– Make sure there are no persons with implanted \npacemaker in the direct and indirect hazard \narea. \n– Make sure all protective doors and guards are \ncomplete and correctly installed before \nrestarting the plant. \n– Have all legally obligatory inspections \nperformed and repeated at regular intervals. \n  \n \nDANGER! \nRisk of life due to uncontrolled movements! \nThe use of beams and trestles of insufficient \ncapacity can result in severe contusions and \ninjuries and even death should such aids fail. \nTherefore: \n– Use aids of sufficient capacity only. \n– Secure aids against slipping. \n \n \n \nCAUTION! \nRisk of injury when carrying magnetic \nsubstances! \nThere is a risk of being hit and pinched when \nwearing magnetic substances, tools and body \nimplants. \nTherefore: \n– Bearers of metallic implants must stay away \nfrom the danger area. \n– Wearing of metallic jewellery, keys etc. is not \npermitted. Remove metallic objects from your \nclothes or take them off beforehand. \n \n1. Remove the conveyor belt, see “Replacing the conve yor belt”. \n2. Remove the pole drum and store it in a clean place . \n3. Remove the bearings according to the drawing. \nRemove the GRP drum jacket (removal is done at the side \nopposite the drive). To do so: \n4. Support the side plate (9). ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 93,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n93  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n5. Unscrew the Allen screw (8). \n6. Remove the bearing covers (2). \n7. Slip a pipe (Di = 30.2, I = drum length + 250 mm) on the \nbearing journal (1), prop up its end and remove the side plate \nsupport. \n8. Unscrew countersunk screws (5) on the drive side only. \n9. Pull off GRP jacket (4) and bearing housing (7) wi th interior \ndeep-groove ball bearing (3) and shaft seal. \n10. Prop up the system and carefully remove the parts listed in \nitem 9. \n   \n \nCAUTION! \nDamage to material due to incorrect storage!  \nStoring the pole system while it is open will lead to \ndamage.  \nTherefore: \n– Never leave the pole system open. \n– Immediately close the pole system, if necessary \nprotect it with clean wrapping paper and/or a \nclean blanket against iron particles and dirt. \n– Do not store iron particles near the pole drum. \n \nInstall the GRP jacket. To do so: \n1. Slide new GRP jacket (4) on the bearing housing (7) and \nscrew in screw (5) with medium strength Loctite 242. \n2. Inspect the entire system for attracted iron particles. If \nnecessary, remove iron dust with adhesive tape. \n3. Continue assembly in the reverse order of steps. \n4. Make sure to replace the grease filling when mounting the \nbearing, see “Consumables” and “Lubricating roller bearings”. \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 94,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n94  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n9.6 Lubricating roller bearings \nGeneral \nThe bearings installed at the factory are maintenance free and \nfilled with corrosion-resistant and non-ageing roller bearing grease. \n \nDesignation Unit \nGrease nipple size AR 1/8\"; DIN 71412 \nGreasing point, tension bearing  2 off \nGreasing point, pole drum 2 off \nGreasing point, pole system 2 off \n \n \nInitial filling \nInitial filling at the factory is made with the high-performance \ngrease for high temperatures SKF LGHP 2 DIN 51825. \nThe grease has a temperature range of -40 °C to +150 °C.  \nThe operating temperature of the bearings is 30 °C to 50 °C over \ntemperature. \n \nRelubrication \n \n \nNOTE! \nTo relubricate, use a lithium saponified grease of \nthe same worked penetration. Avoid mixing grease \ntypes. If you have to do so, consult the \nmanufacturer of the grease! \n \n \nDetermine exact lubrication intervals under real-life operating \nconditions (check the grease condition during operation). \nUnder severe operating conditions such as:  \n– ambient temperatures above + 40 ° C \n– high dust load \n– high moisture and similar \nthe bearings should be lubricated every 40 operating hours. \nRelubricate rotating bearings at operating temperatures until fresh \ngrease appears at the lubricating gap. \nMaintenance intervals see “Maintenance schedule”. For \nmanufacturer approved grease types and volumes, see \n“Consumables”. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 95,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n95  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nReplacing the grease filling \nThe bearing manufacturer recommends replacing the old grease \nwith new grease after approx. 2000 operating hours, but at the \nlatest after 1.5 years. This does not necessarily require a \ndisassembly of the bearings. It is sufficient to relubricate until all of \nthe old grease has been pushed out of the housing. For \nmanufacturer approved grease types and volumes, see \n“Consumables”. \n \nReplacing the grease filling in case of a repair \nFill only 30 to 50% of the bearing space with new grease. Too \nmuch grease will result in too high operating temperatures of the \nbearings. Apply a generous amount of grease on all sealing lips. \nFor manufacturer approved grease types and volumes, see \n“Consumables”. \n \nLonger standstill of the plant \nRelubricate if a longer standstill period (> 4 months) is planned.  \nRelubricate again shortly before restarting the plant after a longer \nstandstill period. For manufacturer approved grease types and \nvolumes, see “Consumables”. \n \n \n \n \n9.7 Lubricating drives \nDepending on the plant configuration, the conveyor belt is driven \nby a drum motor or worm gear motor. Refer to respective third-\nparty documents in the Appendix. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 96,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n96  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n9.8 Replacing belt steering rollers \n \n \nNOTE! \nDepending on the configuration, the non-ferrous \nmetal separator features two belt steering rollers. \nThese are located underneath the drive pulley and \nmust be replaced when they are damaged. \n \n \n \n \nIll. 50: Removing the maintenance hatch \n1. Protect the maintenance hatch (1) against dropping . \n2. Open the locks (arrows). \n3. Carefully lift out the maintenance hatch (1). \n \n \n \n \nIll. 51: Testing belt steering rollers \n4. Check the belt steering rollers (1) for wear and d amage. \n5. To replace, unscrew the nuts (arrows) and replace the belt \nsteering roller (1) with an identical spare part. \n6. Repeat the step on the opposite side. \nAssemble in the reverse order of steps. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 97,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n97  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n9.9 Checking the material discharge \n \nThe material discharge can the entered for maintenance, cleaning \nand testing. \n \n \n \nDANGER! \nRisk of life when dropping from great heights! \nSlipping and dropping will result in severe injuries \nand even death. \nTherefore: \n– Switch off the entire plant and secure it against  \nswitching on before entering the plant \ncomponent. \n– When there are larger differences in height \nbetween material discharge and downstream \ncomponents/containers (>1.5 m), staff must be \nprotected against dropping with safety belts. \n– Make sure at least one specialist is in the \nimmediate vicinity to maintain safety in an \nemergency while work in the material discharge \nis in progress. \n \n \n \nIll. 52: Access to the material discharge \n \n1. Protect the maintenance hatch (1) against dropping . \n2. Open the locks (arrows). \n3. Carefully lift out the maintenance hatch (1). \n4. Repeat the step on the opposite side. \n5. When there are larger differences in height betwee n material \ndischarge and downstream components/containers (>1.5 m), \nstaff must be protected against dropping with safety belts \nfastened to a suitable point. \nAssemble in the reverse order of steps. \n \n  \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 98,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n98  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n9.10 Inspections \n \nAfter installation, subject the entire plant to an inspection in line \nwith locally applicable regulations before commissioning. Later you \nmust inspect the entire plant for technical defects in line with locally \napplicable regulations at regular intervals. \n \n \n  \n9.11 Screw tightening torques \n \nMetric standard thread The table lists the screw tightening torques in Nm for metric \nstandard threads required to reach the highest permissible \nprestress. Data according to VDI 2230, Edition: 2001, heed friction \ncoefficient µ = 0.12. \n  \nDiameter \n \n[mm] \n  \n[mm] \nScrew quality \n8G / 8.8 10K / 10.9 12K / 12.9 \nM 4 7 3 3 5 5 \nM 5 8 3 6 9 10 \nM 6 10 4 10 15 18 \nM 8 13 6 25 36 43 \nM 10 17 8 48 71 83 \nM 12 19 10 84 123 144 \nM 14 22 12 133 195 229 \nM 16 24 14 206 302 354 \nM 18 27 14 295 421 492 \nM 20 30 17 415 592 692 \nM 22 32 17 567 807 945 \nM 24 36 19 714 1017 1190 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 99,
+      "text": " \nNon-Ferrous Metal Separator NES \n Maintenance \n \n \n99  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \nMetric fine thread The table lists the screw tightening torques in Nm for metric fine \nthreads required to reach the highest permissible prestress. \n  \nDiameter  \n[mm] \n  \n[mm] \nScrew quality \n8G / 8.8 10K / 10.9 12K / 12.9 \nM 8 x 1 13 6 30 41 50 \nM 10 x 1 17 8 55 78 95 \nM 12 x 1.5 19 10 95 107 128 \nM 14 x 1.5 22 12 140 200 240 \nM 16 x 1.5 24 14 200 290 350 \nM 18 x 1.5 27 14 270 390 470 \nM 20 x 1.5 30 17 350 500 600 \nM 22 x 1.5 32 17 450 630 740 \nM 24 x 1.5 36 19 590 830 1000 \n \n \n \n \n9.12 Steps after completed maintenance \n \nPerform the following steps after completion of maintenance and \nbefore switching on: \n1. Check all screwed connections that have been loose ned for \nsecure seat. \n2. Check whether all covers and safety devices that h ave been \nremoved are properly installed again. \n3. Make sure all tools, materials and other equipment  used have \nbeen removed from the work area. \n4. Clean the work area and remove any substances such  as \nliquids, processing material or the like. \n5. Make sure all safety devices of the plant are full y functioning. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 100,
+      "text": " \nNon-Ferrous Metal Separator NES \n Disassembly \n \n \n100  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n10 Disassembly \n \nOnce the plant has reached its end of life, it must be properly \ndisassembled and subjected to environmentally compatible \ndisposal. \n \n \n \n10.1 Safety \n  \nStaff  Disassembly must be entrusted to specially trained  staff only. \n Assign work on the electric system to trained elec tricians only. \n  \n \n \nMagnetic radiation \n \n \nDANGER! \nDanger of life due to magnetic radiation! \nFor persons with implanted pacemaker and \nmetallic implants there is a risk of severe bodily \ninjury or even death in a radiation area. \nTherefore: \n– Make sure there are no persons with implanted \npacemaker in the direct and indirect hazard \narea. \n– Make sure there are no persons with metallic \nimplants in the direct and indirect hazard area.  \n  \n \nElectrical system \n \n \nDANGER! \nDanger of life due to electrical power! \nDanger of life when touching live components. \nEnergised electrical components can execute \nuncontrolled movements and be the cause for \nserious injuries. \nTherefore: \n– Switch off the power supply and make sure it \ncannot be switched on again before starting \nwork. \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 101,
+      "text": " \nNon-Ferrous Metal Separator NES \n Disassembly \n \n \n101  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n \nInexpert removal \n \n \nWARNING! \nRisk of injury due to inexpert removal! \nStored residual energies, square-edged parts, \npoints and corners on and in the unit or on the \nrequired tools can cause injuries. \nTherefore: \n– Ensure there is enough clear space before \nstarting work. \n– Handle open, sharp edged components with \ncare. \n– Ensure tidiness and cleanliness at the work \nplace! Loosely stacked or scattered \ncomponents represent an accident risk. \n– Remove components in an expert manner. \nHeed the high weight of some parts. Use lifting \ngear if necessary. \n– Secure components to prevent them from falling \nor toppling over. \n– Consult the manufacturer in case of questions. \n      \n \n \n10.2 Disassembly \nClean the plant to be disassembled and dismantle it according to \napplicable industrial safety and environment protection regulations. \n      \nBefore starting removal: \n Switch off the plant and secure it against switchi ng on. \n Physically separate the plant from all energy supp lies and \ndischarge stored residual energies. \n Remove operating and auxiliary media as well as re sidual \nprocessing material and dispose of them in an environmentally \ncompatible manner. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 102,
+      "text": " \nNon-Ferrous Metal Separator NES \n Disassembly \n \n \n102  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n10.3 Disposal \nRecycle dismantled parts unless a return or disposal arrangement \nwas made: \n Scrap metals. \n Have plastic parts recycled. \n Dispose of all other components sorted according t o material \ntype. \n   \n \nCAUTION! \nEnvironmental damage due to incorrect \ndisposal! \nElectric scrap, electronic components, lead \ncomponents, lubricants and other operating media \nmust be treated as special waste und may be \ndisposed of by approved disposal companies only! \n \nLocal authorities or specialised waste management companies \nprovide information regarding environmentally compatible disposal. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 103,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n103  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n11 Appendix \n \n11.1  Dimension sheet \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 104,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n104  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 105,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 106,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 107,
+      "text": "",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 108,
+      "text": "",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 109,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n105  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n11.2 Installation plan \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 110,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n106  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 111,
+      "text": "",
+      "width": 1191.0,
+      "height": 842.0
+    },
+    {
+      "page": 112,
+      "text": "",
+      "width": 1191.0,
+      "height": 842.0
+    },
+    {
+      "page": 113,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n107  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n11.3 3-phase motor ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 114,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n108  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 115,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n109  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n11.4 Gear \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 116,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n110  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 117,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n111  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n11.5 Inductive Sensor \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 118,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n112  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 119,
+      "text": "1: LED yellow\n2: LED green\nMade in Germany\nProduct characteristics\nInductive sensor\nRectangular, plastics\nConnector\nSensing face in 5 positions selectable\nSensing range 35 mm [nf]\nnon-flush mountable\nElectrical data\nDC PNPElectrical design\n10...36 DCOperating voltage [V]\n< 20Current consumption [mA]\nIIProtection class\nyesReverse polarity protection\nOutputs\nnormally openOutput function\n< 2.5Voltage drop [V]\n< 0.1Leakage current [mA]\n200Current rating [mA]\npulsedShort-circuit protection\nyesOverload protection\n80Switching frequency [Hz]\nMonitoring range\n35Sensing range [mm]\n35 ± 10 %Real sensing range (Sr) [mm]\n0...28.3Operating distance [mm]\nAccuracy / deviations\nmild steel = 1 / stainless steel approx. 0.7 / brass approx. 0.4 / Al approx. 0.4 / Cu\napprox. 0.3\nCorrection factors\nInductive sensorsIM5116 FBP22 02596",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 120,
+      "text": "1...20Hysteresis [% of Sr]\n-10...10Switch-point drift [% of Sr]\nEnvironment\n-25...70Ambient temperature [°C]\nIP 67Protection\nTests / approvals\nEMC 8 kV CD / 6 kV ADEN 61000-4-2 ESD:\n10 V/m (80...1000 MHz)EN 61000-4-3 HF radiated:\n2 kVEN 61000-4-4 Burst:\n0.5 kV (line to line, Ri: 2Ohm)EN 61000-4-5 Surge:\n10 V (0.15...80 MHz)EN 61000-4-6 HF conducted:\nclass BEN 55011:\n1494MTTF [Years]\nMechanical data\nnon-flush mountableMounting\nPA (polyamide)Housing materials\n0.151Weight [kg]\nDisplays / operating elements\nyellowOutput status indication LED\ngreenOperation LED\nElectrical connection\nM12 connector; rotatable, lockingConnection\nWiring\nRemarks\nRemarks cULus - Class 2 source required\nifm electronic gmbh • Friedrichstraße 1 • 45128 Essen — We reserve the right to make technical alterations without prior notice. — GB — IM5116 — 28.09.2005\nInductive sensorsIM5116",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 121,
+      "text": "Montage / Installation / Montage\nbündig / flush / encastrable\n/MT51/MT32/MT120/MT32 /MT83/MT110\n/MT56/MT120/MT83/MT110\n/MT97 /MT97/MT97\nnicht bündig / non flush / non encastrable\n/MT51/MT32/MT120/MT32 /MT83/MT110 /MT97/MT50/MT32/MT120/MT32/MT97 /MT50/MT32/MT120/MT32/MT97\n/MT97\n/MT56/MT120/MT83/MT110\n/MT50/MT44/MT53/MT32/MT120/MT32/MT97/MT97 /MT97\nAktive Fläche ausrichten / Alignment of the sensing face / \nOrientation de la face active\n1\n2\nLED grün / green / verte1: \nLED gelb / jaune / yellow2: \n1\n23 4\nifm electronic gmbh • Friedrichstraße 1 • 45128 Essen • Germany\nTel. +49 201 24220  •  Fax: +49 201 24221200  •  http://www.ifm.com  •  e-mail: info@ifm.com\n704178 / 00     02 / 2007",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 122,
+      "text": "",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 123,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n113  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n11.6  Operating instructions, controller ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 124,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n114  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 125,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n115  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n11.7 Wiring diagrams ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 126,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n116  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 127,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n117  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n11.8 Spare parts list ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 128,
+      "text": " \nNon-Ferrous Metal Separator NES \n Appendix \n \n \n118  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 129,
+      "text": " \n \n  \n \nGB_Ersatzteile E 50...-13  \n \nSpare part list NES ... ... E 50... \n3,12 2 9 7 4, 6 \n \n10,11 8 5  1 13  \n \nAttention!  Please indicate manufacturer's no. and our commiss ion no. for any spare parts order! \n \nItem. Qty. Spare part  \nNES 50 …  \n140 E50… \nNES 75 …  \n140 E50… \nNES 100 …  \n220 E50… \nNES 125 …  \n220 E50… \nNES 150 …  \n220 E50… \nNES 200 …  \n220 E50… \n1 1 Conveyor belt mm  800 x 4380 \nFBP09 15443  \n940 x 4380 \nFBP09 00036  \n1190 x 5970  \nFBP09 14165  \n1440 x 5970  \nFBP09 00058  \n1690 x 5970  \nFBP09 14226  \n2190 x 5970  \nFBP09 00072  \n2 1 \nOff- track sensor IM 5116  FBP22 02596  \nConnectors               FBP22 03855  \n3 1 \nDrive motor \nconveyor belt \nWorm gear motor ( SEW ) \nSA67 DRN100 L4 \nP= 2,2 kW; n= 102 rpm; d= 45 mm \nM4B \nFBP07 01279  \nSA67 DRN100 L4 \nP= 3,0 kW ; n= 106 rpm;  \nd= 45 mm; M4B \nFBP07 01332  \nObserve tension and frequency on type plate! \n4 1 \nDrive motor  \nPole system \nThreephase current motor ( SEW ) \nDRE132 S4/ FL \nP= 4,0 kW; n= 1460 rpm; \nFlange ∅ = 200 mm \nFBP07 01340  \nDRN132 S4/ FL \nP= 5,5 kW; n= 1768 rpm; \nFlange ∅ = 250 mm \nFBP07 01281  \nObserve tension and frequency on type plate!  \n \nAlways observe the specified output speed of the three-phase motor. \nIf the output speed is exceeded, this will lead to a total failure of the systems. \nDanger to life! \n5 2 Bearing PHUSE 50 \nFBP14 14219  \n6 1 Clutch \nN-Eupex B 80 (Flender)  \n \nFBP14 14372  \n30-38 \nFBP14 14370  \n7 2 Rubber skirt \n70° Sh \n4 x 75 x 1955 \nBSXXX 00415  \n4 x 75 x 2755 \nFBP26 00217  \n8 2 Belt steering rollers BSNES 00364  \n9 X x Belt support rollers 1 x \nFBP09 15445  \n1 x \nFBP09 14801  \n2 x \nFBP09 14325  \n2 x \nFBP09 14799  \n2 x \nFBP09 14323  \n2 x \nFBP09 00074  \n10 1 Drive side stub shaft FBP03 16081  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 130,
+      "text": " \n \n  \n \nGB_Ersatzteile E 50...-13  \n \nItem. Qty. Spare part  \nNES 50 …  \n140 E50… \nNES 75 …  \n140 E50… \nNES 100 …  \n220 E50… \nNES 125 …  \n220 E50… \nNES 150 …  \n220 E50… \nNES 200 …  \n220 E50… \n11 1 Non drive side stub \nshaft FBP03 16082  \n12 1 Torque arm SA 67 \nFBP08 15059  \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 131,
+      "text": " \n \n  1 / 2 \n \nGB_Ersatzteile E 50... Poltrommel-03 \n \nSpare part list pole drum - NES ... ... E 50... \n3 4 2 9 8 10 6 7 \n \n 1 5 \n \nAttention! Please indicate manufacturers no. and commission no. for any spare parts order! \n \n \nItem Qty. Spare part \nNES 50 … NES 75 … NES 100 … NES 125 … NES 150 … NES 200 … \n… E 50… \n1 2 Deep groove ball \nbearing \n61872 MA \nFBP14 14053  \n2 2 Self-aligning bearing \nwith metal cage \n22210 E \nFBP14 14340  \n3 2 Shaft nut KM10 DIN 981 – M50 x 1,5 x 61 \nFBP14 15176  \n4 2 Safety plate DIN 5406 – MB10 – 2 – 50 x 61 \nFBP14 15177  \n5 2 Shaft seal ring ISO 6194 – B5 – 380 x 420 x 20 \nFBP14 15175 \n6 2 Shaft seal ring VS - 55 \nFBP14 15179  \n7 1 Shaft seal ring VS - 40 \nFBP14 15180  \n8 1 Drum shell \n∅ 494 x … mm lg. \n805 \nFBP12 14031  \n945 \nFBP12 14619  \n1195 \nFBP12 14269  \n1445 \nFBP12 14620  \n1695 \nFBP12 14268  \n2195 \nFBP12 00006  \n9 1 Non drive side stub \nshaft FBP03 0452  \n10 1 Drive side stub shaft FBP03 0451  \n \n \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 132,
+      "text": " \n \n 2 /2 \n \nGB_Ersatzteile E 50... Poltrommel-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 133,
+      "text": " \nNon-Ferrous Metal Separator NES \n Index \n \n \n119  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n  \n12 Index \n \n \n3 \n3-phase motor .................................................. 107 \nA \nAccident .............................................................. 29 \nAcknowledging emergency stop ......................... 77 \nAcknowledging faults .......................................... 77 \nAdjustment hints ................................................. 64 \nAdjustment of non-ferrous metal separator ........ 62 \nAuthorised electrician ......................................... 15 \nAutomatic mode .................................................. 70 \nB \nBasic adjustment of magnet pole system ........... 59 \nBasic adjustment of splitter................................. 58 \nBelt speed adjustment ........................................ 64 \nBrief description .................................................. 38 \nC \nChecking conveyor belt and GRP drum jacket... 84 \nChecking lateral ribs and scraper of conveyor belt \n ........................................................................ 85 \nChecking the conveyor belt ................................ 86 \nChecking the conveyor belt cross rib ................. 85 \nChecking the conveyor belt skew sensor ........... 86 \nChecking the conveyor belt speed sensor ......... 86 \nChecking the conveyor belt surface ................... 85 \nChecking the fastening of the GRP drum jacket 84 \nChecking the material discharge ........................ 97 \nCleaning.............................................................. 80 \nCommissioning ................................................... 57 \nConnection ......................................................... 57 \nConnections ........................................................ 39 \nConstruction ....................................................... 37 \nConsumables ................................................ 23, 36 \nContact person ................................................... 12 \nControls .............................................................. 42 \nCopyright ............................................................ 12 \nCustomer service ................................................12 \nD \nDanger zone .......................................................29 \nDecals .................................................................30 \nDimension sheet ...............................................103 \nDisassembly......................................................101 \nDisplay of due maintenance ...............................83 \nDisposal ............................................................102 \nDusts \nexplosive .........................................................21 \nnoxious ............................................................21 \nE \nEccentric system pole drum adjustment .............68 \nElectrical power ..................................................20 \nEmergency stop ..................................................71 \nEmergency stop button .......................................25 \nLocation ...........................................................41 \nEmissions............................................................35 \nEnvironmental protection ....................................29 \nF \nFire ......................................................................29 \nFirst aid ...............................................................29 \nG \nGear ..................................................................109 \nGRP jacket and storage ......................................91 \nH \nHazards ...............................................................19 \nI \nInductive sensor ..................................................26 \nInductive Sensor ...............................................111 \nInspection hatches ..............................................26 \nInspections ................................................... 59, 98 \nInstallation plan .................................................105 \nInstruction ...........................................................15 \nIntended use .......................................................17 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 134,
+      "text": " \nNon-Ferrous Metal Separator NES \n Index \n \n \n120  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nL \nLiability ............................................................... 11 \nLifting eyes ......................................................... 49 \nList of mechanical faults .................................... 76 \nLonger standstill ................................................. 95 \nLubricants .......................................................... 29 \nLubricating drives ............................................... 95 \nLubricating roller bearings ................................. 94 \nM \nMagnetic radiation ....... 19, 44, 53, 60, 73, 79, 100 \nMaintenance \nMaintenance schedule ................................... 81 \nMaintenance steps ......................................... 84 \nMalfunctions ....................................................... 72 \nFault indicators ............................................... 75 \nTroubleshooting ............................................. 77 \nManual mode ..................................................... 70 \nMaster switch ............................................... 25, 26 \nMaterial \nfalling .............................................................. 22 \nN \nNoise ............................................................ 20, 35 \nO \nOperating conditions .......................................... 35 \nOperating instructions, controller ..................... 113 \nOperating modes ............................................... 43 \nOperation ........................................................... 60 \nOverview ............................................................ 37 \nOwner ................................................................ 14 \nP \nPackaging .................................................... 44, 48 \nPersonal \nCommissioning ............................................... 53 \nPole system ....................................................... 64 \nProtective equipment ......................................... 18 \nBreathing protection ....................................... 18 \nGoggles .................................................... 18, 58 \nHard hat .......................................................... 19 \nHearing protection .............................. 18, 32, 58 \nInstallation .......................................... 53, 72, 78 \nOperation ........................................................ 60 \nProtective gloves ............................................ 18 \nSafety harness................................................ 19 \nSafety shoes ................................................... 18 \nR \nRemoval ........................................................... 100 \nReplacing belt steering rollers ............................ 96 \nReplacing the conveyor belt ......................... 86, 88 \nRisk of fire .......................................................... 21 \nS \nSafety \nGeneral ........................................................... 13 \nSafety devices .................................................... 24 \nScrew tightening torques ................................... 98 \nSigns .................................................................. 30 \nSpare parts ......................................................... 12 \nSpare parts list ................................................. 117 \nSpecialist staff .................................................... 15 \nSplitter ................................................................ 65 \nStaff \nInstallation ...................................................... 53 \nMaintenance ................................................... 78 \nMalfunctions ................................................... 72 \nRemoval ....................................................... 100 \nRequirements ................................................. 15 \nStorage ......................................................... 44, 51 \nSurfaces, hot ...................................................... 23 \nSwitching off ....................................................... 70 \nSwitching on ....................................................... 70 \nSwitch-on protection .......................................... 28 \nSymbols \nin the danger area .......................................... 30 \nin the instructions ........................................... 10 \non the packaging ............................................ 47 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 135,
+      "text": " \nNon-Ferrous Metal Separator NES \n Index \n \n \n121  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \nT \nTechnical data .................................................... 33 \nTightening the conveyor belt .............................. 87 \nTightening torques, screws................................. 98 \nTransport ...................................................... 44, 49 \nCrane ........................................................ 49, 50 \nFork lift ............................................................ 50 \nTransport inspection ........................................... 48 \nType plate ...........................................................35 \nV \nVibrations ............................................................22 \nW \nWarranty .............................................................12 \nWiring diagrams ................................................115 \nWork area ...........................................................40 \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 136,
+      "text": " \nNon-Ferrous Metal Separator NES \n Index \n \n \n122  \nGB_NES 050-200 _ E50_ + NES 050-250_ E61_-03 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 136
+}

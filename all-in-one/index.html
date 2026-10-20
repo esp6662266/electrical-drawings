@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ko" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="설비별 전기도면과 PLC 자료를 정리하는 빈 작업 양식"><title>전기도면 · 설비 매뉴얼과 PLC 작업실</title>
+<meta name="description" content="설비별 원본 도면·PLC 참조·매뉴얼·점검 기록을 연결하는 작업실"><title>전기도면 · 설비 매뉴얼과 PLC 작업실</title>
 <link rel="icon" href="../favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/all-in-one.css"><link rel="stylesheet" href="assets/bc01-tools.css"><link rel="stylesheet" href="assets/template.css"></head><body>
 <a class="skip" href="#workspace">본문으로 이동</a>
 <aside class="sidebar" aria-label="통합 메뉴와 설비 선택">
@@ -15,8 +15,8 @@
 <div class="scope-switch" role="group" aria-label="설비 목록 범위"><button type="button" data-scope="priority" aria-pressed="true">우선 설비</button><button type="button" data-scope="all" aria-pressed="false">전체 설비</button></div>
 <label class="sr-only" for="equipment-search">설비·주소 검색</label><input id="equipment-search" type="search" placeholder="설비명·태그·I/O 주소 검색" autocomplete="off">
 <label class="sr-only" for="equipment-group">설비 영역</label><select id="equipment-group"><option value="">전체 영역</option></select><div id="equipment-list" class="equipment-list" aria-label="설비 목록"></div></section>
-<p class="sidebar-foot">v1.0.0 · 전기도면 빈 양식<br>설비별 자료를 등록해 시작합니다.</p></aside>
-<div class="app-body"><header class="app-header"><div><span class="eyebrow">매뉴얼 · 수리 · 구조 분석 · 개선</span><strong>하나의 화면, 같은 설비 기준</strong></div><div class="header-status"><span class="dot"></span>전기도면 작업실 <span class="chip">자료 등록 준비</span></div></header>
+<p class="sidebar-foot">v1.3.1 · 1~15번 설비 자료실·매뉴얼<br>원본·미확정 항목을 함께 관리합니다.</p></aside>
+<div class="app-body"><header class="app-header"><div><span class="eyebrow">매뉴얼 · 수리 · 구조 분석 · 개선</span><strong>하나의 화면, 같은 설비 기준</strong></div><div class="header-status"><span class="dot"></span>전기도면 작업실 <span class="chip">도면 기반 정리</span></div></header>
 <section class="context" aria-labelledby="context-title"><div><span id="context-kicker" class="eyebrow">전기도면 · 독립 프로젝트</span><h1 id="context-title">통합 현황</h1><p id="context-meta"></p></div><button type="button" data-view="setup">설비 등록</button></section>
 <nav id="device-tabs" class="device-tabs" aria-label="선택 설비 작업"></nav>
 <main id="workspace" tabindex="-1"><div id="workspace-content"></div></main>

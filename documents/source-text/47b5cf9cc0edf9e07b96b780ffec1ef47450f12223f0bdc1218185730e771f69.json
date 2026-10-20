@@ -1,0 +1,32 @@
+{
+  "sha256": "47b5cf9cc0edf9e07b96b780ffec1ef47450f12223f0bdc1218185730e771f69",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "PLC/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "encrypted": false
+    },
+    {
+      "name": "PLC/용해로30TON 260204.xgwx",
+      "bytes": 13788,
+      "compressed_bytes": 13420,
+      "encrypted": false
+    },
+    {
+      "name": "전기도면/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "encrypted": false
+    },
+    {
+      "name": "전기도면/30TON 용해로 전기도면.dwg",
+      "bytes": 3481511,
+      "compressed_bytes": 2722127,
+      "encrypted": false
+    }
+  ]
+}

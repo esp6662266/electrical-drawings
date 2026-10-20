@@ -1,0 +1,14 @@
+{
+  "sha256": "fb2d78278bda04ceb509ec805dc2f688a315346035ef184bf319aab3eec95dfd",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "T200\n02\nR205\n00\nCH 02\nP0040 P0041\n01\n10 2\n0604\nP0042 P0043\n03\nP0044 P0045\n05 COM\nP0046 P0047\n07\nR206 P0048\n08\n43 5 6 7 8\nT200\nP0049 P004A\n09 10\nP004B P004C\n11 12\nU200\nCOM\n9 10 11 12 13 14\nR205\n15 16\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nPLC Digital Output Diagram-01\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nMC-01\nDoor open\nDoor close\nExhaust ags dmper open\nNO-01- Ignition trans\nMD-01 MC-02 MD-02 RY-004 RY-005 RY-006 RY-007 RY-008 RY-009 RY-010 RY-011 RY-012\nExhaust ags dmper close\nNO-01- pilot solenoid valve\nNO-01- main solenoid valve\nNO-02- Ignition trans\nNO-02- pilot solenoid valve\nNO-02- main solenoid valve\n2011-02\nALCO -2011 - E010 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nCylinder on\nCylinder off\nAIR CONTROL VALVE OPRN",
+      "width": 841.68,
+      "height": 595.2
+    }
+  ],
+  "page_count": 1
+}

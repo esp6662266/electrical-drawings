@@ -1,0 +1,14 @@
+{
+  "sha256": "3dd01bac76509c5b0a77ec0a72ed67c190941aa5d0e3261430f43ea652d5a76e",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "세진메탈 로 장입대 2025. 09. 04.",
+      "width": 842.0,
+      "height": 1191.0
+    }
+  ],
+  "page_count": 1
+}

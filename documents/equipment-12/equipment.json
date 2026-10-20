@@ -1,0 +1,1405 @@
+{
+  "id": "DUST-12",
+  "name": "12번 집진기",
+  "group": "집진·여과·배기",
+  "location": "사용자 지정 12번 설비 · 현재 명판/실물·적용 범위 미확정",
+  "priority": true,
+  "source_count": 198,
+  "archive_member_count": 10,
+  "source_unique_count": 208,
+  "source_pages": 586,
+  "source_version": "현재 PLC 프로젝트·전체 래더 미확보 · 도면/설명서 참조",
+  "description": "12번 집진기는 하나의 팬이나 제어반이 아니라 여러 공장/공정 집진 자료의 묶음입니다. UBC 300HP, 볼밀 1620CMM, 700CMM MCC, 여과/중력·사이클론·믹서/냉각기·배관/후드/스택을 자료 계통으로 나눴습니다. 기계 CAD와 그 PDF, 신청/완료 자료·설비 사양을 각각 보존했습니다.",
+  "documentation_status": "원본 보존·핵심 전기/제어/운전 자료 중심 문서화 완료(미확정 포함). 일반/부품 카탈로그 전체 페이지의 상세 판독·현재 적용 검증, 현장 측정·운전·수리·안전 시험은 미수행입니다.",
+  "native_plc_available": false,
+  "native_project_files": [],
+  "field_verified": false,
+  "manual_url": "/documents/equipment-12/manual.html",
+  "library_url": "/documents/equipment-12/library.html?source=Sa0211cb486f32020",
+  "source_manifest": "/documents/equipment-12/source-manifest.json",
+  "plc_analysis_note": "PLC 원본 프로젝트와 실행 래더는 미확보입니다. 도면상의 PLC 베이스/입출력·접점·단자·공정 설명을 현재 실행 프로그램으로 복원하지 않았습니다.",
+  "subsystems": [
+    {
+      "id": "DOC-12-1",
+      "name": "UBC·300마력/300HP",
+      "description": "주회로·팬/컨베어·보호·조작, 50톤 부대 집진기 수정도와 댐퍼 개조 자료입니다.",
+      "boundary": "동일 자료가 4번에도 있어 부대설비 연결 근거로만 공유."
+    },
+    {
+      "id": "DOC-12-2",
+      "name": "볼밀·3공장1620CMM",
+      "description": "2026-06-02/11/12 승인도 명칭의 전기 자료입니다.",
+      "boundary": "여러 날짜판과 팬/스크루/로타리밸브/댐퍼/펄스를 구분. 승인도 명칭을 현장 승인 완료로 해석하지 않음."
+    },
+    {
+      "id": "DOC-12-3",
+      "name": "그 외 집진 계통",
+      "description": "700CMM MCC·500/2000CMM 여과/중력·사이클론·믹서/냉각기·DUCT/HOOD·STACK 등입니다.",
+      "boundary": "12번 관리 폴더는 복수 설비 자료 묶음. 용량·팬 정격·주소를 통합하지 않음."
+    }
+  ],
+  "manual": {
+    "overview": "12번 집진기는 하나의 팬이나 제어반이 아니라 여러 공장/공정 집진 자료의 묶음입니다. UBC 300HP, 볼밀 1620CMM, 700CMM MCC, 여과/중력·사이클론·믹서/냉각기·배관/후드/스택을 자료 계통으로 나눴습니다. 기계 CAD와 그 PDF, 신청/완료 자료·설비 사양을 각각 보존했습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.\n\n원본 범위\n폴더 파일 198개, 압축 내부 자료 10개, 고유 해시 208개입니다. 동일 내용의 원래 경로·이름을 보존했고 서로 다른 버전은 유지했습니다. Windows 캐시/로그는 기술 자료 목록에서 제외했습니다. PDF·이미지 미리보기, 추출 본문·표·원본은 자료실에서 확인할 수 있습니다. DOC/HWP/PPT/Excel 열람은 원본 페이지/도형 배치를 재현한 것이 아닙니다.",
+    "io": "팬·스크루·로터리밸브·댐퍼·펄스·온도계·전력량계·비상/전원 조작을 해당 반 자료에 귀속시켰습니다. 1620CMM 전면도에는 송풍기1/2, 스크루1~4, 로타리밸브1~6, 댐퍼1/2·펄스1/2가 보입니다. 이는 패널/회로 참조이며 PLC 메모리 할당을 확정한 것이 아닙니다. 300HP 회로의 장치 기호를 다른 CMM 제어반으로 복사하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "control": "집진은 배기팬 동력/보호, 분진 이송 스크루·로터리밸브, 펄스/댐퍼, 현장 조작/비상 및 공정 연동을 별도로 추적합니다. 2026 댐퍼 개조와 1620CMM 여러 판의 기능/현장 적용은 대조 전입니다. PLC/HMI 프로젝트·집진 순서·지연·연동/안전 로직은 미확정이며 도면 접점 회로를 래더로 변환하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "circuits": "300HP 도면의 MAIN CIRCUIT와 CONTROL CIRCUIT, 소프트스타터/팬·주변 모터/보호 분기를 분리합니다. 1620CMM의 전면도/기기 및 회로, 700CMM MCC, 각 CMM 기계/유로는 별개 자료입니다. 덕트·후드·필터·사이클론 구조도와 전기 전달 경로를 구분하고 차단기·모터·풍량 수치를 다른 계통의 현행값으로 합치지 않습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "alarms": "팬/보조 모터 보호, 온도·댐퍼/배기 상태와 필터·이송 막힘은 원본과 현장을 대조할 점검 범주입니다. 실제 차압·온도·풍량 한계·퍼지/정지 순서·펄스 주기는 미확보입니다. 대기배출시설 신청/완료 문서나 백필터 교체 보고서를 이번 점검 또는 현재 허가/성능검증 완료로 표시하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "repair": "1. 팬 구동/보호 이상\n대상 공정·CMM·반번호부터 식별하고 동력/보호/제어 분리\n근거: 300HP 집진기 전기도면.pdf · PDF 1쪽\n\n2. 분진 이송·펄스·댐퍼 불량\n스크루/로타리/펄스/댐퍼를 해당1620CMM 도면에서 추적\n근거: 3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽\n\n3. 포집/필터/덕트 문제\n해당 설비의 후드→덕트→분리/여과→팬 경로를 식별\n근거: 세진메탈 MCC 판넬.pdf · PDF 1쪽\n\n4. 개조판 동작 불일치\n2026 댐퍼 개조·6월1620CMM 날짜판과 현장 반영 비교\n근거: 집진기댐퍼 조작반 외함_260301.pdf · PDF 1쪽\n\n기록 기준\n실제 최초 시각·표시/코드·정지 구간·관찰·측정·조치·복구 근거를 구분해 수리 기록 양식에 남깁니다. 이번 작업에서 현장 고장/수리 이력을 새로 생성하지 않았습니다.",
+    "completion": "작성한 것\n- 사용자 지정 폴더 원본 198개와 압축 내부 10개 연결·해시 보존\n- 설비 계통 구분·7개 매뉴얼 항목·전기/I/O/단자 참조 6행·조작 참조 3행\n- 핵심 PDF 페이지 미리보기 68개·원본 자료실·추출 텍스트/표/그림 연결\n- 증상별 점검 4개·확인 대장 6개\n\n미확정·추가 확인\n- 복수 집진 계통: 300HP·700/1620/2000/500CMM 등 혼재 / 공장/공정·명판·팬/반번호별 대응표\n- 1620CMM 개정: 2026-06-02/11/12 전기도면 / 최종 현장 적용/개조 범위·실물 대조\n- 단위/사양 적용: 국소배기 사양·허가신청·기계/완료 자료 / 현재 측정·승인·실제 정격과 구분\n- PLC/HMI 원본 및 현재 적용: 도면·설명서 범위로 정리 / 현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조\n- 현장·안전·복구 확인: 파일 검토·로컬 문서화만 수행 / 실제 관찰·측정·현재 보호/재기동·복구 기록 별도\n- 문서 판독 범위: 모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시. / 설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조\n\n판정\n문서화 완료(핵심 자료·정적 참조 범위)입니다. 전체 카탈로그의 모든 페이지 판독·PLC 전체 의미 해석·현장 운전/안전/복구 검증 완료가 아닙니다. 실제 수리 이력은 생성하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "300HP 집진기 전기도면.pdf",
+        "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1"
+      },
+      {
+        "label": "집진기댐퍼 조작반 외함_260301.pdf",
+        "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 MCC 판넬.pdf",
+        "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면(2).dwg",
+        "url": "/documents/equipment-12/library.html?source=S7c8184af8d919a5d"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(1).pdf",
+        "url": "/documents/source-store/d1e835918d60eb58ca9e163902fa69795ec251cd1fa628c3a155f71e887851f8.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(2).pdf",
+        "url": "/documents/source-store/f543d47a62bac41990041f3dc6cdd854efdb0b92ceb53556fad07e4202b7dde3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(3).pdf",
+        "url": "/documents/source-store/5519bc4c069753d27e1ed57df5a3350ebb461b812872099d0463fe12bd018d4b.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-1.pdf",
+        "url": "/documents/source-store/fb09da432a3d96edd324ff7aac270078f85468d9533275fe71a7c36f1b749ad7.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-10.pdf",
+        "url": "/documents/source-store/f33db815c7240f31fc3922870e5f3b6dc78436adefc7946a2e93735d5e363316.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-11.pdf",
+        "url": "/documents/source-store/17684f406018b359aaeb1f9d3d99794ce076fe4e7d6aaf960a2b2be3ced99ddc.pdf#page=1"
+      }
+    ],
+    "io": [
+      {
+        "label": "300HP 집진기 전기도면.pdf",
+        "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1"
+      },
+      {
+        "label": "집진기댐퍼 조작반 외함_260301.pdf",
+        "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 MCC 판넬.pdf",
+        "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면(2).dwg",
+        "url": "/documents/equipment-12/library.html?source=S7c8184af8d919a5d"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(1).pdf",
+        "url": "/documents/source-store/d1e835918d60eb58ca9e163902fa69795ec251cd1fa628c3a155f71e887851f8.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(2).pdf",
+        "url": "/documents/source-store/f543d47a62bac41990041f3dc6cdd854efdb0b92ceb53556fad07e4202b7dde3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(3).pdf",
+        "url": "/documents/source-store/5519bc4c069753d27e1ed57df5a3350ebb461b812872099d0463fe12bd018d4b.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-1.pdf",
+        "url": "/documents/source-store/fb09da432a3d96edd324ff7aac270078f85468d9533275fe71a7c36f1b749ad7.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-10.pdf",
+        "url": "/documents/source-store/f33db815c7240f31fc3922870e5f3b6dc78436adefc7946a2e93735d5e363316.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-11.pdf",
+        "url": "/documents/source-store/17684f406018b359aaeb1f9d3d99794ce076fe4e7d6aaf960a2b2be3ced99ddc.pdf#page=1"
+      }
+    ],
+    "control": [
+      {
+        "label": "300HP 집진기 전기도면.pdf",
+        "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1"
+      },
+      {
+        "label": "집진기댐퍼 조작반 외함_260301.pdf",
+        "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 MCC 판넬.pdf",
+        "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면(2).dwg",
+        "url": "/documents/equipment-12/library.html?source=S7c8184af8d919a5d"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(1).pdf",
+        "url": "/documents/source-store/d1e835918d60eb58ca9e163902fa69795ec251cd1fa628c3a155f71e887851f8.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(2).pdf",
+        "url": "/documents/source-store/f543d47a62bac41990041f3dc6cdd854efdb0b92ceb53556fad07e4202b7dde3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(3).pdf",
+        "url": "/documents/source-store/5519bc4c069753d27e1ed57df5a3350ebb461b812872099d0463fe12bd018d4b.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-1.pdf",
+        "url": "/documents/source-store/fb09da432a3d96edd324ff7aac270078f85468d9533275fe71a7c36f1b749ad7.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-10.pdf",
+        "url": "/documents/source-store/f33db815c7240f31fc3922870e5f3b6dc78436adefc7946a2e93735d5e363316.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-11.pdf",
+        "url": "/documents/source-store/17684f406018b359aaeb1f9d3d99794ce076fe4e7d6aaf960a2b2be3ced99ddc.pdf#page=1"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "300HP 집진기 전기도면.pdf",
+        "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1"
+      },
+      {
+        "label": "집진기댐퍼 조작반 외함_260301.pdf",
+        "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 MCC 판넬.pdf",
+        "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면(2).dwg",
+        "url": "/documents/equipment-12/library.html?source=S7c8184af8d919a5d"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(1).pdf",
+        "url": "/documents/source-store/d1e835918d60eb58ca9e163902fa69795ec251cd1fa628c3a155f71e887851f8.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(2).pdf",
+        "url": "/documents/source-store/f543d47a62bac41990041f3dc6cdd854efdb0b92ceb53556fad07e4202b7dde3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(3).pdf",
+        "url": "/documents/source-store/5519bc4c069753d27e1ed57df5a3350ebb461b812872099d0463fe12bd018d4b.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-1.pdf",
+        "url": "/documents/source-store/fb09da432a3d96edd324ff7aac270078f85468d9533275fe71a7c36f1b749ad7.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-10.pdf",
+        "url": "/documents/source-store/f33db815c7240f31fc3922870e5f3b6dc78436adefc7946a2e93735d5e363316.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-11.pdf",
+        "url": "/documents/source-store/17684f406018b359aaeb1f9d3d99794ce076fe4e7d6aaf960a2b2be3ced99ddc.pdf#page=1"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "300HP 집진기 전기도면.pdf",
+        "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1"
+      },
+      {
+        "label": "집진기댐퍼 조작반 외함_260301.pdf",
+        "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 MCC 판넬.pdf",
+        "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면(2).dwg",
+        "url": "/documents/equipment-12/library.html?source=S7c8184af8d919a5d"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(1).pdf",
+        "url": "/documents/source-store/d1e835918d60eb58ca9e163902fa69795ec251cd1fa628c3a155f71e887851f8.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(2).pdf",
+        "url": "/documents/source-store/f543d47a62bac41990041f3dc6cdd854efdb0b92ceb53556fad07e4202b7dde3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(3).pdf",
+        "url": "/documents/source-store/5519bc4c069753d27e1ed57df5a3350ebb461b812872099d0463fe12bd018d4b.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-1.pdf",
+        "url": "/documents/source-store/fb09da432a3d96edd324ff7aac270078f85468d9533275fe71a7c36f1b749ad7.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-10.pdf",
+        "url": "/documents/source-store/f33db815c7240f31fc3922870e5f3b6dc78436adefc7946a2e93735d5e363316.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-11.pdf",
+        "url": "/documents/source-store/17684f406018b359aaeb1f9d3d99794ce076fe4e7d6aaf960a2b2be3ced99ddc.pdf#page=1"
+      }
+    ],
+    "repair": [
+      {
+        "label": "300HP 집진기 전기도면.pdf",
+        "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1"
+      },
+      {
+        "label": "집진기댐퍼 조작반 외함_260301.pdf",
+        "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 MCC 판넬.pdf",
+        "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면(2).dwg",
+        "url": "/documents/equipment-12/library.html?source=S7c8184af8d919a5d"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(1).pdf",
+        "url": "/documents/source-store/d1e835918d60eb58ca9e163902fa69795ec251cd1fa628c3a155f71e887851f8.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(2).pdf",
+        "url": "/documents/source-store/f543d47a62bac41990041f3dc6cdd854efdb0b92ceb53556fad07e4202b7dde3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(3).pdf",
+        "url": "/documents/source-store/5519bc4c069753d27e1ed57df5a3350ebb461b812872099d0463fe12bd018d4b.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-1.pdf",
+        "url": "/documents/source-store/fb09da432a3d96edd324ff7aac270078f85468d9533275fe71a7c36f1b749ad7.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-10.pdf",
+        "url": "/documents/source-store/f33db815c7240f31fc3922870e5f3b6dc78436adefc7946a2e93735d5e363316.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-11.pdf",
+        "url": "/documents/source-store/17684f406018b359aaeb1f9d3d99794ce076fe4e7d6aaf960a2b2be3ced99ddc.pdf#page=1"
+      }
+    ],
+    "completion": [
+      {
+        "label": "300HP 집진기 전기도면.pdf",
+        "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1"
+      },
+      {
+        "label": "집진기댐퍼 조작반 외함_260301.pdf",
+        "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 MCC 판넬.pdf",
+        "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면(2).dwg",
+        "url": "/documents/equipment-12/library.html?source=S7c8184af8d919a5d"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(1).pdf",
+        "url": "/documents/source-store/d1e835918d60eb58ca9e163902fa69795ec251cd1fa628c3a155f71e887851f8.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(2).pdf",
+        "url": "/documents/source-store/f543d47a62bac41990041f3dc6cdd854efdb0b92ceb53556fad07e4202b7dde3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-(3).pdf",
+        "url": "/documents/source-store/5519bc4c069753d27e1ed57df5a3350ebb461b812872099d0463fe12bd018d4b.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-1.pdf",
+        "url": "/documents/source-store/fb09da432a3d96edd324ff7aac270078f85468d9533275fe71a7c36f1b749ad7.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-10.pdf",
+        "url": "/documents/source-store/f33db815c7240f31fc3922870e5f3b6dc78436adefc7946a2e93735d5e363316.pdf#page=1"
+      },
+      {
+        "label": "세진메탈300마력 집진기 수정도면-11.pdf",
+        "url": "/documents/source-store/17684f406018b359aaeb1f9d3d99794ce076fe4e7d6aaf960a2b2be3ced99ddc.pdf#page=1"
+      }
+    ]
+  },
+  "io": [
+    {
+      "system": "3공장 볼밀1620CMM · PLC주소 아님",
+      "direction": "패널 기능 참조",
+      "address": "송풍기1/2",
+      "name": "배기팬 조작",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=1"
+    },
+    {
+      "system": "3공장 볼밀1620CMM · PLC주소 아님",
+      "direction": "패널 기능 참조",
+      "address": "스크류1~4",
+      "name": "분진 이송 조작",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=1"
+    },
+    {
+      "system": "3공장 볼밀1620CMM · PLC주소 아님",
+      "direction": "패널 기능 참조",
+      "address": "로터리밸브1~6",
+      "name": "배출 조작",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=1"
+    },
+    {
+      "system": "3공장 볼밀1620CMM · PLC주소 아님",
+      "direction": "패널 기능 참조",
+      "address": "댐퍼1/2",
+      "name": "댐퍼 조작",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=1"
+    },
+    {
+      "system": "3공장 볼밀1620CMM · PLC주소 아님",
+      "direction": "패널 기능 참조",
+      "address": "펄스1/2",
+      "name": "펄스 조작",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=1"
+    },
+    {
+      "system": "3공장 볼밀1620CMM · PLC주소 아님",
+      "direction": "패널 기능 참조",
+      "address": "온도계 / 전력량계",
+      "name": "표시계기",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=1"
+    }
+  ],
+  "hmi": [
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "300HP 조작반",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "300HP 집진기 전기도면.pdf",
+      "description": "MAIN/CONTROL 구간·팬 및 부대 모터 조작",
+      "source": "300HP 집진기 전기도면.pdf · PDF 2쪽",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=2"
+    },
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "1620CMM 패널",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "3공장 1620CMM 전기도면_승인도_260611.pdf",
+      "description": "팬1/2·스크루·로타리·댐퍼·펄스·온도/전력",
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=1"
+    },
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "댐퍼 개조 외함",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "집진기댐퍼 조작반 외함_260301.pdf",
+      "description": "개조 공사·조작반 자료의 현장 적용 미확정",
+      "source": "집진기댐퍼 조작반 외함_260301.pdf · PDF 1쪽",
+      "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [],
+  "drawings": [
+    {
+      "name": "300HP 집진기 전기도면.pdf · 1쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "300HP 집진기 전기도면.pdf · PDF 1쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0001.webp"
+    },
+    {
+      "name": "300HP 집진기 전기도면.pdf · 2쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "300HP 집진기 전기도면.pdf · PDF 2쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=2",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0002.webp"
+    },
+    {
+      "name": "300HP 집진기 전기도면.pdf · 3쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "300HP 집진기 전기도면.pdf · PDF 3쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=3",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0003.webp"
+    },
+    {
+      "name": "300HP 집진기 전기도면.pdf · 4쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "300HP 집진기 전기도면.pdf · PDF 4쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=4",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0004.webp"
+    },
+    {
+      "name": "300HP 집진기 전기도면.pdf · 5쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "300HP 집진기 전기도면.pdf · PDF 5쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=5",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0005.webp"
+    },
+    {
+      "name": "300HP 집진기 전기도면.pdf · 6쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "300HP 집진기 전기도면.pdf · PDF 6쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=6",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0006.webp"
+    },
+    {
+      "name": "300HP 집진기 전기도면.pdf · 7쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "300HP 집진기 전기도면.pdf · PDF 7쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=7",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0007.webp"
+    },
+    {
+      "name": "300HP 집진기 전기도면.pdf · 8쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "300HP 집진기 전기도면.pdf · PDF 8쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=8",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0008.webp"
+    },
+    {
+      "name": "300HP 집진기 전기도면.pdf · 9쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "300HP 집진기 전기도면.pdf · PDF 9쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=9",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0009.webp"
+    },
+    {
+      "name": "300HP 집진기 전기도면.pdf · 10쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Sa0211cb486f32020 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "300HP 집진기 전기도면.pdf · PDF 10쪽",
+      "source_id": "Sa0211cb486f32020",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=10",
+      "preview": "/documents/source-previews/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5-0010.webp"
+    },
+    {
+      "name": "집진기댐퍼 조작반 외함_260301.pdf · 1쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Scf2b0c133416bbcc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "집진기댐퍼 조작반 외함_260301.pdf · PDF 1쪽",
+      "source_id": "Scf2b0c133416bbcc",
+      "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1",
+      "preview": "/documents/source-previews/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff-0001.webp"
+    },
+    {
+      "name": "집진기댐퍼 조작반 외함_260301.pdf · 2쪽",
+      "system": "UBC",
+      "kind": "원본 PDF",
+      "version": "원본 Scf2b0c133416bbcc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "집진기댐퍼 조작반 외함_260301.pdf · PDF 2쪽",
+      "source_id": "Scf2b0c133416bbcc",
+      "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=2",
+      "preview": "/documents/source-previews/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff-0002.webp"
+    },
+    {
+      "name": "세진메탈 MCC 판넬.pdf · 1쪽",
+      "system": "공통",
+      "kind": "원본 PDF",
+      "version": "원본 S711b4e9965373ca2 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈 MCC 판넬.pdf · PDF 1쪽",
+      "source_id": "S711b4e9965373ca2",
+      "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=1",
+      "preview": "/documents/source-previews/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309-0001.webp"
+    },
+    {
+      "name": "세진메탈 MCC 판넬.pdf · 2쪽",
+      "system": "공통",
+      "kind": "원본 PDF",
+      "version": "원본 S711b4e9965373ca2 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "세진메탈 MCC 판넬.pdf · PDF 2쪽",
+      "source_id": "S711b4e9965373ca2",
+      "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=2",
+      "preview": "/documents/source-previews/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309-0002.webp"
+    },
+    {
+      "name": "세진메탈 MCC 판넬.pdf · 3쪽",
+      "system": "공통",
+      "kind": "원본 PDF",
+      "version": "원본 S711b4e9965373ca2 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "세진메탈 MCC 판넬.pdf · PDF 3쪽",
+      "source_id": "S711b4e9965373ca2",
+      "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=3",
+      "preview": "/documents/source-previews/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309-0003.webp"
+    },
+    {
+      "name": "세진메탈 MCC 판넬.pdf · 4쪽",
+      "system": "공통",
+      "kind": "원본 PDF",
+      "version": "원본 S711b4e9965373ca2 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "세진메탈 MCC 판넬.pdf · PDF 4쪽",
+      "source_id": "S711b4e9965373ca2",
+      "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=4",
+      "preview": "/documents/source-previews/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309-0004.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-(1).pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 Sd1e835918d60eb58 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-(1).pdf · PDF 1쪽",
+      "source_id": "Sd1e835918d60eb58",
+      "url": "/documents/source-store/d1e835918d60eb58ca9e163902fa69795ec251cd1fa628c3a155f71e887851f8.pdf#page=1",
+      "preview": "/documents/source-previews/d1e835918d60eb58ca9e163902fa69795ec251cd1fa628c3a155f71e887851f8-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-(2).pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 Sf543d47a62bac419 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-(2).pdf · PDF 1쪽",
+      "source_id": "Sf543d47a62bac419",
+      "url": "/documents/source-store/f543d47a62bac41990041f3dc6cdd854efdb0b92ceb53556fad07e4202b7dde3.pdf#page=1",
+      "preview": "/documents/source-previews/f543d47a62bac41990041f3dc6cdd854efdb0b92ceb53556fad07e4202b7dde3-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-(3).pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 S5519bc4c069753d2 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-(3).pdf · PDF 1쪽",
+      "source_id": "S5519bc4c069753d2",
+      "url": "/documents/source-store/5519bc4c069753d27e1ed57df5a3350ebb461b812872099d0463fe12bd018d4b.pdf#page=1",
+      "preview": "/documents/source-previews/5519bc4c069753d27e1ed57df5a3350ebb461b812872099d0463fe12bd018d4b-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-1.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 Sfb09da432a3d96ed / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-1.pdf · PDF 1쪽",
+      "source_id": "Sfb09da432a3d96ed",
+      "url": "/documents/source-store/fb09da432a3d96edd324ff7aac270078f85468d9533275fe71a7c36f1b749ad7.pdf#page=1",
+      "preview": "/documents/source-previews/fb09da432a3d96edd324ff7aac270078f85468d9533275fe71a7c36f1b749ad7-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-10.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 Sf33db815c7240f31 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-10.pdf · PDF 1쪽",
+      "source_id": "Sf33db815c7240f31",
+      "url": "/documents/source-store/f33db815c7240f31fc3922870e5f3b6dc78436adefc7946a2e93735d5e363316.pdf#page=1",
+      "preview": "/documents/source-previews/f33db815c7240f31fc3922870e5f3b6dc78436adefc7946a2e93735d5e363316-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-11.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 S17684f406018b359 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-11.pdf · PDF 1쪽",
+      "source_id": "S17684f406018b359",
+      "url": "/documents/source-store/17684f406018b359aaeb1f9d3d99794ce076fe4e7d6aaf960a2b2be3ced99ddc.pdf#page=1",
+      "preview": "/documents/source-previews/17684f406018b359aaeb1f9d3d99794ce076fe4e7d6aaf960a2b2be3ced99ddc-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-12.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 S019062506c273db8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-12.pdf · PDF 1쪽",
+      "source_id": "S019062506c273db8",
+      "url": "/documents/source-store/019062506c273db8a05c8d62b6ba77f7ffdc14412c0d9760ff4c8785bfca0138.pdf#page=1",
+      "preview": "/documents/source-previews/019062506c273db8a05c8d62b6ba77f7ffdc14412c0d9760ff4c8785bfca0138-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-13.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 Sf0ec01fbf7d8c03d / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-13.pdf · PDF 1쪽",
+      "source_id": "Sf0ec01fbf7d8c03d",
+      "url": "/documents/source-store/f0ec01fbf7d8c03d212113abda33a7810c3a64cd726470b81a25df1523e61716.pdf#page=1",
+      "preview": "/documents/source-previews/f0ec01fbf7d8c03d212113abda33a7810c3a64cd726470b81a25df1523e61716-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-2.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 Sc8b5126dafebac6b / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-2.pdf · PDF 1쪽",
+      "source_id": "Sc8b5126dafebac6b",
+      "url": "/documents/source-store/c8b5126dafebac6b1dbd82ca9aae07036fb73a3fb0acb6c988d19aad06054df0.pdf#page=1",
+      "preview": "/documents/source-previews/c8b5126dafebac6b1dbd82ca9aae07036fb73a3fb0acb6c988d19aad06054df0-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-3.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 S24d9c2c021100da6 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-3.pdf · PDF 1쪽",
+      "source_id": "S24d9c2c021100da6",
+      "url": "/documents/source-store/24d9c2c021100da61659921dabdc112eb844bf83f63e16669937fd073664a597.pdf#page=1",
+      "preview": "/documents/source-previews/24d9c2c021100da61659921dabdc112eb844bf83f63e16669937fd073664a597-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-4.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 S4becd563bd5ec186 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-4.pdf · PDF 1쪽",
+      "source_id": "S4becd563bd5ec186",
+      "url": "/documents/source-store/4becd563bd5ec1867d4c75662412a1dc394ca0bbdbf4f89cd4dbe74fdc2fd7e3.pdf#page=1",
+      "preview": "/documents/source-previews/4becd563bd5ec1867d4c75662412a1dc394ca0bbdbf4f89cd4dbe74fdc2fd7e3-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-5.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 S648ac1bab2a4d383 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-5.pdf · PDF 1쪽",
+      "source_id": "S648ac1bab2a4d383",
+      "url": "/documents/source-store/648ac1bab2a4d3836a4c0b7d8b87fda6ea102ff32db4cb872bc7a232bc532c79.pdf#page=1",
+      "preview": "/documents/source-previews/648ac1bab2a4d3836a4c0b7d8b87fda6ea102ff32db4cb872bc7a232bc532c79-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-6.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 S9d46aaf913be9129 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-6.pdf · PDF 1쪽",
+      "source_id": "S9d46aaf913be9129",
+      "url": "/documents/source-store/9d46aaf913be91296133f0ba56c5c65c0e265052ed1a8ae1adf5e1b069945c4d.pdf#page=1",
+      "preview": "/documents/source-previews/9d46aaf913be91296133f0ba56c5c65c0e265052ed1a8ae1adf5e1b069945c4d-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-7.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 Sc6bf1ce7c6eebe78 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-7.pdf · PDF 1쪽",
+      "source_id": "Sc6bf1ce7c6eebe78",
+      "url": "/documents/source-store/c6bf1ce7c6eebe78e8a7e5926c191cf1aba2558e13b45b9b2de9dd3b045040e0.pdf#page=1",
+      "preview": "/documents/source-previews/c6bf1ce7c6eebe78e8a7e5926c191cf1aba2558e13b45b9b2de9dd3b045040e0-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-8.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 Sc09e2db97d843964 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-8.pdf · PDF 1쪽",
+      "source_id": "Sc09e2db97d843964",
+      "url": "/documents/source-store/c09e2db97d8439645a07a0fb4d051b187f5a42a943b6f6d06ae2ade7b77aecfe.pdf#page=1",
+      "preview": "/documents/source-previews/c09e2db97d8439645a07a0fb4d051b187f5a42a943b6f6d06ae2ade7b77aecfe-0001.webp"
+    },
+    {
+      "name": "세진메탈300마력 집진기 수정도면-9.pdf · 1쪽",
+      "system": "본사",
+      "kind": "원본 PDF",
+      "version": "원본 Sb10ea86aed8785a8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈300마력 집진기 수정도면-9.pdf · PDF 1쪽",
+      "source_id": "Sb10ea86aed8785a8",
+      "url": "/documents/source-store/b10ea86aed8785a87060c47b1d2e6c626a1cb7c0d10d4a1d40e71ca93bc7ee03.pdf#page=1",
+      "preview": "/documents/source-previews/b10ea86aed8785a87060c47b1d2e6c626a1cb7c0d10d4a1d40e71ca93bc7ee03-0001.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 1쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 1쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=1",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0001.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 2쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 2쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=2",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0002.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 3쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 3쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=3",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0003.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 4쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 4쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=4",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0004.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 5쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 5쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=5",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0005.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 6쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 6쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=6",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0006.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 7쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 7쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=7",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0007.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 8쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 8쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=8",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0008.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 9쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 9쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=9",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0009.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 10쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 10쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=10",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0010.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 11쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 11쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=11",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0011.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 12쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 12쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=12",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0012.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 13쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 13쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=13",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0013.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · 14쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 Sbd1f70fae2bcb15f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf · PDF 14쪽",
+      "source_id": "Sbd1f70fae2bcb15f",
+      "url": "/documents/source-store/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a.pdf#page=14",
+      "preview": "/documents/source-previews/bd1f70fae2bcb15faec5bee262638a017a4be08e31ca7b9bfbbe84474a185a4a-0014.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 1쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 1쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=1",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0001.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 2쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 2쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=2",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0002.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 3쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 3쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=3",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0003.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 4쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 4쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=4",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0004.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 5쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 5쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=5",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0005.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 6쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 6쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=6",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0006.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 7쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 7쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=7",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0007.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 8쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 8쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=8",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0008.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 9쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 9쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=9",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0009.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 10쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 10쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=10",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0010.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260602.pdf · 11쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S9e9bf3f3bf67ec23 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "3공장 1620CMM 전기도면_승인도_260602.pdf · PDF 11쪽",
+      "source_id": "S9e9bf3f3bf67ec23",
+      "url": "/documents/source-store/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d.pdf#page=11",
+      "preview": "/documents/source-previews/9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d-0011.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 1쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=1",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0001.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 2쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 2쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=2",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0002.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 3쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 3쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=3",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0003.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 4쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 4쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=4",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0004.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 5쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 5쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=5",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0005.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 6쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 6쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=6",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0006.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 7쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 7쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=7",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0007.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 8쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 8쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=8",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0008.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 9쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 9쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=9",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0009.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 10쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 10쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=10",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0010.webp"
+    },
+    {
+      "name": "3공장 1620CMM 전기도면_승인도_260611.pdf · 11쪽",
+      "system": "볼밀",
+      "kind": "원본 PDF",
+      "version": "원본 S08c4b02d10bc340a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 11쪽",
+      "source_id": "S08c4b02d10bc340a",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=11",
+      "preview": "/documents/source-previews/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95-0011.webp"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "원본 알람/보호 확인 범위",
+      "name": "알람·보호·복구 근거",
+      "address": "현행 코드/임계값·정상극성 미확정",
+      "trigger": "팬/보조 모터 보호, 온도·댐퍼/배기 상태와 필터·이송 막힘은 원본과 현장을 대조할 점검 범주입니다. 실제 차압·온도·풍량 한계·퍼지/정지 순서·펄스 주기는 미확보입니다. 대기배출시설 신청/완료 문서나 백필터 교체 보고서를 이번 점검 또는 현재 허가/성능검증 완료로 표시하지 않았습니다.",
+      "reset": "실제 표시·원인·현행 승인 조건을 확인하기 전 임의 우회·강제출력·설정 변경/재기동을 수행하지 않음",
+      "source": "300HP 집진기 전기도면.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "팬 구동/보호 이상",
+      "check": "대상 공정·CMM·반번호부터 식별하고 동력/보호/제어 분리",
+      "source": "300HP 집진기 전기도면.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "분진 이송·펄스·댐퍼 불량",
+      "check": "스크루/로타리/펄스/댐퍼를 해당1620CMM 도면에서 추적",
+      "source": "3공장 1620CMM 전기도면_승인도_260611.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/08c4b02d10bc340adaf6d11fe788a3ed0b86fb80f512dc7f273568ae9d1c0e95.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "포집/필터/덕트 문제",
+      "check": "해당 설비의 후드→덕트→분리/여과→팬 경로를 식별",
+      "source": "세진메탈 MCC 판넬.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/711b4e9965373ca2f73ef6e945ad231dea63bf305850f8a85e85ffd9d8788309.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "개조판 동작 불일치",
+      "check": "2026 댐퍼 개조·6월1620CMM 날짜판과 현장 반영 비교",
+      "source": "집진기댐퍼 조작반 외함_260301.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf#page=1"
+    }
+  ],
+  "checks": [
+    {
+      "title": "복수 집진 계통",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "300HP·700/1620/2000/500CMM 등 혼재",
+      "next": "공장/공정·명판·팬/반번호별 대응표"
+    },
+    {
+      "title": "1620CMM 개정",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "2026-06-02/11/12 전기도면",
+      "next": "최종 현장 적용/개조 범위·실물 대조"
+    },
+    {
+      "title": "단위/사양 적용",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "국소배기 사양·허가신청·기계/완료 자료",
+      "next": "현재 측정·승인·실제 정격과 구분"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "evidence": "도면·설명서 범위로 정리",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "evidence": "파일 검토·로컬 문서화만 수행",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "evidence": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "복수 집진 계통",
+      "status": "미확정·원문 차이 보존",
+      "source": "300HP·700/1620/2000/500CMM 등 혼재",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "공장/공정·명판·팬/반번호별 대응표"
+    },
+    {
+      "title": "1620CMM 개정",
+      "status": "미확정·원문 차이 보존",
+      "source": "2026-06-02/11/12 전기도면",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "최종 현장 적용/개조 범위·실물 대조"
+    },
+    {
+      "title": "단위/사양 적용",
+      "status": "미확정·원문 차이 보존",
+      "source": "국소배기 사양·허가신청·기계/완료 자료",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 측정·승인·실제 정격과 구분"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "source": "도면·설명서 범위로 정리",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "source": "파일 검토·로컬 문서화만 수행",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "source": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본·압축 자료 보존",
+      "status": "파일검증 완료",
+      "evidence": "폴더 원본 복사 전후 bytes/SHA-256 및 압축 추출 바이트/해시 대조",
+      "source": "/documents/equipment-12/source-manifest.json"
+    },
+    {
+      "title": "문서 검토 범위",
+      "status": "핵심 자료 중심 문서화",
+      "evidence": "300HP 집진기 전기도면.pdf; 집진기댐퍼 조작반 외함_260301.pdf; 세진메탈 MCC 판넬.pdf; 세진메탈300마력 집진기 수정도면(2).dwg; 세진메탈300마력 집진기 수정도면-(1).pdf; 세진메탈300마력 집진기 수정도면-(2).pdf; 세진메탈300마력 집진기 수정도면-(3).pdf; 세진메탈300마력 집진기 수정도면-1.pdf; 세진메탈300마력 집진기 수정도면-10.pdf; 세진메탈300마력 집진기 수정도면-11.pdf; 세진메탈300마력 집진기 수정도면-12.pdf; 세진메탈300마력 집진기 수정도면-13.pdf; 세진메탈300마력 집진기 수정도면-2.pdf; 세진메탈300마력 집진기 수정도면-3.pdf; 세진메탈300마력 집진기 수정도면-4.pdf; 세진메탈300마력 집진기 수정도면-5.pdf; 세진메탈300마력 집진기 수정도면-6.pdf; 세진메탈300마력 집진기 수정도면-7.pdf; 세진메탈300마력 집진기 수정도면-8.pdf; 세진메탈300마력 집진기 수정도면-9.pdf; 3공장 1620CMM 전기도면(외함도 회로도)_승인도260612.pdf; 3공장 1620CMM 전기도면_승인도_260602.pdf; 3공장 1620CMM 전기도면_승인도_260611.pdf / 참고·대량 카탈로그 전체 상세 판독은 아님",
+      "source": "/documents/equipment-12/library.html?source=Sa0211cb486f32020"
+    },
+    {
+      "title": "현재 PLC·현장 시험",
+      "status": "미수행",
+      "evidence": "프로그램 현행 적용·통전/운전/안전/복구 시험·현장 설정 변경은 수행하지 않음",
+      "source": "사용자 지정 폴더 자료 범위"
+    }
+  ]
+}

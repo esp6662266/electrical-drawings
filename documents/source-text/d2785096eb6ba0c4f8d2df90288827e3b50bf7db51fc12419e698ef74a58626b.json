@@ -1,0 +1,14 @@
+{
+  "sha256": "d2785096eb6ba0c4f8d2df90288827e3b50bf7db51fc12419e698ef74a58626b",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "1 5 E 3 0 1 4 8\nCOMB. SYSTEM LAY-OUT\n시 스 템\nOIL FLOW METER\nPRESSURE S/W.(HIGH)\nPILOT BURNER \nBUTTERFLY V/V.\nMAIN BURNER\n2\n5\n12\nPRESSURE GAUGE\nOIL CONTROL V/V.\n15\n14\n13\n17\n18\n2\n2\n2\n3\n2\nAIR REGULATOR\n21\n19\n20\n22\n23\n2\n2\n2\nOIL REGULATING COCK\nAIR CONTROL V/V.\nTURBO BLOWER\n15A\n20A\nPB-3S(L)\nDH-LNOG-15FS\nFLEXIBLE TUBE\nR-15D-8\n15A\n11 26\n9\n16 OIL SOL.V/V. 2 15A\n3. 화염 감지 장치\n2. 안전 차단 장치\n1. 자동 점화 장치\nCONTROL PANEL\n4. 자동 제어 장치\nAIR CONTROL V/V. & MOTOR\n24\n25\nPILOT GAS SOL.V/V.\n25\n50A\n(DH-LNOG-15FS): 합금 보온로\n2\n29\nFLEXIBLE TUBE 100Ax300L\n100A\n10A\n15A\n16 18\n3\n2\n4\n15\nCOMP.AIR\n   (4kg/cm )2\n19 21\n150A\n5\n(기존품 사용)\nU.V SENSOR\n3\n4\nTRANSFORMER 2\n2\n6 GAS FILTER\n29 PRESSURE S/W.(LOW)\nGAS REGULATOR\nGAS FLOWMETER7\n8\nRATIO GEGULATOR\nGAS MAIN SOL.V/V.\n11\n10\n2\n10\n14\n20A\n15Ax950L\n40Ax350L\n4FLEXIBLE HOSE\n26\n27\n2\n10Ax950L28\n29\n4\nFLEXIBLE HOSE\nFLEXIBLE HOSE\n27\n27\n28\n28\nBURNER GAS SOL. V/V.\n15A\n15A10A\n15A\n25A\n25A\nCHECK V/V.\n15A\n15A\n23\n24\n12 913\n(0.5kg/cm )\n8\n65A\n67\nGAS\n2\n65A\n10\n150A\n15A\nCONTROL PANEL\n200A\n150A\n40A\n25A\n25A\n65A\n15A\n40A\n10A\n15A\n150A\n15A\n15A10A\n15A\n15A\n11\n(기존품 사용)\n13\n100A\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 수정 및)\n(신규부품 별도 설치)\n(주)\n20\n25A\n17\n25A\nOIL\n   (4kg/cm )\n2\nOIL RETURN\n25A\n25A\nSERVICE TANK\n(정제유)\nOIL RETURN\nRELIEF V/V.\n42\nOIL INLET\nGATE VALVE\nHEATER\n13\n5Kw30 OIL HEATER\n25A(DOUBLE)31 PUMP UNIT\n7) (         ) PHANTOM LINE 및 청색선 : OUT OF SCOPE\n8)  PUMP 기동용 PANEL 및 1차 배관 : OUT OF SCOPE",
+      "width": 792.0,
+      "height": 612.0
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,49 @@
+{
+  "sha256": "0183768195d31371d49badc9c9ab55c7eff83617a7099216a113e762b01f3173",
+  "extension": ".pptx",
+  "status": "슬라이드 텍스트 추출; 배치 미재현",
+  "pages": [
+    {
+      "page": 1,
+      "text": "▣ \n6060 \n슈레더\n(800HP) \n로터\n \n함마\n \n고정핀\n \n4EA\n슈레더\n \n로터\n \n유체커플링\n \n연결 \n기어쪽\n 마모로 인하여\n소음 및 진동발생으로 \n로터\n \n예비품\n 교체 예정\n감속기\n베어링\n오일씰\n오일씰\n베어링\n로터\n \n함마\n \n고정핀\n \n4EA\n로터\n \n함마\n \n7EA×4\n줄 \n= \n총\n28EA\n슈레더\n \n로터\n \n예비품\n기존 사용 \n슈레더\n \n로터\n슈레더\n \n로터\n 커버 개방"
+    }
+  ],
+  "page_count": 1,
+  "figures": [
+    {
+      "member": "ppt/media/image6.png",
+      "source_id": "S0183768195d31371",
+      "url": "/documents/source-figures/1bf4bbd16b31e0c1f35ddd069c33f6e32f87f318b151b22dfdfc496896402123.webp",
+      "width": 465,
+      "height": 565
+    },
+    {
+      "member": "ppt/media/image5.png",
+      "source_id": "S0183768195d31371",
+      "url": "/documents/source-figures/3b80ee229fd96f37bdd6a05f5b03575a7fb957a8969cd6811293a3112b050242.webp",
+      "width": 1003,
+      "height": 693
+    },
+    {
+      "member": "ppt/media/image4.png",
+      "source_id": "S0183768195d31371",
+      "url": "/documents/source-figures/fa2e9d36572a0630a9b13516e87bf5a080acaae1e6d0e76c204b23db5f128e1c.webp",
+      "width": 570,
+      "height": 330
+    },
+    {
+      "member": "ppt/media/image2.png",
+      "source_id": "S0183768195d31371",
+      "url": "/documents/source-figures/cf76565c0fa499c10d73bc8f2ace42ba695d7e583f134a01394b941412372b23.webp",
+      "width": 1055,
+      "height": 789
+    },
+    {
+      "member": "ppt/media/image3.png",
+      "source_id": "S0183768195d31371",
+      "url": "/documents/source-figures/5c45388505cff2aac16a8f97c6ca9c571f441def1893230a5b8323509c29b536.webp",
+      "width": 1051,
+      "height": 788
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+{
+  "sha256": "030ed64b2d84a16a9c550e3f8f10c464619486a59eae07313a7d74149ec572c6",
+  "extension": ".pptx",
+  "status": "슬라이드 텍스트 추출; 배치 미재현",
+  "pages": [
+    {
+      "page": 1,
+      "text": "6060 \n설비 운영 매뉴얼\n\n(\n외자설비\n)"
+    },
+    {
+      "page": 2,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣전체 설비 \nON/OFF\n 순서\n – \n각 벨트 및 설비에 자재가 없는 조건\n(\n완전소진\n)\n▶\n가동시\n    →\n6060\n유압펌프 \n \n→ \nECS#1\n(\n활성화시까지\n \n10\n분소요\n),2(1\n분\n),3(1\n분\n) \n→ \nXSS#1,2\n \n \n   \n→ 설비\nTEST\n실시\n(\n장기간 \n미가동시\n 확인\n)\n \n \n   \n→\n#8,#7\n벨트\n(ECS \n철\n, \n이물질 배출\n) \n→ \n#6,#5\n벨트\n(XSS AL \n외부 배출\n)\n    \n→\n#3,#4 \n벨트\n(\nXSS\n \n투입\n) \n→ \n트롬멜\n → \n#2\n벨트\n(\n트롬멜\n 투입\n)\n → \n#1\n벨트\n \n    → \nF1,F2,F3(\n철배출\n)\n→ 전자석벨트 → \n6060\n진동피더\n(#1\n벨트 연동\n)\n \n   \n→ \n6060\n슈레더\n(\n유압펌프 베어링 게이지 확인\n) \n→ 에어프론 \n컨베어\n  \n    →\n6060\n슈레더\n \n→ 에어프론 \n컨베어\n  \n▶\n종료시\n에어프론 \n컨베어\n →\n \n6060\n슈레더\n \n→\n 6060\n진동피더\n →\n \n#1\n벨트\n \n→ \n#\n2\n벨트\n(\n트롬멜\n 투입\n)\n \n  \n \n→ \n트롬멜\n \n→ \nECS#1(\n종료시까지\n \n10\n분 소요\n),2,3 \n→ \n#3,#4 \n벨트\n(\nXSS\n \n투입\n)\n → \nXSS#1,2\n →\n #\n6,#5\n벨트\n(\nXSS\n \n배출\n)\n → \n#8,#\n7\n벨트\n(\nECS \n철\n, \n이물질 배출\n)\n "
+    },
+    {
+      "page": 3,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\nOPERATING\n \nSCREEN\n전원 스위치\nOFF\nON\nOPERARING\n SCREEN \n구성\n개별가동\n자동가동\n가\n동\n종료\n폴드럼\n 속도\n벨트 속도\n폴드럼\n벨\n트 \n트랙 센서\n마그네틱\n 드럼\n진동피더\n가동 \n준비전\n \n트랙센서\n 녹색 확인\n비상정지\n정상 \n가동시\n 화면\n정상가동중\n \n-  \n전 부분 녹색 확인\n시작시\n 전원 \nON\n후 스크린의  \nREADY \n표기가 뜨면 \nStart\n선택후\n \n폴드럼\n 속도가 \n3800RPM(10\n분소요\n)\n에 \n도달하였을때\n 자재 선별\n테스트 실시 \n확인후\n 자재투입실시\n종료시\n  \nStop\n선택후\n  \n폴드럼\n 속도가 \n0RPM\n \n확\n인\n전원 \nOFF(\n용접시\n 및 \n특이사항시에만\n 전원 \nOFF)\n1. ECS(#1) \n가동 방법\n▣\nECS \n설비\n \n운영방법\n가동시간"
+    },
+    {
+      "page": 4,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n가동시\n \n폴드럼\n 속도가 \n3800RPM\n \n도달 \n하였을때\n \n마그네틱\n 드럼 및 \n진동피더가\n 가동\n종료시\n \n폴드럼\n 속도가 \n300RPM\n이하로 \n떨어졌을때\n 벨트가 멈춤\n \n \n  \n☞\n마그네틱\n 드럼과 \n진동피터는\n \n종료후\n \n4~5\n초후\n 멈춤\n☞ \n폴드럼\n 속도 \n3800RPM\n \n도달 및 \n0RPM\n \n도달시까지\n 각각 약 \n10\n여분 정도 소요\n \n폴드럼\n 속도\n벨트 속도\n2. ECS(#1) \n가동 방법 \n-  \n폴드럼\n 속도에 따른 설비 동작 및 종료\n▣\nECS \n설비\n \n운영방법"
+    },
+    {
+      "page": 5,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▶ \n폴드럼\n,\n벨트\n,\n마그네틱\n 드럼 속도는 \nDrives \n메뉴에서 설정 가능\n  1. \n폴드럼\n,\n벨트\n, \n마그네틱\n 드럼 속도는 현 설정 상태로 유지\n \n 2. \n폴드럼\n 고정 속도는 \n3,800RPM(MAX 4000RPM)\n폴드럼\n 속도\n벨트 속도\n벨트 \n속도\n마그네틱\n \n드럼 속도\n3. ECS(#1) \n설비 속도 조절 방법\n▣\nECS \n설비\n \n운영방법"
+    },
+    {
+      "page": 6,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▶ \n설\n비\n이상\n 및 \n비상정지\n \n작동등\n \n이상발생시\n \n알람화면에\n 표기되며 \n이상조치후\n \n알람메뉴에서\n \n \n   \n리셋버튼을\n 실행해야 설비 가동 가능\n▣\nECS \n설비\n \n운영방법\n4. ECS(#1) \n설비 이상 확인 및 \n리셋방법"
+    },
+    {
+      "page": 7,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▶ 자\n력\n 의한 자재 \n비산시\n 배출 \n격판을\n 조절하여 \nAL/\n이물질 배출량 조절 \n▣\nECS \n설비\n \n운영방법\n5. ECS(#1) \n배출 격판 \n세팅\n 방법\n전후진\n \n세\n팅\n상하 \n세팅\n전후셋팅\n 너비 \n:  \n47mm\n상하셋팅\n 높이 \n:  \n102mm\n폴드럼각도\n 높이 \n:  12\n도"
+    },
+    {
+      "page": 8,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\nSCREEN\n전원 스위치\nOFF\nON\n조작 버튼 구성 및 가동 방법\n개별가동\n자동가동\n가\n동\n종료\n폴드럼\n 속도\n벨트 속도\n폴드럼\n벨\n트 \n트랙 센서\n마그네틱\n 드럼\n진동피더\n가동 \n준비전\n \n트랙센서\n 녹색 확인\n비상정지\n정상 \n가동시\n 화면\n폴드럼\n 속도\n2610RPM\n벨트 속도\n2.3m/s\n마그네틱\n \n드럼 속도\n100%\n설비 \n가동버튼\n 및 속도 조절 다이얼\n가\n동\n종료\n알람리셋\n상태 \n알림창\n시작시\n 전원 \nON\n후 \n알람창에\n \nREADY \n표기가 뜨면 \n가동버튼\n \n누름\n종료시\n  \n종료버튼\n \n누른후\n 설비가 멈추면\n전원 스위치 \nOFF(\n용접 및 \n특이사항시에만\n \nOFF)\n▣\nECS \n설비\n \n운영방법\n6. ECS(#2,3) \n시작\n/\n종료 방법"
+    },
+    {
+      "page": 9,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n개별가동\n자동가동\n가\n동\n종료\n폴드럼\n 속도\n벨트 속도\n폴드럼\n벨\n트 \n트랙 센서\n마그네틱\n 드럼\n진동피더\n가동 \n준비전\n \n트랙센서\n 녹색 확인\n정상 \n가동시\n 화면\n알람\n \n리셋\n 버튼\n▶ \n설\n비\n이상\n 및 \n비상정지\n \n작동등\n \n이상발생시\n \n알람화면에\n 표기되며 \n이상조치후\n \n \n리셋버튼을\n \n   \n누른후\n \n알람창이\n 정상으로 \n돌아왔을때\n 설비 가동 가능\n▣\nECS \n설비\n \n운영방법\n7. ECS(#2,3) \n설비 이상 확인 및 \n리셋방법"
+    },
+    {
+      "page": 10,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n개별가동\n자동가동\n가\n동\n종료\n폴드럼\n 속도\n벨트 속도\n폴드럼\n벨\n트 \n트랙 센서\n마그네틱\n 드럼\n진동피더\n가동 \n준비전\n \n트랙센서\n 녹색 확인\n정상 \n가동시\n 화면\n▣\nECS \n설비\n \n운영방법\n8. \n가동중\n \nECS(#1,2,3)\n벨트 \n텐션\n 확인\n가동중\n \nECS \n벨트 \n텐션\n 수시 확인\n자재 배출 방지 가이드 고무판 기준으로 벨트 쏠림 여부 확인"
+    },
+    {
+      "page": 11,
+      "text": "▣\nECS,XSS\n \n운영 \n매뉴얼 \n개별가동\n자동가동\n가\n동\n종료\n폴드럼\n 속도\n벨트 속도\n폴드럼\n벨\n트 \n트랙 센서\n마그네틱\n 드럼\n진동피더\n가동 \n준비전\n \n트랙센서\n 녹색 확인\n정상 \n가동시\n 화면\n벨트 \n제거시\n \nECS \n베이스 지지를 위한 \n지그\n 필요 \n▣\nECS \n설비\n \n보수방법\n9. ECS(#2,3) \n벨트 교체 방법\nECS \n베이스 지지를 위한 \n지그\n(H\n빔 삽입\n)\nECS \n베이스 지지를 위한 \n지그\n 설치\n지그\n \n삽입후\n \nECS \n베이스 지지대 제거 및 측면 고무판 제거\n기존 벨트 제거"
+    },
+    {
+      "page": 12,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n개별가동\n자동가동\n가\n동\n종료\n폴드럼\n 속도\n벨트 속도\n폴드럼\n벨\n트 \n트랙 센서\n마그네틱\n 드럼\n진동피더\n가동 \n준비전\n \n트랙센서\n 녹색 확인\n정상 \n가동시\n 화면\n측면 가이드 고무판 \n설치시\n 벨트와의 간격이 \n1mm\n \n유지 요함\n▣\nECS \n설비\n \n보수방법\n9. ECS(#2,3) \n벨트 교체 방법\n신규 벨트 설치\n측면 가이드 고무판 \n설치시\n \nBELT\n와의 간격이 \n1mm\n \n유지"
+    },
+    {
+      "page": 13,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n개별가동\n자동가동\n가\n동\n종료\n폴드럼\n 속도\n벨트 속도\n폴드럼\n벨\n트 \n트랙 센서\n마그네틱\n 드럼\n진동피더\n가동 \n준비전\n \n트랙센서\n 녹색 확인\n정상 \n가동시\n 화면\n▣\nECS \n설비\n \n운영방법\n10. \n기타 설비 참고 사항\n1) \n벨트 \n텐션\n \n조절시\n 벨트를 강하게 \n당길시\n \n폴드럼\n 외판\n(\n화\n이버글라스\n) \n깨질 \n위험있음\n \n2) \n폴드럼\n 외판\n(\n화\n이버글라스\n) \n고정 볼트 \n풀림주의\n 주기적으로 점검 실시 \n    \n☞ \n공정볼트\n \n리볼팅시\n \n록타이트\n242 \n및 \n토크렌치\n(\n6N.m\n) \n사용\n \n3) 40\n시간 가동마다 \n드럼부\n(\n베어링\n)\n \n윤활주유\n 실시\n(\nSKF\n \nLGHP2\n / \n내열 그리스\n)\n4) \n마그네틱\n 드럼\n(\nMTP\n)\n 고정 \n클램프\n 완전 \n분해금지\n \n및 \nMTP\n \n격판 조정 레버 확인\n     – \n드럼내\n 자석 무게로 인한 \n고정바\n 회전으로 안전사고 발생 위험\n폴드\n럼\n  \n외부 파이버 글라스로 \n덮혀\n 있으며 \n가동시\n 고정 \n육각볼트\n \n풀림현상\n \n발생될수\n 있어 \n가동전\n/\n후 볼트 풀림 확인\n육각 볼트를 강하게 \n조일경우\n 파이버 글라스가 \n파손될수\n 있음으로\n토크렌치\n \n사용요함\n.\n관리자 모드 \nID : user  pass : 1234 \n고정바\n 임의로 분해 금지\nMTP\n \n격판 조정"
+    },
+    {
+      "page": 14,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼 \n- \n운영편\n개별가동\n자동가동\n가\n동\n종료\n폴드럼\n 속도\n벨트 속도\n폴드럼\n벨\n트 \n트랙 센서\n마그네틱\n 드럼\n진동피더\n가동 \n준비전\n \n트랙센서\n 녹색 확인\n정상 \n가동시\n 화면\n▣\nECS \n설비\n \n운영방법\n10. \n기타 설비 참고 사항\n5) BELT\n에 설치되어 있는 \n트랙센서\n \n감지브라킷이\n \n누락될경우\n \n20\n초후\n 벨트 가동 종료\n \n   \n가동전\n \n브락켓\n 고정 볼트 풀림 여부 확인 \n트랙센서\n 감지 \nBRACKET\n10. \n자재투입전\n \n실시사항\n진동피더에\n \nAL\n을 소량 투입하여 자력에 의해 선별이 되는지 \n확인후\n 가동 실시\n6) \nECS#1\n POLE \n드럼은 \n내부온도가\n \n90\n도 이상일 경우 자동으로 멈춤\n \n   - \n평시 \n가동시\n 항상 \n50~60\n도 유지됨\nPOLE \n드럼 온도 센서\nPOLE \n드럼 온도 스크린"
+    },
+    {
+      "page": 15,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\n \n– \n비가동시 전원 \n스위치 조작 순서\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n시작시 \nX-RAY \n전원 \nON \n→ \nXSS \n조작판넬 \n전원 \nON\n \n \n          \n→  \nXSS\n \n가동 스위치 \nON\n종료시 \nXSS\n \n시스템 \nOFF(\n프로그램 종료\n) \n→ \nX-RAY \n전원 \n \n        \n스위치  \nOFF \n→\nX-RAY \n조작판넬\n 전원 \nOFF\n \n \n "
+    },
+    {
+      "page": 16,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n1\n. \n비가동후 \nXSS \n시스템 시작 방법\n판넬\n 전원 \nON\n후 상기 화면이 나타났다가 사라지면 가동 스위치\nON"
+    },
+    {
+      "page": 17,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\n \n– \n비가동후 가동 \n방법\n(\n시작시\n)\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\nAIR \n공급여부\nX-RAY \n가동여부\n각종 안전장치 센서 작동 유무\n알람창\n알람창\nON/OFF, \n자동\n/\n수동\n, \n시작\n/\n종료 선택 창 \nXSS\n Control\n화면에서 \nError \n메시지를 \nRESET\n을 해야 가동 가능 \n: \n시작 화면에서 \nErrors \n이동 실시\n \n→ \nX-RAY \n설비내에도\n \nPC\n가 설치 되어 있어 \n부팅완료시까지\n 시간 소요\n(1\n분미만\n)\n     X-RAY PC \n활성화가 되면 \nX-RAY \n가동여부\n 화면에 녹색으로 표기 "
+    },
+    {
+      "page": 18,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\n \n– \n가동 방법\n(\n시작시\n)\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n리셋\n \n터치후\n \nControl \n메뉴에서 \nX-RAY \n및 \n센서등\n 이상이 \n없을시\n  \nLocal \n→ \nautomatic Separation \n선택시\n \nSTART \n버튼 활성화 → \n선\n택\n시\n 가동\n정상적 \n가동상태\nX-RAY SCAN \n설비 정상 가동 상태"
+    },
+    {
+      "page": 19,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\n \n– \n가동 방법\n(\n종료시\n)\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n2. \nXSS\n \n시스템 \n및 \nX-RAY SCAN \n종료 방법\nControl \n화면 \nSTOP \n터치 → \nOFF \n터치 → \nShutdown all PCs \n터치후\n \n대기시\n \nXSS\n \n시스템 종료\nX-RAY \nSCAN \n판낼 알람창에 \nEXTERAL\n STOP\n이 나타나면  \nXSS \n조작 판넬 전원 \nOFF\n  →\n \nX-RAY \n전원 \nOFF\nOFF\nON"
+    },
+    {
+      "page": 20,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n3. \n수동 조작\n(Manual)\nControl \n화면에서 \nMaual\n \n선택시\n 각 \n설비별\n 단독 가동 가능"
+    },
+    {
+      "page": 21,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n4. \n자재별\n 설정 및 \nMD\n값 설정\nSort\n화면에서 자재 선택 및 \nMD\n값 설정\n자재 선택화면\nMD\n값 설정 화면\nMD\n값은 자재당 \n5EA\n \n설정 가능하며 \nMD\n값 추가로 \n필요시\n 자재\n2\n로 항목을 만들어 추가 설정\nEX) Alloy 1(\nMD1~5\n), \nalloy2\n(\nMD6~10\n)\nMD\n값 추가는 \n세진에서\n \n자체작업이\n 불가하며 \n스타이너트\n 오퍼레이터만 가능\n(PASSWORD \n필요\n)"
+    },
+    {
+      "page": 22,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n기준값 대비 \nAL\n순도↑\n(HEAVY \n多\n)\nOFF\nON\nOFF\nON\n4. \n자재별\n 선\n택\n \n및 \nMD\n값 선택방\n법\n자재별\n MD\n값 \nXSS#1\n \nSASH \n부분 \n-  \n기본값 \nMD30\nINV\n SASH \n부분\n(HEAVY\n가 \n샾으로\n 떨어짐\n)\n기준값 대비 \nAL\n순도↓\n(HEAVY\n少\n)\n기준값 대비 \nAL\n순도↑\n(HEAVY \n多\n)\n기준값 대비 \nAL\n순도↓\n(HEAVY\n少\n)"
+    },
+    {
+      "page": 23,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n4. \n자재별\n 설정 및 \nMD\n값 설정\n자재별\n MD\n값 \nXSS#1\n \nTWITCH \n부분 \n–\n기본값 \nMD20\nUBC\n \n부분\n-\n기본값 \nMD10"
+    },
+    {
+      "page": 24,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n4. \n자재별\n 설정 및 \nMD\n값 설정\n자재별\n MD\n값 \nXSS#2\n \nSASH \n부분 \n-  \n기본값 \nMD34\nINV\n SASH \n부분\n(HEAVY\n가 \n샾으로\n 떨어짐\n)"
+    },
+    {
+      "page": 25,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n4. \n자재별\n 설정 및 \nMD\n값 설정\n자재별\n MD\n값 \nXSS#2\n \nTWITCH \n부분 \n–\n기본값 \nMD30\nUBC\n \n부분\n-\n기본값 \nMD10"
+    },
+    {
+      "page": 26,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼 \n- \n운영편\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n4. \n자재 \nSCAN \n확인\n(Sorting \n유무 확인 메뉴\n)\nCare \n화면에서\n Scan \n선택 \n– Steam is on \n선택후\n \nXRT\n LE \n선택 \n– \nCare \n화면은 관리자 모드에서만 가능\n제품 형성\n(\n픽셀로 표현\n)\nSCAN \n화면에서 투입 자재의 형상을 \n스캔할수\n 있으며 \nSorting\n 유무도 확인 가능\nSorting \n유무 확인"
+    },
+    {
+      "page": 27,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼 \n- \n운영편\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n4-1. \n신규 자재 독일 본사 전송 방법\n하기 순서대로 저장후 독일 본사 연락\n(\n유선 또는 이메일\n)\n  \n제품 저장 모드\n신규 자재 이름 설정\n연락처"
+    },
+    {
+      "page": 28,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n5. Sorting air Hole air TEST \nControl \n화면에서\n \nMaunal\n \n선택 \n– Sort-Air \n선택 → \nCare \n화면에서 \nValve-\nQualitly\n \n선택에서 \nStart TEST\nAir hole \nV/V \n이상 발생시 \nV/V \n개별  \nTEST \n실시가능\nV/V \n이상시 적색으로 표기\n(\n정상시 녹색\n)\n문제 \nV/V \n넘버 선택\nSINGLE \n선택\nQUICK SHOOT\n선택"
+    },
+    {
+      "page": 29,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n6. X-RAY SCAN \n설비 \nX-\n선 \n송출부\n \nAIR \n청소 주기 설정\nCare \n화면에서 \nFeatures \n선택 \nClean Air XTS \n항목\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\nAIR \n분출\n주기\nAIR \n분출 \n지속 시간\n현재 \n세팅\n \n:  10\n분 마다 \n10\n초 동안 \nAIR \n청소"
+    },
+    {
+      "page": 30,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n7. \n벨트 청소 및 \n교체후\n \nAUTO ADJUST(\n자동보정\n) \n방법\n1. \nXSS\n \n커버 \n분리후\n \nX-RAY \n스캔부\n \nAIR \n분진 청소 실시\n \nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n전체 및 개별 \nTEST  \n선택 가능\n커버 \n탈거\n커버 \n탈거후\nX-RAY SCAN\n부 \nAIR \n청소 \n실시후\n 커버 체결\n※ X-RAY \n발생부\n 플라스틱 재질임으로 \nAIR \n청소시\n \nAIR \n청소건이\n \n발생부에\n 닿지 않도록 주의\n   \n컨베어\n 벨트 이물질 청소 및 벨트 \n교체시\n \nX-\n선 값이 \n틀어질경우가\n 있음으로 \nAuto Adjust \n실시  \n벨트 내측\n이물질 청소\n(air\n건 및 치구\n \n사용\n)\n청소주기 \n:  3\n주에 \n1\n회 "
+    },
+    {
+      "page": 31,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n7. \n벨트 청소 및 \n교체후\n \nAUTO ADJUST(\n자동보정\n) \n방법\n2. CONTROL \n화면에서 \nManual\n로 \nBelt, Clean-Air, X-ray, \nXRT\n clean shot \n가동\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n전체 및 개별 \nTEST  \n선택 가능\nManual\n모드에서 선택"
+    },
+    {
+      "page": 32,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n7. \n벨트 청소 및 \n교체후\n \nAUTO ADJUST(\n자동보정\n) \n방법\n3. CARE \n→ \nFeatures \n→ \n“II” \n선택후\n \nXRT\n Auto Adjust \n실행 → 약 \n10\n초 정도 \n보정후\n 종료\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n전체 및 개별 \nTEST  \n선택 가능\n1.Auto\n Adjust \n실행전\n \n벨트위\n 자재는 완전히 \n비운상태에서\n \n실행\n2.BELT\n는 \n3\n주에 한번 청소 실시"
+    },
+    {
+      "page": 33,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n8. AIR\n량\n \n확인 및 조절 방법\nCare \n화면에서 \nValve –setup \n선택 하여 \ninput \n및 \nsort –air \n확인하며  \nSORT-AIR \n압력은 \n벨브\n 수동 조작\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\nSORT-AIR\n설정값\nXSS\n #1 : \n6.0bar\n \nXSS\n #2 \n: 8.0bar\nAIR\n이상 \n범위지정\n(\n지정\n값\n \n±\n1.5bar\n)\nINPUT : \n9.0bar\n이상\nINPUT\nSORT-AIR\nSORT-AIR \n압력 \n벨브\n 수동 조작\n캡당긴후\n 좌\n/\n우 돌림"
+    },
+    {
+      "page": 34,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n9. Sort-V/V \n교체 방법\n– \n개별 \nsorting \ntest\n실시후에도 \n이상있을시\n(5\n번항 \nV/V\n이상부분 참조\n-\n적색표기시\n)\n1. \nXSS\n \n설비 \nSTOP\n후 메인\nAIR \n차단 및 \nSORT AIR \n리시브 \n탱크내에\n 있는 \nAIR \n제거\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n1\n차 메인 \nAIR \n벨브\n \n잠금\n2\n차 메인 \nAIR \n벨브\n \n잠금\n리시브 \n탱크내\n \nair \n배\n출\n압력 게이지 \n0 bar \n확인"
+    },
+    {
+      "page": 35,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n9. Sort-V/V \n교체 방법\n3. SORT V/V \n커버 제거 및 \nV/V \n교체\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n커버 볼트 분리 \n커버 해체\n문제부\n \nV/V \n분리\nV/V \n고정 볼트 분리\n오링\n 분리 및 \nV/V \n분리 \n– \n오링\n 분실 주의\n전체 및 개별 \nTEST  \n선택 가능"
+    },
+    {
+      "page": 36,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n9. Sort-V/V \n교체 방법\n3. SORT V/V NO. \n확인법\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nAIR \n청소 주기 설정\n자재 \n이동방행\n전체 및 개별 \nTEST  \n선택 가능\n자재 이동 방향 기준으로 안쪽 \nV/V NO\n가 홀수\n, \n바깥쪽 \nV/V NO\n가 짝수이며 \n1 V/V\n당 \n2HOLE\n로 구성\n1\n블록당 \n16 V/V\n이며 총 \n6\n블럭\n \n96 V/V(\n192HOLE\n)\n로 구성"
+    },
+    {
+      "page": 37,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n9. Sort-V/V \n교체 방법\n4. \n교체 \nSORT V/V \n테스트 \n– Care \n에서 \nV/V-Quality \n선택 교체 \nV/V NO\n선택 \n, single \n선택\n, Start Test \nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n전체 및 개별 \nTEST  \n선택 가능\nV/V \n넘\n버\nSINGLE \n선택\n시\n작"
+    },
+    {
+      "page": 38,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n9. \nXSS\n \n각 부위 \nAIR \n게이지 위치 및 적정 \n압력량\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n전체 및 개별 \nTEST  \n선택 가능\n1.Auto\n Adjust \n실행전\n \n벨트위\n 자재는 완전히 \n비운상태에서\n \n실행\n2.BELT\n는 \n3\n주에 한번 청소 실시\nXSS\n #1,2\nMAIN INPUT \n9.0BAR\n \n이상\nSORT AIR \nXSS\n #1  6.0 BAR ± \n1.0BAR\nXSS\n #\n2 \n 8.0 \nBAR\n \n± \n1.0BAR\nX-RAY SCAN CLEAN AIR INPUT : \n9.0BAR\n \n이상\nX-RAY SCAN CLEAN AIR \nXSS#1,2\n : \n2.0BAR\n스트레이너\n응축수\n 확인\n및 수시배출"
+    },
+    {
+      "page": 39,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n10. MD \n값에 따른 자재 성분 \nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n전체 및 개별 \nTEST  \n선택 가능\n1.Auto\n Adjust \n실행전\n \n벨트위\n 자재는 완전히 \n비운상태에서\n \n실행\n2.BELT\n는 \n3\n주에 한번 청소 실시"
+    },
+    {
+      "page": 40,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n11. \n기타 점검 사항\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n컨베어\n 벨트 이물질 청소 및 벨트 \n교체시\n \nX-\n선 값이 \n틀어질경우가\n 있음\n이물질 청소나 \n교체시\n 상기 메뉴의 \nAuto Adjust\n를 실행\n벨트 청소는 \n3\n주 마다 실시\n1) \nXSS\n \n가동시\n 벨트 \n텐션\n(\n쏠림유무\n) \n수시 확인\n(\n육안확인\n)\n2) \n벨트 청소는 \n3\n주마다 실시하며 \n실시후\n \nAuto Adjust \n실행\n(\n실행법\n 시트 참조\n)\n3) X-RAY SCAN \n설비 \n-5\n도 이하일 경우 가동 중지\n됨\n \n \n  \n☞ 온도 \n낮을시\n 미리 전원만 미리 \nON\n하여 예열 \n실시후\n 가동\n4) \n응축수\n 수시 제거\n(\n스트레이너\n 위치 참조\n)\n5) X-RAY \n설비는 \n최소 \n한달에\n \n1\n회 \n1\n시간은 가동\n하여야 하며 \n6\n개월 이상 \n비가동시\n \n   \n튜브 손상 발생\n6) \nXSS\n \n설비전원은\n 항시 \nON\n으로 유지하며 \n용접등\n \n특이사항시만\n 전원\nOFF \n실시\n12. \n자재투입전\n \n실시사항\n1) \n작업 \n30\n분전 \nSORTING V/V TEST \n실시하여 \nSORT V/V HOLE \n이물질 제거\n   (5\n번 \n항참조\n)\n2) \n진동피더에\n 헤비메탈을 소량 투입하여 \nSORTING\n이 되는지 \n확인후\n 가동 실시\n관리자 모드 \npass : 1234 "
+    },
+    {
+      "page": 41,
+      "text": "▣\nECS,XSS\n \n운영 매뉴얼\n▣\nXSS\n(#1,2) \n운영방법\nOPERATING\n \nSCREEN\n전원\n \n스위치\n비상정지\nXSS\n \n조작판넬\nX-RAY \n조작판넬\n 가동 스위치\n전원\n \n스위치\nOFF\nON\nOFF\nON\n알람창\n12. \n작업전후\n 점검 리스트\nAir hole TEST\n전체 및 개별 \nTEST  \n선택 가능\nX-\n선 \n송출부\n \nAIR \n청소 노즐\nAIR \n청소 주기 설정\n컨베어\n 벨트 이물질 청소 및 벨트 \n교체시\n \nX-\n선 값이 \n틀어질경우가\n 있음\n이물질 청소나 \n교체시\n 상기 메뉴의 \nAuto Adjust\n를 실행\n벨트 청소는 \n3\n주 마다 실시\n가동전\n 및 \n자재투입전\n가동후\n 각 \n담당확인후\n 실시"
+    }
+  ],
+  "page_count": 41,
+  "figures": [
+    {
+      "member": "ppt/media/image85.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/049f4830e7a13e2f924ad3b2a6cae8bceba2c58bc7d46dea4a944b4b43d27858.webp",
+      "width": 1022,
+      "height": 711
+    },
+    {
+      "member": "ppt/media/image87.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/3e6c28c36ce73ee2a367a9970504a732ca1fd8695c666794dc5c56d29878cb8c.webp",
+      "width": 316,
+      "height": 248
+    },
+    {
+      "member": "ppt/media/image88.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/3e483a824d4c6ed991879efa0fd8b1619e965f9a1b7e640336ef8745de86f052.webp",
+      "width": 630,
+      "height": 295
+    },
+    {
+      "member": "ppt/media/image86.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/08cee7f1004972511432820053938e282c289dfa575887963d8c62ec77926ced.webp",
+      "width": 916,
+      "height": 524
+    },
+    {
+      "member": "ppt/media/image90.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/822b06b223457265c66581ab87553e47691adaa64f90ee15823a7bfc2ecd96f8.webp",
+      "width": 1782,
+      "height": 866
+    },
+    {
+      "member": "ppt/media/image94.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/9ce02af648ecdd65cecca6bbca46e7d14fffcc7c5fe36406325eace0cfe4f0d3.webp",
+      "width": 975,
+      "height": 699
+    },
+    {
+      "member": "ppt/media/image84.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/64f996a7659e17ed63cbca106cf2656344e608ffc4a12388b006b5fc7084c7db.webp",
+      "width": 421,
+      "height": 866
+    },
+    {
+      "member": "ppt/media/image93.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/59f38c73d27b357ea4eff3bdf02a612af604bde49242ee44e49586b0a465fc0d.webp",
+      "width": 1011,
+      "height": 630
+    },
+    {
+      "member": "ppt/media/image92.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/0db0e8a5ddb73f5b619de9d660c68c10410c8056a43dd477111b8a7dc173fa62.webp",
+      "width": 838,
+      "height": 408
+    },
+    {
+      "member": "ppt/media/image91.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/13dffb1b7d60e899718a1c4429c2846eca019881e9bb7239d182dc9202bd4d68.webp",
+      "width": 1215,
+      "height": 591
+    },
+    {
+      "member": "ppt/media/image89.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/3b2874fe257877d307587866028e49a932f3e953cc04c594689b58a7e3c35f99.webp",
+      "width": 745,
+      "height": 662
+    },
+    {
+      "member": "ppt/media/image77.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/e250f763620e2837a4f71ae986ccfa25c50909d4ac15f210351bbf6abab52e92.webp",
+      "width": 865,
+      "height": 420
+    },
+    {
+      "member": "ppt/media/image82.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/b0441ecc6203ca88e0f31144aa6a8ae00a5b12e4b1730b10005e6d06664d9ea5.webp",
+      "width": 421,
+      "height": 866
+    },
+    {
+      "member": "ppt/media/image27.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/05251afa810bd286744202af87746820eba6920e3aec621013f55d5916f912aa.webp",
+      "width": 1022,
+      "height": 534
+    },
+    {
+      "member": "ppt/media/image26.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/39409403605e4fcce10a24ed76dc12f82f487369b5c70cbd425966eca9f20c84.webp",
+      "width": 976,
+      "height": 510
+    },
+    {
+      "member": "ppt/media/image25.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/b3df70535ed96cb2ccd8ea14ce7399faacda25281ecd3c85fb6cca44aecc8772.webp",
+      "width": 984,
+      "height": 478
+    },
+    {
+      "member": "ppt/media/image24.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/99ec7fbbb99b119bd05115d7c2da161f19a48e91faf0dc24c7e9d0171bc8bedf.webp",
+      "width": 908,
+      "height": 511
+    },
+    {
+      "member": "ppt/media/image23.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/79a55b11a93b357dc017c0aed82310d6c67685b909aa86cc1d29ea7e1c26f0e6.webp",
+      "width": 1004,
+      "height": 525
+    },
+    {
+      "member": "ppt/media/image22.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/bf668a184af20f69fc857142a215ce24119cda10c589f0ff00a9f23462c1850e.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image21.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/a6cd664ec2b482b42e3a1bab01676c30b80c63c48ae592e634c4effa895b9f38.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image20.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/1253f65d52fb5f38a84df043de857be85e4503008c84b966cdf41dbcc7c929ee.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image28.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/e06a5ebdd7f17cd2cc67bc43dab04df337821366ebb6199a9e411dd495b007f9.webp",
+      "width": 988,
+      "height": 539
+    },
+    {
+      "member": "ppt/media/image29.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/9bdb7021eba0f2cfa003be0c943b03a95c2cf32fa5d90c6c592521266f4c9792.webp",
+      "width": 458,
+      "height": 579
+    },
+    {
+      "member": "ppt/media/image30.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/bedbde5f281c99077754c08e3b76d722d25b23dbf6ec6b4991886aed3e638e5d.webp",
+      "width": 519,
+      "height": 393
+    },
+    {
+      "member": "ppt/media/image38.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/92e67c85f21087733d10eb024a72db8c72d2f3fc04d06aae7c701f22c289f66e.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image37.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/9412d807d13334fa8d62e8c96c00fb6f19348e001b9fffdda2c9f849374e75a4.webp",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "member": "ppt/media/image36.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/7be96284fdaef3944a31eb460481eef82ff8820b813df2a2a731848ac40516b4.webp",
+      "width": 911,
+      "height": 513
+    },
+    {
+      "member": "ppt/media/image35.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/0897957aa56799c1dce87e5bde56edd2106219d02593098dfd954c29ea00bf78.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image34.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/3e4519d2da6d497d60da928cd355402b0a801aa5a2a7d18862486e74889cab8f.webp",
+      "width": 628,
+      "height": 326
+    },
+    {
+      "member": "ppt/media/image33.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/44791764eee6cfa8b6954af0d1ed4fd835d3d07d6145762a6ed7ccb8d64474a3.webp",
+      "width": 739,
+      "height": 359
+    },
+    {
+      "member": "ppt/media/image32.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/903757c0e36710bf3ed5add07b40402491f5fe729bc6cc3988661a8dbb3bcce9.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image31.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/fb5dd2f42e538ade897a73c8212433aaefbbb4eeab6b8a68b5debf8d32f4bd72.webp",
+      "width": 624,
+      "height": 303
+    },
+    {
+      "member": "ppt/media/image19.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/479439e24a35ff399c0422eef57cd4a9d34457f383e79db543d0312916d8af26.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image18.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/206d599373e50aee1be92482578b358577164f731ea17e56a990000f8ba2eacc.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image17.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/81ac83b5ffbc1e5585c9989648aeee4e848fca0970a706de982ac151b0e2cbf9.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image5.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/2c1cba56599a9d5aa9c59c25890c54125f0968ce87cb2ad208aab83078d8501a.webp",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "member": "ppt/media/image4.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/bb4ad53350b35f7e29f7a5ebd6502c1038e8b4456ab59708c45b04715ef9ab9b.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image3.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/1dc4286abd3e2a042799a23fed8be8b7f69b255c7d433e552ddcabee7d068634.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image2.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/b733e5d47fe884e698a72cda3b745464cc5543600a956589105f8e4f123568eb.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image6.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/4bef4720bc9914dca654194093d3b6eb9eb16302aeb649f3c357a719e3ad75bb.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image7.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/7515b3bf484652c0deffb4c809661b0506c6c7d87da767a7edae7ce328564274.webp",
+      "width": 2300,
+      "height": 1118
+    },
+    {
+      "member": "ppt/media/image8.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/0495664a3fc6c3235598bc4089a3b0c1879a438504e86a7a86b61e43ac168634.webp",
+      "width": 1224,
+      "height": 572
+    },
+    {
+      "member": "ppt/media/image16.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/a0ce9c78278e546a902fded2b857bd0224bebb23bbff07098ead5fc243bf6c7c.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image15.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/37a4fd66168d15aa3fd2116522edba9649577eec132d5acd60840bce7d79c15d.webp",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "member": "ppt/media/image14.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/dc0b8b5d339b541f789198c1b5083751ef2c49816dcfe30e274086f67dd09945.webp",
+      "width": 430,
+      "height": 556
+    },
+    {
+      "member": "ppt/media/image13.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/aae6fe71570747408149456616b02dec1fb116a3760d9a1a6495651b7ed36563.webp",
+      "width": 445,
+      "height": 579
+    },
+    {
+      "member": "ppt/media/image12.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/2ea2fad07a2e2d4a8b1b2beaa394e48438a7f4ed649a7d801e8f0b0081a3b478.webp",
+      "width": 430,
+      "height": 884
+    },
+    {
+      "member": "ppt/media/image11.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/99ac77fd5a74cb41bc8d4e25fc142c4de7fda6b28a21d9b76f6c84efa849ba1e.webp",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "member": "ppt/media/image10.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/7c991926c1c1a6075165a4f4c212278016b19dd4fe7c2e6aade9c15557ad0444.webp",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "member": "ppt/media/image9.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/f8e2b237df8010ab9aa34bd90ad241326aebcd6152c7a2f9d4786bdb1ea41afc.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image83.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/e9ff96010aee1a153c1af6e0adc6b36083a1f95afbd3a2e401755bbd2968eb46.webp",
+      "width": 1782,
+      "height": 866
+    },
+    {
+      "member": "ppt/media/image39.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/09128d756cca3250edca918d67e3de3c8ad2e3944c91db6565ecd71479583373.webp",
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "member": "ppt/media/image41.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/5a5a64e210134b9e1c907eb75dde79378f8d96f2f8810838b030b6956bc29dcb.webp",
+      "width": 1006,
+      "height": 566
+    },
+    {
+      "member": "ppt/media/image70.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/231bec60c2512f1f903b78973d70dac617e7caa3cac90deaa307c0efa3f2db90.webp",
+      "width": 668,
+      "height": 400
+    },
+    {
+      "member": "ppt/media/image69.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/ccfffd9e21793c414f75139e235d2c4c783278f4f5365607704417dbea004bea.webp",
+      "width": 1022,
+      "height": 711
+    },
+    {
+      "member": "ppt/media/image68.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/cf62c19bbd36c1669c993d1d633c3ea5c96d911ce7007ac06b9604b1bf1a3f50.webp",
+      "width": 1009,
+      "height": 413
+    },
+    {
+      "member": "ppt/media/image67.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/5f6cf27f6563c9ffd3e09e8686681543ed181a3d990a9755da66d01884c0bae8.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image66.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/e673cb0fadc247fbfc8b3d0fe01478d1e51da438d6dc922a1f66e55805a62c38.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image65.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/dec187030a7e8abdc651e2b048c2787864cb9d4071602d08df71c15b4c7f30e2.webp",
+      "width": 1075,
+      "height": 619
+    },
+    {
+      "member": "ppt/media/image64.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/2286de6405412ba47351e17ea746e8b9b8ca7f46759e618a064aadba6470c20b.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image40.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/360a3489a71b46499b32c058fef57999a6a486c4c266bc7035a8ed4fa58a1a7e.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image71.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/00743b0943c14755ed2a2b720bed6469229bb827e451f139ea0bd4e6c9b122e8.webp",
+      "width": 805,
+      "height": 391
+    },
+    {
+      "member": "ppt/media/image72.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/27fbbccab86a9454b397858c9ca2c789d3a442cc3ba97ff54784dc5813e32a38.webp",
+      "width": 1782,
+      "height": 866
+    },
+    {
+      "member": "ppt/media/image73.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/dafdf23fdfd047b62c9813bc44988812914ba2a68b167e771b39f1c4eb26ce1d.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image81.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/389e93b3d5aa70f42bf471fc43869705804b7a1a1c6f23a74c6270ff95586554.webp",
+      "width": 1012,
+      "height": 546
+    },
+    {
+      "member": "ppt/media/image80.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/d3436d2158bb5a461e2dd40125c548fe81dba6a634e52b38a71fad29fa1c7681.webp",
+      "width": 1782,
+      "height": 866
+    },
+    {
+      "member": "ppt/media/image79.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/ff23a1b6a4ab0fdfa7159eb5e7e2dc7e6661e628e6ca726307a340ba59bfca15.webp",
+      "width": 1782,
+      "height": 866
+    },
+    {
+      "member": "ppt/media/image78.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/99fb2062c21abf7fe63861b7ff49b1948e9cb67af12d31ef20a9d7b608d19aac.webp",
+      "width": 1077,
+      "height": 505
+    },
+    {
+      "member": "ppt/media/image76.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/3ad37c2414e694548879c6ad5587cfa189affbf4a2fdeefce231d68f8e0b27ee.webp",
+      "width": 554,
+      "height": 539
+    },
+    {
+      "member": "ppt/media/image75.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/eeefb72f155f8a9767d4f531672cd542c93eaefbb1cb99eede508d6f29e69fd1.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image74.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/760ee8b7e782c21bae370b8ca1ec8e47139cc1ad416024ff19bc5b91c4cd42ea.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image62.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/f13bb3f536bdd789759fed95eb66514791e923d0467e963c666c14eccc7993fe.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image63.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/b7bb2ef8aaefa2dbcd9f4b8f187ddb824415b40c22b4d377653f2f156a7a26a4.webp",
+      "width": 832,
+      "height": 625
+    },
+    {
+      "member": "ppt/media/image60.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/4c594013517dfcbe8b0eff9096e69aeef0fceffef5b21356a26a1ef15844397f.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image61.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/3ae74f31a0e99a3546b20376e98f0bbd8cc50a088a25990b38f6d1421cf12688.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image49.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/e9071a01d0ed3d65d477aec907e16eed1940d7dafb1d5bb5970fe9202e27b83c.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image48.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/38a8d963a9359979f76656b0597420b71f37fdfb3eb2f48f21b81cebf25e341f.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image47.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/34a7e6607d6a6591efe736b49c3fcbfac09bb5e6c7b651f149c88d79fc0f1c6a.webp",
+      "width": 883,
+      "height": 497
+    },
+    {
+      "member": "ppt/media/image46.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/c80ecaabd64b769b82e1770cf83248dacc9f0c65153e0afdaa3b0a614e29c9b8.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image45.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/37e21d5707039e8d531cb7335ad2c00e020afaa9a073cd93be6f21783999e378.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image44.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/ed4894d7e492fd778114dc529a08d46595ab6169d2c8debfaf63ac2fde112fb1.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image43.jpeg",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/a967df48f8f5afa51c46fdf1050967672a2b70e4bdbf82056c33204c3099c7e2.webp",
+      "width": 1059,
+      "height": 671
+    },
+    {
+      "member": "ppt/media/image42.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/0ed31142e5519b398b0c94b82e32fbb1dbfdf7def9ba0f89ebdd6db0e3acaffa.webp",
+      "width": 1006,
+      "height": 566
+    },
+    {
+      "member": "ppt/media/image51.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/50dde6cfa46b0bb06e64aefd2113b1b7ab98bf783f30742f1ecab862b647e4f8.webp",
+      "width": 960,
+      "height": 467
+    },
+    {
+      "member": "ppt/media/image50.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/0d6a303781cf5a59e6b9ce6b54fa94ecd9406a6a4c5b74a4525df076f93a9a43.webp",
+      "width": 960,
+      "height": 467
+    },
+    {
+      "member": "ppt/media/image53.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/3100b3a1718dfa846965931225cf3ed90671787b9b2e8c2653d2ec036603ac6f.webp",
+      "width": 960,
+      "height": 467
+    },
+    {
+      "member": "ppt/media/image59.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/4d46b89fb9168e6a24b3291412338e8885804ba9c900ad1082b54bcfe4963e23.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image58.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/06eaaafe1192b6177ab28b0147482c63c7e3c2eb76036591838ec1dab1ffdeda.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image57.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/d15c8abc2bcd0368e043ff6998fa65adbbf31221cf0cfe0476a3d9f7f1d91149.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image52.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/a9b7c023e86f0749da4df7af0bd0dd7732375ab99e167710a006c8a09e42a969.webp",
+      "width": 960,
+      "height": 467
+    },
+    {
+      "member": "ppt/media/image55.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/c15d0672e988bda1d461dcd8d229a925872c04d7fd452c0c596b689ba7f20e46.webp",
+      "width": 960,
+      "height": 467
+    },
+    {
+      "member": "ppt/media/image56.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/90421cc7afe874cb87c52c1d31a0741bab15ed60ba7b715623a2c63d1b9c816c.webp",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image54.png",
+      "source_id": "S030ed64b2d84a16a",
+      "url": "/documents/source-figures/a2e08db4457008bf13763e7210eca3fe1eec3213f4e4dfbb61fd99cd21405089.webp",
+      "width": 960,
+      "height": 467
+    }
+  ]
+}

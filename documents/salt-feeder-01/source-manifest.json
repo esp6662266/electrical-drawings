@@ -1,0 +1,168 @@
+{
+  "equipment_id": "SALT-01",
+  "source_count": 9,
+  "sources": [
+    {
+      "id": "mechanical-outline",
+      "name": "기계도면-외형도.pdf",
+      "file": "/documents/salt-feeder-01/source/mechanical-outline.pdf",
+      "bytes": 170939,
+      "sha256": "42b4eca42bb196c5372da800a932e5ae780369f16b4409e2539387252451d8e7",
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "text_characters": 135
+        }
+      ]
+    },
+    {
+      "id": "mechanical-hopper",
+      "name": "기계도면-호퍼.pdf",
+      "file": "/documents/salt-feeder-01/source/mechanical-hopper.pdf",
+      "bytes": 79458,
+      "sha256": "da3044efc15bf4725551c667e2e2632db7215d2d7079b96f14a854707bcf0bcd",
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "text_characters": 129
+        }
+      ]
+    },
+    {
+      "id": "sejin-mechanical",
+      "name": "세진메탈 기계도면.pdf",
+      "file": "/documents/salt-feeder-01/source/sejin-mechanical.pdf",
+      "bytes": 178414,
+      "sha256": "9692a74fd4bd3c1247e2aaf77a154a3942c2898604a8785e5da30bf3b75af183",
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "width": 1190.39999,
+          "height": 841.67999,
+          "text_characters": 0
+        }
+      ]
+    },
+    {
+      "id": "sejin-electrical",
+      "name": "세진메탈 전기도면.pdf",
+      "file": "/documents/salt-feeder-01/source/sejin-electrical.pdf",
+      "bytes": 374309,
+      "sha256": "d3f7289451009c68dce21220d3c16444f78eea15bc5bbbee49245dfa60a90eb2",
+      "pages": 4,
+      "page_details": [
+        {
+          "page": 1,
+          "width": 841.67999,
+          "height": 595.2,
+          "text_characters": 0
+        },
+        {
+          "page": 2,
+          "width": 841.67999,
+          "height": 595.2,
+          "text_characters": 0
+        },
+        {
+          "page": 3,
+          "width": 841.67999,
+          "height": 595.2,
+          "text_characters": 0
+        },
+        {
+          "page": 4,
+          "width": 841.67999,
+          "height": 595.2,
+          "text_characters": 0
+        }
+      ]
+    },
+    {
+      "id": "rolling-salt-feeder",
+      "name": "압연 솔트 투입기(원창).pdf",
+      "file": "/documents/salt-feeder-01/source/rolling-salt-feeder.pdf",
+      "bytes": 352348,
+      "sha256": "f37f6fcc187e69d5c49b81a277c078f52aeb054fbafbd3317fd38866d0eb8894",
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "width": 595.2,
+          "height": 841.92,
+          "text_characters": 0
+        }
+      ]
+    },
+    {
+      "id": "electrical-1",
+      "name": "전기도면-1.pdf",
+      "file": "/documents/salt-feeder-01/source/electrical-1.pdf",
+      "bytes": 119442,
+      "sha256": "d15805f615e2e53a95a86d9e21411558e99cd39bb8864bd3997b96b560590b35",
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "text_characters": 355
+        }
+      ]
+    },
+    {
+      "id": "electrical-2",
+      "name": "전기도면-2.pdf",
+      "file": "/documents/salt-feeder-01/source/electrical-2.pdf",
+      "bytes": 65412,
+      "sha256": "244aa959332760db2ba7c7eef9abeea360132cf0aae5393cda5fdaf9c9c8be59",
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "text_characters": 210
+        }
+      ]
+    },
+    {
+      "id": "samyang-reducer",
+      "name": "카다로그-삼양감속기 외형도.pdf",
+      "file": "/documents/salt-feeder-01/source/samyang-reducer.pdf",
+      "bytes": 47275,
+      "sha256": "2fd849f0824e101c7af0a71e15761b9fc7b042109dec06df5a62083a1bf2a40c",
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "text_characters": 36
+        }
+      ]
+    },
+    {
+      "id": "siemens-motor",
+      "name": "카다로그-지멘스모터 외형도.pdf",
+      "file": "/documents/salt-feeder-01/source/siemens-motor.pdf",
+      "bytes": 27438,
+      "sha256": "838d36bfb6e79026763c482254ba48929790aad4151008ac046fd21048aff01c",
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "text_characters": 0
+        }
+      ]
+    }
+  ]
+}

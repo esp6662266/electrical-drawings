@@ -1,0 +1,332 @@
+{
+  "sha256": "6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "사용설명서\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 2,
+      "text": "목차\n1. 안전에 관한 주의(지시)사항  3\n2. 표시부 및 키 조작  5\n5. 그룹별 파라메터 설정\n5.1 입력그룹(G.IN)  9\n5.2 출력그룹(G.OUT) 13\n5.3 제어그룹(G.CTL) 16\n5.4 SP그룹(G.SP) 19\n5.5 PID그룹(G.PID) 21\n5.6 AUTO TUNING그룹(G.AT) 25\n5.7 경보그룹(G.ALM) 27\n5.8 전송그룹(G.RET) 30\n5.9 통신그룹(G.COM) 31\n3. 파라메터 전개도  6\n 9\n6. ERROR시 처리 33\n7. 제품의 설치 34\n7.1 외형치수 및 PANEL CUTTING 치수\n7.2 마운트(MOUNT) 부착 방법 39\n7.3 전원선 권장 사양 40\n7.4 단자 권장 사양 40\n7.5 단자 배치 및 외부 결선도 41\n34\n4. 표시화면의 구성  8\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 3,
+      "text": "7.7 측정입력(ANALOG INPUT) 배선\n7.8 제어출력(ANALOG OUTPUT) 배선 47\n7.9 외부접점출력(RELAY) 배선 48\n7.10 외부접점입력(DI) 배선 48\n7.11 보조 RELAY의 사용 48\n7.12 통신(RS485) 배선 49\n46\n별첨. D-Register 표 50\n7.6 접지 및 전원배선 46\n표 1 : 센서입력 종류  9\n표 2 : DI 동작 17\n(그림 2 : 입력 보정 수식 예) 11\n(그림 3 : CT = 10초의 경우 제어출력 동작 예) 14\n(그림 4 : 운전 예약 기능) 16\n(그림 5 : FUZZY 기능에 의한 OVER SHOOT 억제) 21\n(그림 6 : HEAT과 COOL이 모두 PID 제어인 경우 예) 23\n(그림 7 : HEAT = ON/OFF, COOL = PID 제어인 경우 예) 23\n(그림 8 : HEAT = PID, COOL = ON/OFF 제어인 경우 예) 24\n(그림 9 : AUTO TUNING) 25\n(그림 10 : AT GAIN) 26\n(그림 11 : 경보 동작) 28\n(그림 1 : 구간별 입력 보정(BIAS) 설정 예) 11\n표 3 : 경보종류 28\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 4,
+      "text": "본 사용설명서에 관한 주의사항\n(가) 본 사용설명서는 최종 사용자(USER)가 항시 소지할 수 있도록 전달하여 주시고 언제라도 볼 수\n       있는 장소에 보관하여 주십시오.\n(나) 본 제품은 사용설명서를 충분히 숙지한 후 사용하여 주십시오.\n(다) 본 사용설명서는 제품에 대한 상세기능을 자세하게 설명한 것으로, 사용설명서 이외의 사항에\n       대해서는 보증하지 않습니다.\n(라) 본 사용설명서의 일부 또는 전부를 무단으로 편집 또는 복사하여 사용할 수 없습니다.\n(마) 본 사용설명서의 내용은 사전통보 또는 예고 없이 임의로 변경될 수 있습니다.\n(바) 본 사용설명서는 만전을 기하여 작성되었지만, 내용상 미흡한 점 또는 오기, 누락 등이 있는\n       경우에는 구입처(대리점 등) 또는 당사 영업부로 연락하여 주시면 감사하겠습니다.\n본 제품의 안전 및 개조(변경)에 관한 주의사항\n(가) 본 제품 및 본 제품에 연결하여 사용하는 시스템의 보호 및 안전을 위하여, 본 사용설명서의\n       안전에 관한 주의(지시)사항을 숙지하신 후 본 제품을 사용하여 주십시오.\n(나) 본 사용설명서의 지시에 의하지 않고 사용 또는 취급된 경우 및 부주의 등으로 인하여 발생된\n       모든 손실에 대하여 당사는 책임을 지지 않습니다.\n(다) 본 제품 및 본 제품에 연결하여 사용하는 시스템의 보호 및 안전을 위하여, 별도의 보호 또는\n       안전회로 등을 설치하는 경우에는 반드시 본 제품의 외부에 설치하여 주십시오.\n       본 제품의 내부에 개조(변경) 또는 추가하는 것을 금합니다.\n(라) 임의로 분해, 수리 개조하지 마십시오. 감전, 화재 및 오동작의 원인이 됩니다.\n(마) 본 제품의 부품 및 소모품을 교환할 경우에는 반드시 당사 영업부로 연락을 주십시오.\n(바) 본 제품에 수분이 유입되지 않도록 해 주십시오. 고장의 원인이 될 수 있습니다.\n(사) 본 제품에 강한 충격을 주지 마십시오. 제품손상 및 오동작의 원인이 될 수 있습니다.\n본 제품의 면책에 관하여\n(가) 당사의 품질보증조건에서 정한 내용 이외에는, 본 제품에 대하여 어떠한 보증 및 책임을 지지\n       않습니다.\n(나) 본 제품을 사용함에 있어 당사가 예측 불가능한 결함 및 천재지변으로 인하여 사용자 또는\n       제3자가 직접 또는 간접적인 피해를 입을 어떠한 경우라도 당사는 책임을 지지 않습니다.\n본 사용설명서에서 사용된 심볼 마크는 다음과 같습니다.\n(가)  “취급주의” 또는 “주의사항”을 표시합니다. 이 사항을 위반할 시, 사망이나 중상 및 기기의 심각한 손상을 초래\n할 수 있습니다. \n                    (1) 제품 : 인체 및 기기를 보호하기 위하여 반드시 숙지해야 할 사항이 있는 경우에 표시됩니다.\n                    (2) 사용자 설명서 : 감전 등으로 인하여 사용자의 생명과 신체에 위험이 우려되는 경우, 이를막 기\n위하여 주의사항을 기술하고 있습니다.\n(나) “접지단자”를 표시합니다.\n제품설치 및 조작시 반드시 지면과 접지를 하여 주십시오.\n(다) “보충설명”을 표시합니다.\n설명을 보충하기 위한 내용을 기술하고 있습니다.\n(라) “참조사항”을 표시\n참조하여야 할 내용과 참조 PAGE에 대하여 기술하고 있습니다.\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 5,
+      "text": "설치장소 및 환경에 대한 주의사항\n(가) 감전이 될 위험이 있으므로 본 제품을 판넬에 설치된 상태에서 통전(전원ON) 후 조작하여\n주십시오. (감전주의)\n(나) 다음과 같은 장소 및 환경에서는 본 제품을 설치하지 말아 주십시오.\n   ■ 사람이 무의식중에 단자에 접촉될 수 있는 장소\n■ 기계적인 진동이나 충격에 직접 노출된 장소\n    ■ 부식성 가스 또는 연소성 가스에 노출된 장소\n    ■ 온도변화가 많은 장소\n    ■ 지나치게 온도가 높거나(50℃ 이상), 낮은(10℃ 이하) 장소\n    ■ 직사광선에 직접 노출된 장소\n    ■ 전자파의 영향을 많이 받는 장소\n    ■ 습기가 많은 장소(주위습도가 85% 이상인 장소)\n    ■ 화재시 주위에 불에 타기 쉬운 물건들이 있는 장소\n    ■ 먼지나 염분 등이 많은 장소\n    ■ 자외선을 많이 받는 장소\n설치시 주의사항\n   ■ 노이즈(NOISE)의 원인이 되는 기기 혹은 배선을 본 제품의 가까이에 두지 마십시오.\n■ 제품은 10∼50℃, 20∼90%RH(결로되지 않을 것) 내에서 사용하여 주십시오.\n        특히, 발열이 심한 기기를 가까이 하지 마십시오.\n    ■ 제품을 경사지게 설치하지 마십시오.\n    ■ 제품을 -25∼70℃, 5∼95%RH(결로되지 않을 것) 내에서 보관하여 주십시오.\n        특히, 10℃이하 저온에서 사용하실 때에는 충분하게 워밍업(WARMING UP)을 시킨 후\n        사용하십시오.\n    ■ 배선시에는 모든 계기의 전원을 차단(OFF)시킨 후 배선하여 주십시오. (감전주의)\n    ■ 본 제품은 별도의 조작없이 100∼240VAC, 50/60Hz 10VAmax 에서 동작합니다.\n        정격 이외의 전원을 사용할 때에는 감전 및 화재의 위험이 있습니다. \n    ■ 젖은 손으로 작업하지 마십시오. 감전의 위험이 있습니다.\n    ■ 사용시 화재, 감전, 상해의 위험을 줄이기 위해 기본 주의 사항을 따라 주십시오.\n    ■ 설치 및 사용방법은 사용설명서에 명시된 방법대로만 사용해 주십시오.\n    ■ 접지에 필요한 내용은 설치 요령을 참조하십시오. 단, 수도관, 가스관, 전화선,\n        피뢰침에는 절대로 접지하지 마십시오. 폭발 및 인화의 위험이 있습니다.\n    ■ 본 제품의 기기간 접속이 끝나기 전에는 통전(전원ON)하지 마십시오. 고장의 원인이 됩니다.\n    ■ 본 제품에 있는 방열구를 막지 마십시오. 고장의 원인이 됩니다.\n본 제품의 품질보증조건에 관하여\n(가) 제품의 보증기간은 본 제품을 구입한 날로부터 1년간으로 하며, 본 사용설명서에서 정한\n       정상적인 사용상태에서 발생한 고장의 경우에 한해 무상으로 수리해 드립니다.\n(나) 제품의 보증기간 이후에 발생한 고장 등에 의한 수리는 당사에서 정한 기준에 의하여 실비(유상)\n       처리 합니다.\n(다) 아래와 같은 경우, 보증수리기간 내에서 발생한 고장이라도 실비로 처리합니다.\n       (1) 사용자의 실수나 잘못으로 인한 고장(예:비밀번호 분실에 의한 초기화 등)\n       (2) 천재지변에 의한 고장(예:화재,수해 등)\n       (3) 제품 설치 후 이동 등에 의한 고장\n       (4) 임의로 제품의 분해, 변경 또는 손상 등에 의한 고장\n       (5) 전원 불안정 등의 전원 이상으로 인한 고장\n       (6) 기타\n(라) 고장 등으로 인하여 A/S가 필요한 경우에는 구입처 또는 당사 영업부로 연락 바랍니다.\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 6,
+      "text": "⊙ 조작키\nLED 내용\nKEY 내용\n설정내용의 등록 및 파라메터 선택시 사용\n운전화면에서 DISPLAY 화면 변경시 사용\n운전화면에서 SET/ENT를 3초 이상 누른다. → \"MENU 화면\" 으로 이동\nMENU화면에서 SET/ENT를 3초 이상 누른다. → \"운전화면\" 으로 이동\n파라메터의 내용을 변경시 사용\nGROUP간의 이동시 사용\n수정하고자하는 DIGIT 위치 변경시 사용\n▲／▼\n(UP/DOWN)\n◀ (SHIFT)\nSET/ENT\n(ENTER)\n⊙ LED\nSP2, 3, 4\nEV1,2,3 EVENT(ALARM 등 설정된 SIGNAL) 발생시 점등\nOUT 제어출력 ON시 점등\nMAN MAN MODE시 점등, AUTO TUNING시 점멸\n해당 SP 동작시 점등\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 7,
+      "text": "AT\nAT-G\nA\nARW\nFUZY\nPID\n1.P\n1.I\n1.D\n1.MR\n1.RP\n2.P\n2.I\n2.D\n2.MR\nPID=1 PID=2\n**\n▲▼\nS-TM\nP-TM\nA/M\nU.PWD\nUS1\nUS2\nLOCK\nDI.SL\nOSTS\nPWD\nG.PID G.CTL\n :  OPTION시\n :  H/C Type시(HYS는 ON/OFF mode시에도 표시)\nDSP.H\nR-S\nSPSL\nSP1\nSP2\nSP3\nSP4\nSPRH\nTMU\nU.SLP\nD.SLP\nG.SPG.AT\n1.Pc\n1.Ic\n1.Dc\n1.DB\n2.Pc\n2.Ic\n2.Dc\n2.DB\nDSP.L\nINIT\n*               :  I=0 시, H/C Type시 상시표시\n* *             :  OUT2,3의 선택이 HEAT or COOL 일때\n▲▼▼\nSPRL\n▲▼\n***             :  ST570, ST540은 OPTION시 표시\n****            :  ST540은 기능 없음\nSET/ENT SET/ENT SET/ENT SET/ENT\nONOF\n3.P\n3.I\n3.D\n3.MR\nRHY\n4.P\n4.I\n4.D\n4.MR\nPID=3 PID=4\n**\n3.Pc\n3.Ic\n3.Dc\n3.DB\n4.Pc\n4.Ic\n4.Dc\n4.DB\n2.RP RDV\n*****           :  ON/OFF 동작시\nC.MOD\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 8,
+      "text": "OUT1\nOUT2 HEAT\nOUT3\n▲▼\nHEAT\nSUB1\nSUB2\nO.ACT\nCT\nOH\nOL\nPO\nG.OUT\nALT1\nAL-1\nA1DB\nALT2\n▲▼\nG.ALM\nRET\nRETH\nRETL\n▲▼\nG.RET\nCOM.P\nBAUD\nPRTY\n▲▼\nSBIT\nDLEN\nADDR\nRP.TM\nG.COM\nAL-2\nA2DB\nALT3\nAL-3\nAL3.H\n▼\nA\nCOOL\nCOOL\n**\nPOc\nHYS\nCTc\nA1DY\nA2DY\nAL3.L\n***\n****\n**\nSET/ENT SET/ENT SET/ENT SET/ENT\nIN-T\nIN-U\nIN.RH\nIN.RL\nG.IN\nIN.DP\nIN.SH\nIN.SL\nIN.FL\nBSL\nRSL\nBSP1\nBSP2\nBSP3\nBS0\nBS1\nBS2\nBS3\nBS4\nSET/ENT\nHYS.H\nHYS.L\n*****\n*****\nA3DB\nA3DY\nAL2.H\nAL2.L\nAL1.H\nAL1.L\nD.FL\nO.LED\nRBS\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 9,
+      "text": "ENT 3초\nENT 3초 or\nNo Key 60초\nENT\nENT\nENT\n▼\n조절계의 초기 설치시 다른\n그룹에 우선하여\n입력(G.IN)과 출력(G.OUT) \n관련 파라메터를 설정해야\n한다.\nUS1, US2는 조절계의\n파라메터 중 사용자가 정의\n하 여볼수있 는화 면 으 로\n첨부된D-Registers를\n참조하여 G.CTL에서\n설정한다.\nENT\n㈜1\n㈜2\n㈜3\n㈜6\n㈜7\n(주1) 운전상태가 'STOP'일 경우 표시(STOP상태에서 SP 변경가능)\n(주2) 운전화면-1 : 전원투입시 최초로 표시(SP 설정가능)\n(주3) 운전화면-2 : 출력표시화면\n(주4) H/C Type일 경우 Heating 출력 표시화면\n(주5) H/C Type일 경우 Cooling 출력 표시화면\n(주6) User Screen 1이 등록되어 있을 경우\n(주7) User Screen 2가 등록되어 있을 경우\n㈜4\n㈜5\n……▼ or ▲\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 10,
+      "text": "5.1 입력그룹(G.IN)\n메뉴(Menu) 표시상태에서 ▲ 또는 ▼ Key를 눌러 입력그룹이 표시되면 “SET/ENT”\nKey를 눌러서 입력그룹을 선택한다. (3. 파라메터 전개도 참조)\n센서입력의 종류를 설정하는 파라메터로 초기치는 TC.K1로 되어 있다.\n본 조절계에서 설정할 수 있는 센서입력은 아래의 (표 1)과 같으며 이를 참조하여\n센서입력의 종류를 선택한다.\n입력그룹의 파라메터의 설정변경은 다른 그룹에 있는 파라메터의 초기화 등에 영향을 주기\n때문에 조절계 초기설정시 가장 먼저 설정하여야 한다.\nG.AT  ↔  G.SP  ↔  G.PID  ↔  G.CTL  ↔  G.IN\n ↑                                                          ↕\nG.COM  ↔ G.RET     ↔     G.ALM    ↔   G.OUT\n▲▼ ▲▼ ▲▼\n▲▼▲▼ ▲▼\n▼\n▲▼\n▲▼\nNo.\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n입력TYPE\nK1\nK2\nJ\nE\nT\nR\nB\nS\nL\nN\nU\nW\nPlatinel Ⅱ\nPtA\nPtB\nPtC\nJPtA\nJPtB\n0.4∼2.0V\n1∼5V\n0∼10V\n-10∼20mV\n0∼100mV\n온도범위(℃)\n-200∼1370\n-199.9∼999.9\n-199.9∼999.9\n-199.9∼999.9\n-199.9∼400.0\n0∼1700\n0∼1800\n0∼1700\n-199.9∼900.0\n-200∼1300\n-199.9∼400.0\n0∼2300\n0∼1390\n-199.9∼850.0\n-199.9∼500.0\n-19.99∼99.99\n-150.0∼150.0\n-199.9∼500.0\n온도범위(°F)\n-300∼2500\n0∼2300\n-300∼2300\n-300∼1800\n-300∼750\n32∼3100\n32∼3300\n32∼3100\n-300∼1600\n-300∼2400\n-300∼750\n32∼4200\n32∼2500\n-300∼1560\n-199.9∼999.9\n-4.0∼212.0\n-199.9∼999.9\n-199.9∼300.0\n0.400∼2.000V\n1∼5V\n0∼10V\n-10∼20mV\n0∼100mV\nGroup\nT/C\nRTD\nDCV\nmV\nDISP\nTC.K1\nTC.K2\nTC.J\nTC.E\nTC.T\nTC.R\nTC.B\nTC.S\nTC.L\nTC.N\nTC.U\nTC.W\nTC.PL\nPTA\nPTB\nPTC\nJPTA\nJPTB\n2V\n5V\n10V\n20M\n100M\n표 1 : 센서입력 종류\n14 C 0~2320 32∼4200 TC.C\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 11,
+      "text": "온도단위를 ‘℃’와 ‘℉’ 중에서 선택할 수 있는 파라메터로, 초기치는 ‘℃’ 로 되어 \n있다. 온도단위의 설정변경시의 표시 범위는 (표 1)을 참조한다.\n센서입력 범위의 상한값을 설정하기 위한 파라메터이다.\n센서입력 범위의 하한값을 설정하기 위한 파라메터이다.\n센서입력 종류가 mV 또는 V인 경우 측정입력의 소수점 위치를 설정하기 위한\n파라메터이다. 소수점의 위치는 ‘0 ~ 3’ 까지 변경이 가능하며 초기치는 ‘1’로 되어\n있다\n센서입력 종류가 mV 또는 V인 경우 측정입력에 대한 스케일(Scale)의 상한값을\n설정하기 위한 파라메터이다. In.SH의 초기치는 ‘100.0’으로 되어 있다.\n센서입력 종류가 mV 또는 V인 경우 측정입력에 대한 스케일(Scale)의 하한값을\n설정하기 위한 파라메터이다. In.SL의 초기치는 ‘0.0’으로 되어 있다.\n외란 및 노이즈 등에 의한 PV치의 흔들림 등이 발생할 경우 이를 완화시키기 위해\nPV 필터(Filter)를 설정하는 파라메터이다. In.FL은 초기에 ‘OFF’로 설정되어 있으며\n‘1~120 sec’의 범위에서 설정이 가능하다.\n센서의 단선시(Sensor-Open) PV의 동작 방향을 선택하기 위한 파라메터이다. \nbSL의 설정값이 ‘UP’일 경우에는 PV가 센서입력 상한 방향으로, ‘DOWN’일\n경우에는 센서입력 하한 방향으로 동작한다. bSL의 초기치는 ‘UP’으로 되어\n있다.(단, mV, V 입력시에는 ‘OFF’로 초기화되고  10V, 20mV, 100mV는 S.OPN \nCheck 안한다.)\n센서입력의 종류가 열전대(TC)일 경우 RJC(Reference Junction Compensation, \n기준접점보상)의 사용 여부를 설정하기 위한 파라메터이다. rSL의 초기치는\n‘ON’으로 되어 있다.\nPV치에 보정값(BIAS)을 설정하기 위해 보정 구간을 설정하는 파라메터이다. 보정\n구간은 최대 4 구간(In.RL(In.SL)↔bSP1↔bSP2↔bSP3↔In.RH(In.SH)) 까지\n설정이 가능하다. 자세한 내용은 (그림 1 : 구간별 입력 보정(BIAS) 설정 예)와 (그림\n2 : 입력보정 수식 예)를 참조한다.\n보정구간에 적용되는 PV치 보정값(BIAS)을 설정하기 위한 파라메터이다. 자세한\n내용은 (그림 1 : 구간별 입력 보정(BIAS) 설정 예)와 (그림 2 : 입력보정 수식 예)를\n참조한다.\n정상적으로 제어 중에 센서의 민감한 반응으로 PV치 흔들림이 발생할 경우 이를\n완화시키기 위해 설정하는 파라메터이다.\n...\n.\n..\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 12,
+      "text": "BS0\nRL BSP3 RHBSP1 BSP2\n예) 0℃∼100℃에서 사용하는 제어대상체의 실제온도를 측정한 결과 25℃에서 +2℃, 50℃에서 -1℃, \n75℃에서 +3℃의 편차가 발생하고 이를 보정할 경우,\nRL=0℃, BSP1=25℃, BSP2=50℃, BSP3=75℃, RH=100℃\nBS0=0℃, BS1=-2℃, BS2=+1℃, BS3=-3℃, BS4=0℃\n실제온도\n보정 후 온도\nBS1\nBS2\nBS3\nBS4\n온도보정치 = 보정 후 온도 - 실제온도\n보정 후 600℃에서 온도(P)\n실제온도\n보 정후온 도\nBS0=0\nBS1=10\nBS2=10\nBS3=50\nBS4=0\nBSP1=100 BSP2=500 BSP3=800RL=0 RH=1000\n600℃\nP\n:실제온도\n: 보 정후온 도\nBS3 - BS2\nBSP3 - BSP2\nP = 600 + (600-BPS2) X + BS2\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 13,
+      "text": "기호 Parameter 설정범위 단위 초기치 비고\nIN.SL\nIN.FL\nBSL\nRSL\nBSP1\nBSP2\nBSP3\nBS0\nBS1\nBS2\nBS3\nBS4\nScale 하한 0.0 mV, V\nPV Filter OFF, 1∼120 초 OFF 상시표시\nBOUT SEL(주1) OFF, UP, DOWN ABS UP(DCV=OFF) 상시표시\nRJC SEL ON, OFF ABS ON T/C\nReference Bias \nPoint1\nEU(0.0∼100.0%),\nRL\n BSP1\n BSP2\n BSP3\n RH EU EU(100.0%) 상시표시\nReference Bias \nPoint2\nEU(0.0∼100.0%),\nRL\n BSP1\n BSP2\n BSP3\n RH EU EU(100.0%) 상시표시\nReference Bias \nPoint3\nEU(0.0∼100.0%),\nRL\n BSP1\n BSP2\n BSP3\n RH EU EU(100.0%) 상시표시\nBias Value\nfor RL Point EUS(-100.0∼100.0%) EUS 0 상시표시\nBias Value for \nBSP1 Point EUS(-100.0∼100.0%) EUS 0 상시표시\nBias Value for \nBSP2 Point EUS(-100.0∼100.0%) EUS 0 상시표시\nBias Value for \nBSP3 Point EUS(-100.0∼100.0%) EUS 0 상시표시\nBias Value for \nRH Point EUS(-100.0∼100.0%) EUS 0 상시표시\nIN-T\nIN-U\nIN.RH\nIN.RL\nIN.DP\nIN.SH\n입력종류 상세는 Range Table ABS TC.K1 상시표시\n입력Range 단위 ℃ / °F ABS ℃ T/C, RTD\n계기 Range\n상한 DEF.Range의 범위내 “입력종류”참조\n단, INRH>INRL\nEU 1370 상시표시\n계기 Range\n하한 EU -200 상시표시\n소수점 위치 0∼3 ABS 1 mV, V\nScale 상한 -1999∼9999 단, INSH>INSL\n소수점의 위치는 IN.DP에\n의함\nABS\n100.0 mV, V\n㈜1 : S.OPN(Sensor-Open)=BOUT(Burn-Out)\nD.FL Display Filter OFF, 1∼120 초 OFF 상시표시\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 14,
+      "text": "5.2 출력그룹(G.OUT)\n메뉴(Menu) 표시상태에서 ▲ 또는 ▼ Key를 눌러 출력그룹이 표시되면 “SET/ENT”\nKey를 눌러서 출력그룹을 선택한다.\n출력단자 ‘OUT1(RELAY 출력)’의 동작을 설정하기 위한 파라메터이다. 설정 가능한\n값은 ‘HEAT, COOL, ALM1, ALM2, ALM3, RUN’으로 초기치는 ‘ALM1’로 설정되어\n있다. (COOL은 H/C Type시 표시, ON/OFF Mode시는 SKIP)\n출력단자 ‘OUT2(4~20mA 또는 PULSE 출력)’의 동작을 설정하기 위한\n파라메터이다. 설정 가능한 값은 ‘HEAT, COOL, RET’로 초기치는 ‘HEAT’로\n설정되어 있다.(COOL은 H/C Type시 표시)\n출력단자 ‘OUT3(4~20mA 또는 PULSE 출력)’의 동작을 설정하기 위한\n파라메터이다. 설정 가능한 값은 ‘HEAT, COOL, RET’로 초기치는 ‘RET’로\n설정되어 있다.(COOL은 H/C Type시 표시) (※ ST570, ST540은 OPTION시 표시)\nOUT2 또는 OUT3이 ‘HEAT’로 설정되었을 경우에 출력의 종류를 설정하기 위한\n파라메터이다. 설정 가능한 값은 ‘SSR(PULSE 출력), SCR(4~20mA)’로 초기치는\n‘SSR’로 설정되어 있다.\nOUT2 또는 OUT3이 ‘COOL’로 설정되었을 경우에 출력의 종류를 설정하기 위한\n파라메터이다. 설정 가능한 값은 ‘SSR(PULSE 출력), SCR(4~20mA)’로 초기치는\n‘SSR’로 설정되어 있다.\n보조출력단자 ‘SUB1(RELAY 출력)’의 동작을 설정하기 위한 파라메터이다. 설정\n가능한 값은 ‘HEAT, COOL, ALM1, ALM2, ALM3, RUN’으로 초기치는 ‘ALM2’로\n설정되어 있다. (COOL은 H/C Type시 표시) (※ OPTION시 표시)\n보조출력단자 ‘SUB2(RELAY 출력)’의 동작을 설정하기 위한 파라메터이다. 설정\n가능한 값은 ‘HEAT, COOL, ALM1, ALM2, ALM3, RUN’으로 초기치는 ‘ALM3’로\n설정되어 있다. (COOL은 H/C Type시 표시) (※ OPTION시 표시, 단 ST540은 기능\n없음)\n※출 력설 정예  :  \n제어출력(OUT2→SSR), 전송출력(OUT3→RET), RELAY출력(OUT1→ALM1, SUB1→ALM2, SUB2→ALM3)\nG.AT  ↔  G.SP  ↔  G.PID  ↔  G.CTL  ↔  G.IN\n ↑                                                          ↕\nG.COM  ↔ G.RET     ↔     G.ALM    ↔   G.OUT\n▲▼ ▲▼ ▲▼\n▲▼▲▼ ▲▼\n▼\n▲▼\n▲▼\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 15,
+      "text": "제어출력의 역동작(REV)/정동작(FWD)을 설정하기 위한 파라메터이다. \nO.ACt가 ‘REV(역동작)’로 설정되면 PV가 SP보다 적을 경우(PV < SP) 제어 출력이\nON(RELAY) 되거나 증가(SSR, SCR)하며, ‘FWD(정동작)’으로 설정돠었을 경우에는\n반대로 동작한다. 초기치는 ‘REV’로 설정되어 있다.\n제어출력의 출력 상한값을 설정합니다.\nH/C TYPE에서 제어출력이 ON/OFF 출력일 경우의 HYSTERESIS를 설정하기 위한\n파라메터이다.\n일반 TYPE에서 ON/OFF Mode시 OUT1RLY출력의 HYSTERESIS HIGH를\n설정하기 위한 파라메터이다.\n일반 TYPE에서 ON/OFF Mode시 OUT1RLY출력의 HYSTERESIS LOW를 설정하기\n위한 파라메터이다.\n제어출력이 PID제어의 시간비례 출력으로 설정된 경우(예 : OUT1 = HEAT, OUT2, \n3 = HEAT & HEAT = SSR, SUB1, 2 = HEAT) 출력이 ON/OFF되는 1 주기의\n시간을 설정하기 위한 파라메터이다. 설정범위는 ‘1~1000초’로 초기치는 ‘2초’로\n설정되어 있다.\nH/C TYPE에서 냉각측 제어출력이 PID제어의 시간비례 출력으로 설정된 경우(예 : \nOUT1 = COOL, OUT2, 3 = COOL & COOL = SSR, SUB1, 2 = COOL) 출력이\nON/OFF되는 1 주기의 시간을 설정하기 위한 파라메터이다. 설정범위는\n‘1~1000초’로 초기치는 ‘2초’로 설정되어 있다.\n제어출력의 출력 하한값을 설정합니다.\n제어출력은 출력상하한값에 LIMIT됩니다.\nCT=10초\n7초3초\nCT=10초\n7초 3초\nCT=10초\n5초 5초\n출력=50% 출력=70% 출력=30%\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 16,
+      "text": "기호 Parameter 설정범위 단위 초기치 비고\nSUB2\nO.ACT\nCT\nOH\nOL\nPO\n출력선택 HEAT, COOL, ALM1, ALM2, ALM3, RUN ABS ALM3 ㈜2\n정/역 절환 REV, FWD ABS REV 상시표시\nCycle Time 1 1 ∼ 300 sec 초 2초 상시표시\n출력상한치 OL-L+1digit∼105.0%\nHC Type시:0∼105.0%, 단:OH>OL % 100.0% 상시표시\n출력하한치 -5.0%∼OL-H-1digit\nHC Type시:0∼105.0%, 단:OH>OL % 0%\nH/C:100.0% 상시표시\nPreset Out1 -5.0∼105.0%\nHC Type시:0∼105.0% % 0.0% 상시표시\nOUT1\nOUT2\nOUT3\nHEAT\nSUB1\n출력선택 HEAT, COOL, ALM1, ALM2, ALM3, RUN ABS ALM1 상시표시\n출력선택 HEAT, COOL, RET ABS HEAT 상시표시\n출력선택 HEAT, COOL, RET ABS RET ㈜1\n출력종류선택 SSR, SCR ABS SSR OUT2 또는 3이\nHEAT시\n출력선택 HEAT, COOL, ALM1, ALM2, ALM3, RUN ABS ALM2 Option시\nCOOL 출력종류선택 SSR, SCR ABS SSR OUT2 또는 3이\nCOOL시\nCTc Cycle Time 2 1 ∼ 300 sec 초 2초 H/C TYPE\nPOc Preset Out2 0.0∼105.0% % 0.0% H/C TYPE\n0.0 ∼ 10.0% % 0.5% H/C TYPE\n㈜1 : 상시표시 (ST570, 540은 Option)\n㈜2 : Option (ST540은 SKIP)\n※ : COOL은 H/C Type시 적용됨.\n※ : ON/OFF Mode시 OUT1, OH, OL은 SKIP 된다.(OUT1은 RLY제어출력으로 조정)\nHYS.H HYSTERESIS \nHIGH EUS(0.0∼10.0%) EUS EUS(0.5%) ON/OFF\nMODE시\nHYS.L HYSTERESIS\nLOW EUS(0.0∼10.0%) EUS EUS(0.5% ON/OFF\nMODE시\nHYS HYSTERESIS\n비상시 출력을 위한 PRESET OUTPUT 값을 설정하기 위한 파라메터이다. AUTO \nMODE에서 STOP, A/D ERROR 혹은 SENSOR OPEN시에 PID 계산에 의한 출력을 \n중지하고 Po에 설정된 값을 출력한다.\nH/C TYPE에서 비상시 냉각측 출력을 위한 PRESET OUTPUT 값을 설정하기 위한 \n파라메터이다. AUTO MODE에서 STOP, A/D ERROR 혹은 SENSOR OPEN시에 \nPID 계산에 의한 출력을 중지하고 Poc에 설정된 값을 출력한다.\nO.LED OUTPUT LED SCR, SSR ABS SSR 상시표시\nMV OUT LAMP의 동작을 설정하기 위한 파라메터이다.\nSSR : SSR or Relay 제어출력시 MV LAMP가 CT에 맞게 점멸한다.\nSCR : SCR 제어출력시에 MV LAMP가 CT와 상관없이 점멸한다.\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 17,
+      "text": "5.3 제어그룹(G.CTL)\n메뉴(Menu) 표시상태에서 ▲ 또는 ▼ Key를 눌러 제어그룹이 표시되면 “SET/ENT”\nKey를 눌러서 제어그룹을 선택한다.\n예약 운전 시작시 운전까지의 대기시간을 설정하기 위한 파라메터이다. S-TM은\n분단위로 최대 99.59분 까지 설정이 가능하며 초기치는 ‘OFF’로 되어 있다. 동작\n방법은 (그림 4 : 운전 예약 기능)을 참조한다.\n운전시 운전할 시간을 설정하기 위한 파라메터이다. P-TM은 분단위로 최대\n99.59분 까지 설정이 가능하며 초기치는 ‘OFF’로 되어 있다. 동작 방법은 (그림 4 : \n운전 예약 기능)을 참조한다.\n조절계의 제어상태를 자동(AUTO) 또는 수동(MAN)으로 설정하기 위한\n파라메터이다. A/M 을 ‘MAN’으로 설정하면 전면 표시부의 ‘MAN LED’가 점등 되고\n제어출력값을 운전화면에서 키 입력에 의해 설정할 수 있다. 초기치는 ‘AUTO’로\n되어 있다.\n운전화면에 사용자가 자주 사용하거나 또는 확인하고자 하는 파라메터를\n표시하도록 설정하기 위한 사용자 화면(USER SCREEN) 등록용 파라메터이다. \nUS1, 2를 설정하기 위해서는 본 메뉴얼에 첨부된 D-REGISTER 상의 파라메터\n번호를 참조하여 해당 번호를 입력한다. US1, 2의 초기치는 ‘OFF’로 되어 있다.\n잘못된 키 입력에 의한 조절계의 이상 동작을 방지하기 위하여 키에 의한 설정을\n불가능하게 하기 위한 파라메터이다. LOCK이 ‘ON’으로 설정되면, 운전화면의 SP를\n비롯한 모든 파라메터의 설정이 금지된다. LOCK의 초기치는 ‘OFF’로 되어 있다.\nG.AT  ↔  G.SP  ↔  G.PID  ↔  G.CTL  ↔  G.IN\n ↑                                                          ↕\nG.COM  ↔ G.RET     ↔     G.ALM    ↔   G.OUT\n▲▼ ▲▼ ▲▼\n▲▼▲▼ ▲▼\n▼\n▲▼\n▲▼\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 18,
+      "text": "외부접점입력 OPTION(/DI)시 외부접점입력에 의한 조절계의 동작상태를 설정하기\n위한 파라메터이다. DI.SL의 설정에 의한 조절계의 동작은 (표 2 : DI 동작)을 참조\n한다.\n운전화면에 현재 조절계의 출력 설정 상태(OUT1,2,3, SUB1,2)를 표시하고자 하는\n파라메터이다. OSTS를 ‘ON’ 하면 운전화면에서 조절계에 설정된 출력 상태를\n확인할 수 있다.\nPV 표시창에 표시되는 센서입력값의 표시 상한치를 설정하기 위한 파라메터이다. \n센서로부터 DSP.H 이상의 값이 입력되어도 PV 표시창에는 DSP.H 까지의 값만\n표시된다. 단, 조절계 내부에서는 실제 센서입력값에 의한 조절계 동작을 한다.\nPV 표시창에 표시되는 센서입력값의 표시 하한치를 설정하기 위한 파라메터이다. \n센서로부터 DSP.L 이하의 값이 입력되어도 PV 표시창에는 DSP.L 까지의 값만\n표시된다. 단, 조절계 내부에서는 실제 센서입력값에 의한 조절계 동작을 한다.\n조절계에 PASSWORD를 등록하기 위한 파라메터이다. U.PWD를 설정하면\n파라메터 그룹 중 제어그룹(G.CTL) 진입 전의 PASSWORD 화면에 PASSWORD를\n입력해야 한다. 이 때 설정된 PASSWORD와 입력된 값이 일치하지 않으면 이후의\n파라메터 그룹에 진입할 수 없다. 공장 출하시에는 U.PWD가 ‘0’으로 되어 있다.\nON/OFF Mode의 사용유무를 설정하는 파라메터로 설정시 OUT1(RLY)을\n제어출력으로 고정하여 사용한다.\n- PASSWORD를 등록했을 경우에는 잊지 않도록 주의하여 주십시오.\n- PASSWORD를 잊어버렸을 경우에는 사용자의 조치가 불가능합니다. 이런 경우에는\n당사의 서비스 부서로 제품을 보내 주시기 바랍니다.\nDI.SL DI1 DI2 동작\n1\noff - STOP\non - RUN\n- off SP1\n- on SP2\noff off SP1\non off SP2\noff on SP3\non on SP4\n2\nOFF - - 동작안함\n(표 2 : DI 동작)\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 19,
+      "text": "HYS/2\n기호 Parameter 설정범위 단위 초기치 비고\nUS1\nUS2\nLOCK\nDI.SL\nOSTS\nDSP.H\nDSP.L\nONOF\nUser Screen OFF, D-Register번호(1∼1299) ABS OFF 상시표시\nUser Screen OFF, D-Register번호(1∼1299) ABS OFF 상시표시\nKey Lock OFF, ON(Edit금지) ABS OFF 상시표시\nDI Selection OFF, 1, 2 ABS OFF DI Option\nOutput Status OFF, ON ABS OFF 상시표시\nDisplay High \nLimit EU(-5.0∼105.0%) : 단, DSP.L<DSP.H EU EU(105.0%) 상시표시\nDisplay Low \nLimit EU(-5.0∼105.0%) : 단, DSP.L<DSP.H EU EU(-5.0%) 상시표시\nON/OFF Mode ON, OFF ABS OFF H/C \nTYPE외\nS-TM Start Time OFF(0.00)∼99.59(min) TIME OFF 상시표시\nU.PWD User Password 0∼9999 ABS 0 상시표시\nP-TM Process Time OFF(0.00)∼99.59(min) TIME OFF 상시표시\nA/M AUTO, MAN AUTO, MAN ABS AUTO 상시표시\n조절계를 초기화하기 위한 파라메터이다. INIT를 ‘ON’으로 설정하면 조절계의 모든\n파라메터가 초기화된다. (단, 통신 및 A/M은 초기화되지 않는다.)\nINIT 파라메터를 설정할 경우에는 조절계의 모든 파라메터가 공장출하시의 상태로\n초기화됩니다. 각별히 주의하여 주십시오.\nINIT Parameter\nInitialization OFF, ON ABS OFF 상시표시\nHYS/2\nON\nOFF\nON\nPV\nSP\nOUT1\nRLY\nHYS=1.0으로 설정할 경우 ON 구간 HYS/2, OFF 구간 HYS/2로 적용된다.\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 20,
+      "text": "5.4 SP그룹(G.SP)\n메뉴(Menu) 표시상태에서 ▲ 또는 ▼ Key를 눌러 SP그룹이 표시되면 “SET/ENT”\nKey를 눌러서 SP그룹을 선택한다.\n조절계의 운전 상태를 ‘RUN’ 또는 ‘STOP’으로 설정하기 위한 파라메터이다.\n조절계에서 운전하고자 하는 SP의 종류를 설정하기 위한 파라메터이다. \nSPSL에서는 ‘RSP, SP1, SP2, SP3, SP4’ 중 1개의 SP를 선택 하여 설정할 수\n있으며, 초기치는 ‘SP1’이다. \n(※ 통신 OPTION(/RS)시에 SYNC-SLAVE로 운전하여 MASTER와 RUN/STOP과\nSP를 동기화하기 위해서는 SPSL = RSP로 설정하여야 한다.)\n조절계에서 운전하고자 하는 설정치(SP)를 설정하기 위한 파라메터이다. SP는 모두\n4개까지 설정이 가능하며 SPSL 파라메터에 의해 4개의 SP 중 1개의 SP가 선택되어\n운전된다.\n설정치의 입력시 상한값을 설정하기 위한 파라메터이다. SPrH는 센서입력 설정 시\n또는 In.rH 변경시에는 In.rH(mV, V 센서입력시는 In.SH)로 초기화된다.\n설정치의 입력시 하한값을 설정하기 위한 파라메터이다. SPrL은 센서입력 설정 시\n또는 In.rL 변경시에는 In.rL(mV, V 센서입력시는 In.SL)로 초기화된다.\n...\n시간에 관련되는 파라메터의 시간단위(TIME UNIT)를 시.분(HH.MM) 또는\n분.초(MM.SS)로 설정하기 위한 파라메터이다. TMU의 초기치는 ‘HH.MM’ 으로\n되어 있다. ※ 시간관련 파라메터중 ‘S-TM’과 ‘P-TM’은 TMU와 관계없이\n동작한다.\nSP 변경시 변경된 SP 까지 시간에 비례하여 SP를 점진적으로 상승 또는\n하강시키기 위한 파라메터이다. U.SLP/D.SLP는 TMU 파라메터의 시간단위를\n적용하여 분 또는 초당 SP 상승율/하강율을 설정할 수 있다. U.SLP/D.SLP의\n설정값이 ‘OFF’일 경우에는 SP 변경시 SP 변화율이 적용되지 않고 입력된 SP 값이\n바로 조절계에 적용된다. U.SLP/D.SLP의 초기치는 ‘OFF’로 되어 있다.\nG.AT  ↔  G.SP  ↔  G.PID  ↔  G.CTL  ↔  G.IN\n ↑                                                          ↕\nG.COM  ↔ G.RET     ↔     G.ALM    ↔   G.OUT\n▲▼ ▲▼ ▲▼\n▲▼▲▼ ▲▼\n▼\n▲▼\n▲▼\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 21,
+      "text": "기호 Parameter 설정범위 단위 초기치 비고\nSPSL\nSP1\nSP SELECT RSP, SP1, SP2, SP3, SP4 ABS SP1 상시표시\nSet Point 1 EU(0.0 ∼ 100.0%) EU EU(0.0%) 상시표시\nSP2 Set Point 2 EU(0.0 ∼ 100.0%) EU EU(0.0%) 상시표시\nSP3 Set Point 3 EU(0.0 ∼ 100.0%) EU EU(0.0%) 상시표시\nSP4 Set Point 4 EU(0.0 ∼ 100.0%) EU EU(0.0%) 상시표시\nSPRH Set Point\nRange High EU(0.0 ∼ 100.0%) EU EU(100.0%) 상시표시\nSPRL Set Point\nRange Low EU(0.0 ∼ 100.0%) EU EU(0.0%) 상시표시\nTMU Time Unit HH.MM, MM.SS ABS HH.MM 상시표시\nU.SLP Up Slope OFF(0), EUS(0.0%+1digit∼100.0%)/min EU OFF(0) 상시표시\nD.SLP Down Slope OFF(0), EUS(0.0%+1digit∼100.0%)/min EU OFF(0) 상시표시\nR-S Run Stop RUN, STOP ABS RUN 상시표시\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 22,
+      "text": "5.5 PID그룹(G.PID)\n메뉴(Menu) 표시상태에서 ▲ 또는 ▼ Key를 눌러 PID그룹이 표시되면 “SET/ENT”\nKey를 눌러서 PID그룹을 선택한다.\n과적분을 방지하기 위한 편차폭을 설정하기 위한 파라메터이다. 조절계의\n제어출력이 최대점에 도달했을 때 과적분에 의한 OVER SHOOT를 억제하기 위해\n통상의 적분을 중지하고 ARW(Anti-Reset Wind-up) 연산으로 전환하도록 한다. \nARW의 설정이 ‘AUTO’일 경우에는 ARW는 자동적으로 작동되며, ‘AUTO’이외의\n설정시에는 설정된 값에 의해 작동된다.\nG.AT  ↔  G.SP  ↔  G.PID  ↔  G.CTL  ↔  G.IN\n ↑                                                          ↕\nG.COM  ↔ G.RET     ↔     G.ALM    ↔   G.OUT\n▲▼ ▲▼ ▲▼\n▲▼▲▼ ▲▼\n▼\n▲▼\n▲▼\n조절계의 제어시 FUZZY 기능의 사용 유무를 설정하기 위한 파라메터이다. FUZZY \n기능을 사용하면 PV가 SP에 도달할 때 발생하는 OVER SHOOT를 억제하거나 부하\n변동이 심한 경우 이를 감소시킬 수 있다. (그림 5 : FUZZY 기능에 의한 OVER \nSHOOT 억제 참조)\nPID 관련 파라메터 설정시 2개의 PID Group중 설정을 하고자 하는 PID Group \n번호를 설정하기 위한 파라메터이다.\nPID 제어를 위한 비례대 동작을 설정하기 위한 파라메터이다. 1.P의 설정 범위는\n‘0.1(H/C TYPE : 0.0) ~ 999.9%’ 이며 초기치는 ‘10.0%’로 되어 있다.\nSP\nPV : FUZZY OFF\nPV : FUZZY ON\n※ : ON/OFF Mode 운전시에는 PID그룹은 SKIP된다.\nPID 제어시 운전 MODE로 D.DV 또는 D.PV를 설정한다.\nD.DV 제어시에는 출력(MV)의 변화율이 적게 움직이기 때문에 오버슈트가 적고\n목표설정값(TSP)에 도달하는 시간이 약간 지연된다.\nD.PV 제어시에는 출력(MV)의 변화율이 크기 때문에 약간의 오버슈트가 생기고\n목표설정값(TSP)에 도달하는 시간은 D.DV 제어시보다 빠르다.\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 23,
+      "text": ".\n.\n.\nPID 제어를 위한 미분시간을 설정하기 위한 파라메터이다. 1.D의 설정 범위는\n‘OFF, 1 ~ 6000초’ 이며 초기치는 ‘30초’로 되어 있다.\nPID 제어시 적분시간(I)이 ‘OFF’일 경우 PID 연산의 적분시간 항목에 수동으로\n설정된 값을 적용시키기 위한 파라메터이다. 1.MR(Manual Reset)에 설정된 값은\n1.I 의 설정값이 ‘OFF’ 이외의 경우에는 적용되지 않는다.(H/C Type시 상시적용)\nH/C TYPE에서 냉각측 PID 제어를 위한 비례대 동작을 설정하기 위한\n파라메터이다. 1.Pc의 설정 범위는 ‘0.0(ON/OFF 제어시), 0.1 ~ 999.9%’ 이며\n초기치는 ‘10.0%’로 되어 있다.\nH/C TYPE에서 냉각측 PID 제어를 위한 적분시간을 설정하기 위한 파라메터이다. \n1.Ic의 설정 범위는 ‘OFF, 1 ~ 6000초’ 이며 초기치는 ‘120초’로 되어 있다.\nH/C TYPE에서 냉각측 PID 제어를 위한 미분시간을 설정하기 위한 파라메터이다. \n1 . D c 의설 정범 위 는‘ O F F ,  1  ~  6 0 0 0 초 ’이 며초 기 치 는‘ 3 0 초 ’ 로되 어있 다 .\nH/C TYPE에서 가열/냉각 동작의 불감대(DEAD BAND)를 설정하기 위한\n파라메터이다.\n조절계에서 사용하는 3개의 PID를 구간별로 분리하기 위해 설정하는 파라메터이다.  \n설정된 RP에 의해 IN.RL(mV, V 센서입력시는 IN.SL)~1.RP는 1번 PID, \n1.RP~2.RP는 2번 PID, 2.RP~IN.RH(mV, V 센서입력시는 IN.SH)는 3번 PID가\n적용된다.\n※ 2번 PID 그룹의 내용은 앞의 1번 PID 그룹의 내용과 동일하다.\n조절계에서 사용하는 3개의 PID를 구간별로 분리하기 위해 설정하는 파라메터이다.  \n설정된 RP에 의해 IN.RL(mV, V 센서입력시는 IN.SL)~1.RP는 1번 PID, \n1.RP~2.RP는 2번 PID, 2.RP~IN.RH(mV, V 센서입력시는 IN.SH)는 3번 PID가\n적용된다.\nZone PID에서 PID 그룹 선택시 히스테리시스폭을 설정한다.\n편차 PID를 사용할 경우 편차값을 설정한다.\nPID 제어를 위한 적분시간을 설정하기 위한 파라메터이다. 1.I의 설정 범위는 ‘OFF, \n1 ~ 6000초’ 이며 초기치는 ‘120초’로 되어 있다.\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 24,
+      "text": "100\n50\n0 50 100\n0 0\n50\n100\nP/Pc = 4/5\n100\n50\n0 50 100\n0 0\n50\n100\n45 55\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 25,
+      "text": "100\n50\n0 50 100\n0 0\n50\n100\n기호 Parameter 설정범위 단위 초기치 비고\nn.MR\n1.RP\nn.Manual Reset -5.0 ∼ 105.0% % 50.0%\nI=0시\nH/C=상시\n표시\nReference Point1 EU(0.0%)≤ 1.RP≤ 2.RP EU EU(100.0%) PID 1Group\nARW\nFUZY\nPID\nn.P\nn.I\nn.D\nAnti-Reset \nWind-Up Select Auto(0.0) ~ 200.0% % 100.0 상시표시\nFuzzy OFF, ON ABS OFF 상시표시\nPID 번호 MENU(0) or 1 or 2 ABS MENU 상시표시\nn.비례대 0.1(H/C Type:0.0)∼999.9% % 10.0% 상시표시\nn.적분시간 OFF, 1 ∼ 6000초 초 120초 상시표시\nn.미분시간 OFF, 1 ∼ 6000초 초 30초 상시표시\nn.DB n.가열냉각의\n불감대 -100.0 ∼ 15.0% % 3.0% H/C TYPE\nn.Pc\nn.Ic\nn.Dc\nn.냉각측비례대 0.0(ON/OFF제어), 0.1∼999.9% % 10.0% H/C TYPE\nn.냉각측적분시간 OFF, 1 ∼ 6000초 초 120초 H/C TYPE\nn.냉각측미분시간 OFF, 1 ∼ 6000초 초 30초 H/C TYPE\n2.RP Reference Point2 1.RP≤ 2.RP≤ EU(100.0%) EU EU(100.0%) PID 2Group\nRHY Reference\nHysteresis EUS(0.0∼10.0%) EU EU(0.3%) PID 3Group\nRDV Reference\nDeviation EUS(0.0∼100.0%) EU EU(0.0%) PID 4Group\nC.MOD Control Mode D.DV, D.PV ABS D.PV 상시표시\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 26,
+      "text": "5.6 AUTO TUNING그룹(G.AT)\n메뉴(Menu) 표시상태에서 ▲ 또는 ▼ Key를 눌러 AUTO TUNING그룹이 표시되면\n“SET/ENT” Key를 눌러서 AUTO TUNING그룹을 선택한다.\nG.AT  ↔  G.SP  ↔  G.PID  ↔  G.CTL  ↔  G.IN\n ↑                                                          ↕\nG.COM  ↔ G.RET     ↔     G.ALM    ↔   G.OUT\n▲▼ ▲▼ ▲▼\n▲▼▲▼ ▲▼\n▼\n▲▼\n▲▼\nAUTO TUNING 실행을 설정하기 위한 파라메터이다. AT를 ‘ON’으로 설정하면\nAUTO TUNING이 실행된다.\nSTOP시에는 SKIP 된다.\n- AUTO TUNING 이란 조절계가 자동적으로 제어계의 특성을 측정, 계산하여 최적의 PID정수를 자동으로 \n설정하는 기능이다.  AUTO TUNING은 ON/OFF제어출력을 내어, 제어대상에 LIMIT CYCLE을 발생시켜,  \n그 주기와 진폭에 의해 P, I, D를 계산하여 구한다.\n- AUTO TUNING 방법\nAUTO TUNING을 하고자 하는 TUNING POINT를 SP로 설정한 후 AUTO TUNING을 실행한다. 이 때 \n설정된 SP가 위치하는 PID 구간(RP에 의해 설정)에 AUTO TUNING된 결과값이 자동으로 설정된다.\nPID 제어\nON OFF ON OFF ON제어출력\nSP\nRP\nRL\nRH\nAUTO TUNING ON\n(ON/OFF 동작, MAN LED BLINK)\n2.PID\n1.PID\n※ : ON/OFF Mode 운전시에는 AUTO TUNING그룹은 SKIP된다.\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 27,
+      "text": "- 가열냉각 출력시의 AUTO TUNING\n가열냉각 출력제어의 AUTO TUNING은 가열/냉각출력을 사용하여 일반 AUTO TUNING과 같은 \n방법으로 구한다. AUTO TUNING으로 구해진 I, D값은 가열측, 냉각측에 같은 값이 기록된다. 그리고 \nP값은 가열측, 냉각측의 진폭비로 계산되어 구해진다.\n- AUTO TUNING중의 표시\nMAN LED를 약 500ms 간격으로 BLINK시킨다.\n- AUTO TUNING중의 SP변경\nAUTO TUNING중에 SP값이 변경되어도, TUNING POINT는 변경되지 않는다. AUTO TUNING 종료후 \n변경된 SP 값을 목표설정값으로 하여 제어를 시작한다.\n- AUTO TUNING중의 PID 파라메터의 변경\nAUTO TUNING중에 PID 설정값의 변경은 가능하나 AUTO TUNING 종료 후 계산에 의해 구해진 \nPID값으로 재설정된다. 단, AUTO TUNING의 정상종료 이외의 강제종료 시에는 변경된 \nPID설정값으로 제어를 시작한다.\n- AUTO TUNING의 비정상 종료의 경우\n① AUTO TUNING의 강제종료\n② AUTO TUNING중 입력단선(S.OFN)\n③ AUTO TUNING의 측정주기가 24시간을 경과할 경우.\n④ AUTO TUNUNG 중에 수동제어(MAN)로 MODE절환할 경우\nAUTO TUNING 등에 의해 구해진 PID값을 비례적으로 적용하기 위한 파라메터이다. \nAT-G 값을 줄이면 현재보다 응답속도가 빨라지고, 반대로, 값을 증가시키면 \n제어상태가 보다 안정화된다.  단, AT-G값이 낮을수록 HUNTING은 심해질 수 \n있다.\n기호 Parameter 설정범위 단위 초기치 비고\nAT\nAT-G\nAuto Tuning OFF, ON ABS OFF AUTO시\nAT Gain 0.1 ∼ 10.0 ABS 1.0 AUTO시\nGain < 1\nGain = 1\nGain > 1\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 28,
+      "text": ".\n.\n.\n5.7 경보그룹(G.ALM)\n메뉴(Menu) 표시상태에서 ▲ 또는 ▼ Key를 눌러 경보그룹이 표시되면 “SET/ENT”\nKey를 눌러서 경보그룹을 선택한다.\nG.AT  ↔  G.SP  ↔  G.PID  ↔  G.CTL  ↔  G.IN\n ↑                                                          ↕\nG.COM  ↔ G.RET     ↔     G.ALM    ↔   G.OUT\n▲▼ ▲▼ ▲▼\n▲▼▲▼ ▲▼\n▼\n▲▼\n▲▼\n경보-1의 종류를 설정하기 위한 파라메터이다. 경보의 종류는 (표-3 : 경보종류)를\n참조한다.\nALT1에 의해 설정된 경보종류에 대한 경보점을 설정하기 위한 파라메터이다.\n(설정치 상하한 동작일 때 나타난다.)\n경보-1의 DEAD BAND(HYSTERISYS)를 설정하기 위한 파라메터이다.\n경보-1 발생시 경보 출력의 지연시간(MM.SS)을 설정하기 위한 파라메터이다.\n※ 경보-2, 3의 내용은 앞의 경보-1의 내용과 동일하다.\n◎ 출력양식\n- 정접 : 경보시 ON, 비경보시 OFF\n- 역접 : 경보시 OFF, 비경보시 ON\n◎ 대기조건\n-P O W E R  O N 시\n- STOP운전에서 RUN 운전으로 전환시\n- 경보종류 변경시\n- SP 변경시\n대기동작 무 : 표시없음\n대기동작 유 : S\n정접(NC) : F\n역접(NC) : R\n항시 소수점 표시\n상한 : H\n하한 : L\n편차범위 외 : O\n편차범위 내 : I\nPV 절대치 경보 : A\n편차경보 : D\n편차상한동작 및 편차범위 내.외 동작일 경우 상한 경보점을 나타낸다.\n편차하한동작 및 편차범위 내.외 동작일 경우 하한 경보점을 나타낸다.\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 29,
+      "text": "출력양식No. 종류 대기동작\n1\n2\n3\n4\n5\n6\n상하한 편차범위 외7\n상하한 편차범위 내8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\nPV 상한\nPV 하한\n편차 상한\n편차 하한\n편차 상한\n편차 하한\nPV 상한\nPV 하한\nPV 상한\nPV 하한\n편차 상한\n편차 하한\n편차 상한\n편차 하한\n상하한 편차범위 외\n상하한 편차범위 내\nPV 상한\nPV 하한\n정접\n○\n○\n○\n○\n○\n○\n○\n○\n○\n○\n○\n○\n역접\n○\n○\n○\n○\n○\n○\n○\n○\n무\n○\n○\n○\n○\n○\n○\n○\n○\n○\n○\n유\n○\n○\n○\n○\n○\n○\n○\n○\n○\n○\n표시테이터\nAH.F\nAL.F\nDH.F\nDL.F\nDH.R\nDL.R\nDO.F\nDI.F\nAH.R\nAL.R\nAH.FS\nAL.FS\nDH.FS\nDL.FS\nDH.RS\nDL.RS\nDO.FS\nDI.FS\nAH.RS\nAL.RS\n(표 3 : 경보종류)\n△\n△\n +▲\n-\n▲\n▲\n편차상한PV 상한\nPV 하한\nDB\nDB\n+△ ▲\nDB\n편차하한\n- +△\n ▲\nDB\n상하한편차\n범위 외\n- ▲\nDB\n상하한편차\n범위 내\nDB\n▲\n-\nDB\n+▲\nDB\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 30,
+      "text": "기호 Parameter 설정범위 단위 초기치 비고\nALT3\nAL-3\nAL3.H\n경보 3 종류 “(표-3 : 경보종류)”참조 ABS AH.F 상시표시\n경보 3 설정치 EU(-100.0∼100.0%) EU EU (100.0%) 편차경보가\n아닐경우\n경보3\n설정치상한 EUS(-100.0∼100.0%) EUS EUS (0.0%) 편차경보일\n경우 표시\nALT1\nAL-1\nA1DB\nALT2\nAL-2\nA2DB\n경보 1 종류 “(표-3 : 경보종류)”참조 ABS AH.F 상시표시\n경보 1 설정치 EU(-100.0∼100.0%) EU EU (100.0%) 편차경보가\n아닐경우\n경보 1 DB EUS(0.0∼100.0%) EUS EUS (0.5%) 상시표시\n경보 2 종류 “(표-3 : 경보종류)”참조 ABS AH.F 상시표시\n경보 2 설정치 EU(-100.0∼100.0%) EU EU (100.0%) 편차경보가\n아닐경우\n경보 2 DB EUS(0.0∼100.0%) EUS EUS (0.5%) 상시표시\nA1DY 경보 1 동작\n지연시간 0.00∼99.59 (MM:SS) MM.SS 0.00 상시표시\nA2DY 경보 2 동작\n지연시간 0.00∼99.59 (MM:SS) MM.SS 0.00 상시표시\nAL3.L 경보3\n설정치하한 EUS(-100.0∼100.0%) EUS EUS (0.0%) 편차경보일\n경우 표시\nA3DB 경보 3 DB EUS(0.0∼100.0%) EUS EUS (0.5%) 상시표시\nA3DY 경보 3 동작\n지연시간 0.00∼99.59 (MM:SS) MM.SS 0.00 상시표시\nAL2.H 경보2\n설정치상한 EUS(-100.0∼100.0%) EUS EUS (0.0%) 편차경보일\n경우 표시\nAL2.L 경보2\n설정치하한 EUS(-100.0∼100.0%) EUS EUS (0.0%) 편차경보일\n경우 표시\nAL1.H 경보1\n설정치상한 EUS(-100.0∼100.0%) EUS EUS (0.0%) 편차경보일\n경우 표시\nAL1.L 경보1\n설정치하한 EUS(-100.0∼100.0%) EUS EUS (0.0%) 편차경보일\n경우 표시\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 31,
+      "text": "5.8 전송그룹(G.RET)\n메뉴(Menu) 표시상태에서 ▲ 또는 ▼ Key를 눌러 전송그룹이 표시되면 “SET/ENT”\nKey를 눌러서 전송그룹을 선택한다.\nG.AT  ↔  G.SP  ↔  G.PID  ↔  G.CTL  ↔  G.IN\n ↑                                                          ↕\nG.COM  ↔ G.RET     ↔     G.ALM    ↔   G.OUT\n▲▼ ▲▼ ▲▼\n▲▼▲▼ ▲▼\n▼\n▲▼\n▲▼\n전송출력의 종류를 선택하기 위한 파라메터이다. 전송출력의 종류에는 ‘LPS’, ‘PV’, \n‘SP’, ‘MV’ 가 있으며, 초기치는 ‘PV’로 되어 있다.\n(LPS : 센서용공급전원, 18V)\n전송출력의 상한,하한값을 설정하기 위한 파라메터이다. 전송출력의 종류가 ‘PV’\n또는 ‘SP’로 설정되었을 경우 전송출력 상한값(20mA)에 해당되는 값을 RETH에, \n전송출력 하한값(4mA)에 해당되는 값을 RETL에 설정한다.\n(※ RET의 설정이 ‘MV’로 되었을 경우에는 RETH와 RETL 파라메터가 표시되지\n않고 RETH = 100.0%, RETL = 0.0%로 고정되어 출력된다.)\n4.0mA 12.0mA\n 20.0mA\n4.0mA 12.0mA\n 20.0mA\n기호 Parameter 설정범위 단위 초기치 비고\nRET\nRETH\nRETL\n전송출력선택 LPS, PV, SP, MV ABS PV 상시표시\n전송출력상한치 T/C, RTD : INRH ∼ INRL\nmV, V : INSH ∼ INSL\n단, RETH > RETL\nEU INRH RET=\nPV, SP\n선택시전송출력하한치 EU INRL\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 32,
+      "text": "5.9 통신그룹(G.COM)\n메뉴(Menu) 표시상태에서 ▲ 또는 ▼ Key를 눌러 통신그룹이 표시되면 “SET/ENT”\nKey를 눌러서 통신그룹을 선택한다.\nG.AT  ↔  G.SP  ↔  G.PID  ↔  G.CTL  ↔  G.IN\n ↑                                                          ↕\nG.COM  ↔ G.RET     ↔     G.ALM    ↔   G.OUT\n▲▼ ▲▼ ▲▼\n▲▼▲▼ ▲▼\n▼\n▲▼\n▲▼\n통신 프로토콜(COMMUNICATION PROTOCOL)을 설정하기 위한 파라메터이다.\n통신 속도(BAUD RATE)를 설정하기 위한 파라메터이다. BAUD의 설정범위는 600 \n~ 19200 bps 까지이며, 초기치는 ‘9600’으로 되어 있다.\n통신 패리티(PARITY)를 설정하기 위한 파라메터이다. PRTY의 설정범위는\n‘NONE(없음)’, ‘EVEN(짝수)’, ‘ODD(홀수)’ 이며, 초기치는 ‘NONE’으로 되어 있다.\n통신 정지 비트(STOP BIT)를 설정하기 위한 파라메터이다. SBIT의 설정범위는 ‘1’\n또는 ‘2’ 이며, 초기치는 ‘1’ 로 되어 있다.\n통신 데이터 길이(DATA LENGTH)를 설정하기 위한 파라메터이다. DLEN의\n설정범위는 ‘7’ 또는 ‘8’ 이며, 초기치는 ‘8’ 로 되어 있다. COM.P가 MODBUS \nASCII 또는 RTU로 설정되었을 경우에는 DLEN 파라메터가 표시되지 않는다.\n조절계의 통신 주소(ADDRESS)를 설정하기 위한 파라메터이다. ADDR은 1 ~ 99 \n까지 설정이 가능하며, 초기치는 ‘1’로 되어 있다.\n조절계의 통신 응답 시간(RESPONSE TIME)을 설정하기 위한 파라메터이다. \nRP.TM은 조절계가 상위로부터 명령을 수신한 후 수신 명령 처리가 끝난 다음 다시\n상위로 응답할 때 대기하기 위한 시간이다. RP.TM의 설정은 10msec의 배수로\n설정되며, RP.TM = 0일 경우에는 명령 수신 후 명령 처리가 끝나면 곧바로 상위로\n응답을 보낸다.\n협조운전시 SLAVE에 주어지는 설정치는 RBS로 정해진 값 만큼 더해져서 설정된다. \n(통신 protocol이 변경될 때는 초기화됨)\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 33,
+      "text": "기호 Parameter 설정범위 단위 초기치 비고\nRP.TM Response Time 0 ∼ 10( ×10ms) ABS 0 Option시\nCOM.P\nBAUD\nPRTY\nSBIT\nDLEN\nADDR\nCommunication\nProtocol\nPCC0, PCC1, MODBUS ASCII,\nMODBUS RTU, SYNC-Master,\n SYNC-Slave\nABS PCC0 Option시\nBaud Rate 600, 1200, 2400, 4800, 9600, 19200 ABS 9600 Option시\nParity None, Even, Odd ABS None Option시\nStop Bit 1, 2 ABS 1 Option시\nData Length 7, 8(MODBUS 일때는 SKIP) ABS 8 Option시\nAddress 1 ∼ 99(단, 최대 31대까지 연결) ABS 1 Option시\nRBS REMOTE BIAS EUS(-100.0∼100.0%) EUS EUS(0.0%)\nCOM.P =\n SYNC-Slave \n일때\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 34,
+      "text": "ERROR 표시 조치사항ERROR 내용\nE.SYS 수리의뢰EEPROM, DATA 손실\nE.RJC 수리의뢰기준접점보상 SENSOR 불량\nSP 소수점 점멸 통신회선 CHECK통신상태 불량\nS.OPN SENSOR CHECKSENSOR 단선\nE.AT PROCESS CHECKAT Time Out(24h 이상)\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 35,
+      "text": "7.1 외형치수 및 PANEL CUTTING 치수\n96\n96\n91.6\n99.611.4\n91.6\n107.5\n(PANEL두께)\n1mm~10mm\n120\n92\n120\n+0.6\n  0\n92+0.6\n  0\n96XN-4\nN:대수\n+2\n  0\n92+0.6\n  0\n \n \n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 36,
+      "text": " \n48\n96\n44.6\n99.611.4\n91.6\n107.7\n(PANEL두께)\n1mm~10mm\n70\n45\n120\n+0.6\n  0\n92+0.6\n  0\n48XN-3\nN:대수\n+2\n  0\n92+0.6\n  0\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 37,
+      "text": " \n \n72\n72\n67.6\n99.611.4\n67.6\n83.5\n(PANEL두께)\n1mm~10mm\n90\n68\n90\n+0.6\n  0\n68+0.6\n  0\n71XN-3\nN:대수\n+2\n  0\n68+0.6\n  0\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 38,
+      "text": " \n \n96\n48\n107.7\n99.611.4\n44.6\n(PANEL두께)\n1mm~10mm\n120\n70\n91.6\n92+0.6\n  0\n45+0.6\n  0\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 39,
+      "text": " \n \n48\n48\n44.6\n99.611\n44.6\n55.2\n(PANEL두께)\n1mm~5mm\n70\n45\n70\n+0.6\n  0\n45+0.6\n  0\n48XN-3\nN:대수\n+2\n  0\n45+0.6\n  0\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 40,
+      "text": "7.2 마운트(MOUNT) 부착방법\n  1) 설치하고자 하는 PANEL을 CUT합니다.(7.1 PANEL CUTTING 치수 참조)\n  2) 상기 그림과 같이 본 제품을 본체의 후면부터 설치구멍에 삽입합니다.\n  3) 본체 좌,우에 고정마운트를 이용하여 본체를 고정합니다. (드라이버 사용)\n고정마운트의 체결시 주의사항\n고정마운트를 고정시킬 때 무리한 힘으로 조이지 말아 주십시오.\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 41,
+      "text": "주의사항\n공급하는 모든 계기의 주전원을 차단(OFF)하여 배선 케이블(CABLE)이 통전되지 않는지\n테스터(TESTER) 등으로 확인한 후 배선을 하여 주십시오.\n● 통전중에는 감전될 위험이 있으므로 절대로 단자에 접촉되지 않도록 하여 주십시오.\n● 반드시 주전원을 차단(OFF)시킨 후 배선을 하여 주십시오.\n사용하지 않는 단자에 접속을 하는 경우에는 시스템의 손상이나 오동작 등 이상동작이 \n발생할 수 있으므로 결선하지 않도록 주의하여 주십시오.\n7.3 전원선 권장 사양\n비닐절연전선 KSC 3304 0.9~2.0 ㎟\n그림과 같은 M3.5 SCREW에 적합한 절연 슬리브(SLEEVE)가 부착된 압착단자를 사용하여 주십시오.\n7.4 단자 권장 사양\nΦ3.0㎜ 이상\n5.8㎜ 이하\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 42,
+      "text": "7.5 단자배치 및 외부결선도\n818\n19\n20\n9\n10\n17\n16\n15\n14\n11\n12\n13\n7\n6\n5\n4\n1\n2\n3\nOUT1\n30V DC 3A\n접점용량:250V AC 3A\n11\nRELAY\nNO\n13 NC\nCOM12\nCOOL\nHEAT\n선택종류\nALM2\nALM3\nALM1\nRET\n4-20mA DC or 전압펄스\nRET\nOUT2\nSCR\nSSR COOL\nHEAT\nOUT3 선택종류\n100-240V AC 50/60Hz\n18\nPOWER\n19\n20 GND\nALM3\n10 -\n9 +\nSUB OUT2\n30V DC 1A\n접점용량:250V AC 1A\n접점용량:250V AC 1A\n30V DC 1A\n5 DI1\n7 COM\n-10\n+9\n6 DI2\nDI\nRELAY\nRS485\n선택종류\nSUB OUT1\nRELAY\nCOOL\n선택종류\nHEAT\nALM1\nALM2\nDISL\n1\n2 SP3off on\non on SP4\nDI1 DI2\non\noff off\non\noff\noff\non off\n동작\nSP1\nSP1\nSP2\nRUN\nSTOP\nSP2\n-\n-\n-\n-\n무전압 접점RLY or TR접점\nRUN\n14\n15-\n+ 16\n17-\n+\n2\n1\nCOM\nNO\n4 COM\n3 NO\n5\n6\n7SG\nRTX-\nRTX+\nA\nB\nb\n8\n10\n9\nRUN\nRUN\nALM3\nALM2\nALM1\nCOOL\nHEAT\nMAX:19200bps\nTC INPUT\nRTD INPUTmV/V INPUT\nN\nL\nRET\nSCR\nSSR\nLPS\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 43,
+      "text": "20\n18\n19\n17\n16\n10\n8\n9\n7\n6\n14\n15\n12\n13\n11\n4\n5\n2\n3\n1\n접점용량:250V AC 3A\n30V DC 3A\n11\n12\n13\nCOM\nNO\nNC\nRELAY 선택종류\nOUT1\n4-20mA DC or 전압펄스\nRET\nSSR\nSCR\nOUT2 선택종류\nRET\nCOOL\nHEAT\nOUT3\nGND\n100-240V AC 50/60Hz\n20\nPOWER\n18\n19\nSUB OUT1\n30V DC 1A\n30V DC 1A\n선택종류\n선택종류\n접점용량:250V AC 1A\n6 DI2\n5 DI1\nDI RS485\n7 COM\n접점용량:250V AC 1A\nRELAY\nRELAY\nSUB OUT2\n+9\n-10\n9\n10\n+\n-\nSP1offoff\n2 on\non\noff\nSP2\nSP4\nSP3\noff\non\non\n-\n-\nDISL\noff\nDI1\n1 on\n-\n-\nSTOP\n동작DI2\nSP1off\nSP2on\nRUN\n무전압 접점RLY or TR접점\nRUN\nHEAT\nCOOL\nALM1\nALM2\nALM3+\n- 17\n16+\n- 15\n14\nRUN\nALM3\nALM2\nALM1\nCOOL\nHEAT\nNO\nCOM\n1\n2\nALM3\nRUN\nHEAT\nCOOL\nALM1\nALM2COM4\nNO3\nRTX+\nRTX-\nSG\n7\n6\n5\n9\n10\n8\nb\nB\nA\nMAX:19200bps\nmV/V INPUT RTD INPUT\nTC INPUTN\nL\nRET\nSCR\nSSR\nLPS\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 44,
+      "text": "30V DC 3A\n선택종류\n접점용량:250V AC 3A\n100-240V AC 50/60Hz\nPOWER\n14\n13\n4-20mA DC or 전압펄스\n선택종류\nSCR/SSR/RET\n- 12\n+ 11\nOUT2\n10\n8\n9\nNO\nNC\nCOM\nRELAY\nOUT1\n- off SP1\nN\nL\nOUT3\n4-20mA DC or 전압펄스\nSCR/SSR/RET\n27\n28-\n+\n선택종류\nHEAT\nCOOL\nRET\nCOOL\nRET\nHEAT\nHEAT\nRUN\nCOOL\nALM3\nALM2\nALM1\n11\n10\n12\n13\n14\n9\n8\n4\n3\n5\n6\n7\n2\n1\nMAX:19200bps\nRTX+\nSG\nRTX-\n22\n23\n24\nDI1\nDI2\nCOM\n22\n23\n24\nmV/V INPUT\n6\n7\n+\n-\nRTD INPUT\n5\n7\n6\nA\nB\nb\nTC INPUT\n6\n7\n+\n-\n무전압 접점RLY or TR접점\nSUB OUT1\nRELAY\nSUB OUT2\n접점용량:250V AC 1A\n접점용량:250V AC 1A\nRELAY\n2\n3\n4\n2\n1\n-\noff\noff\non\non\nALM3COM\nHEAT\n30V DC 1A\nNO\nCOM\nCOOL\nALM2\nALM3\nRUN\nALM1\n선택종류\n30V DC 1A\nRUN\n선택종류\nNO\nALM2\nALM1\nCOOL\nHEAT\non\noff\non\non\noff\nSP2\nSP1\nSP3\nSP4\nSP2\nDI RS485\nDISL\n1\nDI1\non\noff\nDI2\n-\n- STOP\n동작\nRUN\n28\n27\n26\n25\n24\n23\n22\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 45,
+      "text": "무전압 접점RLY or TR접점\n100-240V AC 50/60Hz\n20\n18\n19\nPOWER\nL\nN\nGND\nCOM\nDI2\nDI1\n2\n12\n9\n19\n10\n20\n78\n18 17 14\n6\n16\n5\n15\n4 3\n13\n7\n6\n5\nDI\n1\n11\n1\n2\nDISL\nMAX:19200bps\nRTX+\nRTX-\nSG\n6\n5\n7\nRS485\non SP4 on\nSTOP\nDI2\non\noff\non\noff\noff\n-\n-\non\noff\non\noff\noff\nDI1\n-\nSP1\nSP2\nRUN\nSP2\nSP3\nSP1\n-\n동작\nRTD INPUT\nb\nA\nB\n9\n8\n10\nTC INPUT\n9\n10\n+\n-\nRELAY\nNC13 ALM3\n30V DC 3A\n접점용량:250V AC 3A\nRUN\nOUT1\n12\n11\nRELAY\nNO\nCOM\n선택종류\nALM2\nALM1\nCOOL\nHEAT\nRELAY\n1\n2\n선택종류\nCOM\nNO ALM1\nALM2\nHEAT\nALM3\nCOOL\nRUN\nSUB OUT1\n4\n3\n4-20mA DC or 전압펄스\nSSR\nSCR\nRET\n선택종류\nHEAT\nRET\nCOOL\n선택종류\nCOM\nNO\nALM3\nALM2\nALM1\nCOOL\nHEAT\nRUN\nSUB OUT2\n30V DC 1A\n접점용량:250V AC 1A\nmV/V INPUT\n9+\n-10\n접점용량:250V AC 1A\n30V DC 1A\n-\n+16\n17\nOUT3\n14\n15\n-\n+\nOUT2\nRET\nSCR\nSSR\nLPS\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 46,
+      "text": "9\n10\n7\n8\n414\n515\n2\n3\n12\n13\n5-\n4+\n4 +\n5-\n12 DI2\n6\n13 COM\nDI RS485\n111\n30V DC 1A\nHEAT\n4-20mA DC or 전압펄스\nRET\nCOOL\nHEAT\n접점용량:250V AC 1A\nALM2\nCOOL\nALM1\nALM3\nSCR/SSR/RET\nOUT3\n선택종류\nSUB OUT\n선택종류RELAY\nL\n100-240V AC 50/60Hz\n10\n30V DC 3A\n접점용량:250V AC 3A\nPOWER\nN9\n7 COM\n8 NC\n선택종류RELAY\nOUT1\n6 NO\nCOOL\nRET\nSCR/SSR/RET\nOUT2\n선택종류\nHEAT11 DI1\nSP1offoff\n무전압 접점RLY or TR접점\non\non\noff2 SP2off\nSP4on\non SP3\n-\n-\noff\non\nDI1\n1\nDISL\n-\n-\nSTOP\nRUN\nSP2\nSP1\n동작\noff\non\nDI2\n4-20mA DC or 전압펄스\nRTX+\nRTX-\nSG\nMAX:19200bps\n+\n- 2\n1\nb\nB\nA\n-\n+\n15\n14 NO\nCOM15\n14\nRUN\nHEAT\nCOOL\nALM2\nALM3\nRUN\nALM1\nRTD INPUTmV/V INPUT\nTC INPUT\n13\n12\n11\n4\n5\n3\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 47,
+      "text": "■ 입력극성에 주의하여 접속하여 주십시오. 잘못된 접속은 본체의 고장 원인이 됩니다.\n■ 입력배선은 쉴드(SHIELD)가 부착된 것을 사용하여 주십시오.\n    또한, 쉴드(SHIELD)는 1점 접지를 시켜 주십시오.\n■ 측정입력 신호선은 전원회로 또는 접지회로로부터 간격을 띄워 배선하여 주십시오.\n■ 도선저항이 적고, 3선간의 저항차가 없는 전선을 사용하여 주십시오.\n반드시 FRAME GROUND(FG)는 접지하여 주십시오.\n전원선 배선의 경우, L상과 N상을 반드시 지켜서 연결해 주십시오.\n그렇지 않을 경우, 오동작 및 제품 파손의 원인이 될 수 있습니다.\n감전될 위험이 있으므로 사용단자를 배선할 때에는 반드시 NOVA 본체의 전원 및 외부공급\n전원을 OFF하여 주십시오.\n7.6 접지 및 전원배선\n■ 접지는 2 ㎟ 이상의 굵은 전선으로, 제 3종 접지 이상(접지저항 100Ω이하)으로 배선하여 주십시오.\n    또한 접지 케이블(CABLE)은 20m이내에서 배선하여 주십시오.\n■ 접지단자로부터 1점 접지를 하여 주시고, 접지단자를 지나는 배선은 하지 말아 주십시오.\n■ 전원배선은 비닐절연전선(KSC 3304)과 동등 이상의 성능을 가진 케이블 또는 전선을 사용하여 배선하여\n    주십시오.\n7.7 측정입력(ANALOG INPUT)배선\n제3종접지\nA\nB\nb\nRTD\nINPUT\nNOVA\nSHIELD\n(가) 측온저항체 입력(RTD INPUT) (나) 직류전압 입력(DC VOLTAGE INPUT)\n(다) 직류전류 입력(DC CURRENT INPUT)\nFG\n제3종접지\nL\nN\n제3종접지\n-\n+\nINPUT\nNOVA\nSHIELD\nDCmA R\n제3종접지\n-\n+\nINPUT\nNOVA\nSHIELD\nV\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 48,
+      "text": "감전될 위험이 있으므로 수신기(기록계 등)의 설치 및 제거시에는\n반드시 NOVA 본체 전원 및 외부공급전원을 OFF하여 주십시오.\n감전될 위험이 있으므로 NOVA의 조작단(ACTUATOR)의 설치 및 제거시에는\n반드시 NOVA 본체 전원 및 외부공급전원을 OFF하여 주십시오.\n■ 출력극성에 주의하여 접속하여 주십시오. 잘못된 접속은 본체의 고장 원인이 됩니다.\n■ 출력배선은 쉴드(SHIELD)가 부착된 것을 사용하여 주십시오.\n또한, 쉴드(SHIELD)는 1점 접지를 시켜 주십시오.\n제어출력을 배선할 때에는 반드시 NOVA 본체의 전원을 OFF하여 주십시오. \n감전의 위험이 있습니다.\n7-8 제어출력(ANALOG OUTPUT)배선\n(가) 전압펄스출력(SSR)/전류출력(SCR)\n(나) 전송출력(RET)\nOUT2,3 +\n-\n+ RET+\nNOVA\nSHIELD\nRET-\n수신기\n(기록계 등)\n제3종접지\n4∼20mA DC,\n600 ohm max\nSCR : 4∼20mA DC, 600 ohm max\nSSR : 12V DC min, 600 ohm min\n(다) Loop Power Supply(LPS)\nTYP   24±0.5V   30mA\nMAX  22±0.5V   0.85W\n-\n+\nNOVA\nSHIELD\nOUT2,3 -\n조작단\n제3종접지\n9\n10\n16\n17\nPV Input\n1 ~ 5 V DC signal\n24V DC\nLoop Power\nSupply\n250Ω외부저항\n  2선식 센서 사용시 배선방법\n4~20mA DC\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 49,
+      "text": "저항부하가 본 제품의 Spec(사양)을 OVER시에는,\n보조 RELAY를 사용하여 부하를 ON/OFF하여 주십시오.\n감전될 위험이 있으므로 외부접점입력을 배선할 경우, 반드시 NOVA의 본체 전원 및\n외부공급전원을 OFF하여 주십시오.\n감전될 위험이 있으므로 외부접점출력을 배선할 경우, \n반드시 NOVA의 본체 전원 및 외부공급전원을 OFF하여 주십시오.\n7.10 외부접점입력(DI)배선\n■ 외부접점은 무전압접점(RELAY접점 등)을 사용하여 주십시오.\n■ 무전압접점은 OFF시 단자전압(약 5V)과 ON시의 전류(약 1mA)에 대하여, 충분히 개폐능력이 있는 것을\n사용하여 주십시오.\n■ 오픈콜렉타(OPEN COLLECTOR)를 사용할 때에는, 접점ON시의 양단전압이 2V 이하, 접점ON시의 누설\n전류가 100μA 이하의 것을 사용하여 주십시오.\n7.11 보조 RELAY의 사용\n■ 보조 RELAY와 SOLENOIDE VALVE와 같은 INDUCTANCE(L) 부하를 사용하는 경우에는, 오동작 및\nRELAY 고장의 원인이 되므로 반드시 SPARKS 제거용의 SURGE SUPPRESSOR 회로로 하여 CR FILTER \n(AC 사용시) 또는 DIODE (DC 사용시)를 병렬로 삽입하여 주십시오.\n■ CR FILTER 권장품\n▶ 성호전자           : BSE104R120 25V (0.1μ+120Ω)\n▶ HANA PARTS CO.   : HN2EAC  \n▶ 松尾電機(株)         : CR UNIT 953, 955 etc\n▶ (株)指月電機製作所  : SKV, SKVB etc\n▶ 信英通信工業(株)   : CR-CFS, CR-U etc\nDI_2\nNOVA\nDI_COM\nDI_1\n▲ RELAY 접점입력의 경우\nDI_2\nNOVA\nDI_COM\nDI_1\n+5V\n▲ TRANSISTOR 접점입력의 경우\n7.9 외부접점출력(RELAY)배선\nCOM\nNOVA\nRLY_NC\nRLY_NO\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 50,
+      "text": "감전될 위험이 있으므로 통신을 배선할 경우, 반드시 NOVA의 본체 전원 및 외부공급전원을\nOFF하여 주십시오.\n(가) DC RELAY의 경우\n(나) AC RELAY의 경우\nRELAY\n(RELAY COIL 정격은 컨트롤러의 접점용량 이하의 것을 사용하여 주십시오.)\nCR FILTER\n(RELAY COIL 단자(SOCKET)에 직접 연결하여 주십시오.)\n외부교류전원\n계기\nR\n7.12 통신(RS485)배선\n■ SLAVE측(NOVA)은 최대 31대까지 멀티드롭(MULTIDROP)접속이 가능합니다.\n■ 통신로의 양단에 있는 자국 또는 친국에는 반드시 종단저항(200Ω 1/4W)을 접속하여 주십시오.\nMaster Station 당사제품 당사제품\n종단저항\n제3종접지제3종접지\n종단저항\nSHIELD\nRTX+ RTX+ RTX+\nRTX- RTX- RTX-\nSG SG SG\nR\n외부직류전원\nRELAY\n(RELAY COIL 정격은 컨트롤러의 접점 용량 이하의 것을 사용하여 주십시오.)\nDIODE\n(RELAY COIL 단자 (SOCKET)에 직접 연결하여 주십시오.)\n계기\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 51,
+      "text": "* D-Register\nNO. PROCESS FUNCTION SET POINT SIGNAL ALARM PID IN/OUT\n0 100 200 300 400 500 600\nSPSL0\nNPV R-S,STOP/RUN SP1 ALT1 ARW IN-T1\nNSP SP2 ALT2 FUZZY INT-U2\nSP3 ALT3 C.MOD IN.RH3\nSP4 IN.RL4\nSPSL A/M IN.DP5\nMVOUT H.OUT(MVOUT) AL-1 IN.SH6\nHOUT C.OUT(MVOUTc) AL-2 IN.SL7\nCOUT AL-3 IN.FL8\nPIDNO BSL9\nNOWSTS RSL10\nSPRH A1DB 1.P BSP111\nSPRL A2DB 1.I BSP212\nA3DB 1.D BSP313\nALSTS TMU 1.MR D.FL14\n1.Pc BS015\nU.SLP A1DY 1.Ic BS116\nD.SLP A2DY 1.Dc BS217\nA3DY 1.DB BS318\nERROR RP1 BS419\nPROC_TIME20\nAT AL1.H 2.P OUT121\nAT-G AL2.H 2.I OUT222\nAL3.H 2.D OUT323\n2.MR24\n2.Pc SUB125\nAL1.L 2.Ic SUB226\nAL2.L 2.Dc27\nAL3.L 2.DB28\nRP229\n30\nS-TM 3.P HEAT231\nP-TM 3.I COOL232\n3.D HEAT333\nON/OFF 3.MR COOL334\nUS1 3.Pc35\nUS2 3.Ic36\nLOCK 3.Dc O.ACT37\nDI.SL 3.DB CT38\nDSP.H RHY CTc39\nDSP.L40\n4.P OH41\n4.I OL42\n4.D43\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 52,
+      "text": "NO. PROCESS FUNCTION SET POINT SIGNAL ALARM PID IN/OUT\n0 100 200 300 400 500 600\n4.MR HYS44\n4.Pc45\n4.Ic PO46\n4.Dc POc47\n4.DB HYS.H48\nRDV HYS.L49\n50\nRET51\nRETH52\nU RETL53\ns54\ne55\nr56\n57\nA58\nr59\ne60\na61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\nCOM.P\nBAUD\nPRTY\nSBIT\nDLEN\nADDR\nRP.TM\n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 53,
+      "text": "NO. PROCESS FUNCTION SET POINT SIGNAL ALARM PID IN/OUT\n0 100 200 300 400 500 600\n88\n89\n90\n91\n92\n93\n94\n95\n96\n97\n98\n99\n(※ 굵은선 : Read Only) \n",
+      "width": 595.22,
+      "height": 842.0
+    },
+    {
+      "page": 54,
+      "text": "SAMWONTECH CO., LTD.\n경기도 부천시 원미구 약대동 192번지\n부천테크노파크 202동 703호\nTEL : +82-32-326-9120\nFAX : +82-32-326-9119\nhttp://www.samwontech.com\nE-mail:webmaster@samwontech.com\n이사 용 설 명 서 는사 전통 보없 이변 경 될수있 습 니 다 .   \n이 사용설명서는 (주)삼원테크의 허가 없이 어떤 형태로든 부분적 또는 전체적으로 복사, 재편집, 양도 하실 수 없습니다.\n제품문의 및 기술상담은 당사 영업부로 연락바랍니다.\n",
+      "width": 595.22,
+      "height": 842.0
+    }
+  ],
+  "page_count": 54
+}

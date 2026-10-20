@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "approved_on": "2026-10-21",
+  "approval": "User explicitly requested GitHub and Netlify publication of the prepared equipment project.",
+  "denied_paths": [
+    "documents/source-figures/42031040c99e3154cf422f60a4f2c75c7e03fd3fc4615a244146ba190bf3bc6c.png",
+    "documents/source-figures/42031040c99e3154cf422f60a4f2c75c7e03fd3fc4615a244146ba190bf3bc6c.webp",
+    "documents/source-figures/707e27f0a4df6fb992bbb3ce4f8e5e0bcb33bb46c6ca5ba2088535bbdcca79ce.jpeg",
+    "documents/source-figures/707e27f0a4df6fb992bbb3ce4f8e5e0bcb33bb46c6ca5ba2088535bbdcca79ce.webp",
+    "documents/source-figures/7885542b24f3ee35e2e97ef9689c3b3ea920c070592c2149aeb9898e0950be5b.jpeg",
+    "documents/source-figures/7885542b24f3ee35e2e97ef9689c3b3ea920c070592c2149aeb9898e0950be5b.webp",
+    "documents/source-figures/a4a584ce8c3ace915b9abb5741f560e573d158f30c85c22ebf527a512939256c.jpg",
+    "documents/source-figures/a4a584ce8c3ace915b9abb5741f560e573d158f30c85c22ebf527a512939256c.webp",
+    "documents/source-figures/abbd045c094b7a341d061724fa291f792ec82bfb9b0a3c97e445ee550237b369.png",
+    "documents/source-figures/abbd045c094b7a341d061724fa291f792ec82bfb9b0a3c97e445ee550237b369.webp",
+    "documents/source-figures/b392a58d50f069887dd80bbb35653b9bdabe2a2861a20a67b657ac51137ddc13.png",
+    "documents/source-figures/b392a58d50f069887dd80bbb35653b9bdabe2a2861a20a67b657ac51137ddc13.webp",
+    "documents/source-figures/f59f9d16b5c1f39b2c595fd37fcc97142ab0564e7febbd4d4d54dbecb2b3a18a.jpeg",
+    "documents/source-figures/f59f9d16b5c1f39b2c595fd37fcc97142ab0564e7febbd4d4d54dbecb2b3a18a.webp",
+    "documents/source-previews/c0448bad6b7257ccce183d24e1373cd49fd509493129d047d0ebeb60bab5da6e-0032.webp",
+    "documents/source-store/44b06169e5113a08d013a94dc16820bd64d303098cf3b7a3c0ed6b305cd5a792.pptx",
+    "documents/source-store/c0448bad6b7257ccce183d24e1373cd49fd509493129d047d0ebeb60bab5da6e.pdf"
+  ],
+  "withheld_sources": [
+    "S44b06169e5113a08",
+    "Sc0448bad6b7257cc"
+  ]
+}

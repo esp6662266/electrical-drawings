@@ -1,0 +1,94 @@
+{
+  "equipment_id": "TOTALIZER-02",
+  "source_count": 3,
+  "sources": [
+    {
+      "id": "totalizer-plc-20220721",
+      "name": "220721 적산기 PLC.pdf",
+      "file": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf",
+      "bytes": 855963,
+      "sha256": "6b20956e80162d7e578727dbd8c49be5f8512ed8255f2e5daadef7c58925cc95",
+      "pages": 20
+    },
+    {
+      "id": "totalizer-user-manual",
+      "name": "세진메탈-적산기 사용 설명서.hwp",
+      "file": "/documents/totalizer-02/source/totalizer-user-manual.hwp",
+      "bytes": 3812352,
+      "sha256": "6abb1b6c6c7277d424d35a1d18131a1af54f717c6447c61602c3e5352dd66c60",
+      "compressed": true,
+      "sections": [
+        {
+          "name": "Section0",
+          "paragraph_count": 473
+        }
+      ],
+      "extracted_characters": 16806,
+      "images": [
+        {
+          "file": "BIN0001.png",
+          "width": 3264,
+          "height": 2448
+        },
+        {
+          "file": "BIN000C.png",
+          "width": 472,
+          "height": 314
+        }
+      ],
+      "streams": [
+        "\u0005HwpSummaryInformation",
+        "BinData/BIN0001.jpg",
+        "BinData/BIN0002.OLE",
+        "BinData/BIN0003.wmf",
+        "BinData/BIN0004.wmf",
+        "BinData/BIN0005.wmf",
+        "BinData/BIN0006.wmf",
+        "BinData/BIN0007.wmf",
+        "BinData/BIN0008.wmf",
+        "BinData/BIN0009.wmf",
+        "BinData/BIN000A.wmf",
+        "BinData/BIN000B.wmf",
+        "BinData/BIN000C.bmp",
+        "BinData/BIN000D.wmf",
+        "BodyText/Section0",
+        "DocInfo",
+        "DocOptions/_LinkDoc",
+        "FileHeader",
+        "PrvImage",
+        "PrvText",
+        "Scripts/DefaultJScript",
+        "Scripts/JScriptVersion"
+      ]
+    },
+    {
+      "id": "casting-totalizer-commissioning",
+      "name": "세진메탈-주조기-적산기 시운전 요령.hwp",
+      "file": "/documents/totalizer-02/source/casting-totalizer-commissioning.hwp",
+      "bytes": 75776,
+      "sha256": "a5c8b84b45a331ad34523191f59761a25aa509fade01b0e61b56b8c8b8cab20e",
+      "compressed": true,
+      "sections": [
+        {
+          "name": "Section0",
+          "paragraph_count": 155
+        }
+      ],
+      "extracted_characters": 3450,
+      "images": [],
+      "streams": [
+        "\u0005HwpSummaryInformation",
+        "BinData/BIN0001.OLE",
+        "BinData/BIN0002.OLE",
+        "BodyText/Section0",
+        "DocInfo",
+        "DocOptions/_LinkDoc",
+        "FileHeader",
+        "PrvImage",
+        "PrvText",
+        "Scripts/DefaultJScript",
+        "Scripts/JScriptVersion"
+      ]
+    }
+  ]
+}

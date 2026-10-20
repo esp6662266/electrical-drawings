@@ -1,0 +1,296 @@
+{
+  "sha256": "1acb8fa8327bc97745172b06895ea5d9a38129244deb1c750aae670e89b3e136",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Steinert GmbH \nWiddersdorfer Straße 329-331 • D -50933 Köln \nPostfach 45 11 60 • D -50886 Köln \nTelefon: \nZentrale +49-(0)221 / 49 84 - 0 \nErsatzteile +49-(0)221 / 49 84 - 177 \nService / Reparaturen +49-(0)221 / 49 84 - 132 \nTelefax +49-(0)221 / 49 84 - 102\nE-mail sales@steinert.de \nw ww.steinert.de \nEINBAUANLEITUNG (DE) \nGerät Magnetscheider \nTyp M OR 145 165 MT 40 U \nFabrik- Nr. 18 0143 090 01 + 18 0143 100 01 \nAuftrags- Nr. A1180143 \nKunde S ejin Metal CO., LTD. \n15, Wonbong-m \nOnsan-eup      \nROK -       Ulju-gun, Ulsan \nBestellnummer \nBestelldatum 2018-02-06 \nProjektname \nEndkunde \nBaujahr 2018 \nORIGINAL",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 2,
+      "text": " \n \n \n 2  \n \nD_MOR ... MT 30 bis 50 -06 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 3,
+      "text": " \n \n \n 3  \n \nD_MOR ... MT 30 bis 50 -06 \n \nInhaltsverzeichnis \n \n \nGrenzwerte für magnetische Feldstärken zum Schutz von Personen 9\n \n1)  Schutz gegen statische Magnetfelder .....................................................................................9 \n2)  Schutz gegen rotierende Magnetfelder mit einer Frequenz         ≥ 1 Hz bis 30 kHz............9 \nArbeitssicherheit und Achtungshinweise ................................................................................. 11  \nArbeitssicherheit 11  \nMagnetische Felder 11  \nTemperatur 12  \nSchalldruckpegel 12  \nTransport 13  \nMontage 13  \nBetrieb 14  \nHerabfallende Gegenstände 14  \nWartung 14  \nPersonal 14  \nVerantwortung des Betreibers 15  \nHaftungsbeschränkung 16  \n1.  Technische Daten MOR/MGR ... MT 40 . ............................................................................... 17  \n1.1  Betriebsbedingungen 18  \n1.2  Typenschild 18  \n2.  Transport, Verpackung, Lagerung ........................................................................................ 19  \n2.1  Sicherheitshinweise für den Transport 19  \n2.2  Transport 21  \n2.3  Transport / Versand 22  \n2.4  Symbole auf der Verpackung 23  \n2.5  Lagerung 24  \n3.  Installation und Erstinbetriebnahme .................................................................................... 25  \n3.1  Montage 25  \n3.2  Prüfungen 25  \n3.3  Erstinbetriebnahme 26  \n3.4  Anschließen an die Energieversorgung 26  \n4.  Wartung ................................................................................................................................... 27  \n4.1  Personal 27  \n4.2  Wartungsplan 28  \n5.  Antriebe schmieren ................................................................................................................ 29  \n5.1  Umgang mit Schmierstoffen 29  \n6.  Trommelmantelwechsel an Magnettrommeln  -Durchmesser 300 bis 650 mm ............... 30  \n7.  Störungen ................................................................................................................................ 31  \n7.1  Personal 31  \n7.2  Störungstabelle Mechanik 32  \n8.  Entsorgung ............................................................................................................................. 33  \n9.  Anhang .................................................................................................................................... 35  \nMaßblätter/ Aufstellungsplan 35  \nErsatzteilliste 37  \nAnleitung-Schwingförderrinne ZOR 39  \nAnleitung-Magnettrommel permanent MTP 41  \nAntrieb 43 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 4,
+      "text": " \n \n \n 4 \n \nD_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 5,
+      "text": " \n \n \n 5 \n \nD_MOR ... MT 30 bis 50 -06 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nHinweise sorgfältig beachten. Geben Sie diese Unter lagen bitte an das \nBedienungspersonal der Maschine weiter. \n \nStellen Sie sicher, dass jede mit Montage, Betrieb und Wartung der \nMaschine beauftragte Person diese Anleitung vor Beg inn der Arbeit gelesen \nund verstanden hat. \n \nLassen Sie die Bedienung, Inbetriebnahme nur von ge schultem Personal \ndurchführen. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 6,
+      "text": " \n \n \n 6  \n \nD_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 7,
+      "text": " \n \n  \nInhaltsverzeichnis \n \n2015-03-25 \n \n \n \nMagnetscheider \n MOR \n \nMaterialzuführung ZOR* \nMagnettrommel permanent  MTP* \n \n ZOR MTP MOR \n \n \n \n * Einzelheiten siehe Beschreibung der verbauten Komponenten im Anhang. \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 8,
+      "text": " \n \n \n 8  \n \nD_MOR ... MT 30 bis 50 -06 \n \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 9,
+      "text": " \n \n \n 9 \n \nD_MOR ... MT 30 bis 50 -06 \n \nGrenzwerte für magnetische Feldstärken zum Schutz von Personen \n \n \n \n \n \n1) Schutz gegen statische Magnetfelder \n \nDer zulässige max. Grenzwert für Personen mit implantiertem Herzschrittmacher  beträgt  \n1 mT (entspricht 10 Gauß). \nDieser Wert wird in einem Abstand ≥ 5 m zum stärksten Magneten nicht überschritten. \nFür Personen ohne Implantate, bei begrenzter Einwir kzeit, beträgt der maximal zulässige  \nWert 2 T (20000 Gauß). \nZulässiger Mittelwert bei einer Dauerexposition (ca. 8 h) beträgt 212 mT. \nMax. gemessene Werte in ca. 1 m Distanz zu einem Ma gneten mit höchsten Feldstärken \nund einer Leistung von 70 kW betrugen weniger als 100 mT. \n \n2) Schutz gegen rotierende Magnetfelder mit einer F requenz  \n       ≥ 1 Hz bis 30 kHz \n \nDer zulässige max. Grenzwert für Personen mit impla ntiertem Herzschrittmacher beträgt  \n0,1 mT (entspricht 1 Gauß). \nDieser Wert wird in einem Abstand ≥ 3 m zum stärksten Magneten nicht überschritten. \nFür Personen ohne Implantate, bei einer begrenzten Einwirkzeit, beträgt der max. zulässige \nWert 0,2 mT (entspricht 2 Gauß). \nDieser Wert wird in einem Abstand ≥ 1,5 m zum stärksten Magneten nicht überschritten. \n \n \nQuellen:  \nDIN EN 45502-2-1:2004-08; VDE 0750-10-1:2004-08 Aktive implantierbare medizinische Geräte. \nBG-Regeln, Fassung 08/2004  \n \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 10,
+      "text": " \n \n \n 10  \n \nD_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 11,
+      "text": " \n \n \n 11  \n \nD_MOR ... MT 30 bis 50 -06 \n \nArbeitssicherheit und Achtungshinweise \nDieses Kapitel der Anleitung beinhaltet diejenigen Hinweise, Vorschriften und Richtlinien, \ndurch welche Gefahren für Gesundheit und Leben von Personen und Beschädigungen oder \nZerstörung der Maschine infolge unsachgemäßer Bedienung vermieden werden sollen!  \n \nArbeitssicherheit \n  \nDieses Zeichen ist in der Anleitung denjenigen Arbeitssicherheits- Hinweisen \nzugeordnet, durch welche Gefahren für Gesundheit und Leben von Personen \nabgewendet werden sollen. \n \n \nFür Montage, Inbetriebnahme, Bedienung und Wartung muss die personelle Zuständigkeit \nklar festgestellt werden, damit die Sicherheit im U mgang mit der Maschine nicht \nbeeinträchtigt wird.  \nDie Maschine ist nach dem neuesten Stand der Techni k gebaut und betriebssicher, wird sie \njedoch von nicht eingewiesenem Personal unsachgemäß  bedient, können von ihr Gefahren \nausgehen.  \nDarüber hinaus sind die für den Einsatzbereich der Maschine/ Anlage geltenden örtlichen \nUnfallverhütungsvorschriften, allgemeinen Sicherhei tsbestimmungen, sowie eventuelle \ninterne Arbeits-, Betriebs- und Sicherheitsvorschri ften des Betreibers zu beachten und \neinzuhalten.  \n \n \nMagnetische Felder \n \n Im Nahbereich der Maschine können, durch die magnetischen Felder, Datenträger \nwie Kreditkarten, Disketten, Tonbänder usw. Schaden nehmen! \nIm Nahbereich der Maschine, Abstand kleiner als 2 m, dürfen keine Teile mit \nferromagnetischen Eigenschaften getragen bzw. transportieren werden. \n \nVORSICHT! Quetschgefahr.  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 12,
+      "text": " \n \n \n 12  \n \nD_MOR ... MT 30 bis 50 -06 \n \nTemperatur \n \nOberflächentemperaturen von mehr als 50°C können auftreten! \n \n \n \nSchalldruckpegel \n \n \nGehörschutz \nIm Leerlauf (ohne Fördergut) ist der Schalldruckpegel ≤ 75 dB(A). \nDer Schalldruckpegel kann in Abhängigkeit des Fördergutes stark ansteigen. Hier \nsind vom Betreiber geeignete Gehörschutzmaßnahmen zu treffen. \n \nWARNUNG! \nGehörschädigung durch Lärm! \nDer im Arbeitsbereich auftretende Lärmpegel kann schwere Gehörschädigungen \nverursachen. \nDeshalb: \n– Bei Arbeiten grundsätzlich Gehörschutz tragen. \n– Nur soweit erforderlich im Gefahrenbereich aufhalten. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 13,
+      "text": " \n \n \n 13  \n \nD_MOR ... MT 30 bis 50 -06 \n \nTransport \n \nBei Transport der Maschine oder deren Einzelteilen darauf achten, dass die \nTransporteinrichtungen nur an den dafür vorgesehenen Stellen der Maschine angeschlagen \nwerden.  \n \n \nACHTUNG! \nGefahr durch herunterfallende Teile! \nDeshalb: \n– Niemals unter schwebende Lasten treten. \n– Die Angaben zu den vorgesehenen Anschlagpunkten beachten. \n– Nicht an hervorstehenden Maschinenteilen oder an Ösen angebauter Bauteile \nanschlagen und auf sicheren Sitz der Anschlagmittel achten. \n– Nur zugelassene Hebezeuge und Anschlagmittel mit ausreichender \nTragfähigkeit verwenden. \n– Keine angerissenen oder angescheuerten Seile und Riemen verwenden.  \n– Seile und Gurte nicht an scharfen Kanten und Ecken anlegen, nicht knoten und \nnicht verdrehen. \n \n \n \nMontage \nEigenmächtige Umbauten und Veränderungen der Maschine durch den Betreiber, die die \nSicherheit beeinträchtigen können, sind nicht gestattet. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 14,
+      "text": " \n \n \n 14  \n \nD_MOR ... MT 30 bis 50 -06 \n \n \nBetrieb \nDie Maschine ist ausschließlich für den mit dem Hersteller vereinbarten Einsatzzweck und für das \nangegebene Fördergut bestimmt. Bei Nichtbeachtung haftet der Hersteller nicht für auftretende \nSchäden.  \nDie Maschine darf z.B.: nie  ohne Schutzverkleidung betrieben werden. \nStoßverletzungen sind bei laufenden bzw. anlaufenden Transportbändern mit Stollen und bei \nTrommelmänteln mit Abwurfleisten möglich. \nBei laufenden Achsen / Wellen ist ein Erfassen (und/oder Aufwickeln), z.B. von Kleidung, Haare \nusw., möglich.  \n \nHerabfallende Gegenstände \n \nACHTUNG! \nWährend des Betriebes können immer Gegenstände herabfallen. \n \n \nWartung \nSämtliche Wartungs- und Einstellarbeiten sind grund sätzlich nur im Stillstand durchzuführen. \nVor Beginn dieser Arbeiten ist sicherzustellen, das s die Maschine nicht irrtümlich oder durch \nUnbefugte eingeschaltet werden kann. \nFremdkörper, die im Transportband stecken, sind rec htzeitig zu entfernen! Diese \nFremdkörper können sich bei hoher Geschwindigkeit lösen! \n \nPersonal \n \n \nACHTUNG! \nDas Personal für Montage, Betrieb, Wartung und Inspektion muss die \nentsprechende Qualifikation für die Arbeiten an der Maschine aufweisen, sowie \neine erforderliche  Unterweisung durch den Betreiber über die ihr übertragenen \nAufgaben und möglichen Gefahren bei unsachgemäßem V erhalten erhalten. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 15,
+      "text": " \n \n 15  \n \nD_MOR ... MT 30 bis 50 -06  \n \nVerantwortung des Betreibers \nDie Anlage wird im gewerblichen Bereich eingesetzt. Der Betreiber der Anlage unterliegt daher \nden gesetzlichen Pflichten zur Arbeitssicherheit.  \nNeben den Arbeitssicherheitshinweisen in dieser Bet riebsanleitung müssen die für den \nEinsatzbereich der Anlage gültigen Sicherheits-, Un fallverhütungs- und Umweltschutz-\nVorschriften eingehalten werden. \nDabei gilt insbesondere: \n\u0001 Der Betreiber muss sich über die geltenden Arbeits schutzbestimmungen informieren und in \neiner Gefährdungsbeurteilung zusätzlich Gefahren ermitteln, die sich durch die speziellen \nArbeitsbedingungen am Einsatzort der Anlage ergeben. Diese muss er in Form von \nBetriebsanweisungen für den Betrieb der Anlage umsetzen. \n\u0001 Der Betreiber muss die Zuständigkeiten für Install ation, Bedienung, Wartung und Reinigung \neindeutig regeln und festlegen. \n\u0001 Der Betreiber muss dafür sorgen, dass alle Mitarbe iter, die mit der Anlage umgehen, die \nBetriebsanleitung gelesen und verstanden haben. \nDarüber hinaus muss er das Personal in regelmäßigen Abständen schulen und über die \nGefahren informieren. \n\u0001 Der Betreiber muss dem Personal die erforderliche Schutzausrüstung bereitstellen. \n\u0001 Der Betreiber muss dafür sorgen, dass die in diese r Betriebsanleitung beschriebenen \nWartungsintervalle eingehalten werden. \n\u0001 Der Betreiber muss alle Sicherheitseinrichtungen r egelmäßig auf Funktionsfähigkeit und \nVollständigkeit überprüfen lassen. \nDiese Betriebsanleitung gibt wichtige Hinweise zum Umgang mit der Anlage. Voraussetzung für \nsicheres Arbeiten ist die Einhaltung aller angegebenen Sicherheitshinweise und \nHandlungsanweisungen.  \nDarüber hinaus sind die für den Einsatzbereich der Anlage geltenden örtlichen \nUnfallverhütungsvorschriften und allgemeinen Sicherheitsbestimmungen einzuhalten.  \nDie Betriebsanleitung vor Beginn aller Arbeiten sorgfältig durchlesen! Sie ist Produktbestandteil \nund muss in unmittelbarer Nähe der Anlage für das Personal jederzeit zugänglich aufbewahrt \nwerden.  \nDie Abbildungen in dieser Anleitung sind zur besseren Darstellung der Sachverhalte nicht \nunbedingt maßstabsgerecht und können von der tatsächlichen Ausführung der Anlage \ngeringfügig abweichen.  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 16,
+      "text": " \n \n 16  \n \nD_MOR ... MT 30 bis 50 -06 \n \nHaftungsbeschränkung \nAlle Angaben und Hinweise in dieser Anleitung wurden unter Berücksichtigung der geltenden \nNormen und Vorschriften, des Stands der Technik sowie unserer langjährigen Erkenntnisse und \nErfahrungen zusammengestellt. \nDer Hersteller übernimmt keine Haftung für Schäden aufgrund: \n\u0001 Nichtbeachtung der Anleitung \n\u0001 Nichtbestimmungsgemäßer Verwendung \n\u0001 Einsatz von nicht ausgebildetem Personal \n\u0001 Eigenmächtiger Umbauten \n\u0001 Technischer Veränderungen \n\u0001 Verwendung nicht zugelassener Ersatzteile \n \nDer tatsächliche Lieferumfang kann bei Sonderausfüh rungen, der Inanspruchnahme \nzusätzlicher Bestelloptionen oder aufgrund neuester  technischer Änderungen von den hier \nbeschriebenen Erläuterungen und Darstellungen abweichen. \nEs gelten die im Liefervertrag vereinbarten Verpfli chtungen, die Allgemeinen \nGeschäftsbedingungen sowie die Lieferbedingungen de s Herstellers und die zum Zeitpunkt \ndes Vertragsabschlusses gültigen gesetzlichen Regelungen. \nTechnische Änderungen im Rahmen der Verbesserung de r Gebrauchseigenschaften und \nder Weiterentwicklung behalten wir uns vor. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 17,
+      "text": "1 7 \nD_MOR ... MT 30 bis 50 -06 \n1. Technische Daten MOR/MGR ... MT 40 .\nA\nchtung!  Diese Technischen Daten gelten nur für die Standardausführung.\nM_R 45 140 \nM_R 45 131 \nM_R 55 140 \nM_R 55 131 \nM_R 65 165 \nM_R 65 156 \nM_R 95 165 \nM_R 95 156 \nM_R 120 165 \nM_R 120 156 \nM_R 145 165 \nM_R 145 156 \nM_R 175 165 \nM_R 175 156 \nM_R 195 165 \nM_R 195 156 \n… MT 40 . \nSchwingförderrinne ZOR: \nRinnenbreite mm  450 550 650 950 1200 1450 1750 1950 \nAntriebsart Magnetschwinger \nWirkleistung kW 0,4 0,7 1,0 1,2 1,7 \nAntriebsart Unwuchtschwinger \nWirkleistung  kW 2 x 0,4 2 x 0,6 2 x 0,8 2 x 0,8 2 x 1,2 2 x 0,95 \nAnschlussspannung 242 - 277 / 420 - 480 V \nFrequenz 60 Hz \nSchutzart IP 65 \nMagnettrommel MTP: \nDurchmesser mm  400 \nBreite mm  500 630 710 1000 1250 1500 1800 2000 \nAntrieb: \nDrehzahl 33 min-1 \nMotorleistung 0,75 kW \nAnschlussspannung 240 / 415 V DS \nFrequenz 50  Hz \nAnschlussspannung 254 - 266 / 440 - 460 V DS \nFrequenz 60  Hz \nSchutzart IP 55 \nGesamt- Gewicht ohne Magnettrommel \nMOR kg 750 950 1050 1150 1350 1550 1750 1950 \nMGR kg 900 1100 1200 1300 1500 1700 1900 2100 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 18,
+      "text": " \n \n \n 18 /44  \n \nD_MOR ... MT 30 bis 50 -06 \n \n1.1 Betriebsbedingungen \n \n   \nUmgebung \n  \nAngabe Wert  Einheit \nTemperaturbereich -20°C bis +40  °C \n \n  \n \n \n \n1.2 Typenschild \n  \n \n \nTypenschild \nDas Typenschild befindet sich am Grundchassis und beinhaltet \nfolgende Angaben: \n \n\u0001 Hersteller mit Adresse \n\u0001 Typ \n\u0001 Baujahr \n\u0001 Kommissionsnummer \n\u0001 Fabriknummer \n\u0001 Anschlussspannung \n\u0001 Gewicht \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 19,
+      "text": " \n \n \n 19  \n \nD_MOR ... MT 30 bis 50 -06  \n \n2. Transport, Verpackung, Lagerung \n2.1 Sicherheitshinweise für den Transport \n \nSchwebende Lasten \n \nWARNUNG! \nLebensgefahr durch schwebende Lasten! \nBeim Heben von Lasten besteht Lebensgefahr durch \nherabfallende oder unkontrolliert schwenkende Teile. \nDeshalb: \n– Niemals unter schwebende Lasten treten. \n– Die Angaben zu den vorgesehenen \nAnschlagpunkten beachten. \n– Nicht an hervorstehenden Maschinenteilen oder an \nÖsen angebauter Bauteile anschlagen. Auf sicheren \nSitz der Anschlagmittel achten. \n– Nur zugelassene Hebezeuge und Anschlagmittel mit \nausreichender Tragfähigkeit verwenden. \n– Keine angerissenen oder angescheuerten Seile und \nRiemen verwenden.  \n– Seile und Gurte nicht an scharfen Kanten und Ecke n \nanlegen, nicht knoten und nicht verdrehen. \n \n \nAußermittiger Schwerpunkt \n \nWARNUNG! \nAbsturzgefahr durch außermittigen Schwerpunkt! \nPackstücke können einen außermittigen Schwerpunkt \naufweisen. Bei falschem Anschlag kann das Packstück \nkippen und lebensgefährliche Verletzungen \nverursachen. \nDeshalb: \n– Markierungen auf den Packstücken beachten. \n– Den Kranhaken so anschlagen, dass er sich über \ndem Schwerpunkt befindet. \n– Vorsichtig anheben und beobachten, ob die Last ki ppt.  \nFalls erforderlich, den Anschlag verändern. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 20,
+      "text": " \n \n \n 20  \n \nD_MOR ... MT 30 bis 50 -06  \n \n \n \nUnsachgemäßer Transport \n \nVORSICHT! \nBeschädigungen durch unsachgemäßen Transport! \nBei unsachgemäßem Transport können Sachschäden in \nerheblicher Höhe entstehen. \nDeshalb: \n– Beim Abladen der Packstücke bei Anlieferung sowie  \ninnerbetrieblichem Transport vorsichtig vorgehen und \ndie Symbole und Hinweise auf der Verpackung \nbeachten. \n– Nur die vorgesehenen Anschlagpunkte verwenden. \n– Verpackungen erst kurz vor der Montage entfernen.  \n– Anlagenkomponenten, welche nicht auf Paletten \nmontiert sind, bei Anlieferung und innerbetrieblichem \nTransport nicht mittels Gabelstapler transportieren. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 21,
+      "text": " \n \n \n 21  \n \nD_MOR ... MT 30 bis 50 -06  \n \n2.2 Transport \nTransport von Packstücken \nmit dem Kran \n \n             \n \nPackstücke, die Anschlagösen besitzen, können direkt mit einem \nKran unter folgenden Bedingungen transportiert werden: \n\u0001 Kran und Hebezeuge müssen für das Gewicht der Pack stücke \nausgelegt sein. \n\u0001 Der Bediener muss zum Bedienen des Kranes berechti gt sein. \nAnschlagen: \n1. Seile, Gurte oder Mehrpunktgehänge entsprechend (s iehe \nAbbildung) anschlagen. \n2. Sicherstellen, dass das Packstück gerade hängt, ge gebenenfalls \naußermittigen Schwerpunkt beachten. \n \nTransport von Paletten mit \ndem Kran \n \n          \n \nPackstücke, die auf Paletten befestigt sind, können mit einem Kran \nunter folgenden Bedingungen transportiert werden: \n\u0001 Kran und Hebezeuge müssen für das Gewicht der Pack stücke \nausgelegt sein. \n\u0001 Der Bediener muss zum Bedienen des Kranes berechti gt sein. \nAnschlagen: \n1. Seile, Gurte oder Mehrpunktgehänge entsprechend de r \nAbbildung an der Palette anschlagen. \n2. Prüfen, ob die Packstücke durch die Anschlagmittel  nicht \nbeschädigt werden. Falls erforderlich, andere Anschlagmittel \nverwenden. \n \nTransport von Paletten mit \ndem Gabelstapler \n \n \n \nPackstücke, die auf Paletten befestigt sind, können mit einem \nGabelstapler unter folgenden Bedingungen transportiert werden: \n\u0001 Der Gabelstapler muss entsprechend dem Gewicht der  \nTransporteinheiten ausgelegt sein. \n\u0001 Der Fahrer muss zum Fahren des Gabelstaplers berec htigt sein. \nAnschlagen: \n1. Den Gabelstapler mit den Gabeln zwischen oder unte r die \nHolme der Palette fahren. \n2. Die Gabeln so weit einfahren, dass sie auf der Geg enseite \nherausragen. \n3. Sicherstellen, dass die Palette bei außermittigem Schwerpunkt \nnicht kippen kann. \n4. Das Packstück anheben. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 22,
+      "text": " \n \n \n 22  \n \nD_MOR ... MT 30 bis 50 -06  \n \n2.3 Transport / Versand \nAchten Sie beim Transport mit dem Kran und bei der Montage darauf, dass die Maschine \nnur an den Aufhängeösen (1) mit dafür geeignetem La degeschirr transportieren bzw. \ngehoben werden. Vorzugsweise mit einer Traverse. \n \n\u0001 Magnetscheider MGR (Ausführungsbeispiel – überlaufende Arbeitsweise)  \n \n\u0001 Magnetscheider MOR (Ausführungsbeispiel – überlaufende Arbeitsweise)  \n \n \nAußer diesen Hinweisen sind die allgemeinen sowie a uch die örtlichen Sicherheits- und \nUnfallverhütungsvorschriften zu beachten.  \n \nSchwerpunkt \n \nACHTUNG! \nSchwerpunktlage beim Heben und Transportieren \nbeachten. \n1 1 \n1 1 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 23,
+      "text": " \n \n \n 23  \n \nD_MOR ... MT 30 bis 50 -06  \n \n2.4 Symbole auf der Verpackung \n \nOben \nDie Pfeilspitzen des Zeichens kennzeichnen die Oberseite des \nPackstückes. Sie müssen immer nach oben weisen, sonst \nkönnte der Inhalt beschädigt werden. \n \nVor Nässe schützen \nPackstücke vor Nässe schützen und trocken halten. \n \nAnschlagen hier \nAnschlagmittel (Anschlagkette, Hebeband) nur an den mit \ndiesem Symbol gekennzeichneten Stellen ansetzen. \n \nSchwerpunkt \nKennzeichnet den Schwerpunkt von Packstücken. \nDie Schwerpunktlage beim Heben und Transportieren \nbeachten. \n \nGewicht, angeschlagene Last \nKennzeichnet das Gewicht von Packstücken.  \nDas gekennzeichnete Packstück entsprechend seinem \nGewicht handhaben. \n \nStaplerbenutzung verboten \nZum Schutz vor Beschädigungen darf das Packstück nicht mit \neinem Gabelstapler transportiert werden. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 24,
+      "text": " \n \n \n 24  \n \nD_MOR ... MT 30 bis 50 -06  \n \n2.5 Lagerung \nDie Maschine (Teilmaschine) ist in trockenen Räumen  zu lagern, zum Schutz vor \nFeuchtigkeit, chemisch- aggressiver Atmosphäre, Fro st und Schnee. \nEine Lagerung im Freien oder in ATEX-Zone ist nicht gestattet. \n \nLagerung der Packstücke Packstücke unter folgenden Bedingungen lagern: \n\u0001 Nicht im Freien aufbewahren. \n\u0001 Trocken und staubfrei lagern. \n\u0001 Keinen aggressiven Medien aussetzen. \n\u0001 Vor Sonneneinstrahlung schützen. \n\u0001 Mechanische Erschütterungen vermeiden. \n\u0001 Lagertemperatur: +5 °C bis +50 °C. \n\u0001 Relative Luftfeuchtigkeit: max. 60%. \n\u0001 Bei Lagerung länger als 3 Monate regelmäßig den al lgemeinen \nZustand aller Teile und der Verpackung kontrollieren. Falls \nerforderlich, die Konservierung auffrischen oder erneuern. \nHINWEIS! \nUnter Umständen befinden sich auf den Packstücken Hinweise zur \nLagerung, die über die hier genannten Anforderungen hinausgehen. \nDiese entsprechend einhalten. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 25,
+      "text": " \n \n \n 25  \n \nD_MOR ... MT 30 bis 50 -06  \n \n3. Installation und Erstinbetriebnahme \n \nHINWEIS! \nDie Installation und Erstinbetriebnahme erfolgt durch qualifizierte Mitarbeiter des \nBetreibers oder durch von ihm autorisierte Personen unter Anweisung des Herstellers  \n \nDer  Magnetscheider ist eine Teilmaschine und nur in Zusammenbau mit an deren \nMaschinen (Anlagenteile) funktionstüchtig, er kann nur mit diesen nach Beurteilung der \nGesamtmaschine/ Anlage einen gemeinsamen Schutz erh alten und in Betrieb genommen \nwerden.  \n3.1 Montage \nDie Anordnung der Baugruppen zueinander ist aus der  Zeichnung \"Aufstellungsplan\" (siehe \nAnhang) zu entnehmen. Es ist auf eine schwingungsst eife waagerechte Verbindung mit \neinem stabilen Unterbau zu achten. Ermittlung der e rforderlichen Fundament-Beschaffenheit \ndurch einen Statiker vornehmen.  \nEine ausreichende Fallhöhe für das Fördergut unter der Materialabführung ist vorzusehen!  \nWird die Anlage auf eine freitragende Gebäudedecke aufgestellt, die dynamischen \nBelastungen der Aufstellfläche infolge der Bewegungen durch die Maschine beachten.  \nEine Rückstaubildung muss unbedingt vermieden werden.  \nFür die Aufgabe des Materials auf die Rinne der Mat erialzuführung ist ein Bypass, d.h. eine \nUmlenkung des Materialstromes vorzusehen, da bei ei nem Störungsfall am Magnetscheider \nkein weiteres Material auf die Materialzuführung ge langen darf. \n \n \n \n3.2 Prüfungen \nNach Aufstellung der Maschine/Anlage die Gesamtanla ge vor der Erstinbetriebnahme \ngemäß den örtlichen gesetzlichen Anforderungen über prüfen. Im späteren Verlauf die \nGesamtanlage in zeitlich vorgegebenen Intervallen g emäß den örtlichen gesetzlichen \nAnforderungen auf technische Mängel hin überprüfen. \n \nVerletzungs- und \nBeschädigungsgefahr \n \nWARNUNG! \nIn der Magnettrommel befinden sich Dauermagnete mit \nhohen Anzugskräften. \n- Sich nicht mit Eisenteilen dem Trommelmantel nähe rn. \nEisenteile werden angezogen, Quetschwunden und \nBrüche können die Folge sein. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 26,
+      "text": " \n \n \n 26  \n \nD_MOR ... MT 30 bis 50 -06  \n \n3.3 Erstinbetriebnahme \nNach Abschluss der Installationsarbeiten und vor de r Erstinbetriebnahme nachfolgende \nPunkte beachten:  \n- Vor Inbetriebnahme alle Füllstände prüfen, falls notwendig mit geeignetem Betriebsmittel \nauffüllen. \n- Einstellung des Magnetsystems innerhalb der Magne ttrommel prüfen, falls notwendig einstellen, \nsiehe „Magnetsystem einstellen“. \n- Förderrichtung Magnettrommeln prüfen, siehe „Aufb au und Arbeitsweise der Magnettrommeln“. \n- Scheitel zur Magnettrommel positionieren, Abhängi g vom Materialstrom. \n- Alle Bauteile auf festen Sitz prüfen und Verschra ubungen kontrollieren. \n- OPTIONAL - Rotationskontrolle auf Funktion prüfen . \n- Sicherstellen, dass die Drehrichtung der Unwuchtm otoren der Rinne der angegebenen \nDrehrichtung des Herstellers entspricht. \n- Einbauanleitung des jeweiligen Maschinenbauteils im Anhang beachten. \n- Sicherstellen, dass die Umgebungstemperatur im an gegebenen Temperaturbereich liegt. \n \n \n3.4 Anschließen an die Energieversorgung \nDas Anschließen der Anlage darf nur durch eine Elek trofachkraft erfolgen. Nähere \nInformationen bezüglich Anschlussanweisungen und Le itungsquerschnitt der Zuleitungen \nsiehe Steuerungsbeschreibung. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 27,
+      "text": " \n \n \n 27  \n \nD_MOR ... MT 30 bis 50 -06  \n \n4. Wartung \n \nIn den nachstehenden Abschnitten sind die Wartungsa rbeiten beschrieben, die für einen \noptimalen und störungsfreien Betrieb erforderlich sind.  \nSofern bei regelmäßigen Kontrollen eine erhöhte Abn utzung zu erkennen ist, die \nerforderlichen Wartungsintervalle entsprechend den tatsächlichen Verschleißerscheinungen \nverkürzen.  \nBei Fragen zu Wartungsarbeiten und -intervallen den  Hersteller kontaktieren, siehe \nDeckblatt.  \nGeräte die nicht täglich betrieben werden sind mind esten einmal wöchentlich zu \nkontrollieren.  \nBei Frostgefahr und gleichzeitigem Niederschlag ist  bei Elektromagnettrommeln außerhalb \nder Betriebszeit eine Dauereinschaltung des Magnets ystems oder eine Überdachung bei \nAufstellung im Freien erforderlich.   \n \n \n4.1 Personal \nDie hier beschriebenen Wartungsarbeiten können, sow eit nicht anders gekennzeichnet, \ndurch den Bediener ausgeführt werden. \nEinige Wartungsarbeiten dürfen nur von speziell aus gebildetem Fachpersonal oder \nausschließlich durch den Hersteller ausgeführt werden, darauf wird bei der Beschreibung der \neinzelnen Wartungsarbeiten gesondert hingewiesen. \nArbeiten an der elektrischen Anlage dürfen grundsät zlich nur von Elektrofachkräften \nausgeführt werden. \nVor Beginn der Arbeiten elektrische Versorgung absc halten und gegen wieder einschalten \nsichern. \n \n \nVORSICHT! \nSachschaden durch Verunreinigungen!  \nFremdkörper auf dem Trommelmantel führen zu Sachschaden bis hin zum \nTotalausfall. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 28,
+      "text": " \n \n \n 28  \n \nD_MOR ... MT 30 bis 50 -06  \n \n4.2 Wartungsplan \nIntervall Wartungsarbeit Bemerkungen Auszuführen \ndurch \nalle 200 BST Trommelmantel auf Verschleiß prüfen. \nFremdkörper dürfen keinesfalls durch den \nperforierten Mantel in das Magnetsystem \neindringen. \nVisuelle Kontrolle Personnel \nspécialisé \nAbwurfleisten sind zu überprüfen \nGebogene oder abgerissene Abwurfleisten \nlassen auf eingeklemmte, zu große \nMaterialstücke schließen \nVisuelle Kontrolle Bediener \nÖl und Ölstand der Antriebsmotoren prüfen Visuelle Kontrolle* Bediener \njährlich Getriebeöl  ersetzen * Fachkraft \nKorrosions- und Oberflächenprüfung Visuelle Kontrolle Bediener \nAlle Schraubverbindungen auf Festsitz \nprüfen \nFalls erforderlich fest-\nziehen Fachkraft \nalle 18 Monate \noder nach 2000 \nBST  \nFett im Lagerraum durch neues ersetzen Nur bei Ausführung \n… MT 50 U Fachkraft \nalle 3 Jahre \noder nach \n4000 BST \nMineralisches Öl im Antriebsmotor wechseln Betriebsbedingungen \nbeachten* Fachkraft \nWälzlagerfett im Antriebsmotor wechseln * Fachkraft \nWellendichtring im Antriebsmotor wechseln * Fachkraft \nalle 5 Jahre \noder nach \n6500 BST \nMineralisches Öl im Antriebsmotor wechseln Betriebsbedingungen \nbeachten* Fachkraft \nWälzlagerfett im Antriebsmotor wechseln * Fachkraft \nWellendichtring im Antriebsmotor wechseln * Fachkraft \n* = siehe Zulieferdokumentation im Anhang. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 29,
+      "text": " \n \n \n 29  \n \nD_MOR ... MT 30 bis 50 -06  \n \n5. Antriebe schmieren \nDie Erstfüllung wird werkseitig mit synthetischem Öl  DIN (ISO) CLP HC VG 460  \nvorgenommen. Hierzu die jeweilige Zulieferdokumentation beachten, siehe Anhang. \n \n5.1 Umgang mit Schmierstoffen \nVORSICHT! \nUmweltgefahr durch falschen Umgang! \nBei falschem Umgang mit umweltgefährdenden Stoffen, insbesondere bei falscher \nEntsorgung, können erhebliche Schäden für die Umwelt entstehen. \nDeshalb: \n– Die unten genannten Hinweise immer beachten. \n– Wenn umweltgefährdende Stoffe versehentlich in di e Umwelt gelangen, sofort \ngeeignete Maßnahmen ergreifen. Im Zweifel die zuständige Kommunalbehörde über \nden Schaden informieren. \n \nLagerung der Schmierstoffe \nKühlschmiermittel und Schmierstoffe wie Öle und Fette sind in sauberen, geschlossenen \nBehältnissen (Dosen, Kannen Hobbocks, Fässer) aufzubewahren, damit Staub und Feuchtigkeit \nnicht eindringen können. Die Aufbewahrungsstelle soll trocken und kühl sein. \n \nVorsicht! \nKühlschmiermittel und Schmierstoffe wie Fette und Öle enthalten giftige Substanzen, \ndie der Umwelt schaden können. \n– Sicherstellen, dass die Stoffe nicht in die Umwelt gelangen. \n– Entsorgung muss durch einen Entsorgungs-Fachbetrieb erfolgen. \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 30,
+      "text": " \n \n \n 30  \n \nD_MOR ... MT 30 bis 50 -06  \n \n6. Trommelmantelwechsel an Magnettrommeln  \n-Durchmesser 300 bis 650 mm \n1. Die Lage des Verstellhebels ist genau zu fixiere n, um später die gleiche Einstellung \nwieder zu erhalten.  \n2. Über einen Kettenzug den Verstellhebel arretiere n.  \n3. Klemmlager Teil 13 lösen.  \n4. Kettenzug (siehe Punkt 2) langsam lösen, damit ü ber den Verstellhebel das \nMagnetsystem in die Ruhelage (Schwerpunktlage) auspendeln kann. \n5. Kettenzug abhängen.  \n6. Klemmkasten und Befestigungsplatte demontieren ( bei MTE).  \n7. Verstellhebel demontieren (bei MTP)  \n8. Laufstutzen Teil 12 zwischen Trommeldeckel und K lemmlager unterbauen, sofort mit \nKettenzug um wenige Zehntelmillimeter leicht anhebe n. Das Klemmlager Teil 13 wird \nhierdurch entlastet und kann abgezogen werden.  \n9. Trommeldeckel über eine große Fläche unterlegen,  mindestens 200 mm, damit dieser \nspäter nicht herunterfällt.  \n10. Seilzug am freien Wellenende anbringen und geri ngfügig anheben, mit \nKlemmkastenbefestigungsplatte oder mit Verstellhebel sichern.  \n11. Die Befestigungsschrauben der Trommeldeckel am Mangan -Trommelmantel rundum \nüber Kreuz lösen und Trommeldeckel mit Laufstutzen bis Seilaufhängung am Wellenende \nziehen.  \nAchtung:  In jedem Fall Radialdichtring Teil 116 für die anschließende Montage beschaffen.  \n \n12. Welle zwischen Trommelmantel und abgezogenem Tr ommeldeckel unterbauen.  \n13. Kettenzug lösen und Trommeldeckel einschließlic h Laufstutzen von der Welle abziehen.  \n14. Welle mit aufgestecktem Rohr, das bis zum Ansch lag der Durchmesser-Änderung \naufgeschoben wird, verlängern. \nRohrlänge = Trommelmantelbreite, Wanddicke 3, Werkstoff St 37.  \n15. Aufgestecktes Rohr am Ende mit Kettenzug anhebe n, die Unterstützung entlasten und bis \nzur Aufhängung verlegen.  \n16. Trommelmantel abheben bis auf die Rohrverlänger ung.  \n17. Welle unterstützen und Trommelmantel vollständi g entfernen bzw. Welle mit Kettenzug \nanheben und dann Trommelmantel vollständig entfernen.  \n18. Montage des neuen Trommelmantels in umgekehrter  Reihenfolge, wie oben beschrieben. \n \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 31,
+      "text": " \n \n \n 31  \n \nD_MOR ... MT 30 bis 50 -06 \n \n7. Störungen \nIm folgenden Kapitel sind mögliche Ursachen für Stö rungen und die Arbeiten zu ihrer Beseitigung \nbeschrieben. \nBei vermehrt auftretende Störungen die Wartungsinte rvalle entsprechend der tatsächlichen \nBelastung verkürzen. \nBei Störungen, die durch die nachfolgenden Hinweise  nicht zu beheben sind, den Hersteller \nkontaktieren. \n \nUnsachgemäße \nStörungsbeseitigung \n \n \nWARNUNG! \nVerletzungsgefahr durch unsachgemäße \nStörungsbeseitigung! \nUnsachgemäße Störungsbeseitigung kann zu \nschweren Personen- oder Sachschäden führen. \nDeshalb: \n– Vor Beginn der Arbeiten für ausreichende \nMontagefreiheit und sicheren Stand sorgen. \n– Auf Ordnung und Sauberkeit am Montageplatz \nachten! Lose aufeinander- oder umherliegende \nBauteile und Werkzeuge sind Unfallquellen. \n– Wenn Bauteile entfernt wurden, auf richtige \nMontage achten, alle Befestigungselemente \nwieder einbauen und Schraubenanzugsdrehmo-\nmente einhalten. \n \n \n7.1 Personal \nDie hier beschriebenen Arbeiten zur Störungsbeseiti gung können, soweit nicht anders \ngekennzeichnet, durch den Bediener ausgeführt werden. \nEinige Arbeiten dürfen nur von speziell ausgebildet em Fachpersonal oder ausschließlich durch \nden Hersteller ausgeführt werden, darauf wird bei d er Beschreibung der einzelnen Störungen \ngesondert hingewiesen. \nArbeiten an der elektrischen Anlage dürfen grundsät zlich nur von Elektrofachkräften ausgeführt \nwerden. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 32,
+      "text": " \n \n \n 32  \n \nD_MOR ... MT 30 bis 50 -06 \n \n7.2 Störungstabelle Mechanik \n \n \nStörung  Mögliche Ursache Fehlerbehebung Behebung \ndurch \nSchlechte \nMaterialabgabe zur \nMagnettrommel  \nStarke Anhaftungen im \nRinnentrog reinigen Bediener \nRinnenmotoren falsch \neingestellt Drehrichtung überprüfen* Elektrofachkraft \nRinne defekt Rinne überprüfen* Elektrofachkraft \nSchlechtes oder  \nfalsches Separa-\ntionsergebnis \nKonstruktionsteile innerhalb \ndes unmagnetischen \nBereichs aufmagnetisiert \ndurch unmagnetische Teile \nersetzen Fachkraft \nMaterialanhäufung am/ um \nden Trennscheitel Trennscheitel reinigen Bediener \nKlemmendes Material, \nbesonders an den \nAbwurfleisten \nbei Trommelstillstand entfernen Bediener \nGebogene oder abgerissene \nAbwurfleisten reparieren/ ersetzen Fachkraft \nAbstand Rinnenauslauf zur \nMagnettrommel nicht auf das \nMaterial abgestimmt \nAbstand Rinnenauslauf zur \nMagnettrommel einstellen Bediener \nStellung des Trennscheitels \nnicht auf das Material \nabgestimmt \nTrennscheitel zur Magnettrommel \nneu positionieren Bediener \nLagergeräusche Lager defekt Lager ersetzen  Bediener \nMotor schwingt \nstark (taumelt) \nAntriebszapfen verbogen Antriebszapfen ersetzen Bediener \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 33,
+      "text": " \n \n \n 33  \n \nD_MOR ... MT 30 bis 50 -06  \n \n8. Entsorgung \nZur Aussonderung, Anlage reinigen und unter Beachtu ng geltender Arbeitsschutz- und \nUmweltschutzvorschriften zerlegen. \n\u0001 Gesamte Energieversorgung von der Anlage physisch trennen, gespeicherte Restenergien \nentladen.  \n\u0001 Betriebs- und Hilfsstoffe sowie restliche Verarbei tungsmaterialien entfernen und \numweltgerecht entsorgen.  \n \nEntsorgen Sie das Gerät je nach Beschaffenheit und existierenden Vorschriften, zerlegte \nBestandteile der Wiederverwertung zuführen. \n\u0001 Metalle verschrotten. \n\u0001 Kunststoffelemente zum Recycling geben. \n\u0001 Übrige Komponenten nach Materialbeschaffenheit sor tiert entsorgen. \n \n \nVORSICHT! \nUmweltschäden bei falscher Entsorgung! \nElektroschrott, Elektronikkomponenten, Bleikomponenten, Schmier- und andere \nHilfsstoffe unterliegen der Sondermüllbehandlung und dürfen nur von zugelassenen \nFachbetrieben entsorgt werden! \n \nDie örtliche Kommunalbehörde oder spezielle Entsorg ungs-Fachbetriebe geben Auskunft \nzur umweltgerechten Entsorgung. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 34,
+      "text": " \n \n \n 34  \n \nD_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 35,
+      "text": "3 5 \nD_MOR ... MT 30 bis 50 -06 \n9. Anhang\nMaßblätter/ Aufstellungsplan",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 36,
+      "text": " \n \n \n 36  \n \nD_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 37,
+      "text": "",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 38,
+      "text": "",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 39,
+      "text": " \n \n \n 37  \n \nD_MOR ... MT 30 bis 50 -06 \n \nErsatzteilliste ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 40,
+      "text": " \n \n \n 38  \n \nD_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 41,
+      "text": "1 \nD_Ersatzteile MOR .. ... MT40-01 \nErsatzteilliste  MOR … ... MT 40 U\n3\n2 1\nAchtung! Bei Ersatzteilbestellung immer die Kommissions- und Fabrik- Nr. mit angeben! \nPos. Stk\nMOR 45 140MOR 55 140MOR 65 165MOR 95 165MOR 120 165MOR 145 165 MOR 175 165 MOR 195 165\n… MT40 U\n1 1 Magnettrommel MTP 150 S 40 G N1\n2 1 \nAufsteck-Schneckengetriebemotor  Fa. SEW \nSA 57 DRN 80 M4\nP=0,75 kW, n= 33 min-1,Bauform M4B,\nSpannung und Frequenz auf dem Typenschild beachten!\nFBP07 01670\n3 1 \nUnwucht / Magnetvibrator – Förderrinne\nFU(M)F 450/-\n220x1400 \nFU(M)F 550/-\n220x1400 \nFU(M)F 650/-\n220x1650 \nFU(M)F 950/-\n220x1650 \nFU(M)F 1200/-\n220x1650 \nFU(M)F 1450/-\n220x1650 \nFBP05 00516 \nFU(M)F 1750/-\n220x1650 \nFU(M)F 1950/-\n220x1650 ",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 42,
+      "text": " \n \n \n 2 \n \nD_Ersatzteile MOR .. ... MT40-01 \n \n ",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 43,
+      "text": " \n \n \n 39  \n \nD_MOR ... MT 30 bis 50 -06 \n \nAnleitung-Schwingförderrinne ZOR ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 44,
+      "text": " \n \n \n 40  \n \nD_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 45,
+      "text": " \n \n \n 41  \n \nD_MOR ... MT 30 bis 50 -06 \n \nAnleitung-Magnettrommel permanent MTP ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 46,
+      "text": " \n \n \n 42  \n \nD_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 47,
+      "text": " \n \n \n 43  \n \nD_MOR ... MT 30 bis 50 -06 \n \nAntrieb ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 48,
+      "text": " \n \n \n 44  \n \nD_MOR ... MT 30 bis 50 -06 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 48
+}

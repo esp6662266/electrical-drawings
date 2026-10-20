@@ -1,0 +1,14 @@
+{
+  "sha256": "ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "M O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\nControl power Diagram\nAC 1Ø 220V 50Hz\nR200\n0 1 2 3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nT200\n149 10 11 12 13 15\nR200\n16\n2008-06\nALCO - 0806 - E02\nR201\nBKM1b\n10A\nCP 01\nR203 R204R202\nPL\n01\nCONTROL POWER LAMP\nBKM1b\n10A\nCP 03\nBKM1b\n10A\nCP 04\nBKM1b\n10A\nCONTRPL SYTEM POWER\nBURNER SYSTEM POWER -01\nBURNER SYSTEM POWER -02\nP L C POWER\nCP 02\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nR205\nBKM1b\n10A\nCP 05P L C INLET POWER",
+      "width": 841.68,
+      "height": 595.2
+    }
+  ],
+  "page_count": 1
+}

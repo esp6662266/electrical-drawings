@@ -1,0 +1,252 @@
+{
+  "sha256": "27a3062e495d05b5e37e4fb3003be76cad37626683b373e445dcb61ccbd0f0fb",
+  "extension": ".pptx",
+  "status": "슬라이드 텍스트 추출; 배치 미재현",
+  "pages": [
+    {
+      "page": 1,
+      "text": "R.D.M \n(Rotary Degassing Machine)\n\nAutomated Metal Degassing System\n\nBC-800S\nBC-2000S\n  ㈜ \n부창\n 엔지니어링 "
+    },
+    {
+      "page": 2,
+      "text": "목 차\nAl \n용탕에\n \nH\n2 \ngas \n흡수과정\nAl \n용탕의\n 청정방법\n기존 \n용탕\n 처리 방식\n새로운 \n용탕처리\n-R.D.M.\nR.D.M \n기본 개념\nR.D.M\n의 작동 순서\nR.D.M \n사용시 이점\n \n버블사이즈에 따른 테스트\n \nR.D.M.\n의 종류\n \nR.D.M \n관련 소모품\n \nRotor & shaft \n사이즈\n \nBaffle Plate\n \n결론"
+    },
+    {
+      "page": 3,
+      "text": "Al \n용탕에\n \nH\n2 \nGAS \n흡수과정\n알루미늄 합금은 용해 및 처리하는 과정에서 \n드로스\n, \n비금속 \n개재물\n, \n산화물을 생성하며 수소 가스를 쉽게 \n흡수하는 \n고유한 특성을 가지고 있다\n. \n2Al + 3H\n2\nO \n\n Al\n2\nO\n3\n + 3H\n2\n4Al + 3O\n2\n \n\n 2Al\n2\nO\n3\n    이에 따라 알루미늄 합금을 처리하는 과정에서 \nFlux\n와 \n탈가스\n 처리는 매우 중요한 공정 중의 하나이다\n."
+    },
+    {
+      "page": 4,
+      "text": "Al \n용해과정에서 발생되는 \n드로스\n, \n비금속 \n개재물\n, Al\n산화시\n 흡수되는\n수소\n(H)\n등을 제거하기 위한 방법에는 물리적 제거방법\n, \n화학적 제거방법이 있다\n.\nAl\n \n용탕의\n 청정방법\n1. \n물리적 방법\nAl \n용탕 내 미세한 불활성 \nGas\n기포를 다량으로 발생\n,\n 분배시켜 수소 가스 및 용탕 청정화 시키는 방법이다\n.\n(\n탈 \nGas \n및 비금속 \n개재물\n 제거방법\n)"
+    },
+    {
+      "page": 5,
+      "text": "Al\n \n용탕의\n 청정방법\n2. \n화학적 방법\nAl\n이 염소와 반응하여 \n2Al+ 3Cl\n2 \n→ \n2AlCl\n3\n  \n이되고\n 이 \nAlCl\n3\n \n원자 상태의\n \n활성화된 수소와 반응하여\nAlCl\n3 \n+ 3H \n→ Al + 3HCl\n6HCl + 2Al →2AlCl\n3 \n + 3H\n2 \n↑ \n로 되어 분자 상태의 안정된 수소가 분리 된다\n.\n염소에 의한 칼슘\n, \n나트륨\n \n등 제거\n."
+    },
+    {
+      "page": 6,
+      "text": "기존 \n용탕\n 처리 방식\nFlux\n와 탈 가스 처리가 구분되는 공정\n \n   \nFlux \n처리가 작업자에 의해 수작업으로 진행되어 작업자에 대한 의존성을 높이며\n, \n작업자의 숙련도에 따라 품질 수준이 변동 될 수 있다\n.\n( Flux \n처리시간 \n+ \n지정시간\n+\n탈가스\n)\nFlux\n와 탈 가스처리가 단일화된 공정\n   \n대부분 \nRotor\n를 통해 \nFlux\n를 첨가하기 때문에 \nRotor\n의 막힘 현상이 발생 할 수 있다\n. \n이러한 막힘 현성을 고려하여 항상 높은 \n아르곤\n/\n질소가스 압력을 유지하기 때문에 가스 소모량이 심하다\n  (Flux/\n가스 소모량 많음\n+ \n장시간 처리 \n+\n로터청소\n)"
+    },
+    {
+      "page": 7,
+      "text": "새로운 \n용탕\n 처리 \n– R.D.M.\n1\n) \n자동화 된 \nFlux \n투입\n- \n노동력 감소\n, \n작업자의 건강과 안정성 향상\n2) \n단일화된 처리 공정\n- \n빠른 처리 시간\n3) \n고효율의 \n반응성\n- Flux\n의 첨가량을 감소시켜\n, \n처리 비용 감소\n4) Flux\n에 의한 \nshaft\n의 막히는 위험 없음\n- \n유지 및 보수 비용의 감소\nFlux\n와 \n탈가스\n 처리시 \nR.D.M.\n 사용"
+    },
+    {
+      "page": 8,
+      "text": "R.D.M.\n의 기본개념\n< \n용탕에\n 발생하는 회오리 현상\n (Vortex) >"
+    },
+    {
+      "page": 9,
+      "text": "R.D.M.\n의 작동 순서\n1. Rotor \n투입\n시작버튼을 누르면\nSetting \n된 순서와 \nRPM\n에 \n맞춰 자동적으로 \n용탕\n 처리가 시작된다\n."
+    },
+    {
+      "page": 10,
+      "text": "R.D.M.\n의 작동 순서\n2. Vortex \n의 생성\n2. Vortex \n의 생성\nBaffle Plate\n가 \n용탕\n 위로 상승하고\n, \nRotor\n의 속도가 증가하며\n, \nVortex\n가 생성된다\n."
+    },
+    {
+      "page": 11,
+      "text": "R.D.M.\n의 작동 순서\n3. Flux \n투입\n생성된 \nVortex \n위로 입자상\nFlux\n가 자동 투입되어 \n용탕속으로 확산되므로\n,\nRotor\n의 막힘이 없고\n, \n효율적인 \nFlux\n처리가 \n가능하다\n."
+    },
+    {
+      "page": 12,
+      "text": "R.D.M.\n의 작동 순서\n4. Vortex\n 제거 및 \n탈가스\nBaffle Plate \n가 \n용탕\n 안으로\n다시 투입되고\n, \n동시에\nRotor\n의 회전 속도가 감소\n되며 \n탈가스\n 시작\n. "
+    },
+    {
+      "page": 13,
+      "text": "R.D.M.\n의 작동 순서\n5. \n탈가스\n 단계\n탈가스\n 단계에서는 \n안정적인 \n용탕\n 표면을 \n형성하여\n,\n 최적의 상태로\n탈가스와\n 청정작용이\n진행된다\n."
+    },
+    {
+      "page": 14,
+      "text": "R.D.M.\n의 작동 순서\n6. \n처리 종료\n모든 처리 단계가 종료되면 \n자동으로 \nRotor\n와 \nbaffle\n이 \n용탕\n 위로 올라가고\n, \n표면에는 건성 \n드로스만\n \n남게 된다\n."
+    },
+    {
+      "page": 15,
+      "text": "R.D.M.\n의 사용시 이점\n1) \n금속학적 이점\n \n - \n균일한 기계적 성질의 \n용탕\n 및 균일한 미세 조직과 조성\n - \n용탕\n 청정도 개선 \n/ \n가스 기공 감소\n2) \n환경적인 이점 \n - Flux\n와 가스 소모량 감소하여 배기가스 및 배출 물질 감소\n - \n처리 시간의 단축으로 \n출탕\n 온도 감소 가능\n3) \n경제적인 이점\n \n - \n처리 비용 절감\n - \n효율성 개선\n4) \n친 환경적 이점 \n - \n배기가스 및 배출물질 감소에 따른 건강\n - \n용탕\n 처리 공정에서 작업자 의존도를 낮춤으로써 안정성을 개선"
+    },
+    {
+      "page": 16,
+      "text": "버블 사이즈에 따른 테스트\nBubble \n사이즈가 컸을 때\n.\n작은 \nbubble\n을 \nimpeller\n를 통해 형성 시 \n효과\n.\n \n버블 사이즈에 따른 샘플 테스트 결과\n(\n뒷면 참조\n)"
+    },
+    {
+      "page": 17,
+      "text": "버블 사이즈에 따른 테스트\n큰 버블 적용 시 상태\n미세 버블 적용 시 효과"
+    },
+    {
+      "page": 18,
+      "text": "R.D.M.\n의 종류\n호이스트\n \n정역방향\n \n탈가스기계\n정치식\n \n정역방향\n \n탈가스\n 기계\nBC-800S\nBC-2000S"
+    },
+    {
+      "page": 19,
+      "text": "R.D.M.\n관련 소모품\n► Rotor & Shaft\n► Baffle plate\n► Special Flux : \nCoveral\n MTS 15XX"
+    },
+    {
+      "page": 20,
+      "text": "Rotor & shaft size\nShaft\nRotor\n75ø\n600mm\n190ø\n800mm\n220ø\n1000mm\nShaft\nRotor\n95ø\n600mm\n250ø\n800mm\n1000mm"
+    },
+    {
+      "page": 21,
+      "text": "Baffle Plate"
+    },
+    {
+      "page": 22,
+      "text": "결 \n론\nR.D.M.(Rotary Degassing Machine)\n►\n  \n통합 적인 \n용탕\n 처리 장치\n►\n  \n단일 공정으로 모든 종류의 \n용탕\n 처리가 가능\n►\n  \n용탕\n 품질 측정 장치와 결합이 가능\n►\n  \n고객에게 자동화된 프로세스 제어 시스템 제공\n►\n  \n최저의 비용으로 최고의 품질 달성 가능 "
+    }
+  ],
+  "page_count": 22,
+  "figures": [
+    {
+      "member": "ppt/media/image22.jpg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/d36d11246306fe5baec4981bc01080a5dee5b0fae5db1417841764c62e666b34.webp",
+      "width": 720,
+      "height": 960
+    },
+    {
+      "member": "ppt/media/image21.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/54ce82a7ac673520178e93c7b55f22204808e30c2601c532ab0e41a5436e9da3.webp",
+      "width": 289,
+      "height": 628
+    },
+    {
+      "member": "ppt/media/image5.png",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/e0aec1e3563339a4d3d63f553cd8b54a8420ad67c49279c815403ac1b1c1144c.webp",
+      "width": 104,
+      "height": 68
+    },
+    {
+      "member": "ppt/media/image6.jpg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/a5edfcc008329dca037b744e7f3208af55376cab6b338cbb0c9fddff77716d46.webp",
+      "width": 698,
+      "height": 960
+    },
+    {
+      "member": "ppt/media/image7.emf",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/fecc27ca4feb273685ad0ea3a367aa1e02215fd1f3289610676c5b935f0ba0fa.webp",
+      "width": 1043,
+      "height": 627
+    },
+    {
+      "member": "ppt/media/image8.emf",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/6896d520910d002b86bf8e5617b8762241825735ed409ef8b5886d9ed8636497.webp",
+      "width": 731,
+      "height": 406
+    },
+    {
+      "member": "ppt/media/image4.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/601822c9b4645df703736f836b49bdf883b9cfd8e5e08cf684480e2a5d58df54.webp",
+      "width": 658,
+      "height": 572
+    },
+    {
+      "member": "ppt/media/image3.jpg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/3290ff1270636fe3fc43b1fc3afc6e66ff8b81a21d0f9cbaffef406f7f8dd0fb.webp",
+      "width": 122,
+      "height": 92
+    },
+    {
+      "member": "ppt/media/image2.png",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/68dcd1b80a9195275160300fd6a6c1885008277dad0a7ef7a6a894f3c99a8e76.webp",
+      "width": 84,
+      "height": 86
+    },
+    {
+      "member": "ppt/media/image1.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/6e82c8d88fc5407478b39442e5e584c787368f13668394b512a984dbe44615f7.webp",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "member": "ppt/media/image9.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/cafc475a495ab524739985b81a7bdf4be2835f41df66d95f0f2437891b83fddf.webp",
+      "width": 1000,
+      "height": 731
+    },
+    {
+      "member": "ppt/media/image11.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/d0cfaa5c39cab8733cb972584e676a9e866059df4ac5d1858386c0eca5e2388a.webp",
+      "width": 1000,
+      "height": 798
+    },
+    {
+      "member": "ppt/media/image20.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/bbac37df42ee48d1ab33c8ee968f305864f4a340936e61dfc9276e210ec0bd20.webp",
+      "width": 287,
+      "height": 884
+    },
+    {
+      "member": "ppt/media/image19.jpg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/0df35328ede1397616ed2b0bc08d64e385529ea6266e561a0b5750cd9b961119.webp",
+      "width": 182,
+      "height": 960
+    },
+    {
+      "member": "ppt/media/image18.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/8945fc19fbba9fd210ec185e40ad6ed645b0b7839c495523e245be2880522007.webp",
+      "width": 604,
+      "height": 645
+    },
+    {
+      "member": "ppt/media/image17.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/39dd002303eb1bf4c318c633dc14fe808dcb660debe7fd91a3c12af37061c819.webp",
+      "width": 501,
+      "height": 675
+    },
+    {
+      "member": "ppt/media/image16.png",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/9d67dea06e27409babb5bec2620dfdb40462fcb804bd6855a934d3ce6ae2a58a.webp",
+      "width": 1397,
+      "height": 499
+    },
+    {
+      "member": "ppt/media/image15.emf",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/fcd5310985ea0f870d82b6406bf2923dc1c9dea82683de584047d2233f80b55d.webp",
+      "width": 1427,
+      "height": 940
+    },
+    {
+      "member": "ppt/media/image12.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/6e4c5ee1e4a93e6ef7fc97e202ad4b428e17ec4af577219856b20860845ae186.webp",
+      "width": 1000,
+      "height": 667
+    },
+    {
+      "member": "ppt/media/image13.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/dea46a4d0402e92d927b5aec8c7025a57222ebca63ad87a7158c2a12f3a34da5.webp",
+      "width": 1000,
+      "height": 667
+    },
+    {
+      "member": "ppt/media/image14.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/42a04dd1052c8d5279bee4649a6c400c0104302699af889fbd7477777e900191.webp",
+      "width": 1000,
+      "height": 667
+    },
+    {
+      "member": "ppt/media/image10.jpeg",
+      "source_id": "S27a3062e495d05b5",
+      "url": "/documents/source-figures/f16fea55ed8e2c2485145fc20d541baf092acff9a42c8657b6636616b8426160.webp",
+      "width": 1000,
+      "height": 703
+    }
+  ]
+}

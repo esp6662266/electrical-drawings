@@ -1,0 +1,92 @@
+{
+  "sha256": "fa7cb9f60840fc964cb3c06bc0b79d89672340af4137b97d029a848f853bcbca",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/1.pdf",
+      "bytes": 159008,
+      "compressed_bytes": 149088,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/10.pdf",
+      "bytes": 67810,
+      "compressed_bytes": 59568,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/11.pdf",
+      "bytes": 127175,
+      "compressed_bytes": 116075,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/12.pdf",
+      "bytes": 72417,
+      "compressed_bytes": 67249,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/13.pdf",
+      "bytes": 66163,
+      "compressed_bytes": 61924,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/14.pdf",
+      "bytes": 70559,
+      "compressed_bytes": 62704,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/2.pdf",
+      "bytes": 163949,
+      "compressed_bytes": 153315,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/3.pdf",
+      "bytes": 86601,
+      "compressed_bytes": 77633,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/4.pdf",
+      "bytes": 364017,
+      "compressed_bytes": 347972,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/5.pdf",
+      "bytes": 72543,
+      "compressed_bytes": 67260,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/6.pdf",
+      "bytes": 51533,
+      "compressed_bytes": 47955,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/7.pdf",
+      "bytes": 51532,
+      "compressed_bytes": 47955,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/8.pdf",
+      "bytes": 48115,
+      "compressed_bytes": 44200,
+      "encrypted": false
+    },
+    {
+      "name": "╗⌡ ╞·┤⌡ (2)/9.pdf",
+      "bytes": 62301,
+      "compressed_bytes": 55313,
+      "encrypted": false
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "sha256": "5c2c9f4af39f68184c49f5de66e43460fae24892aea8af6f0f2fee5a62f78514",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "50톤 반사로(개조)도면.pdf",
+      "bytes": 4254380,
+      "compressed_bytes": 3687048,
+      "encrypted": false
+    },
+    {
+      "name": "50톤 반사로_20251112.xgwx",
+      "bytes": 19440,
+      "compressed_bytes": 19099,
+      "encrypted": false
+    },
+    {
+      "name": "50톤 반사로_r1.osts",
+      "bytes": 174,
+      "compressed_bytes": 110,
+      "encrypted": false
+    },
+    {
+      "name": "50톤 반사로_r1.xpd",
+      "bytes": 3137359,
+      "compressed_bytes": 825897,
+      "encrypted": false
+    },
+    {
+      "name": "A2-5-3. [분전반] 산업용 차단기.pdf",
+      "bytes": 6442084,
+      "compressed_bytes": 5019662,
+      "encrypted": false
+    },
+    {
+      "name": "C7027 BC1000.pdf",
+      "bytes": 1159685,
+      "compressed_bytes": 1079148,
+      "encrypted": false
+    },
+    {
+      "name": "DMPi MANUAL_KR_EN.pdf",
+      "bytes": 2423435,
+      "compressed_bytes": 2401830,
+      "encrypted": false
+    },
+    {
+      "name": "M7284.pdf",
+      "bytes": 683233,
+      "compressed_bytes": 621422,
+      "encrypted": false
+    },
+    {
+      "name": "VX_manual.pdf",
+      "bytes": 5057024,
+      "compressed_bytes": 3761935,
+      "encrypted": false
+    },
+    {
+      "name": "VX_user_kr.pdf",
+      "bytes": 17051834,
+      "compressed_bytes": 13691333,
+      "encrypted": false
+    },
+    {
+      "name": "VX시리즈.pdf",
+      "bytes": 3434312,
+      "compressed_bytes": 3073394,
+      "encrypted": false
+    },
+    {
+      "name": "XBC-H_XBM-S_Manual_V2.7_202607_KR.pdf",
+      "bytes": 10469043,
+      "compressed_bytes": 9373645,
+      "encrypted": false
+    },
+    {
+      "name": "XGT Panel HW Manual_iXP2_kor_V1.9.pdf",
+      "bytes": 5540299,
+      "compressed_bytes": 4956592,
+      "encrypted": false
+    },
+    {
+      "name": "[DMPi]_KO_C15021-06-202504.pdf",
+      "bytes": 3738825,
+      "compressed_bytes": 3528509,
+      "encrypted": false
+    },
+    {
+      "name": "[Metasol_MCCB]_KO_C01031-34-202501.pdf",
+      "bytes": 46453915,
+      "compressed_bytes": 38611353,
+      "encrypted": false
+    },
+    {
+      "name": "[Metasol_MS]_KO_C04001-36-202605.pdf",
+      "bytes": 32807097,
+      "compressed_bytes": 24326517,
+      "encrypted": false
+    },
+    {
+      "name": "[RCBO]_RKJ-b_Leaflet_KO_C015W1-02-202504.pdf",
+      "bytes": 858636,
+      "compressed_bytes": 641141,
+      "encrypted": false
+    },
+    {
+      "name": "[XGB-2] 설치가이드_XB(E)C-DN(R)3264H_A_Installation Guide_V4.5.pdf",
+      "bytes": 1010671,
+      "compressed_bytes": 992975,
+      "encrypted": false
+    },
+    {
+      "name": "[XGB-34] 설치가이드_XB(E)C-DN(R)3264H_RENEWAL_10310001847_V1.1.pdf",
+      "bytes": 1410196,
+      "compressed_bytes": 1394563,
+      "encrypted": false
+    },
+    {
+      "name": "potentionmeter SHA-RI.pdf",
+      "bytes": 640422,
+      "compressed_bytes": 604173,
+      "encrypted": false
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf",
+      "bytes": 1679043,
+      "compressed_bytes": 1669395,
+      "encrypted": false
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.hwp",
+      "bytes": 87040,
+      "compressed_bytes": 73999,
+      "encrypted": false
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf",
+      "bytes": 191269,
+      "compressed_bytes": 158095,
+      "encrypted": false
+    }
+  ]
+}

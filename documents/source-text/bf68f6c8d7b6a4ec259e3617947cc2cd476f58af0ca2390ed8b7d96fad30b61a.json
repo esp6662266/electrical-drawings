@@ -1,0 +1,266 @@
+{
+  "sha256": "bf68f6c8d7b6a4ec259e3617947cc2cd476f58af0ca2390ed8b7d96fad30b61a",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "HI‐SCAN 150 MPI Serie\nInspektionssystem mit Röntgentransmissionstech‐\nnologie für Stoffströme\nMontageanweisungen\nfür unvollständige Maschinen\n95595532",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 2,
+      "text": "II 95595532 -30.01.2015- Smiths Detection\nHinweis zu urheberrechtlich geschützten Informatioen\nDieses Dokument enthält urheberrecht lich geschützte Informationen von Smiths Detection. Die-\nses Dokument wird an die autorisierten Anwender des mit dem\nausschließlichen Zweck weitergegeben, die Anwendung der im Kaufvertrag genannten Produkte\nzu erleichtern. Eine Reproduktion oder Weitergabe dieses Dokuments, sei es ganz oder aus-\nzugsweise, ist ohne vorherige schriftliche Zustimmung von Smiths Detection nicht gestattet. Die-\nses Dokument muss vertraulich behandelt werden und darf ohne ausdrücklic he schriftliche Zu-\nstimmung von Smiths Detection nicht an Dritte weitergegeben werden.",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 3,
+      "text": "INHALTSVERZEICHNIS\n1      VORWORT                                                            1  \n1.1 Kundenservice ______________________________________________________________________1\n1.2 Zielgruppe _______________________________________________________________ __________1\n1.3 Umfang _______________________________________________ _____________________________2\n1.4 Lizenzhinweise _______________________________________________________________ ______2\n2      ÜBER DIESES DOKUMENT                                               3  \n2.1 Konventionen _______________________________________________________________________3\n2.1.1 Gefahrenkategorien _________________________________________________ _________3\n2.1.2 Weitere Anweisungen _________________________________________________________4\n2.1.3 Textverweise ________________________________________________________________4\n2.2 Sorgfaltspflicht ____________________________________________________ __________________4\n2.3 Rechtliche und behördliche Bestimmungen _____________________________________________6\n2.4 Klimatische Bedingungen _____________________________________________________________7\n2.5 Oberflächenbeschaffenheit ____________________________________________________________7\n2.5.1 Eigenschaften der Stellfläche ___________________________________________________7\n2.6 Stromversorgung ____________________________________________________________________8\n2.7 Qualifikation des Personals ___________________________________________________________8\n2.7.1 Betriebspersonal _____________________________________________________________8\n2.7.2 Wartungspersonal ____________________________________________________________8\n2.8 Strahlenschutzvorschriften ____________________________________________________________9\n2.9 Routinewartung _____________________________________________________________________9\n3      SICHERHEIT                                                        10  \n3.1 Sachgemäße Anwendung ___________________________________________________________10\n3.1.1 Vernünftigerweise absehbarer Missbrauch ______________________________________11\n95595532 -30.01.2015- Smiths Detection III",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 4,
+      "text": "3.2 Bauliche Veränderungen und Ersatzteile ______________________________________________11\n3.3 Sicherheitsvorrichtungen ____________________________________________________________13\n3.3.1 Verriegelungsschalter ________________________________________________________13\n3.3.2 Externes Not-Aus-Signal _____________________________________________________14\n3.3.3 Wiedereinschalten nach Not-Aus-Ereignis ______________________________________14\n3.3.4 Röntgen-Ein-Anzeige ________________________________________________________14\n3.4 Warnhinweise _______________________________________________________________ ______15\n3.5 Verbleibende Risiken _______________________________________________________________16\n3.5.1 Röntgenstrahlen ____________________________________________________________16\n3.5.2 Elektrischer Strom ___________________________________________________________18\nBetrieb__________________________________________________________________18\nWartung_________________________________________________________________18\n3.5.3 Stolper- und Sturzgefahr ________________________________________________ _____20\n3.5.4 Gefahr von Schnittverletzungen und Quetschungen ______________________________20\nInstallation, Transport, Wartung_____________________________________________20\n3.5.5 Schwere Bauteile _______________________________________________________ ____20\nBetrieb, Installation und Wartung____________________________________________20\n3.6 Vermeidung von Schüttgutschäden ___________________________________________________21\n3.6.1 Reject-Verteilung ____________________________________________________________21\n3.6.2 Röntgengenerator ___________________________________________________________21\n4      SYSTEMBESCHREIBUNG                                                23  \n5      STEUERELEMENTE UND ANZEIGEN                                        25  \n6      TRANSPORT/ABLADEN                                                 27  \n7      CHECKS VOR DEM EINSCHALTEN                                        28  \n8      BETRIEB                                                           29  \nIV 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 5,
+      "text": "9      WARTUNG                                                           31  \nÜberprüfung der Gehäuseverkleidungen_____________________________________31\nDurchführung der Sicherheitsprüfung________________________________________32\nÜberprüfung der Schutzleiter_______________________________________________32\nÜberprüfung der Not-Aus-Schalter (extern)___________________________________32\nÜberprüfung des Verriegelungssystems______________________________________33\n10     FEHLERBEHEBUNG                                                     34  \n11     ENTSORGUNG                                                        35  \n12     TECHNISCHE DATEN                                                  36  \n95595532 -30.01.2015- Smiths Detection V",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 6,
+      "text": "Vorwort\n1 Vorwort\nDas folgende Dokument bietet Ihnen alle Informationen, die zur\nDurchführung von Wartungs- und Reparaturarbeite n an Ihrem HI-\nSCAN 150 MPI Röntgengerät erforderlich sind.\nDieses Dokument behandelt jedoch nicht die Erkennung von Ge -\ngenständen in Röntgensequenzen.\nWir empfehlen Ihnen, diese Anweisungen sorgfältig zu lesen. Be -\nsonders möchten wir Sie darauf hinweisen, den Abschnitt „Sicher -\nheit“ zu lesen, der wichtige Informationen zu Ihrer eigenen Sicher -\nheit während des Betriebs des Geräts enthält.\nDie Produkte von Smiths Detection werden in Übereinstimmung mit\nden grundlegenden Gesundheits- und Sicherheitsanforderungen\nder Europäischen Union (EU) entwickelt und hergestellt.\n1.1 Kundenservice\nTechnischen Support zu Ihrem Produkt erhalten Sie vom regiona -\nlen Vertreter oder direkt von unserem Unternehmen.\nUm Ihnen einen schnellen Service bieten zu können, bitten wir Sie,\nfolgende Informationen bei Ihrer Anfrage anzugeben:\n• Kontaktperson für Rückfragen \n• Telefon- und Faxnummer der Kontaktperson\n• Typ und Seriennummer des Geräts\n• Fehlerbeschreibung\n1.2 Zielgruppe\nDiese Montageanweisungen für unvollständige Maschinen richten\nsich an Einzelpersonen und Unternehmen, die mit dem Einbau des\nHI-SCAN 150 MPI Röntgengeräts in eine vollständige Maschine\nbetraut sind. Zusätzlich enthält dieses Dokument wichtige Anwei -\nsungen für den Anwender.\n95595532 -30.01.2015- Smiths Detection 1",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 7,
+      "text": "Umfang\n1.3 Umfang\nDiese Montageanweisungen für unvollständige Maschinen be -\nschreiben die folgenden Bauarten des Röntgenge-\nräts:\n• HI-SCAN 150 MPI \n• HI-SCAN 150 MPI A2\n• HI-SCAN 150 MPI FK\nDiese Informationen zur Feststellung Ihres Gerätetyps finden Sie\nauf dem Typenschild. \n1.4 Lizenzhinweise\nMicrosoft®, Windows® und Windows Embedded® sind entweder\neingetragene Warenzeichen oder Warenzeichen der Microsoft\nCorporation in den U.S.A. und/oder in anderen Ländern.\nAndere Produktnamen in diesem Dokument dienen lediglich Identi-\nfikationszwecken und können Warenzeichen des jeweiligen Unter -\nnehmens sein. Wir lehnen jegliche Rechtsansprüche auf diese Mar-\nken ab. \n2 95595532 -30.01.2015- Smiths Detection\nAbb. 1: Typenschild\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 8,
+      "text": "Über dieses Dokument\n2 Über  dieses Dokument\nDieses Handbuch ist ein Original-Handbuch. \n2.1 Konventionen\n2.1.1 Gefahrenkategorien\nDie Sicherheitshinweise in diesem Handbuch werden in drei Ge -\nfahrenkategorien unterteilt. Die se Kategorien unterscheiden sich\nhinsichtlich der Schwere der Verletzungen, die durch Nichtbeach -\nten der Anweisungen verursacht werden können:\nGEFAHR\nBezeichnet eine unmittelbar drohende Gefahr. Das\nNichtbeachten der Anweisungen führt zu schwersten\nVerletzungen oder zum Tod!\nWARNUNG\nWeist auf eine mögliche Gefahr hin. Das Nichtbeachten\nder Anweisungen kann zu schwersten Verletzungen\noder zum Tod führen!\nVORSICHT\nWeist auf eine mögliche Gefahr hin. Das Nichtbeachten\nkann zu leichten oder geringfügigen Verletzungen füh -\nren!\n95595532 -30.01.2015- Smiths Detection 3",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 9,
+      "text": "Konventionen\n2.1.2 Weitere  Anweisungen\nNeben den Sicherheitshinweisen gibt es noch die folgenden gene -\nrellen Hinweise, Referenzen und Anwendungsratschläge:\nVORSICHT\nWeist auf die Gefahr möglicher Schäden hin.\nDas Nichtbeachten kann zu Schäden am\n!\nINFORMATION\nAnwendungsratschlag oder hilfreiche Informationen für\nden Anwender.\nINFORMATION\nReferenz zu weiteren Informationen über dieses Pro -\ndukt.\n2.1.3 Textverweise\nBeispiel: (F 3) stellt einen Textverweis zu Seite 3 dar.\n2.2 Sorgfaltspflicht\nDer Eigentümer/Anwender muss sicherstellen, dass ausschließlich\ngeschultes Personal das HI-SCAN 150 MPI Röntgengerät bedie -\nnen darf. Das Wissen der Bediener muss in regelmäßigen Abstän -\nden geprüft werden. Bei Bedarf müssen Auffrischungskurse durch -\ngeführt werden.\nDie Einwirkung von Röntgenstrahlung auf Menschen kann schäd -\nlich sein. Der sichere Betrieb des HI-SCAN 150 MPI Röntgengeräts\nliegt vollkommen in Ihrer Verantwortung als Eigentümer/Anwender,\nund Smiths übernimmt keine Haftung für die Anwendung oder den\nBetrieb der Ausrüstung durch Sie oder eine andere Person, die in\nIhrem Auftrag handelt.\n4 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 10,
+      "text": "Über dieses Dokument\nBeim Betrieb des HI-SCAN 150 MPI Röntgengeräts muss der Ei-\ngentümer/Anwender sicherstellen, dass alle geltenden landesspezi -\nfischen Bestimmungen eingehalten werden.\n95595532 -30.01.2015- Smiths Detection 5",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 11,
+      "text": "Rechtliche und behördliche Bestimmungen\n2.3 Rechtliche und behördliche Bestim ‐\nmungen\nVor der Installation und Inbetriebnahme des HI-SCAN 150 MPI\nRöntgengeräts müssen Sie als Eigentümer/Anwender unbedingt\ndafür sorgen, dass alle geltenden Gesetze und Bestimmungen, ein -\nschließlich (aber ohne Einschränkung hierauf) der relevanten\nStrahlenschutzrichtlinien und Unfallverhütungsvorschriften, einge -\nhalten werden. Mögliche Abweichungen oder Änderungen der gel -\ntenden Gesetze und/oder Richtlinien müssen immer beachtet wer -\nden. \nZusätzlich sind sie möglicherweise durch das geltende Recht zur\nDurchführung einer Strahlenschutzprüfung oder einer Abnahme -\nprüfung nach der Installation des HI-SCAN 150 MPI Röntgengeräts\nverpflichtet. Sie müssen ggf. d iese Strahlenschutz- oder Abnahme -\nprüfungen des HI-SCAN 150 MP I Röntgengeräts in regelmäßigen\nAbständen oder bei Ortswechsel des HI-SCAN 150 MPI Röntgen-\ngeräts wiederholen.\nHAFTUNGSAUSSCHLUSS:\nSmiths Detection übernimmt keine Verantwortung für die Vollstän -\ndigkeit der oben angegebenen Informationen. Es obliegt Ihrer Ver -\nantwortung, sicherzustellen, dass die Ausrüstung gemäß den War -\ntungsprozeduren und Handbüchern von Smiths Detection verwen -\ndet wird. Es obliegt Ihrer Verantwortung, sicherzustellen, dass die\nAusrüstung gemäß den Anforderungen aller geltenden Umwelt -\nschutz- oder Arbeitssicherheitsgeset ze, Strahlenschutzvorschriften\nund Industrienormen zum Strahlen schutz bei Personensicherheits -\nschleusen mit Röntgentechnik verwendet und betrieben wird. Es\nobliegt Ihrer Verantwortung, die Ausrüstung innerhalb der durch\ndiese Gesetze und Normen festgel egten Strahlungsgrenzwerte zu\nbetreiben. \nZusätzlich müssen Sie als Eigentümer/Anwender sicherstellen,\ndass der vorgesehene Installationsbereich den Anforderungen der\nnachfolgenden Betriebsbedingungen entspricht.\n6 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 12,
+      "text": "Über dieses Dokument\n2.4 Klimatische Bedingungen\nBetrieb Transport  und Lage‐\nrung\nTemperatur 5 °C bis +40 °C −20 °C bis +60 °C\nRelative \nFeuchte\n10 % bis 90 % \n(nicht kondensierend)\n10 % bis 90 % \n(nicht kondensierend)\nKommentar Die interne Temperatur-\nüberwachung schaltet \ndas Röntgengerät aus, \nwenn die Temperatur \ndie Grenzwerte über-\nschreitet.\nDies gilt nur bei voll-\nständig geschlossenen \nGehäuseklappen.\nVORSICHT\nDie Funktionsfähigkeit des HI-SCAN 150 MPI Röntgen -\ngeräts kann nur gewährleistet werden, wenn das Gerät\ninnerhalb der oben angegebenen klimatischen Grenz -\nwerte betrieben oder gelagert und die Schutzart gemäß\nIEC 60529 berücksichtigt wird. Die Maschine darf bei\nabweichenden klimatischen Bedingungen nicht in Be -\ntrieb genommen werden.\n2.5 Oberflächenbeschaffenheit\n2.5.1 Eigenschaften  der Stellfläche\nDie Stellfläche am Installationsort muss eben und fest sein. Das HI-\nSCAN 150 MPI Röntgengerät muss mithilfe einer Wasserwaage\nausgerichtet werden. Halten Sie unbedingt die maximal zulässige\nBodenbelastung ein! Siehe Abschnitt „Technische Daten“ für die\nBelastungswerte des Systems. \n95595532 -30.01.2015- Smiths Detection 7",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 13,
+      "text": "Stromversorgung\n2.6 Stromversorgung\nTyp 150  MPI 150  MPI A2 150  MPI FK\nNetzanschlusswerte 230 VAC/ 120 VAC (+10 % / −15 %) \nVerbrauch 0,9 kVA 0,9 kVA 0,9 kVA\nFrequenz 50 Hz/60 Hz ±3 Hz\n2.7 Qualifikation des Personals\n2.7.1 Betriebspersonal\nINFORMATION\nDas Hi-SCAN 150 Röntgengerät darf nur von entspre-\nchend geschultem Personal aktiviert und betrieben wer -\nden!\nINFORMATION\nIn allen Einrichtungen sind die landesspezifischen Un -\nfallverhütungsvorschriften einzuhalten.\n2.7.2 Wartungspersonal\nNur geeignetes Personal darf Wartungsarbeiten am Hi-SCAN 150\nRöntgengerät durchführen. Die dafür erforderlichen Kenntnisse\nwerden in einer von Smiths Detection angebotenen technischen\nSchulung vermittelt.\n8 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 14,
+      "text": "Über dieses Dokument\n2.8 Strahlenschutzvorschriften\nDas Hi-SCAN 150 Röntgengerät ist nach verschiedenen internatio -\nnalen Strahlenschutzvorschriften und -richtlinien ausgelegt. Den -\nnoch obliegt es der Verantwortung des Eigentümers/Anwenders, si -\ncherzustellen, dass alle regionalen und landesspezifischen Anfor -\nderungen erfüllt werden.\nINFORMATION\nDie regionalen Vorschriften sind zwingend zu erfüllen!\nDie unvollständige Maschine kann nicht alle Strahlenschutzvor -\nschriften erfüllen. Der Hersteller der vollständigen Maschine muss\ngewährleisten, dass die vollständige Maschine alle erforderlichen\nStrahlenschutzvorschriften erfüllt.\n2.9 Routinewartung\nDas Betreiberunternehmen muss bestimmte Wartungsintervalle\neinhalten. Die Wartungsaufgaben zur Überprüfung der Schutzvor -\nrichtungen des\nwerden im Abschnitt\n„Wartung“ beschrieben (F 31). \n95595532 -30.01.2015- Smiths Detection 9",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 15,
+      "text": "Sicherheit\n3 Sicherheit\nDas Hi-SCAN 150 Röntgengerät wurde nach modernsten Stan-\ndards und anerkannten Sicherheitsvorschriften ausgelegt. Bei der\nAnwendung des Hi-SCAN 150 Röntgengeräts können dennoch Ge-\nfahren für Leib und Leben von Anwendern und Dritten oder Schä -\nden am Hi-SCAN 150 Röntgengerät und anderem Material auftre-\nten.\n• Verwenden Sie das Hi-SCAN 150 MPI Röntgengerät nur in\ntechnisch einwandfreiem Zustand, für den vorgesehenen\nZweck, mit der gebotenen Aufmerksamkeit für die Sicherheit\nund Risiken des Geräts sowie in Übereinstimmung mit diesen\nAnweisungen.\n• Schalten Sie bei Fehlfunktion oder verändertem Betriebsverhal -\nten des Hi-SCAN 150 MPI Röntgengeräts das System aus und\nlassen Sie die Fehlfunktion beheben.\n• Vor der Verwendung des Hi-SCAN 150 MPI Röntgengeräts\nmüssen die einwandfreie Funktion der Not-Aus-Einrichtung und\nder Sicherheitsstromkreis überprüft werden. Betreiben Sie das\nGerät nur mit einem einwandfrei funktionierenden Sicherheits -\nsystem.\n• Betreiben Sie das Hi-SCAN 150 MPI Röntgengerät nur, wenn\ndie Tunnelöffnungen (z. B. mit Bleivorhängen) so abgedeckt\nsind, dass keine Röntgenstrahlung austreten kann. Befolgen Sie\nstets die Strahlenschutzprotokolle.\n3.1 Sachgemäße Anwendung\nDas Hi-SCAN 150 Röntgengerät ist ein Inspektionssystem mit\nRöntgentransmissionstechnologie für die Untersuchung von\nSchüttgut und Stoffströmen.\nZur sachgemäßen Anwendung gehört auch die Beachtung folgen -\nder Informationen:\n• der vorliegenden Montageanweisungen für unvollständige Ma -\nschinen und des technischen Handbuchs,\n• aller Referenzdokumente, ins besondere der Sicherheitsanwei -\nsungen,\n• der technischen Daten und der Umweltbedingungen. \n10 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 16,
+      "text": "Sicherheit\nINFORMATION\nDie Funktionsfähigkeit des Hi-SCAN 150 Röntgengeräts\nkann nur gewährleistet werden, wenn das Gerät gemäß\ndiesem Dokument betrieben wird. Smiths Detection\nübernimmt keine Haftung für absichtlichen oder verse -\nhentlichen Missbrauch!\n3.1.1 Vernünftigerweise absehbarer Miss ‐\nbrauch\nDie Bauteile des Hi-SCAN 150 MPI Röntgengeräts dürfen nicht für\nandere Zwecke als die in diesem Dokument oder den angegebe -\nnen Referenzdokumenten beschriebenen verwendet werden. Dies\numfasst unter anderem Folgendes:\n• Das Hi-SCAN 150 MPI Röntgengerät darf nicht zur Untersu-\nchung von Menschen oder Tieren verwendet werden.\n• Die Installation und Anwendung von Software oder Software -\nkomponenten, die nicht zum Lieferumfang des Hi-SCAN 150\nRöntgengeräts gehören, ist nicht gestattet.\n3.2 Bauliche Veränderungen und Ersatz ‐\nteile\nVeränderungen und Umbauten können die Betriebssicherheit des\nHi-SCAN 150 MPI Röntgengeräts gefährden. Veränderungen und\nUmbauten sind deshalb generell verboten. Je de Modifikation , die\nohne vorherige schriftliche Zustimmung von Smiths Detection\ndurchgeführt wird, führt zum Verlust der CE-Konformitätserklärung\noder der Einbauerklärung.\nFolgende Eingriffe, mit Ausnahme der in diesem Dokument be -\nschriebenen Arbeiten, sind ohne vorherige schriftliche Zustimmung\nvon Smiths Detection nicht erlaubt:\n• Öffnen und Ausbau von Bauteilen;\n• Ersetzen von Bauteilen;\n• Unerlaubte bauliche Veränderungen von Bauteilen;\n• Programmänderungen des programmierbaren Steuersystems.\n95595532 -30.01.2015- Smiths Detection 11",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 17,
+      "text": "Bauliche Veränderungen und Ersatzteile\nDas Hi-SCAN 150 MPI Röntgengerät darf nur durch Mitarbeiter von\nSmiths Detection, einen von diesem Unternehmen zugelassenen\nServicetechniker oder durch von diesem Unternehmen zugelasse -\nnes und geschultes Personal modifiziert oder umgebaut werden. \nNur die Mitarbeiter von Smiths Detection oder ein Service-Zentrum\noder von diesem Unternehmen zugelassene und geschulte Mitar -\nbeiter dürfen das Hi-SCAN 150 MPI Röntgengerät modifizieren\noder umbauen.\nOriginal-Ersatzteile und -Zubehör sind speziell für das Hi-SCAN\n150 MPI Röntgengerät ausgelegt. Die Installation oder Verwendung\nvon Teilen, die nicht von Smiths Detection produziert wurden, kann\ndie Sicherheit gefährden.\nINFORMATION\nNur Zubehör, das den Spezifikationen von Smiths De -\ntection entspricht, darf verwendet werden. \nBeim Modifizieren oder Aufrüsten des Hi-SCAN 150 MPI Röntgen -\ngeräts müssen alle Kabel sehr sorgfältig verlegt werden , um Kabel-\nschäden zu vermeiden. Nach jeder Modifikation oder Aufrüstung\ndes Hi-SCAN 150 MPI Röntgengeräts muss die elektrische Sicher-\nheit nach den geltenden regionalen Vorschriften überprüft werden.\n12 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 18,
+      "text": "Sicherheit\n3.3 Sicherheitsvorrichtungen\nDas Hi-SCAN 150 MPI Röntgengerät besitzt mehrere Schutzvor-\nrichtungen:\n• Verriegelungsschalter\n• Abzweigverbindung für externes Not-Aus-Signal\n• Röntgen-Ein-Anzeige\n3.3.1 Verriegelungsschalter\nZwei Verriegelungsschalter befinden sich hinter der Sicherheitsab-\ndeckung des Kollimators. Wenn die Sicherheitsabdeckung entfernt\nwird oder nicht korrekt verriegelt wurde, sind die Verriegelungs -\nschalter geöffnet. \nZwei Verriegelungsschalter befinden sich an der Klappe des Detek-\ntorlinienschranks. Wenn die Abdeckung des Detektorlinienschranks\nnicht korrekt geschlossen und verriegelt wurde, sind die Verriege -\nlungsschalter geöffnet.\n95595532 -30.01.2015- Smiths Detection 13\nAbb. 2: Sicherheitsabdeckung\nAbb. 3: Verriegelungsschalter an der\nKlappe des Detektorlinienschranks\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 19,
+      "text": "Sicherheitsvorrichtungen\n3.3.2 Externes  Not‐Aus‐Signal\nDas Sicherheitssystem überwacht zusätzlich ein externes Not-Aus-\nSignal, das über den Interface-Block =REJ+900-X3 eingeschleift\nwerden kann.\nBei Eingang des Not-Aus-Signals:\n• Der Röntgengenerator wird sofort ausgeschaltet.\n• Eine Fehlermeldung wird auf dem LCD-Bedienfeld angezeigt.\nINFORMATION\nEin Trennschalter ist nicht vorhanden. Alle anderen Bau -\nteile werden weiterhin mit Strom versorgt.\n3.3.3 Wiedereinschalten nach Not ‐Aus‐Ereig‐\nnis\nSie können das Gerät nach einem Not-Aus-Ereignis wieder in Be -\ntrieb nehmen.\n 1: Ermitteln Sie zunächst den Grund für das Not-Aus-Ereignis.\n 2: Räumen Sie alle Gefahren aus.\n3.3.4 Röntgen ‐Ein‐Anzeige\nJeweils eine Röntgen-Ein-Anzeige auf beiden Seiten des Tunnels\nleuchtet auf, sobald Röntgenstrahlung freigesetzt wird. \nEs erscheint ebenfalls ein Röntgenhinweis auf der grafischen Infor-\nmationsleiste des Hauptbedienbildschirms, wenn die Generatoren\nin Betrieb sind.\nINFORMATION\nAlle Röntgen-Ein-Anzeigen werden elektronisch über -\nwacht!\n14 95595532 -30.01.2015- Smiths Detection\nAbb. 5: Röntgen‐Ein‐Anzeige\nAbb. 4: Interface‐Block =REJ+900‐X3\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 20,
+      "text": "Sicherheit\n3.4 Warnhinweise\nErklärung der Warnhinweise, die am\nund in diesem Dokument verwendet werden.\nZeichen Bedeutung\nGefahr!\nBeachten Sie die Anweisungen in der Produktdoku -\nmentation!\nElektrik!\nGehäuseverkleidungen und Anschlüsse, die mit die -\nsem Symbol gekennzeichnet sind, dürfen nur von qua-\nlifiziertem Personal mit der erforderlichen Ausbildung \ngeöffnet oder verwendet werden!\nHandverletzung!\nGefahr der Quetschung von Körperteilen durch sich \nbewegende Bauteile!\nIonisierende Strahlung!\nGefahr durch ionisierende Strahlung!\nGefahr von Schnittverletzungen!\nGefahr von Schnittverletzungen beim Entfernen von \nAbdeckungen und Gehäuseverkleidungen bei War -\ntungs- oder Installationsarbeiten! \nQuetschgefahr! \nGefahr der Quetschung des gesamten Körpers beim \nÖffnen der Klappe des Detektorlinienschranks bei War-\ntungs- oder Installationsarbeiten! \n95595532 -30.01.2015- Smiths Detection 15",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 21,
+      "text": "Verbleibende Risiken\n3.5 Verbleibende Risiken\n3.5.1 Röntgenstrahlen\nPersonen, die Röntgenstrahlung ausgesetzt sind, können Strahlen -\nschäden erleiden. Die Möglichkeit einer Schädigung hängt von fol -\ngenden Faktoren ab: \n• Abstand zur Strahlungsquelle\n• Dauer des Aufenthalts im Strahlungsbereich\n• Abschirmung \nDie Installation und der Betrieb des Hi-SCAN 150 MPI X-Ray Rönt-\ngengeräts müssen durch das Betreiberunternehmen der verant -\nwortlichen Behörde mitgeteilt und möglicherweise durch die Behör -\nde genehmigt werden!\n Folgendes ist vor der Inbetriebnahme des Hi-SCAN 150 MPI Röntgengeräts zu beachten:\n• Machen Sie sich mit den relevanten Strahlenschutzvorschrif -\nten vertraut.\n• Stellen Sie sicher, dass das Gerät frei von Schäden ist, die\ndie Sicherheit des Inspektionsprozesses gefährden könnten.\n• Stellen Sie sicher, dass das System korrekt eingerichtet ist\n(Position des Bedienerplatzes, korrekte Position der Abschir -\nmungswände).\n• Führen Sie im Zweifelsfall immer eine Strahlungsprüfung\ndurch.\n Nehmen Sie das Hi-SCAN 150 MPI Röntgengerät nie in Betrieb,\nwenn Bauteile beschädigt sind.\n Der Bediener muss vor dem Durchführen einer Inspektion si-\ncherstellen, dass die erforderlichen Betriebselemente (z. B. Ver-\nriegelungsschalter) funktionsfähig sind.\n Entfernen oder modifizieren Sie nie Bauteile. Dies gilt insbeson-\ndere für Abdeckungen und alle Sicherheitsvorrichtungen (z. B. \nVerriegelungsschalter, plombierte Schrauben). \n16 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 22,
+      "text": "Sicherheit\n Bauteile des Sicherheitsstromkreises dürfen nur durch Smiths \nDetection ersetzt werden!\n Bei Beschädigung der Verriegelungsschalter und der plombier -\nten Schrauben auf den Abdeckungen: Legen Sie das Röntgen-\ngerät sofort still und lassen Sie den Schaden reparieren. \n95595532 -30.01.2015- Smiths Detection 17",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 23,
+      "text": "Verbleibende Risiken\n3.5.2 Elektrischer  Strom\nVerschiedene Bauteile (z. B. Anschlussklemmen) führen gefährli -\nche Spannungen.\nBei Kabelkanälen kann die Kabelisolierung beschädigt werden.\nDas Risiko eines Stromschlags besteht besonders in folgenden Si -\ntuationen:\n• bei der Entfernung der Gehäuseverkleidungsteile;\n• beim Öffnen von Anschlusskästen;\n• beim Berühren von Teilen, die wegen Störungen unter Strom\nstehen;\n• beim Berühren beschädigter Kabel.\n Lassen Sie die elektrische Ausrüstung regelmäßig überprüfen.\nBetrieb\n Modifizieren Sie die Sicherheitsvorrichtungen nicht.\n Reparieren Sie umgehend lose Anschlüsse oder verschmorte \nKabel.\nWartung\n Führen Sie vor den Reparaturarbeiten am  Hi-SCAN 150 MPI \nRöntgengerät folgende Maßnahmen durch:\n• Informieren Sie das Bedienpersonal.\n• Nehmen Sie alle entsprechenden Bauteile vom Netz und si -\nchern Sie sie gegen Wiedereinschalten.\n Bei unterbrechungsfreier Stromversorgung (USV) (optional): Be-\nachten Sie, dass Bauteile nach dem Ausschalten des Hi-SCAN \n150 MPI Röntgengeräts noch Spannung führen können.\n• Auf spannungslosen Zustand prüfen.\n18 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 24,
+      "text": "Sicherheit\n• Bauteile erden und kurzschließen. \n• Alle benachbarten spannungsführenden Bauteile auf ord -\nnungsgemäße und unbeschädigte Isolierung prüfen.\n• Bringen Sie ein Warnschild mit folgender Aufschrift an: „Nicht\neinschalten! Es werden Arbeiten an der elektrischen Ausrüs -\ntung durchgeführt.“\n• Verwenden Sie nur Originalsicherungen mit der vorgeschrie -\nbenen Amperezahl.\n• Schäden wie lose Anschlüsse oder verschmorte Kabel müs -\nsen umgehend repariert werden.\n• Verwenden Sie nur isolierte Werkzeuge.\n• Verwenden Sie nur Messgeräte mit geschützten Messleitun -\ngen.\n Nach einer Modifizierung, Wartung oder Reparatur, bei der \nspannungsführende Bauteile ausgetauscht oder repariert wur-\nden, müssen Sie die elektrische Sicherheit des Systems über -\nprüfen. Es gelten die jeweiligen landesspezifischen Gesetze und\nVorschriften. \nDer Techniker, der die Installation, Wartung oder Reparatur \ndurchführt, ist dafür verantwortlich, dass Bestimmungen und \nVorschriften für die sachgemäße Ausführung der Arbeiten einge-\nhalten werden.\nWenn die landesspezifischen Gesetze und Vorschriften unbe-\nkannt oder nicht vorhanden sind, sollten auf jeden Fall folgende \nPrüfungen durchgeführt werden:\n• Sichtprüfung aller sicherheitsrelevanten Merkmale des Ge -\nräts;\n• Überprüfung der Schilder;\n• Messung der Netzspannung und Vergleich mit dem Typen -\nschild am Gerät.\n95595532 -30.01.2015- Smiths Detection 19",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 25,
+      "text": "Verbleibende Risiken\n3.5.3 Stolper ‐ und Sturzgefahr\n Stellen Sie sicher, dass das Netzkabel und die Kabelführung zu \nden Monitoren und der Tastatur ordentlich verlegt sind.\n3.5.4 Gefahr von Schnittverletzungen und\nQuetschungen\nInstallation, Transport, Wartung\nBeim Anbringen von Abdeckungen oder Gehäuseverkleidungen\nbesteht die Gefahr von Schnittverletzungen an den Händen.\nBeim Positionieren oder Entfernen von Hubwagen unter einem Pro-\nfilrahmen während des Transports können Finger gequetscht wer -\nden.\n Tragen Sie während der Wartungs- und Installationsarbeiten \nSchutzhandschuhe.\nBeim Öffnen der Klappe des Detektorlinienschranks kann die\nschwere Klappe aus den Händen gleiten.\n Es müssen stets zwei Personen die Klappe des Detektor-\nSchaltschranks öffnen oder schließen.\n Tragen Sie Schutzhandschuhe.\n Sichern Sie die geöffnete Klappe mit zwei Sicherungsbügeln.\n3.5.5 Schwere  Bauteile\nBetrieb, Installation und Wartung\nWährend der Installation und der Wartungsarbeiten kann das He -\nben von schweren Bauteilen wie dem Generatorsegment, dem\nTunnelsegment, der Förderstrecke und dem Röntgengenerator zu\nRückenverletzungen führen. \n20 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 26,
+      "text": "Sicherheit\n Seien Sie beim Heben von schweren Bauteilen vorsichtig und \nachten Sie immer darauf, Ihre Knie zu belasten und den Rücken\nzu entlasten.\n Tragen Sie Stahlkappenschuhe beim Heben des Prüfstands.\n Halten Sie sich immer an Ihre unternehmensinternen Richtlinien\nund Praktiken beim Heben von schweren Bauteilen, um \nRückenverletzungen zu vermeiden.\n Schwere Bauteile sollten immer von mehreren Personen geho -\nben werden.\n3.6 Vermeidung von Schüttgutschäden\n3.6.1 Reject ‐Verteilung\nACHTUNG\nSchließen Sie nur Reject-Schieber mit Freilaufdiode an.\n3.6.2 Röntgengenerator\n Wenn der Röntgengenerator des HI-SCAN 150 MPI Röntgenge -\nräts länger als sechs Monate nicht mehr in Betrieb war, muss \nder Generator regeneriert, d. h. bei reduzierter Hochspannung \nbetrieben werden!\n Betreiben Sie den Generator unter keinen Umständen, auch \nnicht kurzzeitig, bei 160 kV, da dies zur Zerstörung der Rönt -\ngenröhre führen kann! Trennen Sie in solchen Fällen das/die \nKabel des Generators vom Generator/von allen Generatoren, \nbevor Sie das Röntgengerät einschalten!\n95595532 -30.01.2015- Smiths Detection 21",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 27,
+      "text": "Vermeidung von Schüttgutschäden\n22 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 28,
+      "text": "Systembeschreibung\n4 Systembeschreibung\nDas HI-SCAN 150 MPI Röntgengerät nutzt Röntgentransmissions-\ntechnologie zur Inspektion von Schüttgut und Stoffströmen sowie\nzu deren Sortierung durch pneumatische Reject-Schieber. (Die Re -\nject-Schieber sind nicht Teil des Lieferumfangs). Schüttgut und\nStoffströme passieren mithilfe eines Förderbands einen Röntgen -\nstrahl. (Das Förderband ist nicht Teil des HI-SCAN 150 MPI Rönt-\ngengeräts).\nDas HI-SCAN 150 MPI Röntgengerät besteht aus verschiedenen\nGehäuseteilen (siehe Abb. 7).\nPos. Beschreibung\na Hauptverteilerkasten\nb Detektorlinienschrank\nc Tunnel\n95595532 -30.01.2015- Smiths Detection 23\nAbb. 6: HI‐SCAN 150 MPI Röntgengerät\nAbb. 7: Gehäuseteile des HI‐SCAN 150 MPI Röntgengeräts\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 29,
+      "text": "Systembeschreibung\nPos. Beschreibung\nd Reject-Verteilerkasten\ne Generatorkasten\n24 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 30,
+      "text": "Steuerelemente und Anzeigen\n5 Steuerelemente  und Anzeigen\nBauteil Name Beschreibung\na POWER ON Netzscha ltera nzeige – leuchtet a uf, \nwenn da s Gerät mit Netzspa nnung \nversorgt wird\nb X-RAY ON Röntgen-Ein-Anzeige – leuchtet \na uf, wenn Röntgenstra hlung er-\nzeugt wird\nc STOPPED Stopp-Anzeige – leuchtet a uf, wenn\nda s Gerät a ngeha lten wurde (keine \nDurchleuchtung)\nd Bedienfeld Besteht a us LCD-Displa y und einer \nTa sta tur\ne MPI +110 Da ten-\nschnittstellenver-\nteilung\nUmfa sst Ha uptscha lter, USB-An-\nschluss und Ethernet-Anschluss\n95595532 -30.01.2015- Smiths Detection 25\nAbb. 8: Bauteile des  HI‐SCAN 150 MPI Röntgengeräts\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 31,
+      "text": "Steuerelemente und Anzeigen\nBauteil Name Beschreibung\nf Erde Externe Erdungsverbindung\n26 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 32,
+      "text": "Transport/Abladen \n6 Transport/Abladen  \nIm folgenden Abschnitt finden Sie Anweisungen für den Transport\nund das Abladen des HI-SCAN 150 MPI Röntgengeräts:\nDie Auflagebereiche für Gabelstapler sind mit Symbolen markiert\n(siehe Abb. 9). Heben Sie das HI-SCAN 150 MPI Röntgengerät nur\nan den Auflagebereichen an.\n95595532 -30.01.2015- Smiths Detection 27\nAbb. 9: Markierung der Auflagebereiche\nfür Gabelstapler \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 33,
+      "text": "Checks vor dem Einschalten\n7 Checks  vor dem Einschalten\nVor dem Einschalten des HI-SCAN 150 MPI Röntgengeräts muss\nder Bediener folgendes überprüfen:\n 1: Die Außenverkleidung ist nicht beschädigt.\n 2: Alle Klappen und Türen sind geschlossen.\n 3: Stellen Sie sicher, dass die Tunnelöffnungen (z. B. mit Blei-\nvorhängen) so abgedeckt sind, dass keine Röntgenstrahlung \naustreten kann.\n 4: Letzter Betrieb\n• Überprüfen Sie, ob das HI-SCAN 150 MPI Röntgengerät in\nden letzten sechs Monaten in Betrieb war. Lassen Sie die\nProtokolldateien des Geräts durch einen qualifizierten Ser -\nvicetechniker auswerten, wenn Sie sich über den letzten Be -\ntriebszeitpunkt des HI-SCAN 150 MPI Röntgengeräts nicht si-\ncher sind.\nVORSICHT\nSchalten Sie die Röntgengeneratoren nicht ein, wenn\ndiese in den letzten sechs Monaten nicht in Betrieb wa -\nren! Deaktivieren Sie stattdessen die Röntgensysteme\ndes Geräts, bis die Röntgengeneratoren durch einen\nqualifizierten Servicetechniker regeneriert wurden!\n28 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 34,
+      "text": "Betrieb\n8 Betrieb\nStellen Sie vor dem Betrieb des HI-SCAN 150 MPI Röntgengeräts\nsicher, dass die Checks vor dem Einschalten durchgeführt wurden.\nWARNUNG\nGesundheitsrisiko für den Bediener und für Dritte!\nWenn das Gerät nicht ordnungsgemäß eingerichtet\nwurde, besteht ein Gesundheitsrisiko für den Bediener\nund andere Personen in der Nähe des Geräts durch\nübermäßigen Kontakt mit der Röntgenstrahlung.\nEntfernen Sie die Abschirmungsverkleidung nicht.\nEs obliegt der Verantwortung des Bedieners, die Umge -\nbung des HI-SCAN 150 MPI Röntgengeräts zu beob-\nachten und sicherzustellen, dass Dritte keiner Röntgen -\nstrahlung ausgesetzt werden!\nStellen Sie sicher, dass die Tunnelöffnungen (z. B. mit\nBleivorhängen) so abgedeckt sind, dass keine Röntgen -\nstrahlung austreten kann.\nWARNUNG\nGefahr durch Röntgenstrahlung!\nVor der Verwendung des HI-SCAN 150 MPI Röntgen-\ngeräts muss der Bediener sicherstellen, dass das Gerät\nkeine Schäden aufweist, die die Sicherheit des Inspekti-\nonsprozesses gefährden können.\nFühren Sie im Zweifelsfall immer eine Strahlungsprü -\nfung durch!\nDer Bediener muss vor dem Durchführen einer Inspekti-\non sicherstellen, dass die erforderlichen Betriebsele -\nmente (z. B. Röntgen-Ein-Anzeigen) funktionsfähig sind.\n 1: Stellen Sie sicher, dass das Gerät betriebsbereit („System \nReady“) ist und dass die Tunnelöffnungen (z. B. mit Bleivorhän-\ngen) so abgedeckt sind, dass keine Röntgenstrahlung austreten\nkann.\n• Überprüfen Sie das Display des Bedienfelds.\n95595532 -30.01.2015- Smiths Detection 29\nAbb. 10: Display nach Abschluss der\nBoot‐Sequenz\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 35,
+      "text": "Betrieb\nSobald das „Freigabe“-Signal von der\n Die Röntgen-Ein-Anzeigen des HI-SCAN 150 MPI Röntgen -\ngeräts leuchten auf.\n Das Röntgen-Zeichen erscheint auf dem Monitor.\nJe nach Einstellung der Durchleuchtungsoptionen läuft das Bild\nwährend der Inspektion von rechts oder von links durch den Moni -\ntor.\n30 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 36,
+      "text": "Wartung\n9 Wartung\nIn den folgenden Tabellen sind die nötigen Wartungsaufgaben zur\nÜberprüfung der Schutzvorrichtungen des\nbeschrieben. Das Wartungsintervall, in dem eine War -\ntungsaufgabe durchgeführt werden muss, wird in der Spalte „Inter -\nvall“ mit dem Symbol der Person versehen, die für die Durchfüh -\nrung der vorgesehenen Wartungsarbeit verantwortlich ist.\n•\n : Bediener\n•\n : Mitarbeiter von Smiths Detection oder durch Smiths Detecti -\non entsprechend geschultes Personal.\n„D“ steht für tägliche Wartung, „6M“ steht für halbjährliche Wartung\nund „12M“ steht für jährliche Wartung. \nWartungsmaßnahmen Intervall Refe ‐\nD 6M 12M\nÜberprüfung der Gehäuseverklei -\ndungen\n(F 31)\nDurchführung der Sicherheitsprüfung\n (F 32)\nÜberprüfung der Schutzleiter\n (F 32)\nÜberprüfung der Not-Aus-Schalter\n(extern)\n(F 32)\nÜberprüfung des Verriegelungssys -\ntems\n(F 33)\nÜberprüfung der Gehäuseverkleidungen\nÜberprüfen Sie alle Gehäuseverkleidungen des Geräts auf sichtba-\nre Schäden.  \n Ersetzen Sie beschädigte Seiten- und Oberverkleidungen, um \nVerletzungen, unerlaubten Zugriff und Verschmutzung des Ge-\nräts zu vermeiden. \n95595532 -30.01.2015- Smiths Detection 31",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 37,
+      "text": "Wartung\n Reparieren oder ersetzen Sie beschädigte oder lose Verklei -\ndungsaufhängungen oder Scharniere.\n Ersetzen oder vervollständigen Sie verkratzte oder fehlende \nSchilder.\nDurchführung der Sicherheitsprüfung\nÜberprüfen Sie, ob alle Schutzvorrichtungen intakt sind.\n Überprüfen Sie die Einheit auf Schäden in der Bleiabschirmung \noder fehlende Abschirmungsplatten an den Detektorlinien oder \nden Röntgengeneratoren sowie auf fehlende Schrauben oder \nNiete oder beschädigte Bleifolie.\n Überprüfen Sie das Gerät auf mechanische Schäden an den Ka-\nbeln und auf elektrische Schäden an den elektronischen Modu-\nlen.\n Führen Sie eine Leckstrahlungsprüfung durch (F Fehler: Refe-\nrenz nicht gefunden ).\n Überprüfen Sie die Funktion des Schutzleitersystems.\nÜberprüfung der Schutzleiter\nStellen Sie sicher, dass alle Elemente des Geräts ordnungsgemäß\ngeerdet sind. Überprüfen Sie die Schutzleiter mit einem Wider -\nstandsmessgerät.\n Überprüfen Sie die Schutzleiter zwischen dem Netzschalter und \nder Hauptverteilung des Geräts. \n Überprüfen Sie die Erdung der Gehäuseverkleidung, des Ge-\nhäuserahmens und anderer geerdeter Teile.\nÜberprüfung der Not‐Aus‐Schalter (extern)\nStellen Sie sicher, dass alle exte rnen Not-Aus-Schalter ordnungs -\ngemäß funktionieren (F 13).\n32 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 38,
+      "text": "Wartung\n Stellen Sie sicher, dass das Gerät durch jeden verfügbaren Not-\nAus-Schalter ausgeschaltet werden kann.\nÜberprüfung des Verriegelungssystems\nUnterbrechen Sie bei ausgeschaltetem Gerät einen Verriegelungs -\nschalter durch Entfernen oder Öffnen des entsprechenden verblei -\nten Verkleidungsblechs (z. B. Abdeckung des Detektorlinien -\nschranks).\n Stellen Sie sicher, dass das Gerät nicht wieder eingeschaltet \nwerden kann.\n• Schließen Sie den Schalter, bevor Sie den nächsten Schalter\nüberprüfen.\n Fahren Sie in gleicher Weise mit allen anderen Verriegelungs-\nschaltern (Kollimatorabdeckungen) fort.\n Führen Sie die Kalibrierung des Geräts mithilfe der Auto-Adjust-\nFunktion durch.\n95595532 -30.01.2015- Smiths Detection 33",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 39,
+      "text": "Fehlerbehebung\n10 Fehlerbehebung\nINFORMATION\nFehler am Hi-SCAN 150 Röntgengerät dürfen nur von\nentsprechend geschultem Personal behoben werden!\n34 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 40,
+      "text": "Entsorgung\n11 Entsorgung\nBeim gesamten Herstellungsprozess war es unser Ziel, umwelt -\nfreundliche Materialien zu verwenden. Dennoch gibt es einige um -\nweltgefährdende Materialien, deren Verwendung bei der Produktion\nund beim Betrieb des\nDie folgenden Werkstoffe müssen durch ein zugelassenes Abfall -\nentsorgungsunternehmen entsorgt werden:\n• Blei\nBeachten Sie die nachfolgende Tabelle bei der Entsorgung der\nBaumaterialien:\nMaterial Entsorgung\nIsolierung Konsultieren Sie die regionalen Behörden;\nMineralfaserabfälle sollten in staubdichten \nBehältern deponiert und bei Bedarf be -\nfeuchtet werden; beim Transport sind ab -\ngeschlossene Behälter erforderlich.\nReste Übergeben Sie die Reste einem zugelas -\nsenen Abfallentsorgungsunternehmen.\nINFORMATION\nWeitere Entsorgungshinweise können Sie den Doku -\nmenten im Anhang entnehmen.\n95595532 -30.01.2015- Smiths Detection 35",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 41,
+      "text": "Technische Daten\n12 Technische  Daten\nFunktion\nErfasste Materialien Inspektion von Schüttgut, Stoffströmen etc.  und Endprodukten\nHauptfunktion Inspektion von Schüttgut und Stoffströmen\nTechnologie Röntgentransmission\nBetriebsdaten\nPhysisches Format\nAnlaufzeit < 2 Minuten\nDurchleuchtungsmetho-\nde\nStoffstrom wird durch Röntgenstrahlen geführt\nDurchleuchtungszeit Dauerdurchleuchtung\nInstallationsinfor‐\nmationen\nAbmessungen\nGewicht\nFeuchte\nLagerungstemperatur\nBetriebstemperatur\nVerbrauch\nMechanischer Aufbau\n36 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 42,
+      "text": "Technische Daten\nSchalldruck\nSpannungsversorgung \n(Standard)\n±\nBilderzeugung\nGeneratorkühlung Ölgekühlt, geschlossener Kreislauf\nDurchleuchtungsformat Fächerstrahl-Liniendurchleuchtung\nGenerator Röhre 160 kV/Betrieb bei  140 kVcp, hermetisch dichtes Ölbad\nRöntgenwandler Halbleiter-Detektorlinie mit Szintillatoren\nAnodenstrom (typisch) < 450 μSv (<0,55 mRem)\n< 650 μSv (<0,65 mRem)\n< 650 μSv (<0,65 mRem)\nTastverhältnis 100,00%\nBilddarstellung\nRöntgenwandler Halbleiterlinie mit Szintillatoren\nZusätzliche Merkma‐\nle\nFunktionen Software-Durchleuchtung szähler, Statusanzeige mit 4x20 LCD\nOptionen Schnittstelle für Anwender steuerung, Reject-Schnittstelle, Netzwerkverbin-\ndung, Modem, Monitor\n95595532 -30.01.2015- Smiths Detection 37",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 43,
+      "text": "",
+      "width": 595.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 43
+}

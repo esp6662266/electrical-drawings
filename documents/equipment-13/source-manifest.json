@@ -1,0 +1,531 @@
+{
+  "equipment_id": "PRIMARY-13",
+  "number": 13,
+  "name": "13번 프라이머리",
+  "source_folder": "\\\\192.168.20.250\\시설관리\\통합지원본부\\김범주(작업정리중)\\13번 프라이머리",
+  "source_count": 38,
+  "unique_source_count": 38,
+  "sources": [
+    {
+      "id": "Scf48d577b80032f9",
+      "name": "023824_R0.pdf",
+      "relative_path": "primary shredder drawing(설치설명서,전기도면)/023824_R0.pdf",
+      "file": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf",
+      "sha256": "cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8",
+      "bytes": 480973,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 8
+    },
+    {
+      "id": "Sd5384f446700cf60",
+      "name": "PR770 Smart Start Manual.pdf",
+      "relative_path": "primary shredder drawing(설치설명서,전기도면)/PR770 Smart Start Manual.pdf",
+      "file": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf",
+      "sha256": "d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb",
+      "bytes": 741362,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 23
+    },
+    {
+      "id": "S535ed62761419905",
+      "name": "specs.pdf",
+      "relative_path": "primary shredder drawing(설치설명서,전기도면)/specs.pdf",
+      "file": "/documents/source-store/535ed62761419905ba7d49ef95387c7a8559d069c81ce5cedab357b56c135a5a.pdf",
+      "sha256": "535ed62761419905ba7d49ef95387c7a8559d069c81ce5cedab357b56c135a5a",
+      "bytes": 12337,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/535ed62761419905ba7d49ef95387c7a8559d069c81ce5cedab357b56c135a5a.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "Scf2b0c133416bbcc",
+      "name": "집진기댐퍼 조작반 외함_260301.pdf",
+      "relative_path": "상부 자동 댐퍼 도면/집진기댐퍼 조작반 외함_260301.pdf",
+      "file": "/documents/source-store/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.pdf",
+      "sha256": "cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff",
+      "bytes": 511710,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/cf2b0c133416bbcc5ffb60ba84a0b05768dfc0a493bdd3bafce948efd26e37ff.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 2
+    },
+    {
+      "id": "Sfcae09601bbd2484",
+      "name": "852073-Cutter Weldmt.pdf",
+      "relative_path": "생산부공용 추가도면/PR4400 및 PR6600 참고도면(적용확인필요)/852073-Cutter Weldmt.pdf",
+      "file": "/documents/source-store/fcae09601bbd2484d857ba53686913418440cd4cba19528c0c5ada723a5f3180.pdf",
+      "sha256": "fcae09601bbd2484d857ba53686913418440cd4cba19528c0c5ada723a5f3180",
+      "bytes": 473240,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/fcae09601bbd2484d857ba53686913418440cd4cba19528c0c5ada723a5f3180.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S12aa8875f0335fbd",
+      "name": "852403-PR6600 Features Exploded View.pdf",
+      "relative_path": "생산부공용 추가도면/PR4400 및 PR6600 참고도면(적용확인필요)/852403-PR6600 Features Exploded View.pdf",
+      "file": "/documents/source-store/12aa8875f0335fbd36306f07b1dbaa1c58dda964c9500d926d06c3593e5bcebe.pdf",
+      "sha256": "12aa8875f0335fbd36306f07b1dbaa1c58dda964c9500d926d06c3593e5bcebe",
+      "bytes": 618480,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/12aa8875f0335fbd36306f07b1dbaa1c58dda964c9500d926d06c3593e5bcebe.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S1d20c6efe001e857",
+      "name": "852480-PR4400 Assy..pdf",
+      "relative_path": "생산부공용 추가도면/PR4400 및 PR6600 참고도면(적용확인필요)/852480-PR4400 Assy..pdf",
+      "file": "/documents/source-store/1d20c6efe001e85735749e30d77bc05ff0ce28b243fe8139f745fb53e778d125.pdf",
+      "sha256": "1d20c6efe001e85735749e30d77bc05ff0ce28b243fe8139f745fb53e778d125",
+      "bytes": 960877,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/1d20c6efe001e85735749e30d77bc05ff0ce28b243fe8139f745fb53e778d125.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S25cc0092f6b921ed",
+      "name": "852490-Shaft Weldmt.pdf",
+      "relative_path": "생산부공용 추가도면/PR4400 및 PR6600 참고도면(적용확인필요)/852490-Shaft Weldmt.pdf",
+      "file": "/documents/source-store/25cc0092f6b921ed49b83125eaead1bbd32a48e52a0abfc892e2d209ceaa90e2.pdf",
+      "sha256": "25cc0092f6b921ed49b83125eaead1bbd32a48e52a0abfc892e2d209ceaa90e2",
+      "bytes": 819973,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/25cc0092f6b921ed49b83125eaead1bbd32a48e52a0abfc892e2d209ceaa90e2.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S8a680a0da5a709a6",
+      "name": "PR4400 Photos.pdf",
+      "relative_path": "생산부공용 추가도면/PR4400 및 PR6600 참고도면(적용확인필요)/PR4400 Photos.pdf",
+      "file": "/documents/source-store/8a680a0da5a709a6dd8fe9d786935101ba0308eabc9acb8eea1b7d25dac87b1d.pdf",
+      "sha256": "8a680a0da5a709a6dd8fe9d786935101ba0308eabc9acb8eea1b7d25dac87b1d",
+      "bytes": 544382,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/8a680a0da5a709a6dd8fe9d786935101ba0308eabc9acb8eea1b7d25dac87b1d.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 3
+    },
+    {
+      "id": "S833356f45aaabedd",
+      "name": "PR6600 Photos.pdf",
+      "relative_path": "생산부공용 추가도면/PR4400 및 PR6600 참고도면(적용확인필요)/PR6600 Photos.pdf",
+      "file": "/documents/source-store/833356f45aaabedd5447a2228ac9a84d0e43df02af1d07be04ee7e45e591849e.pdf",
+      "sha256": "833356f45aaabedd5447a2228ac9a84d0e43df02af1d07be04ee7e45e591849e",
+      "bytes": 310074,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/833356f45aaabedd5447a2228ac9a84d0e43df02af1d07be04ee7e45e591849e.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 2
+    },
+    {
+      "id": "Sc208fe9af428e958",
+      "name": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx",
+      "relative_path": "생산부공용 추가도면/PR770S 축 교체 매뉴얼/SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx",
+      "file": "/documents/source-store/c208fe9af428e958aca3efe831072699b58d0239793dd7372ac420a981729e02.pptx",
+      "sha256": "c208fe9af428e958aca3efe831072699b58d0239793dd7372ac420a981729e02",
+      "bytes": 26562468,
+      "extension": ".pptx",
+      "inspection": "/documents/source-text/c208fe9af428e958aca3efe831072699b58d0239793dd7372ac420a981729e02.json",
+      "inspection_status": "슬라이드 텍스트 추출; 배치 미재현",
+      "page_count": 13
+    },
+    {
+      "id": "S721be0871fb2928e",
+      "name": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx",
+      "relative_path": "생산부공용 추가도면/PR770S 축 교체 매뉴얼/SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx",
+      "file": "/documents/source-store/721be0871fb2928ecf70436e4d95d963144d6763e65513613babf660516de596.pptx",
+      "sha256": "721be0871fb2928ecf70436e4d95d963144d6763e65513613babf660516de596",
+      "bytes": 26558597,
+      "extension": ".pptx",
+      "inspection": "/documents/source-text/721be0871fb2928ecf70436e4d95d963144d6763e65513613babf660516de596.json",
+      "inspection_status": "슬라이드 텍스트 추출; 배치 미재현",
+      "page_count": 12
+    },
+    {
+      "id": "S0254bfa205e6a40e",
+      "name": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx",
+      "relative_path": "생산부공용 추가도면/PR770S 축 교체 매뉴얼/SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx",
+      "file": "/documents/source-store/0254bfa205e6a40e92646f770acaabffe89d328b27a348d765e1915bdcb2f872.pptx",
+      "sha256": "0254bfa205e6a40e92646f770acaabffe89d328b27a348d765e1915bdcb2f872",
+      "bytes": 37030254,
+      "extension": ".pptx",
+      "inspection": "/documents/source-text/0254bfa205e6a40e92646f770acaabffe89d328b27a348d765e1915bdcb2f872.json",
+      "inspection_status": "슬라이드 텍스트 추출; 배치 미재현",
+      "page_count": 24
+    },
+    {
+      "id": "Sc52acaeb991b8413",
+      "name": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx",
+      "relative_path": "생산부공용 추가도면/PR770S 축 교체 매뉴얼/SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx",
+      "file": "/documents/source-store/c52acaeb991b8413d701b4eabf608cd1e3365e423fdf9b5436fd8053abac9201.pptx",
+      "sha256": "c52acaeb991b8413d701b4eabf608cd1e3365e423fdf9b5436fd8053abac9201",
+      "bytes": 26996687,
+      "extension": ".pptx",
+      "inspection": "/documents/source-text/c52acaeb991b8413d701b4eabf608cd1e3365e423fdf9b5436fd8053abac9201.json",
+      "inspection_status": "슬라이드 텍스트 추출; 배치 미재현",
+      "page_count": 14
+    },
+    {
+      "id": "Sbab014e2f52243a7",
+      "name": "991274.Definitions and Abbreviation.pdf",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/991274.Definitions and Abbreviation.pdf",
+      "file": "/documents/source-store/bab014e2f52243a7b8fcf3c559309dffff834bdc490c401479e08062964358f0.pdf",
+      "sha256": "bab014e2f52243a7b8fcf3c559309dffff834bdc490c401479e08062964358f0",
+      "bytes": 80790,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/bab014e2f52243a7b8fcf3c559309dffff834bdc490c401479e08062964358f0.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 4
+    },
+    {
+      "id": "S77a6c9fead18297f",
+      "name": "991275.Theory of Operation.pdf",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/991275.Theory of Operation.pdf",
+      "file": "/documents/source-store/77a6c9fead18297ff26ae87f078926ddc0f60135ec431e5ef57d117f245a9663.pdf",
+      "sha256": "77a6c9fead18297ff26ae87f078926ddc0f60135ec431e5ef57d117f245a9663",
+      "bytes": 15550,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/77a6c9fead18297ff26ae87f078926ddc0f60135ec431e5ef57d117f245a9663.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 2
+    },
+    {
+      "id": "Sce407bb78df98d6f",
+      "name": "991831.Cutter & Anvil Rebuilding.pdf",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/991831.Cutter & Anvil Rebuilding.pdf",
+      "file": "/documents/source-store/ce407bb78df98d6f9b86fbeac07c4c3af526506003cd5d9aeeeb0c456cc7f3a3.pdf",
+      "sha256": "ce407bb78df98d6f9b86fbeac07c4c3af526506003cd5d9aeeeb0c456cc7f3a3",
+      "bytes": 52369,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/ce407bb78df98d6f9b86fbeac07c4c3af526506003cd5d9aeeeb0c456cc7f3a3.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 3
+    },
+    {
+      "id": "S738f2df7492f15eb",
+      "name": "991832.Cutter Tip Replacement.pdf",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/991832.Cutter Tip Replacement.pdf",
+      "file": "/documents/source-store/738f2df7492f15ebfddf2540be3c084382c074df9817b4fa8883000b93087796.pdf",
+      "sha256": "738f2df7492f15ebfddf2540be3c084382c074df9817b4fa8883000b93087796",
+      "bytes": 31426,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/738f2df7492f15ebfddf2540be3c084382c074df9817b4fa8883000b93087796.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 2
+    },
+    {
+      "id": "S523e5f1303db8747",
+      "name": "Hetronic - Ergo radio operators manual.pdf",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/Hetronic - Ergo radio operators manual.pdf",
+      "file": "/documents/source-store/523e5f1303db8747f05c2f35dbbc979c9dbead0b2dfd3e83c2207e270a3cc879.pdf",
+      "sha256": "523e5f1303db8747f05c2f35dbbc979c9dbead0b2dfd3e83c2207e270a3cc879",
+      "bytes": 2504940,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/523e5f1303db8747f05c2f35dbbc979c9dbead0b2dfd3e83c2207e270a3cc879.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 13
+    },
+    {
+      "id": "S45884904a7629d05",
+      "name": "SCAN1306.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1306.JPG",
+      "file": "/documents/source-store/45884904a7629d0595683eceafb5d647d2e6ef8853037704b035fe493fa3c305.jpg",
+      "sha256": "45884904a7629d0595683eceafb5d647d2e6ef8853037704b035fe493fa3c305",
+      "bytes": 573989,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/45884904a7629d0595683eceafb5d647d2e6ef8853037704b035fe493fa3c305.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Se5c981b3fa40d65a",
+      "name": "SCAN1307.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1307.JPG",
+      "file": "/documents/source-store/e5c981b3fa40d65a55688f575830de1d6f9722a2786b5e5d5f1a2df595e7c8fe.jpg",
+      "sha256": "e5c981b3fa40d65a55688f575830de1d6f9722a2786b5e5d5f1a2df595e7c8fe",
+      "bytes": 891399,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/e5c981b3fa40d65a55688f575830de1d6f9722a2786b5e5d5f1a2df595e7c8fe.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S9165fe2b78e4404b",
+      "name": "SCAN1308.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1308.JPG",
+      "file": "/documents/source-store/9165fe2b78e4404b47b0b94193517b275e629c40cf20c41f7e96393f2c220be6.jpg",
+      "sha256": "9165fe2b78e4404b47b0b94193517b275e629c40cf20c41f7e96393f2c220be6",
+      "bytes": 1117645,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/9165fe2b78e4404b47b0b94193517b275e629c40cf20c41f7e96393f2c220be6.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3504,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S83cdadae78a7a8ab",
+      "name": "SCAN1309.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1309.JPG",
+      "file": "/documents/source-store/83cdadae78a7a8abab3433cc7419d5cf2cb55cb881d56162a3aa439df54063aa.jpg",
+      "sha256": "83cdadae78a7a8abab3433cc7419d5cf2cb55cb881d56162a3aa439df54063aa",
+      "bytes": 1081237,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/83cdadae78a7a8abab3433cc7419d5cf2cb55cb881d56162a3aa439df54063aa.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3504,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S515e6808f5f60768",
+      "name": "SCAN1311.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1311.JPG",
+      "file": "/documents/source-store/515e6808f5f607683b75f5958f7549089612ca87bb6ffa433973f199624355a9.jpg",
+      "sha256": "515e6808f5f607683b75f5958f7549089612ca87bb6ffa433973f199624355a9",
+      "bytes": 1080075,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/515e6808f5f607683b75f5958f7549089612ca87bb6ffa433973f199624355a9.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Sb2db3881d2ab3772",
+      "name": "SCAN1312.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1312.JPG",
+      "file": "/documents/source-store/b2db3881d2ab3772c1641af3e388a8c50d0f72ab43a074c55ddfb6631e23fca0.jpg",
+      "sha256": "b2db3881d2ab3772c1641af3e388a8c50d0f72ab43a074c55ddfb6631e23fca0",
+      "bytes": 984258,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/b2db3881d2ab3772c1641af3e388a8c50d0f72ab43a074c55ddfb6631e23fca0.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Seb7ecff4e82dec24",
+      "name": "SCAN1313.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1313.JPG",
+      "file": "/documents/source-store/eb7ecff4e82dec243d8e54dc93f90202716a1b0a7140ac5f78a9b553d63cb76f.jpg",
+      "sha256": "eb7ecff4e82dec243d8e54dc93f90202716a1b0a7140ac5f78a9b553d63cb76f",
+      "bytes": 998251,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/eb7ecff4e82dec243d8e54dc93f90202716a1b0a7140ac5f78a9b553d63cb76f.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Sc5a3ad8008b63985",
+      "name": "SCAN1314.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1314.JPG",
+      "file": "/documents/source-store/c5a3ad8008b6398588e20affcd5b6ea57f28f8634fb5aca73094ca356bb570fc.jpg",
+      "sha256": "c5a3ad8008b6398588e20affcd5b6ea57f28f8634fb5aca73094ca356bb570fc",
+      "bytes": 1186500,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/c5a3ad8008b6398588e20affcd5b6ea57f28f8634fb5aca73094ca356bb570fc.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S2bdf119ea5066308",
+      "name": "SCAN1315.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1315.JPG",
+      "file": "/documents/source-store/2bdf119ea5066308adea258f4d83f5e6d060f892c5235762459574c9d5b4ba82.jpg",
+      "sha256": "2bdf119ea5066308adea258f4d83f5e6d060f892c5235762459574c9d5b4ba82",
+      "bytes": 855494,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/2bdf119ea5066308adea258f4d83f5e6d060f892c5235762459574c9d5b4ba82.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Sfeb26d72e386f9cd",
+      "name": "SCAN1316.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1316.JPG",
+      "file": "/documents/source-store/feb26d72e386f9cd7d132614358452d8739f445906a01d96543ec80a06aedbe3.jpg",
+      "sha256": "feb26d72e386f9cd7d132614358452d8739f445906a01d96543ec80a06aedbe3",
+      "bytes": 776977,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/feb26d72e386f9cd7d132614358452d8739f445906a01d96543ec80a06aedbe3.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S8e1dbede4a8be497",
+      "name": "SCAN1317.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1317.JPG",
+      "file": "/documents/source-store/8e1dbede4a8be497c3eff5c794462bef4d48ef998cf1d8d7491f6e91a5aa52f0.jpg",
+      "sha256": "8e1dbede4a8be497c3eff5c794462bef4d48ef998cf1d8d7491f6e91a5aa52f0",
+      "bytes": 894786,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/8e1dbede4a8be497c3eff5c794462bef4d48ef998cf1d8d7491f6e91a5aa52f0.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S95d4319d466cb520",
+      "name": "SCAN1318.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1318.JPG",
+      "file": "/documents/source-store/95d4319d466cb5208c5afbb97c3a7eddd87a2d468ef889d1c812cc5017fd7122.jpg",
+      "sha256": "95d4319d466cb5208c5afbb97c3a7eddd87a2d468ef889d1c812cc5017fd7122",
+      "bytes": 709645,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/95d4319d466cb5208c5afbb97c3a7eddd87a2d468ef889d1c812cc5017fd7122.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S74b2699289d3c61c",
+      "name": "SCAN1319.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1319.JPG",
+      "file": "/documents/source-store/74b2699289d3c61c7bce8ad171a2644d214bee8ead983860a186c35879943d45.jpg",
+      "sha256": "74b2699289d3c61c7bce8ad171a2644d214bee8ead983860a186c35879943d45",
+      "bytes": 662939,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/74b2699289d3c61c7bce8ad171a2644d214bee8ead983860a186c35879943d45.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S8270af22eb1b3c35",
+      "name": "SCAN1320.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1320.JPG",
+      "file": "/documents/source-store/8270af22eb1b3c35a79a6cefe77af6d9b14390753667790d617e8a297e3ea89f.jpg",
+      "sha256": "8270af22eb1b3c35a79a6cefe77af6d9b14390753667790d617e8a297e3ea89f",
+      "bytes": 998346,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/8270af22eb1b3c35a79a6cefe77af6d9b14390753667790d617e8a297e3ea89f.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3280,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S8c3087887a2b3840",
+      "name": "SCAN1322.JPG",
+      "relative_path": "생산부공용 추가도면/PRI-MAX 운전 및 정비 참고자료/SCAN1322.JPG",
+      "file": "/documents/source-store/8c3087887a2b3840f9a752348a84690966ca89c6dca9828db0bac4748f072d9c.jpg",
+      "sha256": "8c3087887a2b3840f9a752348a84690966ca89c6dca9828db0bac4748f072d9c",
+      "bytes": 1044330,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/8c3087887a2b3840f9a752348a84690966ca89c6dca9828db0bac4748f072d9c.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 2480,
+        "height": 3504,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S2dff39616d937f6d",
+      "name": "전처리 프라이머리 슈레더 철거작업 26.01.05~07.pptx",
+      "relative_path": "정비 참고자료/전처리 프라이머리 슈레더 철거작업 26.01.05~07.pptx",
+      "file": "/documents/source-store/2dff39616d937f6d272fd4886b0a974924d5335e04ac8b4fac4dcb267d4eef48.pptx",
+      "sha256": "2dff39616d937f6d272fd4886b0a974924d5335e04ac8b4fac4dcb267d4eef48",
+      "bytes": 8449534,
+      "extension": ".pptx",
+      "inspection": "/documents/source-text/2dff39616d937f6d272fd4886b0a974924d5335e04ac8b4fac4dcb267d4eef48.json",
+      "inspection_status": "슬라이드 텍스트 추출; 배치 미재현",
+      "page_count": 8
+    },
+    {
+      "id": "S44b06169e5113a08",
+      "name": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+      "relative_path": "정비 참고자료/전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+      "file": "/documents/publication-notices/S44b06169e5113a08.html",
+      "sha256": "44b06169e5113a08d013a94dc16820bd64d303098cf3b7a3c0ed6b305cd5a792",
+      "bytes": 2367131,
+      "extension": ".pptx",
+      "inspection": "/documents/source-text/44b06169e5113a08d013a94dc16820bd64d303098cf3b7a3c0ed6b305cd5a792.json",
+      "inspection_status": "슬라이드 텍스트 추출; 배치 미재현",
+      "page_count": 1,
+      "publication_review": "접근정보 포함 원본·민감 화면 공개 제외. 정리한 공개 열람본과 원본 해시만 제공.",
+      "original_file": "/documents/source-store/44b06169e5113a08d013a94dc16820bd64d303098cf3b7a3c0ed6b305cd5a792.pptx",
+      "publication_withheld": true,
+      "public_sha256": "f1e2316de6ab099401001eed09ce2e689630741bc22b08723d834f5765f76669"
+    },
+    {
+      "id": "S06db3e89b5cfcff8",
+      "name": "파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp",
+      "relative_path": "정비 참고자료/파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp",
+      "file": "/documents/source-store/06db3e89b5cfcff8579834512d6bcad57d65b0efd08a6c19b41d553448a6eac9.hwp",
+      "sha256": "06db3e89b5cfcff8579834512d6bcad57d65b0efd08a6c19b41d553448a6eac9",
+      "bytes": 74240,
+      "extension": ".hwp",
+      "inspection": "/documents/source-text/06db3e89b5cfcff8579834512d6bcad57d65b0efd08a6c19b41d553448a6eac9.json",
+      "inspection_status": "HWP 본문 추출; 페이지 배치 미재현"
+    },
+    {
+      "id": "S77d8586a69bbc7d5",
+      "name": "프라이머리 슈레드 리스트 목록.xlsx",
+      "relative_path": "정비 참고자료/프라이머리 슈레드 리스트 목록.xlsx",
+      "file": "/documents/source-store/77d8586a69bbc7d5f8f21bf542eb3cca5e0e6652bc15452056f3dde22d41114d.xlsx",
+      "sha256": "77d8586a69bbc7d5f8f21bf542eb3cca5e0e6652bc15452056f3dde22d41114d",
+      "bytes": 1899293,
+      "extension": ".xlsx",
+      "inspection": "/documents/source-text/77d8586a69bbc7d5f8f21bf542eb3cca5e0e6652bc15452056f3dde22d41114d.json",
+      "inspection_status": "XLSX 셀·수식 추출; 계산/매크로 실행 안 함"
+    }
+  ],
+  "excluded_cache_count": 0,
+  "archive_member_count": 0,
+  "coverage_note": "원본 해시 보존·정적 본문 추출·핵심 자료 중심 검토. 모든 부품 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님."
+}

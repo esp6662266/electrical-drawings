@@ -1,0 +1,14 @@
+{
+  "sha256": "be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Sequence  Diagram-02\nM O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\n IGNITION T/R\n GAS VALVE\nR204\n10 2\nMGV 201IG 201\n10201 10203\nRY009 RY010\n3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nORDER\nSCALE\nTITLE\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\n9 10 11 12 13 14 15 16\n2011-02\nALCO -2011 - E006\n BURNER -02\nPILOT  GAS VALVE\nPGV 201\n10202\nRY011\nR200\nT200\nNO.\n2\n1\n3\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nRE3\nFD-R-02\n4 3\nN24\n6 7\n2\n1\nP00OA\nFrom P L C\nFrom Seet :08\nF-002 G-002\nFLAME DETECTOR\nUV SCANNER\n",
+      "width": 841.68,
+      "height": 595.2
+    }
+  ],
+  "page_count": 1
+}

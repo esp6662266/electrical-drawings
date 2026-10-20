@@ -1,0 +1,14 @@
+{
+  "sha256": "19b27feb2757493b614b9325902cc7b3c8709dff80eec0a981224daa92a35cb3",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "TROMMEL SCREEN-회전속도 : Max 13rpm-전력 :30kW x4P x 30:1-전원 : 380V, 60Hz-선별크기 : 0~10mm                 10~40kmm                 40~120m-기울기 각도 : 3.5°\nSCREEN1\nSCALEVIEWC/S APPROVED BYDATE     2018. 03. 09.A1REVSHEETDWG No.TITLEUNITSIZEmmA3CHECKDESIGN APPROVAL1 of1\nREV수 량REVISION DESCRIPTION품     명재 질REMARKS\nACE Tech Co.,Ltd세 진 메 탈 주 식 회 사Oh\n규   격∅2200 x 13M\n1-스크린 싸이즈 : ∅2200 x 13M1MAIN FRAME 1H-BEAM 200x2002점검대 W800 x 10M1∅2200 x 13M3\n23-구동방식 : 체인기어 구동\nSS400SS400SS400체인기어1160#*145T:38T4SM45C\n800800299245929505542\n2924416835005332\n1500P1300043.5°9012.8910640.89\n8219.265676.629946.93",
+      "width": 841.92004,
+      "height": 1190.52002
+    }
+  ],
+  "page_count": 1
+}

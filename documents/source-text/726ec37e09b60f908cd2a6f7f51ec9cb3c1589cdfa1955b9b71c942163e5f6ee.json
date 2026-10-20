@@ -1,0 +1,14 @@
+{
+  "sha256": "726ec37e09b60f908cd2a6f7f51ec9cb3c1589cdfa1955b9b71c942163e5f6ee",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "P 2 1 6\nSCALEVIEWC/S APPROVED BYDATE     2018. 03. 09.A1REVSHEETDWG No.TITLEUNITSIZEmmA3CHECKDESIGN APPROVAL1 of1\nREV수 량REVISION DESCRIPTION품     명재 질REMARKS\nACE Tech Co.,Ltd세 진 메 탈 주 식 회 사Oh\n규   격\nC8- 이송 컨베이어-규 격 : W800 x L3.4M-전력 :1.5kW x 4P-전원 : 380V, 60Hz\n1GEARED MOTOR11.5kW*4P*1/30CHAIN SPROKET1RS80*15T SM45CCHAIN SPROKET 1RS80*22T SM45CBEARING1UCF210 SS400TAKE-UP BEARING1UCTM210A SS400RUBBER BELT1평벨트NR 340080022802596",
+      "width": 841.92004,
+      "height": 1190.52002
+    }
+  ],
+  "page_count": 1
+}

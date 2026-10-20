@@ -1,0 +1,20 @@
+{
+  "sha256": "833356f45aaabedd5447a2228ac9a84d0e43df02af1d07be04ee7e45e591849e",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "PR6600 Photos \n \n \n \n \n ",
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 2,
+      "text": " \n \n \n \n ",
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "page_count": 2
+}

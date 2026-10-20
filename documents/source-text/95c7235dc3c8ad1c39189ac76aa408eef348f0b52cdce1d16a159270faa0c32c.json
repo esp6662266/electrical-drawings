@@ -1,0 +1,14 @@
+{
+  "sha256": "95c7235dc3c8ad1c39189ac76aa408eef348f0b52cdce1d16a159270faa0c32c",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "M O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\nEOCR  Diagram\nAC 1Ø 220V 50Hz\nR201\n0 1 2 3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nT200\n149 10 11 12 13 15\nR201\n16\n2011-04\nEOCR 1\nNo.1 COMBUSTION  FAN\n18\nEOCR 1\nGTH-40\n9 6 7\nEOCR 2\nGTH-22\n1\n7\n8\n9 6\nP0007\nFROM PLC\nFrom Sheet E08\nP0006\nFROM PLC\nFrom Sheet E08\nN24 N24\nEOCR 2\nNo.2 DOOR  MOTOR\nEOCR 3\nGTH-22\n1\n7\n8\n9 6\nP0008\nFROM PLC\nFrom Sheet E08\nN24\nEOCR 3\nNo.3 MAPER MOTOR\nALCO - 0806 - E02-1 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH",
+      "width": 841.68,
+      "height": 595.2
+    }
+  ],
+  "page_count": 1
+}

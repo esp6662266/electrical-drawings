@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile,stat} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import vm from 'node:vm';
+const root=new URL('../',import.meta.url),ctx={window:{}};
+vm.runInNewContext(await readFile(new URL('data/project.js',root),'utf8'),ctx);
+const equipment=ctx.window.ED_PROJECT.equipment.find(e=>e.id==='SALT-01');
+const manifest=JSON.parse(await readFile(new URL('documents/salt-feeder-01/source-manifest.json',root),'utf8'));
+test('source bytes match the nine supplied originals and all twelve pages are linked',async()=>{assert.equal(manifest.sources.length,9);assert.equal(manifest.sources.reduce((n,s)=>n+s.pages,0),12);assert.equal(equipment.drawings.length,12);for(const s of manifest.sources){const bytes=await readFile(new URL(s.file.slice(1),root));assert.equal(bytes.length,s.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),s.sha256);}for(const d of equipment.drawings){const s=manifest.sources.find(s=>s.id===d.source_id);assert.ok(s);assert.ok(d.page>=1&&d.page<=s.pages);assert.ok((await stat(new URL(d.preview.slice(1),root))).size>0);assert.ok(d.url.endsWith('#page='+d.page));}});
+test('reference terminals are not represented as recovered PLC networks or field test results',()=>{assert.equal(equipment.native_plc_available,false);assert.equal(equipment.field_verified,false);assert.equal(equipment.networks.length,0);assert.equal(equipment.calls.length,0);assert.ok(equipment.io.every(r=>r.source&&r.system));assert.ok(equipment.manual.control.includes('프로그램'));assert.ok(equipment.checks.some(r=>r.title.includes('모터 정격 차이')));assert.ok(equipment.tests.some(r=>r.status==='미수행'));});

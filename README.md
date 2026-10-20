@@ -1,5 +1,15 @@
 # 전기도면
 
+2026-10-21: **v1.3.1 · 15개 설비 게시 검토본**. [Netlify 작업실](https://sejin-electrical-drawings.netlify.app/all-in-one/) · [설비별 매뉴얼/자료실](https://sejin-electrical-drawings.netlify.app/documents/batch-index.html). 사용자의 공개 게시 요청을 반영했습니다. 접근정보 원본 2개 및 민감 화면은 로컬 보존하며 공개본에서 제외합니다. 합계 861개 출처 경로/730개 원본 해시에는 공개 제외 자료도 포함됩니다. 공개 범위는 [정책](publication-policy.json), 게시 검토 이력은 [게시 상태](PUBLICATION_STATUS.md)를 확인하세요. 아래 2026-10-20 승인 대기 설명은 이전 기록입니다.
+
+대용량 파일은 **Git LFS**입니다. 체크아웃 후 `git lfs pull`을 실행하고 테스트/빌드하세요. Netlify는 UI 환경변수 `GIT_LFS_ENABLED=true`를 사용합니다. 로컬 메모·수리기록은 브라우저에 저장되며 자동 공유되지 않습니다.
+
+2026-10-20: **3~15번을 추가한 로컬 검토본 v1.3.0**입니다. [설비별 작성 목록](documents/batch-index.html) · [집계 JSON](documents/batch-summary.json). 원본759개·압축 내부102개를 861개 출처 경로로 보존했고 730개 고유 해시로 대조했습니다. Windows 캐시/로그7개는 기술자료 목록에서 제외했습니다. 기존1·2번 정의와 원본·개인 기록을 유지합니다. 각 설비의 7개 매뉴얼 항목·전기/PLC 확인 범위·점검/불일치·원본 자료실을 연결했습니다. 핵심 전기·제어·운전 자료 중심 검토이며 대량 제조사 카탈로그의 모든 페이지 상세 판독·전체 PLC 의미 해석·현장 시험을 완료한 것은 아닙니다. 공개 상태는 아래와 별도로 [게시 상태](PUBLICATION_STATUS.md)를 따릅니다.
+
+2026-10-20: **2번 적산기 로컬 검토본 v1.2.0**을 추가했습니다. [작성 매뉴얼](documents/totalizer-02/manual.html) · [사용 설명서 열람본](documents/totalizer-02/user-manual-reader.html) · [시운전 요령 열람본](documents/totalizer-02/commissioning-reader.html). 원본 3개(PDF 20쪽·HWP 2개), 주소/단자 참조 196행, 설명 그림 12개, 점검 12항목과 확인 대장 15항목을 정리했습니다. PDF는 PLC 프로그램이 아닌 I/O·결선·단자 자료입니다. P주소와 X주소, 업체/시점·상충 표기를 분리했고 기존 SALT-01 정의·원본은 유지했습니다. HWP는 본문·그림 추출본으로 원본 페이지 배치를 재현하지 않았습니다. 공개 게시 상태는 [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md)를 참조하세요.
+
+2026-10-20: **1번 솔트 투입기 로컬 검토본 v1.1.0**을 준비했습니다. [작성 매뉴얼](documents/salt-feeder-01/manual.html) · [작성 원문](documents/salt-feeder-01/manual.md) · [게시 상태](PUBLICATION_STATUS.md). 원본9개·12페이지, 접점/단자참조23행·조작부19행·점검11항목을 정리했습니다. 원창 도면의 대외비 표시가 있어 공개 GitHub/Netlify 게시 승인은 대기 중입니다. 아래 빈 프로젝트 설명은 최초 v1.0.0 기준입니다.
+
 GME 작업실의 화면·설비 탭·기록 도구를 바탕으로 만든 독립 빈 프로젝트입니다. 초기 설비, PLC, 도면, 검토항목, 수리 기록은 모두 0건입니다.
 
 - GitHub: https://github.com/esp6662266/electrical-drawings

@@ -1,0 +1,20 @@
+{
+  "sha256": "61c7c9142e07f28fe09aa5322bdd5f82837919867600d7f655878cc6361debbf",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "세진 3공장 FAN 검사성적서.pdf",
+      "bytes": 8809764,
+      "compressed_bytes": 8809764,
+      "encrypted": false
+    },
+    {
+      "name": "세진 3공장 현장 진동 측정.pdf",
+      "bytes": 1756014,
+      "compressed_bytes": 1756014,
+      "encrypted": false
+    }
+  ]
+}

@@ -1,0 +1,1763 @@
+{
+  "id": "CHIP-11",
+  "name": "11번 칩장 (합금)",
+  "group": "합금·칩 건조",
+  "location": "사용자 지정 11번 설비 · 현재 명판/실물·적용 범위 미확정",
+  "priority": true,
+  "source_count": 28,
+  "archive_member_count": 0,
+  "source_unique_count": 26,
+  "source_pages": 109,
+  "source_version": "현재 PLC 프로젝트·전체 래더 미확보 · 도면/설명서 참조",
+  "description": "11번 칩장(합금)은 칩의 유분·수분을 건조하고 철 성분을 분리하는 로타리 킬른 공정 자료입니다. 공정 설명 2종은 투입/호퍼·킬른/스크루·자력선별·배기/재연소·미분 집진/로타리밸브를 설명합니다. 1·2차 설비 자료와 소방 자료를 분리했습니다.",
+  "documentation_status": "원본 보존·핵심 전기/제어/운전 자료 중심 문서화 완료(미확정 포함). 일반/부품 카탈로그 전체 페이지의 상세 판독·현재 적용 검증, 현장 측정·운전·수리·안전 시험은 미수행입니다.",
+  "native_plc_available": false,
+  "native_project_files": [],
+  "field_verified": false,
+  "manual_url": "/documents/equipment-11/manual.html",
+  "library_url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33",
+  "source_manifest": "/documents/equipment-11/source-manifest.json",
+  "plc_analysis_note": "PLC 원본 프로젝트와 실행 래더는 미확보입니다. 도면상의 PLC 베이스/입출력·접점·단자·공정 설명을 현재 실행 프로그램으로 복원하지 않았습니다.",
+  "subsystems": [
+    {
+      "id": "DOC-11-1",
+      "name": "칩 건조 공정",
+      "description": "로타리 킬른·호퍼/스크루·마그네트·집진·배기/재연소 공정 설명 DOC 2종입니다.",
+      "boundary": "문서 내 온도/속도/압력과 시간은 과거 설명."
+    },
+    {
+      "id": "DOC-11-2",
+      "name": "1·2차 CHIP 기계/버너",
+      "description": "1·2차 도면·설비 LIST·버너/기초/CAD와 온도/속도 PPT입니다.",
+      "boundary": "같은 도면명·단계별 자료를 각자 보존."
+    },
+    {
+      "id": "DOC-11-3",
+      "name": "소방·완료보고 참고",
+      "description": "건조기1F/2F·CO2·STACK·완료보고서입니다.",
+      "boundary": "실제 현재 소방 기능·검사 상태와 별도."
+    }
+  ],
+  "manual": {
+    "overview": "11번 칩장(합금)은 칩의 유분·수분을 건조하고 철 성분을 분리하는 로타리 킬른 공정 자료입니다. 공정 설명 2종은 투입/호퍼·킬른/스크루·자력선별·배기/재연소·미분 집진/로타리밸브를 설명합니다. 1·2차 설비 자료와 소방 자료를 분리했습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.\n\n원본 범위\n폴더 파일 28개, 압축 내부 자료 0개, 고유 해시 26개입니다. 동일 내용의 원래 경로·이름을 보존했고 서로 다른 버전은 유지했습니다. Windows 캐시/로그는 기술 자료 목록에서 제외했습니다. PDF·이미지 미리보기, 추출 본문·표·원본은 자료실에서 확인할 수 있습니다. DOC/HWP/PPT/Excel 열람은 원본 페이지/도형 배치를 재현한 것이 아닙니다.",
+    "io": "제공 자료에서 현행 PLC 메모리 할당표를 확정하지 않았습니다. 공정·버너·온도/속도 조작·팬/압력·인버터·기기명을 자료의 참조로 정리합니다. DOC 표는 본문 조각표로 추출했고 PPT는 텍스트 레코드이므로 도형·선·슬라이드 원형 배치를 재현하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "control": "공정 설명은 승온→원료 공급→건조/스크루 이송→철 분리/배출·집진 관계와 단계별 운전 조건을 서술합니다. 이를 실제 인터록·시퀀스·정지 후 냉각 로직으로 확정하지 않았습니다. 고온 상태의 정지/배풍 관련 원문은 현장 승인 절차와 대조할 항목으로 남기며 자동으로 실행할 지시가 아닙니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "circuits": "급기/배기 팬, 가스 인입/정압, 압축공기·압력 검출, 킬른 구동·공급/건조 스크루·자력선별·집진의 구간을 분리합니다. 팬/퓨즈/인버터·구동모터 점검 항목은 DOC 원문에 있으며 실제 전원/접촉기·PLC 주소를 새로 부여하지 않았습니다. 기계 CAD와 버너/소방 배관을 전기 회로와 혼합하지 않습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "alarms": "가스/연소공기 공급 중단, 배기·압축공기, 가스 압력, 화염 미검출과 킬른 회전정지를 문서상 이상 범주로 정리했습니다. 문서에 있는 압력 단위 표기의 혼재와 설정값·재시작 문구는 현행 값으로 교정/적용하지 않았습니다. 실제 알람 코드·수동/자동 복구·안전 정지 시험은 미수행입니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "repair": "1. 가스/연소공기·배기 이상\n급기/배기 팬·필터·밸브·압력 검출의 문서 구간 분리\n근거: 3. Chip건조기 공정 설명서.doc · 원본 추출 열람본\n\n2. 킬른/스크루 회전 정지\n차단기·퓨즈·인버터·모터와 기계 끼임을 별도 후보로 기록\n근거: 4. Chip건조기 공정 설명서.doc · 원본 추출 열람본\n\n3. 건조/배출/선별 불량\n공급·건조·배출·마그네트·집진 단계를 구분\n근거: 3. Chip건조기 공정 설명서.doc · 원본 추출 열람본\n\n기록 기준\n실제 최초 시각·표시/코드·정지 구간·관찰·측정·조치·복구 근거를 구분해 수리 기록 양식에 남깁니다. 이번 작업에서 현장 고장/수리 이력을 새로 생성하지 않았습니다.",
+    "completion": "작성한 것\n- 사용자 지정 폴더 원본 28개와 압축 내부 0개 연결·해시 보존\n- 설비 계통 구분·7개 매뉴얼 항목·전기/I/O/단자 참조 6행·조작 참조 1행\n- 핵심 PDF 페이지 미리보기 100개·원본 자료실·추출 텍스트/표/그림 연결\n- 증상별 점검 3개·확인 대장 6개\n\n미확정·추가 확인\n- 1·2차 설비 적용: 여러 CHIP 도면·1F/2F 및 동일명 자료 / 현장 라인·단계·반번호·개정 확인\n- 운전조건·단위: DOC의 과거 온도/주파수/압력·시간 및 단위 혼재 / 현행 승인 조건·계기/프로그램 대조\n- PLC/HMI 원본: 현행 할당·래더·인버터/온도 설정 정의 미확정 / 현재 CPU·원본·태그·보호 로직 확보\n- PLC/HMI 원본 및 현재 적용: 도면·설명서 범위로 정리 / 현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조\n- 현장·안전·복구 확인: 파일 검토·로컬 문서화만 수행 / 실제 관찰·측정·현재 보호/재기동·복구 기록 별도\n- 문서 판독 범위: 모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시. / 설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조\n\n판정\n문서화 완료(핵심 자료·정적 참조 범위)입니다. 전체 카탈로그의 모든 페이지 판독·PLC 전체 의미 해석·현장 운전/안전/복구 검증 완료가 아닙니다. 실제 수리 이력은 생성하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "칩건조로 도면(1-3).pdf",
+        "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(2-3).pdf",
+        "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(3-3).pdf",
+        "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 설비 LIST.pdf",
+        "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=1"
+      },
+      {
+        "label": "3. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+      },
+      {
+        "label": "CHIP건조로(1차).pdf",
+        "url": "/documents/source-store/4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7.pdf#page=1"
+      },
+      {
+        "label": "CHIP건조로(2차).pdf",
+        "url": "/documents/source-store/1482d602506444b3936e72b30ed2408557acce23f8e0dbc019264a319a7a4d6a.pdf#page=1"
+      },
+      {
+        "label": "4. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S759ef0ad097f1bba"
+      },
+      {
+        "label": "온도 및 속도 조절 매뉴얼.ppt",
+        "url": "/documents/equipment-11/library.html?source=S7aa619327fc82772"
+      },
+      {
+        "label": "STACK-4(합금칩 재연소로).pdf",
+        "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=1"
+      }
+    ],
+    "io": [
+      {
+        "label": "칩건조로 도면(1-3).pdf",
+        "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(2-3).pdf",
+        "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(3-3).pdf",
+        "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 설비 LIST.pdf",
+        "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=1"
+      },
+      {
+        "label": "3. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+      },
+      {
+        "label": "CHIP건조로(1차).pdf",
+        "url": "/documents/source-store/4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7.pdf#page=1"
+      },
+      {
+        "label": "CHIP건조로(2차).pdf",
+        "url": "/documents/source-store/1482d602506444b3936e72b30ed2408557acce23f8e0dbc019264a319a7a4d6a.pdf#page=1"
+      },
+      {
+        "label": "4. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S759ef0ad097f1bba"
+      },
+      {
+        "label": "온도 및 속도 조절 매뉴얼.ppt",
+        "url": "/documents/equipment-11/library.html?source=S7aa619327fc82772"
+      },
+      {
+        "label": "STACK-4(합금칩 재연소로).pdf",
+        "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=1"
+      }
+    ],
+    "control": [
+      {
+        "label": "칩건조로 도면(1-3).pdf",
+        "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(2-3).pdf",
+        "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(3-3).pdf",
+        "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 설비 LIST.pdf",
+        "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=1"
+      },
+      {
+        "label": "3. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+      },
+      {
+        "label": "CHIP건조로(1차).pdf",
+        "url": "/documents/source-store/4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7.pdf#page=1"
+      },
+      {
+        "label": "CHIP건조로(2차).pdf",
+        "url": "/documents/source-store/1482d602506444b3936e72b30ed2408557acce23f8e0dbc019264a319a7a4d6a.pdf#page=1"
+      },
+      {
+        "label": "4. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S759ef0ad097f1bba"
+      },
+      {
+        "label": "온도 및 속도 조절 매뉴얼.ppt",
+        "url": "/documents/equipment-11/library.html?source=S7aa619327fc82772"
+      },
+      {
+        "label": "STACK-4(합금칩 재연소로).pdf",
+        "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=1"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "칩건조로 도면(1-3).pdf",
+        "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(2-3).pdf",
+        "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(3-3).pdf",
+        "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 설비 LIST.pdf",
+        "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=1"
+      },
+      {
+        "label": "3. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+      },
+      {
+        "label": "CHIP건조로(1차).pdf",
+        "url": "/documents/source-store/4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7.pdf#page=1"
+      },
+      {
+        "label": "CHIP건조로(2차).pdf",
+        "url": "/documents/source-store/1482d602506444b3936e72b30ed2408557acce23f8e0dbc019264a319a7a4d6a.pdf#page=1"
+      },
+      {
+        "label": "4. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S759ef0ad097f1bba"
+      },
+      {
+        "label": "온도 및 속도 조절 매뉴얼.ppt",
+        "url": "/documents/equipment-11/library.html?source=S7aa619327fc82772"
+      },
+      {
+        "label": "STACK-4(합금칩 재연소로).pdf",
+        "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=1"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "칩건조로 도면(1-3).pdf",
+        "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(2-3).pdf",
+        "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(3-3).pdf",
+        "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 설비 LIST.pdf",
+        "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=1"
+      },
+      {
+        "label": "3. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+      },
+      {
+        "label": "CHIP건조로(1차).pdf",
+        "url": "/documents/source-store/4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7.pdf#page=1"
+      },
+      {
+        "label": "CHIP건조로(2차).pdf",
+        "url": "/documents/source-store/1482d602506444b3936e72b30ed2408557acce23f8e0dbc019264a319a7a4d6a.pdf#page=1"
+      },
+      {
+        "label": "4. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S759ef0ad097f1bba"
+      },
+      {
+        "label": "온도 및 속도 조절 매뉴얼.ppt",
+        "url": "/documents/equipment-11/library.html?source=S7aa619327fc82772"
+      },
+      {
+        "label": "STACK-4(합금칩 재연소로).pdf",
+        "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=1"
+      }
+    ],
+    "repair": [
+      {
+        "label": "칩건조로 도면(1-3).pdf",
+        "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(2-3).pdf",
+        "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(3-3).pdf",
+        "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 설비 LIST.pdf",
+        "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=1"
+      },
+      {
+        "label": "3. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+      },
+      {
+        "label": "CHIP건조로(1차).pdf",
+        "url": "/documents/source-store/4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7.pdf#page=1"
+      },
+      {
+        "label": "CHIP건조로(2차).pdf",
+        "url": "/documents/source-store/1482d602506444b3936e72b30ed2408557acce23f8e0dbc019264a319a7a4d6a.pdf#page=1"
+      },
+      {
+        "label": "4. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S759ef0ad097f1bba"
+      },
+      {
+        "label": "온도 및 속도 조절 매뉴얼.ppt",
+        "url": "/documents/equipment-11/library.html?source=S7aa619327fc82772"
+      },
+      {
+        "label": "STACK-4(합금칩 재연소로).pdf",
+        "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=1"
+      }
+    ],
+    "completion": [
+      {
+        "label": "칩건조로 도면(1-3).pdf",
+        "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(2-3).pdf",
+        "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 도면(3-3).pdf",
+        "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=1"
+      },
+      {
+        "label": "칩건조로 설비 LIST.pdf",
+        "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=1"
+      },
+      {
+        "label": "3. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+      },
+      {
+        "label": "CHIP건조로(1차).pdf",
+        "url": "/documents/source-store/4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7.pdf#page=1"
+      },
+      {
+        "label": "CHIP건조로(2차).pdf",
+        "url": "/documents/source-store/1482d602506444b3936e72b30ed2408557acce23f8e0dbc019264a319a7a4d6a.pdf#page=1"
+      },
+      {
+        "label": "4. Chip건조기 공정 설명서.doc",
+        "url": "/documents/equipment-11/library.html?source=S759ef0ad097f1bba"
+      },
+      {
+        "label": "온도 및 속도 조절 매뉴얼.ppt",
+        "url": "/documents/equipment-11/library.html?source=S7aa619327fc82772"
+      },
+      {
+        "label": "STACK-4(합금칩 재연소로).pdf",
+        "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=1"
+      }
+    ]
+  },
+  "io": [
+    {
+      "system": "Chip 공정 DOC · PLC주소 아님",
+      "direction": "공정 기기 참조",
+      "address": "Combustion Air Fan",
+      "name": "급기/연소 공기 팬",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    },
+    {
+      "system": "Chip 공정 DOC · PLC주소 아님",
+      "direction": "공정 기기 참조",
+      "address": "Exhaust Gas Fan",
+      "name": "배기 팬",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    },
+    {
+      "system": "Chip 공정 DOC · PLC주소 아님",
+      "direction": "공정 기기 참조",
+      "address": "Air Pressure Low Switch",
+      "name": "연소 공기 압력 검출",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    },
+    {
+      "system": "Chip 공정 DOC · PLC주소 아님",
+      "direction": "공정 기기 참조",
+      "address": "Compressed Air Pressure Switch",
+      "name": "압축공기 압력 검출",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    },
+    {
+      "system": "Chip 공정 DOC · PLC주소 아님",
+      "direction": "공정 기기 참조",
+      "address": "Rotary Drum / Kiln",
+      "name": "킬른 구동",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    },
+    {
+      "system": "Chip 공정 DOC · PLC주소 아님",
+      "direction": "공정 기기 참조",
+      "address": "C/V MAGNET",
+      "name": "철 분리 구간",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "3. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    }
+  ],
+  "hmi": [
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "온도·속도 조절",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "온도 및 속도 조절 매뉴얼.ppt",
+      "description": "PPT 텍스트 레코드 참조; 원형 슬라이드 배치 미재현",
+      "source": "온도 및 속도 조절 매뉴얼.ppt · 원본 추출 열람본",
+      "url": "/documents/equipment-11/library.html?source=S7aa619327fc82772"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [],
+  "drawings": [
+    {
+      "name": "칩건조로 도면(1-3).pdf · 1쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "칩건조로 도면(1-3).pdf · PDF 1쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=1",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0001.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 2쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "칩건조로 도면(1-3).pdf · PDF 2쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=2",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0002.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 3쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "칩건조로 도면(1-3).pdf · PDF 3쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=3",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0003.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 4쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "칩건조로 도면(1-3).pdf · PDF 4쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=4",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0004.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 5쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "칩건조로 도면(1-3).pdf · PDF 5쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=5",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0005.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 6쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "칩건조로 도면(1-3).pdf · PDF 6쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=6",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0006.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 7쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "칩건조로 도면(1-3).pdf · PDF 7쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=7",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0007.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 8쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "칩건조로 도면(1-3).pdf · PDF 8쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=8",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0008.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 9쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "칩건조로 도면(1-3).pdf · PDF 9쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=9",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0009.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 10쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "칩건조로 도면(1-3).pdf · PDF 10쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=10",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0010.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 11쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "칩건조로 도면(1-3).pdf · PDF 11쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=11",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0011.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 12쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "칩건조로 도면(1-3).pdf · PDF 12쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=12",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0012.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 13쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "칩건조로 도면(1-3).pdf · PDF 13쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=13",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0013.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 14쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "칩건조로 도면(1-3).pdf · PDF 14쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=14",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0014.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 15쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 15,
+      "source": "칩건조로 도면(1-3).pdf · PDF 15쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=15",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0015.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 16쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 16,
+      "source": "칩건조로 도면(1-3).pdf · PDF 16쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=16",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0016.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 17쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 17,
+      "source": "칩건조로 도면(1-3).pdf · PDF 17쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=17",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0017.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 18쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 18,
+      "source": "칩건조로 도면(1-3).pdf · PDF 18쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=18",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0018.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 19쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 19,
+      "source": "칩건조로 도면(1-3).pdf · PDF 19쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=19",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0019.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 20쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 20,
+      "source": "칩건조로 도면(1-3).pdf · PDF 20쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=20",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0020.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 21쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 21,
+      "source": "칩건조로 도면(1-3).pdf · PDF 21쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=21",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0021.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 22쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 22,
+      "source": "칩건조로 도면(1-3).pdf · PDF 22쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=22",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0022.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 23쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 23,
+      "source": "칩건조로 도면(1-3).pdf · PDF 23쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=23",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0023.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 24쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 24,
+      "source": "칩건조로 도면(1-3).pdf · PDF 24쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=24",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0024.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 25쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 25,
+      "source": "칩건조로 도면(1-3).pdf · PDF 25쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=25",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0025.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 26쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 26,
+      "source": "칩건조로 도면(1-3).pdf · PDF 26쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=26",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0026.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 27쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 27,
+      "source": "칩건조로 도면(1-3).pdf · PDF 27쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=27",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0027.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 28쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 28,
+      "source": "칩건조로 도면(1-3).pdf · PDF 28쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=28",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0028.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 29쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 29,
+      "source": "칩건조로 도면(1-3).pdf · PDF 29쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=29",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0029.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 30쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 30,
+      "source": "칩건조로 도면(1-3).pdf · PDF 30쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=30",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0030.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 31쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 31,
+      "source": "칩건조로 도면(1-3).pdf · PDF 31쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=31",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0031.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 32쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 32,
+      "source": "칩건조로 도면(1-3).pdf · PDF 32쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=32",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0032.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 33쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 33,
+      "source": "칩건조로 도면(1-3).pdf · PDF 33쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=33",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0033.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 34쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 34,
+      "source": "칩건조로 도면(1-3).pdf · PDF 34쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=34",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0034.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 35쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 35,
+      "source": "칩건조로 도면(1-3).pdf · PDF 35쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=35",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0035.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 36쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 36,
+      "source": "칩건조로 도면(1-3).pdf · PDF 36쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=36",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0036.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 37쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 37,
+      "source": "칩건조로 도면(1-3).pdf · PDF 37쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=37",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0037.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 38쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 38,
+      "source": "칩건조로 도면(1-3).pdf · PDF 38쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=38",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0038.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 39쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 39,
+      "source": "칩건조로 도면(1-3).pdf · PDF 39쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=39",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0039.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 40쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 40,
+      "source": "칩건조로 도면(1-3).pdf · PDF 40쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=40",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0040.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 41쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 41,
+      "source": "칩건조로 도면(1-3).pdf · PDF 41쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=41",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0041.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 42쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 42,
+      "source": "칩건조로 도면(1-3).pdf · PDF 42쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=42",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0042.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 43쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 43,
+      "source": "칩건조로 도면(1-3).pdf · PDF 43쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=43",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0043.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 44쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 44,
+      "source": "칩건조로 도면(1-3).pdf · PDF 44쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=44",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0044.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 45쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 45,
+      "source": "칩건조로 도면(1-3).pdf · PDF 45쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=45",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0045.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 46쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 46,
+      "source": "칩건조로 도면(1-3).pdf · PDF 46쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=46",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0046.webp"
+    },
+    {
+      "name": "칩건조로 도면(1-3).pdf · 47쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sb3661fc9853498d9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 47,
+      "source": "칩건조로 도면(1-3).pdf · PDF 47쪽",
+      "source_id": "Sb3661fc9853498d9",
+      "url": "/documents/source-store/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde.pdf#page=47",
+      "preview": "/documents/source-previews/b3661fc9853498d9b9ca0b0f1b0fd7337e8860fc2d80f50125fec65a603cefde-0047.webp"
+    },
+    {
+      "name": "칩건조로 도면(2-3).pdf · 1쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sbe0407946f7a4ce8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "칩건조로 도면(2-3).pdf · PDF 1쪽",
+      "source_id": "Sbe0407946f7a4ce8",
+      "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=1",
+      "preview": "/documents/source-previews/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3-0001.webp"
+    },
+    {
+      "name": "칩건조로 도면(2-3).pdf · 2쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sbe0407946f7a4ce8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "칩건조로 도면(2-3).pdf · PDF 2쪽",
+      "source_id": "Sbe0407946f7a4ce8",
+      "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=2",
+      "preview": "/documents/source-previews/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3-0002.webp"
+    },
+    {
+      "name": "칩건조로 도면(2-3).pdf · 3쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sbe0407946f7a4ce8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "칩건조로 도면(2-3).pdf · PDF 3쪽",
+      "source_id": "Sbe0407946f7a4ce8",
+      "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=3",
+      "preview": "/documents/source-previews/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3-0003.webp"
+    },
+    {
+      "name": "칩건조로 도면(2-3).pdf · 4쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Sbe0407946f7a4ce8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "칩건조로 도면(2-3).pdf · PDF 4쪽",
+      "source_id": "Sbe0407946f7a4ce8",
+      "url": "/documents/source-store/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3.pdf#page=4",
+      "preview": "/documents/source-previews/be0407946f7a4ce8362fd3a72f553aff3b0219f4f1cec1bc5c4d6a6cb040ffe3-0004.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 1쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "칩건조로 도면(3-3).pdf · PDF 1쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=1",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0001.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 2쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "칩건조로 도면(3-3).pdf · PDF 2쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=2",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0002.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 3쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "칩건조로 도면(3-3).pdf · PDF 3쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=3",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0003.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 4쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "칩건조로 도면(3-3).pdf · PDF 4쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=4",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0004.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 5쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "칩건조로 도면(3-3).pdf · PDF 5쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=5",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0005.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 6쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "칩건조로 도면(3-3).pdf · PDF 6쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=6",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0006.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 7쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "칩건조로 도면(3-3).pdf · PDF 7쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=7",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0007.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 8쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "칩건조로 도면(3-3).pdf · PDF 8쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=8",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0008.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 9쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "칩건조로 도면(3-3).pdf · PDF 9쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=9",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0009.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 10쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "칩건조로 도면(3-3).pdf · PDF 10쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=10",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0010.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 11쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "칩건조로 도면(3-3).pdf · PDF 11쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=11",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0011.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 12쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "칩건조로 도면(3-3).pdf · PDF 12쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=12",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0012.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 13쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "칩건조로 도면(3-3).pdf · PDF 13쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=13",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0013.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 14쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "칩건조로 도면(3-3).pdf · PDF 14쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=14",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0014.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 15쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 15,
+      "source": "칩건조로 도면(3-3).pdf · PDF 15쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=15",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0015.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 16쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 16,
+      "source": "칩건조로 도면(3-3).pdf · PDF 16쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=16",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0016.webp"
+    },
+    {
+      "name": "칩건조로 도면(3-3).pdf · 17쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 S3f1f970ac888ad55 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 17,
+      "source": "칩건조로 도면(3-3).pdf · PDF 17쪽",
+      "source_id": "S3f1f970ac888ad55",
+      "url": "/documents/source-store/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0.pdf#page=17",
+      "preview": "/documents/source-previews/3f1f970ac888ad557389f5b748a9079134d4a1d6e39af7f195c05e82910a8df0-0017.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 1쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "칩건조로 설비 LIST.pdf · PDF 1쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=1",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0001.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 2쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "칩건조로 설비 LIST.pdf · PDF 2쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=2",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0002.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 3쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "칩건조로 설비 LIST.pdf · PDF 3쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=3",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0003.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 4쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "칩건조로 설비 LIST.pdf · PDF 4쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=4",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0004.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 5쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "칩건조로 설비 LIST.pdf · PDF 5쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=5",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0005.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 6쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "칩건조로 설비 LIST.pdf · PDF 6쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=6",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0006.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 7쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "칩건조로 설비 LIST.pdf · PDF 7쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=7",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0007.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 8쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "칩건조로 설비 LIST.pdf · PDF 8쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=8",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0008.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 9쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "칩건조로 설비 LIST.pdf · PDF 9쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=9",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0009.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 10쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "칩건조로 설비 LIST.pdf · PDF 10쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=10",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0010.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 11쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "칩건조로 설비 LIST.pdf · PDF 11쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=11",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0011.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 12쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "칩건조로 설비 LIST.pdf · PDF 12쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=12",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0012.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 13쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "칩건조로 설비 LIST.pdf · PDF 13쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=13",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0013.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 14쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "칩건조로 설비 LIST.pdf · PDF 14쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=14",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0014.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 15쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 15,
+      "source": "칩건조로 설비 LIST.pdf · PDF 15쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=15",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0015.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 16쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 16,
+      "source": "칩건조로 설비 LIST.pdf · PDF 16쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=16",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0016.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 17쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 17,
+      "source": "칩건조로 설비 LIST.pdf · PDF 17쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=17",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0017.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 18쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 18,
+      "source": "칩건조로 설비 LIST.pdf · PDF 18쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=18",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0018.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 19쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 19,
+      "source": "칩건조로 설비 LIST.pdf · PDF 19쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=19",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0019.webp"
+    },
+    {
+      "name": "칩건조로 설비 LIST.pdf · 20쪽",
+      "system": "04_칩",
+      "kind": "원본 PDF",
+      "version": "원본 Se3c7038b9ba431fc / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 20,
+      "source": "칩건조로 설비 LIST.pdf · PDF 20쪽",
+      "source_id": "Se3c7038b9ba431fc",
+      "url": "/documents/source-store/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092.pdf#page=20",
+      "preview": "/documents/source-previews/e3c7038b9ba431fca1dd9e76d5c8da98713a806ebdee98aa2da5da2388155092-0020.webp"
+    },
+    {
+      "name": "CHIP건조로(1차).pdf · 1쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S4451917387aadea6 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "CHIP건조로(1차).pdf · PDF 1쪽",
+      "source_id": "S4451917387aadea6",
+      "url": "/documents/source-store/4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7.pdf#page=1",
+      "preview": "/documents/source-previews/4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7-0001.webp"
+    },
+    {
+      "name": "CHIP건조로(2차).pdf · 1쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S1482d602506444b3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "CHIP건조로(2차).pdf · PDF 1쪽",
+      "source_id": "S1482d602506444b3",
+      "url": "/documents/source-store/1482d602506444b3936e72b30ed2408557acce23f8e0dbc019264a319a7a4d6a.pdf#page=1",
+      "preview": "/documents/source-previews/1482d602506444b3936e72b30ed2408557acce23f8e0dbc019264a319a7a4d6a-0001.webp"
+    },
+    {
+      "name": "STACK-4(합금칩 재연소로).pdf · 1쪽",
+      "system": "집진 도면",
+      "kind": "원본 PDF",
+      "version": "원본 S8046d81061356545 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "STACK-4(합금칩 재연소로).pdf · PDF 1쪽",
+      "source_id": "S8046d81061356545",
+      "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=1",
+      "preview": "/documents/source-previews/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7-0001.webp"
+    },
+    {
+      "name": "STACK-4(합금칩 재연소로).pdf · 2쪽",
+      "system": "집진 도면",
+      "kind": "원본 PDF",
+      "version": "원본 S8046d81061356545 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "STACK-4(합금칩 재연소로).pdf · PDF 2쪽",
+      "source_id": "S8046d81061356545",
+      "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=2",
+      "preview": "/documents/source-previews/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7-0002.webp"
+    },
+    {
+      "name": "STACK-4(합금칩 재연소로).pdf · 3쪽",
+      "system": "집진 도면",
+      "kind": "원본 PDF",
+      "version": "원본 S8046d81061356545 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "STACK-4(합금칩 재연소로).pdf · PDF 3쪽",
+      "source_id": "S8046d81061356545",
+      "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=3",
+      "preview": "/documents/source-previews/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7-0003.webp"
+    },
+    {
+      "name": "STACK-4(합금칩 재연소로).pdf · 4쪽",
+      "system": "집진 도면",
+      "kind": "원본 PDF",
+      "version": "원본 S8046d81061356545 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "STACK-4(합금칩 재연소로).pdf · PDF 4쪽",
+      "source_id": "S8046d81061356545",
+      "url": "/documents/source-store/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7.pdf#page=4",
+      "preview": "/documents/source-previews/8046d8106135654500c8f548d185adeec2494b8e0a1563356fc83233a4fac1d7-0004.webp"
+    },
+    {
+      "name": "6.건조기 1F.pdf · 1쪽",
+      "system": "참고자료(적용확인필요)",
+      "kind": "원본 PDF",
+      "version": "원본 S0b4fc7940ae91ece / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "6.건조기 1F.pdf · PDF 1쪽",
+      "source_id": "S0b4fc7940ae91ece",
+      "url": "/documents/source-store/0b4fc7940ae91ece931e56dbba85fed5bc64c9504a09132733ecb626f29044f9.pdf#page=1",
+      "preview": "/documents/source-previews/0b4fc7940ae91ece931e56dbba85fed5bc64c9504a09132733ecb626f29044f9-0001.webp"
+    },
+    {
+      "name": "6.건조기 1F.pdf · 2쪽",
+      "system": "참고자료(적용확인필요)",
+      "kind": "원본 PDF",
+      "version": "원본 S0b4fc7940ae91ece / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "6.건조기 1F.pdf · PDF 2쪽",
+      "source_id": "S0b4fc7940ae91ece",
+      "url": "/documents/source-store/0b4fc7940ae91ece931e56dbba85fed5bc64c9504a09132733ecb626f29044f9.pdf#page=2",
+      "preview": "/documents/source-previews/0b4fc7940ae91ece931e56dbba85fed5bc64c9504a09132733ecb626f29044f9-0002.webp"
+    },
+    {
+      "name": "7.건조기 2F.pdf · 1쪽",
+      "system": "참고자료(적용확인필요)",
+      "kind": "원본 PDF",
+      "version": "원본 S6ab5bfc75ab1244c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "7.건조기 2F.pdf · PDF 1쪽",
+      "source_id": "S6ab5bfc75ab1244c",
+      "url": "/documents/source-store/6ab5bfc75ab1244c747051372fbe09379efdc14acd3c41d5859b2391cea203dc.pdf#page=1",
+      "preview": "/documents/source-previews/6ab5bfc75ab1244c747051372fbe09379efdc14acd3c41d5859b2391cea203dc-0001.webp"
+    },
+    {
+      "name": "7.건조기 2F.pdf · 2쪽",
+      "system": "참고자료(적용확인필요)",
+      "kind": "원본 PDF",
+      "version": "원본 S6ab5bfc75ab1244c / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "7.건조기 2F.pdf · PDF 2쪽",
+      "source_id": "S6ab5bfc75ab1244c",
+      "url": "/documents/source-store/6ab5bfc75ab1244c747051372fbe09379efdc14acd3c41d5859b2391cea203dc.pdf#page=2",
+      "preview": "/documents/source-previews/6ab5bfc75ab1244c747051372fbe09379efdc14acd3c41d5859b2391cea203dc-0002.webp"
+    },
+    {
+      "name": "CO2 - 건조기 1F.pdf · 1쪽",
+      "system": "참고자료(적용확인필요)",
+      "kind": "원본 PDF",
+      "version": "원본 S402f558b3b264066 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "CO2 - 건조기 1F.pdf · PDF 1쪽",
+      "source_id": "S402f558b3b264066",
+      "url": "/documents/source-store/402f558b3b26406614f65d60ec183ec0c409018f1b7e27dd35f7164f8a2c014a.pdf#page=1",
+      "preview": "/documents/source-previews/402f558b3b26406614f65d60ec183ec0c409018f1b7e27dd35f7164f8a2c014a-0001.webp"
+    },
+    {
+      "name": "CO2 - 건조기 2F.pdf · 1쪽",
+      "system": "참고자료(적용확인필요)",
+      "kind": "원본 PDF",
+      "version": "원본 Se75a8bb55dff3c75 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "CO2 - 건조기 2F.pdf · PDF 1쪽",
+      "source_id": "Se75a8bb55dff3c75",
+      "url": "/documents/source-store/e75a8bb55dff3c7570aad8f25d573e3b37396fddc02c8e79a8e26c0218573f87.pdf#page=1",
+      "preview": "/documents/source-previews/e75a8bb55dff3c7570aad8f25d573e3b37396fddc02c8e79a8e26c0218573f87-0001.webp"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "원본 알람/보호 확인 범위",
+      "name": "알람·보호·복구 근거",
+      "address": "현행 코드/임계값·정상극성 미확정",
+      "trigger": "가스/연소공기 공급 중단, 배기·압축공기, 가스 압력, 화염 미검출과 킬른 회전정지를 문서상 이상 범주로 정리했습니다. 문서에 있는 압력 단위 표기의 혼재와 설정값·재시작 문구는 현행 값으로 교정/적용하지 않았습니다. 실제 알람 코드·수동/자동 복구·안전 정지 시험은 미수행입니다.",
+      "reset": "실제 표시·원인·현행 승인 조건을 확인하기 전 임의 우회·강제출력·설정 변경/재기동을 수행하지 않음",
+      "source": "3. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "가스/연소공기·배기 이상",
+      "check": "급기/배기 팬·필터·밸브·압력 검출의 문서 구간 분리",
+      "source": "3. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "킬른/스크루 회전 정지",
+      "check": "차단기·퓨즈·인버터·모터와 기계 끼임을 별도 후보로 기록",
+      "source": "4. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/equipment-11/library.html?source=S759ef0ad097f1bba"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "건조/배출/선별 불량",
+      "check": "공급·건조·배출·마그네트·집진 단계를 구분",
+      "source": "3. Chip건조기 공정 설명서.doc · 원본 추출 열람본",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    }
+  ],
+  "checks": [
+    {
+      "title": "1·2차 설비 적용",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "여러 CHIP 도면·1F/2F 및 동일명 자료",
+      "next": "현장 라인·단계·반번호·개정 확인"
+    },
+    {
+      "title": "운전조건·단위",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "DOC의 과거 온도/주파수/압력·시간 및 단위 혼재",
+      "next": "현행 승인 조건·계기/프로그램 대조"
+    },
+    {
+      "title": "PLC/HMI 원본",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "현행 할당·래더·인버터/온도 설정 정의 미확정",
+      "next": "현재 CPU·원본·태그·보호 로직 확보"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "evidence": "도면·설명서 범위로 정리",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "evidence": "파일 검토·로컬 문서화만 수행",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "evidence": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "1·2차 설비 적용",
+      "status": "미확정·원문 차이 보존",
+      "source": "여러 CHIP 도면·1F/2F 및 동일명 자료",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현장 라인·단계·반번호·개정 확인"
+    },
+    {
+      "title": "운전조건·단위",
+      "status": "미확정·원문 차이 보존",
+      "source": "DOC의 과거 온도/주파수/압력·시간 및 단위 혼재",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현행 승인 조건·계기/프로그램 대조"
+    },
+    {
+      "title": "PLC/HMI 원본",
+      "status": "미확정·원문 차이 보존",
+      "source": "현행 할당·래더·인버터/온도 설정 정의 미확정",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·원본·태그·보호 로직 확보"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "source": "도면·설명서 범위로 정리",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "source": "파일 검토·로컬 문서화만 수행",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "source": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본·압축 자료 보존",
+      "status": "파일검증 완료",
+      "evidence": "폴더 원본 복사 전후 bytes/SHA-256 및 압축 추출 바이트/해시 대조",
+      "source": "/documents/equipment-11/source-manifest.json"
+    },
+    {
+      "title": "문서 검토 범위",
+      "status": "핵심 자료 중심 문서화",
+      "evidence": "칩건조로 도면(1-3).pdf; 칩건조로 도면(2-3).pdf; 칩건조로 도면(3-3).pdf; 칩건조로 설비 LIST.pdf; 3. Chip건조기 공정 설명서.doc; CHIP건조로(1차).pdf; CHIP건조로(2차).pdf; 4. Chip건조기 공정 설명서.doc; 온도 및 속도 조절 매뉴얼.ppt; STACK-4(합금칩 재연소로).pdf; 6.건조기 1F.pdf; 7.건조기 2F.pdf; CO2 - 건조기 1F.pdf; CO2 - 건조기 2F.pdf / 참고·대량 카탈로그 전체 상세 판독은 아님",
+      "source": "/documents/equipment-11/library.html?source=S3388e72eed2a6e33"
+    },
+    {
+      "title": "현재 PLC·현장 시험",
+      "status": "미수행",
+      "evidence": "프로그램 현행 적용·통전/운전/안전/복구 시험·현장 설정 변경은 수행하지 않음",
+      "source": "사용자 지정 폴더 자료 범위"
+    }
+  ]
+}

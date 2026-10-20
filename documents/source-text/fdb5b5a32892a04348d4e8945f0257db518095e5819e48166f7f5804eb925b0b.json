@@ -1,0 +1,14 @@
+{
+  "sha256": "fdb5b5a32892a04348d4e8945f0257db518095e5819e48166f7f5804eb925b0b",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "집진기 \n설치 \n(교체) \n기존 \n집진기\n(폐쇄) ",
+      "width": 841.92,
+      "height": 595.32
+    }
+  ],
+  "page_count": 1
+}

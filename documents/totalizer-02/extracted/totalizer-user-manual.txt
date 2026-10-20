@@ -1,0 +1,785 @@
+자동 적산기
+
+(STACKING MACHINE)
+
+사용 설명서
+
+(주)세진메탈 貴中
+
+2006年 02月
+
+주식회사 ALF
+
+(ALF CO., LTD.)
+
+5kg AL INGOT 자동 적산기
+
+- 목      차 -
+
+장치의 개요
+
+MAIN CONTROL PANEL의 사양
+
+장치의 구성요소
+
+수동조작
+
+자동 훈련
+
+고장 및 응급대책
+
+보수 및 점검
+
+장치의 개요
+
+본 설비는 제품을 	연속 주조기에서 배출되는 알루미늄 INGOT를 받아서 설			정된 Kg(ton)에 따라 일정하게 자동으로 적산하는 것을 말한다.
+
+최근에는 선진 각국의 실리추구 경향이 더욱 현저해져서 보호무역의 장				벽은 	더욱 높아지고 원고현상, 원자재 가격 상승 등의 제반문제로 인하여 			생산성 	향상이 불가피한 상황이다.  이에 따라 생력화, 무인화의 필요성은 			더욱 절실해 질 것으로 예상된다.
+
+현재 산업화된 모든 기계나 장비는 첨단 소재와 다기능을 갖춘 산업로				보트화 	되어 가고 있다.  동시에 적은 인원으로 많은 생산량을 낼 수 있			는 공장자동	화SYSTEM으로 생산에 더욱 박차를 가하고 있는 현실이다.   			이런 추세에 맞	추어 알루미늄 INGOT 생산업체에서도 INGOT의 무게와 고			열에 의한 인명피해	와 산재사고를 줄이기 위해 INGOT 자동적산 방법을 			연구, 고안해 왔다.
+
+본 자동 적산기는 인원감축과 생산라인에 시간을 줄임으로써 품질과 생				산성	향상시키는데 적합하다. 특히 과거 생산자가 직접 집게로 적산할 때			보다 위험성도 줄이는 효과가 있다.
+
+국산 P.L.C장비를 사용하여 PROGRAM 수정 보완 가능하도록 설계되어 있				다. INGOT적산하는 종류는 300Kg, 600Kg, 1TON이 선택SWITCH에 의해 			자동 조정된다.
+
+단, INGOT의 두께는 적정한 두께의 정확성이 요구되며 자동 연주기의 	 			속도도 고정시킬수록 안전하다.
+
+인원 절감 효과
+
+인력으로 INGOT를 적산할 때는 적산인원 2명, 지게차 운전 1명 모두 3명이
+
+필요하다.
+
+자동적산기 사용시 지게차 운전직원이 INGOT를 출하하면서 적산 운전이 가능하
+
+므로 인원 절감 효과가 크다.
+
+기존의 수많은 수작업 공정에서 무인작업이 가능한 최신 AUTO SYSTEM이다.
+
+본 설비의 작동은 수동 및 자동에서의 모든 동작은 기기의 특성 및 작업자의 				안전을 고려하여 PLC PROGRAM으로 안전에 집중하여 설계되어 있음으로 신뢰				하여 다음 사항을 숙지하여 행하여 주시면 최고의 능률을 올릴 것이다.
+
+수동조작 MODE에서의 최소한의 기계적 INTERLOCK은 PLC PROGRAM을 이					용하여 적용 설계되어 있다.
+
+MAIN PANEL의 SEQUENCE는 PLC 입출력에 의하여 직접 설계되어 빠른 응답				속도로 프로그램 하여 처리한다.
+
+수동시는 기기의 각기 동작을 확인하는 과정이므로 특히 주위의 안전을 요한					다.
+
+보수 및 점검사항이 있을 때에는 반드시 전원을 OFF 또는 비상정지 수동 					MODE에서 이행한다.
+
+본 설비는 정밀한 기계이므로 청결 및 정돈을 1일 1회 이상 실시한다.
+
+MAIN CONTROL PANEL에는 기기 전체의 CONTROL SYSTEM을 제어하기 위					한 각종 전기 계장부품이 내장되어 있으므로 관계자외 분해 및 점검을 금한다.
+
+청소 및 정돈 시 되도록 기계의 각종 부품에 물기를 금한다.
+
+본 설비 사용 시 필히 M/C의 원위치와 AIR의 압력 및 전원의 이상 유무를 					CHECK한다.
+
+MAIN CONTROL PANEL의 사양
+
+MAIN POWER : 3P 380V 60HZ
+
+CONTROL POWER : AC 220V
+
+AIR CONTROL : MIN. 5KG BAR～6KG BAR
+
+AIR SYSTEM : PLC CONTROL SYSTEM
+
+AIR CONTROL : PNEUMATIC CONTROL SYSTEM
+
+PLC CONTROL POWER : AC 110V
+
+INPUT POWER : DC 24V
+
+OUTPUT POWER : AC 220V
+
+장치의 구성요소
+
+MAIN CONTROL PANEL
+
+TOUCH SCREEN
+
+CYLINDER(공압)
+
+MOTOR
+
+SENSOR류
+
+LIMIT SWITCH
+
+CYLINDER AUTO SWITCH
+
+기계류
+
+수동조작
+
+본 설비의 수동조작은 간편한 SWITCH에 의하여 조작이 되므로 특별한 		  	OPERATING 하기 위한 조작법이 없이도 누구나 조작이 가능하도록 설계되어 있		  	습니다.
+
+수동조작 MODE에서의 SWITCH 작동에서 안전에 고려하여 PLC INTERLOCK				에 의한 PROGRAM화되어 있습니다.
+
+공통사항
+
+비상정지 SWITCH 확인
+
+EOCR TRIP 확인
+
+수동상태 확인
+
+(주)ALF 최찬호 010-4551-7785
+
+백송자동화 010-3556-1874
+
+수동운전(수동화면)
+
+수  동  화  면
+
+원 위 치 화 면
+
+경  보  화  면
+
+자  동  화  면
+
+자동훈련
+
+본 설비의 자동이라 함은 모든 기계적인 준비가 구비되었을 때 실행하는 단계로 		여러 곳에 치부된 각종 SWITCH 및 SENSOR에 의하여 무인 운전하는 상태를 말			합니다.
+
+동작의 진행순서는 개략적으로 다음과 같습니다.
+
+모든 POWER SWITCH를 ON 하십시오.
+
+인입 POWER 확인 후 (정격전압)
+
+공통사항
+
+비상정지 SWITCH 확인
+
+EOCR TRIP 확인
+
+자동상태 확인
+
+정상운전 확인 - SEL06 (X00B) OFF
+
+시운전상태 SEL06 (X00B) ON 일 때 제품이 있다고 가정하고 밑에 있는 동작				을 실행함.
+
+위의 3)~4)항의 정상적으로 구비되었습니까?
+
+YES
+
+MANU/AUTO 선택 S/W를 AUTO SETTING 한다.
+
+YES
+
+자동운전 S/W PUSH BZ 2SEC, 동안 ON 후 자동개시
+
+YES
+
+1차 CON'V RUN
+
+X-LIFT 상승
+
+* PH03 (X049) OFF LIFT CHECK 1
+
+* PH04 (X04A) OFF LIFT CHECK 2
+
+* PX05 (X084) & PX08 (X087) ON
+
+LIFT 회전 & 원위치
+
+YES
+
+alfc@paran.com
+
+YES
+
+X-LIFT 상승 완료
+
+* PH03 (X049) OFF LIFT CHECK 1
+
+* PH04 (X04A) OFF LIFT CHECK 2
+
+YES
+
+*1000KG*
+
+7P CATCH 하강
+
+*500KG*
+
+* PH2-1 (X048) ON COUNT CHECK 2-1
+
+* PH2-2 (X103) ON COUNT CHECK 2-2
+
+* PH2-3 (X104) ON COUNT CHECK 2-3
+
+* PH2-4 (X105) ON COUNT CHECK 2-4
+
+* PH2-5 (X106) ON COUNT CHECK 2-5
+
+* PH2-6 (X107) ON COUNT CHECK 2-6
+
+* PH2-7 (X108) ON COUNT CHECK 2-7
+
+* PX04 (X057) ON
+
+YES
+
+7P CATCH 하강완료
+
+* RPX09 (X05F) ON
+
+7P CATCH 하강
+
+*비상정지*
+
+EPB01 (X000) ON 시
+
+7P CATCH OPEN 후
+
+YES
+
+상승 & 2차 STOP하강
+
+7P CATCH CLOSE
+
+* RPX07 (X05D) ON 7P CATCH OPEN
+
+* RPX09 (X05F) ON 7P CATCH 하강
+
+YES
+
+7P CATCH CLOSE 완료
+
+* RPX06 (X05C) ON 7P CATCH CLOSE
+
+YES
+
+7P CATCH 상승
+
+* RPX06 (X05C) ON 7P CATCH CLOSE
+
+* RPX09 (X05F) ON 7P CATCH 하강
+
+* RPX08 (X05E) OFF 7P CATCH 하강
+
+YES
+
+YES
+
+7P CATCH 상승 완료
+
+* RPX06 (X05C) ON 7P CATCH CLOSE
+
+YES
+
+T/R 전진 & 7P  CATCH 회전
+
+* RX04 (X057) ON T/R 원위치
+
+* RPX04 (X05A) ON 4P CATCH 상승
+
+* RPX08 (X05E) ON 7P CATCH 상승
+
+* RPX06 (X05C) ON 7P CATCH CLOSE
+
+* RPX11 (X081) ON 7P CATCH 원위치
+
+* PH04 (X04A) OFF LIFT CHECK 2
+
+YES
+
+T/R 전진완료 & 7P  CATCH 회전완료
+
+* RX01 (X054) ON T/R 이송
+
+* RPX10 (X080) ON 7P CATCH 회전
+
+YES
+
+7P CATCH 하강
+
+* PH03 (X049) ON LIFT CHECK 1
+
+* PH04 (X04A) OFF LIFT CHECK 2
+
+* RPX06 (X05C) ON 7P CHECK CLOSE
+
+YES
+
+7P CATCH 하강완료
+
+* RPX09 (X05F) ON 7P CHECK 하강
+
+YES
+
+7P CATCH OPEN
+
+* RPX09 (X05F) ON 7P CHECK 하강
+
+* RPX06 (X05C) ON 7P CHECK CLOSE
+
+YES
+
+7P CATCH OPEN 완료
+
+* RPX07 (X05D) ON 7P CHECK OPEN
+
+YES
+
+YES
+
+7P CATCH 상승
+
+* RPX07 (X05D) ON 7P CHECK OPEN
+
+YES
+
+7P CATCH 상승완료
+
+* RPX08 (X05E) ON 7P CHECK 상승
+
+YES
+
+◀
+
+X-LIFT 하강
+
+* PH03 (X049) ON LIFT CHECK 1
+
+* PH04 (X04A) OFF LIFT CHECK 2
+
+* RPX08 (X05E) ON 7P CHECK 상승
+
+* PX05 (X048) & PX08(X087) ON 	LIFT 회전 & 원위치
+
+YES
+
+X-LIFT 하강 완료
+
+* PH03 (X049) ON LIFT CHECK 1
+
+* PH04 (X04A) OFF LIFT CHECK 2
+
+YES
+
+T/R 원위치
+
+* RPX04 (X05A) ON 4P CATCH 상승
+
+* RPX08 (X05E) ON 7P CATCH 상승
+
+YES
+
+T/R 원위치 완료
+
+* PX04 (X057) ON T/R 원위치
+
+YES
+
+LIFT 적재 완료 하강
+
+* PH03 (X049) ON LIFT CHECK 1
+
+* LS11 (X08A) ON 2차 CON'V 역회전
+
+강제취출 PB12 (X04D) ON
+
+YES
+
+YES
+
+X-LIFT 적재 완료
+
+하강완료
+
+* LS04 (X083) ON LIFT 하강
+
+YES
+
+3차 CON'V 정지
+
+* LS12 (X08B) ON 3차 CON'V 정회전
+
+* PH05 (X04B) OFF 계량기 STOP
+
+YES
+
+계량기 상승
+
+* PH05 (X04B) ON 계량기 STOP
+
+* LS10 (X089) ON 계량기 하강
+
+YES
+
+계량기 상승 완료
+
+* PH05 (X04B) ON 계량기 STOP
+
+* LS09 (X088) ON 계량기 상승
+
+YES
+
+계량기 하강
+
+* PH05 (X04B) OFF 10초후 계량기 STOP
+
+* LS09 (X088) ON 계량기 상승
+
+YES
+
+계량기 하강
+
+* LS10 (X089) ON 계량기 하강
+
+*1000KG*
+
+▶
+
+1차 STOP 상승
+
+4P CATCH 하강
+
+7P CATCH 하강
+
+NO
+
+* PH2-1 (X048) ON COUNT CHECK 2-1
+
+* PH2-2 (X103) ON COUNT CHECK 2-2
+
+* PH2-3 (X104) ON COUNT CHECK 2-3
+
+* PH2-4 (X105) ON COUNT CHECK 2-4
+
+* PH2-5 (X106) ON COUNT CHECK 2-5
+
+* PH2-6 (X107) ON COUNT CHECK 2-6
+
+* PH2-7 (X108) ON COUNT CHECK 2-7
+
+* PH1-1 (X047) ON
+
+YES
+
+비상정지 EPB01 (X000) ON시 4P/7P CATCH OPEN 후 상승
+
+4P & 7P CATCH 하강 완료
+
+* RPX05 (X05B) ON 4P CATCH 하강
+
+* RPX09 (X05F) ON 7P CATCH 하강
+
+YES
+
+4P CATCH & 7P CATCH CLOSE
+
+* RPX05 (X05B) ON 4P CATCH 하강
+
+* RPX09 (X05F) ON 7P CATCH 하강
+
+YES
+
+4P & 7P CATCH CLOSE 완료
+
+* RPX02 (X058) ON 4P CATCH CLOSE
+
+* RPX06 (X05C) ON 7P CATCH CLOSE
+
+YES
+
+4P CATCH & 7P CATCH 상승
+
+* RPX02 (X058) ON 4P CATCH CLOSE
+
+* RPX06 (X05C) ON 7P CATCH CLOSE
+
+YES
+
+YES
+
+4P & 7P CATCH 완료
+
+* RPX04 (X05A) ON 4P CATCH 상승
+
+* RPX08 (X05E) ON 7P CATCH 상승
+
+YES
+
+4P & 7P CATCH 완료
+
+* RPX04 (X05A) ON 4P CATCH 상승
+
+* RPX08 (X05E) ON 7P CATCH 상승
+
+* PX04 (X057) ON T/R 원위치
+
+YES
+
+T/R 이송 & 7P CATCH 회전 완료
+
+* PX01 (X054) ON T/R 이송
+
+* RPX10 (X080) ON 7P CATCH 회전
+
+YES
+
+7P CATCH 하강
+
+* PH04 (X04A) ON LIFT CATCH 2
+
+* RPX08 (X05E) ON 7P CATCH 상승
+
+YES
+
+7P CATCH 하강 완료
+
+* RPX09 (X05F) ON 7P CATCH 하강
+
+YES
+
+7P CATCH OPEN
+
+* RPX09 (X05F) ON 7P CATCH 하강
+
+* RPX06 (X05C) ON 7P CATCH CLOSE
+
+YES
+
+7P CATCH OPEN 완료
+
+* RPX07 (X05D) ON 7P CATCH OPEN
+
+YES
+
+7P CATCH 상승
+
+* RPX07 (X05D) ON 7P CATCH OPEN
+
+* RPX09 (X05F) ON 7P CATCH 하강
+
+YES
+
+YES
+
+7P CATCH 상승 완료
+
+* RPX07 (X05D) ON 7P CATCH OPEN
+
+YES
+
+7P CATCH 원위치
+
+* RPX08 (X05E) ON 7P CATCH 상승
+
+* RPX10 (X050) ON 7P CATCH 회전
+
+YES
+
+7P CATCH 원위치 완료
+
+* RPX11 (X081) ON 7P CATCH 원위치
+
+YES
+
+4P CATCH 하강
+
+* RPX04 (X05A) ON 4P CATCH 상승
+
+YES
+
+4P CATCH 하강 완료
+
+* RPX05 (X05A) ON 4P CATCH 상승
+
+YES
+
+4P CATCH OPEN
+
+* RPX05 (X05B) ON 4P CATCH 하강
+
+* RPX02 (X058) ON 4P CATCH CLOSE
+
+YES
+
+4P CATCH OPEN 완료
+
+* RPX03 (X059) ON 4P CATCH OPEN
+
+YES
+
+4P CATCH 상승
+
+* RPX03 (X059) ON 4P CATCH OPEN
+
+* RPX05 (X05B) ON 4P CATCH 하강
+
+YES
+
+4P CATCH 상승 완료
+
+* RPX04 (X05A) ON 4P CATCH 상승
+
+YES
+
+YES
+
+X-LIFT 회전 & 원위치
+
+* PH03 (X049) ON LIFT CHECK 1
+
+* PH04 (X04A) OFF LIFT CHECK 2
+
+* PX05 (X08C) OFF LIFT 회전비상
+
+* PX05 (X084) ON LIFT 원위치
+
+YES
+
+※ IN GUIDE STP
+
+자동 상태에서 하강 (LS02-X053)을 ON 하면 IN GUIDE는 하강하고 경보를 울				린다.
+
+다시 상승을 하고 싶으면  IN GUIDE UP (SEL04-X044)을 DOWN으로 한번하				고 다시 UP으로 하면 상승한다.
+
+※ 자동 MODE의 동작은 완전 무인작업 공정이므로 각종 SENSOR를 ON 시킴으				로써 기기의 파손 및 인명의 피해를 가져올 경우가 많으므로 특별한 주의를 요합				니다.
+
+※  자동 반재 적재
+
+먼저 SEL S/W 설정을 반재로 설정후, 단수 설정을 8단으로 할 경우 자동으로
+
+8단을 적재 한 후,경보음이 울리게 된다. 경보음이 울리면 2단 적재를 하기
+
+위해 다리 잉곳트를 올려놓은 후, 반재 반재 시작 PUSH BUTTON를 누르면
+
+다시 8단을 적재하고 자동으로 취출 됩니다. 이후 작업은 게속적인 반복 작업이
+
+됩니다.
+
+고장 및 응급대책
+
+MOTOR의 구동불능
+
+380V 3상 60Hz는 정상적으로 공급되고 있는가?
+
+MOTOR 보호용 OVER LOAD는 TRIP 되어 있지 않는가?
+
+MAGMETIC SWITCH의 접점 상태는 이상이 없는가?
+
+MOTOR의 이상음 또는 기계적인 원인은 없는가?
+
+INVERTER TRIP 되어있지 않는가?
+
+CYLINDER의 동작불능
+
+PLC 출력 UNIT의 전압은 정상인가?
+
+SOL. VALVE는 정상인가?
+
+AIR의 압력은 정상인가?
+
+CYLINDER의 AUTO SWITCH는 정상적으로 작동되는가?
+
+기계적인 끼임은 없는가?
+
+제품의 진입불량
+
+제품의 진입 허가신호의 동작상태는 양호한가?
+
+LINE의 단선 및 접촉 불량은 없는가?
+
+각 SENSOR의 투수광 상태는 양호한가?(7개, 4개 인식 센스, 하부 출하 센스)
+
+기계적인 끼임은 없는가?
+
+제품의 취출 불량
+
+기계의 취출 부분에 부착된 SENSOR의 동작은 정상인가?
+
+MAGMETIC SWITCH의 접점 상태는 양호한가?
+
+기계적인 끼임은 없는가?
+
+전체적인 기계의 동작불능
+
+비상정지 PUSH BUTTON SWITCH가 ON 되어있지 않는가?
+
+MAIN POWER는 정상인가?
+
+AIR의 압력은 정상인가?
+
+조작전원은 정상적으로 작동되는가?
+
+PANEL 내부의 FUSE는 단락이 되어있지 않는가?
+
+PANEL 내부의 NFB SWITCH 상태는 정상인가?
+
+단자내의 조임 상태 및 느슨함은 없는가?
+
+각 종 SENSOR류의 상태는 양호한가?
+
+기계의 전기배선 상태는 양호한가?
+
+기계의 과부하 상태는 일정한 비율로 운전이 되고 있는가?
+
+PANEL 전면에 부착된 각종 전기부품의 상태는 양호한가?
+
+BUZZER의 동작
+
+자동 SETTING, 자동운전 PB를 ON, 자동에 돌입하기 전까지
+
+비상정지 PB를 PUSH 했을 때
+
+MOTOR 과부하로 OVER LOAD가 TRIP 되었을 때
+
+기계의 동작이 원활하지 않을 때
+
+비상정지 조작
+
+자동 운전 중 비상정지 PUSH BUTTON을 누르면 현재 작업중인 제품은 바로 				정지되고 비상정지  SWITCH를 해제하면 그 상태에서 다시 자동이 이루어집니				다.
+
+4P CATCH & 7P CATCH 하강하고 CLOSE하기 전이나 후에 비상정지 PUSH 				BUTTON을 누르면 4P CATCH & 7P CATCH OPEN 후 상승하고 2차 STOP이 				하강한다.
+
+비상정지  SWITCH를 해제하던 처음 상태에서 다시 시작한다.
+
+보수 및 점검
+
+정기점검
+
+MAIN PANEL의 전원투입 여부
+
+SENSOR가 정확히 동작하는가? - 동작되는 CYLINDER에 LAMP가 점등					된다.
+
+SENSOR에 고정된 BOLT가 풀리지 않았는가?
+
+BEAM SENSOR 고정 BOLT가 풀리지 않았는가?
+
+BEAM SENSOR 위 먼지가 쌓여 있는가?
+
+COMPRESSOR AIR양은 적당한가?
+
+적산 LIFT 및 LEG LIFT의 유압량은 적당한가?
+
+집게 등 기계의 관절부위에 윤활유(그리스)는 충분한가?
+
+일일 점검 사항
+
+BEAM SENSOR 먼지제거 및 고정BOLT 풀림 상태
+
+COMPRESSOR의 AIR의 적당량
+
+적산 LIFT, LEG LIFT 상승 하강 상태
+
+LOCAL PANEL의 수동조작 시운전 상태
+
+BEAM SENSOR(적재 LIFT) 동작 상태
+
+주간 점검 사항
+
+CYLINDER에 부착된 센스 고정 BOLT 풀림 여부 및 선로 점검
+
+적산 LIFT 하강용, 이송 콘베어 이송용, LEG LIFT 상, 하용 LIMIT 					SWITCH의 동작상태
+
+갯수 확인 BEAM SENSOR 선로 상태 및 동작 상태
+
+MAIN PANEL의 출력 릴레이 고정 상태
+
+MAIN PANEL의 FUSE 단선 유무

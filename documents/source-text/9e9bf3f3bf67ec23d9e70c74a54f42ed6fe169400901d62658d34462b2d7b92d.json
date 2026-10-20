@@ -1,0 +1,74 @@
+{
+  "sha256": "9e9bf3f3bf67ec23d9e70c74a54f42ed6fe169400901d62658d34462b2d7b92d",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "DRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/9\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    0    1\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사전기판넬 외함도 PART-\n200A 3P 400/5A\nDBE403/400A\n200A 3P\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\nO1I\n200/5A200/5A200/5A200/5A\nW140*H90*D135WY3P-200AU V-METERA-METER\n송풍기2\n송풍기2\nON\nOFF\n1800200500\n송풍기1\n송풍기1\nON\nOFF\n스크류1\n스크류1\nON\nOFF\n스크류2\n스크류2\nON\nOFF\n스크류3\n스크류3\nON\nOFF\n스크류5\n스크류5\nON\nOFF\n스크류6\n스크류6\nON\nOFF\n스크류7\n스크류7\nON\nOFF\nOUTPOWER\nCHANGETIMEAutonicsAT8SDNA\nOUTPOWER\nCHANGETIMEAutonicsAT8SDNA\n비상정지\n모터트립\n910111213 14\n1\n5\n32 4\n678\n910111213 14\n1\n5\n32 4\n678\nDC전원 IN060708 000102030405090A0B\nOUT\n0C0D0E0F10 16171811 12131415191A1B1C1D1E1F2021\n40414243444546474C4D4E4F48494A4B5051525354555657\n2223 RUNPWRERRXBC-DR60SU\n1700\n자동운전ON자동운전OFF\n스크류4\n스크류4\nON\nOFF\n로터리밸브2\n로터리밸브2\nON\nOFF\n로터리밸브1\n로터리밸브1\nON\nOFF\n로터리밸브3\n로터리밸브3\nON\nOFF\n로터리밸브4\n로터리밸브4\nON\nOFF\n로터리밸브5\n로터리밸브5\nON\nOFF\n댐퍼1\n댐퍼1\nON\nOFF\n댐퍼2\n댐퍼2\nON\nOFF\n펄스1\n펄스1\nON\nOFF\n로터리밸브6\n로터리밸브6\nON\nOFF\nBUZZERBUZZERSTOP\nEXHAUST CONTROL PANEL\n적산전력량계온도계INDICATER온도계INDICATER\n펄스2\n펄스2\nON\nOFF",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 2,
+      "text": "V-METERA-METER\n송풍기2\n송풍기2\nON\nOFF\n송풍기1\n송풍기1\nON\nOFF\n스크류1\n스크류1\nON\nOFF\n스크류2\n스크류2\nON\nOFF\n스크류3\n스크류3\nON\nOFF\n스크류5\n스크류5\nON\nOFF\n스크류6\n스크류6\nON\nOFF\n스크류7\n스크류7\nON\nOFF\n비상정지\n모터트립자동운전ON자동운전OFF\n스크류4\n스크류4\nON\nOFF\n로터리밸브2\n로터리밸브2\nON\nOFF\n로터리밸브1\n로터리밸브1\nON\nOFF\n로터리밸브3\n로터리밸브3\nON\nOFF\n로터리밸브4\n로터리밸브4\nON\nOFF\n로터리밸브5\n로터리밸브5\nON\nOFF\n댐퍼1\n댐퍼1\nON\nOFF\n댐퍼2\n댐퍼2\nON\nOFF\n펄스1\n펄스1\nON\nOFF\n로터리밸브6\n로터리밸브6\nON\nOFF\nBUZZERBUZZERSTOP\n적산전력량계온도계INDICATER온도계INDICATER\n펄스2\n펄스2\nON\nOFF\nDRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    0    ２\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사전기판넬 외함 조작버튼 상세도",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 3,
+      "text": "3상440VTS R\n3P600ANFB1\nWHM\nP1P2P31S1L2S2L3S3L3상4선식\nV-METER80각A-METER80각300A\n600V\nKL KLKL\nR1T1\n매입형\nM \n송풍기120HP\n300AEOCR1\n(90KW) R1S1T1\nEOCR1PASS MC\n112KWBY PASS 내장형\nM \n송풍기120HP MS1MC-50\n300AEOCR1\n(90KW) R1S1T1\nEOCR1PASS MC\n112KWBY PASS 내장형\nMS1MC-50\nDRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    0   ３\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사전기 결선도 PART １",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 4,
+      "text": "T1R1S1\n321M 스크루3HP MS4MC-9\n546 R1S1T1\n321M MS4MC-9\n546 R1S1T1\n321M MS4MC-9\n546 R1S1T1\n321M MS4MC-9\n546 R1S1T1\n321M MS4MC-9\n546 R1S1T1\n321M MS4MC-9\n546 R1S1T1\nT1R1S1321M MS4MC-9\n546 R1S1T1\n스크루3HP \n스크루3HP \n스크루3HP \n스크루3HP \n스크루3HP \n스크루3HP \nDRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    0    ４\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사전기 결선도 PART ２",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 5,
+      "text": "DRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    0    ５\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사\nT1R1S1\n321M MS4MC-9\n546 R1S1T1\n321M MS4MC-9\n546 R1S1T1\n321M MS4MC-9\n546 R1S1T1\n321M MC-9\n546 R1S1T1\n321M MS4MC-9\n546 R1S1T1\n321M MS4MC-9\n546 R1S1T1\nT1R1S1\n321M MS4MC-9\n546 R1S1T1\n로타리2HP \n로타리2HP \n로타리2HP \n로타리2HP \n로타리2HP \n로타리2HP \n담파2HP \nMS4\n321M MS4MC-9\n546 R1S1T1담파2HP \n전기 결선도 PART ３",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 6,
+      "text": "DRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    0    ６\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사\nTOROSOR440VF4A전압메타 \n조작TR1KW\nT440V\nTO440VRO440VMCCB20 2P10A\n1상440V/220VTO220VRO220VR1-220V조작전원T1-220VMCCB21 2P10A\nTO220VRO220V\nR5전등T5LS MCCB22 2P6AR4\nR1-220VT1-220VMCCB21 2P10A\nR1-220VT1-220VMCCB21 2P10A온도센서\n온도센서\n전기 결선도 PART ４",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 7,
+      "text": "DRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    0    ７\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사\nTOROSO\n펄스TR2KW\nTO440VRO440VMCCB4 2P15A\n1상440V/220V\nTO220VRO220V\nR1-220V펄스전원T1-220VMCCB21 2P10AR1-220VT1-220VMC19\nR2-220V펄스전원T2-220VMCCB21 2P10AR1-220VT1-220VMC20\n전기 결선도 PART ５",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 8,
+      "text": "DRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    0    ８\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사전기회로도 PART １\nOFFR31\nONOFF\nR2\nR4EOCR\nRESETEOCR\nR2R3\nRESETEOCR\nR4R2\nFAULT\nOFFR31\nNONCNONC\nR4R\nERRORONOFF\nR3MC1 CMCMCFWDRESEXT\n112KW440VBY PASS 내장형\n송풍기 １",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 9,
+      "text": "DRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    0    ９\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사\nOFFR31\nONOFF\nR2\nR4EOCR\nRESETEOCR\nR2R3\nRESETEOCR\nR4R2\nFAULT\nOFFR31\nNONCNONC\nR4R\nERRORONOFF\nR3MC1 CMCMCFWDRESEXT\n112KW440VBY PASS 내장형\n송풍기 ２\n전기회로도 PART ２",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 10,
+      "text": "DRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    １    ０\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사\nOFF\nON\nOCR\n로타리벨브 6개\nMC3\n스크류 컨베이어 7개\nOFF\nON\nMC\nOFF\nON\nMC\n펄스전원1펄스전원2\n전기회로도 PART ３",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 11,
+      "text": "DRAWING NO\nPORJECT NAME\nSCALE\nNAME OF DRAWING\n A2-1/1\nENGINEERING\nNo.DESCRIPTIONCheckedDateDesign0For Approval- 26.04.20\n      (주)세진메탈3공장 볼밀 집진시설공사\nE      0    １    １\n(주) 디에스피앤이\nDrawnJH HaHY LeeApprovalYSY\n볼밀 Bag Filter 1620CMM 교체공사\nSS\n담파(2대)\nR\n수동/자동\nL1\nON\nOCRMC\nMC2\nR\nMC1\nL1\nR\n담힘\nMC1\nL2\nON\nOCRMC\nMC1\nR\nMC2\nL2\nY\n열림\nMC2\n전기회로도 PART ４",
+      "width": 595.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 11
+}

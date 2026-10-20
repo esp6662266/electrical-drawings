@@ -1,0 +1,14 @@
+{
+  "sha256": "24b0f58e57273d764b0e984abc3c0f56d6191aa70c7f46273d4edc1a25bd11e9",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "T200\n15\nR205\n13\nP004D P004E\n14\n10 2\n1917\nP004F P0050\n16\nP0051 P0052\n18 COM\nP0053 P0054\n20\nR206 P0055\n21\n43 5 6 7 8\nT200\nP0056 P0057\n22 23\nP0058\n24\nR205\nCOM\n9 10 11 12 13 14\nR205\n15 16\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nPLC Digital Output Diagram-02\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nY-02Y-01 G-01R-03 G-02 R-01G-03 R-02\nDoor Motor trip -02\nExhaust ags dmper Motor trip-03 \nGas pressure High\nGas pressure Low\nAir pressure Low\nNO-01 Burner on/off PBL\nNO-02 Burner on/off PBL\nNO-01 Burner Flame- O.K\nNO-01 Burner Flame- Miss\nNO-02 Burner Flame- O.K\nNO-02 Burner Flame- Miss\nR-03 G-04 G-05R-04\n2011-02\nALCO -2011 - E011 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nCombustipon Motor trip -01",
+      "width": 841.68,
+      "height": 595.2
+    }
+  ],
+  "page_count": 1
+}

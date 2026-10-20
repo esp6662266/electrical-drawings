@@ -1,0 +1,296 @@
+{
+  "sha256": "c649db247cf164dd242ac8e264e7ebbba8a5409f51ab7de2e864aa98c1130c89",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Steinert GmbH \nWiddersdorfer Straße 329-331 • D -50933 Köln \nPostfach 45 11 60 • D -50886 Köln \nTelephone: \nSwitchboard *49-(0)221 / 49 84 - 0 \nSpare parts *49-(0)221 / 49 84 - 177 \nService / repairs *49-(0)221 / 49 84 - 132 \nTelefax +49-(0)221 / 49 84 - 102\nE-mail sales@steinert.de \nw ww.steinert.de \nINSTRUCTION OF INCORPORATION (EN) \nUnit Magnet Separator \nType M OR 120 165 MT 40 U \nManufacturer’s no. 18 0143 150 01 + 18 0143 160 01 \nJob no. A 1180143 \nCustomer S ejin Metal CO., LTD. \n15, Wonbong-m \nOnsan-eup      \nROK -       Ulju-gun, Ulsan \nOrder number \nOrder date 2018-02-06 \nProject name \nEnd customer \nYear of manufacture 2018 \nTranslation of original operating instructions ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 2,
+      "text": " \n \n \n 2  \n \nGB_MOR ... MT 30 bis 50 -06 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 3,
+      "text": " \n \n \n 3  \n \nGB_MOR ... MT 30 bis 50 -06 \n \nContents \n \n \nLimit values for magnetic field intensity for the protection of persons ...................................9\n \n1)  Protection against static magnetic fields .............................................................................9 \n2)  Protection against rotating magnetic fields with a frequency           ≥ 1 Hz to 30 kHz .....9 \nOccupational safety and warning notes .................................................................................... 11  \nOccupational safety 11  \nMagnetic fields 11  \nTemperature 12  \nSound pressure level 12  \nTransport 13  \nAssembly 13  \nOperation 14  \nFalling objects 14  \nMaintenance 14  \nPersonal 14  \nResponsibility of the operator (operating company) ............................................................... 15  \nLimitation of liability .................................................................................................................... 16  \n1.  Technical data MOR/MGR ... MT 40 U/A ............................................................................. 17  \n1.1  Operating conditions 18  \n1.2  Type plate 18  \n2.  Transport, packing and storage ......................................................................................... 19  \n2.1  Safety notes for transport 19  \n2.2  Transport 21  \n2.3  Transport / dispatch 22  \n2.4  Symbols on the packing 23  \n2.5  Storing 24  \n3.  Installation and commissioning ......................................................................................... 25  \n3.1  Installation 25  \n3.2  Inspections 25  \n3.3  Commissioning 26  \n3.4  Connection to the power supply 26  \n4.  Maintenance ......................................................................................................................... 27  \n4.1  Personnel 27  \n4.2  Maintenance schedule 28  \n5.  Greasing for drive ................................................................................................................ 29  \n5.1  Environmental Protection 29  \n6.  Replacement of the drum shell of magnetic drums -  diameter 300 to 650 mm ............ 30  \n7.  Malfunctions ......................................................................................................................... 31  \n7.1  Staff 31  \n7.2  List of mechanical faults 32  \n8.  Disposal ................................................................................................................................ 33  \n9.  Appendix ............................................................................................................................... 35  \nDimension plan/ Installation plan 35  \nSpare parts list 37  \nInstructions - Vibrating feeder ZOR 39  \nInstructions - Magnetic drum MTP 41  \nDrive 43  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 4,
+      "text": " \n \n \n 4 \n \nGB_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 5,
+      "text": " \n \n \n 5 \n \nGB_MOR ... MT 30 bis 50 -06 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThese notes must be carefully observed. Pass this documentation on to \nthe machine operating personnel. \n \nIt must be ensured that all persons tasked with the assembly, operation \nand servicing of the machine have read and understood these operating \ninstructions before they commence their work. \n \nThe operation and commissioning must be carried out by trained \npersonnel.  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 6,
+      "text": " \n \n \n 6  \n \nGB_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 7,
+      "text": "  \n \n \n \n \n \n \nMagnetic separator \n MOR \n \nMaterial feed system ZOR* \nMagnetic drum permanent MTP* \n \n ZOR MTP MOR \n \n \n \n *For details, refer to the description of the installed components in the Annex. \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 8,
+      "text": " \n \n \n 8  \n \nGB_MOR ... MT 30 bis 50 -06 \n \n  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 9,
+      "text": " \n \n \n 9 \n \nGB_MOR ... MT 30 bis 50 -06  \n \nLimit values for magnetic field intensity for the protection of \npersons \n \n \n \n \n \n1) Protection against static magnetic fields \nThe maximum permitted limit value for persons with an implanted pacemaker  is \n1 mT (equal to 10 gauss). \nThis value is not exceeded at a distance ≥ 5 m to the strongest magnet. \nWith limited exposure time, the maximum permitted value for persons without implants  is 2 T \n(20000 gauss). \nThe permitted average value for prolonged exposure (approx. 8 h) is 212 mT. \nThe maximum measured values at a distance of approx 1 m to a magnet with maximum \nmagnetic field intensity and power of 70 kW were less than 100 mT.  \n \n2) Protection against rotating magnetic fields with  a frequency  \n         ≥ 1 Hz to 30 kHz \nThe maximum permitted limit value for persons with an implanted  pacemaker  is \n0.1 mT (equal to 1 gauss). \nThis value is not exceeded at a distance ≥ 3 m to the strongest magnet. \nWith limited exposure time, the maximum permitted v alue for persons without implants  is \n0.2 mT (equal to 2 gauss). \nThis value is not exceeded at a distance ≥ 1.5 m to the strongest magnet. \n \n \n \n \n \nSources: BG regulations, issued 08/2004, DIN EN 45502-2-1 Safety of implantable pa cemakers \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 10,
+      "text": " \n \n \n 10 /44  \n \nGB_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 11,
+      "text": " \n \n \n 11  \n \nGB_MOR ... MT 30 bis 50 -06  \n \nOccupational safety and warning notes \n \nThis chapter of the operating instructions contains the notes, regulations and guidelines \nwhich are intended to prevent danger to the health and life of personnel and damage or \ndestruction of the machine as a result of incorrect operation! \n \nOccupational safety \n  \nThis sign is assigned to those occupational safety notes in the operating instructions \nwhich are intended to prevent danger to the health and life of personnel. \n \n \nPersonal responsibilities for assembly, commissioning, operation and servicing must be clearly \ndetermined so that safe operation of the machine is not adversely affected. \nThe machine is constructed according to the latest state of the art and is safe in operation. If \nhowever, it is incorrectly operated by untrained personnel, it could give rise to dangers. \nAlso observe and comply with local accident prevent ion regulations and general safety \nregulations and any internal instructions regarding  work, operation and safety issued by the \ncustomer applying to the machine's/plant’s area of operation.  \n \n \nMagnetic fields \n There is a risk of damage to data carriers such as credit cards, discs and sound \ntapes in the immediate vicinity of the machine due to the magnetic fields! \nNo parts with ferromagnetic properties may be worn or transported in the \nimmediate vicinity of the machine i.e. within a distance of less than 2 m. \n \nCAUTION!    Danger of crushing!  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 12,
+      "text": " \n \n \n 12  \n \nGB_MOR ... MT 30 bis 50 -06  \n \nTemperature \n \nSurface temperatures can reach more than 50°C! \n \n \nSound pressure level \n \n \nHearing protection \nThe sound pressure level in idle running (without separation material) is less than \nor equal to 75 dB (A). \nThe sound pressure level can increase considerably depending on the separations \nmaterial. In this event the operator has to take appropriate measures for ear \nprotection. \n \nWARNING! \nHearing loss due to noise! \nThe noise level present in the work area can cause severe hearing loss. \nTherefore: \n– Always wear hearing protection during work. \n– Restrict your stay in the danger area as far as possible. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 13,
+      "text": " \n \n \n 13  \n \nGB_MOR ... MT 30 bis 50 -06  \n \nTransport \nWhen transporting the machine or individual parts t hereof, it must be ensured that the \ntransport equipment is only attached to the points on the machine which are expressly \nintended for that purpose or that a transport rack is used. \n \n \nATTENTION! \nRisk of life due to suspended loads! \nTherefore: \n– Never step under suspended loads. \n– Heed the information regarding the provided lashing points. \n– Do not sling to protruding machine parts or eyes of mounted components. Make \nsure the sling gear is securely seated. \n– Use approved hoist gear and sling gear with sufficient capacity only. \n– Do not use ropes or belts with cracks or wear signs. \n– Do not put ropes and belts around sharp edges and corners, do not kink or twist \nthem. \n \n \nAssembly \nUnauthorised conversions and changes to the machine  on the part of the operator which \ncould have an adverse effect on safety are not permitted. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 14,
+      "text": " \n \n \n 14  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n \nOperation \nThe machine is exclusively intended for the purpose  agreed with the manufacturer and for the \nspecified material to be conveyed. In the event of non-compliance with this stipulation, the \nmanufacturer excludes all liability for resulting damage. \nNever operate the machine without protective enclosure. \nThere is a risk of sustaining knocks or bruising from ribbed conveyor belts that are either in \nmotion or starting up and from drum shells with discharge strips. \nThere is a risk of clothing, hair etc. getting caught and/or coiled when rollers / shafts are rotating. \n \nFalling objects \n \n \nATTENTION! \nThere is always the possibility of falling objects during operation. \n \n \nMaintenance \nAll maintenance and setup work is to be carried out with the machine at a standstill. Before starting \nthis work, ensure that the machine cannot be switched on by mistake or by unauthorised persons. \n  \nForeign bodies that are stuck in the conveyor belt must be removed in good time! Such foreign \nbodies could come loose at high speed! \n \nPersonal \n \n \nATTENTION! \nThe staff charged with installation, operation, maintenance and inspection must \nhave the appropriate qualification for working on the machine, and must have \nreceived instructions by the operator regarding the tasks involved and the \npotential risks in case of inexpert behaviour. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 15,
+      "text": " \n \n \n 15  \n \nGB_MOR ... MT 30 bis 50 -06 \n \nResponsibility of the operator (operating company) \nThe system is used for commercial purposes. The sys tem’s operator (operating company) is \ntherefore subject to the legal obligations regarding health and safety at work. \nIn additional to the occupational safety notes in t hese operating instructions, the safety, \naccident prevention and environmental protection re gulations applicable to the area of \napplication of the system must be observed. \n \nThis includes the following in particular: \n\u0001 The operator must inform themselves of the applica ble regulations covering health and \nsafety at work and determine further dangers resulting from the specific working conditions \nat the place of use of the system by means of a risk assessment. The operator must \nimplement the recommendations of the risk assessment in the form of operating instructions \nfor the operation of the system. \n\u0001 The operator must unambiguously determine and spec ify the responsibilities for installation, \noperation, maintenance and cleaning. \n\u0001 The operator must ensure that all employees who wo rk with the system in any way have \nread and understood the operating instructions. \nFurthermore, the operator must train the personnel and inform them of the dangers at \nregular intervals. \n\u0001 The operator must provide the personnel with the r equired protective equipment. \n\u0001 The operator must ensure that the maintenance inte rvals described in these operating \ninstructions are observed. \n\u0001 The operator must ensure that all safety equipment  is regularly checked to ensure its \nfunctionality and completeness. \nThese operating instructions provide important note s on working with the system. Observing \nall of the safety notes and handling instructions given is a precondition for safe working. \nIn addition, the applicable local accident preventi on regulations and general health and \nsafety directions must be observed. \nRead through the operating instructions carefully b efore starting any work! These \ninstructions are a part of the product and must be kept in the immediate vicinity of the system \nand be accessible for the personnel at any time. \nThe illustrations in these instructions are intende d to improve the representation of the facts. \nThey are not necessarily to scale and can exhibit m inor differences to the actual \nconfiguration of the system.  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 16,
+      "text": " \n \n 16  \n \nGB_MOR ... MT 30 bis 50 -06 \n \nLimitation of liability \nAll information and notes in the present instructions are based on valid standards and regulations, \ncurrent state of technology and our long-standing experience and expertise. \nThe manufacturer will not assume liability in case of: \n\u0001 non-adherence to instructions \n\u0001 improper use \n\u0001 employment of untrained staff  \n\u0001 unauthorised conversions \n\u0001 technical modification \n\u0001 use of unapproved spare parts \nThe actual scope of delivery can differ from the present descriptions and illustrations in case of \nspecial variants, when additional options are ordered or because of late-breaking technical \nchanges. \nThe liabilities agreed in the supply contract, the General Terms and Conditions and the legal \nprovisions applicable at the time of execution of the agreement shall apply. \n \n \nWe reserve the right of technical modification in the context of improving the performance \ncharacteristics and further development. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 17,
+      "text": "1 7 / 44 \nGB_MOR ... MT 30 bis 50 -06 \n1. Technical data MOR/MGR ... MT 40 U/A\nA\nttention ! These technical dates only apply for standard type.\nM_R 45 140 \nM_R 45 131 \nM_R 55 140 \nM_R 55 131 \nM_R 65 165 \nM_R 65 156  \nM_R 95 165 \nM_R 95 156  \nM_R 120 165 \nM_R 120 156 \nM_R 145 165 \nM_R 145 156 \nM_R 175 165 \nM_R 175 156 \nM_R 195 165 \nM_R 195 156 \nMT 40 U/A \nVibrating Feeder: \nFeeder width mm 450 550 650 950 1200 1450 1750 1950 \nDrive type Magnet Vibrating Feeder \nReal output  kW 0,4 0,7 1,0 1,2 1,7 \nDrive type Unbalance Vibrating Feeder \nReal output  kW 2 x 0,4 2 x 0,6 2 x 0,8 2 x 0,8 2 x 0.65 2 x 0.95 \nSupply voltage 242 - 277 / 420 - 480 V \nFrequency 60 Hz \nProtection IP 65 \nMagnetic drum MTP \nDiameter mm 400 \nWidth mm 500 630 710 1000 1250 1500 1800 2000 \nDrive: \nRevolution 33 rpm\nPower input 0.75 kW \nSupply voltage 240 / 415 V DS \nFrequency 50  Hz \nSupply voltage 254 - 266 / 440 - 460 V DS \nFrequency 60  Hz \nProtection IP 55 \nTotal weight   without drum \nMOR approx. kg 750 950 1050 1150 1350 1550 1750 1950 \nMGR approx. kg 900 1100 1200 1300 1500 1700 1900 2100 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 18,
+      "text": " \n \n \n 18  \n \nGB_MOR ... MT 30 bis 50 -06 \n \n1.1 Operating conditions \n \n   \nEnvironment \n  \nSpecification Value  Unit \nTemperature range -20°C to +40  °C \n \n  \n \n \n \n1.2 Type plate \n  \n \n \nType plate  \nThe type plate is located on the base chassis and comprises the \nfollowing data: \n \n\u0001 Manufacturer with address \n\u0001 Type \n\u0001 Year of manufacture \n\u0001 Order number \n\u0001 Serial number \n\u0001 Supply voltage \n\u0001 Weight  \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 19,
+      "text": " \n \n \n 19  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n2. Transport, packing and storage \n2.1 Safety notes for transport \n \nSuspended Loads \n \nWARNING! \nDanger to life due to suspended loads! \nWhen lifting loads there is a danger to life due to falling \nor swinging parts. \nTherefore: \n– Never stand under a suspended load! \n– Note the instructions concerning the lifting poin ts \nprovided. \n– Do not attach slings to projecting machine \ncomponents or to the eyes of attached components; \nensure that the slings are securely seated. \n– Only use approved lifting gear and slings with \nsufficient load-bearing capacity. \n– Do not use torn or frayed rope or belts. \n– Do not lay ropes and belts on sharp edges and \ncorners, do not knot or twist ropes and belts. \n \n \nOff-centre Centre of Gravity \n \nWARNING! \nDanger of falling due to off-centre centre of gravity! \nPacking crates can have an off-centre centre of gravity. \nIf the slings are not attached correctly the packing crate \nmay tip and cause fatal injuries. \nTherefore: \n– Note the markings on the packing crates \n– Attach the crane hook in such a manner that it is  \nover the centre of gravity. \n– Lift carefully and observe whether the load tips.   \nIf necessary, change the position of the slings. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 20,
+      "text": " \n \n \n 20  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n \n \nIncorrect transport \n \nCAUTION! \nIncorrect transport can cause damage! \nIncorrect transport can cause extensive damage. \nTherefore: \n– When unloading the packing units on delivery and \nduring in-house transport, exercise caution and \nobserve the symbols on the package. \n– Use only the attachment points provided. \n– Do not remove packaging material until the units are \nready for assembly. \n– Machine components that are not placed on pallets :  \ndo not use a forklift for the delivery and the in-house \ntransport of these items. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 21,
+      "text": " \n \n \n 21  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n2.2 Transport \nTransporting packages  \nwith a crane \n \n             \n \nPackages with attachment eyes can be transported with a crane \nunder the following conditions: \n\u0001 The crane and lifting gear must be suitable for th e weight of the \npackages. \n\u0001 The operator must be authorised to operate the cra ne. \nAttaching: \n1. Attach ropes, belts or multi-point suspension gear  at the \nappropriate positions (see illustration). \n2. Make sure that the package is suspended evenly and , if \nnecessary, note the off-centre centre of gravity. \n \nTransporting pallets with a \ncrane \n \n          \n \nPackages on pallets may be transported with a crane under the \nfollowing conditions: \n\u0001 The crane and lifting gear used must be suitable f or weight of the \npackages. \n\u0001 The operator must be authorised to operate the cra ne. \nAttaching: \n1. Attach the ropes, slings or multi leg slings to th e pallet as shown \nin the illustration. \n2. Check if the packing pieces have been damaged by t he slings \ndevices. Use other load-suspension devices if necessary. \n \n \nTransporting pallets with a \nforklift \n \n \n \nPackages on pallets can be transported with a forklift under the \nfollowing conditions: \n\u0001  The forklift used must be suitable for the weight  of the \ntransported units. \n\u0001  The driver must be authorised to operate the fork lift. \nAttaching : \n1.  Insert the forks of the forklift between or under  the beams of the \npallet. \n2.  Insert the forks in until they protrude at the ot her side. \n3.  Ensure that the pallet cannot tilt when the centr e of gravity is off-\ncentre. \n4.  Lift the package . ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 22,
+      "text": " \n \n \n 22  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n2.3 Transport / dispatch \nWhen transporting with a crane and installing, take  care that the machine is only transported \nor lifted by the lifting eyes (2) using suitable li fting gear. A cross-beam should be used if \npossible. \n\u0001 Magnetic separator MGR (configuration example) \n \n\u0001 Magnetic separator MOR (configuration example) \n \n \nIn addition to these notes, the general and the loc al health and safety directives must be \nobserved.  \nCentre of gravity \n \nATTENTION \nObserve the position of the centre of gravity for lifting and \ntransport. \n1 1 \n1 1 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 23,
+      "text": " \n \n \n 23  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n2.4 Symbols on the packing \n \nTop \nThe arrows in this sign indicate the top side of the package. They \nmust always point upward, as otherwise the contents may be \ndamaged. \n \nProtect against moisture \nProtect packages against moisture and keep dry. \n \nFasten lifting gear here \nOnly attach lifting gear (chain, lifting belt) at the points marked with \nthis symbol. \n \nCentre of gravity \nIndicates the centre of gravity of packages. \nNote the position of the centre of gravity for lifting and transport. \n \nWeight, lifted load \nIndicates the weight of packages. \nThe marked package must be handled according to its weight. \n \nUse of forklifts prohibited \nTo prevent the package from being damaged, a forklift must not be \nused for transportation! \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 24,
+      "text": " \n \n \n 24  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n2.5 Storing \nStorage of magnetic separators in open space is not permitted. They have to be protected \nagainst humidity, chemically aggressive atmosphere, frost and snow and shall therefore be \nstored in dry localities. \n \nStoring the packages Store the packages under the following conditions: \n\u0001 Do not store outdoors. \n\u0001 Store in a dry and dust-free location. \n\u0001 Do not expose to any aggressive media. \n\u0001 Protect against direct exposure to sunlight. \n\u0001 Avoid mechanical vibrations. \n\u0001 Storage temperature: +5 °C to +50 °C: \n\u0001 Relative humidity: max. 60%. \n\u0001 When storing for more than 3 months, check the ove rall condition \nof all parts and the packaging at regular intervals. If necessary, \nrenew or replace the preservatives. \nNOTE! \nThe packages may carry storage information in addition to the \nrequirements mentioned here. Follow any such additional \ninformation. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 25,
+      "text": " \n \n \n 25  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n3. Installation and commissioning \n \nNOTE! \nInstallation and commissioning is performed by qualified employees of the owner or by \npersons authorised by him and instructed by the manufacturer. \n \n3.1 Installation \nThe arrangement of the components can be seen from the “arrangement plan” (see Appendix). A \nhorizontal arrangement on a non-vibrating support is essential. Consult a structural engineer to \ndetermine the specifications of the necessary foundation. \nA sufficient fall height below the material outlet must be provided for the material to be conveyed. \nConsider the dynamic stress caused by the movements involved when setting up the machine on a \nself-supporting floor. \nMaterial must be prevented from backing up. \nA material flow diversion should be planned when configuring the material feed, as no further \nmaterial may arrive at the material feed of the magnetic separator in the event of a fault. \n \n \n \n3.2 Inspections \nAfter installation, subject the entire plant to an inspection in line with locally applicable \nregulations before commissioning. Later you must in spect the entire plant for technical \ndefects in line with locally applicable regulations at regular intervals. \n \nDanger of injury and \ndamage \n \nCAUTION!! \nThe magnetic drum and the magnetic pulley contain \npermanent magnets with high attractive power. \n- Do not put tools onto the conveyor belt or approa ch the \ndrum shell with iron. Iron will be attracted and bruises \nand fractures could result. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 26,
+      "text": " \n \n \n 26  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n3.3 Commissioning \nHeed the following items after completion of installation and prior to commissioning: \n- Check all filling levels and top up with suitable  consumables if necessary prior to commissioning. \n- Check the adjustment of magnet system of the drum , adjust if necessary, see  “Adjusting the \nmagnet system”. \n- Check the conveying direction of the magnetic dru ms, see “Construction and function principle of \nmagnet drums”. \n- Adjust the splitter in relation to the magnet dru m, depending on the material flow. \n- Check all components and screwed connections for secure seat. \n- OPTION - Check the speed sensor for proper functi on. \n- Make sure the direction of rotation of the unbala nced drives of the vibratory conveyor matches \nthe direction specified by the manufacturer. \n- Heed the instructions for the respective machine part in the Appendix. \n- Make sure the ambient temperature complies with t he specified range. \n \n3.4 Connection to the power supply \nOnly trained electricians are allowed to connect th e plant to the power supply. For further \ninformation regarding connection instructions and c able cross sections please refer to the \nwiring diagram. \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 27,
+      "text": " \n \n \n 27  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n4. Maintenance \n \nThe following sections describe the maintenance wor k which must be performed to ensure \nthat the machine will perform at its best and without any malfunctions. \nIf regular inspections reveal an increased wear, sh orten the required maintenance intervals \nas required to correct the actual level of wear. \nPlease contact the manufacturer if you have any que ries about maintenance operations and \nintervals, (see cover sheet). \n \nDevices that are not operated on a daily basis must be inspected at least once a week. \nIf there is a danger of frost and precipitation at the same time, the magnet system of \nelectromagnetic drums must be switched on permanent ly outside operating hours or roofing \nmust be provided when assembling outside.  \n \n \n4.1 Personnel \nThe maintenance work described here can be carried out by the operator unless otherwise \nindicated. \nSome maintenance tasks can only be carried out by t rained qualified personnel, or only by \nthe manufacturer. In these cases this is specially indicated in the description of the individual \nmaintenance tasks. \nWork on the electrical equipment should only be carried out by a qualified electrician. \nBefore starting work, switch off all power supplies  and secure against switching on \nagain. \n \n \nCAUTION! \nDamage due to dirt!  \nForeign objects in the conveyor belt and on the drum jacket result in damage and \neven complete failure. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 28,
+      "text": " \n \n \n 28  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n4.2 Maintenance schedule \nInterval Maintenance task Remarks To be \nperformed by \nevery 200 OHS Check the drum body for wear. \nUnder no circumstances must the drum be \nso badly worn that foreign bodies can \npenetrate into the magnet system through \nthe perforated body. \nVisual inspection Operator \nDischarge strips must be checked. \nBent or broken-off discharge strips indicate \nthat pieces of material that are too large are \njammed. \nVisual inspection \nOperator \nCheck the oil and the oil level of the drive \nmotor \nVisual inspection Operator \nannually Change gear oil * Qualified \ntechnician \nCorrosion and surface check Visual inspection Operator \nCheck if all screw connections are tight Re-tighten if necessary Qualified \ntechnician \nevery 18 moth \nor after 2,000 \nOHS \nRenew the grease in the bearing chamber Only for ... MT 50 U Qualified \ntechnician \nevery 3 years \nor after 4000 \nOHS \nChange mineral oil in the drive motor Observe the operating \nconditions* \nQualified \ntechnician \nChange the roller bearing grease in the drive \nmotor \n* Qualified \ntechnician \nChange the rotary shaft seal in the drive motor * Qualified \ntechnician \nevery 5 years \nor after 6,500 \nOHS \nChange mineral oil in the drive motor Observe the operating \nconditions* \nQualified \ntechnician \nChange the roller bearing grease in the drive \nmotor \n* Qualified \ntechnician \nChange the rotary shaft seal in the drive motor * Qualified \ntechnician \n* = see supplier's documentation included in the \"Appendix ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 29,
+      "text": " \n \n \n 29  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n5. Greasing for drive \nThe first filling is carried out at the factory usi ng the Hydraulic oil  DIN (ISO) CLP HC  \nVG 460 . For specifications, see supplier's documentation included in the \"Appendix\". \n \n \n5.1 Environmental Protection \nCAUTION! \nEnvironmental hazard caused by incorrect handling! \nIncorrect handling of environmentally hazardous substances, especially incorrect waste \ndisposal, can cause considerably damage to the environment. \nTherefore: \n– Always comply with the following information. \n– If environmentally hazardous substances are accid entally released into the \nenvironment you must immediately apply appropriate countermeasures. If in doubt, \nconsult the responsible municipal authority to inform about the damage. \n \nLubricant storage \nSolid cooling lubricants and lubricants like oils and grease must be stored in clean and closed bin, \nto avoid in filtration from dust and humidity. \nThe store location must be dry and frigid. \n \nCaution! \nLubricants like greases and oils contain toxic substances. \n– These must not be released into the environment. \n– They must be disposed of by a special waste disposal company. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 30,
+      "text": " \n \n \n 30  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n6. Replacement of the drum shell of magnetic drums -  \ndiameter 300 to 650 mm \n1. Fix exactly the position of the adjustment key i n order to get the same position later.  \n2. Arrest the position of the adjustment key via a chain hoist. \n3. Loosen the clamping bearing part 13  \n4. Loosen the chain hoist (see point 2) slowly, so that over the adjustment key the magnet \nsystem can oscillate in the position of rest (gravity center).  \n5. Remove the chain hoist.  \n6. Dismount terminal box and locking plate for elec tro-magnetic drum).  \n7. Detach the adjustment key for permanent magnetic  drum).  \n8. Place the rotation supports part 12 between drum  cover and clamping bearings, lift them \nslightly a few tenth millimetres by means of the ch ain hoist (relieve the clamping bearing \npart 13) to draw it from the shaft.  \n9. Underlay the drum shell over a large expanse -at  least 200 mm - (so that it cannot fall \ndown later).  \n10. Sling the rape hoist around the free shaft end and lift it slightly (secure it by means of the \nlacking plate or the adjustment key).  \n11. Loosen the fastening screws of the drum covers crosswise at the manganese drum shell \nand pull the drum covers with rotation supports till the rope suspension at the shaft end.  \nAttention:  Procure new radial sealing ring part 116 for the following mounting.  \n \n12. Support the shaft between drum shell and pulled  off drum cover.  \n13. Loosen the chain hoist and pull drum cover with  rotation supports off the shaft.  \n14. Lengthen the shaft by means of a tube (till the  stop of the diameter change). (Tube length = \nwidth of the drum shell). Wall thickness: approx. 3 mm; material: St 37.  \n15. Lift the slipped-on tube at the end by means of  the chain hoist, relieve the support and shift \nit till the suspension.  \n16. Lift the drum shell at the tube lengthening.  \n17. Support the shaft and remove the drum shell com pletely or lift the shaft by means of the \nchain hoist and then remove the drum shell completely.  \n18. Mounting of the new drum shell in reverse order  as above.  \n \n \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 31,
+      "text": " \n \n \n 31  \n \nGB_MOR ... MT 30 bis 50 -06 \n \n7. Malfunctions \nThe following chapter describes possible causes for malfunctions and steps necessary to eliminate \nthem. \nReduce the maintenance intervals according to the actual requirements if malfunctions occur more \nfrequently. \nContact the manufacturer if malfunctions cannot be eliminated by following the hints below. \n \nInexpert malfunction \nelimination \n \n \nWARNING! \nRisk of injury due to inexpert malfunction \nelimination! \nInexpert malfunction elimination can result in severe \ninjury to persons and damage to material. \nTherefore: \n– Ensure there is enough clear space and you can \ntake a safe stand before starting work. \n– Ensure tidiness and cleanliness at the installati on \nsite! Loosely stacked or scattered components \nrepresent an accident risk. \n– When components were removed: make sure \nthey are correctly installed, fit all fastening \nelements again and heed the tightening torques \nfor the screws. \n \n \n7.1 Staff \nIf not specified otherwise, the troubleshooting measures can be performed by the operator. \nSome of the work is restricted to specially trained staff or the manufacturer; this will be indicated in the \ndescription of respective malfunctions. \nAlways assign work on the electric system to trained electricians only. \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 32,
+      "text": " \n \n \n 32  \n \nGB_MOR ... MT 30 bis 50 -06 \n \n7.2 List of mechanical faults \n \nFault  Possible cause  Elimination  Elimination by  \nPoor material \ntransfer to the \nmagnet drum  \nHeavy deposits in the trough  Clean Operator \nIncorrectly adjusted trough \nmotors Check direction of rotation* Authorised \nelectrician \nTrough defective Check trough* Authorised \nelectrician \nPoor or wrong \nseparation yield \nMagnetised machine parts \nwithin the non-magnetic area  Replace with non-magnetic parts Specialist \nAgglomeration of material \nat/around the splitter Clean splitter Operator \nJammed material, in \nparticular at the discharge \nstrips \nRemove when the drum is at \nstandstill Operator \nDischarge strips bent or torn \noff Repair/replace Specialist \nDistance between trough \noutlet and magnet drum not \nmatched to the material \nCheck the distance between \ntrough outlet and upper magnet \ndrum. \nOperator \nPosition of splitter does not \nmatch material \nAdjust the splitter to match the \nbottom magnet drum Operator \nBearing noise Defective bearings Replace bearings  Operator \nMotor sways heavily \n(wobbles) \nDrive journal bent Replace drive journal Operator \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 33,
+      "text": " \n \n \n 33  \n \nGB_MOR ... MT 30 bis 50 -06  \n \n8. Disposal  \n \nClean the plant to be disassembled and dismantle it  according to applicable industrial safety \nand environment protection regulations. \n\u0001 Physically separate the plant from all energy supp lies and discharge stored residual energies.  \n\u0001 Remove operating and auxiliary media as well as re sidual processing material and dispose of \nthem in an environmentally compatible manner. \n \n \nAccording to the condition of the device and existing regulations, recycle dismantled parts. \n\u0001 Scrap metals. \n\u0001 Have plastic parts recycled. \n\u0001 Dispose of all other components sorted according t o material type. \n \n \nCAUTION! \nEnvironmental damage due to incorrect disposal! \nElectric scrap, electronic components, lead components, lubricants and other operating \nmedia must be treated as special waste und may be disposed of by approved disposal \ncompanies only! \n \n \nLocal authorities or specialised waste management companies provide information regarding \nenvironmentally compatible disposal. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 34,
+      "text": " \n \n \n 34  \n \nGB_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 35,
+      "text": " \n \n \n 35  \n \nGB_MOR ... MT 30 bis 50 -06 \n \n9. Appendix \nDimension plan/ Installation plan ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 36,
+      "text": " \n \n \n 36  \n \nGB_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 37,
+      "text": "",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 38,
+      "text": "",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 39,
+      "text": " \n \n \n 37  \n \nGB_MOR ... MT 30 bis 50 -06 \n \nSpare parts list ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 40,
+      "text": " \n \n \n 38  \n \nGB_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 41,
+      "text": "GB_Ersatzteile MOR .. ... MT40-01 \nSpare parts list MOR … ... MT 40 U \n3  \n2 1 \nAttention! Please indicate serial No. and our ref. No. for any spare parts order! \nPos. Stk \nMOR 45 140 MOR 55 140 MOR 65 165 MOR 95 165 MOR 120 165 MOR 145 165 MOR 175 165 MOR 195 165 \n… MT40 U \n1 1 Magnetic drum MTP 125 S 40 G N1 \n2 1 \nShaft – mounted worm gear motor Fa. SEW \nSA 57 DRN 80 M4 \nP=0.75 kW, n= 33 rpm, mounting position M4B, \nObserve tension and frequency on type plate! \nFBP07 01670 \n3 1 \nUnbalance / Magnet - Vibrating Feeder \nFU(M)F 450/-\n220x1400 \nFU(M)F 550/-\n220x1400 \nFU(M)F 650/-\n220x1650 \nFU(M)F 950/-\n220x1650 \nFU(M)F 1200/-\n220x1650 \nFBP05 00666 \nFU(M)F 1450/-\n220x1650 \nFU(M)F 1750/-\n220x1650 \nFU(M)F 1950/-\n220x1650 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 42,
+      "text": " \n \n \n  \nGB_Ersatzteile MOR .. ... MT40-01 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 43,
+      "text": " \n \n \n 39  \n \nGB_MOR ... MT 30 bis 50 -06 \n \nInstructions - Vibrating feeder ZOR ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 44,
+      "text": " \n \n \n 40  \n \nGB_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 45,
+      "text": " \n \n \n 41  \n \nGB_MOR ... MT 30 bis 50 -06 \n \nInstructions - Magnetic drum MTP ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 46,
+      "text": " \n \n \n 42  \n \nGB_MOR ... MT 30 bis 50 -06 \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 47,
+      "text": " \n \n \n 43  \n \nGB_MOR ... MT 30 bis 50 -06 \n \nDrive ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 48,
+      "text": " \n \n \n 44  \n \nGB_MOR ... MT 30 bis 50 -06 \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 48
+}

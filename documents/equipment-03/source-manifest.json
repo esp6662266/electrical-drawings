@@ -1,0 +1,573 @@
+{
+  "equipment_id": "PREHEATER-03",
+  "number": 3,
+  "name": "3번 예열기",
+  "source_folder": "\\\\192.168.20.250\\시설관리\\통합지원본부\\김범주(작업정리중)\\3번 예열기",
+  "source_count": 40,
+  "unique_source_count": 40,
+  "sources": [
+    {
+      "id": "S5ac8d7915898d5c7",
+      "name": "(주)세진메탈1공장(울산울주원봉로15)_준공도면(20221122)-Mode2l.pdf",
+      "relative_path": "3. LNG 신설(래들예열기 추가)/(주)세진메탈1공장(울산울주원봉로15)_준공도면(20221122)-Mode2l.pdf",
+      "file": "/documents/source-store/5ac8d7915898d5c7c1b050d14ce5e3a65d36c4ebfff2fd1bb66a0a2f290d09ba.pdf",
+      "sha256": "5ac8d7915898d5c7c1b050d14ce5e3a65d36c4ebfff2fd1bb66a0a2f290d09ba",
+      "bytes": 1037637,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/5ac8d7915898d5c7c1b050d14ce5e3a65d36c4ebfff2fd1bb66a0a2f290d09ba.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "Sbd53e0aff491a48b",
+      "name": "(주)세진메탈1공장(울산울주원봉로15)_준공도면(20221122)-Model.pdf",
+      "relative_path": "3. LNG 신설(래들예열기 추가)/(주)세진메탈1공장(울산울주원봉로15)_준공도면(20221122)-Model.pdf",
+      "file": "/documents/source-store/bd53e0aff491a48b9f958018fd569f8acd314295b32a063da6b5dbee7ff59a9c.pdf",
+      "sha256": "bd53e0aff491a48b9f958018fd569f8acd314295b32a063da6b5dbee7ff59a9c",
+      "bytes": 1037634,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/bd53e0aff491a48b9f958018fd569f8acd314295b32a063da6b5dbee7ff59a9c.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S60bc8557c02000aa",
+      "name": "(주)세진메탈1공장(울산울주원봉로15)_준공도면(20221122)-Model3.pdf",
+      "relative_path": "3. LNG 신설(래들예열기 추가)/(주)세진메탈1공장(울산울주원봉로15)_준공도면(20221122)-Model3.pdf",
+      "file": "/documents/source-store/60bc8557c02000aaa2a5b74093ff03d42ecbc66dd53a12116d2fb7c53c7e8d1e.pdf",
+      "sha256": "60bc8557c02000aaa2a5b74093ff03d42ecbc66dd53a12116d2fb7c53c7e8d1e",
+      "bytes": 628830,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/60bc8557c02000aaa2a5b74093ff03d42ecbc66dd53a12116d2fb7c53c7e8d1e.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S93cbdc5949466481",
+      "name": "(주)세진메탈1공장(울산울주원봉로15)_준공도면(20221122).dwg",
+      "relative_path": "3. LNG 신설(래들예열기 추가)/(주)세진메탈1공장(울산울주원봉로15)_준공도면(20221122).dwg",
+      "file": "/documents/source-store/93cbdc5949466481a05d0a44bc457551a7b53826a2df2106b292d77b15cceece.dwg",
+      "sha256": "93cbdc5949466481a05d0a44bc457551a7b53826a2df2106b292d77b15cceece",
+      "bytes": 5520909,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/93cbdc5949466481a05d0a44bc457551a7b53826a2df2106b292d77b15cceece.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S2317cb7aade4651f",
+      "name": "20161017_110834.jpg",
+      "relative_path": "레들예열기/20161017_110834.jpg",
+      "file": "/documents/source-store/2317cb7aade4651fc28cfd26f8caefdfd83cf86e57128dd0699113da2ba50b12.jpg",
+      "sha256": "2317cb7aade4651fc28cfd26f8caefdfd83cf86e57128dd0699113da2ba50b12",
+      "bytes": 3063357,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/2317cb7aade4651fc28cfd26f8caefdfd83cf86e57128dd0699113da2ba50b12.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S92fc6ea58365fbcf",
+      "name": "20161017_110857.jpg",
+      "relative_path": "레들예열기/20161017_110857.jpg",
+      "file": "/documents/source-store/92fc6ea58365fbcfb8a0f2f82ca4e3c4b98679c5a70d582e13e8c34eb374a51b.jpg",
+      "sha256": "92fc6ea58365fbcfb8a0f2f82ca4e3c4b98679c5a70d582e13e8c34eb374a51b",
+      "bytes": 3072494,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/92fc6ea58365fbcfb8a0f2f82ca4e3c4b98679c5a70d582e13e8c34eb374a51b.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Seca91fe6217600a7",
+      "name": "20161017_110949.jpg",
+      "relative_path": "레들예열기/20161017_110949.jpg",
+      "file": "/documents/source-store/eca91fe6217600a7bf21f0eadc9758a1fa3ac6c73082719cf220c1c05caa2758.jpg",
+      "sha256": "eca91fe6217600a7bf21f0eadc9758a1fa3ac6c73082719cf220c1c05caa2758",
+      "bytes": 2347794,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/eca91fe6217600a7bf21f0eadc9758a1fa3ac6c73082719cf220c1c05caa2758.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S8c8ee228250e9abb",
+      "name": "20161017_110959.jpg",
+      "relative_path": "레들예열기/20161017_110959.jpg",
+      "file": "/documents/source-store/8c8ee228250e9abbad60e32514668562dba8c9eade6b7fd849cc80424df256a6.jpg",
+      "sha256": "8c8ee228250e9abbad60e32514668562dba8c9eade6b7fd849cc80424df256a6",
+      "bytes": 2422206,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/8c8ee228250e9abbad60e32514668562dba8c9eade6b7fd849cc80424df256a6.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S8425a83f9608c656",
+      "name": "20161017_111115.jpg",
+      "relative_path": "레들예열기/20161017_111115.jpg",
+      "file": "/documents/source-store/8425a83f9608c656f8be086ee9b296be8a2134b965e88802e4b997f24965b5d2.jpg",
+      "sha256": "8425a83f9608c656f8be086ee9b296be8a2134b965e88802e4b997f24965b5d2",
+      "bytes": 2690719,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/8425a83f9608c656f8be086ee9b296be8a2134b965e88802e4b997f24965b5d2.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Sd0e61c20b3522910",
+      "name": "20161017_111412.jpg",
+      "relative_path": "레들예열기/20161017_111412.jpg",
+      "file": "/documents/source-store/d0e61c20b35229109c75e13a31ddc8e81f0068511d933e0a57e94a6d67d835fa.jpg",
+      "sha256": "d0e61c20b35229109c75e13a31ddc8e81f0068511d933e0a57e94a6d67d835fa",
+      "bytes": 2325445,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/d0e61c20b35229109c75e13a31ddc8e81f0068511d933e0a57e94a6d67d835fa.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S47f61fb4f1ceb906",
+      "name": "20161017_111454.jpg",
+      "relative_path": "레들예열기/20161017_111454.jpg",
+      "file": "/documents/source-store/47f61fb4f1ceb9063447eecdc053f094c7e37b7ba4970d42dd80539a4556f692.jpg",
+      "sha256": "47f61fb4f1ceb9063447eecdc053f094c7e37b7ba4970d42dd80539a4556f692",
+      "bytes": 2831325,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/47f61fb4f1ceb9063447eecdc053f094c7e37b7ba4970d42dd80539a4556f692.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "See3d83b71519e44d",
+      "name": "20161017_111811.jpg",
+      "relative_path": "레들예열기/20161017_111811.jpg",
+      "file": "/documents/source-store/ee3d83b71519e44d199339ac7c7c165baa9608fef5a704fca869b36fc848dc54.jpg",
+      "sha256": "ee3d83b71519e44d199339ac7c7c165baa9608fef5a704fca869b36fc848dc54",
+      "bytes": 2363746,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/ee3d83b71519e44d199339ac7c7c165baa9608fef5a704fca869b36fc848dc54.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S6647f4905b5445eb",
+      "name": "20161017_111822.jpg",
+      "relative_path": "레들예열기/20161017_111822.jpg",
+      "file": "/documents/source-store/6647f4905b5445eb3e0badd6835fb12cec84af8bc219ac596a6970e377c4ae25.jpg",
+      "sha256": "6647f4905b5445eb3e0badd6835fb12cec84af8bc219ac596a6970e377c4ae25",
+      "bytes": 2673864,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/6647f4905b5445eb3e0badd6835fb12cec84af8bc219ac596a6970e377c4ae25.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S526e58cb5c1ae31c",
+      "name": "20161017_111829.jpg",
+      "relative_path": "레들예열기/20161017_111829.jpg",
+      "file": "/documents/source-store/526e58cb5c1ae31c2e428e92dc239f25e7407fd0dbafe9a8078c628e262b6f15.jpg",
+      "sha256": "526e58cb5c1ae31c2e428e92dc239f25e7407fd0dbafe9a8078c628e262b6f15",
+      "bytes": 3010389,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/526e58cb5c1ae31c2e428e92dc239f25e7407fd0dbafe9a8078c628e262b6f15.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S8790924fab8050cb",
+      "name": "20161017_111948.jpg",
+      "relative_path": "레들예열기/20161017_111948.jpg",
+      "file": "/documents/source-store/8790924fab8050cb8a7771784b169afe413d8db0adb105f5ec65cf24d476bece.jpg",
+      "sha256": "8790924fab8050cb8a7771784b169afe413d8db0adb105f5ec65cf24d476bece",
+      "bytes": 2804015,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/8790924fab8050cb8a7771784b169afe413d8db0adb105f5ec65cf24d476bece.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S9c058103c4b91579",
+      "name": "20161017_111958.jpg",
+      "relative_path": "레들예열기/20161017_111958.jpg",
+      "file": "/documents/source-store/9c058103c4b91579035783fb5ea988173dfb3aee95d7d8a66577058447560d28.jpg",
+      "sha256": "9c058103c4b91579035783fb5ea988173dfb3aee95d7d8a66577058447560d28",
+      "bytes": 3316689,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/9c058103c4b91579035783fb5ea988173dfb3aee95d7d8a66577058447560d28.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Saa27c70aae82d2dd",
+      "name": "20161017_112010.jpg",
+      "relative_path": "레들예열기/20161017_112010.jpg",
+      "file": "/documents/source-store/aa27c70aae82d2dd30a1bd88e159fb57e09b5e78281777d7d0e417014bdf0c2e.jpg",
+      "sha256": "aa27c70aae82d2dd30a1bd88e159fb57e09b5e78281777d7d0e417014bdf0c2e",
+      "bytes": 2770968,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/aa27c70aae82d2dd30a1bd88e159fb57e09b5e78281777d7d0e417014bdf0c2e.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Sfda32d5f81386f8a",
+      "name": "20161017_112022.jpg",
+      "relative_path": "레들예열기/20161017_112022.jpg",
+      "file": "/documents/source-store/fda32d5f81386f8a6ca29ca3e0177a2d222b2f16a20c6cf7473d102c4a96926a.jpg",
+      "sha256": "fda32d5f81386f8a6ca29ca3e0177a2d222b2f16a20c6cf7473d102c4a96926a",
+      "bytes": 2473162,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/fda32d5f81386f8a6ca29ca3e0177a2d222b2f16a20c6cf7473d102c4a96926a.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Se760da5735479efe",
+      "name": "20161017_112036.jpg",
+      "relative_path": "레들예열기/20161017_112036.jpg",
+      "file": "/documents/source-store/e760da5735479efe1c61f2083a1357e290377d5be50892b864939ed667e7bbd5.jpg",
+      "sha256": "e760da5735479efe1c61f2083a1357e290377d5be50892b864939ed667e7bbd5",
+      "bytes": 2831011,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/e760da5735479efe1c61f2083a1357e290377d5be50892b864939ed667e7bbd5.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S6a991d29d82c5a33",
+      "name": "20161017_112159.jpg",
+      "relative_path": "레들예열기/20161017_112159.jpg",
+      "file": "/documents/source-store/6a991d29d82c5a33b549cc974fa2c8492b2721b38fb3de153e3724378893b991.jpg",
+      "sha256": "6a991d29d82c5a33b549cc974fa2c8492b2721b38fb3de153e3724378893b991",
+      "bytes": 2628050,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/6a991d29d82c5a33b549cc974fa2c8492b2721b38fb3de153e3724378893b991.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4128,
+        "height": 2322,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S6c961720c87574d2",
+      "name": "20181019_091926.jpg",
+      "relative_path": "레들예열기/20181019_091926.jpg",
+      "file": "/documents/source-store/6c961720c87574d2cdd2384a8a09c11a01e46c71dfca9ac0e8e49d9a00dbc7d6.jpg",
+      "sha256": "6c961720c87574d2cdd2384a8a09c11a01e46c71dfca9ac0e8e49d9a00dbc7d6",
+      "bytes": 6407287,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/6c961720c87574d2cdd2384a8a09c11a01e46c71dfca9ac0e8e49d9a00dbc7d6.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4160,
+        "height": 2340,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S9c66f8060a8d9b2b",
+      "name": "Cain 크레인.jpg",
+      "relative_path": "레들예열기/Cain 크레인.jpg",
+      "file": "/documents/source-store/9c66f8060a8d9b2bcbad311abb98cde22226629df1066b10c1c2c67c73b1d87c.jpg",
+      "sha256": "9c66f8060a8d9b2bcbad311abb98cde22226629df1066b10c1c2c67c73b1d87c",
+      "bytes": 3279690,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/9c66f8060a8d9b2bcbad311abb98cde22226629df1066b10c1c2c67c73b1d87c.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4160,
+        "height": 2340,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Sc7dfddc605144379",
+      "name": "EMP핫버너용.pdf",
+      "relative_path": "레들예열기/EMP핫버너용.pdf",
+      "file": "/documents/source-store/c7dfddc605144379c246ae67ca426bf773705eaf408271b9b0e8abea06a23908.pdf",
+      "sha256": "c7dfddc605144379c246ae67ca426bf773705eaf408271b9b0e8abea06a23908",
+      "bytes": 287816,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/c7dfddc605144379c246ae67ca426bf773705eaf408271b9b0e8abea06a23908.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 18
+    },
+    {
+      "id": "Sb561ef1e9ccbf91b",
+      "name": "NOVA 파라메다..jpg",
+      "relative_path": "레들예열기/NOVA 파라메다..jpg",
+      "file": "/documents/source-store/b561ef1e9ccbf91b175b0b6c8a043069d9a6af8b64e8e9a3f10c3b88e7b8ea36.jpg",
+      "sha256": "b561ef1e9ccbf91b175b0b6c8a043069d9a6af8b64e8e9a3f10c3b88e7b8ea36",
+      "bytes": 3225149,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/b561ef1e9ccbf91b175b0b6c8a043069d9a6af8b64e8e9a3f10c3b88e7b8ea36.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4160,
+        "height": 2340,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S3ff8653e9f60af6d",
+      "name": "SR-30 참조.jpg",
+      "relative_path": "레들예열기/SR-30 참조.jpg",
+      "file": "/documents/source-store/3ff8653e9f60af6d7d29484ac357eec77a6ee15ea5c17d0a15f62f2063420b24.jpg",
+      "sha256": "3ff8653e9f60af6d7d29484ac357eec77a6ee15ea5c17d0a15f62f2063420b24",
+      "bytes": 7417598,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/3ff8653e9f60af6d7d29484ac357eec77a6ee15ea5c17d0a15f62f2063420b24.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4160,
+        "height": 2340,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S0d0185cb538ca3e9",
+      "name": "상하크레인 전기도면-1.jpg",
+      "relative_path": "레들예열기/상하크레인 전기도면-1.jpg",
+      "file": "/documents/source-store/0d0185cb538ca3e9fb4ec7f432b245e6bd07630bf42b5e63a3b38029484d58fc.jpg",
+      "sha256": "0d0185cb538ca3e9fb4ec7f432b245e6bd07630bf42b5e63a3b38029484d58fc",
+      "bytes": 2901116,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/0d0185cb538ca3e9fb4ec7f432b245e6bd07630bf42b5e63a3b38029484d58fc.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4160,
+        "height": 2340,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S6c30c7f013e590f3",
+      "name": "NOVA500 ST Manual(Kor).pdf",
+      "relative_path": "레들예열기/압연 10톤 래들 온도 컨트롤러/NOVA500 ST Manual(Kor).pdf",
+      "file": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf",
+      "sha256": "6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d",
+      "bytes": 3620580,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 54
+    },
+    {
+      "id": "S6d1036afb7d23857",
+      "name": "NOVA500(catalogue)_kor+.pdf",
+      "relative_path": "레들예열기/압연 10톤 래들 온도 컨트롤러/NOVA500(catalogue)_kor+.pdf",
+      "file": "/documents/source-store/6d1036afb7d238574e4c294c102b4f6d980d097b960788625fa7a739d9369dd5.pdf",
+      "sha256": "6d1036afb7d238574e4c294c102b4f6d980d097b960788625fa7a739d9369dd5",
+      "bytes": 1195048,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/6d1036afb7d238574e4c294c102b4f6d980d097b960788625fa7a739d9369dd5.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 8
+    },
+    {
+      "id": "Sb19655f85f20a94a",
+      "name": "압연 10톤 래들 온도 컨트롤러.hwp",
+      "relative_path": "레들예열기/압연 10톤 래들 온도 컨트롤러/압연 10톤 래들 온도 컨트롤러.hwp",
+      "file": "/documents/source-store/b19655f85f20a94aeb62fbdbbfd4438f137374016529f12cb482859eb3a1335f.hwp",
+      "sha256": "b19655f85f20a94aeb62fbdbbfd4438f137374016529f12cb482859eb3a1335f",
+      "bytes": 1858048,
+      "extension": ".hwp",
+      "inspection": "/documents/source-text/b19655f85f20a94aeb62fbdbbfd4438f137374016529f12cb482859eb3a1335f.json",
+      "inspection_status": "HWP 본문 텍스트 없음; 삽입 그림·원본 확인"
+    },
+    {
+      "id": "S27a3016ff9fcb04a",
+      "name": "크레인 전기도면-02.jpg",
+      "relative_path": "레들예열기/크레인 전기도면-02.jpg",
+      "file": "/documents/source-store/27a3016ff9fcb04ae7872444d36b276ee9a93441c155665cf0b089be6908a776.jpg",
+      "sha256": "27a3016ff9fcb04ae7872444d36b276ee9a93441c155665cf0b089be6908a776",
+      "bytes": 2685813,
+      "extension": ".jpg",
+      "inspection": "/documents/source-text/27a3016ff9fcb04ae7872444d36b276ee9a93441c155665cf0b089be6908a776.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 4160,
+        "height": 2340,
+        "frames": 1
+      }
+    },
+    {
+      "id": "S17227300ef0e9bd1",
+      "name": "합금로 레들 전기도면.xls",
+      "relative_path": "레들예열기/합금로 레들 전기도면.xls",
+      "file": "/documents/source-store/17227300ef0e9bd1203f653ead951a11c07ad6ff55bc4351e998c21ab19e4758.xls",
+      "sha256": "17227300ef0e9bd1203f653ead951a11c07ad6ff55bc4351e998c21ab19e4758",
+      "bytes": 12211712,
+      "extension": ".xls",
+      "inspection": "/documents/source-text/17227300ef0e9bd1203f653ead951a11c07ad6ff55bc4351e998c21ab19e4758.json",
+      "inspection_status": "XLS 저장 셀값 추출; 계산/매크로 실행 안 함"
+    },
+    {
+      "id": "S89d81b4af84b1ad3",
+      "name": "Dryout.pdf",
+      "relative_path": "생산부공용 추가도면/래들 예열/Dryout.pdf",
+      "file": "/documents/source-store/89d81b4af84b1ad3bce4d3fba4292dd7705a1c3727ea62350a662c1a755caac2.pdf",
+      "sha256": "89d81b4af84b1ad3bce4d3fba4292dd7705a1c3727ea62350a662c1a755caac2",
+      "bytes": 42865,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/89d81b4af84b1ad3bce4d3fba4292dd7705a1c3727ea62350a662c1a755caac2.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 2
+    },
+    {
+      "id": "S9d1e77acc07d7d14",
+      "name": "레들예열기.dwg",
+      "relative_path": "생산부공용 추가도면/래들 예열/레들예열기.dwg",
+      "file": "/documents/source-store/9d1e77acc07d7d14ad20927b7ed66d4c8e29ab18e07f3d5f3e375a65a375a392.dwg",
+      "sha256": "9d1e77acc07d7d14ad20927b7ed66d4c8e29ab18e07f3d5f3e375a65a375a392",
+      "bytes": 78624,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/9d1e77acc07d7d14ad20927b7ed66d4c8e29ab18e07f3d5f3e375a65a375a392.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S32eacb18fd41d153",
+      "name": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf",
+      "relative_path": "생산부공용 추가도면/버너 도면/세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf",
+      "file": "/documents/source-store/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.pdf",
+      "sha256": "32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f",
+      "bytes": 735457,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S5eeaae0b1d356831",
+      "name": "트래베-예열기TOP BURNER.dwg",
+      "relative_path": "생산부공용 추가도면/버너 도면/트래베-예열기TOP BURNER.dwg",
+      "file": "/documents/source-store/5eeaae0b1d356831d0b5ddb17011b15b195682999667618191cdf1bf51a4b0fb.dwg",
+      "sha256": "5eeaae0b1d356831d0b5ddb17011b15b195682999667618191cdf1bf51a4b0fb",
+      "bytes": 2657922,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/5eeaae0b1d356831d0b5ddb17011b15b195682999667618191cdf1bf51a4b0fb.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "Sfca68f6fcf326f47",
+      "name": "트래베(LADLE)-예열기.pdf",
+      "relative_path": "예열기/기계도면/트래베(LADLE)-예열기.pdf",
+      "file": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf",
+      "sha256": "fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1",
+      "bytes": 328139,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "Sc81fc34f54d66872",
+      "name": "트래베(LADLE)1.5톤-예열기-견적도.dwg",
+      "relative_path": "예열기/기계도면/트래베(LADLE)1.5톤-예열기-견적도.dwg",
+      "file": "/documents/source-store/c81fc34f54d668728674bd1e856cb003e2017fdf6a19366c8f92aa967d99b6bc.dwg",
+      "sha256": "c81fc34f54d668728674bd1e856cb003e2017fdf6a19366c8f92aa967d99b6bc",
+      "bytes": 2863060,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/c81fc34f54d668728674bd1e856cb003e2017fdf6a19366c8f92aa967d99b6bc.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S254cdf1242fd6aea",
+      "name": "예열기-판넬10.dwg",
+      "relative_path": "예열기/전기도면/예열기-판넬10.dwg",
+      "file": "/documents/source-store/254cdf1242fd6aeab2123fbbfbe38f76fd40d6aab65da3b32ea706b1d01258b2.dwg",
+      "sha256": "254cdf1242fd6aeab2123fbbfbe38f76fd40d6aab65da3b32ea706b1d01258b2",
+      "bytes": 227327,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/254cdf1242fd6aeab2123fbbfbe38f76fd40d6aab65da3b32ea706b1d01258b2.json",
+      "inspection_status": "원형 보존"
+    },
+    {
+      "id": "S0f28e92c279c03b7",
+      "name": "예열기-버너연소장치24만 P&ID.pdf",
+      "relative_path": "예열기/흐름도/예열기-버너연소장치24만 P&ID.pdf",
+      "file": "/documents/source-store/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.pdf",
+      "sha256": "0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0",
+      "bytes": 92825,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S1762599fb1280a7a",
+      "name": "트래베1.5톤-예열기-버너연소장치24만 P&ID.dwg",
+      "relative_path": "예열기/흐름도/트래베1.5톤-예열기-버너연소장치24만 P&ID.dwg",
+      "file": "/documents/source-store/1762599fb1280a7a13c02c939873cd3ac53318332fd611966ecc97e126786ff2.dwg",
+      "sha256": "1762599fb1280a7a13c02c939873cd3ac53318332fd611966ecc97e126786ff2",
+      "bytes": 133699,
+      "extension": ".dwg",
+      "inspection": "/documents/source-text/1762599fb1280a7a13c02c939873cd3ac53318332fd611966ecc97e126786ff2.json",
+      "inspection_status": "원형 보존"
+    }
+  ],
+  "excluded_cache_count": 6,
+  "archive_member_count": 0,
+  "coverage_note": "원본 해시 보존·정적 본문 추출·핵심 자료 중심 검토. 모든 부품 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님."
+}

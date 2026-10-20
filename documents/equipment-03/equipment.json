@@ -1,0 +1,1332 @@
+{
+  "id": "PREHEATER-03",
+  "name": "3번 예열기",
+  "group": "예열·버너·래들",
+  "location": "사용자 지정 3번 설비 · 현재 명판/실물·적용 범위 미확정",
+  "priority": true,
+  "source_count": 40,
+  "archive_member_count": 0,
+  "source_unique_count": 40,
+  "source_pages": 88,
+  "source_version": "현재 PLC 프로젝트·전체 래더 미확보 · 도면/설명서 참조",
+  "description": "3번 예열기 자료에는 합금 래들 예열기, 압연 10톤 래들 온도조절기, 트래베(LADLE) 예열기, 3공장 점보 몰드 예열기와 공장 LNG 배관이 함께 있습니다. 관리번호 3은 사용자 지정이며 모든 자료가 같은 실물에 연결된다는 뜻은 아닙니다. 버너·공기/가스 공급·화염 검출·온도 제어·래들 이동/크레인 회로를 구간별로 나눴습니다.",
+  "documentation_status": "원본 보존·핵심 전기/제어/운전 자료 중심 문서화 완료(미확정 포함). 일반/부품 카탈로그 전체 페이지의 상세 판독·현재 적용 검증, 현장 측정·운전·수리·안전 시험은 미수행입니다.",
+  "native_plc_available": false,
+  "native_project_files": [],
+  "field_verified": false,
+  "manual_url": "/documents/equipment-03/manual.html",
+  "library_url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1",
+  "source_manifest": "/documents/equipment-03/source-manifest.json",
+  "plc_analysis_note": "PLC 원본 프로젝트와 실행 래더는 미확보입니다. 도면상의 PLC 베이스/입출력·접점·단자·공정 설명을 현재 실행 프로그램으로 복원하지 않았습니다.",
+  "subsystems": [
+    {
+      "id": "DOC-3-1",
+      "name": "래들 예열 전기 자료",
+      "description": "합금로 레들 전기도면.xls의 Panel·Mast-K1·예비자재·문제점 시트와 과거 조작반/크레인 사진입니다.",
+      "boundary": "2011 재고·2015 문제점·2016 사진은 현재 재고나 새 수리 기록으로 취급하지 않음."
+    },
+    {
+      "id": "DOC-3-2",
+      "name": "버너·가스·기계도",
+      "description": "래들 예열기 P&ID, 트래베 예열기 외형, 3공장 점보 몰드 버너 계통, 2022 LNG 준공도가 있습니다.",
+      "boundary": "래들·점보 몰드·공장 전체 가스 배관을 같은 버너의 회로로 합치지 않음."
+    },
+    {
+      "id": "DOC-3-3",
+      "name": "온도조절기 참고",
+      "description": "NOVA500 ST 설명서·카탈로그와 ‘압연 10톤 래들 온도 컨트롤러.hwp’가 있습니다.",
+      "boundary": "HWP 삽입 단자도에는 GH1000 표기가 있어 NOVA 자료와 같은 모델로 확정하지 않음."
+    }
+  ],
+  "manual": {
+    "overview": "3번 예열기 자료에는 합금 래들 예열기, 압연 10톤 래들 온도조절기, 트래베(LADLE) 예열기, 3공장 점보 몰드 예열기와 공장 LNG 배관이 함께 있습니다. 관리번호 3은 사용자 지정이며 모든 자료가 같은 실물에 연결된다는 뜻은 아닙니다. 버너·공기/가스 공급·화염 검출·온도 제어·래들 이동/크레인 회로를 구간별로 나눴습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.\n\n원본 범위\n폴더 파일 40개, 압축 내부 자료 0개, 고유 해시 40개입니다. 동일 내용의 원래 경로·이름을 보존했고 서로 다른 버전은 유지했습니다. Windows 캐시/로그는 기술 자료 목록에서 제외했습니다. PDF·이미지 미리보기, 추출 본문·표·원본은 자료실에서 확인할 수 있습니다. DOC/HWP/PPT/Excel 열람은 원본 페이지/도형 배치를 재현한 것이 아닙니다.",
+    "io": "Excel Panel 시트의 P000~P00F 및 P040~P049 표기를 셀 근거와 함께 정리했습니다. 좌측은 Power ON·화염감지·예열 ON/OFF·PID 신호·부저 정지, 우측은 점화 TR·GAS/AIR SOL·표시/경보 계통입니다. NOT USE와 비어 있는 기능은 실제 사용 I/O로 채우지 않았습니다. Mast-K1 시트의 P/M/T/C 셀은 보존하지만 도형/접속이 재현되지 않아 실행 가능한 래더로 복원하지 않았습니다. HWP의 GH1000 단자와 NOVA500의 단자를 서로 대응시키지 않습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "control": "문서상 온도 제어 출력, 점화 트랜스, 가스/공기 밸브와 화염 검출이 예열 제어의 핵심입니다. EMP핫버너용 PDF는 Siemens LFL1 계열 부품 자료이며 장착품 확인 자료가 아닙니다. 온도조절기 일반 설명서의 PID·프로그램 기능을 현장 PLC의 시퀀스로 간주하지 않습니다. 순서·퍼지·점화시간·알람 극성·현재 프로그램은 별도 확인 전입니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "circuits": "Panel 셀은 P040 점화 TR, P041 GAS상+Air#1/#2, P042 GAS 하부 SOL, P043 BUZZER, P044 예열 ON 등의 연결 명칭을 제공합니다. 같은 시트의 RY2/RY3/RY4와 110/111/112 표기도 별개 배선 근거로 보존합니다. P&ID는 가스/공기 배관 경로, 크레인 사진은 이송 전기 자료이며 온도조절기 신호선으로 합치지 않았습니다. 문서의 서로 다른 전원/제어기 정격은 현재 반 명판과 대조해야 합니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "alarms": "온도 높음·낮음·점화 불량·화염 감지·BUZZER 정지가 Panel 표에 있습니다. 2015 문제점 시트의 버너 캡 이탈·탭 손상·점화 불량은 과거 원문 기록으로 분리했습니다. 현재 고장으로 재등록하거나 반복 재점화를 복구 절차로 작성하지 않았습니다. 퍼지·연료 차단·화염 보호의 현재 기능은 검증하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "repair": "1. 점화 불가/소화\n화염 검출·점화 TR·가스/공기 SOL·온도 허가의 원본 위치를 구분\n근거: 합금로 레들 전기도면.xls · 원본 추출 열람본\n\n2. 온도 표시/제어 불일치\n현재 제어기 명판·센서 형식·출력 종류와 NOVA/GH1000 자료 차이 대조\n근거: 압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본\n\n3. 버너 헤드/캡 손상 검토\n문제점 시트의 2015 기록과 현재 관찰·수리 이력을 분리\n근거: 합금로 레들 전기도면.xls · 원본 추출 열람본\n\n4. 래들 이송/크레인 문제\n예열 회로와 크레인 전기도면·실물의 경계를 확인\n근거: 트래베(LADLE)-예열기.pdf · PDF 1쪽\n\n기록 기준\n실제 최초 시각·표시/코드·정지 구간·관찰·측정·조치·복구 근거를 구분해 수리 기록 양식에 남깁니다. 이번 작업에서 현장 고장/수리 이력을 새로 생성하지 않았습니다.",
+    "completion": "작성한 것\n- 사용자 지정 폴더 원본 40개와 압축 내부 0개 연결·해시 보존\n- 설비 계통 구분·7개 매뉴얼 항목·전기/I/O/단자 참조 24행·조작 참조 2행\n- 핵심 PDF 페이지 미리보기 57개·원본 자료실·추출 텍스트/표/그림 연결\n- 증상별 점검 4개·확인 대장 6개\n\n미확정·추가 확인\n- 예열 대상별 적용 범위: 합금 래들·압연10톤·트래베·점보몰드·LNG 배관 혼재 / 호기·반번호·버너별 적용 도면 확인\n- 제어기 모델: 파일명 NOVA 관련 자료와 HWP 삽입 GH1000 단자도 차이 / 장착 명판·옵션·센서/출력 배선 확인\n- 과거 표·사진: 2011 재고표·2015 문제점·과거 사진 / 현재 재고·설정·실물과 별도 대조\n- PLC/HMI 원본 및 현재 적용: 도면·설명서 범위로 정리 / 현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조\n- 현장·안전·복구 확인: 파일 검토·로컬 문서화만 수행 / 실제 관찰·측정·현재 보호/재기동·복구 기록 별도\n- 문서 판독 범위: 모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시. / 설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조\n\n판정\n문서화 완료(핵심 자료·정적 참조 범위)입니다. 전체 카탈로그의 모든 페이지 판독·PLC 전체 의미 해석·현장 운전/안전/복구 검증 완료가 아닙니다. 실제 수리 이력은 생성하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "NOVA500 ST Manual(Kor).pdf",
+        "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=1"
+      },
+      {
+        "label": "압연 10톤 래들 온도 컨트롤러.hwp",
+        "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+      },
+      {
+        "label": "합금로 레들 전기도면.xls",
+        "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+      },
+      {
+        "label": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf",
+        "url": "/documents/source-store/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.pdf#page=1"
+      },
+      {
+        "label": "트래베(LADLE)-예열기.pdf",
+        "url": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf#page=1"
+      },
+      {
+        "label": "예열기-버너연소장치24만 P&ID.pdf",
+        "url": "/documents/source-store/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.pdf#page=1"
+      }
+    ],
+    "io": [
+      {
+        "label": "NOVA500 ST Manual(Kor).pdf",
+        "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=1"
+      },
+      {
+        "label": "압연 10톤 래들 온도 컨트롤러.hwp",
+        "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+      },
+      {
+        "label": "합금로 레들 전기도면.xls",
+        "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+      },
+      {
+        "label": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf",
+        "url": "/documents/source-store/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.pdf#page=1"
+      },
+      {
+        "label": "트래베(LADLE)-예열기.pdf",
+        "url": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf#page=1"
+      },
+      {
+        "label": "예열기-버너연소장치24만 P&ID.pdf",
+        "url": "/documents/source-store/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.pdf#page=1"
+      }
+    ],
+    "control": [
+      {
+        "label": "NOVA500 ST Manual(Kor).pdf",
+        "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=1"
+      },
+      {
+        "label": "압연 10톤 래들 온도 컨트롤러.hwp",
+        "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+      },
+      {
+        "label": "합금로 레들 전기도면.xls",
+        "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+      },
+      {
+        "label": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf",
+        "url": "/documents/source-store/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.pdf#page=1"
+      },
+      {
+        "label": "트래베(LADLE)-예열기.pdf",
+        "url": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf#page=1"
+      },
+      {
+        "label": "예열기-버너연소장치24만 P&ID.pdf",
+        "url": "/documents/source-store/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.pdf#page=1"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "NOVA500 ST Manual(Kor).pdf",
+        "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=1"
+      },
+      {
+        "label": "압연 10톤 래들 온도 컨트롤러.hwp",
+        "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+      },
+      {
+        "label": "합금로 레들 전기도면.xls",
+        "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+      },
+      {
+        "label": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf",
+        "url": "/documents/source-store/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.pdf#page=1"
+      },
+      {
+        "label": "트래베(LADLE)-예열기.pdf",
+        "url": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf#page=1"
+      },
+      {
+        "label": "예열기-버너연소장치24만 P&ID.pdf",
+        "url": "/documents/source-store/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.pdf#page=1"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "NOVA500 ST Manual(Kor).pdf",
+        "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=1"
+      },
+      {
+        "label": "압연 10톤 래들 온도 컨트롤러.hwp",
+        "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+      },
+      {
+        "label": "합금로 레들 전기도면.xls",
+        "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+      },
+      {
+        "label": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf",
+        "url": "/documents/source-store/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.pdf#page=1"
+      },
+      {
+        "label": "트래베(LADLE)-예열기.pdf",
+        "url": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf#page=1"
+      },
+      {
+        "label": "예열기-버너연소장치24만 P&ID.pdf",
+        "url": "/documents/source-store/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.pdf#page=1"
+      }
+    ],
+    "repair": [
+      {
+        "label": "NOVA500 ST Manual(Kor).pdf",
+        "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=1"
+      },
+      {
+        "label": "압연 10톤 래들 온도 컨트롤러.hwp",
+        "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+      },
+      {
+        "label": "합금로 레들 전기도면.xls",
+        "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+      },
+      {
+        "label": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf",
+        "url": "/documents/source-store/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.pdf#page=1"
+      },
+      {
+        "label": "트래베(LADLE)-예열기.pdf",
+        "url": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf#page=1"
+      },
+      {
+        "label": "예열기-버너연소장치24만 P&ID.pdf",
+        "url": "/documents/source-store/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.pdf#page=1"
+      }
+    ],
+    "completion": [
+      {
+        "label": "NOVA500 ST Manual(Kor).pdf",
+        "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=1"
+      },
+      {
+        "label": "압연 10톤 래들 온도 컨트롤러.hwp",
+        "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+      },
+      {
+        "label": "합금로 레들 전기도면.xls",
+        "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+      },
+      {
+        "label": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf",
+        "url": "/documents/source-store/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.pdf#page=1"
+      },
+      {
+        "label": "트래베(LADLE)-예열기.pdf",
+        "url": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf#page=1"
+      },
+      {
+        "label": "예열기-버너연소장치24만 P&ID.pdf",
+        "url": "/documents/source-store/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.pdf#page=1"
+      }
+    ]
+  },
+  "io": [
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 좌측 입력 참조",
+      "address": "P000",
+      "name": "Power ON",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 3",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-3"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 우측 출력 참조",
+      "address": "P040",
+      "name": "점화 Tr",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 3",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-3"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 좌측 입력 참조",
+      "address": "P001",
+      "name": "화염감지기",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 4",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-4"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 우측 출력 참조",
+      "address": "P041",
+      "name": "GAS상+Air#1/#2",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 4",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-4"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 좌측 입력 참조",
+      "address": "P002",
+      "name": "예열기 ON",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 5",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-5"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 우측 출력 참조",
+      "address": "P042",
+      "name": "GAS 하부 SOL",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 5",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-5"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 좌측 입력 참조",
+      "address": "P003",
+      "name": "예열기 OFF",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 6",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-6"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 우측 출력 참조",
+      "address": "P043",
+      "name": "BUZZER ON",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 6",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-6"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 좌측 입력 참조",
+      "address": "P004",
+      "name": "PID 출력 OUT",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 7",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-7"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 우측 출력 참조",
+      "address": "P044",
+      "name": "레들예열기 ON",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 7",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-7"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 좌측 입력 참조",
+      "address": "P005",
+      "name": "PID 출력 #1",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 8",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-8"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 우측 출력 참조",
+      "address": "P045",
+      "name": "온도 높음",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 8",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-8"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 좌측 입력 참조",
+      "address": "P006",
+      "name": "PID 출력 #2",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 9",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-9"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 우측 출력 참조",
+      "address": "P046",
+      "name": "온도 낮음",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 9",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-9"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 좌측 입력 참조",
+      "address": "P007",
+      "name": "BUZZER 정지",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 10",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-10"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 우측 출력 참조",
+      "address": "P047",
+      "name": "점화 불량",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 10",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-10"
+    },
+    {
+      "system": "합금 레들 Excel Panel",
+      "direction": "Panel 우측 출력 참조",
+      "address": "P049",
+      "name": "BUZZER 정지 ON",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본 / Panel 원본 행 12",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1#sheet-0-row-12"
+    },
+    {
+      "system": "HWP GH1000 삽입도 · NOVA와 모델 구분",
+      "direction": "제어기 단자 참조",
+      "address": "1/2",
+      "name": "전원 단자",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+    },
+    {
+      "system": "HWP GH1000 삽입도 · NOVA와 모델 구분",
+      "direction": "제어기 단자 참조",
+      "address": "6/7/8",
+      "name": "PV 입력 옵션",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+    },
+    {
+      "system": "HWP GH1000 삽입도 · NOVA와 모델 구분",
+      "direction": "제어기 단자 참조",
+      "address": "9/10/11",
+      "name": "이벤트 접점",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+    },
+    {
+      "system": "HWP GH1000 삽입도 · NOVA와 모델 구분",
+      "direction": "제어기 단자 참조",
+      "address": "12~17",
+      "name": "제어 출력 옵션",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+    },
+    {
+      "system": "HWP GH1000 삽입도 · NOVA와 모델 구분",
+      "direction": "제어기 단자 참조",
+      "address": "18/19",
+      "name": "보조 출력",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+    },
+    {
+      "system": "HWP GH1000 삽입도 · NOVA와 모델 구분",
+      "direction": "제어기 단자 참조",
+      "address": "20~22",
+      "name": "통신 옵션",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+    },
+    {
+      "system": "HWP GH1000 삽입도 · NOVA와 모델 구분",
+      "direction": "제어기 단자 참조",
+      "address": "23~25",
+      "name": "RSW 옵션",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+    }
+  ],
+  "hmi": [
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "Panel 조작·표시",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "합금로 레들 전기도면.xls",
+      "description": "예열 ON/OFF, PID 신호, 온도·점화 경보",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+    },
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "온도조절기 참고",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "압연 10톤 래들 온도 컨트롤러.hwp",
+      "description": "NOVA 일반 설명과 GH1000 삽입 단자도 구분",
+      "source": "압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [],
+  "drawings": [
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 1쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 1쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=1",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0001.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 2쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 2쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=2",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0002.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 3쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 3쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=3",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0003.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 4쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 4쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=4",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0004.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 5쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 5쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=5",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0005.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 6쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 6쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=6",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0006.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 7쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 7쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=7",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0007.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 8쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 8쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=8",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0008.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 9쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 9쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=9",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0009.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 10쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 10쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=10",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0010.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 11쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 11쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=11",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0011.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 12쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 12쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=12",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0012.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 13쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 13쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=13",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0013.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 14쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 14쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=14",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0014.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 15쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 15,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 15쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=15",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0015.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 16쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 16,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 16쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=16",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0016.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 17쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 17,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 17쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=17",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0017.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 18쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 18,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 18쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=18",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0018.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 19쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 19,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 19쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=19",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0019.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 20쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 20,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 20쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=20",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0020.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 21쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 21,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 21쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=21",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0021.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 22쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 22,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 22쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=22",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0022.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 23쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 23,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 23쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=23",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0023.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 24쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 24,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 24쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=24",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0024.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 25쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 25,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 25쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=25",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0025.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 26쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 26,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 26쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=26",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0026.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 27쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 27,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 27쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=27",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0027.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 28쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 28,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 28쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=28",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0028.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 29쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 29,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 29쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=29",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0029.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 30쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 30,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 30쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=30",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0030.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 31쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 31,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 31쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=31",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0031.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 32쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 32,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 32쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=32",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0032.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 33쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 33,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 33쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=33",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0033.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 34쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 34,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 34쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=34",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0034.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 35쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 35,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 35쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=35",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0035.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 36쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 36,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 36쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=36",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0036.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 37쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 37,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 37쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=37",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0037.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 38쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 38,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 38쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=38",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0038.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 39쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 39,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 39쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=39",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0039.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 40쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 40,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 40쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=40",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0040.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 41쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 41,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 41쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=41",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0041.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 42쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 42,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 42쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=42",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0042.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 43쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 43,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 43쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=43",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0043.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 44쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 44,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 44쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=44",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0044.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 45쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 45,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 45쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=45",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0045.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 46쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 46,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 46쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=46",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0046.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 47쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 47,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 47쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=47",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0047.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 48쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 48,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 48쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=48",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0048.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 49쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 49,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 49쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=49",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0049.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 50쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 50,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 50쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=50",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0050.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 51쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 51,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 51쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=51",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0051.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 52쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 52,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 52쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=52",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0052.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 53쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 53,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 53쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=53",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0053.webp"
+    },
+    {
+      "name": "NOVA500 ST Manual(Kor).pdf · 54쪽",
+      "system": "레들예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S6c30c7f013e590f3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 54,
+      "source": "NOVA500 ST Manual(Kor).pdf · PDF 54쪽",
+      "source_id": "S6c30c7f013e590f3",
+      "url": "/documents/source-store/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d.pdf#page=54",
+      "preview": "/documents/source-previews/6c30c7f013e590f379e6fbdb600fe49ce8ca286b2de44ee90a96adfd46428a5d-0054.webp"
+    },
+    {
+      "name": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf · 1쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S32eacb18fd41d153 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf · PDF 1쪽",
+      "source_id": "S32eacb18fd41d153",
+      "url": "/documents/source-store/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f.pdf#page=1",
+      "preview": "/documents/source-previews/32eacb18fd41d153384f313a0d89c8c01a252a631fa37c894b1324c59e61110f-0001.webp"
+    },
+    {
+      "name": "트래베(LADLE)-예열기.pdf · 1쪽",
+      "system": "예열기",
+      "kind": "원본 PDF",
+      "version": "원본 Sfca68f6fcf326f47 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "트래베(LADLE)-예열기.pdf · PDF 1쪽",
+      "source_id": "Sfca68f6fcf326f47",
+      "url": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf#page=1",
+      "preview": "/documents/source-previews/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1-0001.webp"
+    },
+    {
+      "name": "예열기-버너연소장치24만 P&ID.pdf · 1쪽",
+      "system": "예열기",
+      "kind": "원본 PDF",
+      "version": "원본 S0f28e92c279c03b7 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "예열기-버너연소장치24만 P&ID.pdf · PDF 1쪽",
+      "source_id": "S0f28e92c279c03b7",
+      "url": "/documents/source-store/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0.pdf#page=1",
+      "preview": "/documents/source-previews/0f28e92c279c03b77c2788f2f10584300e43f6d0639bc8b3efbd369650f2efa0-0001.webp"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "원본 알람/보호 확인 범위",
+      "name": "알람·보호·복구 근거",
+      "address": "현행 코드/임계값·정상극성 미확정",
+      "trigger": "온도 높음·낮음·점화 불량·화염 감지·BUZZER 정지가 Panel 표에 있습니다. 2015 문제점 시트의 버너 캡 이탈·탭 손상·점화 불량은 과거 원문 기록으로 분리했습니다. 현재 고장으로 재등록하거나 반복 재점화를 복구 절차로 작성하지 않았습니다. 퍼지·연료 차단·화염 보호의 현재 기능은 검증하지 않았습니다.",
+      "reset": "실제 표시·원인·현행 승인 조건을 확인하기 전 임의 우회·강제출력·설정 변경/재기동을 수행하지 않음",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "점화 불가/소화",
+      "check": "화염 검출·점화 TR·가스/공기 SOL·온도 허가의 원본 위치를 구분",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "온도 표시/제어 불일치",
+      "check": "현재 제어기 명판·센서 형식·출력 종류와 NOVA/GH1000 자료 차이 대조",
+      "source": "압연 10톤 래들 온도 컨트롤러.hwp · 원본 추출 열람본",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/equipment-03/library.html?source=Sb19655f85f20a94a"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "버너 헤드/캡 손상 검토",
+      "check": "문제점 시트의 2015 기록과 현재 관찰·수리 이력을 분리",
+      "source": "합금로 레들 전기도면.xls · 원본 추출 열람본",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "래들 이송/크레인 문제",
+      "check": "예열 회로와 크레인 전기도면·실물의 경계를 확인",
+      "source": "트래베(LADLE)-예열기.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/fca68f6fcf326f4778f7d67f880dd4570b5e95b402fb94607e4911c3671062a1.pdf#page=1"
+    }
+  ],
+  "checks": [
+    {
+      "title": "예열 대상별 적용 범위",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "합금 래들·압연10톤·트래베·점보몰드·LNG 배관 혼재",
+      "next": "호기·반번호·버너별 적용 도면 확인"
+    },
+    {
+      "title": "제어기 모델",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "파일명 NOVA 관련 자료와 HWP 삽입 GH1000 단자도 차이",
+      "next": "장착 명판·옵션·센서/출력 배선 확인"
+    },
+    {
+      "title": "과거 표·사진",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "2011 재고표·2015 문제점·과거 사진",
+      "next": "현재 재고·설정·실물과 별도 대조"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "evidence": "도면·설명서 범위로 정리",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "evidence": "파일 검토·로컬 문서화만 수행",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "evidence": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "예열 대상별 적용 범위",
+      "status": "미확정·원문 차이 보존",
+      "source": "합금 래들·압연10톤·트래베·점보몰드·LNG 배관 혼재",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "호기·반번호·버너별 적용 도면 확인"
+    },
+    {
+      "title": "제어기 모델",
+      "status": "미확정·원문 차이 보존",
+      "source": "파일명 NOVA 관련 자료와 HWP 삽입 GH1000 단자도 차이",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "장착 명판·옵션·센서/출력 배선 확인"
+    },
+    {
+      "title": "과거 표·사진",
+      "status": "미확정·원문 차이 보존",
+      "source": "2011 재고표·2015 문제점·과거 사진",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 재고·설정·실물과 별도 대조"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "source": "도면·설명서 범위로 정리",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "source": "파일 검토·로컬 문서화만 수행",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "source": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본·압축 자료 보존",
+      "status": "파일검증 완료",
+      "evidence": "폴더 원본 복사 전후 bytes/SHA-256 및 압축 추출 바이트/해시 대조",
+      "source": "/documents/equipment-03/source-manifest.json"
+    },
+    {
+      "title": "문서 검토 범위",
+      "status": "핵심 자료 중심 문서화",
+      "evidence": "NOVA500 ST Manual(Kor).pdf; 압연 10톤 래들 온도 컨트롤러.hwp; 합금로 레들 전기도면.xls; 세진메탈 3공장 점보 몰드 예열기 버너 계통도20210420.pdf; 트래베(LADLE)-예열기.pdf; 예열기-버너연소장치24만 P&ID.pdf / 참고·대량 카탈로그 전체 상세 판독은 아님",
+      "source": "/documents/equipment-03/library.html?source=S17227300ef0e9bd1"
+    },
+    {
+      "title": "현재 PLC·현장 시험",
+      "status": "미수행",
+      "evidence": "프로그램 현행 적용·통전/운전/안전/복구 시험·현장 설정 변경은 수행하지 않음",
+      "source": "사용자 지정 폴더 자료 범위"
+    }
+  ]
+}

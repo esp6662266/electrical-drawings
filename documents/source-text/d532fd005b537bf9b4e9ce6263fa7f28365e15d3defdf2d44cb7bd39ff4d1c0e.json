@@ -1,0 +1,14 @@
+{
+  "sha256": "d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "0-200A 300%\nThree Line Diagram - 1\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nALCO - 0801 - E01\n2008.05\n0-600V\nE\nPOWER SUPPLY\nAC 3Ø 440V 60Hz\n0\nS\nT\nR\n1\nV01\nF1 F2\nV0\n~\nV02\n100A\nNFB01\nABS103\n2 3 4\n5VA\nK L\n5\nCT x 1\n200/5A\nWL\nLS01\n이 문 규\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nDESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L\nAC 1Ø 220V 60Hz\nCONTROL POWER\nR200 T200\nREMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nCON01\nFL01\nFAN1H02\nH01\nCONCENT\n(AC220V/150W)\nA0\n~\nA01 A02\nNFB02\nBKM2-20\n440V/220V\n500 VA\nTR1\nABS32\n20A\nNFB06\nCT1\n6 7 8 9\nAC 3Ø 440V 50Hz\n10\nSM0\nTM0\nRM0\n11\nVOLT-METER AMPER-METER\nVORK LIMIT\nALCO ALCO TECH",
+      "width": 841.92,
+      "height": 595.2
+    }
+  ],
+  "page_count": 1
+}

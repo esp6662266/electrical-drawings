@@ -1,0 +1,26 @@
+{
+  "sha256": "6ee678a458bf940cb8503d2b24dcb94ddb168f29cfd1d44b3042949e4ef0a831",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "세진메탈50톤 장입 받침대20250904.pdf",
+      "bytes": 76308,
+      "compressed_bytes": 76308,
+      "encrypted": false
+    },
+    {
+      "name": "세진메탈50톤 장입대 조립20250904.pdf",
+      "bytes": 48412,
+      "compressed_bytes": 48412,
+      "encrypted": false
+    },
+    {
+      "name": "세진메탈버너 50톤 장입대20250904.pdf",
+      "bytes": 80333,
+      "compressed_bytes": 80333,
+      "encrypted": false
+    }
+  ]
+}

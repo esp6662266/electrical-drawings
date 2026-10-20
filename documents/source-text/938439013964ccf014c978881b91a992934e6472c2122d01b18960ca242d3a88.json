@@ -1,0 +1,56 @@
+{
+  "sha256": "938439013964ccf014c978881b91a992934e6472c2122d01b18960ca242d3a88",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "버나디 B.F1800 ASS'Y.pdf",
+      "bytes": 446328,
+      "compressed_bytes": 414068,
+      "encrypted": false
+    },
+    {
+      "name": "버나디 B.F1800 BODY CASING DETAIL.pdf",
+      "bytes": 84286,
+      "compressed_bytes": 80876,
+      "encrypted": false
+    },
+    {
+      "name": "버나디 B.F1800 HOPPER CASING DETAIL.pdf",
+      "bytes": 95732,
+      "compressed_bytes": 91981,
+      "encrypted": false
+    },
+    {
+      "name": "버나디 B.F1800 IN.OUT DUCT & TUBE SHEET DETAIL.pdf",
+      "bytes": 160163,
+      "compressed_bytes": 148410,
+      "encrypted": false
+    },
+    {
+      "name": "버나디 B.F1800 SCREW CONV'R ASS'Y.pdf",
+      "bytes": 105149,
+      "compressed_bytes": 101201,
+      "encrypted": false
+    },
+    {
+      "name": "버나디 B.F1800 STRUCTURE DETAIL.pdf",
+      "bytes": 80555,
+      "compressed_bytes": 76652,
+      "encrypted": false
+    },
+    {
+      "name": "버나디 B.F1800 UPPER CASING DETAIL.pdf",
+      "bytes": 74305,
+      "compressed_bytes": 71455,
+      "encrypted": false
+    },
+    {
+      "name": "버나디 B.F1800 집진설비 조립도.pdf",
+      "bytes": 545436,
+      "compressed_bytes": 507610,
+      "encrypted": false
+    }
+  ]
+}

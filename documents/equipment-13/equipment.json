@@ -1,0 +1,1056 @@
+{
+  "id": "PRIMARY-13",
+  "name": "13번 프라이머리",
+  "group": "전처리·프라이머리 파쇄",
+  "location": "사용자 지정 13번 설비 · 현재 명판/실물·적용 범위 미확정",
+  "priority": true,
+  "source_count": 38,
+  "archive_member_count": 0,
+  "source_unique_count": 38,
+  "source_pages": 67,
+  "source_version": "현재 PLC 프로젝트·전체 래더 미확보 · 도면/설명서 참조",
+  "description": "13번 프라이머리는 SSI PR770S 관련 파쇄기·HPU·축/감속기·소프트스타터·LOCAL/RADIO·상하류 연동 자료입니다. 8쪽 전기도면과 Smart Start, 여러 축 교체 슬라이드·과거 작업 자료를 구분했습니다. PR4400/PR6600 부품 도면은 다른 모델 참고로 유지했습니다.",
+  "documentation_status": "원본 보존·핵심 전기/제어/운전 자료 중심 문서화 완료(미확정 포함). 일반/부품 카탈로그 전체 페이지의 상세 판독·현재 적용 검증, 현장 측정·운전·수리·안전 시험은 미수행입니다.",
+  "native_plc_available": false,
+  "native_project_files": [],
+  "field_verified": false,
+  "manual_url": "/documents/equipment-13/manual.html",
+  "library_url": "/documents/equipment-13/library.html?source=Scf48d577b80032f9",
+  "source_manifest": "/documents/equipment-13/source-manifest.json",
+  "plc_analysis_note": "PLC 원본 프로젝트와 실행 래더는 미확보입니다. 도면상의 PLC 베이스/입출력·접점·단자·공정 설명을 현재 실행 프로그램으로 복원하지 않았습니다.",
+  "subsystems": [
+    {
+      "id": "DOC-13-1",
+      "name": "PR770S 전기",
+      "description": "023824_R0 도면의 P0196-PR770S, 2011-10-26 및 1764-28BXB BASE I/O입니다.",
+      "boundary": "도면상 베이스 표기와 현재 CPU/프로그램·실물 일치는 구분."
+    },
+    {
+      "id": "DOC-13-2",
+      "name": "제조사·정비 참고",
+      "description": "PR770 Smart Start·축 교체 PPTX/HWP·라디오 설명서와 부품 목록입니다.",
+      "boundary": "정비/분해 설명은 원본 근거이며 현재 작업 승인/실제 조치 아님."
+    },
+    {
+      "id": "DOC-13-3",
+      "name": "다른 모델·과거 기록",
+      "description": "PR4400/PR6600 도면·사진, 2026 철거 및 전원OFF 후 오류 참고입니다.",
+      "boundary": "PR770S 교체 호환품·새 수리 이력으로 재작성하지 않음. 보호설정·접근정보 포함 원문은 일반 복구절차와 분리."
+    }
+  ],
+  "manual": {
+    "overview": "13번 프라이머리는 SSI PR770S 관련 파쇄기·HPU·축/감속기·소프트스타터·LOCAL/RADIO·상하류 연동 자료입니다. 8쪽 전기도면과 Smart Start, 여러 축 교체 슬라이드·과거 작업 자료를 구분했습니다. PR4400/PR6600 부품 도면은 다른 모델 참고로 유지했습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.\n\n원본 범위\n폴더 파일 38개, 압축 내부 자료 0개, 고유 해시 38개입니다. 동일 내용의 원래 경로·이름을 보존했고 서로 다른 버전은 유지했습니다. Windows 캐시/로그는 기술 자료 목록에서 제외했습니다. PDF·이미지 미리보기, 추출 본문·표·원본은 자료실에서 확인할 수 있습니다. DOC/HWP/PPT/Excel 열람은 원본 페이지/도형 배치를 재현한 것이 아닙니다.",
+    "io": "023824_R0 6쪽의 1764-28BXB BASE UNIT 입력 I/0~I/15와 출력 O/0~O/11 표기 중 기능이 기재된 것을 도면 참조로 옮겼습니다. CONTROL POWER·HPU START/STOP·SYSTEM START/STOP/RESET·축A/B JOG·LOCAL/RADIO·소프트스타트 상태·하류 허가, HPU/SYSTEM 표시·MOTOR1 START·경보·시간계·상류 허가 등이 있습니다. I/와 O/를 다른 제조사 주소로 변환하지 않고 SPARE는 제외했습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "control": "제어 관계는 HPU 기동/상태, 시스템 시작/정지·고장/리셋, 축A/B 조그·LOCAL/RADIO 선택, 소프트스타터 및 상하류 허가로 나눴습니다. 도면의 전기 I/O 결선은 확보했으나 PLC 원본·내부 로직·역전/막힘·지연·라디오 안전 연동은 미확보입니다. 전원OFF 후 오류 참고 PPT의 보호설정 변경/접근정보를 일반 복구 지침으로 전재하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "circuits": "8쪽 도면의 동력/제어·PLC 베이스/확장 입출력·소프트스타터·모터/HPU·단자/계기 경로를 구분합니다. 6쪽은 I/12 소프트스타트 NO FAULT, I/13 IN BYPASS, I/14 MCR ON, I/15 하류 운전허가와 O/11 상류 허가의 외부 연결을 표시합니다. 단자/점퍼 표기는 원문 보존 범위이며 우회나 실제 배선 변경 지시가 아닙니다. 현재 베이스/CPU·보호 설정·실제 접점 상태는 확인 전입니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "alarms": "SYSTEM FAULT, MOTOR1 SOFT START FAULT, CONVEYOR MOTION SWITCH FAULT 등은 서로 다른 문서의 표시로 구분합니다. 보호/동작감지·윤활 관련 조건을 비활성화하거나 임의 재설정하는 절차를 새로 만들지 않았습니다. 축 분해 HWP의 가열/인양/충격 설명은 제조사 회신 참고이며 현장 조치·공구·하중·해체 순서의 승인으로 간주하지 않습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "repair": "1. HPU/시스템 기동 불가\nCONTROL POWER·START/STOP·소프트스타터·MCR/하류허가의 도면 위치 대조\n근거: 023824_R0.pdf · PDF 1쪽\n\n2. 축/감속기 또는 기계 정비 검토\nPR770S 모델·개정·실제 조립과 여러 축 교체판 차이 비교\n근거: SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx · 원본 추출 열람본\n\n3. 전원OFF 후 표시 고장\n최초 표시·동작감지·소프트스타터 상태와 현재 승인 보호설정 기록\n근거: 전처리 프라이머리 전원 OFF시 확인사항 출력.pptx · 원본 추출 열람본\n\n4. 라디오/조그/상하류 연동 문제\nLOCAL/RADIO·축A/B·상류/하류 연결을 분리\n근거: 023824_R0.pdf · PDF 1쪽\n\n기록 기준\n실제 최초 시각·표시/코드·정지 구간·관찰·측정·조치·복구 근거를 구분해 수리 기록 양식에 남깁니다. 이번 작업에서 현장 고장/수리 이력을 새로 생성하지 않았습니다.",
+    "completion": "작성한 것\n- 사용자 지정 폴더 원본 38개와 압축 내부 0개 연결·해시 보존\n- 설비 계통 구분·7개 매뉴얼 항목·전기/I/O/단자 참조 22행·조작 참조 2행\n- 핵심 PDF 페이지 미리보기 31개·원본 자료실·추출 텍스트/표/그림 연결\n- 증상별 점검 4개·확인 대장 6개\n\n미확정·추가 확인\n- 현재 PLC/베이스: 도면 1764-28BXB·2011과 현물/프로그램 미대조 / CPU·프로젝트·I/O·소프트스타터 설정 백업\n- PR770S와 다른 모델: PR4400/6600 도면·사진 혼재 / 장착품·부품번호·호환 승인 대조\n- 민감한 정비 참고: 접근정보·보호설정 변경 내용 포함 원문 존재 / 공개 전 별도 검토; 일반 운전·복구 지침과 분리\n- PLC/HMI 원본 및 현재 적용: 도면·설명서 범위로 정리 / 현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조\n- 현장·안전·복구 확인: 파일 검토·로컬 문서화만 수행 / 실제 관찰·측정·현재 보호/재기동·복구 기록 별도\n- 문서 판독 범위: 모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시. / 설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조\n\n판정\n문서화 완료(핵심 자료·정적 참조 범위)입니다. 전체 카탈로그의 모든 페이지 판독·PLC 전체 의미 해석·현장 운전/안전/복구 검증 완료가 아닙니다. 실제 수리 이력은 생성하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "023824_R0.pdf",
+        "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+      },
+      {
+        "label": "PR770 Smart Start Manual.pdf",
+        "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=1"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc208fe9af428e958"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx",
+        "url": "/documents/equipment-13/library.html?source=S721be0871fb2928e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx",
+        "url": "/documents/equipment-13/library.html?source=S0254bfa205e6a40e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc52acaeb991b8413"
+      },
+      {
+        "label": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+        "url": "/documents/equipment-13/library.html?source=S44b06169e5113a08"
+      },
+      {
+        "label": "파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp",
+        "url": "/documents/equipment-13/library.html?source=S06db3e89b5cfcff8"
+      }
+    ],
+    "io": [
+      {
+        "label": "023824_R0.pdf",
+        "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+      },
+      {
+        "label": "PR770 Smart Start Manual.pdf",
+        "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=1"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc208fe9af428e958"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx",
+        "url": "/documents/equipment-13/library.html?source=S721be0871fb2928e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx",
+        "url": "/documents/equipment-13/library.html?source=S0254bfa205e6a40e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc52acaeb991b8413"
+      },
+      {
+        "label": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+        "url": "/documents/equipment-13/library.html?source=S44b06169e5113a08"
+      },
+      {
+        "label": "파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp",
+        "url": "/documents/equipment-13/library.html?source=S06db3e89b5cfcff8"
+      }
+    ],
+    "control": [
+      {
+        "label": "023824_R0.pdf",
+        "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+      },
+      {
+        "label": "PR770 Smart Start Manual.pdf",
+        "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=1"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc208fe9af428e958"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx",
+        "url": "/documents/equipment-13/library.html?source=S721be0871fb2928e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx",
+        "url": "/documents/equipment-13/library.html?source=S0254bfa205e6a40e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc52acaeb991b8413"
+      },
+      {
+        "label": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+        "url": "/documents/equipment-13/library.html?source=S44b06169e5113a08"
+      },
+      {
+        "label": "파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp",
+        "url": "/documents/equipment-13/library.html?source=S06db3e89b5cfcff8"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "023824_R0.pdf",
+        "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+      },
+      {
+        "label": "PR770 Smart Start Manual.pdf",
+        "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=1"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc208fe9af428e958"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx",
+        "url": "/documents/equipment-13/library.html?source=S721be0871fb2928e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx",
+        "url": "/documents/equipment-13/library.html?source=S0254bfa205e6a40e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc52acaeb991b8413"
+      },
+      {
+        "label": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+        "url": "/documents/equipment-13/library.html?source=S44b06169e5113a08"
+      },
+      {
+        "label": "파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp",
+        "url": "/documents/equipment-13/library.html?source=S06db3e89b5cfcff8"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "023824_R0.pdf",
+        "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+      },
+      {
+        "label": "PR770 Smart Start Manual.pdf",
+        "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=1"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc208fe9af428e958"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx",
+        "url": "/documents/equipment-13/library.html?source=S721be0871fb2928e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx",
+        "url": "/documents/equipment-13/library.html?source=S0254bfa205e6a40e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc52acaeb991b8413"
+      },
+      {
+        "label": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+        "url": "/documents/equipment-13/library.html?source=S44b06169e5113a08"
+      },
+      {
+        "label": "파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp",
+        "url": "/documents/equipment-13/library.html?source=S06db3e89b5cfcff8"
+      }
+    ],
+    "repair": [
+      {
+        "label": "023824_R0.pdf",
+        "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+      },
+      {
+        "label": "PR770 Smart Start Manual.pdf",
+        "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=1"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc208fe9af428e958"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx",
+        "url": "/documents/equipment-13/library.html?source=S721be0871fb2928e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx",
+        "url": "/documents/equipment-13/library.html?source=S0254bfa205e6a40e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc52acaeb991b8413"
+      },
+      {
+        "label": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+        "url": "/documents/equipment-13/library.html?source=S44b06169e5113a08"
+      },
+      {
+        "label": "파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp",
+        "url": "/documents/equipment-13/library.html?source=S06db3e89b5cfcff8"
+      }
+    ],
+    "completion": [
+      {
+        "label": "023824_R0.pdf",
+        "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+      },
+      {
+        "label": "PR770 Smart Start Manual.pdf",
+        "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=1"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc208fe9af428e958"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx",
+        "url": "/documents/equipment-13/library.html?source=S721be0871fb2928e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx",
+        "url": "/documents/equipment-13/library.html?source=S0254bfa205e6a40e"
+      },
+      {
+        "label": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx",
+        "url": "/documents/equipment-13/library.html?source=Sc52acaeb991b8413"
+      },
+      {
+        "label": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+        "url": "/documents/equipment-13/library.html?source=S44b06169e5113a08"
+      },
+      {
+        "label": "파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp",
+        "url": "/documents/equipment-13/library.html?source=S06db3e89b5cfcff8"
+      }
+    ]
+  },
+  "io": [
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/0",
+      "name": "CONTROL POWER ON",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/1",
+      "name": "HPU START PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/2",
+      "name": "HPU STOP PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/3",
+      "name": "SYSTEM START PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/4",
+      "name": "SYSTEM STOP PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/5",
+      "name": "SYSTEM RESET PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/6",
+      "name": "SHAFT A JOG FORWARD PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/7",
+      "name": "SHAFT A JOG REVERSE PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/8",
+      "name": "SHAFT B JOG FORWARD PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/9",
+      "name": "SHAFT B JOG REVERSE PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/10",
+      "name": "LOCAL/RADIO SELECT",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/12",
+      "name": "M1 SOFTSTART NO FAULT",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/13",
+      "name": "M1 SOFTSTART IN BYPASS",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/14",
+      "name": "MCR ON",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "입력 참조",
+      "address": "I/15",
+      "name": "OK TO RUN FROM DOWNSTREAM",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "출력 참조",
+      "address": "O/0",
+      "name": "HPU RUN LIGHT",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "출력 참조",
+      "address": "O/1",
+      "name": "SYSTEM RUN LIGHT",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "출력 참조",
+      "address": "O/2",
+      "name": "SYSTEM FAULT LIGHT",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "출력 참조",
+      "address": "O/3",
+      "name": "MOTOR1 SOFTSTART RUN",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "출력 참조",
+      "address": "O/5",
+      "name": "START-UP WARNING HORN",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "출력 참조",
+      "address": "O/6",
+      "name": "REDUCER HOUR METER",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    },
+    {
+      "system": "PR770S 1764-28BXB BASE UNIT",
+      "direction": "출력 참조",
+      "address": "O/11",
+      "name": "OK TO LOAD TO UPSTREAM",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6"
+    }
+  ],
+  "hmi": [
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "PR770S 조작반",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "023824_R0.pdf",
+      "description": "HPU·SYSTEM·조그·RESET·LOCAL/RADIO",
+      "source": "023824_R0.pdf · PDF 2쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=2"
+    },
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "기존 오류 참고",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx",
+      "description": "과거 표시만 정리; 보호설정/접근정보 전재 제외",
+      "source": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx · 원본 추출 열람본",
+      "url": "/documents/equipment-13/library.html?source=S44b06169e5113a08"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [],
+  "drawings": [
+    {
+      "name": "023824_R0.pdf · 1쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Scf48d577b80032f9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "023824_R0.pdf · PDF 1쪽",
+      "source_id": "Scf48d577b80032f9",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1",
+      "preview": "/documents/source-previews/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8-0001.webp"
+    },
+    {
+      "name": "023824_R0.pdf · 2쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Scf48d577b80032f9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "023824_R0.pdf · PDF 2쪽",
+      "source_id": "Scf48d577b80032f9",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=2",
+      "preview": "/documents/source-previews/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8-0002.webp"
+    },
+    {
+      "name": "023824_R0.pdf · 3쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Scf48d577b80032f9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "023824_R0.pdf · PDF 3쪽",
+      "source_id": "Scf48d577b80032f9",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=3",
+      "preview": "/documents/source-previews/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8-0003.webp"
+    },
+    {
+      "name": "023824_R0.pdf · 4쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Scf48d577b80032f9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "023824_R0.pdf · PDF 4쪽",
+      "source_id": "Scf48d577b80032f9",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=4",
+      "preview": "/documents/source-previews/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8-0004.webp"
+    },
+    {
+      "name": "023824_R0.pdf · 5쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Scf48d577b80032f9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "023824_R0.pdf · PDF 5쪽",
+      "source_id": "Scf48d577b80032f9",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=5",
+      "preview": "/documents/source-previews/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8-0005.webp"
+    },
+    {
+      "name": "023824_R0.pdf · 6쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Scf48d577b80032f9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "023824_R0.pdf · PDF 6쪽",
+      "source_id": "Scf48d577b80032f9",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=6",
+      "preview": "/documents/source-previews/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8-0006.webp"
+    },
+    {
+      "name": "023824_R0.pdf · 7쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Scf48d577b80032f9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "023824_R0.pdf · PDF 7쪽",
+      "source_id": "Scf48d577b80032f9",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=7",
+      "preview": "/documents/source-previews/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8-0007.webp"
+    },
+    {
+      "name": "023824_R0.pdf · 8쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Scf48d577b80032f9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "023824_R0.pdf · PDF 8쪽",
+      "source_id": "Scf48d577b80032f9",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=8",
+      "preview": "/documents/source-previews/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8-0008.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 1쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "PR770 Smart Start Manual.pdf · PDF 1쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=1",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0001.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 2쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "PR770 Smart Start Manual.pdf · PDF 2쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=2",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0002.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 3쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "PR770 Smart Start Manual.pdf · PDF 3쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=3",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0003.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 4쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "PR770 Smart Start Manual.pdf · PDF 4쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=4",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0004.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 5쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "PR770 Smart Start Manual.pdf · PDF 5쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=5",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0005.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 6쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "PR770 Smart Start Manual.pdf · PDF 6쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=6",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0006.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 7쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "PR770 Smart Start Manual.pdf · PDF 7쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=7",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0007.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 8쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "PR770 Smart Start Manual.pdf · PDF 8쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=8",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0008.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 9쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "PR770 Smart Start Manual.pdf · PDF 9쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=9",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0009.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 10쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "PR770 Smart Start Manual.pdf · PDF 10쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=10",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0010.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 11쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "PR770 Smart Start Manual.pdf · PDF 11쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=11",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0011.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 12쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "PR770 Smart Start Manual.pdf · PDF 12쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=12",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0012.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 13쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "PR770 Smart Start Manual.pdf · PDF 13쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=13",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0013.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 14쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "PR770 Smart Start Manual.pdf · PDF 14쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=14",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0014.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 15쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 15,
+      "source": "PR770 Smart Start Manual.pdf · PDF 15쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=15",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0015.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 16쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 16,
+      "source": "PR770 Smart Start Manual.pdf · PDF 16쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=16",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0016.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 17쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 17,
+      "source": "PR770 Smart Start Manual.pdf · PDF 17쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=17",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0017.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 18쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 18,
+      "source": "PR770 Smart Start Manual.pdf · PDF 18쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=18",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0018.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 19쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 19,
+      "source": "PR770 Smart Start Manual.pdf · PDF 19쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=19",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0019.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 20쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 20,
+      "source": "PR770 Smart Start Manual.pdf · PDF 20쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=20",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0020.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 21쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 21,
+      "source": "PR770 Smart Start Manual.pdf · PDF 21쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=21",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0021.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 22쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 22,
+      "source": "PR770 Smart Start Manual.pdf · PDF 22쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=22",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0022.webp"
+    },
+    {
+      "name": "PR770 Smart Start Manual.pdf · 23쪽",
+      "system": "primary shredder drawing(설치설명서,전기도면)",
+      "kind": "원본 PDF",
+      "version": "원본 Sd5384f446700cf60 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 23,
+      "source": "PR770 Smart Start Manual.pdf · PDF 23쪽",
+      "source_id": "Sd5384f446700cf60",
+      "url": "/documents/source-store/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb.pdf#page=23",
+      "preview": "/documents/source-previews/d5384f446700cf602f4a9ad1d6acc1f954a7f479aa4c37df2ef52184894bb7fb-0023.webp"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "원본 알람/보호 확인 범위",
+      "name": "알람·보호·복구 근거",
+      "address": "현행 코드/임계값·정상극성 미확정",
+      "trigger": "SYSTEM FAULT, MOTOR1 SOFT START FAULT, CONVEYOR MOTION SWITCH FAULT 등은 서로 다른 문서의 표시로 구분합니다. 보호/동작감지·윤활 관련 조건을 비활성화하거나 임의 재설정하는 절차를 새로 만들지 않았습니다. 축 분해 HWP의 가열/인양/충격 설명은 제조사 회신 참고이며 현장 조치·공구·하중·해체 순서의 승인으로 간주하지 않습니다.",
+      "reset": "실제 표시·원인·현행 승인 조건을 확인하기 전 임의 우회·강제출력·설정 변경/재기동을 수행하지 않음",
+      "source": "023824_R0.pdf · PDF 1쪽",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "HPU/시스템 기동 불가",
+      "check": "CONTROL POWER·START/STOP·소프트스타터·MCR/하류허가의 도면 위치 대조",
+      "source": "023824_R0.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "축/감속기 또는 기계 정비 검토",
+      "check": "PR770S 모델·개정·실제 조립과 여러 축 교체판 차이 비교",
+      "source": "SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx · 원본 추출 열람본",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/equipment-13/library.html?source=Sc52acaeb991b8413"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "전원OFF 후 표시 고장",
+      "check": "최초 표시·동작감지·소프트스타터 상태와 현재 승인 보호설정 기록",
+      "source": "전처리 프라이머리 전원 OFF시 확인사항 출력.pptx · 원본 추출 열람본",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/equipment-13/library.html?source=S44b06169e5113a08"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "라디오/조그/상하류 연동 문제",
+      "check": "LOCAL/RADIO·축A/B·상류/하류 연결을 분리",
+      "source": "023824_R0.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8.pdf#page=1"
+    }
+  ],
+  "checks": [
+    {
+      "title": "현재 PLC/베이스",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "도면 1764-28BXB·2011과 현물/프로그램 미대조",
+      "next": "CPU·프로젝트·I/O·소프트스타터 설정 백업"
+    },
+    {
+      "title": "PR770S와 다른 모델",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "PR4400/6600 도면·사진 혼재",
+      "next": "장착품·부품번호·호환 승인 대조"
+    },
+    {
+      "title": "민감한 정비 참고",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "접근정보·보호설정 변경 내용 포함 원문 존재",
+      "next": "공개 전 별도 검토; 일반 운전·복구 지침과 분리"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "evidence": "도면·설명서 범위로 정리",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "evidence": "파일 검토·로컬 문서화만 수행",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "evidence": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "현재 PLC/베이스",
+      "status": "미확정·원문 차이 보존",
+      "source": "도면 1764-28BXB·2011과 현물/프로그램 미대조",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "CPU·프로젝트·I/O·소프트스타터 설정 백업"
+    },
+    {
+      "title": "PR770S와 다른 모델",
+      "status": "미확정·원문 차이 보존",
+      "source": "PR4400/6600 도면·사진 혼재",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "장착품·부품번호·호환 승인 대조"
+    },
+    {
+      "title": "민감한 정비 참고",
+      "status": "미확정·원문 차이 보존",
+      "source": "접근정보·보호설정 변경 내용 포함 원문 존재",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "공개 전 별도 검토; 일반 운전·복구 지침과 분리"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "source": "도면·설명서 범위로 정리",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "source": "파일 검토·로컬 문서화만 수행",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "source": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본·압축 자료 보존",
+      "status": "파일검증 완료",
+      "evidence": "폴더 원본 복사 전후 bytes/SHA-256 및 압축 추출 바이트/해시 대조",
+      "source": "/documents/equipment-13/source-manifest.json"
+    },
+    {
+      "title": "문서 검토 범위",
+      "status": "핵심 자료 중심 문서화",
+      "evidence": "023824_R0.pdf; PR770 Smart Start Manual.pdf; SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-1.pptx; SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-2.pptx; SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼-3.pptx; SSI 파쇄기(PR770S) 축(Shaft) 교체 메뉴얼.pptx; 전처리 프라이머리 전원 OFF시 확인사항 출력.pptx; 파쇄기(PR770S) 감속기로부터 축분리에 대하여.hwp / 참고·대량 카탈로그 전체 상세 판독은 아님",
+      "source": "/documents/equipment-13/library.html?source=Scf48d577b80032f9"
+    },
+    {
+      "title": "현재 PLC·현장 시험",
+      "status": "미수행",
+      "evidence": "프로그램 현행 적용·통전/운전/안전/복구 시험·현장 설정 변경은 수행하지 않음",
+      "source": "사용자 지정 폴더 자료 범위"
+    }
+  ]
+}

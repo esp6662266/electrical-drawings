@@ -1,0 +1,38 @@
+{
+  "sha256": "24d7bb2613e1f4cba99f4a5203f20569ad8a5af6802ae6a4a8cc8e39ba72a1df",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "1.pdf",
+      "bytes": 83060,
+      "compressed_bytes": 83060,
+      "encrypted": false
+    },
+    {
+      "name": "2.pdf",
+      "bytes": 234821,
+      "compressed_bytes": 234821,
+      "encrypted": false
+    },
+    {
+      "name": "3.pdf",
+      "bytes": 44007,
+      "compressed_bytes": 44007,
+      "encrypted": false
+    },
+    {
+      "name": "세진 6060크라샤 카바.pdf",
+      "bytes": 100477,
+      "compressed_bytes": 100477,
+      "encrypted": false
+    },
+    {
+      "name": "세진 60크랏샤 하부케이싱.pdf",
+      "bytes": 210522,
+      "compressed_bytes": 210522,
+      "encrypted": false
+    }
+  ]
+}

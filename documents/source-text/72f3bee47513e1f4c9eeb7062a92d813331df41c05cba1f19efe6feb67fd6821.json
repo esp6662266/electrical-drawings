@@ -1,0 +1,97 @@
+{
+  "sha256": "72f3bee47513e1f4c9eeb7062a92d813331df41c05cba1f19efe6feb67fd6821",
+  "extension": ".pptx",
+  "status": "슬라이드 텍스트 추출; 배치 미재현",
+  "pages": [
+    {
+      "page": 1,
+      "text": "▣\nHAMMEL \n파쇄기\n(VB950 E\n 운영 매뉴얼\n)\n▣전체 설비 \nON/OFF\n 순서\n – \n벨트 및 설비에 자재가 없는 조건\n(\n완전소진\n)\n▶자동 모드 \nON\n1. \n키를 수동\n-O-\n자동 \nS/S\n를\n O\n에 넣는다\n2\n. \n리모컨 시작 녹색\nS/W 1~2\n초누름\n(\n비상멈춤램프\n \nOFF)\n \n→\n3\n. \n조정장치 \nS/W ON(\n조정장치\n램\n프 \nON)\n→\n4\n. \n메인모터\n \nON\n(\n경고신호음\n5\n초 메인 모터가 순차로 동작\n, \n메인모터램프\n \nON, \n메인모터를\n 적어도 약 \n5\n분간 가동\n, \n유압오일은 반드시 예열 \n되어야함\n)\n5\n. \n수동\n-O-\n자동 \nS/S\n를\n \nO\n에서 자동으로 전환→\n6\n. \n리모컨 \nAuto 1 S/W ON(\n조종패널에 자동모드 램프\nON )\n다기능\n스크린\n비상정지\n조정패널\n리모컨\n(\n송신기\n)\n정지\n자동 끔\n역회전\n사용 \nx\n시작\n자동 켬\n호퍼\n사용 \nx\n2\n3\n4\n6\n1\n5"
+    },
+    {
+      "page": 2,
+      "text": "▣\nHAMMEL \n파쇄기\n(VB950 E\n 운영 매뉴얼\n)\n▣전체 설비 \nON/OFF\n 순서\n – \n벨트 및 설비에 자재가 없는 조건\n(\n완전소진\n)\n다기능\n스크린\n비상정지\n조정패널\n리모컨\n(\n송신기\n)\n정지\n자동 끔\n역회전\n사용 \nx\n시작\n자동 켬\n호퍼\n사용 \nx\n4\n3\n1\n▶자동 모드 \nOFF\n배출 컨베이어 및 \n파쇄하우징에\n 폐기물이 남지 \n않도록함\n(\n약\n5\n분간 \n공회전\n)\n1. \n리모컨 \nAuto O S/W\n를\n  ON(\n조정패널에 자동램프 \nOFF)\n→\n \n2. \n수동\n-O-\n자동 \nS/S\n를\n O\n로 전환→\n3. \n메인모터\n \nS/W OFF(\n메인모터램프\n \nOFF)\n→\n4. \n조종장치 \nS/W OFF(\n조정장치 램프 \nOFF)\n→\n5. \n리모컨 \nStop S/W ON \n송신기를 끈다\n6. \n키를 수동\n-O-\n자동 \nS/S\n에서 제거한다\n1\n5\n6"
+    },
+    {
+      "page": 3,
+      "text": "▣\nHAMMEL \n파쇄기\n(VB950 E)\n▣\n \n하드페이싱\n 작업\n하드페이싱\n 전\n하드페이싱\n 후\n파쇄기 측면"
+    },
+    {
+      "page": 4,
+      "text": "▣\nHAMMEL \n파쇄기\n(VB950 E\n 운영 매뉴얼\n)\n▣운영방법"
+    },
+    {
+      "page": 5,
+      "text": "▣\nHAMMEL \n파쇄기\n(VB950 E\n 운영 매뉴얼\n)\n▣운영방법"
+    },
+    {
+      "page": 6,
+      "text": "▣\nHAMMEL \n파쇄기\n(VB950 E\n 운영 매뉴얼\n)\n▣운영방법"
+    }
+  ],
+  "page_count": 6,
+  "figures": [
+    {
+      "member": "ppt/media/image10.jpeg",
+      "source_id": "S72f3bee47513e1f4",
+      "url": "/documents/source-figures/1e0e33f14cdabc68b13a8c88e64663ac7ed76aab37a0a19d8dab186b07457630.webp",
+      "width": 2300,
+      "height": 1614
+    },
+    {
+      "member": "ppt/media/image8.jpeg",
+      "source_id": "S72f3bee47513e1f4",
+      "url": "/documents/source-figures/e97dcf75faa5498823e98b7eeed5282e14ffcae47999d183f0ee6d9b4cbf52c2.webp",
+      "width": 2224,
+      "height": 1984
+    },
+    {
+      "member": "ppt/media/image3.jpeg",
+      "source_id": "S72f3bee47513e1f4",
+      "url": "/documents/source-figures/358bc338cccc6221d0885cdc07511288acf171c2b1a36f6601b4bfdcf6554abd.webp",
+      "width": 1765,
+      "height": 984
+    },
+    {
+      "member": "ppt/media/image2.jpeg",
+      "source_id": "S72f3bee47513e1f4",
+      "url": "/documents/source-figures/b33d095cb64ec7f002f4e3b8d914e91c9dc698e98d886d736ff19a38be4bb065.webp",
+      "width": 1603,
+      "height": 1187
+    },
+    {
+      "member": "ppt/media/image9.jpeg",
+      "source_id": "S72f3bee47513e1f4",
+      "url": "/documents/source-figures/d1769e5e1129825431a560f28471e1de35527ad21b635bb76dcc6bd696671a4e.webp",
+      "width": 1787,
+      "height": 2300
+    },
+    {
+      "member": "ppt/media/image4.jpeg",
+      "source_id": "S72f3bee47513e1f4",
+      "url": "/documents/source-figures/8fb954d50a85bd079352b036235454d97daaef5c1a769b017f15d8eb204c0ae4.webp",
+      "width": 925,
+      "height": 613
+    },
+    {
+      "member": "ppt/media/image6.jpeg",
+      "source_id": "S72f3bee47513e1f4",
+      "url": "/documents/source-figures/8dff2219ac676158f9db6c76821c14d52099880ed5ba0c75927e40c8c6ce6e1e.webp",
+      "width": 1123,
+      "height": 632
+    },
+    {
+      "member": "ppt/media/image5.jpeg",
+      "source_id": "S72f3bee47513e1f4",
+      "url": "/documents/source-figures/930e5a5422ec1095c16c137d0022857176f4b0287f649ef0492c13e2ef5de7d8.webp",
+      "width": 960,
+      "height": 467
+    },
+    {
+      "member": "ppt/media/image7.jpeg",
+      "source_id": "S72f3bee47513e1f4",
+      "url": "/documents/source-figures/e66109f8bcb732adeaec4d376f6e56712b6c6105e8177a00b9009bd20d6ed3f4.webp",
+      "width": 2300,
+      "height": 904
+    }
+  ]
+}

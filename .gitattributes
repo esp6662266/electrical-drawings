@@ -1,0 +1,6 @@
+* text=auto eol=lf
+documents/source-previews/* filter=lfs diff=lfs merge=lfs -text
+documents/salt-feeder-01/source/* filter=lfs diff=lfs merge=lfs -text
+documents/totalizer-02/source/* filter=lfs diff=lfs merge=lfs -text
+documents/source-store/* filter=lfs diff=lfs merge=lfs -text
+documents/source-figures/* filter=lfs diff=lfs merge=lfs -text

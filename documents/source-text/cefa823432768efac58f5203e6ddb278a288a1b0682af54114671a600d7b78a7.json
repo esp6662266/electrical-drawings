@@ -1,0 +1,14 @@
+{
+  "sha256": "cefa823432768efac58f5203e6ddb278a288a1b0682af54114671a600d7b78a7",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "DESCRIPTION DATE DSN CHK APPREV0 230REVDRAWING NOSERIALCUSTOMTITLESCALEA3 (420MM X 297MM)DATEDSN CHK APP11 2 3 4 5 6 7 8 91:200( A3 )SEJIN파쇄 선별 라인HH 페리투스이큅먼트(주)01.2018\n기계배치도S = 1/200NO DESCRIPTION SPECIFICATION KW진동스크린 1200W × 6.0M 3D-Combi FFSS1와전류 선별기 1번 10.41500W × 8.0M Eddy CurrentS2와전류 선별기 2번 7.3S31000W × 9.8MS5S6 1000W × 10.0M12.012.01000W × 6.8M Eddy Current22.0X-RAY 선별기 1번X-RAY 선별기 2번와전류 선별기 3번 7.3S4 1000W × 6.8M Eddy Current\nHammer Mill ShredderControl RoomCrane\nSTEEL\n스크린 배출컨베이어 1번 5.51000W × 8.2M 10mm UnderC1C2800W × 13.0MC4C5 800W × 13.0MC65.55.5C7Fe 배출컨베이어잔재물 배출컨베이C3\nS1S2,3,4S5,6C1,2,3C6,7C5C4C8\n115.0 kW800W × 8.0MC8 5.5AL 선별물 배출컨베이어스크린 배출컨베이어 2번스크린 배출컨베이어 3번5.51000W × 8.2M 10-40mm5.51000W × 8.2M 40-120mm X-RAY 투입컨베이어 1번 5.51000W × 8.2M X-RAY 투입컨베이어 2번 5.51000W × 8.2M \n본 도면은 견적 사양도 이므로 실제 설계제작 시 협의 후 변경될 수 있습니다실제 설계/제작 시 컨베이어 및 선별설비의 서포트 높이를 조정 바랍니다.",
+      "width": 841.92,
+      "height": 1190.52
+    }
+  ],
+  "page_count": 1
+}

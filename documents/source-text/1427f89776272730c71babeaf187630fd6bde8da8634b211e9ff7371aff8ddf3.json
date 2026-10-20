@@ -1,0 +1,14 @@
+{
+  "sha256": "1427f89776272730c71babeaf187630fd6bde8da8634b211e9ff7371aff8ddf3",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "정 비 부 품 (주)세진메탈",
+      "width": 1190.550048828125,
+      "height": 841.8900146484375
+    }
+  ],
+  "page_count": 1
+}

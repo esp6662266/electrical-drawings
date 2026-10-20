@@ -1,0 +1,14 @@
+{
+  "sha256": "84100f6ebc0e8d92670b3195a0b2e0c781cb440fb539fb4154e4405c4a643979",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "1GEARED MOTOR1\nSCALEVIEWC/S APPROVED BYDATE     2018. 03. 09.A1REVSHEETDWG No.TITLEUNITSIZEmmA3CHECKDESIGN APPROVAL1 of1\nREV수 량REVISION DESCRIPTION품     명재 질REMARKS\nACE Tech Co.,Ltd세 진 메 탈 주 식 회 사Oh\n규   격\nC2-투입 컨베이어-규 격 : W1000 x L9M-전력 :3.75kW x 4P-전원 : 380V, 60Hz-기울기 각도 : 21°3.75kW*4P*1/302CHAIN SPROKET1RS100*15T SM45C3 CHAIN SPROKET 1RS100*22T SM45C4BEARING1UCF212 SS4005TAKE-UP BEARING1UCTM212A SS4006RUBBER BELT1갈매기벨트NR\nW.1000659\n27069000\n8550.8\n5750.3\n586521.0°",
+      "width": 841.92004,
+      "height": 1190.52002
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,20 @@
+{
+  "sha256": "40171b9b2e755da7544eaf79f7027b301b0240dcdd450a926c470ab687644822",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "구분 RCBO\r\n형명 RKJ-b\r\n정격전압 230V (1P+N), 400V (2P)\r\n정격전류 1, 2, 3, 4, 5, 6, 10, 16, 20, 25, 32, 40, 50, 63A\r\n극수(Pole) 1P+N, 2P\r\n차단용량 10kA\r\n동작 Type A/AC\r\n감도전류 (I△n) mA 30, 100, 300mA\r\n부동작전류 (I△no) mA 0.5I△n\r\n순시트립범위 B, C, D\r\n차단시간 ≤0.03sec (30mA), ≤0.1sec (100, 300mA)\r\n수명 전기적 (회) 4,000\r\n기계적 (회) 10,000\r\n규격 (인증) IEC61009-1, CB, KC (1P+N, 2P)\r\n사이즈 (Width) 53.6mm/1P+N, 71.2mm/2P\r\n터미널 Lug type (cable up to 25mm2\r\n)\r\n설치방식 35mm Din rail 사용\r\n액세서리 AX, AL\r\n과전류 보호장치가 있는 누전차단기\r\n정격전류 : 1~63A\r\n차단용량 : 10kA\r\nAC, A type 선택\r\n액세서리 (AX, AL) 설치 가능\r\n인증취득\r\n- IEC61009-1 (SEMKO CB)\r\n- KC안전인증 (1P+N, 2P)\r\n- 전파적합성 인증 (1P+N, 2P)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 2,
+      "text": "외형치수 (unit: mm)\r\nRKJ-b\r\nB1\r\nUn 400V 50/60Hz\r\n10000\r\n30mA\r\n1 m=2000A\r\n91\r\n71.2\r\nRKJ-b\r\nB1\r\nUn 400V 50/60Hz IEC/EN 61009-1\r\n10000 AS/NZS 61009.1\r\n-25\r\n0.1s\r\n30mA\r\n1 m=2000A\r\n1 3\r\n2 4\r\nT\r\nTEST MONTHLY\r\nLS TOWER, 127,\r\nLS-ro, 14119,KOREA\r\n45\r\n33\r\n14\r\n35\r\nKTC\r\n:\r\n:\r\nHU05027-14001\r\nHolding Co., LTD of Wenahou\r\nJovean & Rogy Electrical\r\n5 43.8\r\n60\r\n68\r\n53.6\r\n91\r\nTEST MONTHLY\r\n1\r\n2 N\r\nT\r\nIEC/EN 61009-1\r\nAS/NZS 61009.1\r\nRKJ-b\r\nB1\r\nUn 230V 50/60Hz\r\n10000\r\n30mA\r\n1 m=2000A\r\n-25\r\nLS TOWER, 127,\r\nLS-ro, 14119,KOREA\r\n25\r\n8\r\n1P+N 2P\r\n형명체계\r\nRKJ\r\n기본형식\r\nRKJ-b\r\n1P+N\r\n극수\r\n1P+N\r\n2P\r\n63\r\n정격전류(A)\r\n1, 2, 3, 4, 5, 6, 10, \r\n16 20, 25, 32, 40, \r\n50, 63\r\nB\r\n순시특성\r\nB\r\nC\r\nD\r\n30mA\r\n감도전류\r\n30mA\r\n100mA\r\n300mA\r\nA-Type\r\n감도특성\r\nA-Type\r\nAC-Type\r\n순시동작특성곡선 및 온도보정표\r\nOperating curves\r\nCompensation curves\r\nResidual Current Circuit Breakers \r\nwith Overcurrent Protection\r\n본사 경기도 안양시 동안구 엘에스로 127 LS타워\r\n구입문의 저압차단기\t TEL:(02)2034-4407 FAX:(02)2034-4549\r\n고압차단기\t TEL:(02)2034-4031 FAX:(02)2034-4549\r\n기술문의 기술상담센터\t TEL: 1544-2080\r\nwww.ls-electric.com\r\n※ 본 제품의 규격은 품질개선을 위하여 예고없이 변경될 수 있으므로 제품구입시 문의 바랍니다. \r\nⓒ2019. 04 LS ELECTRIC Co., Ltd. All rights reserved. / (06) 2025. 04 Staffcom",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    }
+  ],
+  "page_count": 2
+}

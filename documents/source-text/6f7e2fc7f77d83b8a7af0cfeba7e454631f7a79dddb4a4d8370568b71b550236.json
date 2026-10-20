@@ -1,0 +1,14 @@
+{
+  "sha256": "6f7e2fc7f77d83b8a7af0cfeba7e454631f7a79dddb4a4d8370568b71b550236",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "ATM\n(주)세진메탈",
+      "width": 841.92,
+      "height": 1190.64
+    }
+  ],
+  "page_count": 1
+}

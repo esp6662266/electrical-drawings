@@ -1,0 +1,14 @@
+{
+  "sha256": "9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "PLC Digital Input Diagram 1\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nN24\nP24\nP0000 P0001\nCH 011\n0\n2\n1 2\nPB07\nPB06\nP0002 P0003 P0004 P0005 P0006 P0007 P0008 P009\n3 4\n3\n5 6\n4 5\n7 8\n6\n9 10\n7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nP24\n14\nP000A P000B P24\n11 12\n9\n13 14\n10 11\n15 16\n12\n17 18\n13\nN24\nP24\nP24\n19\n15 16\n NO-01  BURNER ON\nPB05\nBurner Reset\nNO-01 Flame Detector\nP000C P00D P000E P000F\nFD-02\n NO-01  BURNER OFF\nAL-01\nPB008\nFD-01\nPB09\nT I C  01- AL-01\n NO-02  BURNER ON\n NO-02  BURNER OFF\nNO-02 Flame Detector\nROOM /LOCAL \n2011-02\nALCO -2011 - E008 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nAL-02T I C  01- AL-02\n메인판넬 및 로컬판넬 겸용\nF-D -TRIP-1\nDOOR-TRIP-2\nTRIP-3\nTRIP-2\nTRIP-1\nDAMPER-TRIP-3",
+      "width": 841.68,
+      "height": 595.2
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,14 @@
+{
+  "sha256": "44b06169e5113a08d013a94dc16820bd64d303098cf3b7a3c0ed6b305cd5a792",
+  "extension": ".pptx",
+  "status": "슬라이드 텍스트 추출; 배치 미재현",
+  "pages": [
+    {
+      "page": 1,
+      "text": "과거 전원 OFF 후 MOTOR1 SOFT START FAULT 및 CONVEYOR MOTION SWITCH FAULT 표시 참고 자료입니다. 접근정보·보호설정 변경 설명과 원본 화면은 공개 열람본에서 제외했습니다. 현재 승인 설정·고장 원인은 별도 확인 대상입니다."
+    }
+  ],
+  "page_count": 1,
+  "figures": [],
+  "source_restriction": "접근정보 원본·민감 화면은 GitHub/Netlify 게시에서 제외. 원본은 로컬 보존."
+}

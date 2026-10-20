@@ -1,0 +1,26 @@
+{
+  "sha256": "8a680a0da5a709a6dd8fe9d786935101ba0308eabc9acb8eea1b7d25dac87b1d",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "PR4400 Photos \n \n \n \n ",
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 2,
+      "text": " \n \n \n \n ",
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 3,
+      "text": " \n \n \n ",
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "page_count": 3
+}

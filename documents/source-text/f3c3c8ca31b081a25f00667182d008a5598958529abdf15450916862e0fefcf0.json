@@ -1,0 +1,14 @@
+{
+  "sha256": "f3c3c8ca31b081a25f00667182d008a5598958529abdf15450916862e0fefcf0",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "60t 철판",
+      "width": 842.0,
+      "height": 1191.0
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,14 @@
+{
+  "sha256": "06db3e89b5cfcff8579834512d6bcad57d65b0efd08a6c19b41d553448a6eac9",
+  "extension": ".hwp",
+  "status": "HWP 본문 추출; 페이지 배치 미재현",
+  "pages": [],
+  "paragraphs": [
+    "파쇄기(PR770S) 감속기로부터 축분리에 대하여",
+    "It looks like the shrink disc is all the way which is good, I would now try to lift at the nose of the gear reducer to try and break the bond loose, please note that if the shrink disc became loose at any time then the gear reducer output shaft is likely welded itself to the shaft and it will take heat and lifting and shocking with a hammer to break it free. There is no spline or anything there it is round surface to round surface so you’re not missing anything internally needing to be removed.",
+    "수축 디스크(shrink disc)가 끝까지 들어간 것처럼 보이는데, 그건 좋은 상태입니다.",
+    "이제 감속기(기어 리듀서) 노즈(nose) 부분을 들어 올려접합(붙어있는) 부분의 결합을 깨서분리해 보세요.",
+    "다만 주의할 점은, 작업 중 수축 디스크가 어느 순간이라도 느슨해졌다면, 감속기 출력축이 샤프트에 달라붙어(사실상 용착/붙음)버렸을 가능성이 큽니다. 그런 경우에는 가열(열)하고, 들어 올리면서, 해머로 충격(쇼킹)을 줘서 붙은 부분을 깨야 분리됩니다.",
+    "그리고 그 안쪽에는 스플라인 같은 구조가 전혀 없고, 원형 표면과 원형 표면이 맞닿는(원-원 접촉) 구조라서, 내부에서 추가로 빼야 할 부품이 남아 있거나 제거를 놓친 것은 아닙니다."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sha256": "cf48d577b80032f92fd21943a61760729e18a933c8176daa34957c9844f80cb8",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "width": 792.0,
+      "height": 1224.0
+    },
+    {
+      "page": 2,
+      "text": "",
+      "width": 792.0,
+      "height": 1224.0
+    },
+    {
+      "page": 3,
+      "text": "",
+      "width": 792.0,
+      "height": 1224.0
+    },
+    {
+      "page": 4,
+      "text": "",
+      "width": 792.0,
+      "height": 1224.0
+    },
+    {
+      "page": 5,
+      "text": "",
+      "width": 792.0,
+      "height": 1224.0
+    },
+    {
+      "page": 6,
+      "text": "",
+      "width": 792.0,
+      "height": 1224.0
+    },
+    {
+      "page": 7,
+      "text": "",
+      "width": 792.0,
+      "height": 1224.0
+    },
+    {
+      "page": 8,
+      "text": "",
+      "width": 792.0,
+      "height": 1224.0
+    }
+  ],
+  "page_count": 8
+}

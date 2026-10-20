@@ -1,0 +1,590 @@
+{
+  "sha256": "7f22064dc352d55637403249232568e04c401245341858b4915b77fd13a9014f",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": " \n \n \nSteinert GmbH \nWiddersdorfer Straße 329-331 • D-50933 Köln \nPostfach 45 11 60 • D-50886 Köln \n \nPhone:  \n Switchboard \nSpare parts \nService / Repairs \nFax \nE-mail \n+49-(0)221 / 49 84 - 0 \n+49-(0)221 / 49 84 - 177 \n+49-(0)221 / 49 84 - 132 \n+49-(0)221 / 49 84 - 102 \nsales@steinert.de \nwww.steinert.de \n \n \n \n \nOPERATING INSTRUCTIONS (EN) \n  \nMachine  Control unit \nType  STXSS 120 \nFor serial No.  18 0143 080 01 \nOrder number A1180143 \nCustomer Sejin Metal CO., LTD.               \n                                     \n 15, Wonbong-m                       \n Onsan-eup                           \n ROK -            Ulju-gun, Ulsan                \nOrder no.                                     \nOrder date 2018-02-06 \nProject name                                \n  \nFinal customer  \n  \n  \n  \nYear of manufacture 2018 \n \n \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 2,
+      "text": " \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  2 \n \n \nNotes on the Operating \nInstructions \n \n \n \nThese operating instructions contain basic information that \nmust be observed during installation, operation and \nmaintenance. It is important that these operating \ninstructions are read and understood BEFORE assembly \nand commissioning by the assembler as well as the \nresponsible specialist staff/machine owner. \nThe operators of the plant must be instructed and \nappropriately trained about the specific properties, \nfunctioning, operation and maintenance. \n \nThese instructions must always be available at the place of \nuse of the machine. \n \nNon-observation of the safety instructions can result in the \nloss of any right to claim for damages or bodily injury. \nIf the machine is sold, the instructions must be handed over \nto the new owner. \n \nFigures in these instructions are to assist basic \nunderstanding and may differ from the actual plant design. \n \n \n \n \nCopyright \n \n \n \nThese instructions must be treated as confidential. They are \nexclusively intended for persons operating the plant. The \ninstructions must not be passed to third persons without the \nwritten approval of the manufacturer. \n \nThe information, texts, drawings, pictures and other \nillustrations are protected by copyright and subject to \nindustrial property rights. Any misuse will be prosecuted. \n \n Multiplication in whatever way and format – including \nexcerpts – and application, disclosure and/or transfer of its \ncontents or parts thereof are prohibited unless a written \napproval of the originator has been obtained. \nNoncompliance will cause indemnities. We reserve the right \nto claim additional indemnities. \n \nThe names or portrayals of company logos of actual \nproducts or companies in this document may be \ntrademarked labels or names of their respective owners. ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 3,
+      "text": " \n \nContents  \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  3 \n \nContents  \n \n1 General .............................................................................................. .................................... 6 \n1.1  Explanation of symbols ............................................................................... ................................ 6 \n1.2  Notes on the present instructions .................................................................... ........................... 7 \n1.3  Please heed / intended use ........................................................................... .............................. 8 \n1.4  Notes on the switch cabinet .......................................................................... ............................ 10  \n1.5  Activities before use ................................................................................ ................................. 15  \n2 Operation ............................................................................................ ................................ 16  \n2.1  Functional description of the XSS® (XSS® sorting system) ........................................................... 16  \n2.2  Notes on operation XSS® ........................... ................................................... ............................ 17  \n2.3  Controls on the switch cabinet ....................................................................... ........................... 18  \n2.3.1  Controls on the switch cabinet assignment table ....................................................................................... 18  \n2.4  Plant overview / control off ......................................................................... ............................. 19  \n2.5  Control unit on ...................................................................................... ................................... 22  \n2.6  Local mode edit picture ........................... ................................................... .............................. 25  \n2.6.1  Remote operating mode ............................................................................................................................. 27  \n2.7  “Errors” tab ........................................................................................... ................................... 28  \n2.8  Sort settings ..................................... ................................................... ..................................... 31  \n2.9  Statistic ............................................................................................ ........................................ 33  \n2.10  Care / plant settings ............................. ................................................... ................................. 36  \n2.10.1  Features and settings .................................................................................................................................. 36  \n2.10.2  Valves / valve presettings ........................................................................................................................... 38 \n2.10.3  Valve-Quality / Valve Test ........................................................................................................................... 40 \n2.10.4  Valve Info .................................................................................................................................................... 46  \n2.10.5  Valve Change............................................................................................................................................... 48  \n3 Commissioning ..................................... ................................................... ............................ 51  \n3.1  Switching on the XSS® control unit at the switch cabinet ............................................. .............. 52  \n3.1.1  Choosing the operating mode edit picture add box 6 ................................................................................ 56  \n3.1.2  Acknowledging EMERGENCY STOP ............................................................................................................. 57  \n3.1.3  Manual mode .............................................................................................................................................. 59  \n3.1.4  Automatic separation / ready ..................................................................................................................... 64  \n3.1.5  XSS® start sequence .................................................................................................................................... 65  \n3.1.6  Stopping automatic separation ................................................................................................................... 67  \n3.1.7  Switching off ............................................................................................................................................... 70  \n3.2  Stopping in an emergency ............................................................................. ............................ 73  \n3.3  Activities after use ................................................................................. ................................... 73  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 4,
+      "text": " \n \nContents  \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  4 \n \n3.4  Signal exchange ...................................................................................... .................................. 75  \n3.4.1  Remote: Hardware signals (HW) Hardware ................................................................................................ 75  \n4 Faults ............................................ ................................................... ................................... 79  \n4.1  Safety ............................................................................................... ........................................ 79  \n4.2  Fault indicators and EMERGENCY STOP of the plant ..................................................... .............. 82  \n4.2.1  Fault display, belt drive example ................................................................................................................ 84  \n4.2.2  Example of EMERGENCY STOP message “EMERGENCY STOP t riggered on the switch cabinet” ................ 86 \n4.2.3  Power failure ............................................................................................................................................... 88  \n4.3  Fault table, electrics ............................................................................... ................................... 89  \n4.4  Start-up after a fault was remedied .................................................................. ......................... 90  \n5 Appendix ............................................................................................. ................................ 91  \n5.1  Signal lists ...................................... ................................................... ....................................... 91  \nElectrical equipment plan ............................................................................ ....................................... 93  \nDescription of the installed equipment ...................................................................................................................... 94  \n6 Index ............................................. ................................................... ................................... 95  \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 5,
+      "text": " \n \nList of figures  \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  5 \n \n \nList of figures \n \nFig. 1: STXSS® controls / switch cabinet .......................................................................................................... 18  \nFig. 2: Plant overview/control unit switched off ................................................................................................. 19  \nFig. 3: Control unit on ........................................................................................................................................ 22  \nFig. 4: “Local” operating mode ........................................................................................................................... 25  \nFig. 5: “Remote” mode ....................................................................................................................................... 27  \nFig. 6: Fault overview......................................................................................................................................... 28  \nFig. 7: Errors/Error acknowledged ..................................................................................................................... 29  \nFig. 8: Sort settings ............................................................................................................................................ 31  \nFig. 9: Valve statistic .......................................................................................................................................... 33  \nFig. 10: Statistic/Air ............................................................................................................................................ 35  \nFig. 11: Care/features overview ......................................................................................................................... 36  \nFig. 12: Care/Valves .......................................................................................................................................... 38  \nFig. 13: Valve-Quality/Valve Test ...................................................................................................................... 40  \nFig. 14: Starting the valve test ........................................................................................................................... 42  \nFig. 15: Stop valve test and results ................................................................................................................... 45  \nFig. 16: Valve Quality/Valve Info ....................................................................................................................... 46  \nFig. 17: Valve Quality/Valve-Change ................................................................................................................. 48  \nFig. 18: Switch cabinet detail “Control unit on” .................................................................................................. 52  \nFig. 19: Status display “Control system off” ....................................................................................................... 54  \nFig. 20: Switching on the plant control............................................................................................................... 55 \nFig. 21: “Local” mode ......................................................................................................................................... 56  \nFig. 22: Status “EMERGENCY STOP“ triggered on the switch cabinet ............................................................ 57  \nFig. 23: Manual / Local edit picture .................................................................................................................... 59  \nFig. 24: Automatic separation / “ready” ............................................................................................................. 64  \nFig. 25: Automatic separation / start sequence ................................................................................................. 65  \nFig. 26: XSS® in operation ................................................................................................................................ 66  \nFig. 27: Stopping the plant in “Local” mode ....................................................................................................... 67  \nFig. 28: XSS® plant ready ................................................................................................................................. 69  \nFig. 29: Switching off the control unit ................................................................................................................. 70  \nFig. 30: Control unit switched off (XSS®) .......................................................................................................... 71  \nFig. 31: Master switch overview ........................................................................................................................ 72  \nFig. 32: Plant status “Fault” on the schematic machine drawing ....................................................................... 82  \nFig. 33: Fault message “Fault” in the alarm list ................................................................................................. 83  \nFig. 34: Fault message “Belt drive stopped”, overview ..................................................................................... 84  \nFig. 35: Fault message “Belt drive stopped” Detail ........................................................................................... 84  \nFig. 36: “EMERGENCY-STOP” status display .................................................................................................. 86  \nFig. 37: XSS® ready .......................................................................................................................................... 87  \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 6,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  6 \n \n1 General \n1.1 Explanation of symbols \nNotes concerning property \ndamage and injuries \nSafety instructions are indicated by symbols in these operating \ninstructions. Signal words preceding the safety instructions indicate \nthe extent of the risk. \nAlways adhere to safety instructions and act with care to avoid \naccidents, bodily injuries and property damage. \n \n \nWarnings \n DANGER! Indicates an immediately dangerous \nsituation that, if not avoided, will cause \ndeath or severe injuries.  \n \n \n WARNING! Indicates a potentially dangerous situation \nthat, if not avoided, will cause death or \nsevere injuries. \n \n \n CAUTION!  Indicates a potentially dangerous situation \nthat, if not avoided, will cause less severe \nor light injuries. \n \n \nNOTE! Indicates a potentially dangerous situation \nthat, if not avoided, will cause damage to \nproperty or the environment.  \n \n \nInformation  \n \nInformation! \nPoints out recommendations and \ninformation necessary for efficient and \ntrouble free operation. \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 7,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  7 \n \n \n1.2  Notes on the present instructions \n These instructions are to ensure the safe and effi cient use of the plant. \nThe instructions are a constituent of the system and must be kept in close proximity \nto the system and accessible to the personnel at all times. The personnel must have \ncarefully read through and understood these instructions before starting any work. \nThe basic requirement for safe working is adherence to all safety and handling \ninstructions in this manual. \nIn addition, the local accident prevention regulations and general health and safety \nregulations for the place of use of the plant apply. \n \nFigures in these instructions are to assist basic understanding and may differ from \nthe actual plant design. \n \nAs well as these instructions, the instructions for the installed components that may \nbe found in the appendix also apply. \n \nThese control system operating instructions may only be used in combination with \nthe “X-ray sorting system XSS®” operating instructions. \n \n \n   \n \nInformation! \nThe system operator is obligated to keep the instructions \nin close proximity to the system components together with \nthe supplier documentation. \n I_BTA_01_DE-00 \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 8,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  8 \n \n1.3 Please heed / intended use \nThe plant is designed and constructed solely for the intended use described here. \nThe plant is intended solely for the sorting of bulk goods. \nFor the properties of the bulk goods please refer to the order confirmation. \nAny use beyond and/or different from the intended use of the plant can result in dangerous \nsituations. \n\u0001 Only use the plant for its intended use. \n\u0001 Strictly observe the specifications in these opera ting instructions. \nIn particular, forbid the following uses of the plant. \nThey are classed as being outside the intended use: \n\u0001 Transportation of persons \n\u0001 Walking on the conveyor \n\u0001 Material storage \n\u0001 Infeed of material with incorrect or too large gra ding \nExceeding of the maximum permissible mass/volume flow \n\u0001 Infeed of sticky, liquid and highly flammable subs tances \nClaims for damages of any kind resulting from unintended use are excluded. \nThe owner is solely responsible for all damage resulting from unintended use. \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 9,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  9 \n \n \nIncorrect operation \n\u0001 Perform all operating steps according to the infor mation in these \noperating instructions. \n\u0001 Keep the working area orderly and clean! \nComponents and tools that are loosely stacked or left lying \naround are potential sources of accident. \n \n WARNING! Insufficient safety measures! \nRisk of injury. \nBefore starting any work: \n\u0002 Ensure that all covers are fitted.  \n\u0002 Make sure that all safety devices are intact. \nDuring work: \n\u0002 Wear personal protective equipment. \n W_USM_01_DE-00 \n \n DANGER! Malfunctioning safety devices! \nRisk to life. \n\u0002 Make sure that the safety devices are \nproperly installed. \n\u0002 Make sure that all safety devices are intact. \n\u0002 Never disable safety devices. \n\u0002 Make sure that the safety devices are \naccessible at all times. \n G_NFS_01_DE-00 \n \nPersonal protective \nequipment  \nPersonal protective equipment is not required if the plant is controlled from a \nremote control room. \n \nAlways wear the following personal protection when performing \noperating work on the plant: \n\u0001 Long sleeved protective work clothes \n\u0001 Hard hat  \n\u0001 Safety shoes \n\u0001 Protective gloves \n\u0001 Hearing protection \n\u0001 Safety glasses \n \nSpecial reference to other protective equipment that is to be worn for particular \ntasks is made in the warning instructions of this chapter. \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 10,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  10 \n \n1.4  Notes on the switch cabinet \nNotes on the switch cabinet \nThe switch cabinet has protection class IP 55 as standard.  The ambient air must be able to freely \ncirculate around the switch cabinet and must not be heated up by other heat generators. \n \nBags with desiccant may have been suspended inside the switch cabinet. \nThe desiccant protects the electrical components from humidity during transport and short term storage. \nBefore starting up the control system, the bags of drying agent must be removed from the switch cabinet. \n \nIf any of the bags of drying agent are defective, any drying agent that has escaped must be removed from \nthe switch cabinet.  \n\u0001 Always ensure that the switch cabinet is on a firm  surface and that the interior is clean in order to \navoid malfunctions. \n \n \nNOTE! Unsuitable hoisting gear and lifting accessories! \nMaterial damage. \n\u0002 Do not remove the packaging until just before installation. \n\u0002 Pay attention to the markings on the packing units. \n\u0002 Use installed transportation aid. \n\u0002 Only use suitable lifting accessories.  \n\u0002 Only use suitable hoisting gear. \nH_HL_01_DE-00 \n \n \n \n \nSpecial reference to other protective equipment that is to be worn for particular tasks is made in the \nwarning instructions of this chapter.  \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 11,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  11 \n \n \nConnecting the switch cabinet \nThe wiring to the switch cabinet and from there to the XSS® \n must be carried out as per the wiring diagram. \nHave connecting work, grounding work and protective measures carried out by a trained electrician in \naccordance with the accepted technical regulations such as the VDE regulations, CENELEC, ISO standards  \nand/or the regulations of country-specific health and safety institutions, standards committee or the \nregulations of the local energy supply company. \n \nPreliminary commissioning for testing was performed at the STEINERT factory. \n \nThe power supply for the switch cabinet and the signal communication with the customer control system \nmust be wired as per the wiring diagram. \nThe cables and lines for connecting the machine are included in the scope of delivery. \n \nIn the EU, it is particularly important to pay attention to directive 2004/108 concerning electromagnetic \ncompatibility (EMC). In other countries outside the European Union, the local regulations concerning \nelectrical installations and work protection must be applied. \n \nAlways adhere to the relevant applicable directives and regulations when carrying out wiring work on the \nsystem. \n \n \n \nInformation! \nEnsure that data cables are routed physically \nseparate from all other cables!  \n I_MG_01_DE-00 \n \n \nNOTE! Live parts! \nMaterial damage. \n\u0002 Earth the chassis. \n\u0002 Install fuses correctly. \n\u0002 If insulation damage is found, interrupt the \npower supply and ensure that the insulation \nis repaired immediately. \n\u0002 Never bypass or disable fuses.  \n\u0002 Always replace blown fuses with fuses of \nthe same rating. \nH_FS_01_DE-00 \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 12,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  12 \n \n \n \n DANGER! Electrical power! \nDanger of life from electric shock. \n\u0002 Installation and commissioning must only be carried out by \nqualified employees or under the guidance of the \nmanufacturer. \n\u0002 All work on the electrical system must be carried out by \ntrained electricians. \n\u0002 Only operate the system if no unauthorized changes have \nbeen made and it is in perfect technical condition. \n\u0002 When insulation damage is found, interrupt the power supply \nand have insulation repaired immediately. \n\u0002 Never bypass or disable fuses. \n\u0002 Always replace blown fuses with fuses of the same rating. \n G_ES_02_DE-00 \n \nChanges to circuitry, software or functionality  \n \nIncorrect changes to software or hardware can cause serious injuries or damage to property. \n \nFor potential changes to the machine software, please inform us of your change requests or communicate \nthem to: \nSTEINERT Elektromagnetbau GmbH. \nFast modification is ensured after thorough assessment. \n \nUnauthorized changes to the machine control system can result in costly consequential damage and/or \ninefficient system function. \nFurthermore, damage caused by unauthorized modifications to the software or alterations to the system \ncomponents are not covered by the warranty and can have expensive consequences. \n \n External data media or USB devices \nThe manufacturer does NOT allow connecting USB devices such as memory sticks, cameras or similar \ndevices to the plant. Only USB memory sticks approved by the manufacturer may be connected to the \nplant. \n \nAny other USB devices or data media not approved by the manufacturer are likely to cause malfunctions \nor cause virus infections. The machine performance or safe and efficient plant operation can be affected. \nNon-observance of this warning will result in loss of guarantee and warranty. \nIn this case, property damage and injuries are not covered by warranty either. \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 13,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  13 \n \n \n \nNOTE! Malware! \nMaterial damage. \n\u0002 Use only the approved remote control module. \n\u0002 Use only approved USB devices. \nH_SP_01_DE-00 \n \n \nNOTE! Control PC overload! \nDamage to property. \n\u0002 Do not use USB devices during operation. \nH_UPC_01_DE-00 \n \n \nNOTE! Poor function due to disturbance sources! \nDamage to property. \n\u0002 Avoid power failures or fluctuations (e.g. starting of large \nmotors, switching of transformers). \n\u0002 Protect against radiation (e.g. radio/TV transmitters, mobile \nphones, switched power supplies). \n\u0002 Protect against network harmonics (e.g. frequency inverters, \nsoft starters, transformers). \n\u0002 Make sure the plant is correctly and completely earthed. \nH_SQ_01_DE-00 \n \n \nNOTE! Unauthorized changes! \nMaterial damage. \n\u0002 Do not make any unauthorized changes to the wiring. \n\u0002 Do not make any unauthorized changes to the control unit. \nH_EV_01_DE-00 \n \n \nNOTE! Wrong parameters! \nMaterial damage. \n\u0002 Do not change the frequency inverter settings. \nH_FP_01_DE-00 \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 14,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  14 \n \n \nMaintenance and upkeep \nKeep the outside and inside of the devices free from dust deposits to ensure optimum heat dissipation. \nLocal operating conditions define the cleaning intervals. \n \nReplace defective components or blown fuses with components of the same rating only or characteristics \nonly (rating, type, amperage and characteristics, pin-out) as specified in the wiring diagram or the spare \nparts lists. We recommend that you only use STEINERT original parts. \n \n\u0002 Always ensure that the switch cabinet is on a firm  surface and that the interior is clean in order to \navoid malfunctions. \n\u0002 Clean the switch cabinet inside and outside by dry  wiping, vacuuming, brushing or compressed air \nonly. Always make sure the control system is deenergized before cleaning the interior. \n \n \nNOTE! Heat build-up! \nMaterial damage. \n\u0002 Remove dust deposits. \n\u0002 Heed the minimum lateral clearances. \nH_WS_01_DE-00 \n \n \n WARNING! Electrical power! \nRisk of injuries from electric shock. \n\u0002 Protect live parts from moisture. \n\u0002 Never clean plant components and switch \ncabinets with high-pressure cleaners. \n W_ES_01_DE-00 \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 15,
+      "text": " \n General \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  15 \n \n \n1.5 Activities before use \n \nBefore commissioning observe the following points: \n\u0001 Check all liquid levels, safety devices and covers . \n\u0001 Check conveyor belt tension, see “Tensioning the c onveyor belt” in the STEINERT XSS® \noperating instructions. \n\u0001 Check the conveyor belt and drive units for foreig n bodies and remove any if necessary. \n\u0001 Check conveyor belt for damage. \n\u0001 Check conveyor belt for skewed running and correct  if necessary. \n\u0001 Visually check the gearbox for leaks. \n\u0001 Make sure all protection and safety devices are pr esent, correctly installed and functioning. \n\u0001 Make sure compressed air of the required quality i s supplied \n\u0001 Check that all components are firmly fastened and that the screw connections are tight. \n\u0001 The ambient temperature must correspond to the man ufacturer specifications, see “Technical \ndata”. \n \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 16,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  16 \n \n2 Operation \n2.1 Functional description of the XSS® (XSS® sortin g system) \nFunctional \ndescription \nConveyors feed the material to the X-ray sorting system. \n \nA conveyor belt feeds the material through the X-ray scanner that detects the \ndifferent substances. The control unit controls the respective pneumatic valves \narranged in a row downstream of the belt drum. \nThe detected material is blown out of the material flow with compressed air in \ndownward direction. \n \nAn electric motor drives the conveyor belt. \nThe conveyor belt speed (m/sec) is fixed. \n \nThe STXSS®_2015 control unit is located in a switch cabinet. \nThe EMERGENCY STOP devices, the operating panel displaying status, error \nmessages and other plant parameters are also located in this switch cabinet. \n \nThe control system (Microsoft Windows) passes a signal to the relevant valve in \nthe valve strip (several adjacent valves at the end of the belt). The valve opens \nfor an extremely short time and shoots the part to separate over a fixed or \nrotating splitter (rotating splitter is optional) using a powerful jet of air. The valve \nopening time is adapted to the size and shape of the material that is being sorted \nif necessary. \n \nDepending on the material fed in, the separated constituents are deposited in a \nmaterial discharge upstream or downstream of the splitter. \n \n \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 17,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  17 \n \n2.2 Notes on operation XSS® \nNotes on operation  Only instructed and trained staff may operate the system. \nThe operating staff must be familiar with the functional principle of the entire \nsystem and the components which are installed. \n \nThe personnel must have carefully read through and understood these \ninstructions before starting any work. The basic requirement for safe working \nis adherence to all safety and handling instructions in this manual. \n \nThe operators must be familiar with emergency stop devices and their \nfunction. Operators must wear personal protection such as safety shoes, \nclosely fitting clothes, protective goggles, hard hat and hearing protection. \n \nThe XSS® can be operated in two different modes (remote and local). \nThe XSS® control system is equipped with all of the devices that are needed \nto provide the power supply, signal communication, electrical and electronic \nsafety devices of a Programmable Logic Control system (PLC) and the man-\nmachine interface operating panel. \nThe respective system status can be easily read off of the plain text display of \nthe operating panel at the switch cabinet. \n \n \n WARNING! Insufficient qualifications! \nRisk of injury. \n\u0002 Make sure all work is carried out by appropriately \nqualified staff. \n W_UQ_01_DE-00 \n \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 18,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  18 \n \n2.3 Controls on the switch cabinet \n \nFig. 1: STXSS® controls / switch cabinet \n \n2.3.1 Controls on the switch cabinet assignment tab le \nItem  Explanation Function \n1 Control panel / monitor Operating panel for display of status and error messages. Plant \nsettings can also be made. \n2 Button “SYSTEM I/0” Pushbutton to switch on the control computers (PCs) for the plant and \nthe control program (MMI). \n3 Switch cabinet connections Connectors to connect the XSS® to the switch cabinet. \nThe connectors are coded and only fit one way. \n4 “EMERGENCY-STOP” \nbutton Pressing this button activates the EMERGENCY STOP function. \n5 Master switch This switch is used to turn the main power supply of the plant on and \noff. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 19,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  19 \n \n \n2.4 Plant overview / control off \nFig. 2: Plant overview/control unit switched off \n \n \nItem  Explanation Function \n1 “Control” tab  \nDisplays the tabs. The tabs contain subtabs providing functions \nfor operating, adjusting, evaluating operating statuses, \nservices, plant performance, errors and auxiliary plant \nfunctions. \nKey “Key” button  Password input box to access advanced settings in the menus. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 20,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  20 \n \n \n \n2 Schematic drawing of the \nmachine. \nIllustration of the machine The display shows a symbolic \nrepresentation of the machine and the location of the individual \ncomponents. \n3 Field “Plant control” \nThis field contains buttons/functions necessary to start or stop the \nsorting operation. Separate plant parts can also be started or \nstopped here (mode “Local” – “Remote” 4). \n \nWhen the control system is switched off (field 6), a button appears \nhere that can shut down all the control PCs. \n4 Field “Operating mode”  \nThis field contains buttons/functions necessary to select the \ndesired operating mode. There are three modes: Automatic \nSeparation, Automatic Conveyance, and Manual. In the manual \nmode, you can switch individual plant components on and off. \n5 “Operating mode”  \nThis field contains buttons/functions necessary to select the \ndesired operating mode. There is a “Local” mode to control the \nmachine locally, and a “Remote” mode. \nThe currently selected operating mode is shown with a green \nbackground. \n6 “Control” “ON” / “OFF” field  \nPress the “ON” button to switch on the machine. \nPress the “OFF” button to switch off the machine. When the control \nis switched to ON, the PC in the X-ray scanner starts, when \nswitched to OFF, the PC shuts down. \n7 “Operating state” display  Indicates the current plant status. The right section of the status \ndisplay shows more detailed information. \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 21,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  21 \n \n \n \nExplanation Function \nMaterial infeed (optional) \nMaterial infeed to the XSS®. The vibratory conveyor meters the material to \nbe sorted onto the conveyor of the XSS®. There is no automatic control of \nthe material flow. \n \nThe operating status is indicated by different colors. \nGreen = in operation, red = error, neutral = off \nSchematic drawing of the \nmachine. \nIllustration of the machine The display shows a symbolic representation of \nthe machine and the location of the individual components. \nXSS® conveyor \nThe belt speed of the XSS® conveyor is preset according to the properties of \nthe material to be sorted. \nThere is no automatic control of the material flow. The operating status is \nindicated by different colors. \nNeutral = off \nX-ray module \nX-ray module with radiation source and detection sensor. The operating \nstatus is indicated with an icon and different colors. Green+icon = in \noperation, red = error, neutral = off The sensor can be deactivated \nindependently of the belt drive in order to make it possible to transport \nmaterial. \nXSS® Schematic drawing of the XSS® \nValve strip  Valve strip of the XSS®. Downstream of a splitter, the detected material is \nblown out of the material flow by compressed air. \nCompressed air supply  \nSchematic drawing of the air supply. The valve strip features a main and an \nauxiliary air supply. \nThe main air is used for separation while the auxiliary air is used for cleaning \nand maintenance purposes. \n \nInformation! \nThe position of components on the screen approximately corresponds to the \nposition on the system. \n \nThe symbols are shown in a stacked arrangement to distinguish “right” and “left”. \nThe front symbol represents the component to the right. \nThe rear symbol represents the component to the left. \nThe assignment of machine sides is always in conveyor direction.  \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 22,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  22 \n \n \n2.5  Control unit on \nFig. 3: Control unit on  \n \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 23,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  23 \n \n \n \n \nSymbol Part name Function / remark \nSort PC1  Sort PC   \nIndicates whether the sort control PC is running and communication \nbetween control and sort software has been established. \nGreen=PC switched on, neutral=switched off. \nLane R Sort Lane  \nIndicates the lane that is active. The sort lane specifies the division of the \nworking width into max. 2 areas R (right) and L (left). Only one sort lane is \nactive because the working width of the XSS® in the XSS® is 1 m. \nThis sort lane is identified as R here. \nXRT X-ray system  \nIndicates whether the X-ray device (PC-X-Ray, X-Ray source, X-Ray \nscan) is switched on. \nGreen=X-ray device switched on, neutral=switched off. \nD “Safety switch” \ncovers  \nThe XSS® operates with X-rays. \nTo protect the personnel, electrical safety switches have been \nimplemented at the doors. \nThe X-ray source switches off and the plant is stopped immediately if one \nof the doors is opened during operation. Red=safety switch active (door \nopened), neutral=safety switch not activated (door closed). \n \nThe XSS® operates with X-rays. The safety doors are equipped with \nelectrical safety switches to prevent the emission of radiation when the \ndoors are open. These switches switch off the X-ray source or stop the \nplant (automatic mode) when the doors are opened. \nRot means that the safety switch has been actuated, i.e. a door is open. \nNeutral means that the door is closed. \n \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 24,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  24 \n \n \n \nSymbol Part name Function / remark \nN Emergency stop \nbutton \nThe color changes from green to red if the Emergency Stop button is \npressed. \nAs shown  Valve strip Indicates if the valve strip has been activated. \nGreen=valve strip switched on, neutral=switched off. \nXRT-Scan  XRT-Scan / active  \nIndicates the current status of the X-ray sensor, whether it is “active” or \n“inactive”. The sensor can be deactivated independently of the belt drive \nin order to make it possible to transport material. \nThe symbol turns green when the sensor is switched on. \nX-Ray \nsource X-ray source  Indicates if the X-ray source has been activated. \nGreen=X-ray source switched on, neutral=switched off. \nPC-X-Ray  PC-X-Ray  Indicates if the X-ray control PC is running. \nGreen=PC switched on, neutral=switched off. \nV Valve / valve (main \nair) \nIndicates the current status of the main air valve. “Green” means valve is \nopen. “Neutral” means valve is closed. \n“Red” means valve is faulty. \nS Pressure sensor  \nIndicates whether sufficient auxiliary air for operating the system is \npresent. “Green” means pressure is present. “Neutral” means pressure \nnot reached. \nV Valve (auxiliary air) \nIndicates the current status of the auxiliary air valve. “Green” means \nvalve is open. “Neutral” means valve is closed. “Red” means valve is \nfaulty. \nL \nAir supply of the \nplant / sensor and \npressure gauge \nIndicates whether there is sufficient compressed air to operate the \nsystem. “Green” means pressure is present. “Neutral” means pressure \nnot reached. The pressure can be read here. \nM Motor / drive \nIndicates if the respective drive is on or off. “Green” means the drive is \non. “Neutral” means the drive is off. The drive symbol turns red in case of \nan error. \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 25,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  25 \n \n \n2.6 Local mode edit picture \n \nFig. 4: “Local” operating mode \n \nItem  Explanation Function \n1 “Control” tab The “Control” tab is selected. All functions necessary to switch the \nplant on and off are shown in fields 3, 4, 6.  \n2 Schematic drawing of the \nmachine. \nIllustration of the machine The display shows a symbolic \nrepresentation of the machine and the location of the individual \ncomponents. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 26,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  26 \n \n \n \nXRT-\nScan XRT-Scan / active  \nIndicates the current status of the X-ray sensor, whether it is “active” \nor “inactive”. The sensor can be deactivated independently of the belt \ndrive in order to make it possible to transport material. The symbol \nturns green when the sensor is switched on. \nX-Ray \nsource  X-ray source \nThe radiation source of the X-ray module is active. The operating \nstatus is indicated with an icon and different colors. Green+icon = in \noperation. The “X-Ray” detection unit is active and the control PCs \nfor the X-ray module are ready for operation. The sensor can be \ndeactivated independently of the belt drive in order to make it \npossible to transport material. \nPC-X-\nRay PC-X-Ray  Indicates if the X-ray control PC is running. \n Green=PC switched on, neutral=switched off. \nF Compressed air supply \nThe air supply of the plant has been started, and the required \noperating pressure has been reached. The valves for main and \nauxiliary air supply are closed. \nThe lines starting at the symbolized maintenance unit and ending at \nthe valve strip are neutral = off. \n4 Field “Operating mode” \nAn operating mode has not yet been chosen. Choose the desired \nmode to operate the plant. \nThe “Manual” operating mode can be chosen only in the “Local” \noperating mode. \nThe operating modes of the plant are: \n“Automatic Separation” = Machine in the sort mode, \n“Automatic Conveyance” = Material is conveyed only, sorting does \nnot take place. \n“Manual” = The respective drives are operated in the inching mode. \n5 “Local” button Actuate the “Local” button to choose the “local” mode. \n6 “ON” button “On” button has been actuated \n7 “Operating status” display The status line displays “Control on” \n \n \n \nInformation! \n \nThe plant can be operated only in the “Local” operating mode. \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 27,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  27 \n \n \n2.6.1 Remote operating mode \n \nFig. 5: “Remote” mode \n \nItem  Explanation Function \n “Control” tab The “Control” tab is selected. All functions necessary to switch the plant \non and off are shown in fields 3, 4, 6.  \n \n“Remote” button  “Remote” button “Remote” operating mode (no function) Switches the \nplant to the “Local” operating mode if the button is active. \n \n \n \nInformation! \nSee Chapter 5 of the Appendix for Detailed External Signal Exchange, Electrical \nDevices Plan and Notes on Implementation. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 28,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  28 \n \n \n2.7 “Errors” tab \n \nFig. 6: Fault overview \n \nItem Explanation Function \n1 “Errors” tab \nThe “Errors” tab is selected. All pending plant errors are \ndisplayed in the alarm list. \nThe “Error” subtab has a red frame. \n \n“Error” subtab (error with remark \nred) \nDisplays the error number, the error type and the message \nwith detailed information about the error. Type indicates \nwhether this is a warning or an error that has to be eliminated \nbefore the plant can be started. The list also displays the \noccurrence date and time of the error. \nR “RESET”  Press RESET to acknowledge the error.  \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 29,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  29 \n \n \n Error acknowledged \n \nFig. 7: Errors/Error acknowledged \n \nItem Explanation Function \n \n“Error” subtab (error green with \nOK)  \nDisplays the error number, the error type and the message with \ndetailed information about the error. \nErrors that can be acknowledged appear with “OK” in the “Type” \ncolumn and on a green background. \nMeaning of the colors:  \n− Gray type on red background: = errors that prevent  the plant from operating normally. \n− Red type on gray background: = warnings that do no t prevent the plant from operating. \n− Black type on green background: = faults and warni ngs that were eliminated and can be \nacknowledged. \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 30,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  30 \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 31,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  31 \n \n \n2.8  Sort settings \n \nFig. 8: Sort settings \n \nItem  Explanation Function \n “Sort” tab In this mode, the sorting programs developed for the product to sort \ncan be selected and edited if necessary. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 32,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  32 \n \n \n \nA “Product to sort” display \nThis display (0 A in the example) is made up of the selected \nprogram (0) and the selected purity level (A). Pictures can also be \nstored here to display the products to sort for easier distinction. \nB “Sorting programs” button array \nStored main group of sorting programs. \n A maximum of 12 programs is available. \nThe programs are identified with No. 0-11. \nC Information line Displays all sorting-relevant machine settings for maintenance \npurposes. \nD Display and setting “purity” or \n“discharge” of the material \nDepending on the stored sorting program, several subprograms \ncan be present. \n \nThe subprograms are selected with the slider. \n \nThe sorting settings can be adjusted between a high discharge \nrate and a high degree of purity of the product to sort. \nThe purity of the desired product can be adjusted in 5 steps (A-E) \nfrom maximum purity to maximum discharge. \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 33,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  33 \n \n \n2.9  Statistic \nStatistic/valves \n \nFig. 9: Valve statistic \n \nItem  Explanation Function \n “Statistic” tab Information about the machine usage \n Valves subtab  Valve beat data \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 34,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  34 \n \n \n \nA Valve Beat statistic (live) \nIndicates for how long the valves were opened during the last seconds. \nThis period of time lets you visualize the current distribution of material \nto separate from the material flow. An even distribution of often suitable \nfor the sorting performance \nB \nValve Beat statistic \ncummulated since last full \nhour  \nLike A but a count since the last full hour. \nC \nCounting and opening \ninformation / duration of \nrecording \nGives counting details. \nD Mode Receive Displays the status of the program. For Steinert Service. \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 35,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  35 \n \n \nStatistic/Air \n \nFig. 10: Statistic/Air \n \nItem  Explanation Function \n “Statistic” tab  \n “Air” subtab  Information regarding the air pressure of the plant \nA “Air Pressure” diagram Displays the pressure over time \nB Selection of hours \n“visualization time” Here, you choose the visualization time \nC “Input Pressure” display Current sort pressure \nD “Input Pressure” display Current input pressure \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 36,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  36 \n \n \n2.10 Care / plant settings \n2.10.1  Features and settings \n \nFig. 11: Care/features overview \n \nItem  Explanation Function \n “Care” tab The “Care” tab is selected. The subtabs of this tab offer all the \nfunctions necessary to set up or control the plant. \n “Features” subtab The “Features” tab is selected. All functions necessary to set up \nthe plant are shown in fields A, B, C, D. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 37,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  37 \n \n \n \nA “Discharge Light” field \nIn this field, the “Discharge Light” can be switched on and off. The \n“Discharge Light” is fitted at the top of the material discharge and \nilluminates the nozzle strip. \nThe lighting makes it easy to check the nozzle strip for proper \nfunctioning during operation. \nWe recommend switching on the lighting when maintenance or \ncleaning work is performed on the nozzle strip. \nThis prevents damages to the delicate valves due to poor visibility. \n Bypass off-track running \nswitch \nThe off-track running switch can be bypassed to move the belt \nthrough the off-track running sensor switch in spite of switching off. \nB “Language Setup”  field  \nWhen clicked, the drop-down menu lists the languages available for \nthe plant control unit. \nSelect the desired language and click “SAVE” to confirm. The \nselected language takes effect when the MMI is restarted. Click \n“restart MMI” to immediately accept the new language. \nC “Sortbelt Control” field \nField for displaying or setting the specified belt speed. The belt \nspeed for sorting and conveyance operation is fixed in a file and can \nbe changed by service personnel if necessary. \nIn the manual mode, it can be changed temporarily (until the \nprogram restarts) with the control buttons \nD “External Signals”  field  \nWhen clicked, the drop-down menu lists the signal sources available \nfor the plant control unit. \nSelect the desired signal source and click “SAVE” to confirm. \nExternal signals have not been implemented in this sorting system \n(option). \n Speed in Sort Mode  Belt speed in the sort mode \n Speed in Conveyor Mode  Belt speed in the conveyor mode. (Conveyor Mode) \n Speed in Manual Mode  Belt speed setting in the manual mode. (Manual Mode)  \n Control buttons (- +) Controls buttons to change the frequency in steps of 0.5 Hz and 5 \nHz. \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 38,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  38 \n \n \n2.10.2  Valves / valve presettings \n \nFig. 12: Care/Valves \n \nItem Explanation Function \n “Care” tab The “Care” tab is selected. \n “Valves” subtab The “Valves” tab is selected. All functions necessary to set up the valves \nare shown in fields A, B, C, D E, F. \nA Delay Time  \nDelay time that is set at the factory after alignment of the implemented \ndetection systems and the material to sort. The delay time is the time \ndepending on the belt speed that expires between detection and opening \nof the discharge valve. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 39,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  39 \n \n \n \nB PC1/PC2-Base Delay (ms)  This time cannot be edited by the customer. \nC PC1/PC2-Correct Delay (ms)  Correction value that can be added to the delay set at the factory. \nD Input  \nSystem air pressure display. The pressure gauge has a red and a \ngreen area. The red section identifies the pressure range where \noptimum operation is not possible. \nThe pressure must have risen so far that the pointer is in green \nsection. \nThe compressors start automatically and run until the minimum \nsystem pressure is reached. \nE Sort Air  \nSorting air pressure display. The pressure gauge has a red and a \ngreen area. The red section identifies the pressure range where \noptimum sorting is not possible. \nThe pressure must have risen so far that the pointer is in green \nsection. \nF Sort Pressure (bar)  The sort pressure is indicated in bar. The optimal sorting pressure \nis defined in the sorting recipes. \n \n \n \nInformation! \nThe input pressure of the KSS must not exceed 10 bar.  \n \n \n \nInformation! \nTo ensure an optimum sort result at the lowest possible \ncosts/energy consumption for compressed air, a sort air \npressure higher than 8 bar should be avoided.  \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 40,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  40 \n \n \n2.10.3  Valve-Quality / Valve Test \n \nFig. 13: Valve-Quality/Valve Test \n \nItem Explanation Function \n “Manual” mode  To start the valve test, choose the “Manual” mode. (chapter 2.6) \n “Care” tab The “Care” tab is selected. \n “Valve-Quality” \nsubtab \nThe “Valve-Quality” tab has the following subtabs: Valve Test, Valve Info, \nValve Change. It offers useful information about the state of the \ndischarge valves, and whether adjustment or maintenance work is \nnecessary. \nHere, valve settings can be changed to adapt the separation results to \nspecific material to be sorted. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 41,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  41 \n \n \n “Valve Test” tab \nClick the “Valve Test” tab. The time/pressure chart shows all the \ninformation necessary for checking the valves. The plant has to be in the \nmanual mode to run the valve test. See chapter 2.6.3 \n \nTest result The result of the last valve test is displayed in this line. \n \n \n \nInformation! \nThe input pressure of the KSS must not exceed 10 bar.  \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 42,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  42 \n \n \nStarting/stopping the valve test \n \nFig. 14: Starting the valve test \n \nItem  Explanation Function \n “Valve Test” subtab Click the “Valve Test” tab. The info pane indicates the valve state. \nA Valve Number \nIndicates the number of the valve to be tested. Numbering occurs from right \nto left (in flow direction). \nTo access, for example, valve 20, click the yellow “Up” / “Down” buttons \nuntil the desired valve number is displayed. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 43,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  43 \n \n \n \nB \nTest mode “Cycle” / \n“Single” depending \non the settings made \nin C \nWith the “Single” mode activated, the valves installed in the valve strip are \ntested individually. \nWith the “Single” mode selected, the machine performs an automatic test of \nthe valve selected in field “Valve Number” (A). \n \nWith the “Cycle” mode activated, the valves installed in the valve strip are \ntested cyclically. \nWith the “Cycle” mode selected, the machine performs an automatic test of all \nthe valves installed in the valve strip. \nThe test run starts at valve no. 1 and runs automatically in sequence until the \nlast installed valve in the valve strip. \n \nThe valve test results can be evaluated with the “valve test result” function. \nC \nShoot mode “Quick \nShoot” / “Measure \nShoot” \nValve shoot mode. The shoot mode rules how long a valve opens during the \nactive test mode and whether or not certain parameters are recorded. The \nfunctions of the test mode and the shoot mode can be combined. In this way, \na single valve can be activated once (Quick Shoot) or tested with “Measure \nShoot”. The same applied to the cyclic test where all valves are tested \naccording to the selected test mode. \n \nQuick Shoot opens the valve once for some milliseconds. \n \nMeasure Shoot opens and closes the valve 3 times during a specific period of \ntime. Conclusions with regard to the state of the valve can be drawn from the \nvalve opening/closing times and the relative air pressure changes.  \n \nThe valve test results can be evaluated with the “valve test result” function. \nD Clean  Press this button to activate the valves in succession. The valves open fully \nfor a brief period of time so that any stubborn dirt can be removed. \nE Start Test  Press the “Start Test” button (E) to start the valve test in the selected mode. \nF Stop Test  Press the “Stop Test” button (F) to stop the valve test. \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 44,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  44 \n \n \n \nG Result of running test \nGives a symbolic representation of the installed valve strip. The valves are \nnumbered 1-n from right to left. The valve is represented with a green symbol \nif the test was positive (values within the tolerances). The valve symbol turns \nred if the tolerances are not met. \nH Valve test \npressure/time chart Continuous representation of measured pressures in bar. \n \nTest result The result of the last valve test is displayed in this line. \n \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 45,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  45 \n \n \nValve test result \n \nFig. 15: Stop valve test and results \n \nItem Explanation Function \n1 “Valve Test” tab Click the “Valve Test” tab. The time/pressure chart shows all the \ninformation necessary for checking the valves. \nA Valve test result \nGives a symbolic representation of the installed valve strip. The valves \nare numbered 1-n from right to left. The valve is represented with a green \nsymbol if the test was positive (values within the tolerances). \nThe valve symbol turns red if the tolerances are not met. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 46,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  46 \n \n \n2.10.4  Valve Info \nFig. 16: Valve Quality/Valve Info \n \nItem Explanation Function \n “Care” tab The “Care” tab is selected. \n “Valve-Quality” subtab  \nThe “Valve-Quality” tab has the following subtabs: Valve Test, Valve Info, \nValve Change. It offers useful information about the state of the discharge \nvalves, and whether adjustment or maintenance work is necessary. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 47,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  47 \n \n \n \n “Valve Info” tab \nClick the “Valve Info” tab. This tab shows more detailed information about \neach of the valves. The “Valve Info” tab displays the date of the last valve \nchange (if specified) and details regarding opening times, pressures and \nlatest tests. \nA Page Number \nShows a specific valve page. One page holds information about 16 \nvalves. The XSS® valve strip contains 80 valves installed in a single row \n(more valves are possible as an option). \nTo access, for example, valve 30, click the yellow “Up” / “Down” buttons \nuntil page 2 is displayed. \nB Valve  Indicates the valve number. Numbering occurs from right to left (in flow \ndirection). \nC Last Change  \nDate of last valve exchange. You must enter the date in the “Valve \nChange” tab manually and save it. These details can help draw \nconclusions regarding the service life and maintenance cycles of the \nvalves. Depending on the sorting application, the compressed air quality \nand the level of utilization, the service life can differ. \nD Opening (h)  \nThis column indicates the total opening time of a valve. An average \nopening time could make it possible to draw conclusions regarding the \nswitching cycles. The valves should be opened as briefly as possible in \norder to ensure cost-effective and efficient plant operation. \nE Test Date  Date of the last valve test. \nF Test Time  Time of the last valve test. \nG Quality (%) Assessment of the last valve shot. Values around 100% indicate a fully \nfunctioning valve. \nH P-Start  Displays the test pressure used. \nI P-Start  Pressure at measuring shot start \nJ P-End  Pressure at measuring shot end \n \nTest result The result of the last valve test is displayed in this line. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 48,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  48 \n \n \n2.10.5  Valve Change \n \nFig. 17: Valve Quality/Valve-Change \n \nItem Explanation Function \n “Care” tab The “Care” tab is selected. \n “Valve-Quality” subtab  \nThe “Valve-Quality” tab has the following subtabs: Valve Test, Valve Info, \nValve Change. It offers useful information about the state of the discharge \nvalves, and whether adjustment or maintenance work is necessary. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 49,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  49 \n \n \n \n “Valve Change” tab \nClick the “Valve Change” tab. This tab shows more detailed information \nabout each of the valves. The “Valve Change” tab displays the date of the \nlast valve change and details regarding opening times, pressures and \nlatest tests. \nA Valve to Change \nSelect the valve (number) that was changed in order to give more detailed \ninformation. Use the yellow “Up” / “Down” buttons to select the desired \nvalve number. \nB Year  Year of valve exchange. Use the yellow “Up” / “Down” buttons to select the \ndesired year. \nC Month  Month of valve change. Use the yellow “Up” / “Down” buttons to select the \ndesired month. \nD Day  Day of valve exchange. Use the yellow “Up” / “Down” buttons to select the \ndesired day. \nE Locked  \nBy pressing the “Locked” button, input regarding the valves can be \nreleased for saving.  \nThe “Save” button is active after the “Locked” button was pressed. \nF Save  Press Save to save the input. \n \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 50,
+      "text": " \n Operation \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  50 \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 51,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  51 \n \n \n3 Commissioning \nStep Action \n1 Make sure no persons are in the system or in the adjacent danger area. \n2 Make sure electrical power is supplied \n3 Make sure compressed air is supplied  \n4 Switch the control on at the switch cabinet, chapter 3.1  \n5 Check whether the “EMERGENCY STOP” button is activated, deactivate by \nturning/pulling out if necessary. \n6 Program loads. \n7 \nPress the “On” button to switch on the system control system. \nAcknowledge any errors that may exist in the alarm list. \n8 Press “Reset” on the operating panel. \n9 Choose/switch langue in the operating panel if necessary. \n10 Press “Care” button, choose “Features” tab. \n11 Select the desired language in “Language setup”. \n12 To accept the language settings and to restart the MMI, press the “restart MMI” \nbutton. \n13 Operate each of the drives of the plant in the “Manual” operating mode to ensure \nthey are running in the correct direction. \n14 \nCheck the conveyor belt for off-track running. If necessary, re-adjust the conveyor \nbelt, see “Checking/replacing the conveyor belt” in the “Steinert XSS®” operating \ninstructions. \n \n \nInformation! \nDifferent materials require different belt speeds or material \ninfeed speeds.  \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 52,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  52 \n \n \n3.1 Switching on the XSS® control unit at the switc h cabinet \nSwitch on the control unit at the switch cabinet \n \nFig. 18: Switch cabinet detail “Control unit on” \nTo switch on the machine:  \n \n\u0002 Establish all power and electrical connections \n\u0002 Switch on the main switch (5)  \n\u0002 Press “SYSTEM I/0” (2) on the switch cabinet \n\u0002 The control panel (1) displays the schematic drawi ng of the machine and the status “Control off” \n \nThe PC boots when the “SYSTEM I/0” (2) pushbutton on the switch cabinet is pressed. \nThis procedure can take up to 90 seconds. \n \nThe status display of the control panel (1) displays “Control on” when booting has finished. The plant is ready \nfor operation after you have pressed the “On” button and acknowledged all error messages with the “RESET” \nbutton in the “Errors” tab.  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 53,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  53 \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 54,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  54 \n \n \n \n DANGER! Uncontrolled machine movements! \nRisk of severe injuries or even death. \n\u0002 Make sure there are no persons in the danger \narea.  \n \n G_UMB_01_DE-00 \n \n \nMaking settings on the control panel and starting sorting operation \nFig. 19: Status display “Control system off” \n \nThe operating panel shows the status display (7) “Control off” after the boot procedure has completed. The \n“OFF” button (6) lights up green. “Shutdown all PCs” (3) appears when all PCs have been started. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 55,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  55 \n \n \nFig. 20: Switching on the plant control \nTo switch on the machine:  \n \n\u0002 Click the “Control” tab (1) \n\u0002 Press “ON” (6) on the operating panel \n\u0002 The operating panel displays “Control on” (7) \n \nThe PCs start automatically as soon as the control is switched on with the pushbutton on the switch cabinet. \nThe control program starts. This procedure can take up to 90 seconds. \n \nAfter “ON” has been pressed and all fault messages have been acknowledged in the Alarm list, the system \nis ready for operation and can be started. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 56,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  56 \n \n \n3.1.1 Choosing the operating mode edit picture add box 6 \nLocal plant operation \nFig. 21: “Local” mode \nActivating the local operating mode \n \n\u0002 Click the “Control” tab (1) \n\u0002 Press control unit “On” (6) \n\u0002 Press the “Local” button (5). The “Local” button l ights up green. \n\u0002 The status display reads “Control on” \n \n \nInformation! \nThe plant can be operated only in the “Local” operating mode. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 57,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  57 \n \n \n3.1.2 Acknowledging EMERGENCY STOP \nFig. 22: Status “EMERGENCY STOP“ triggered on the switch cabinet \nIn the example illustration in Fig. 21, an EMERGENCY STOP of the system has been triggered. \n \nA red Caution sign appears in field 6. The status display background (7) turns red. \nThe display shows a text regarding the operating status (7), giving additional information about the error. \nWhen present, several errors are displayed briefly one at a time.  \nAll the drives for material infeed and the sorting system are switched off. \nThe compressed air supply to the nozzle strip is interrupted. \n \nThe operator must establish the reason for the EMERGENCY STOP and remedy this correctly. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 58,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  58 \n \n \nTo acknowledge the EMERGENCY STOP:  \nTouching the operating status display automatically opens the “Errors” tab. Resetting \nthe error(s) can be done as described in 2.7. \n \nFig. 22a: Status display detail after Emergency Stop has been acknowledged  \nThe status display shows “Automatic separation, ready” and changes color to green.   \n \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 59,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  59 \n \n \n3.1.3 Manual mode \nFig. 23: Manual / Local edit picture \nIt can be necessary to make test runs with repaired components or to make test/adjustment runs with new \ntypes of materials. \nTo this end, the plant offers a manual mode that lets you individually control plant components. \nThe manual mode (4) is enabled in the example (Fig. 23). \nThe “Control” tab (1) is active. \nThe control is ON (6), the “Local” control mode is selected. The Manual mode is active (4). \nThe belt drive (Belt) of the XSS® is switched on in the plant control field (3). \nIn the example, the button and the belt are green. \n \nThe compressed air supply (auxiliary air) to the nozzle strip is enabled to ensure the valves are protected \nagainst soiling while material is being transported (e.g. in the Automatic Conveyance mode).  \n \n \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 60,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  60 \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 61,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  61 \n \n \n \nButtons with a yellow background indicate that the respective component has not yet been switched on. \nThe component is active if the button is green. Pressing the button again switches the component off again. \nGrayed out buttons cannot be actuated, i.e. they cannot be used to switch off or on components in case of \nan error. \n \n \n \nInformation! \nSorting or permanent operation should not be carried out in the \nmanual mode because there is no error monitoring and no \noverall error cut-out like in the automatic mode. Example: an \nerror in the belt motor stops only the conveyor, not a running \nchute like in the automatic mode. \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 62,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  62 \n \n \n \n DANGER! Uncontrolled machine movements! \nRisk of severe injuries or even death. \n\u0002 Make sure there are no persons in the \ndanger area. \n\u0002 Put up signs pointing out that work is in \nprogress on the control devices of the \nplant. \n\u0002 Secure the component against \nunauthorized switching on \n \n \n \n WARNING! Insufficient information!  \nRisk of severe injuries or even death. \n\u0002 Make sure to put up a sign on the control \nand on the component indicating that \nrepair or maintenance work is in progress.  \n \n \nTo enable the “Manual” mode:  \n \n\u0002 Click the “Control” tab (1) \n\u0002 Press control unit “On” (6) \n\u0002 Acknowledge faults \n\u0002 Press the “Local” button (5). The “Local” button l ights up green. \n\u0002 Enable the “Manual” (4) mode. \n\u0002 The status display reads “Manual mode (warning)” \n\u0002 Activate or deactivate the desired component in th e “Plant control” (3) field \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 63,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  63 \n \n \nPlant components that can be controlled in manual mode in field 3 \n \nExplanation Function \nBelt Conveyor belt drive of the XSS®. \nIf switched on, the conveyor always runs in direction of the nozzle strip \nClean-Air Cleaning air for the nozzle strip, air constantly escapes from the nozzle strip at a low \npressure to prevent dust agglomerations. \nSort-Air \nSort air for the nozzle strip, switches the sort air on for the nozzle strip. The valve for sort air \nopens only to ensure a sufficient pressure is available at the sort valves. \nThe air escapes from the nozzle strip with the preset sort pressure. \nThe sort air escapes only if the sort program opens the respective valve. \nX-Ray X-ray module with radiation source and detection sensor. \nFeeder Illustration of the material infeed (optional). \n \n \n \nInformation! \nThe operating status of the components is indicated with an \nicon and different colors. \nGreen+icon = in operation, red = error, neutral = off  \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 64,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  64 \n \n \n3.1.4 Automatic separation / ready \n \nFig. 24: Automatic separation / “ready” \nTo switch the plant to the “Ready” status:  \n\u0002 Click the “Control” tab (1) \n\u0002 Press control unit “On” (6) \n\u0002 Press the “Local” button (5). The “Local” button l ights up green. \n\u0002 Acknowledging faults \n\u0002 Enable “Automatic separation / ready” (4) \n\u0002 The status display reads “Automatic separation / r eady” \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 65,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  65 \n \n \n3.1.5 XSS® start sequence \n \nFig. 25: Automatic separation / start sequence \nTo start automatic separation:  \n\u0002 Switch the plant to the “Ready” status \n\u0002 Press the “Start” button (3). The “Start” button l ights up green. \n\u0002 The status display reads “ Automatic separation, s tart sequence ...” \n \nThe X-ray sensor starts. \nThe plant starts separating only when all sensors are ready, the sort air pressure is sufficiently high and no \nerrors are reported.  \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 66,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  66 \n \n \n \n DANGER! Uncontrolled machine movements! \nRisk of severe injuries or even death. \n\u0002 Make sure there are no persons in the danger \narea.  \n \n G_UMB_01_DE-00 \n \n \nPlant in operation \n \nFig. 26: XSS® in operation \nThe status display reads “Automatic separation, machine in operation”.  \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 67,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  67 \n \n \n3.1.6 Stopping automatic separation \nStopping the plant in “Local” mode \n \nFig. 27: Stopping the plant in “Local” mode  \nTo stop the plant: \n\u0002 Press the “Stop” key (3)  \nShutting down the plant requires several steps: \n\u0002 Automatic separation, stop sequence (infeed stops)  \nMaterial infeed stops in the following order: \n1. Upstream devices (optional) \n2. Feeder (optional) \n3. Machine belt \n\u0002 Automatic separation, stop sequence (compressed ai r off, conveyors, etc.) are \nstopped. The status display indicates these messages.  \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 68,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  68 \n \n \n \n \nInformation! \nMake sure the plant has run empty before stopping it. \nIf possible, no material should remain in the funnel, in the vibratory conveyors \nor on the belts.  \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 69,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  69 \n \n \nPlant ready \n \nFig. 28: XSS® plant ready \nThe plant status “Automatic separation, ready” is displayed when the plant was stopped and is ready again. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 70,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  70 \n \n \n3.1.7 Switching off \n \nFig. 29: Switching off the control unit \nSwitching the control unit off when the plant is stopped: \n\u0002 Press the “Off” key (6).  \n \n \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 71,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  71 \n \n \n \nFig. 30: Control unit switched off (XSS®) \n \nPress the button “Shutdown all PCs” to switch off the entire plant. \nThe control PCs are shut down when this button is pressed. \n \nSwitching on the plant again is then only possible with the “SYSTEM I/0” button on the switch cabinet. \n \nWhen the plant is switched off, the status display (7) indicates “Control off”, and the button “Off” is green. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 72,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  72 \n \n \n \n  \nFig. 31: Master switch overview  Turn the switch (5 )  \nfrom “I”  \nto “0”. \n \n \nItem Explanation Function \n5 Switch (main switch of the plant) \nThis switch is used to turn the main power supply of the plant on \nand off. \nMake sure to secure these switches against unauthorized \nswitching on when performing maintenance work on the plant. \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 73,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  73 \n \n \n3.2 Stopping in an emergency \nIn hazard situations, machine movements must be stopped as quickly as possible and the energy supply \nswitched off.  \nStopping in an emergency  \n \nProceed as follows in an emergency:  \n \n\u0002 Initiate an EMERGENCY-STOP immediately. \n\u0002 If no risk exists for your own safety, rescue pers ons from \nthe danger zone. \n\u0002 Initiate first aid measures. \n\u0002 Alert the doctor and fire brigade. \n\u0002 Inform the person responsible on site. \n\u0002 Switch off the main switch and safeguard against \nreactivation. \n\u0002 Keep access paths for emergency vehicles clear. \nAfter rescue \nInsofar as the seriousness of the emergency requires it, inform the responsible authorities. \nInstruct specialist staff to rectify the fault.. \nCheck the plant prior to recommissioning and make sure all safety devices are installed und functional. \n \n DANGER! Unauthorized reactivation! \nRisk of severe injuries or even death. \nBefore reconnecting: \n\u0002 Ensure that switching on is restricted to authorized \nstaff only. \n\u0002 Make sure there are no persons in the danger area. \nAfter completion of all work: \n\u0002 Attach all covers. \n G_UW_02_DE-00 \n \n3.3 Activities after use \nStep Action \n1 Check that there are no foreign objects on the material conveyor and remove any if necessary. \n2 Check the conveyor belt and drive units for foreign bodies and remove any if necessary.  \n3 Check the conveyor belt for damage. \n4 Visually check the gearbox for leaks. \n5 Check that all components are firmly fastened and that the screw connections are tight. \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 74,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  74 \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 75,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  75 \n \n \n3.4 Signal exchange \n3.4.1 Remote: Hardware signals (HW) Hardware \n3.4.1.1 Signals from the customer's control unit to  the XSS®  \nEMERGENCY-STOP chain \nIn the EMERGENCY-STOP chain, an additional EMERGENCY-STOP button (2 channel, 2 normally \nclosed contact signal) must be technically incorporated in the customer hardware. \n1/high signal (EMERGENCY \nSTOP button OK) \u0003 Acknowledgement of the emergency stop relay \npossible \n0/low signal (EMERGENCY \nSTOP button not OK) \u0003 Acknowledgement of the emergency stop relay not \npossible \n \nSignal “EMERGENCY STOP OK.” \nProcessing of the EMERGENCY STOP button by the customer's software. \n1/high signal \u0003 Condition for operational readiness of the XSS® \ncontrol unit \n0/low signal \u0003 XSS® control unit operational readiness not \navailable \n \nSignal “Control on” \nThe XSS® control unit is switched on with the “Control on” signal. Prerequisite for the switching on \nthe XSS® is that the master switch has been turned on. The XSS® control unit can only be switched \noff if the operating mode selector was set to “Remote”. \n1/high signal \u0003 Switch on the XSS® control unit \n0/low signal \u0003 Switching off the XSS® control unit \n \nSignal “EMERGENCY-STOP/Acknowledge fault” \nThe “EMERGENCY STOP/Acknowledge fault” signal is pr ocessed only if the operating mode \nselector in the XSS® control unit was set to “Remote”. Only the rising flank of the signal is evaluated. \n1/high signal \u0003 Acknowledge XSS® EMERGENCY STOP/error \n0/low signal \u0003 No action \n \n“Start” signal \nThe “Start” signal is processed only if the operating mode selector in the XSS® control unit was set to \n“Remote”. To be started, the XSS® must be ready for operation. The rising flank of the signal is \nevaluated, the signal must be continuously sent. \n1/high signal \u0003 XSS® start  Low signal \n \u0003 XSS® stop \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 76,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  76 \n \n \n3.4.1.2 Signals from the XSS® to the customer's con trol unit \n \nEMERGENCY STOP (3 NC, 1 NO contacts) \nThe contacts of the EMERGENCY STOP relay are provided to the customer for integration in \nthe customer's control unit. \nEMERGENCY STOP OK \u0003 NC (0/low signal) NO (1/high signal) \nEMERGENCY STOP not OK. \u0003 Relay dropped out (0/low signal) \n \nMessage “XSS® Control on” \nXSS® control unit is switched on. \nXSS® control unit is switched on. \u0003 Relay picked up (1/high signal) \nXSS® control unit is switched off. \u0003 Relay dropped out (0/low signal) \n \nMessage “No XSS® fault” \nNo XSS® errors (no errors are pending). \nNo error pending \u0003 Relay picked up (1/high signal) \nOne error/several errors is/are \npending \u0003 Relay dropped out (0/low signal) \n \nMessage “XSS® ready” \nXSS® is ready. PC has run up (approx. 2 minutes) and the XSS® is ready to be started. \nXSS® control unit ready \u0003 Relay picked up (1/high signal) \nXSS® control unit not ready \u0003 Relay dropped out (0/low signal) \n \n“Remote operation” message \nThe selected mode for the NES is “Remote”. \n“Remote” selected at XSS® control \nunit \u0003 Relay picked up (1/high signal) \n“Local” selected at XSS® control unit \u0003 Relay dropped out (0/low signal) \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 77,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  77 \n \n \n \nMessage “XSS® started” \nThe XSS® has been started and is running up. \nXSS® has been started \u0003 Relay picked up (1/high signal) \nXSS® has not been started \u0003 Relay dropped out (0/low signal) \n \nMessage “XSS® in operation” \nXSS® has been started and infeeding customer components can be started. \nXSS® run up \u0003 Relay picked up (1/high signal) \nXSS® not run up \u0003 Relay dropped out (0/low signal) \n \n Message “Compressed air OK” \nCompressed air is present (air pressure is sufficiently high). \nCompressed air OK. \u0003 Relay picked up (1/high signal) \nCompressed air NOK. \u0003 Relay dropped out (0/low signal) \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 78,
+      "text": " \n Commissioning \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  78 \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 79,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  79 \n \n4 Faults \n Possible causes of faults and the work required for their rectification \nis described in the following chapter.  \nIf faults occur more frequently, shorten the maintenance intervals \naccording to the actual loading. \nFor faults that cannot be rectified according to the following \ninstructions, contact the manufacturer, see the service address on \nthe front page. \n \n \n4.1 Safety \nStaff  \u0001 Unless otherwise indicated, the work to remedy fau lts which is \ndescribed here can be performed by the operator. \n\u0001 Some work may only be performed by specially train ed \npersonnel or only by the manufacturer. This is indicated in the \ndescription of the individual fault. \n\u0001 Work on the electrical system must only be perform ed by a \nqualified electrician. \n \nPersonal protective equipment  The following protective equipment must be worn during all work on \nthe system. \n\u0001 Long sleeved protective work clothes \n\u0001 Hard hat  \n\u0001 Safety shoes \n\u0001 Protective gloves \n\u0001 Hearing protection \n\u0001 Safety glasses \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 80,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  80 \n \n \n \n DANGER! Electrical power! \nDanger of life from electric shock. \nBefore starting any work: \n\u0002 Switch off. \n\u0002 Secure against switching back on.  \n\u0002 All work on the electrical system must be \ncarried out by trained electricians. \n G_ES_01_DE-00 \n \n \n DANGER! Unauthorized reactivation! \nRisk of severe injuries or even death. \nBefore starting any work: \n\u0002 Switch off. \n\u0002 Secure against switching back on. \n\u0002 Ensure that only authorized personnel can \nswitch on the system. \n\u0002 Make sure there are no persons in the danger \narea. \nAfter completion of all work: \n\u0002 Attach all covers. \n G_UW_01_DE-00 \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 81,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  81 \n \n \n \nNOTE! Improper fault rectification! \nMaterial damage. \n\u0002 Use suitable tools. \n\u0002 Use only genuine spare parts from the \nmanufacturer. \n\u0002 Carry out installation in an expert manner. \n\u0002 Adhere to tightening torques. \nH_SBB_01_DE-00 \n \n \nBehavior in case of faults   Essentially the following applies:  \n \n\u0002 Press the emergency stop button immediately in cas e of \nmalfunctions representing a direct hazard to personnel or \nmaterial assets. \n\u0002 Determine the cause of the fault. \n\u0002 Switch off the plant and secure it against switchi ng on if \ntroubleshooting requires working in the danger area. \n\u0002 Immediately inform the supervisor on site of the f ault. \n\u0002 Depending on the type of fault, have fault remedie d by \nauthorized specialist personnel or remedy it yourself. \n \n \n \nInformation! \nThe malfunction table below indicates \nwho is authorized to eliminate the fault.  \n I_SB_01_DE-00 \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 82,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  82 \n \n \n4.2 Fault indicators and EMERGENCY STOP of the plan t \nThe control system operating panel in the switch cabinet indicates faults or alarms in plain text. \n \nThe status display (7) of the system indicates the fault which is present. (Belt drive fault) \nWhen present, several errors are displayed briefly one at a time.  \nTouching the status line (7) opens the Error list. \n \nPossible system faults and correction \nThe following devices indicate faults:  \n \nFig. 32: Plant status “Fault” on the schematic machine drawing \nThe control system operating panel in the switch cabinet indicates faults in plain text. The status display (7) \nof the plant is red and indicates the plant status. \nIn case of faults with components, the affected components are also indicated in red (i) in the schematic \ndrawing. \n \nXSS® fault (in example display: belt drive) \n \nRed indicates a fault, green indicates that operation is normal. \nIf the relevant component is neutral (gray), it is not activated/was deactivated automatically. \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 83,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  83 \n \n \nTo open the Error list, press the “Status line” or the “Errors” tab. \n \n \nFig. 33: Fault message “Fault” in the alarm list \nThe line is marked in red in case of an active fault message \n− Gray type on red background: = errors that prevent  the plant from operating normally. \n− Red type on gray background: = warnings that do no t prevent the plant from operating. \n− Black type on green background: = faults and warni ngs that were eliminated and can be \nacknowledged. \nCheck why the fault is indicated. Check the drive-related components, the sensors, the emergency stop \nbuttons and the control switches of the covers. \nCorrect the faults accordingly. \n \nAfter checking the components, press the “Reset” key (7) to acknowledge the acknowledgeable fault at the \ncontrol unit. \n \nThe error list contains the current error messages! \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 84,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  84 \n \n \n4.2.1 Fault display, belt drive example \nOff-track running and belt drive speed faults \n \nFig. 34: Fault message “Belt drive stopped”, overview  \n \nFig. 35: Fault message “Belt drive stopped” Detail \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 85,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  85 \n \n \n \nBelt drive fault (example) \n \n\u0002 The belt drive is stopped in the example. The reas on for this fault is indicated in the status line and \nin the Error list \n\u0002 Sensors XRT-Scan / X-Ray and the X-ray PC are swit ched off (red) \n\u0002 The material infeed conveyors are stopped. \n\u0002 The air supply to the nozzle strip is shut off. \n\u0002 A sensor inside the machine (not in the schematic drawing) is responsible for XSS® belt tracking \n\u0002 Speed monitoring of the other belts is carried out  by a sensor on the belt roller. \n \nBelt faults are caused, for example, by a slipping belt. \nEliminate the errors and restart the plant. \n \n \n \nInformation! \nPossible causes of sensor faults (belt tracking): \n- Too great a distance between pulse transmitter and sensor.  \n- Blocked conveyor belt  \n- Defective sensors  \n \n \nOther plant faults monitored by sensors could be:  \n\u0002 Faults caused by open doors (check the door switch es) \n\u0002 Emergency stop buttons on the plant were pressed \n\u0002 Temperature monitoring on the drive motors of the material infeed or the conveyor drive was \ntriggered \n\u0002 Off-track conveyor belt \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 86,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  86 \n \n \n4.2.2 Example of EMERGENCY STOP message “EMERGENCY STOP triggered on \nthe switch cabinet” \n \nFig. 36: “EMERGENCY-STOP” status display  \n\u0002 The operating panel indicates the system status “E MERGENCY STOP”, and the status \nline (7) turns red. \n\u0002 To open the Error list, press the “Status line” or  the “Errors” tab. \n\u0002 Check which of the emergency stop buttons has been  actuated. \n\u0002 Have fault remedied by a suitable expert if necess ary. \nDeactivate the triggered Emergency Stop button locally by rotating/pulling. \nTo acknowledge Emergency Stop messages: \n \n\u0002 Activate the Errors tab  \n\u0002 Press the “Reset” button \n \nReplacing components − Have a suitable specialist correct the fault.  \n− Replace damaged and/or destroyed components if nec essary. \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 87,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  87 \n \n \n \nFig. 37: XSS® ready \nThe status “Automatic separation, ready” (7) is displayed when there \nare no faults in the plant all errors have been acknowledged \n \n \nTo start automatic separation:  \n\u0002 Switch the plant to the “Ready” status \n\u0002 Press the “Start” button. The “Start” button light s up green. \n\u0002 The status display indicates “Automatic separation , ready...”. \n \nThe X-ray sensor starts. The plant starts separating only when all sensors are ready, the sort air \npressure is sufficiently high and no errors are reported. \n \n \n \n  \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 88,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  88 \n \n \n4.2.3 Power failure \n DANGER! Electrical power! \nDanger of life from electric shock. \n\u0002 Installation and commissioning must only be carried out by \nqualified employees or under the guidance of the manufacturer. \n\u0002 All work on the electrical system must be carried out by trained \nelectricians. \n\u0002 Only operate the system if no unauthorized changes have been \nmade and it is in perfect technical condition. \n\u0002 When insulation damage is found, interrupt the power supply and \nhave insulation repaired immediately. \n\u0002 Never bypass or disable fuses. \n\u0002 Always replace blown fuses with fuses of the same rating. \n G_ES_02_DE-00 \n \n \nReplacing components − Have a suitable specialist correct the fault.  \n− Replace damaged and/or destroyed components if nec essary. \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 89,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  89 \n \n \n4.3 Fault table, electrics \n \nFault Possible cause Elimination Elimination by \nEMERGENCY-STOP \nfault \nEMERGENCY-STOP \nbutton was pressed, \nEMERGENCY-STOP \ndevice not acknowledged \nCheck all EMERGENCY-\nSTOP pushbuttons, unlock if \nnecessary and press button \n“EMERGENCY-STOP / fault \nacknowledge”. \nOperator \nEMERGENCY STOP \nbutton pressed in \ncustomer control system \nUnlock EMERGENCY STOP \nbutton in customer control \nsystem and acknowledge \nEMERGENCY STOP  \nOperator \nComponent defective Electrical installation, replace \ncomponent. \nAuthorized \nelectrician \nWire break in system Check the electrical \ninstallation. \nAuthorized \nelectrician \nCircuit breaker has \ntripped Short-circuit or overload \nReset the circuit breaker. Authorized \nelectrician \nDetermine and rectify the \ncause. \nAuthorized \nelectrician \nSkewed running and \nspeed errors \nBelt is running off-track  Set the belt tension according \nto the instructions.  Operator \nBelt is blocked Determine and rectify the \ncause. Operator \nIncorrect distance Set correct distance (max. 8 \nmm). Operator \nSensor is not energized or \nis defective \nDetermine and rectify the \ncause. \nAuthorized \nelectrician \nFrequency \nconverter \nIndicated as fault code at \nthe frequency inverter \nIdentify the cause and rectify \n(see operating instructions for \nthe frequency inverter). \nAuthorized \nelectrician \nComponent defective Electrical installation, check \ncomponent. \nAuthorized \nelectrician \nWire break in system Check the electrical \ninstallation. \nAuthorized \nelectrician \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 90,
+      "text": " \n Faults \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  90 \n \n \n \nPower failure  \nNo input mains power Determine and rectify the \ncause. \nAuthorized \nelectrician \nWire break in system Check the electrical \ninstallation. \nAuthorized \nelectrician \nShort-circuit or overload \nReset the circuit breaker. Authorized \nelectrician \nDetermine and rectify the \ncause. \nAuthorized \nelectrician \nComponent defective Electrical installation, check \ncomponent. \nAuthorized \nelectrician \nDoor switch \nComponent defective Electrical installation, check \ncomponent. \nAuthorized \nelectrician \nDoor(s) opened Close door(s) Operator \nSwitch is not actuated \nproperly Check clearance Operator \n \n \n4.4 Start-up after a fault was remedied \nAfter the fault has been rectified perform the following steps for recommissioning: \n \nStep Action \n1 Reset EMERGENCY STOP devices if necessary, see “Acknowledging EMERGENCY \nSTOP”. \n2 Acknowledge the fault at the control system if necessary, see “Acknowledging faults”. \n3 Make sure that there are no persons in the danger area. \n4 Start in accordance with the instructions in the chapter entitled “Switching on”. \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 91,
+      "text": " \n Appendix \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  91 \n \n5 Appendix \n \n5.1 Signal lists \nThe first data bit of the machine is the “Ready” signal. \nThis bit indicates that the control PC with the STEINERT MMI (man-machine interface) software runs \nproperly. \n \nStarting from this bit occurs as follows. \n \nDepending on the hardware and software used in the main control unit, the “LSB” and “HSB” of a byte and the \n“low byte” and the “high byte” of a word can vary. \n \n \n \nInformation! \nThe signal lists shown here contain all the signals for a control unit, including all \noptions. \nFor a control unit with special equipment, make sure to always request the order-\nspecific signal lists from STEINERT-Elektrokonstruktion (ETB)! \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 92,
+      "text": " \n Appendix \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  92 \n \n \n \n \n  ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 93,
+      "text": " \n Appendix \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  93 \n \n \nElectrical equipment plan \n \n \n \n \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 94,
+      "text": " \n Appendix \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  94 \n \n \n \nDescription of the installed equipment \nItem Component Function / Remark \n1 Trough drive, right (if included in scope of delivery) \n2 Trough drive, left  (if included in scope of delivery) \n3 Off-track running switch, right  (if included in scope of delivery) \n4 Belt drive  \n5 Compressed air monitoring  (entire compressed air) \n6 Solenoid valve  (auxiliary compressed air for valve strip) \n7 Compressed air monitoring  (auxiliary compressed air for valve strip) \n8 Rotation check  \n9 Emergency stop button (right of discharge) \n10 Rotary splitter drive  (if included in scope of delivery) \n11 Solenoid valve (enable compressed air) \n12 Solenoid valve (valve strip venting) \n13 Solenoid valve (enable compressed air) \n14 Sensor strip (detection of metal components) \n15 Valve strip  (blower unit for materials) \n16 Emergency stop button (right of discharge) \n17 Off-track running switch (optional, on left) \n \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 95,
+      "text": " \n Index \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  95 \n \n6 Index \n \nA \nAcknowledging EMERGENCY STOP ................ 55 \nActivities after use ............................................... 70 \nActivities before use............................................ 15 \nAutomatic separation .................................... 62, 84 \nB \nBase Delay ......................................................... 38 \nBehavior in case of faults ................................... 78 \nBlower strip ......................................................... 21 \nC \nCare .................................................................... 35 \nChanges to circuitry, software or functionality .... 12 \nChoosing the operating mode ............................ 54 \nClean .................................................................. 42 \nCommissioning ................................................... 50 \nCompressed air supply ....................................... 21 \nCompressed air supply ....................................... 26 \nContents ............................................................... 3 \nControl ................................................................ 19 \nControl ON / OFF ................................................ 20 \nControl unit on .................................................... 22 \nControls on the switch cabinet ............................ 18 \nControls on the switch cabinet assignment table18 \nConveyor drive speed fault ................................. 81 \nCopyright .............................................................. 2 \nCorrect Delay features ........................................ 38 \nCycle ................................................................... 42 \nD \nDay...................................................................... 48 \nDelay Time .......................................................... 37 \nDescription of the installed equipment................ 91 \nDesiccant in the switch cabinet .......................... 10 \nDirective 2004/108 concerning electromagnetic \ncompatibility EMC ........................................... 11 \nDischarge Light ................................................... 36 \nDrying agent ....................................................... 10 \nE \nElectrical devices plan ........................................ 90 \nEmergency stop ................................................. 70 \nEMERGENCY STOP example acknowledge \nswitch cabinet ................................................. 83 \nEnergy supply company..................................... 11 \nError ................................................................... 28 \nError acknowledged ........................................... 29 \nExternal data media or USB devices ................. 12 \nExternal Signals ................................................. 36 \nF \nFault display, belt drive example ....................... 81 \nFault indicators and EMERGENCY STOP of the \nplant ................................................................ 79 \nFault table, electrics ........................................... 86 \nFaults ................................................................. 76 \nFeatures ............................................................. 35 \nFeatures/settings ............................................... 35 \nFunctional description ........................................ 16 \nG \nGeneral information ............................................. 6 \nI \nIncorrect operation ............................................... 9 \nInformation about the operating instructions ....... 2 \nInformation about these instructions .................... 7 \nInput Air .............................................................. 38 \nIntended use ........................................................ 8 \nK \nKey ..................................................................... 19 \nL \nLane ................................................................... 23 \nLanguage Setup ................................................. 36 \nLast Change ....................................................... 46 \nList of figures ........................................................ 5 \nLocal................................................................... 26 \nLocal................................................................... 54 \nLocal operating mode ........................................ 25 \nLocked ............................................................... 48 \nM \nMaintenance ...................................................... 35 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 96,
+      "text": " \n Index \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  96 \n \nMaintenance and upkeep ................................... 14 \nManual mode ...................................................... 57 \nMeasure Shoot ................................................... 42 \nMonth .................................................................. 48 \nN \nNotes on operation ............................................. 17 \nNotes on the switch cabinet ................................ 10 \nO \nOff-track running, conveyor drive ....................... 81 \nOpening (h) ......................................................... 46 \nOperating instructions ........................................... 7 \nOperating mode .................................................. 20 \nOperating mode .................................................. 26 \nOperating state ................................................... 20 \nOperation ............................................................ 16 \nP \nPC-X-ray ....................................................... 24, 26 \nP-End .................................................................. 46 \nPersonal protective equipment ............................. 9 \nPlant control ........................................................ 20 \nPlant overview/control unit switched off.............. 19 \nPower failure ....................................................... 85 \nPressure sensor .................................................. 24 \nProtection class .................................................. 10 \nProtective equipment \nInstallation ....................................................... 76 \nP-Start ................................................................. 46 \nQ \nQuality (%) .......................................................... 46 \nQuick Shoot ........................................................ 42 \nR \nReady ................................................................. 61 \nReady status ....................................................... 61 \nRemote \nHardware signals (HW) Hardware .................. 72 \nRemote ............................................................... 27 \nRemote operating mode ..................................... 27 \nReplacing components  .............................. 83, 85 \nRESET ................................................................ 28 \nResult Valve Test ................................................ 43 \nS \nSafety switch ...................................................... 23 \nSave ................................................................... 48 \nSettings .............................................................. 35 \nShoot Mode ........................................................ 42 \nSignal exchange ................................................ 72 \nSignal lists .......................................................... 88 \nSignals from the customer's control unit to the \nXSS® .............................................................. 72 \nSignals from XSS® to customer control system 73 \nSingle ................................................................. 42 \nSort Air ............................................................... 38 \nSort PC .............................................................. 23 \nSort Pressure ..................................................... 38 \nSort setup ........................................................... 30 \nSortbelt Control .................................................. 36 \nSorting ................................................................ 30 \nSpecialist personnel ........................................... 78 \nSpecialist staff ................................................ 2, 70 \nStaff \nFaults .............................................................. 76 \nStart sequence ................................................... 62 \nStart Test ........................................................... 42 \nStarting/stopping the valve test .......................... 41 \nStart-up after remedying fault ............................ 87 \nStatistic .............................................................. 32 \nStop Test ............................................................ 42 \nStopping in case of emergencies: ...................... 70 \nStopping separation ........................................... 64 \nSwitch cabinet connection ................................. 11 \nSwitching off ....................................................... 67 \nSwitching on the control unit .............................. 51 \nSwitching on the machine  .............................. 51 \nSymbols \nin the instructions ............................................. 6 \nT \nTest Date ........................................................... 46 \nTest mode .......................................................... 42 \nTest Time ........................................................... 46 \nTightening the conveyor belt \nConveyor belt ................................................. 15 ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 97,
+      "text": " \n Index \n \nEN_BA_STSSS_XTS_STXSS_2015_20150204_A.1 05.02.2018  97 \n \nU \nUSB devices ....................................................... 12 \nV \nValve ................................................................... 46 \nValve Change ..................................................... 47 \nValve Info ...................................................... 45, 46 \nValve Number ..................................................... 41 \nValve presettings ................................................ 37 \nValve quality ....................................................... 39 \nValve strip ........................................................... 21 \nValve Test ........................................................... 39 \nValve test result .................................................. 44 \nValve to Change ................................................ 48 \nValves ................................................................ 37 \nVDE regulations ................................................. 11 \nX \nX-ray source ....................................................... 24 \nX-ray source ....................................................... 26 \nX-ray system ...................................................... 23 \nXRT-Scan .................................................... 24, 26 \nXSS® functional description .............................. 16 \nY \nYear.................................................................... 48 \n \n \n ",
+      "width": 595.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 97
+}

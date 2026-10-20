@@ -1,0 +1,14 @@
+{
+  "sha256": "8b85ec9ee4f906c453f057f6e2b3a2b352e7e5eaf5f65521e79cc8e9c2650c7a",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "베이스 500X500X25T\n베이스 500X500X25T\n화단위\nH-250X125 안쪽에 테크프레이트(2.3Tx690) 시공 위\n콘크리트(두께 200) 시공\nSTRUCTURE 도면 세진메탈 본사 (주) 정일플랜트",
+      "width": 595.2,
+      "height": 841.92
+    }
+  ],
+  "page_count": 1
+}

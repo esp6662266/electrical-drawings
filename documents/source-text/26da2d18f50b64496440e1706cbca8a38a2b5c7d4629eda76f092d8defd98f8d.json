@@ -1,0 +1,36 @@
+{
+  "sha256": "26da2d18f50b64496440e1706cbca8a38a2b5c7d4629eda76f092d8defd98f8d",
+  "extension": ".pptx",
+  "status": "슬라이드 텍스트 추출; 배치 미재현",
+  "pages": [
+    {
+      "page": 1,
+      "text": "6195\n6500\n6500\n9600\n6500\n6500\n5700\n6500\n6195\n4500\n35000\n8669\n9000\n9000\n9000\n8669\n51390\n44338\n6500"
+    },
+    {
+      "page": 2,
+      "text": ""
+    },
+    {
+      "page": 3,
+      "text": ""
+    }
+  ],
+  "page_count": 3,
+  "figures": [
+    {
+      "member": "ppt/media/image2.png",
+      "source_id": "S26da2d18f50b6449",
+      "url": "/documents/source-figures/01145853c417d2b6676a486ad605ff93b292b896a9692c0845339ec9a8d55ca4.webp",
+      "width": 965,
+      "height": 833
+    },
+    {
+      "member": "ppt/media/image3.png",
+      "source_id": "S26da2d18f50b6449",
+      "url": "/documents/source-figures/5aada6e68d0c37b9d4b79b6b006297635144218fba44456637e9f94601451b42.webp",
+      "width": 1413,
+      "height": 908
+    }
+  ]
+}

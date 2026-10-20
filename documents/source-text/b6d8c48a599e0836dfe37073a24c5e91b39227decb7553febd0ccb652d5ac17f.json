@@ -1,0 +1,14 @@
+{
+  "sha256": "b6d8c48a599e0836dfe37073a24c5e91b39227decb7553febd0ccb652d5ac17f",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "CYCLONE 1500CMM 세진메탈 본사 (주) 정일플랜트\nㄷ150x150\n6T\n6T",
+      "width": 595.2,
+      "height": 841.92
+    }
+  ],
+  "page_count": 1
+}

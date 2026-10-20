@@ -1,0 +1,197 @@
+{
+  "note": "Derived previews only. Source PDF/HWP bytes remain unchanged.",
+  "images": [
+    {
+      "file": "previews/manual-bin0001.webp",
+      "width": 2400,
+      "height": 1800,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin0003.webp",
+      "width": 894,
+      "height": 820,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin0004.webp",
+      "width": 946,
+      "height": 678,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin0005.webp",
+      "width": 948,
+      "height": 720,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin0006.webp",
+      "width": 1086,
+      "height": 868,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin0007.webp",
+      "width": 1204,
+      "height": 866,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin0008.webp",
+      "width": 1040,
+      "height": 714,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin0009.webp",
+      "width": 1040,
+      "height": 714,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin000a.webp",
+      "width": 1108,
+      "height": 562,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin000b.webp",
+      "width": 1106,
+      "height": 746,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin000c.webp",
+      "width": 472,
+      "height": 314,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/manual-bin000d.webp",
+      "width": 1044,
+      "height": 522,
+      "kind": "HWP embedded figure"
+    },
+    {
+      "file": "previews/plc-01.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-02.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-03.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-04.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-05.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-06.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-07.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-08.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-09.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-10.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-11.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-12.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-13.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-14.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-15.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-16.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-17.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-18.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-19.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    },
+    {
+      "file": "previews/plc-20.webp",
+      "width": 2105,
+      "height": 1491,
+      "kind": "PDF page preview"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "sha256": "ed91c957772fe9e074380da60ddb0afc28ab4603b1e3409e6dfc5edcbb3be5e3",
+  "extension": ".xlsx",
+  "status": "XLSX \uc140\u00b7\uc218\uc2dd \ucd94\ucd9c; \uacc4\uc0b0/\ub9e4\ud06c\ub85c \uc2e4\ud589 \uc548 \ud568",
+  "pages": [],
+  "sheets": [
+    {
+      "name": "Sheet1",
+      "rows": [],
+      "source_rows": []
+    },
+    {
+      "name": "Sheet2",
+      "rows": [],
+      "source_rows": []
+    },
+    {
+      "name": "Sheet3",
+      "rows": [],
+      "source_rows": []
+    }
+  ],
+  "figures": [
+    {
+      "member": "xl/media/image3.jpeg",
+      "source_id": "Sed91c957772fe9e0",
+      "url": "/documents/source-figures/24d666b3481085dd66367fd29bacd4371ab0ad9a59e0f746c6d5491ca4b068c2.webp",
+      "width": 779,
+      "height": 585
+    },
+    {
+      "member": "xl/media/image2.jpeg",
+      "source_id": "Sed91c957772fe9e0",
+      "url": "/documents/source-figures/98702ddef9bf4f4d149032e543ddd88c430ecd947ba63a994188d4b115b5e69c.webp",
+      "width": 1249,
+      "height": 816
+    },
+    {
+      "member": "xl/media/image1.jpeg",
+      "source_id": "Sed91c957772fe9e0",
+      "url": "/documents/source-figures/80d03019fd5e0a4eb422c6d9f71601347e14c97ad7e5f238661737580f5d316f.webp",
+      "width": 1474,
+      "height": 1096
+    }
+  ]
+}

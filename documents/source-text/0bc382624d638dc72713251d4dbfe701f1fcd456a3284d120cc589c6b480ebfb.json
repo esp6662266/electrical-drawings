@@ -1,0 +1,44 @@
+{
+  "sha256": "0bc382624d638dc72713251d4dbfe701f1fcd456a3284d120cc589c6b480ebfb",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "26.HV-SMC 회로도-3.dwg",
+      "bytes": 288853,
+      "compressed_bytes": 75852,
+      "encrypted": false
+    },
+    {
+      "name": "21.HV-SMC 외형도.dwg",
+      "bytes": 1005120,
+      "compressed_bytes": 444021,
+      "encrypted": false
+    },
+    {
+      "name": "22.HV-SMC 단선도.dwg",
+      "bytes": 279126,
+      "compressed_bytes": 102509,
+      "encrypted": false
+    },
+    {
+      "name": "23.HV-SMC 삼선도.dwg",
+      "bytes": 264656,
+      "compressed_bytes": 97345,
+      "encrypted": false
+    },
+    {
+      "name": "24.HV-SMC 회로도-1.dwg",
+      "bytes": 285025,
+      "compressed_bytes": 104375,
+      "encrypted": false
+    },
+    {
+      "name": "25.HV-SMC 회로도-2.dwg",
+      "bytes": 258695,
+      "compressed_bytes": 96314,
+      "encrypted": false
+    }
+  ]
+}

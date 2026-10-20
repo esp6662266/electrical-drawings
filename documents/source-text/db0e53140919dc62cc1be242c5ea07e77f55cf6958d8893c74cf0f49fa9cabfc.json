@@ -1,0 +1,14 @@
+{
+  "sha256": "db0e53140919dc62cc1be242c5ea07e77f55cf6958d8893c74cf0f49fa9cabfc",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "PLC Digital Input Diagram 1\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nDoor ON\nDoor OFF\nN24\nPB10\nP24\nPB11\nP0010 P0011\n17\n0\n18\n1 2\nP0012 P0013 P0014 P0015 P0016 P0017 P0018 P019\n19 20\n3\n21 22\n4 5\n23 24\n6\n25 26\n7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nP24\n14\nP001A P001B P24\n27 28\n9\n29 30\n10 11\n31 32\n12\n17 18\n13\nN24\nP24\nP24\n19\n15 16\nSS-01\nDoor high limit s/w\nDoor low limit s/w\nP001C P01D P001E P0010F\nL-01 L-03\nL-02\nExhaust gas dmper A / M\nManual /stop .open.close\nExhaust gas dmper \nFurnace dmper high limit s/w\nFurnace dmper low limit s/w\n2011-02\nALCO -2011 - E009 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nPB12Cylinder ON\nCylinder OFF\nPB15 L-04\nPB13 PB14\nL-05Cylinder on linit\nCylinder off limit\nL-06\nAir Pressure Low\nGas Pressure Low\nGas Pressure High\nGPS01\nAPS01 GPS02",
+      "width": 841.68,
+      "height": 595.2
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,23 @@
+{
+  "sha256": "363e2655c75fcf1e36ea646718fdb20b851c88ba6165b755e303e7bb67f4fd6a",
+  "extension": ".xls",
+  "status": "XLS 저장 셀값 추출; 계산/매크로 실행 안 함",
+  "pages": [],
+  "sheets": [
+    {
+      "name": "Sheet1",
+      "rows": [],
+      "source_rows": []
+    },
+    {
+      "name": "Sheet2",
+      "rows": [],
+      "source_rows": []
+    },
+    {
+      "name": "Sheet3",
+      "rows": [],
+      "source_rows": []
+    }
+  ]
+}

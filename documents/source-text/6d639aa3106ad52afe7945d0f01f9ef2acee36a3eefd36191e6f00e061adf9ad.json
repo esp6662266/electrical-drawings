@@ -1,0 +1,260 @@
+{
+  "sha256": "6d639aa3106ad52afe7945d0f01f9ef2acee36a3eefd36191e6f00e061adf9ad",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "HI‐SCAN 150 MPI Series\nTransmission X‐Ray Inspection System for \nMaterial Streams\nAssembly instructions\nfor partly completed machinery\n95595532",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 2,
+      "text": "II 95595532 -30.01.2015- Smiths Detection\nProprietary information notice\nThis document contains proprietary information of Smiths Detection. This document is furnished\nto the authorized users of the solely to facilitate the use of such\nproducts as provided in the terms and conditions of sale. Reproduction or t ransmission of this\ndocument, in whole or in part, is prohibited without prior written consent of Smiths Detection.\nThis document must be maintained in confidence and must not be disclosed to others without\nthe express written consent of Smiths Detection.",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 3,
+      "text": "TABLE OF CONTENTS\n1      PREFACE                                                            1  \n1.1 Customer service ___________________________________________________________ ________1\n1.2 Target group _______________________________________________________________ ________2\n1.3 Scope ________________________________________________________ _____________________2\n1.4 License instructions _________________________________________________________ ________2\n2      REFERRING TO THIS DOCUMENT                                         3  \n2.1 Conventions ________________________________________________________________________3\n2.1.1 Danger categories ____________________________________________________________3\n2.1.2 Other instructions ____________________________________________________________4\n2.1.3 Text references ______________________________________________________________4\n2.2 Due diligence _______________________________________________________________________4\n2.3 Legal and official regulations __________________________________________________________6\n2.4 Climatic conditions __________________________________________________ ________________7\n2.5 Surface conditions _______________________________________________________________ ___7\n2.5.1 Quality of ground _____________________________________________________________7\n2.6 Power supply _______________________________________________________________________8\n2.7 Qualification of personnel ____________________________________________________________ 8\n2.7.1 Operating personnel __________________________________________________________8\n2.7.2 Maintenance personnel _______________________________________________________8\n2.8 Radiation protection regulations _______________________________________________________9\n2.9 Routine maintenance ________________________________________________________________9\n3      SAFETY                                                            10  \n3.1 Intended use _____________________________________________________ _________________10\n3.1.1 Reasonably foreseeable misuse ______________________________________________11\n95595532 -30.01.2015- Smiths Detection III",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 4,
+      "text": "3.2 Structural alterations and spare parts _________________________________________________11\n3.3 Safety devices _____________________________________________________________________13\n3.3.1 Interlock switches ___________________________________________________________13\n3.3.2 External emergency-stop signal _______________________________________________13\n3.3.3 Switching back on after an Emergency stop____________________________________14\n3.3.4 “X-Ray On” indicators ________________________________________________________14\n3.4 Warning signs used ________________________________________________ ________________15\n3.5 Remaining risks ____________________________________________________________________16\n3.5.1 X-Rays ____________________________________________________________________16\n3.5.2 Electric current _____________________________________________________________ 18\nOperation_______________________________________________________________ 18\nMaintenance_____________________________________________________________18\n3.5.3 Trip and fall hazard __________________________________________________________19\n3.5.4 Danger of cutting and crushing ________________________________________________19\nInstallation, transportation, maintenance_____________________________________19\n3.5.5 Heavy weights ______________________________________________________________20\nOperation, installation and maintenance_____________________________________20\n3.6 Avoidance of material damage _______________________________________________________21\n3.6.1 Reject distribution ___________________________________________________________21\n3.6.2 X-Ray generator ____________________________________________________________21\n4      SYSTEM DESCRIPTION                                                23  \n5      CONTROLS AND INDICATORS                                           25  \n6      TRANSPORT / LOADING                                               26  \n7      PRE START‐UP CHECKS                                               27  \n8      OPERATION                                                         28  \nIV 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 5,
+      "text": "9      MAINTENANCE                                                       30  \nCheck housing panels_____________________________________________________30\nCarry out safety check____________________________________________________31\nCheck PE wiring__________________________________________________________31\nCheck emergency stop switches (external)___________________________________31\nCheck interlock system____________________________________________________31\n10     TROUBLESHOOTING                                                   33  \n11     DISPOSAL                                                          34  \n12     TECHNICAL DATA                                                    35  \n95595532 -30.01.2015- Smiths Detection V",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 6,
+      "text": "Preface\n1 Preface\nThe following documentation provides you with all information re-\nquired to to carry out maintenance and repair works on your HI-\nSCAN 150 MPI X-Ray unit.\nThis document does not, however, deal with the detection of ob-\njects in X-Ray sequences.\nWe recommend that you read these instructions through carefully.\nIn particular, please be sure to read the section entitled \"Safety\",\nwhich contains important information concerning your safety when\noperating the unit.\nThe products of Smiths Detection are developed and manufac-\ntured in compliance with the essential health and safety require-\nments of the European Union (EU).\n1.1 Customer service\nYou receive technical support regarding your product from the loc-\nal representative or from our company.\nA quick service will be facilitated, if you can include the following\ninformation with your request:\n• contact partner in case of questions \n• telephone- and fax number of the contact partner\n• type and serial number of the unit\n• description of the troubles\n1.2 Target group\nThis assembly instructions for partly completed machinery is ad-\ndressed to persons/companies who are entrusted to incorporate\nthe HI-SCAN 150 MPI X-ray unit in a final machinery. Moreover,\nthis document includes important instructions for the user.\n95595532 -30.01.2015- Smiths Detection 1",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 7,
+      "text": "Scope\n1.3 Scope\nThis assembly instructions for partly completed machinery describe\nthe following  types:\n• HI-SCAN 150 MPI \n• HI-SCAN 150 MPI A2\n• HI-SCAN 150 MPI FK\nThe information for determining your unit type can be found on the\nunit identification plate. \n1.4 License instructions\nMicrosoft®, Windows®, Windows Embedded® are either re-\ngistered trademarks or trademarks of Microsoft Corporation in the\nUnited States and/or other countries.\nOther product names used herein are for identification purposes\nonly and might be trademarks of their respective companies. We\ndisclaim any and all rights to those marks. \n2\n95595532 -30.01.2015- Smiths Detection\nFig. 1: Unit identification plate\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 8,
+      "text": "Referring to this document\n2 Referring  to this document\nThis manual is an original manual. \n2.1 Conventions\n2.1.1 Danger  categories\nThe safety instructions in this manual are subdivided into three\ndanger categories. These categories differ with regard to the\nseverity of injuries that can result from the non-compliance with the\ninstructions:\nDANGER\nIndicates a directly threatening danger. Non-compli-\nance leads to the most severe injuries or death!\nWARNING\nIndicates a possibly dangerous situation. Non-compli-\nance can lead to the most severe injuries or death!\nCAUTION\nIndicates a possibly dangerous situation. Non-compli-\nance can lead to slight or minor injuries!\n95595532 -30.01.2015- Smiths Detection 3",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 9,
+      "text": "Conventions\n2.1.2 Other  instructions\nIn addition to the safety instructions, you will find the following gen-\neral notes, references and application tips.\nCAUTION\nIndicates a possibly detrimental situation.\nNon-compliance can lead to the damage of the\n!\nINFORMATION\nApplication tip or useful information for the user.\nINFORMATION\nReference to further reading on this product or to a\nsecond contained in this document.\n2.1.3 Text  references\nExample: (F 3) indicates a reference to page 3.\n2.2 Due diligence\nThe owner/user has to ensure that only duly trained personnel are\nauthorized to operate the HI-SCAN 150 MPI X-Ray unit. The oper-\nators’ state of knowledge is to be verified at regular intervals and, if\nrequired, refresher training courses have to be carried out.\nPlease note that the exposure of human beings to X-radiation may\nbe harmful. The safe operation of the HI-SCAN 150 MPI X-Ray\nunit is entirely your responsibility as the owner/user, and Smiths\nassumes no liability relating to the use or operation of the equip-\nment, by you or anybody acting on your behalf.\n4\n95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 10,
+      "text": "Referring to this document\nWhen operating the HI-SCAN 150 MPI X-Ray unit the owner/ user\nhas to ensure that they fully comply with all country specific regula-\ntions applicable.\n95595532 -30.01.2015- Smiths Detection 5",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 11,
+      "text": "Legal and official regulations\n2.3 Legal and official regulations\nBefore you install and operate the HI-SCAN 150 MPI X-Ray unit, it\nis critical that you, as the owner/user, must ensure full compliance\nwith all applicable laws and regulations, including without limitation,\napplicable radiation protection regulations and accident prevention\nregulations. Possible variations or changes of applicable laws\nand/or regulations must always be considered. \nIn addition, you may be required by applicable law to perform a ra-\ndiation protection check or an acceptance test after the installation\nof the HI-SCAN 150 MPI X-Ray unit. You may be required to re-\npeat such radiation protection checks or acceptance tests of the\nHI-SCAN 150 MPI X-Ray unit at specific intervals or if you move\nthe HI-SCAN 150 MPI X-Ray unit to a different location.\nDISCLAIMER:\nSmiths Detection assumes no responsibility for the completeness\nof the information provided above. It is your responsibility to en-\nsure that the equipment is used and operated in full compliance\nwith Smiths Detection maintenance procedures and user guides. It\nis your responsibility to ensure that the equipment is used and op-\nerated in full compliance with the requirements of all applicable en-\nvironmental or occupational health and safety laws, radiation\nsafety laws and industry standards relating to radiation safety for\npersonnel security screening systems using X-rays. It is your re-\nsponsibility to operate the equipment within the radiation dose lim-\nits established by such laws and standards. \nIn addition you, as the owner/user must ensure that the designated\ninstallation area complies with the requirements for the Conditions\nof Use set out below.\n6\n95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 12,
+      "text": "Referring to this document\n2.4 Climatic conditions\nOperation Transport  & Storage\nTemperature 5°C to +40°C -20°C to +60°C\nRelative Hu-\nmidity\n10% to 90% \n(not condensing)\n10% to 90% \n(not condensing)\nComment Internal temperature \nmonitor switches off the \nX-ray unit if the temper-\nature exceeds the tem-\nperature limits.\nOnly applies for fully \nclosed container flaps.\nCAUTION\nThe functionality of the HI-SCAN 150 MPI X-Ray unit\ncan only be guaranteed as long as the unit is operated\nor stored within the climatic limits specified above and\nthe protection class according to IEC 60529 is ob-\nserved. The machine may not be put into operation at\ndivergent climatic conditions.\n2.5 Surface conditions\n2.5.1 Quality  of ground\nThe base at the place of installation must be level and solid. The\nHI-SCAN 150 MPI X-Ray unit needs to be levelled using spirit\nlevels. Please avoid any floor loading out of range. Refer to the\nTechnical data chapter for the system loading values. \n95595532 -30.01.2015- Smiths Detection 7",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 13,
+      "text": "Power supply\n2.6 Power supply\nType 150  MPI 150  MPI A2 150  MPI FK\nMains connection \ndata\n230 VAC / 120VAC (+10% / -15%) \nPower consumption 0.9 kVA 0.9 kVA 0.9 kVA\nFrequency 50 Hz / 60 Hz ± 3 Hz\n2.7 Qualification of personnel\n2.7.1 Operating  personnel\nINFORMATION\nThe Hi-SCAN 150 X-Ray unit may only be activated and\noperated by appropriately trained personnel!\nINFORMATION\nThe national accident prevention regulations are to be\nobserved for all activities.\n2.7.2 Maintenance  personnel\nOnly competent personnel are authorized to complete mainten-\nance work on the Hi-SCAN 150 X-Ray unit. The required know-\nledge can be obtained by attending a technical training course\noffered by Smiths Detection.\n8\n95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 14,
+      "text": "Referring to this document\n2.8 Radiation protection regulations\nThe Hi-SCAN 150 X-Ray unit has been designed to comply with\nvarious International Radiation protection regulations and\nguidelines. However it is the responsibility of the owner/user to en-\nsure that all local and national requirements are adhered to.\nINFORMATION\nIt is mandatory that the local regulations must be ful-\nfilled!\nThe partly completed machinery is not able to fulfil all radiation pro-\ntection regulations. The manufacturer of the final machinery has to\nmake sure that the final machine fulfils all necessary radiation pro-\ntection regulations.\n2.9 Routine maintenance\nThe operating company has to adhere to certain intervals of main-\ntenance. Maintenance tasks to check the a safety measures of the\nare outlined in the “Maintenance“ sec-\ntion (F 30). \n95595532 -30.01.2015- Smiths Detection 9",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 15,
+      "text": "Safety\n3 Safety\nThe Hi-SCAN 150 X-Ray unit has been designed according to\nstate-of-the-art standards and in compliance with approved safety-\nrelated regulations. When using the Hi-SCAN 150 X-Ray unit, risks\nto life and limb of the user or third parties, or damage to the Hi-\nSCAN 150 X-Ray unit and other material may nevertheless occur.\n• Only use the Hi-SCAN 150 MPI X-Ray unit when in a technic-\nally perfect condition, and only use as intended and with due\nawareness of safety and risks, and in compliance with these in-\nstructions.\n• In case of malfunctions or changes of the operationalbehaviour\nof the Hi-SCAN 150 MPI X-Ray unit, shut down the system and\nhave the malfunctions corrected.\n• Before using the Hi-SCAN 150 MPI X-Ray unit the correct func-\ntion of the emergency-stop system and the interlock circuit has\nto be checked. Only operate the unit with a correct functional\nsafety system.\n• Only operate the Hi-SCAN 150 MPI X-Ray unit when the tunnel\nopenings are covered in a manner that X-radiation cannot exit\nthe tunnel openings (e.g. with led curtains). Always adhere to\nthe radiation safety protocols.\n3.1 Intended use\nThe Hi-SCAN 150 X-Ray unit is a transmission X-ray inspection\nsystem for the inspection of bulk goods and material streams.\nThe intended use also includes observing of the following informa-\ntion:\n• The present Assembly instructions for partly completed ma-\nchinery and the Technical Manual\n• All referenced documents, in particular the safety instructions\n• Technical data and environmental conditions \n10 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 16,
+      "text": "Safety\nINFORMATION\nThe functionality of the Hi-SCAN 150 X-Ray unit can\nonly be guaranteed as long as the unit is operated in a\nmanner described in this documentation. Smiths Detec-\ntion assumes no liability for obvious or unintended mis-\nuse!\n3.1.1 Reasonably  foreseeable misuse\nThe components of the Hi-SCAN 150 MPI X-Ray unit may not be\nused for purposes other than those described in this document and\nin the referenced product documents. This includes among other\nthings:\n• It is not allowed to use the Hi-SCAN 150 MPI X-Ray unit to\nscreen people or animals.\n• The installation and use of software or software components\nother than those belonging to the scope of delivery of the Hi-\nSCAN 150 X-Ray unit is prohibited.\n3.2 Structural alterations and spare\nparts\nAlterations and reconstructions can compromise the operational\nsafety of the Hi-SCAN 150 MPI X-Ray unit. Alterations and recon-\nstructions are generally forbidden. Any modification done without a\nprior written consent of Smiths Detection will cause the loss of CE\ndeclaration of conformity or the declaration of incorporation.\nThe following interventions, except for the works described in this\ndocumentation, are not allowed without prior written consent of\nSmiths Detection.\n• Open and demount components\n• Replace components\n• Unauthorized structural alterations of components\n• Program changes to the programmable control system\nThe Hi-SCAN 150 MPI X-Ray unit may only be modified or conver-\nted by personnel of Smiths Detection itself, by a service agent ap-\n95595532 -30.01.2015- Smiths Detection 11",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 17,
+      "text": "Structural alterations and spare parts\nproved by the company, or by personnel authorised and trained by\nthe company. \nOnly Smiths Detection's own staff, or a service centre or staff au -\nthorized and trained by it are allowed to modify or convert the Hi-\nSCAN 150 MPI X-Ray unit.\nOriginal spare parts and accessories are specially designed for the\nHi-SCAN 150 MPI X-Ray unit. The installation or use of parts not\nreleased by Smiths Detection can impair the safety.\nINFORMATION\nOnly accessories which correspond to the specifications\nof Smiths Detection may be used. \nWhen modifying or upgrading a Hi-SCAN 150 MPI X-Ray unit all\ncables must be routed very carefully to avoid damaging the cables.\nAfter every modification or upgrade of a Hi-SCAN 150 MPI X-Ray\nunit a check of the electrical safety according to applicable local\nregulations has to be carried out.\n12\n95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 18,
+      "text": "Safety\n3.3 Safety devices\nThe Hi-SCAN 150 MPI X-Ray unit has several safety measures:\n• Interlock switches\n• Branch connection for an external emergency-stop signal\n• X-Ray On indicators\n3.3.1 Interlock  switches\nTwo interlock switches are located behind the security cover a of\nthe collimator. In case the security cover is removed or not\ntightened correctly the interlock switches are opened. \nTwo interlock switches are located at the flap of the detectorline\nbox. In case the cover of the detector line box is not closed and\ntightened correctly the interlock switches are opened.\n3.3.2 External  emergency‐stop signal\nThe safety system also monitors an external emergency stop sig-\nnal which can be looped in via the interface block =REJ+900-X3.\nIn case that the emergency stop signal is applied:\n95595532 -30.01.2015- Smiths Detection 13\nFig. 2: Security cover\nFig. 4: Interface block =REJ+900‐X3\nFig. 3: Interlocks at detectorline box\nflap\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 19,
+      "text": "Safety devices\n• Power to the X-ray generator is switched off immediately.\n• An error message is displayed on the operator control LCD dis-\nplay.\nINFORMATION\nA power isolating device is not available. All other com-\nponents are still supplied with power.\n3.3.3 Switching back on after an Emergency\nstop\nYou can restart the unit after an Emergency stop.\n 1: First check the reason for the Emergency stop.\n 2: Eliminate all dangers.\n3.3.4 “X ‐Ray On” indicators\nOne X-ray on indicator installed on each side of the tunnel light up\nas soon as X-radiation is emitted. \nAn X-ray indicator on the Image information bar of the main operat-\ning screen also illuminates when the generators are in operation.\nINFORMATION\nAll X-ray on indicators are monitored electronically!\n14 95595532 -30.01.2015- Smiths Detection\nFig. 5: X‐Ray On indicators\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 20,
+      "text": "Safety\n3.4 Warning signs used\nExplanation of the warning signs displayed on the\n and within this document.\nSign Meaning\nHazard!\nObserve the instructions in the documentation!\nElectric!\nPanels and connectors marked by this symbol may \nonly be opened or used by qualified personnel with the\nappropriate training!\nHand injury!\nDanger of crushing to bodily parts from moving com -\nponents!\nIonizing Radiation!\nHazard due to ionizing Radiation!\nDanger of cutting!\nDanger of cutting during maintenance or installation \nworks when removing covers and panels. \nRisk of crushing! \nDanger of cutting the entire body during maintenance \nor installation works when opening the detector line \nbox compartment flap. \n95595532 -30.01.2015- Smiths Detection 15",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 21,
+      "text": "Remaining risks\n3.5 Remaining risks\n3.5.1 X ‐Rays\nIndividuals being exposed to X-rays can suffer damage from ex -\nposure to radiation. The possibility of harm occurring depends on\nthe following factors: \n• Distance to the radiation source\n• Duration of stay within the radiation area\n• Shielding \nThe installation and operation of the Hi-SCAN 150 MPI X-Ray unit\nmust have been notified to the competent authority by the operat-\ning company and possibly been approved by the authority!\n Before putting the Hi-SCAN 150 MPI X-Ray unit into service;\n• familiarise yourself with the relevant radiation protection rules\n• verify that the unit is free of damages that may affect the\nsafety of the inspection process.\n• verify the correct system set-up (position of the operator\ndesk, correct position of the shielding walls)\n• perform a radiation survey whenever in doubt.\n Never put the Hi-SCAN 150 MPI X-Ray unit into service, if any \ncomponents are damaged.\n The operator needs to ensure that all required operating ele-\nments (e.g.: Interlock switches) are functional before an inspec-\ntion is carried out.\n Never remove or modify any components. This applies in partic-\nular to covers and all safety devices (e.g. interlock switches, \nsealed screws) \n Replacement of components to the safety circuitry may only be \nsupplied by Smiths Detection!\n16 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 22,
+      "text": "Safety\n In case of damage to interlock switches and sealed screws on \ncovers: Immediately take the X-ray inspection unit out of service\nand have the damage repaired. \n95595532 -30.01.2015- Smiths Detection 17",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 23,
+      "text": "Remaining risks\n3.5.2 Electric  current\nVarious components (e.g. connection terminals) carry dangerously\nhigh voltages.\nOn cable ducts, cable insulation can be damaged.\nElectric shock risk particularly in the following situations:\n• Removing panel covers\n• Opening electric terminal boxes\n• Touching parts which carry voltage due to faults\n• Touching damaged cables.\n Have the electrical equipment checked regularly.\nOperation\n Do not modify safety devices.\n Immediately repair loose connections or scorched cables.\nMaintenance\n Observe the following measures prior to repair works on the Hi-\nSCAN 150 MPI X-Ray unit\n• Inform operating personnel.\n• De-energize the corresponding components and secure\nagainst switching on again.\n With uninterruptible power supply (UPS) (optional): Be aware \nthat after switching off the Hi-SCAN 150 MPI X-Ray unit com-\nponents may still be energized.\n• Check de-energized state.\n• Ground and short-circuit components. \n• Insulate and enclose neighbouring live components.\n18 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 24,
+      "text": "Safety\n• Attach warning sign: \"Do not switch on! Work being per-\nformed on the electrical equipment.\"\n• Use original fuses with the prescribed amperage only.\n• Defects such as loose connections or scorched cables, must\nbe repaired immediately.\n• Use insulated tools only.\n• Use measuring equipment with protected measuring lines\nonly.\n After any modification, maintenance or repair during which ener-\ngized components are replaced or repaired, you have to check \nthe system's electrical safety. The national laws and regulations\nof the respective country shall apply. \nThe technician carrying out the installation, maintenance or re-\npair is responsible for compliance with rules and regulations \nand for the competent execution of the work.\nIf national laws and regulations are unknown or do not exist, the\nfollowing tests should be carried out in any case:\n• Visual inspection of all safety-relevant features of the unit.\n• Check the labels\n• Measurement of the line voltage, and comparison with the\ntype plate on the unit.\n3.5.3 Trip  and fall hazard\n Ensure that the power cable and the cable conduit to the monit-\nors and keyboard is routed neatly.\n3.5.4 Danger  of cutting and crushing\nInstallation, transportation, maintenance\nWhen attaching or removing any covers or panels, there is a risk of\nhand cutting.\n95595532 -30.01.2015- Smiths Detection 19",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 25,
+      "text": "Remaining risks\nWhen bringing in or removing the transport dollies underneath a\nsection frame during transportation there is a risk of finger crushing.\n Wear protective gloves during maintenance and installation \nworks\nWhen opening the flap of the detector line box compartment the\nheavy flap can glide out of someones hand.\n Always use two people to open or close the flap of the detector-\nline box compartment.\n Wear protective gloves\n Secure an opened flap with the two safety catches.\n3.5.5 Heavy  weights\nOperation, installation and maintenance\nDuring installation and maintenance works, lifting heavy parts, like\nthe generator section, tunnel section, conveyor section, X-Ray\ngenerator can lead to back injuries. \n Take care when lifting heavy parts and always burden your \nknees and unburden your back\n Wear shoes with steel toe caps when lifting the test stand\n Always adhere to your local heavy lifting guidelines and prac-\ntices to avoid the risk of back injury.\n Always use one or more persons when handling with heavy \nweights.\n20 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 26,
+      "text": "Safety\n3.6 Avoidance of material damage\n3.6.1 Reject  distribution\nATTENTION\nOnly connect reject valves with free-wheeling diode.\n3.6.2 X ‐Ray generator\n If the X-ray generator of the HI-SCAN 150 MPI X-Ray unit has \nnot been operated for more than 6 months, you have to regen-\nerate the generator, i.e. run it in with reduced high tension!\n Do not under any circumstances, not even for a short time, op-\nerate the generators at 160kV, because you might destroy the \nX-ray tube! In such cases, disconnect the generator cable(s) \nfrom the generator / from all generators before you switch on \nthe X-ray unit!\n95595532 -30.01.2015- Smiths Detection 21",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 27,
+      "text": "Avoidance of material damage\n22 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 28,
+      "text": "System description\n4 System  description\nThe HI-SCAN 150 MPI X-Ray unit uses transmission X-radiation\ntechnology to inspect bulk goods and material streams and to sort\nthem by pneumatic reject valves. (The reject valves are not part of\nthe delivery). Bulk goods and material streams pass across an X-\nRay beam through the use of a conveyor. (Conveyor is not part of\nthe HI-SCAN 150 MPI X-Ray unit).\nThe HI-SCAN 150 MPI X-Ray unit consists of several compart-\nments  (see Fig. 7).\nPos. Description\na Main distribution compartment\nb Detector line compartment\nc Tunnel\n95595532 -30.01.2015- Smiths Detection 23\nFig. 6: HI‐SCAN 150 MPI X‐Ray unit\nFig. 7: Compartments of the HI‐SCAN 150 MPI X‐Ray unit\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 29,
+      "text": "System description\nPos. Description\nd Reject distribution compartment\ne Generator compartment\n24 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 30,
+      "text": "Controls and indicators\n5 Controls  and indicators\nItem Name Description\na POWER ON Power On indica tor – lights up \nwhen the unit is powered with \nma ins\nb X-RAY ON X-RAY ON indica tor – lights up a s \nlong a s X-Ra ys a re genera ted\nc STOPPED Stopped indica tor – lights up when \nunit is stopped (not sca nning)\nd Opera tor control \npa nel\nConsists of LC Displa y a nd opera t-\nor control keypa d\ne MPI +110 da ta  inter-\nfa ce distribution\nIncludes ma in switch, USB port a nd\nEthernet port\nf Earth External earthing connector\n95595532 -30.01.2015- Smiths Detection 25\nFig. 8: Components of the  HI‐SCAN 150 MPI X‐Ray unit\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 31,
+      "text": "Transport / loading \n6 Transport  / loading \nIn the following, you will find instructions for the transport and load-\ning of the HI-SCAN 150 MPI X-ray unit:\nThe load bearing points for forklift truck are marked with symbols\n(see Fig. 9). Only lift up the HI-SCAN 150 MPI X-Ray unit at the\nload bearing points.\n26\n95595532 -30.01.2015- Smiths Detection\nFig. 9: Marking of the load bearing\npoints for forklift truck \n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 32,
+      "text": "Pre start-up checks\n7 Pre  start‐up checks\nBefore turning on the HI-SCAN 150 MPI X-Ray unit the operator\nshould carry out the below pre start-up checks.\n 1: Panel housing is not damaged.\n 2: All flaps and doors are closed.\n 3: Ensure that the tunnel openings are covered in a manner that\nX-radiation cannot exit the tunnel openings (e.g. with led cur-\ntains).\n 4: Last operation\n• Verify, if the HI-SCAN 150 MPI X-Ray unit has been oper-\nated within the last 6 month. If you are unsure of when the HI-\nSCAN 150 MPI X-Ray unit was last operated, ask a qualified\nservice technician to check the log files of the unit.\nCAUTION\nDo not switch on the X-Ray generators, if they have not\nbeen operated for a period of 6 months! Instead, deac-\ntivate the unit's X-ray systems until the regeneration of\nthe X-ray generators has been carried out by a qualified\nservice technician!\n95595532 -30.01.2015- Smiths Detection 27",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 33,
+      "text": "Operation\n8 Operation\nBefore operating the HI-SCAN 150 MPI X-Ray unit ensure that the\nunit pre start-up checks have been completed.\nWARNING\nHealth risk for the operator and other persons!\nIf the operating unit is incorrectly set up, the operator\nand persons in the vicinity of the unit risk damage to\ntheir health as a result of prolonged exposure to the X-\nrays.\nDo not remove any shielding panels.\nIt is the operators task to observe the environment of\nthe HI-SCAN 150 MPI X-Ray unit and to ensure that no\nbystanders are exposed to X-radiation!\nEnsure that the tunnel openings are covered in a man-\nner that X-radiation cannot exit the tunnel openings\n(e.g. with led curtains).\nWARNING\nDanger due to X-rays!\nBefore the HI-SCAN 150 MPI X-Ray unit is used, the\noperator needs to verify that the unit is free of damages\nthat may affect the safety of the inspection process.\nPerform a radiation survey whenever in doubt!\nThe operator needs to ensure that all required operat-\ning elements (e.g.: X-Ray-On lamps) are functional be-\nfore an inspection is carried out.\n 1: Ensure that the unit is in a ready state “System Ready” and \nthat the tunnel openings are covered in a manner that X-radi-\nation cannot exit the tunnel openings (e.g. with led curtains).\n• Check the display on the operator control panel.\nAs soon as the “Freigabe” signal from the\n The X-Ray-On lamps on HI-SCAN 150 MPI X-Ray unit light\nup.\n28 95595532 -30.01.2015- Smiths Detection\nFig. 10: Display panel after boot se‐\nquence is complete\n",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 34,
+      "text": "Operation\n The X-ray image is displayed on the monitor.\nDepending on the scan option settings the image will scroll across\nfrom the right or left of the monitor as the scan is taking place.\n95595532 -30.01.2015- Smiths Detection 29",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 35,
+      "text": "Maintenance\n9 Maintenance\nIn the following tables the necessary maintenance tasks to check\nthe a safety measures of the are out-\nlined. The maintenance interval, in which a maintenance task has\nto be carried out is marked by a symbol of the person, who will be\nresponsible to carry out the specified maintenance work, in the\ncolumn “Interval”.\n•\n: Operator\n•\n : Smiths Detection personnel or duly trained personnel by\nSmiths Detection.\n“D” stands for daily maintenance, “6M” stands for 6 monthly main-\ntenance and “12M” stands for maintenance tasks which have to\ncarried out on yearly basis. \nMaintenance tasks Interval Link\nD 6M 12M\nCheck housing panels\n (F 30)\nCarry out safety check\n (F 31)\nCheck PE wiring\n (F 31)\nCheck emergency stop switches\n(external)\n(F 31)\nCheck interlock system\n (F 31)\nCheck housing panels\nCheck all the outer housing panels of the unit for visibly damage.  \n Replace damaged side and top panels in order to avoid injuries,\nunauthorized access and soiling of the unit. \n Repair damaged or loose sheet suspensions or hinges or re-\nplace such parts.\n Replace or complete scratched or missing labels.\n30 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 36,
+      "text": "Maintenance\nCarry out safety check\nAll safety measures must be checked if they are intact.\n Check the unit for defects on the lead shielding such as missing\nshielding plates on the detector lines or on the X-ray generat-\nors, missing screws or rivets or damaged lead foil.\n Check the unit for mechanical damages on cables and electric \nand electronic modules.\n Carry out a leakage radiation test (F Fehler: Referenz nicht ge-\nfunden).\n Check the function of the protective bonding circuit.\nCheck PE wiring\nEnsure that all elements of the unit are grounded correctly. Use an\nohmmeter to check the PE wiring.\n Check the PE wire between the mains connector and the unit \nmain distribution. \n Check the PE protection to the housing panels, unit frame and \nother earthed unit parts.\nCheck emergency stop switches (external)\nEnsure that all external emergency-stop buttons are functioning\ncorrectly (F 13).\n Check, if the unit can be switched off by each of the available \nemergency stop switches.\nCheck interlock system\nWith the unit switched off, interrupt an interlock switch by removing\nor opening the respective leaded sheet (e.g. torso detector line box\ncover).\n95595532 -30.01.2015- Smiths Detection 31",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 37,
+      "text": "Maintenance\n Verify that the unit cannot be switched on.\n• Close the switch before checking the next one.\n Proceed in the same way with all other interlock switches (col-\nlimator covers).\n Run the calibration of the unit by using the Auto adjust function.\n32 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 38,
+      "text": "Troubleshooting\n10 Troubleshooting\nINFORMATION\nThe Hi-SCAN 150 X-Ray unit may only be\ntroubleshooted by appropriately trained personnel!\n95595532 -30.01.2015- Smiths Detection 33",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 39,
+      "text": "Disposal\n11 Disposal\nThe goal of using non-polluting materials has been borne in mind\nduring the whole production process. Nevertheless, there are\nsome environmentally hazardous materials the use of which can-\nnot be avoided during the production and operation of the\nThe following materials must be disposed of by an approved waste\ndisposal company:\n• lead\nFor the disposal of the building materials, please refer to the follow -\ning table:\nMaterial Disposal\nInsulation ask the local authorities;\nmineral fibre waste should be placed in \ndust-tight containers and humidified if re -\nquired; for transport purposes closed con-\ntainers are required\nRemainders delivery to a lic ensed waste disposal com-\npany\nINFORMATION\nFor further disposal instructions, refer to the documents\nin the annex!\n34 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 40,
+      "text": "Technical Data\n12 Technical  Data\nFunction\nMaterial detected in-\ncludes\nInspection of bulk materials, material streams, etc. and final products\nPrimary function Inspection of bul k materials, material streams\nTechnology Transmission x-ray\nOperational Data\nPhysical format\nStart up time < 2 minutes\nScan Method Material stream moved through the beam\nScan Time Continuous scan\nInstallation in‐\nformation\nDimensions\nWeight\nHumidity\nStorage temperature\nOperating temperature\nPower consumption\nMechanical construction\n95595532 -30.01.2015- Smiths Detection 35",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 41,
+      "text": "Technical Data\nSound pressure\nPower supply (stand-\nard)\n±\nImage Generation\nGenerator cooling Oil cooled, closed circuit\nScan format Fan beam line scan\nGenerator Tube 160kV / operated at 140 kV cp, Hermetically sealed oil bath.\nX-ray converter Semiconductor det ector line with scintillators\nAnode current (typical)\n< 450 μSv (<0.55 mRem)\n< 650 μSv (<0.65 mRem)\n< 650 μSv (<0.65 mRem)\nDuty cycle 100%\nImage Presentation\nX-Ray converter Semiconductor line with scintillators\nAdditional Features\nFunctions Software scan counter, s tatus display with 4x20 LCD\nOptions Interface for user contro l, reject interface, network connection, modem, \nmonitor\n36 95595532 -30.01.2015- Smiths Detection",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 42,
+      "text": "",
+      "width": 595.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 42
+}

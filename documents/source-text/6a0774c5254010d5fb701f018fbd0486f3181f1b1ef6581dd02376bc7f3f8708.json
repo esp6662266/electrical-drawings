@@ -1,0 +1,27 @@
+{
+  "sha256": "6a0774c5254010d5fb701f018fbd0486f3181f1b1ef6581dd02376bc7f3f8708",
+  "extension": ".xlsx",
+  "status": "XLSX \uc140\u00b7\uc218\uc2dd \ucd94\ucd9c; \uacc4\uc0b0/\ub9e4\ud06c\ub85c \uc2e4\ud589 \uc548 \ud568",
+  "pages": [],
+  "sheets": [
+    {
+      "name": "Sheet1",
+      "rows": [],
+      "source_rows": []
+    },
+    {
+      "name": "Sheet1 (2)",
+      "rows": [],
+      "source_rows": []
+    }
+  ],
+  "figures": [
+    {
+      "member": "xl/media/image1.png",
+      "source_id": "S6a0774c5254010d5",
+      "url": "/documents/source-figures/91f1105a00e50f0c33b23a25126b8ca12b904a3550e3bf9f318fd104906fa6d0.webp",
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

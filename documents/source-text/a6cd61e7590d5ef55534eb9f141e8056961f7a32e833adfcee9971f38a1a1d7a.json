@@ -1,0 +1,14 @@
+{
+  "sha256": "a6cd61e7590d5ef55534eb9f141e8056961f7a32e833adfcee9971f38a1a1d7a",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "공무작업장\nTK-01옥외탱크 저장소TK-02Hammer Mill Shredder집진기 - 5\nCANOPY\nControl RoomCrane컴프레서실\n",
+      "width": 841.92,
+      "height": 1190.52
+    }
+  ],
+  "page_count": 1
+}

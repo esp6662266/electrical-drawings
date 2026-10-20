@@ -1,0 +1,2760 @@
+{
+  "id": "ALLOY50-04",
+  "name": "4번 50톤로 (합금)",
+  "group": "합금·50톤 용해로",
+  "location": "사용자 지정 4번 설비 · 현재 명판/실물·적용 범위 미확정",
+  "priority": true,
+  "source_count": 30,
+  "archive_member_count": 29,
+  "source_unique_count": 57,
+  "source_pages": 1271,
+  "source_version": "XG5000 원본 1종 확보 · 현재 적용/래더 의미 해석 미확정",
+  "description": "4번은 합금 50톤로 폴더 기준으로 등록했습니다. 준공 사용 설명서의 표제는 50TON OPEN MELTING FURNACE, 2025년12월이며 본문에는 오픈 반사로·도어·송풍/오일·파일럿/메인 버너·온도 제어가 있습니다. 별도로 2026 UBC/합금 이송 및 OP 개조도가 있습니다. 압축파일 안의 PLC .xgwx와 터치 .xpd 원본을 보존했습니다.",
+  "documentation_status": "원본 보존·핵심 전기/제어/운전 자료 중심 문서화 완료(미확정 포함). 일반/부품 카탈로그 전체 페이지의 상세 판독·현재 적용 검증, 현장 측정·운전·수리·안전 시험은 미수행입니다.",
+  "native_plc_available": true,
+  "native_project_files": [
+    {
+      "name": "50톤 반사로_20251112.xgwx",
+      "url": "/documents/source-store/2b34e68f9888dc87d879077e4a9a1b037665cc1c68c3c00e158fbeccc4243a8c.xgwx",
+      "sha256": "2b34e68f9888dc87d879077e4a9a1b037665cc1c68c3c00e158fbeccc4243a8c"
+    }
+  ],
+  "field_verified": false,
+  "manual_url": "/documents/equipment-04/manual.html",
+  "library_url": "/documents/equipment-04/library.html?source=Sf05859dab2011723",
+  "source_manifest": "/documents/equipment-04/source-manifest.json",
+  "plc_analysis_note": "XGWX 원본은 확보했습니다. 워크스페이스 헤더/문자열을 정적으로 확인했으며 CPU·전체 래더/내부 타이머·프로그램 의미 해석과 현행 적용은 미확정입니다. PLC·HMI 편집기·시뮬레이터·설비를 실행하지 않았습니다.",
+  "subsystems": [
+    {
+      "id": "DOC-4-1",
+      "name": "50톤 오픈 멜팅로",
+      "description": "준공 ZIP의 2025년12월 사용설명서, 반사로 개조도·PLC/HMI 파일입니다.",
+      "boundary": "50톤 원본 파일 확보와 현재 프로그램 일치는 구분."
+    },
+    {
+      "id": "DOC-4-2",
+      "name": "UBC·합금 OP/이송라인",
+      "description": "2026-02-02/11/24 전기도면과 OP 외함 개조·전처리라인 자료입니다.",
+      "boundary": "세 날짜판을 함께 보존. 날짜가 늦다는 이유만으로 현장 적용을 승인하지 않음."
+    },
+    {
+      "id": "DOC-4-3",
+      "name": "집진기·전기실·참고부품",
+      "description": "300마력 집진기 수정도와 전기실/송풍기실·장입대, 제조사 부품 매뉴얼입니다.",
+      "boundary": "집진기는 부대 계통이며 부품 카탈로그를 현장 장착품으로 확정하지 않음."
+    }
+  ],
+  "manual": {
+    "overview": "4번은 합금 50톤로 폴더 기준으로 등록했습니다. 준공 사용 설명서의 표제는 50TON OPEN MELTING FURNACE, 2025년12월이며 본문에는 오픈 반사로·도어·송풍/오일·파일럿/메인 버너·온도 제어가 있습니다. 별도로 2026 UBC/합금 이송 및 OP 개조도가 있습니다. 압축파일 안의 PLC .xgwx와 터치 .xpd 원본을 보존했습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.\n\n원본 범위\n폴더 파일 30개, 압축 내부 자료 29개, 고유 해시 57개입니다. 동일 내용의 원래 경로·이름을 보존했고 서로 다른 버전은 유지했습니다. Windows 캐시/로그는 기술 자료 목록에서 제외했습니다. PDF·이미지 미리보기, 추출 본문·표·원본은 자료실에서 확인할 수 있습니다. DOC/HWP/PPT/Excel 열람은 원본 페이지/도형 배치를 재현한 것이 아닙니다.",
+    "io": "UBC/합금 라인에서는 전원·비상/풀코드·모드 선택·C/V·OP 단자/릴레이를 문서 계통별로 구분합니다. ZIP 내부 ‘세진메탈 50용해로 전기도면 .pdf’는 실제 내부 표제에 25TON 반사로, 2024.07이 보이므로 그 P주소를 50톤로의 확정 I/O로 배정하지 않았습니다. 2026 OP 개조와 2025 PLC 파일의 관계도 별도 확인 대상입니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "control": "50톤 설명서는 송풍·오일 공급·파일럿 화염 검출·메인 버너 및 온도 제어의 관계를 서술합니다. 자동/고정/수동·터치 설정과 OP 조작부가 나타나지만 내부 래더·타이머·실제 안전 허가 로직은 이번 정적 추출로 복원되지 않았습니다. XG5000 원본이 있다는 사실과 래더 해석 완료는 다릅니다. UBC/합금 모드 전환·OP·풀코드 회로는 반사로 버너 제어와 별도 계통으로 추적합니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "circuits": "라인 2026-02-24판은 UBC 전원·FEEDER·EMERGENCY STOP·MODE SELECTION과 ALLOY 전원·진동구동·C/V·OP1/2 회로를 분리합니다. 440VAC 주회로와 220VAC 제어선, JB/OP 경계, 풀코드 정상·이상 릴레이가 도면에 있습니다. 준공 버너 자료의 UV C7027/BC1000, M7284 등의 부품 설명은 실제 연결과 옵션을 대조해야 합니다. 집진기 300마력 회로를 50톤 버너 동력 회로로 합치지 않습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "alarms": "UV 검출·착화 불량·송풍/오일/에어 계통, 라인 비상정지·풀코드 이상을 구분했습니다. 설명서의 압력·점화/재시작·공연비/수동 설정은 과거 문서 내용이며 현행 승인 설정이나 실행 지시가 아닙니다. 기동/정지·연료 차단·재기동 기능의 현장 검증은 수행하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "repair": "1. 버너 착화/온도 제어 이상\n설명서의 파일럿/UV·메인·송풍/오일·온도 경로를 분리 대조\n근거: 세진메탈50톤 사용 설명서20260206.pdf · PDF 1쪽\n\n2. UBC/합금 C/V 운전 불가\n모드 선택·풀코드·OP/JB 경계와 최초 이상 표기를 구분\n근거: 50TONS OF ALLOY-UBC_260224.pdf · PDF 1쪽\n\n3. OP 개조 후 조작 불일치\n2026-02-02/11/24판 및 외함도와 현재 반번호 비교\n근거: SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · PDF 1쪽\n\n4. 도어·장입·집진 부대설비 문제\n버너/도어/집진기를 분리하고 현재 실물 대조\n근거: 50톤 반사로(개조)도면.pdf · PDF 1쪽\n\n기록 기준\n실제 최초 시각·표시/코드·정지 구간·관찰·측정·조치·복구 근거를 구분해 수리 기록 양식에 남깁니다. 이번 작업에서 현장 고장/수리 이력을 새로 생성하지 않았습니다.",
+    "completion": "작성한 것\n- 사용자 지정 폴더 원본 30개와 압축 내부 29개 연결·해시 보존\n- 설비 계통 구분·7개 매뉴얼 항목·전기/I/O/단자 참조 5행·조작 참조 2행\n- 핵심 PDF 페이지 미리보기 189개·원본 자료실·추출 텍스트/표/그림 연결\n- 증상별 점검 4개·확인 대장 6개\n\n미확정·추가 확인\n- 50톤 파일 내부 25TON 표제: 전기도면 ZIP PDF 내부 25TON/2024.07 표제 / 작성업체의 실제 적용/공용설계 근거 확인\n- OP 개정판: 2026-02-02/11/24와 원본 PLC 2025-11-12 / 현장 반영 개정과 프로그램 비교\n- PLC/HMI 원본 해석: XGWX·XPD 파일 보존, 전체 래더/HMI 의미 해석 미완 / 전용 편집기의 정적 내보내기·프로그램/태그 대조\n- PLC/HMI 원본 및 현재 적용: 50톤 반사로_20251112.xgwx / S2b34e68f9888dc87 / 현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조\n- 현장·안전·복구 확인: 파일 검토·로컬 문서화만 수행 / 실제 관찰·측정·현재 보호/재기동·복구 기록 별도\n- 문서 판독 범위: 모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시. / 설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조\n\n판정\n문서화 완료(핵심 자료·정적 참조 범위)입니다. 전체 카탈로그의 모든 페이지 판독·PLC 전체 의미 해석·현장 운전/안전/복구 검증 완료가 아닙니다. 실제 수리 이력은 생성하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "02_PreprocessingLINE_CABa_260223.pdf",
+        "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=1"
+      },
+      {
+        "label": "50TONS OF ALLOY-UBC_260224.pdf",
+        "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=1"
+      },
+      {
+        "label": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf",
+        "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=1"
+      },
+      {
+        "label": "50톤 반사로(개조)도면.pdf",
+        "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 50용해로 전기도면 .pdf",
+        "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=1"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.hwp",
+        "url": "/documents/equipment-04/library.html?source=Sec4696f6e5620ee8"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.pdf",
+        "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+      }
+    ],
+    "io": [
+      {
+        "label": "02_PreprocessingLINE_CABa_260223.pdf",
+        "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=1"
+      },
+      {
+        "label": "50TONS OF ALLOY-UBC_260224.pdf",
+        "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=1"
+      },
+      {
+        "label": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf",
+        "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=1"
+      },
+      {
+        "label": "50톤 반사로(개조)도면.pdf",
+        "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 50용해로 전기도면 .pdf",
+        "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=1"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.hwp",
+        "url": "/documents/equipment-04/library.html?source=Sec4696f6e5620ee8"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.pdf",
+        "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+      }
+    ],
+    "control": [
+      {
+        "label": "02_PreprocessingLINE_CABa_260223.pdf",
+        "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=1"
+      },
+      {
+        "label": "50TONS OF ALLOY-UBC_260224.pdf",
+        "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=1"
+      },
+      {
+        "label": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf",
+        "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=1"
+      },
+      {
+        "label": "50톤 반사로(개조)도면.pdf",
+        "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 50용해로 전기도면 .pdf",
+        "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=1"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.hwp",
+        "url": "/documents/equipment-04/library.html?source=Sec4696f6e5620ee8"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.pdf",
+        "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "02_PreprocessingLINE_CABa_260223.pdf",
+        "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=1"
+      },
+      {
+        "label": "50TONS OF ALLOY-UBC_260224.pdf",
+        "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=1"
+      },
+      {
+        "label": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf",
+        "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=1"
+      },
+      {
+        "label": "50톤 반사로(개조)도면.pdf",
+        "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 50용해로 전기도면 .pdf",
+        "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=1"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.hwp",
+        "url": "/documents/equipment-04/library.html?source=Sec4696f6e5620ee8"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.pdf",
+        "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "02_PreprocessingLINE_CABa_260223.pdf",
+        "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=1"
+      },
+      {
+        "label": "50TONS OF ALLOY-UBC_260224.pdf",
+        "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=1"
+      },
+      {
+        "label": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf",
+        "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=1"
+      },
+      {
+        "label": "50톤 반사로(개조)도면.pdf",
+        "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 50용해로 전기도면 .pdf",
+        "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=1"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.hwp",
+        "url": "/documents/equipment-04/library.html?source=Sec4696f6e5620ee8"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.pdf",
+        "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+      }
+    ],
+    "repair": [
+      {
+        "label": "02_PreprocessingLINE_CABa_260223.pdf",
+        "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=1"
+      },
+      {
+        "label": "50TONS OF ALLOY-UBC_260224.pdf",
+        "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=1"
+      },
+      {
+        "label": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf",
+        "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=1"
+      },
+      {
+        "label": "50톤 반사로(개조)도면.pdf",
+        "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 50용해로 전기도면 .pdf",
+        "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=1"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.hwp",
+        "url": "/documents/equipment-04/library.html?source=Sec4696f6e5620ee8"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.pdf",
+        "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+      }
+    ],
+    "completion": [
+      {
+        "label": "02_PreprocessingLINE_CABa_260223.pdf",
+        "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=1"
+      },
+      {
+        "label": "50TONS OF ALLOY-UBC_260224.pdf",
+        "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=1"
+      },
+      {
+        "label": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf",
+        "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=1"
+      },
+      {
+        "label": "50톤 반사로(개조)도면.pdf",
+        "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 50용해로 전기도면 .pdf",
+        "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=1"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.hwp",
+        "url": "/documents/equipment-04/library.html?source=Sec4696f6e5620ee8"
+      },
+      {
+        "label": "세진메탈50톤 사용 설명서20260206.pdf",
+        "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+      }
+    ]
+  },
+  "io": [
+    {
+      "system": "2026-02-24 UBC/ALLOY 라인",
+      "direction": "접점·릴레이",
+      "address": "-UMS1 / -UOL1",
+      "name": "UBC C/V 전자접촉기/보호 분기",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 4쪽",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=4"
+    },
+    {
+      "system": "2026-02-24 UBC/ALLOY 라인",
+      "direction": "접점·릴레이",
+      "address": "-UEM1 / -R0",
+      "name": "UBC 비상정지/비상 릴레이",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 5쪽",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=5"
+    },
+    {
+      "system": "2026-02-24 UBC/ALLOY 라인",
+      "direction": "접점·릴레이",
+      "address": "FLS01~FLS06",
+      "name": "UBC 풀코드 입력 표기",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 5쪽",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=5"
+    },
+    {
+      "system": "2026-02-24 UBC/ALLOY 라인",
+      "direction": "접점·릴레이",
+      "address": "-FE1 / -FE2",
+      "name": "풀코드 정상/이상 릴레이",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 6쪽",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=6"
+    },
+    {
+      "system": "2026-02-24 UBC/ALLOY 라인",
+      "direction": "접점·릴레이",
+      "address": "-R3 / -R4",
+      "name": "UBC/ALLOY 모드 선택 관련 릴레이",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 7쪽",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=7"
+    }
+  ],
+  "hmi": [
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "50톤 설명서",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "세진메탈50톤 사용 설명서20260206.pdf",
+      "description": "자동/고정/수동·온도·버너/도어 조작 근거",
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 1쪽",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+    },
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "OP/JB 라인 조작",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "50TONS OF ALLOY-UBC_260224.pdf",
+      "description": "UBC/합금 모드 및 현장 OP 개조 계통",
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 2쪽",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=2"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [],
+  "drawings": [
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 1쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 1쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=1",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0001.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 2쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 2쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=2",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0002.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 3쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 3쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=3",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0003.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 4쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 4쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=4",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0004.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 5쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 5쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=5",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0005.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 6쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 6쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=6",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0006.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 7쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 7쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=7",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0007.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 8쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 8쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=8",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0008.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 9쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 9쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=9",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0009.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 10쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 10쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=10",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0010.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 11쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 11쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=11",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0011.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 12쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 12쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=12",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0012.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 13쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 13쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=13",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0013.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 14쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 14쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=14",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0014.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 15쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 15,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 15쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=15",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0015.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 16쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 16,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 16쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=16",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0016.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 17쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 17,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 17쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=17",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0017.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 18쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 18,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 18쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=18",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0018.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 19쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 19,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 19쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=19",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0019.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 20쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 20,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 20쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=20",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0020.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 21쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 21,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 21쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=21",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0021.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 22쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 22,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 22쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=22",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0022.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 23쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 23,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 23쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=23",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0023.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 24쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 24,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 24쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=24",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0024.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 25쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 25,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 25쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=25",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0025.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 26쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 26,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 26쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=26",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0026.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 27쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 27,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 27쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=27",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0027.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 28쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 28,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 28쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=28",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0028.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 29쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 29,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 29쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=29",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0029.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 30쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 30,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 30쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=30",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0030.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 31쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 31,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 31쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=31",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0031.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 32쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 32,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 32쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=32",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0032.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 33쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 33,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 33쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=33",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0033.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 34쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 34,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 34쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=34",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0034.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 35쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 35,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 35쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=35",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0035.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 36쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 36,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 36쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=36",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0036.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 37쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 37,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 37쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=37",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0037.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 38쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 38,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 38쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=38",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0038.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 39쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 39,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 39쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=39",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0039.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 40쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 40,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 40쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=40",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0040.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 41쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 41,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 41쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=41",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0041.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 42쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 42,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 42쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=42",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0042.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 43쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 43,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 43쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=43",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0043.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 44쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 44,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 44쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=44",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0044.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 45쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 45,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 45쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=45",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0045.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 46쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 46,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 46쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=46",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0046.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 47쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 47,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 47쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=47",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0047.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 48쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 48,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 48쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=48",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0048.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 49쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 49,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 49쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=49",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0049.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 50쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 50,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 50쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=50",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0050.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 51쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 51,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 51쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=51",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0051.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 52쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 52,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 52쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=52",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0052.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 53쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 53,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 53쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=53",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0053.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 54쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 54,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 54쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=54",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0054.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 55쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 55,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 55쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=55",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0055.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 56쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 56,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 56쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=56",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0056.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 57쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 57,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 57쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=57",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0057.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 58쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 58,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 58쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=58",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0058.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 59쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 59,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 59쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=59",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0059.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 60쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 60,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 60쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=60",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0060.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 61쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 61,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 61쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=61",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0061.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 62쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 62,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 62쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=62",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0062.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 63쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 63,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 63쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=63",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0063.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 64쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 64,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 64쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=64",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0064.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 65쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 65,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 65쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=65",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0065.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 66쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 66,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 66쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=66",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0066.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 67쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 67,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 67쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=67",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0067.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 68쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 68,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 68쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=68",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0068.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 69쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 69,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 69쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=69",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0069.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 70쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 70,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 70쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=70",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0070.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 71쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 71,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 71쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=71",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0071.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 72쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 72,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 72쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=72",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0072.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 73쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 73,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 73쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=73",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0073.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 74쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 74,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 74쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=74",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0074.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 75쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 75,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 75쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=75",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0075.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 76쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 76,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 76쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=76",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0076.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 77쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 77,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 77쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=77",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0077.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 78쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 78,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 78쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=78",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0078.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 79쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 79,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 79쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=79",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0079.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 80쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 80,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 80쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=80",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0080.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 81쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 81,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 81쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=81",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0081.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 82쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 82,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 82쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=82",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0082.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 83쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 83,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 83쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=83",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0083.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 84쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 84,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 84쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=84",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0084.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 85쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 85,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 85쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=85",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0085.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 86쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 86,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 86쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=86",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0086.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 87쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 87,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 87쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=87",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0087.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 88쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 88,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 88쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=88",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0088.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 89쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 89,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 89쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=89",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0089.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 90쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 90,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 90쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=90",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0090.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 91쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 91,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 91쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=91",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0091.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 92쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 92,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 92쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=92",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0092.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 93쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 93,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 93쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=93",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0093.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 94쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 94,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 94쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=94",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0094.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 95쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 95,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 95쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=95",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0095.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 96쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 96,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 96쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=96",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0096.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 97쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 97,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 97쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=97",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0097.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 98쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 98,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 98쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=98",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0098.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 99쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 99,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 99쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=99",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0099.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 100쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 100,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 100쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=100",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0100.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 101쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 101,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 101쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=101",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0101.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 102쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 102,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 102쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=102",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0102.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 103쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 103,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 103쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=103",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0103.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 104쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 104,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 104쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=104",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0104.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 105쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 105,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 105쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=105",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0105.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 106쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 106,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 106쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=106",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0106.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 107쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 107,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 107쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=107",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0107.webp"
+    },
+    {
+      "name": "02_PreprocessingLINE_CABa_260223.pdf · 108쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S229851c22c6030b8 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 108,
+      "source": "02_PreprocessingLINE_CABa_260223.pdf · PDF 108쪽",
+      "source_id": "S229851c22c6030b8",
+      "url": "/documents/source-store/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37.pdf#page=108",
+      "preview": "/documents/source-previews/229851c22c6030b85cb6b4db7fed0684321e89ee0185d0a582f0ddac52aa9c37-0108.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 1쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 1쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=1",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0001.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 2쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 2쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=2",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0002.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 3쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 3쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=3",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0003.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 4쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 4쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=4",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0004.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 5쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 5쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=5",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0005.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 6쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 6쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=6",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0006.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 7쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 7쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=7",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0007.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 8쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 8쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=8",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0008.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 9쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 9쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=9",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0009.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 10쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 10쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=10",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0010.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 11쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 11쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=11",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0011.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 12쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 12쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=12",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0012.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 13쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 13쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=13",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0013.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 14쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 14쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=14",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0014.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 15쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 15,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 15쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=15",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0015.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 16쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 16,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 16쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=16",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0016.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 17쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 17,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 17쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=17",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0017.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 18쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 18,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 18쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=18",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0018.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 19쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 19,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 19쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=19",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0019.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 20쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 20,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 20쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=20",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0020.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 21쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 21,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 21쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=21",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0021.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 22쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 22,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 22쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=22",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0022.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 23쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 23,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 23쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=23",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0023.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 24쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 24,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 24쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=24",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0024.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 25쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 25,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 25쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=25",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0025.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 26쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 26,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 26쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=26",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0026.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 27쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 27,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 27쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=27",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0027.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 28쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 28,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 28쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=28",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0028.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 29쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 29,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 29쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=29",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0029.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 30쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 30,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 30쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=30",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0030.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 31쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 31,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 31쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=31",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0031.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 32쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 32,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 32쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=32",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0032.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 33쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 33,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 33쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=33",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0033.webp"
+    },
+    {
+      "name": "50TONS OF ALLOY-UBC_260224.pdf · 34쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Se882b7bd6ff8bbb0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 34,
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 34쪽",
+      "source_id": "Se882b7bd6ff8bbb0",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=34",
+      "preview": "/documents/source-previews/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b-0034.webp"
+    },
+    {
+      "name": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · 1쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S31ea317bd68c9dbd / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · PDF 1쪽",
+      "source_id": "S31ea317bd68c9dbd",
+      "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=1",
+      "preview": "/documents/source-previews/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0-0001.webp"
+    },
+    {
+      "name": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · 2쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S31ea317bd68c9dbd / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · PDF 2쪽",
+      "source_id": "S31ea317bd68c9dbd",
+      "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=2",
+      "preview": "/documents/source-previews/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0-0002.webp"
+    },
+    {
+      "name": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · 3쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S31ea317bd68c9dbd / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · PDF 3쪽",
+      "source_id": "S31ea317bd68c9dbd",
+      "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=3",
+      "preview": "/documents/source-previews/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0-0003.webp"
+    },
+    {
+      "name": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · 4쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S31ea317bd68c9dbd / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · PDF 4쪽",
+      "source_id": "S31ea317bd68c9dbd",
+      "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=4",
+      "preview": "/documents/source-previews/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0-0004.webp"
+    },
+    {
+      "name": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · 5쪽",
+      "system": "50톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S31ea317bd68c9dbd / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · PDF 5쪽",
+      "source_id": "S31ea317bd68c9dbd",
+      "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=5",
+      "preview": "/documents/source-previews/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0-0005.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 1쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 1쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=1",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0001.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 2쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 2쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=2",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0002.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 3쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 3쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=3",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0003.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 4쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 4쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=4",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0004.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 5쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 5쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=5",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0005.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 6쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 6쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=6",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0006.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 7쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 7쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=7",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0007.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 8쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 8쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=8",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0008.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 9쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 9쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=9",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0009.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 10쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 10쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=10",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0010.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 11쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 11쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=11",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0011.webp"
+    },
+    {
+      "name": "50톤 반사로(개조)도면.pdf · 12쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Saa3202920add0c2f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "50톤 반사로(개조)도면.pdf · PDF 12쪽",
+      "source_id": "Saa3202920add0c2f",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=12",
+      "preview": "/documents/source-previews/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001-0012.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 1쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 1쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=1",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0001.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 2쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 2쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=2",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0002.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 3쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 3쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=3",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0003.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 4쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 4쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=4",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0004.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 5쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 5쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=5",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0005.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 6쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 6쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=6",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0006.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 7쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 7쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=7",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0007.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 8쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 8쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=8",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0008.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 9쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 9쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=9",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0009.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 10쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 10쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=10",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0010.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 11쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 11쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=11",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0011.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 12쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 12쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=12",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0012.webp"
+    },
+    {
+      "name": "세진메탈 50용해로 전기도면 .pdf · 13쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sdc1ee8d94177fe3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "세진메탈 50용해로 전기도면 .pdf · PDF 13쪽",
+      "source_id": "Sdc1ee8d94177fe3e",
+      "url": "/documents/source-store/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2.pdf#page=13",
+      "preview": "/documents/source-previews/dc1ee8d94177fe3eb3af5ece36f3ecd9183f2d455fdf2e2b2bbe096ce741ddc2-0013.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 1쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 1쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0001.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 2쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 2쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=2",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0002.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 3쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 3쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=3",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0003.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 4쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 4쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=4",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0004.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 5쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 5쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=5",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0005.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 6쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 6쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=6",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0006.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 7쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 7쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=7",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0007.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 8쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 8쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=8",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0008.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 9쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 9쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=9",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0009.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 10쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 10쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=10",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0010.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 11쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 11쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=11",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0011.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 12쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 12쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=12",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0012.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 13쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 13쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=13",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0013.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 14쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 14쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=14",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0014.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 15쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 15,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 15쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=15",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0015.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 16쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 16,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 16쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=16",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0016.webp"
+    },
+    {
+      "name": "세진메탈50톤 사용 설명서20260206.pdf · 17쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 Sf05859dab2011723 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 17,
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 17쪽",
+      "source_id": "Sf05859dab2011723",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=17",
+      "preview": "/documents/source-previews/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097-0017.webp"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "원본 알람/보호 확인 범위",
+      "name": "알람·보호·복구 근거",
+      "address": "현행 코드/임계값·정상극성 미확정",
+      "trigger": "UV 검출·착화 불량·송풍/오일/에어 계통, 라인 비상정지·풀코드 이상을 구분했습니다. 설명서의 압력·점화/재시작·공연비/수동 설정은 과거 문서 내용이며 현행 승인 설정이나 실행 지시가 아닙니다. 기동/정지·연료 차단·재기동 기능의 현장 검증은 수행하지 않았습니다.",
+      "reset": "실제 표시·원인·현행 승인 조건을 확인하기 전 임의 우회·강제출력·설정 변경/재기동을 수행하지 않음",
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 1쪽",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "버너 착화/온도 제어 이상",
+      "check": "설명서의 파일럿/UV·메인·송풍/오일·온도 경로를 분리 대조",
+      "source": "세진메탈50톤 사용 설명서20260206.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/f05859dab2011723b548bcd7d9fb428a14b9160b1d7a509548d865ed20542097.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "UBC/합금 C/V 운전 불가",
+      "check": "모드 선택·풀코드·OP/JB 경계와 최초 이상 표기를 구분",
+      "source": "50TONS OF ALLOY-UBC_260224.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/e882b7bd6ff8bbb02e3573de632a7f5d9be505a825a2de64d93ef3142d7e912b.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "OP 개조 후 조작 불일치",
+      "check": "2026-02-02/11/24판 및 외함도와 현재 반번호 비교",
+      "source": "SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/31ea317bd68c9dbd9c49412f3f88602e11c50870aae359ce706398bec46085a0.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "도어·장입·집진 부대설비 문제",
+      "check": "버너/도어/집진기를 분리하고 현재 실물 대조",
+      "source": "50톤 반사로(개조)도면.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/aa3202920add0c2f0d1b9ac6dbd3fff596c92515dec078c3daaa0ef701dc1001.pdf#page=1"
+    }
+  ],
+  "checks": [
+    {
+      "title": "50톤 파일 내부 25TON 표제",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "전기도면 ZIP PDF 내부 25TON/2024.07 표제",
+      "next": "작성업체의 실제 적용/공용설계 근거 확인"
+    },
+    {
+      "title": "OP 개정판",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "2026-02-02/11/24와 원본 PLC 2025-11-12",
+      "next": "현장 반영 개정과 프로그램 비교"
+    },
+    {
+      "title": "PLC/HMI 원본 해석",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "XGWX·XPD 파일 보존, 전체 래더/HMI 의미 해석 미완",
+      "next": "전용 편집기의 정적 내보내기·프로그램/태그 대조"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "원본 파일 확보·해석/현재 적용 미확정",
+      "evidence": "50톤 반사로_20251112.xgwx / S2b34e68f9888dc87",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "evidence": "파일 검토·로컬 문서화만 수행",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "evidence": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "50톤 파일 내부 25TON 표제",
+      "status": "미확정·원문 차이 보존",
+      "source": "전기도면 ZIP PDF 내부 25TON/2024.07 표제",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "작성업체의 실제 적용/공용설계 근거 확인"
+    },
+    {
+      "title": "OP 개정판",
+      "status": "미확정·원문 차이 보존",
+      "source": "2026-02-02/11/24와 원본 PLC 2025-11-12",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현장 반영 개정과 프로그램 비교"
+    },
+    {
+      "title": "PLC/HMI 원본 해석",
+      "status": "미확정·원문 차이 보존",
+      "source": "XGWX·XPD 파일 보존, 전체 래더/HMI 의미 해석 미완",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "전용 편집기의 정적 내보내기·프로그램/태그 대조"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "원본 파일 확보·해석/현재 적용 미확정",
+      "source": "50톤 반사로_20251112.xgwx / S2b34e68f9888dc87",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "source": "파일 검토·로컬 문서화만 수행",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "source": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본·압축 자료 보존",
+      "status": "파일검증 완료",
+      "evidence": "폴더 원본 복사 전후 bytes/SHA-256 및 압축 추출 바이트/해시 대조",
+      "source": "/documents/equipment-04/source-manifest.json"
+    },
+    {
+      "title": "문서 검토 범위",
+      "status": "핵심 자료 중심 문서화",
+      "evidence": "02_PreprocessingLINE_CABa_260223.pdf; 50TONS OF ALLOY-UBC_260224.pdf; SejinMetal_합금50톤로 OP 추가_패널외함 1차_260224.pdf; 50톤 반사로(개조)도면.pdf; 세진메탈 50용해로 전기도면 .pdf; 세진메탈50톤 사용 설명서20260206.hwp; 세진메탈50톤 사용 설명서20260206.pdf / 참고·대량 카탈로그 전체 상세 판독은 아님",
+      "source": "/documents/equipment-04/library.html?source=Sf05859dab2011723"
+    },
+    {
+      "title": "현재 PLC·현장 시험",
+      "status": "미수행",
+      "evidence": "프로그램 현행 적용·통전/운전/안전/복구 시험·현장 설정 변경은 수행하지 않음",
+      "source": "사용자 지정 폴더 자료 범위"
+    }
+  ]
+}

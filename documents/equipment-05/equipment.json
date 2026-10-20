@@ -1,0 +1,1595 @@
+{
+  "id": "ALLOY30-05",
+  "name": "5번 30톤로 (합금)",
+  "group": "합금·30톤 용해로",
+  "location": "사용자 지정 5번 설비 · 현재 명판/실물·적용 범위 미확정",
+  "priority": true,
+  "source_count": 63,
+  "archive_member_count": 34,
+  "source_unique_count": 91,
+  "source_pages": 1075,
+  "source_version": "XG5000 원본 2종 확보 · 현재 적용/래더 의미 해석 미확정",
+  "description": "5번은 합금 30톤로 폴더입니다. 1/2호기와 2호기 상세 전기 자료가 섞여 있어 호기를 표시했습니다. 2호기 전기도면에는 연소 FAN·도어 모터·배기댐퍼·버너1/2·오일 프리히터·가스/에어 보호·온도조절기와 XGB PLC가 있습니다. 주제 자료와 열교환기·장입대·소방/공용 자료는 분리했습니다.",
+  "documentation_status": "원본 보존·핵심 전기/제어/운전 자료 중심 문서화 완료(미확정 포함). 일반/부품 카탈로그 전체 페이지의 상세 판독·현재 적용 검증, 현장 측정·운전·수리·안전 시험은 미수행입니다.",
+  "native_plc_available": true,
+  "native_project_files": [
+    {
+      "name": "용해로30TON 260204.xgwx",
+      "url": "/documents/source-store/5fa09b031874998fcf8ce57c36a354c4d7c9ec2c3fcc356702141e208763a117.xgwx",
+      "sha256": "5fa09b031874998fcf8ce57c36a354c4d7c9ec2c3fcc356702141e208763a117"
+    },
+    {
+      "name": "용해로40TON 12.17.xgwx",
+      "url": "/documents/source-store/ee92de66712918e393db6e2d016ac12932a2e70f9919784917e8d38166989956.xgwx",
+      "sha256": "ee92de66712918e393db6e2d016ac12932a2e70f9919784917e8d38166989956"
+    }
+  ],
+  "field_verified": false,
+  "manual_url": "/documents/equipment-05/manual.html",
+  "library_url": "/documents/equipment-05/library.html?source=S5a19e665830c7202",
+  "source_manifest": "/documents/equipment-05/source-manifest.json",
+  "plc_analysis_note": "XGWX 원본은 확보했습니다. 워크스페이스 헤더/문자열을 정적으로 확인했으며 CPU·전체 래더/내부 타이머·프로그램 의미 해석과 현행 적용은 미확정입니다. PLC·HMI 편집기·시뮬레이터·설비를 실행하지 않았습니다.",
+  "subsystems": [
+    {
+      "id": "DOC-5-1",
+      "name": "합금 30톤 2호기 전기·조작",
+      "description": "2026-05-20 표기의 전기도면 및 메인/OP·PLC 입출력 도면입니다.",
+      "boundary": "P주소는 해당 도면 기준. 현재 프로그램·실배선은 미대조."
+    },
+    {
+      "id": "DOC-5-2",
+      "name": "원본 프로젝트·준공자료",
+      "description": "용해로30TON 260204.xgwx와 ZIP 내부 사용설명서·추가 원본이 있습니다.",
+      "boundary": "ZIP의 용해로40TON 12.17.xgwx는 파일명상 다른 용량이므로 적용을 확정하지 않음."
+    },
+    {
+      "id": "DOC-5-3",
+      "name": "기계·열교환·공용 참고",
+      "description": "열교환기·송풍기·장입대·합금/압연 공용·소방 자료를 보존했습니다.",
+      "boundary": "공용/참고 자료를 2호기 최신 도면으로 대체하지 않음."
+    }
+  ],
+  "manual": {
+    "overview": "5번은 합금 30톤로 폴더입니다. 1/2호기와 2호기 상세 전기 자료가 섞여 있어 호기를 표시했습니다. 2호기 전기도면에는 연소 FAN·도어 모터·배기댐퍼·버너1/2·오일 프리히터·가스/에어 보호·온도조절기와 XGB PLC가 있습니다. 주제 자료와 열교환기·장입대·소방/공용 자료는 분리했습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.\n\n원본 범위\n폴더 파일 63개, 압축 내부 자료 34개, 고유 해시 91개입니다. 동일 내용의 원래 경로·이름을 보존했고 서로 다른 버전은 유지했습니다. Windows 캐시/로그는 기술 자료 목록에서 제외했습니다. PDF·이미지 미리보기, 추출 본문·표·원본은 자료실에서 확인할 수 있습니다. DOC/HWP/PPT/Excel 열람은 원본 페이지/도형 배치를 재현한 것이 아닙니다.",
+    "io": "2호기 전기도면11/12쪽 파일의 입력 P000~P01F 및 출력 P020~P03F를 도면의 기능명과 함께 옮겼습니다. 입력은 연소블로워 확인·FAN ON/OFF·도어/블로워/댐퍼 트립·착화·배기댐퍼/도어 리미트·TIC·오일 프리히터·사이렌 정지 등입니다. 출력은 점화 TR·GAS/MAIN/PILOT SOL·에어 SOL·도어 MC·경광등·FAN/댐퍼·상태 LED 등입니다. SPARE는 사용 신호로 채우지 않았습니다. 접점의 현장 정상극성과 PLC 상태는 미확정입니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "control": "제어는 블로워/보호 확인, 도어와 배기댐퍼 위치, 버너1/2 화염·온도 허가, 오일 계통 및 조작반/리모컨의 관계로 나눴습니다. XBC-DR64H 표기가 있는 PLC 외형도와 원본 XGWX를 확보했으나 CPU 실물·프로그램 일치·타이머·래더 분기는 확인하지 않았습니다. 준공자료의 40TON 명칭 파일과 30TON 파일을 같은 프로젝트로 합치지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "circuits": "주전원·제어전원·팬/도어/댐퍼 동력과 PLC 입력, 중계 릴레이/솔레노이드 부하를 구분합니다. P020/02C는 버너1/2 점화 TR 릴레이, P021은 MAIN GAS SOL 릴레이, P02A/02B는 도어 열림/닫힘 MC로 도면에 표시됩니다. TIC 분위기/오일/배기 온도와 인버터 접점, 카이저 리모컨 출력 접점도 별도 원본 경로입니다. 도면 연선 색상·공통선·부하전압을 현장 배선 확인값으로 간주하지 않습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "alarms": "입력의 도어·연소 블로워·배기댐퍼 트립, 버너 착화 확인·TIC 높은 온도, 출력의 착화불량·GAS/AIR 압력·모터 이상 LED를 분리했습니다. 예비 출력·알람 표시를 실제 발생 고장으로 등록하지 않았습니다. 설명서의 연료·공압·온도·퍼지/재점화 수치는 현장 승인 설정과 대조해야 하며 프로그램 변경은 수행하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "repair": "1. FAN·도어·댐퍼 무동작\n동력/보호·조작 입력·리미트와 MC/릴레이 부하 경로 구분\n근거: 30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽\n\n2. 버너1/2 착화 또는 유지 불가\n화염 확인·온도 허가·GAS/에어·MAIN/PILOT 계통 구분\n근거: 30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽\n\n3. 메인/OP/리모컨 조작 차이\n각 조작 출처와 해당 I/O·접점 출력 대조\n근거: 30TON 용해로 2호기 전기도면13.pdf · PDF 1쪽\n\n4. 열교환기·도어 기계 문제\n공용/참고도와 현재 1·2호기 적용을 확인\n근거: 세진메탈30톤 사용 설명서20260904.pdf · PDF 1쪽\n\n기록 기준\n실제 최초 시각·표시/코드·정지 구간·관찰·측정·조치·복구 근거를 구분해 수리 기록 양식에 남깁니다. 이번 작업에서 현장 고장/수리 이력을 새로 생성하지 않았습니다.",
+    "completion": "작성한 것\n- 사용자 지정 폴더 원본 63개와 압축 내부 34개 연결·해시 보존\n- 설비 계통 구분·7개 매뉴얼 항목·전기/I/O/단자 참조 56행·조작 참조 2행\n- 핵심 PDF 페이지 미리보기 42개·원본 자료실·추출 텍스트/표/그림 연결\n- 증상별 점검 4개·확인 대장 6개\n\n미확정·추가 확인\n- 30TON/40TON 프로그램: 직접 30TON XGWX와 ZIP 내부 40TON 명칭 XGWX / 각 프로젝트의 장비·CPU·최신성 확인\n- 2호기/공용/1호기: 호기별 전기 자료 및 합금·압연 공용도 존재 / 실제 호기·도면 개정 적용 확인\n- 기준일 차이: 2026-02-04 프로젝트명·2026-05-20 전기도면·9월 설명서 / 현장 반영 프로그램과 도면 비교\n- PLC/HMI 원본 및 현재 적용: 용해로30TON 260204.xgwx / S5fa09b031874998f; 용해로40TON 12.17.xgwx / See92de66712918e3 / 현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조\n- 현장·안전·복구 확인: 파일 검토·로컬 문서화만 수행 / 실제 관찰·측정·현재 보호/재기동·복구 기록 별도\n- 문서 판독 범위: 모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시. / 설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조\n\n판정\n문서화 완료(핵심 자료·정적 참조 범위)입니다. 전체 카탈로그의 모든 페이지 판독·PLC 전체 의미 해석·현장 운전/안전/복구 검증 완료가 아닙니다. 실제 수리 이력은 생성하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "30TON 용해로 2호기 전기도면.pdf",
+        "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면1.pdf",
+        "url": "/documents/source-store/420b89ff5aaef94f7af33c50076693a7247d062a4558b7432e9628c4861be876.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면10.pdf",
+        "url": "/documents/source-store/ecf06b8e21d800a51f6e0ff49eea31ff2de570273d6da85f337cf4e9b1ed37e2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면11.pdf",
+        "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면12.pdf",
+        "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면13.pdf",
+        "url": "/documents/source-store/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면2.pdf",
+        "url": "/documents/source-store/c8cb3a4abc6313a71e6d057b546a4525f59a96a9d831b1a561aab280150cbee2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면3.pdf",
+        "url": "/documents/source-store/36e8f7e0b65dea123d1ff30fce164c05df0f594fc21ff1a2a2cbbb6a1dd0c04c.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면4.pdf",
+        "url": "/documents/source-store/c1a253499541c36619318c455b5e10a09b8344a6b25216d38df494ed0b0b8ead.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면5.pdf",
+        "url": "/documents/source-store/cd8686b4f618f744ba6e1883dd3c44be06fd3efc21fdc6a51691d452e4c6ce7c.pdf#page=1"
+      }
+    ],
+    "io": [
+      {
+        "label": "30TON 용해로 2호기 전기도면.pdf",
+        "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면1.pdf",
+        "url": "/documents/source-store/420b89ff5aaef94f7af33c50076693a7247d062a4558b7432e9628c4861be876.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면10.pdf",
+        "url": "/documents/source-store/ecf06b8e21d800a51f6e0ff49eea31ff2de570273d6da85f337cf4e9b1ed37e2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면11.pdf",
+        "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면12.pdf",
+        "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면13.pdf",
+        "url": "/documents/source-store/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면2.pdf",
+        "url": "/documents/source-store/c8cb3a4abc6313a71e6d057b546a4525f59a96a9d831b1a561aab280150cbee2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면3.pdf",
+        "url": "/documents/source-store/36e8f7e0b65dea123d1ff30fce164c05df0f594fc21ff1a2a2cbbb6a1dd0c04c.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면4.pdf",
+        "url": "/documents/source-store/c1a253499541c36619318c455b5e10a09b8344a6b25216d38df494ed0b0b8ead.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면5.pdf",
+        "url": "/documents/source-store/cd8686b4f618f744ba6e1883dd3c44be06fd3efc21fdc6a51691d452e4c6ce7c.pdf#page=1"
+      }
+    ],
+    "control": [
+      {
+        "label": "30TON 용해로 2호기 전기도면.pdf",
+        "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면1.pdf",
+        "url": "/documents/source-store/420b89ff5aaef94f7af33c50076693a7247d062a4558b7432e9628c4861be876.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면10.pdf",
+        "url": "/documents/source-store/ecf06b8e21d800a51f6e0ff49eea31ff2de570273d6da85f337cf4e9b1ed37e2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면11.pdf",
+        "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면12.pdf",
+        "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면13.pdf",
+        "url": "/documents/source-store/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면2.pdf",
+        "url": "/documents/source-store/c8cb3a4abc6313a71e6d057b546a4525f59a96a9d831b1a561aab280150cbee2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면3.pdf",
+        "url": "/documents/source-store/36e8f7e0b65dea123d1ff30fce164c05df0f594fc21ff1a2a2cbbb6a1dd0c04c.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면4.pdf",
+        "url": "/documents/source-store/c1a253499541c36619318c455b5e10a09b8344a6b25216d38df494ed0b0b8ead.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면5.pdf",
+        "url": "/documents/source-store/cd8686b4f618f744ba6e1883dd3c44be06fd3efc21fdc6a51691d452e4c6ce7c.pdf#page=1"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "30TON 용해로 2호기 전기도면.pdf",
+        "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면1.pdf",
+        "url": "/documents/source-store/420b89ff5aaef94f7af33c50076693a7247d062a4558b7432e9628c4861be876.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면10.pdf",
+        "url": "/documents/source-store/ecf06b8e21d800a51f6e0ff49eea31ff2de570273d6da85f337cf4e9b1ed37e2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면11.pdf",
+        "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면12.pdf",
+        "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면13.pdf",
+        "url": "/documents/source-store/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면2.pdf",
+        "url": "/documents/source-store/c8cb3a4abc6313a71e6d057b546a4525f59a96a9d831b1a561aab280150cbee2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면3.pdf",
+        "url": "/documents/source-store/36e8f7e0b65dea123d1ff30fce164c05df0f594fc21ff1a2a2cbbb6a1dd0c04c.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면4.pdf",
+        "url": "/documents/source-store/c1a253499541c36619318c455b5e10a09b8344a6b25216d38df494ed0b0b8ead.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면5.pdf",
+        "url": "/documents/source-store/cd8686b4f618f744ba6e1883dd3c44be06fd3efc21fdc6a51691d452e4c6ce7c.pdf#page=1"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "30TON 용해로 2호기 전기도면.pdf",
+        "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면1.pdf",
+        "url": "/documents/source-store/420b89ff5aaef94f7af33c50076693a7247d062a4558b7432e9628c4861be876.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면10.pdf",
+        "url": "/documents/source-store/ecf06b8e21d800a51f6e0ff49eea31ff2de570273d6da85f337cf4e9b1ed37e2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면11.pdf",
+        "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면12.pdf",
+        "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면13.pdf",
+        "url": "/documents/source-store/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면2.pdf",
+        "url": "/documents/source-store/c8cb3a4abc6313a71e6d057b546a4525f59a96a9d831b1a561aab280150cbee2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면3.pdf",
+        "url": "/documents/source-store/36e8f7e0b65dea123d1ff30fce164c05df0f594fc21ff1a2a2cbbb6a1dd0c04c.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면4.pdf",
+        "url": "/documents/source-store/c1a253499541c36619318c455b5e10a09b8344a6b25216d38df494ed0b0b8ead.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면5.pdf",
+        "url": "/documents/source-store/cd8686b4f618f744ba6e1883dd3c44be06fd3efc21fdc6a51691d452e4c6ce7c.pdf#page=1"
+      }
+    ],
+    "repair": [
+      {
+        "label": "30TON 용해로 2호기 전기도면.pdf",
+        "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면1.pdf",
+        "url": "/documents/source-store/420b89ff5aaef94f7af33c50076693a7247d062a4558b7432e9628c4861be876.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면10.pdf",
+        "url": "/documents/source-store/ecf06b8e21d800a51f6e0ff49eea31ff2de570273d6da85f337cf4e9b1ed37e2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면11.pdf",
+        "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면12.pdf",
+        "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면13.pdf",
+        "url": "/documents/source-store/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면2.pdf",
+        "url": "/documents/source-store/c8cb3a4abc6313a71e6d057b546a4525f59a96a9d831b1a561aab280150cbee2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면3.pdf",
+        "url": "/documents/source-store/36e8f7e0b65dea123d1ff30fce164c05df0f594fc21ff1a2a2cbbb6a1dd0c04c.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면4.pdf",
+        "url": "/documents/source-store/c1a253499541c36619318c455b5e10a09b8344a6b25216d38df494ed0b0b8ead.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면5.pdf",
+        "url": "/documents/source-store/cd8686b4f618f744ba6e1883dd3c44be06fd3efc21fdc6a51691d452e4c6ce7c.pdf#page=1"
+      }
+    ],
+    "completion": [
+      {
+        "label": "30TON 용해로 2호기 전기도면.pdf",
+        "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면1.pdf",
+        "url": "/documents/source-store/420b89ff5aaef94f7af33c50076693a7247d062a4558b7432e9628c4861be876.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면10.pdf",
+        "url": "/documents/source-store/ecf06b8e21d800a51f6e0ff49eea31ff2de570273d6da85f337cf4e9b1ed37e2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면11.pdf",
+        "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면12.pdf",
+        "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면13.pdf",
+        "url": "/documents/source-store/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면2.pdf",
+        "url": "/documents/source-store/c8cb3a4abc6313a71e6d057b546a4525f59a96a9d831b1a561aab280150cbee2.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면3.pdf",
+        "url": "/documents/source-store/36e8f7e0b65dea123d1ff30fce164c05df0f594fc21ff1a2a2cbbb6a1dd0c04c.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면4.pdf",
+        "url": "/documents/source-store/c1a253499541c36619318c455b5e10a09b8344a6b25216d38df494ed0b0b8ead.pdf#page=1"
+      },
+      {
+        "label": "30TON 용해로 2호기 전기도면5.pdf",
+        "url": "/documents/source-store/cd8686b4f618f744ba6e1883dd3c44be06fd3efc21fdc6a51691d452e4c6ce7c.pdf#page=1"
+      }
+    ]
+  },
+  "io": [
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P000",
+      "name": "연소 블로워 ON 확인",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P001",
+      "name": "연소 FAN ON · OP",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P002",
+      "name": "연소 FAN OFF · OP",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P003",
+      "name": "도어모터 TRIP",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P004",
+      "name": "연소 블로워 TRIP",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P005",
+      "name": "버너1 점화확인",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P006",
+      "name": "배기댐퍼 열림 PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P007",
+      "name": "배기댐퍼 닫힘 PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P008",
+      "name": "버너2 점화확인",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P009",
+      "name": "배기댐퍼 모터 TRIP",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P00D",
+      "name": "오일온도 콘트롤",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P00E",
+      "name": "오일 프리히터 OFF/ON",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P00F",
+      "name": "사이렌정지",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P012",
+      "name": "도어열림 ON PBL",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P013",
+      "name": "도어닫힘 ON PBL",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P014",
+      "name": "버너1 ON PBL",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P015",
+      "name": "버너1 OFF PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P016",
+      "name": "버너2 ON PBL",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P017",
+      "name": "버너2 OFF PB",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P018",
+      "name": "분위기온도 콘트롤",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P019",
+      "name": "분위기온도 높음 알람",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P01A",
+      "name": "도어열림정지 LS1",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P01B",
+      "name": "도어닫힘정지 LS2",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P01C",
+      "name": "배기댐퍼 열림정지 LS3",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P01D",
+      "name": "배기댐퍼 닫힘정지 LS4",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 입력도",
+      "direction": "입력 참조",
+      "address": "P01E",
+      "name": "오일온도 높음 알람",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P020",
+      "name": "버너1 점화TR ON RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P021",
+      "name": "MAIN GAS SOL RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P022",
+      "name": "버너1 MAIN SOL ON RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P023",
+      "name": "버너1 PILOT SOL ON RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P024",
+      "name": "버너1 에어SOL",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P025",
+      "name": "사이렌 · OP",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P026",
+      "name": "오일 프리히터 ON MC",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P027",
+      "name": "이상 경광등",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P028",
+      "name": "버너1 ON PBL LAMP",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P029",
+      "name": "버너1 점화불량 LED",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P02A",
+      "name": "도어열림 MC",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P02B",
+      "name": "도어닫힘 MC",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P02C",
+      "name": "버너2 점화TR ON RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P02D",
+      "name": "버너2 MAIN SOL ON RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P02E",
+      "name": "버너2 PILOT SOL ON RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P02F",
+      "name": "버너2 에어SOL",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P030",
+      "name": "오일 프리히터 ON LAMP",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P031",
+      "name": "연소 FAN ON RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P032",
+      "name": "연소 FAN OFF RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P033",
+      "name": "MAIN GAS 압력낮음 LED",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P034",
+      "name": "버너2 ON PBL LAMP",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P035",
+      "name": "배기댐퍼 열림 RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P036",
+      "name": "배기댐퍼 닫힘 RELAY",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P037",
+      "name": "버너2 점화불량 LED",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P038",
+      "name": "도어모터 이상 LED",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P039",
+      "name": "배기댐퍼 모터이상 LED",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P03A",
+      "name": "MAIN GAS 압력높음 LED",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P03B",
+      "name": "연소AIR 압력낮음 LED",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P03C",
+      "name": "압력정상 LED",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "합금30톤2호기 출력도",
+      "direction": "출력 참조",
+      "address": "P03F",
+      "name": "버너1 포스트에어 ON LED",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    }
+  ],
+  "hmi": [
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "메인·OP·리모컨",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "30TON 용해로 2호기 전기도면.pdf",
+      "description": "버너·도어·배기댐퍼 및 ON/OFF 조작 출처 구분",
+      "source": "30TON 용해로 2호기 전기도면.pdf · PDF 1쪽",
+      "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1"
+    },
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "사용 설명서",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "세진메탈30톤 사용 설명서20260904.pdf",
+      "description": "준공 운전/점검 설명의 과거 근거",
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 1쪽",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=1"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [],
+  "drawings": [
+    {
+      "name": "30TON 용해로 2호기 전기도면.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 S5a19e665830c7202 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면.pdf · PDF 1쪽",
+      "source_id": "S5a19e665830c7202",
+      "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1",
+      "preview": "/documents/source-previews/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면1.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 S420b89ff5aaef94f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면1.pdf · PDF 1쪽",
+      "source_id": "S420b89ff5aaef94f",
+      "url": "/documents/source-store/420b89ff5aaef94f7af33c50076693a7247d062a4558b7432e9628c4861be876.pdf#page=1",
+      "preview": "/documents/source-previews/420b89ff5aaef94f7af33c50076693a7247d062a4558b7432e9628c4861be876-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면10.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 Secf06b8e21d800a5 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면10.pdf · PDF 1쪽",
+      "source_id": "Secf06b8e21d800a5",
+      "url": "/documents/source-store/ecf06b8e21d800a51f6e0ff49eea31ff2de570273d6da85f337cf4e9b1ed37e2.pdf#page=1",
+      "preview": "/documents/source-previews/ecf06b8e21d800a51f6e0ff49eea31ff2de570273d6da85f337cf4e9b1ed37e2-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면11.pdf · 1쪽",
+      "system": "용해로 30TON 자료",
+      "kind": "원본 PDF",
+      "version": "원본 Sa23707f8fd3ae1e3 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "source_id": "Sa23707f8fd3ae1e3",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1",
+      "preview": "/documents/source-previews/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면12.pdf · 1쪽",
+      "system": "용해로 30TON 자료",
+      "kind": "원본 PDF",
+      "version": "원본 S81a8338767b90248 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "source_id": "S81a8338767b90248",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1",
+      "preview": "/documents/source-previews/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면13.pdf · 1쪽",
+      "system": "용해로 30TON 자료",
+      "kind": "원본 PDF",
+      "version": "원본 S2b2e185690976c7a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면13.pdf · PDF 1쪽",
+      "source_id": "S2b2e185690976c7a",
+      "url": "/documents/source-store/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e.pdf#page=1",
+      "preview": "/documents/source-previews/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면2.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sc8cb3a4abc6313a7 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면2.pdf · PDF 1쪽",
+      "source_id": "Sc8cb3a4abc6313a7",
+      "url": "/documents/source-store/c8cb3a4abc6313a71e6d057b546a4525f59a96a9d831b1a561aab280150cbee2.pdf#page=1",
+      "preview": "/documents/source-previews/c8cb3a4abc6313a71e6d057b546a4525f59a96a9d831b1a561aab280150cbee2-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면3.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 S36e8f7e0b65dea12 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면3.pdf · PDF 1쪽",
+      "source_id": "S36e8f7e0b65dea12",
+      "url": "/documents/source-store/36e8f7e0b65dea123d1ff30fce164c05df0f594fc21ff1a2a2cbbb6a1dd0c04c.pdf#page=1",
+      "preview": "/documents/source-previews/36e8f7e0b65dea123d1ff30fce164c05df0f594fc21ff1a2a2cbbb6a1dd0c04c-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면4.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sc1a253499541c366 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면4.pdf · PDF 1쪽",
+      "source_id": "Sc1a253499541c366",
+      "url": "/documents/source-store/c1a253499541c36619318c455b5e10a09b8344a6b25216d38df494ed0b0b8ead.pdf#page=1",
+      "preview": "/documents/source-previews/c1a253499541c36619318c455b5e10a09b8344a6b25216d38df494ed0b0b8ead-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면5.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 Scd8686b4f618f744 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면5.pdf · PDF 1쪽",
+      "source_id": "Scd8686b4f618f744",
+      "url": "/documents/source-store/cd8686b4f618f744ba6e1883dd3c44be06fd3efc21fdc6a51691d452e4c6ce7c.pdf#page=1",
+      "preview": "/documents/source-previews/cd8686b4f618f744ba6e1883dd3c44be06fd3efc21fdc6a51691d452e4c6ce7c-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면6.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 S0e327468680c7f95 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면6.pdf · PDF 1쪽",
+      "source_id": "S0e327468680c7f95",
+      "url": "/documents/source-store/0e327468680c7f955ff97748c94c7f6a67f9503d4114d87242ced751cb307ac2.pdf#page=1",
+      "preview": "/documents/source-previews/0e327468680c7f955ff97748c94c7f6a67f9503d4114d87242ced751cb307ac2-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면7.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sf0ac01fe5dff9b7a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면7.pdf · PDF 1쪽",
+      "source_id": "Sf0ac01fe5dff9b7a",
+      "url": "/documents/source-store/f0ac01fe5dff9b7adc31cdbae19d40027622e453c900afa75abe59e2f9b499ca.pdf#page=1",
+      "preview": "/documents/source-previews/f0ac01fe5dff9b7adc31cdbae19d40027622e453c900afa75abe59e2f9b499ca-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면8.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 Sd6e66c88bf8fcb42 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면8.pdf · PDF 1쪽",
+      "source_id": "Sd6e66c88bf8fcb42",
+      "url": "/documents/source-store/d6e66c88bf8fcb42bfbfa0a6c179dea254f700e9dd93b858d6c6f9d5dd9e2163.pdf#page=1",
+      "preview": "/documents/source-previews/d6e66c88bf8fcb42bfbfa0a6c179dea254f700e9dd93b858d6c6f9d5dd9e2163-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면9.pdf · 1쪽",
+      "system": "30톤 2호 전기도면",
+      "kind": "원본 PDF",
+      "version": "원본 S8f4f40adb088a1f7 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면9.pdf · PDF 1쪽",
+      "source_id": "S8f4f40adb088a1f7",
+      "url": "/documents/source-store/8f4f40adb088a1f7b5625c3064bfe0a82e44845288cb2975725f4d5bc749f3e0.pdf#page=1",
+      "preview": "/documents/source-previews/8f4f40adb088a1f7b5625c3064bfe0a82e44845288cb2975725f4d5bc749f3e0-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 1쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 1쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=1",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0001.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 2쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 2쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=2",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0002.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 3쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 3쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=3",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0003.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 4쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 4쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=4",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0004.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 5쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 5쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=5",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0005.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 6쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 6쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=6",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0006.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 7쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 7쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=7",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0007.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 8쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 8쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=8",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0008.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 9쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 9쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=9",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0009.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 10쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 10쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=10",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0010.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 11쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 11쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=11",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0011.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 12쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 12쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=12",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0012.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 13쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 13쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=13",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0013.webp"
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf · 14쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S2472dd7cc4d37232 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "30TON 용해로 2호기 전기도면202609_합치기.pdf · PDF 14쪽",
+      "source_id": "S2472dd7cc4d37232",
+      "url": "/documents/source-store/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba.pdf#page=14",
+      "preview": "/documents/source-previews/2472dd7cc4d37232a184747182fc4383fba16128a37a763a1e2f774e4621fdba-0014.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 1쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 1쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=1",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0001.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 2쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 2쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=2",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0002.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 3쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 3쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=3",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0003.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 4쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 4쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=4",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0004.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 5쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 5쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=5",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0005.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 6쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 6쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=6",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0006.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 7쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 7쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=7",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0007.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 8쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 8,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 8쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=8",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0008.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 9쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 9,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 9쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=9",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0009.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 10쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 10,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 10쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=10",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0010.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 11쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 11,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 11쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=11",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0011.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 12쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 12,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 12쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=12",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0012.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 13쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 13,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 13쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=13",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0013.webp"
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf · 14쪽",
+      "system": "준공 매뉴얼",
+      "kind": "압축 내부 원본 PDF",
+      "version": "원본 S064024961da0e16f / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 14,
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 14쪽",
+      "source_id": "S064024961da0e16f",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=14",
+      "preview": "/documents/source-previews/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae-0014.webp"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "원본 알람/보호 확인 범위",
+      "name": "알람·보호·복구 근거",
+      "address": "현행 코드/임계값·정상극성 미확정",
+      "trigger": "입력의 도어·연소 블로워·배기댐퍼 트립, 버너 착화 확인·TIC 높은 온도, 출력의 착화불량·GAS/AIR 압력·모터 이상 LED를 분리했습니다. 예비 출력·알람 표시를 실제 발생 고장으로 등록하지 않았습니다. 설명서의 연료·공압·온도·퍼지/재점화 수치는 현장 승인 설정과 대조해야 하며 프로그램 변경은 수행하지 않았습니다.",
+      "reset": "실제 표시·원인·현행 승인 조건을 확인하기 전 임의 우회·강제출력·설정 변경/재기동을 수행하지 않음",
+      "source": "30TON 용해로 2호기 전기도면.pdf · PDF 1쪽",
+      "url": "/documents/source-store/5a19e665830c7202a04b43534df1fa238111858c008932c6be4be585d11782ac.pdf#page=1"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "FAN·도어·댐퍼 무동작",
+      "check": "동력/보호·조작 입력·리미트와 MC/릴레이 부하 경로 구분",
+      "source": "30TON 용해로 2호기 전기도면11.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/a23707f8fd3ae1e340b688acb5685011548247e399579c84f9a1e1defede9dbb.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "버너1/2 착화 또는 유지 불가",
+      "check": "화염 확인·온도 허가·GAS/에어·MAIN/PILOT 계통 구분",
+      "source": "30TON 용해로 2호기 전기도면12.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/81a8338767b90248c6110805cc96ce194dba5d0550b2bbb8e672e58c59b453d4.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "메인/OP/리모컨 조작 차이",
+      "check": "각 조작 출처와 해당 I/O·접점 출력 대조",
+      "source": "30TON 용해로 2호기 전기도면13.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "열교환기·도어 기계 문제",
+      "check": "공용/참고도와 현재 1·2호기 적용을 확인",
+      "source": "세진메탈30톤 사용 설명서20260904.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/064024961da0e16fd0f4265e551a13b77029b6a40111ef8dcf2658966d34d7ae.pdf#page=1"
+    }
+  ],
+  "checks": [
+    {
+      "title": "30TON/40TON 프로그램",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "직접 30TON XGWX와 ZIP 내부 40TON 명칭 XGWX",
+      "next": "각 프로젝트의 장비·CPU·최신성 확인"
+    },
+    {
+      "title": "2호기/공용/1호기",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "호기별 전기 자료 및 합금·압연 공용도 존재",
+      "next": "실제 호기·도면 개정 적용 확인"
+    },
+    {
+      "title": "기준일 차이",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "2026-02-04 프로젝트명·2026-05-20 전기도면·9월 설명서",
+      "next": "현장 반영 프로그램과 도면 비교"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "원본 파일 확보·해석/현재 적용 미확정",
+      "evidence": "용해로30TON 260204.xgwx / S5fa09b031874998f; 용해로40TON 12.17.xgwx / See92de66712918e3",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "evidence": "파일 검토·로컬 문서화만 수행",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "evidence": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "30TON/40TON 프로그램",
+      "status": "미확정·원문 차이 보존",
+      "source": "직접 30TON XGWX와 ZIP 내부 40TON 명칭 XGWX",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "각 프로젝트의 장비·CPU·최신성 확인"
+    },
+    {
+      "title": "2호기/공용/1호기",
+      "status": "미확정·원문 차이 보존",
+      "source": "호기별 전기 자료 및 합금·압연 공용도 존재",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 호기·도면 개정 적용 확인"
+    },
+    {
+      "title": "기준일 차이",
+      "status": "미확정·원문 차이 보존",
+      "source": "2026-02-04 프로젝트명·2026-05-20 전기도면·9월 설명서",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현장 반영 프로그램과 도면 비교"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "원본 파일 확보·해석/현재 적용 미확정",
+      "source": "용해로30TON 260204.xgwx / S5fa09b031874998f; 용해로40TON 12.17.xgwx / See92de66712918e3",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "source": "파일 검토·로컬 문서화만 수행",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "source": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본·압축 자료 보존",
+      "status": "파일검증 완료",
+      "evidence": "폴더 원본 복사 전후 bytes/SHA-256 및 압축 추출 바이트/해시 대조",
+      "source": "/documents/equipment-05/source-manifest.json"
+    },
+    {
+      "title": "문서 검토 범위",
+      "status": "핵심 자료 중심 문서화",
+      "evidence": "30TON 용해로 2호기 전기도면.pdf; 30TON 용해로 2호기 전기도면1.pdf; 30TON 용해로 2호기 전기도면10.pdf; 30TON 용해로 2호기 전기도면11.pdf; 30TON 용해로 2호기 전기도면12.pdf; 30TON 용해로 2호기 전기도면13.pdf; 30TON 용해로 2호기 전기도면2.pdf; 30TON 용해로 2호기 전기도면3.pdf; 30TON 용해로 2호기 전기도면4.pdf; 30TON 용해로 2호기 전기도면5.pdf; 30TON 용해로 2호기 전기도면6.pdf; 30TON 용해로 2호기 전기도면7.pdf; 30TON 용해로 2호기 전기도면8.pdf; 30TON 용해로 2호기 전기도면9.pdf; 세진메탈 1공장 30톤 용해로 열교환기 사용 설명서.hwp; 30TON 용해로 2호기 전기도면.dwg; 30TON 용해로 2호기 전기도면202609_합치기.pdf; 세진메탈30톤 사용 설명서20260904.pdf / 참고·대량 카탈로그 전체 상세 판독은 아님",
+      "source": "/documents/equipment-05/library.html?source=S5a19e665830c7202"
+    },
+    {
+      "title": "현재 PLC·현장 시험",
+      "status": "미수행",
+      "evidence": "프로그램 현행 적용·통전/운전/안전/복구 시험·현장 설정 변경은 수행하지 않음",
+      "source": "사용자 지정 폴더 자료 범위"
+    }
+  ]
+}

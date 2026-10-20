@@ -1,0 +1,14 @@
+{
+  "sha256": "54745688e5f43758d63d7a5a27afac58e9b6c1a4e7398b3bb16d479bf8e9feae",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "A ( 1 : 10 )\nA A\nMaterialzuf¯hrung\nV07 3207 01 00 3-01\nErstellt Genehmigt \nWEYNAND\nZOR 115 220 S\nFreimatoleranzen\nnach SK-SP-204\nOberflche\nISO 1302\nMastab\nGewicht\nWerkstoff\nBlatt\n  \nBlatt Bezeichnung\nAusgabedatum\n1 Schutzvermerk nach ISO 16016STEINERT\nD-50933 K©ln  Widdersdorfer Str. 329-331\nmaterial feed\nchargement du matrial\n \n1710\n1780\n1830\n1880\n2702200\n1219\n2470\n1150\n602\n1743 1864\nZOR 115 220 S   FMF 9000 2000 1600 35,7\nZOR 115 220 S 6P 50Hz 10000 8000 4800 16,7\n     \nwhrend An- und Auslauf:\n5 x dyn. Belastung\n \nduring start and stop:\n5 x dynamic load\n \npendant dmarrage et arrt:\n5 x charge dynamique \n \n \nTyp / Type\n6-polig / 50 Hz\n6-pole / 50 Hz\n6 p§les / 50 Hz\nstat. Belastung [N]\nstatic load [N]\ncharge statique [N]\ndyn. Belastung vertikal [N]\ndynamic load vertical [N]\ncharge dynamique vertical [N]\ndyn. Belastung horizontal [N]\ndynamic load horizontal [N]\ncharge dynamique horizontal [N]\nBetriebsfrequenz [Hz]\nOperating frequency [Hz]\nFrquence de service [Hz]\n90850850\n1870",
+      "width": 1191.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 1
+}

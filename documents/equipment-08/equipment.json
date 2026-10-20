@@ -1,0 +1,462 @@
+{
+  "id": "ROLLING85-08",
+  "name": "8번 85톤로 (압연)",
+  "group": "압연·85톤 용해로",
+  "location": "사용자 지정 8번 설비 · 현재 명판/실물·적용 범위 미확정",
+  "priority": true,
+  "source_count": 27,
+  "archive_member_count": 0,
+  "source_unique_count": 26,
+  "source_pages": 13,
+  "source_version": "현재 PLC 프로젝트·전체 래더 미확보 · 도면/설명서 참조",
+  "description": "8번은 압연85톤로입니다. 본체·내화물·버너/배관·소방 자료가 중심이며 2016 자료와 2024 수리도 등 시점을 구분했습니다. 7번 압연30톤과 별개 설비로 등록했고 온도·버너 정격/설정을 공유한다고 가정하지 않았습니다.",
+  "documentation_status": "원본 보존·핵심 전기/제어/운전 자료 중심 문서화 완료(미확정 포함). 일반/부품 카탈로그 전체 페이지의 상세 판독·현재 적용 검증, 현장 측정·운전·수리·안전 시험은 미수행입니다.",
+  "native_plc_available": false,
+  "native_project_files": [],
+  "field_verified": false,
+  "manual_url": "/documents/equipment-08/manual.html",
+  "library_url": "/documents/equipment-08/library.html?source=S9d4839f2a4e99d62",
+  "source_manifest": "/documents/equipment-08/source-manifest.json",
+  "plc_analysis_note": "PLC 원본 프로젝트와 실행 래더는 미확보입니다. 도면상의 PLC 베이스/입출력·접점·단자·공정 설명을 현재 실행 프로그램으로 복원하지 않았습니다.",
+  "subsystems": [
+    {
+      "id": "DOC-8-1",
+      "name": "85톤 본체·내화물",
+      "description": "조립도 Model1/2, 2016 내화물, 2024 내화물 수리도 및 기계 CAD입니다.",
+      "boundary": "제작/수리 시점과 다른 버전을 보존."
+    },
+    {
+      "id": "DOC-8-2",
+      "name": "가스 버너·계통",
+      "description": "압연85톤 가스버너 P&ID와 RSH-400GO 자료입니다.",
+      "boundary": "현재 버너/밸브·전기 안전회로는 미대조."
+    },
+    {
+      "id": "DOC-8-3",
+      "name": "소방·기타 참고",
+      "description": "CO2·소방 계산서·압연85ton 도면입니다.",
+      "boundary": "안전 기능 시험·현행 소방 승인 상태로 해석하지 않음."
+    }
+  ],
+  "manual": {
+    "overview": "8번은 압연85톤로입니다. 본체·내화물·버너/배관·소방 자료가 중심이며 2016 자료와 2024 수리도 등 시점을 구분했습니다. 7번 압연30톤과 별개 설비로 등록했고 온도·버너 정격/설정을 공유한다고 가정하지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.\n\n원본 범위\n폴더 파일 27개, 압축 내부 자료 0개, 고유 해시 26개입니다. 동일 내용의 원래 경로·이름을 보존했고 서로 다른 버전은 유지했습니다. Windows 캐시/로그는 기술 자료 목록에서 제외했습니다. PDF·이미지 미리보기, 추출 본문·표·원본은 자료실에서 확인할 수 있습니다. DOC/HWP/PPT/Excel 열람은 원본 페이지/도형 배치를 재현한 것이 아닙니다.",
+    "io": "가스버너 P&ID의 기기·계장/밸브 표기를 원본 참조로 다루며 실제 PLC 메모리 주소로 변환하지 않았습니다. 현재 CPU·I/O 배치·안전 입출력·HMI 태그·전기도면 전체는 확인 대장에 미확보 범위를 표시합니다. CAD/TIF 원본과 대응 PDF를 연결했습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "control": "설비 설명은 연소 공기·가스 공급·버너·배기/축열 관련 원본의 구성 범위입니다. RSH-400GO 명칭 자료와 현재 장착 버너, 축열 전환·퍼지·화염 검출·연료 차단의 실제 로직은 별도 확인이 필요합니다. 기계/배관도만으로 PLC 시퀀스·타이머를 만들지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "circuits": "주요 경로는 가스버너 P&ID의 공급/조절/버너 계통과 본체·내화물 조립 구간입니다. 동력 전원→차단기→접촉기/인버터→모터의 상세 전체는 이 자료만으로 확정하지 않습니다. 소방 CO2 경로와 연소 제어를 혼합하지 않고, 같은 형상 도면도 파일 해시와 버전을 남겼습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "alarms": "연소 공기/가스·화염·배기/전환·내화물 손상은 원본을 찾기 위한 점검 범주입니다. 실제 알람 발생·한계값·전환 시간·복구/재점화 순서는 미확보입니다. 수리도는 내화물 작업의 문서 근거이며 이번 현장 작업 이력이 아닙니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "repair": "1. 버너/가열 이상\n가스 P&ID·RSH 자료와 현재 계통 식별부터 확인\n근거: 압연85톤 가스버너P&ID.pdf · PDF 1쪽\n\n2. 내화물/본체 수리 검토\nModel1/2·2016/2024 수리도별 차이와 현재 실물 대조\n근거: 세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf · PDF 1쪽\n\n3. 전기/PLC 점검 준비\n현행 반·CPU·전기도면 확보 후 동력/제어/안전 구분\n근거: 압연(85ton)도면.pdf · PDF 1쪽\n\n기록 기준\n실제 최초 시각·표시/코드·정지 구간·관찰·측정·조치·복구 근거를 구분해 수리 기록 양식에 남깁니다. 이번 작업에서 현장 고장/수리 이력을 새로 생성하지 않았습니다.",
+    "completion": "작성한 것\n- 사용자 지정 폴더 원본 27개와 압축 내부 0개 연결·해시 보존\n- 설비 계통 구분·7개 매뉴얼 항목·전기/I/O/단자 참조 0행·조작 참조 1행\n- 핵심 PDF 페이지 미리보기 6개·원본 자료실·추출 텍스트/표/그림 연결\n- 증상별 점검 3개·확인 대장 6개\n\n미확정·추가 확인\n- 현재 전기·PLC: 기계/배관 자료 중심, 전체 전기/프로그램 미확정 / CPU·전기도면·래더·안전/알람 정의\n- 내화물 개정: 2016 자료와 2024 수리도 및 Model1/2 / 실제 최근 수리 범위·제작도\n- 버너/축열 적용: RSH-400GO 및 가스 P&ID와 실물 대응 / 장착 모델·밸브/전환 계통 확인\n- PLC/HMI 원본 및 현재 적용: 도면·설명서 범위로 정리 / 현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조\n- 현장·안전·복구 확인: 파일 검토·로컬 문서화만 수행 / 실제 관찰·측정·현재 보호/재기동·복구 기록 별도\n- 문서 판독 범위: 모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시. / 설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조\n\n판정\n문서화 완료(핵심 자료·정적 참조 범위)입니다. 전체 카탈로그의 모든 페이지 판독·PLC 전체 의미 해석·현장 운전/안전/복구 검증 완료가 아닙니다. 실제 수리 이력은 생성하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "85톤-조립도 Model (1).pdf",
+        "url": "/documents/source-store/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.pdf#page=1"
+      },
+      {
+        "label": "85톤-조립도 Model (2).pdf",
+        "url": "/documents/source-store/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.pdf#page=1"
+      },
+      {
+        "label": "RSH-400GO(압연85톤).pdf",
+        "url": "/documents/source-store/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf",
+        "url": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf#page=1"
+      },
+      {
+        "label": "압연85톤 가스버너P&ID.pdf",
+        "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+      },
+      {
+        "label": "압연(85ton)도면.pdf",
+        "url": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf#page=1"
+      }
+    ],
+    "io": [
+      {
+        "label": "85톤-조립도 Model (1).pdf",
+        "url": "/documents/source-store/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.pdf#page=1"
+      },
+      {
+        "label": "85톤-조립도 Model (2).pdf",
+        "url": "/documents/source-store/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.pdf#page=1"
+      },
+      {
+        "label": "RSH-400GO(압연85톤).pdf",
+        "url": "/documents/source-store/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf",
+        "url": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf#page=1"
+      },
+      {
+        "label": "압연85톤 가스버너P&ID.pdf",
+        "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+      },
+      {
+        "label": "압연(85ton)도면.pdf",
+        "url": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf#page=1"
+      }
+    ],
+    "control": [
+      {
+        "label": "85톤-조립도 Model (1).pdf",
+        "url": "/documents/source-store/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.pdf#page=1"
+      },
+      {
+        "label": "85톤-조립도 Model (2).pdf",
+        "url": "/documents/source-store/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.pdf#page=1"
+      },
+      {
+        "label": "RSH-400GO(압연85톤).pdf",
+        "url": "/documents/source-store/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf",
+        "url": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf#page=1"
+      },
+      {
+        "label": "압연85톤 가스버너P&ID.pdf",
+        "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+      },
+      {
+        "label": "압연(85ton)도면.pdf",
+        "url": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf#page=1"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "85톤-조립도 Model (1).pdf",
+        "url": "/documents/source-store/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.pdf#page=1"
+      },
+      {
+        "label": "85톤-조립도 Model (2).pdf",
+        "url": "/documents/source-store/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.pdf#page=1"
+      },
+      {
+        "label": "RSH-400GO(압연85톤).pdf",
+        "url": "/documents/source-store/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf",
+        "url": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf#page=1"
+      },
+      {
+        "label": "압연85톤 가스버너P&ID.pdf",
+        "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+      },
+      {
+        "label": "압연(85ton)도면.pdf",
+        "url": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf#page=1"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "85톤-조립도 Model (1).pdf",
+        "url": "/documents/source-store/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.pdf#page=1"
+      },
+      {
+        "label": "85톤-조립도 Model (2).pdf",
+        "url": "/documents/source-store/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.pdf#page=1"
+      },
+      {
+        "label": "RSH-400GO(압연85톤).pdf",
+        "url": "/documents/source-store/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf",
+        "url": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf#page=1"
+      },
+      {
+        "label": "압연85톤 가스버너P&ID.pdf",
+        "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+      },
+      {
+        "label": "압연(85ton)도면.pdf",
+        "url": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf#page=1"
+      }
+    ],
+    "repair": [
+      {
+        "label": "85톤-조립도 Model (1).pdf",
+        "url": "/documents/source-store/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.pdf#page=1"
+      },
+      {
+        "label": "85톤-조립도 Model (2).pdf",
+        "url": "/documents/source-store/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.pdf#page=1"
+      },
+      {
+        "label": "RSH-400GO(압연85톤).pdf",
+        "url": "/documents/source-store/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf",
+        "url": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf#page=1"
+      },
+      {
+        "label": "압연85톤 가스버너P&ID.pdf",
+        "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+      },
+      {
+        "label": "압연(85ton)도면.pdf",
+        "url": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf#page=1"
+      }
+    ],
+    "completion": [
+      {
+        "label": "85톤-조립도 Model (1).pdf",
+        "url": "/documents/source-store/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.pdf#page=1"
+      },
+      {
+        "label": "85톤-조립도 Model (2).pdf",
+        "url": "/documents/source-store/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.pdf#page=1"
+      },
+      {
+        "label": "RSH-400GO(압연85톤).pdf",
+        "url": "/documents/source-store/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.pdf#page=1"
+      },
+      {
+        "label": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf",
+        "url": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf#page=1"
+      },
+      {
+        "label": "압연85톤 가스버너P&ID.pdf",
+        "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+      },
+      {
+        "label": "압연(85ton)도면.pdf",
+        "url": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf#page=1"
+      }
+    ]
+  },
+  "io": [],
+  "hmi": [
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "가스/버너 계통 참조",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "압연85톤 가스버너P&ID.pdf",
+      "description": "P&ID상 계장; 현행 조작반/HMI 태그 아님",
+      "source": "압연85톤 가스버너P&ID.pdf · PDF 1쪽",
+      "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [],
+  "drawings": [
+    {
+      "name": "85톤-조립도 Model (1).pdf · 1쪽",
+      "system": "85톤로(압연)",
+      "kind": "원본 PDF",
+      "version": "원본 Scc9033079470bf33 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "85톤-조립도 Model (1).pdf · PDF 1쪽",
+      "source_id": "Scc9033079470bf33",
+      "url": "/documents/source-store/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325.pdf#page=1",
+      "preview": "/documents/source-previews/cc9033079470bf332132fd51fa28463e2514f28ab1b65a8904b1129a9350c325-0001.webp"
+    },
+    {
+      "name": "85톤-조립도 Model (2).pdf · 1쪽",
+      "system": "85톤로(압연)",
+      "kind": "원본 PDF",
+      "version": "원본 S6bba82a3a4528d7e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "85톤-조립도 Model (2).pdf · PDF 1쪽",
+      "source_id": "S6bba82a3a4528d7e",
+      "url": "/documents/source-store/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05.pdf#page=1",
+      "preview": "/documents/source-previews/6bba82a3a4528d7ef7c31e8aff990a4faea99f706e1367b6cff8bbc9aa625a05-0001.webp"
+    },
+    {
+      "name": "RSH-400GO(압연85톤).pdf · 1쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S5cf01e9fb35341a0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "RSH-400GO(압연85톤).pdf · PDF 1쪽",
+      "source_id": "S5cf01e9fb35341a0",
+      "url": "/documents/source-store/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3.pdf#page=1",
+      "preview": "/documents/source-previews/5cf01e9fb35341a08a3d3d74f30d42e80428be37af9d5bb8e978c3e6d165edd3-0001.webp"
+    },
+    {
+      "name": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf · 1쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S7b310a0e479f6d21 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf · PDF 1쪽",
+      "source_id": "S7b310a0e479f6d21",
+      "url": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf#page=1",
+      "preview": "/documents/source-previews/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6-0001.webp"
+    },
+    {
+      "name": "압연85톤 가스버너P&ID.pdf · 1쪽",
+      "system": "생산부공용 추가도면",
+      "kind": "원본 PDF",
+      "version": "원본 S9d4839f2a4e99d62 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "압연85톤 가스버너P&ID.pdf · PDF 1쪽",
+      "source_id": "S9d4839f2a4e99d62",
+      "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1",
+      "preview": "/documents/source-previews/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c-0001.webp"
+    },
+    {
+      "name": "압연(85ton)도면.pdf · 1쪽",
+      "system": "압연 85ton furnace",
+      "kind": "원본 PDF",
+      "version": "원본 S801d6417519160af / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "압연(85ton)도면.pdf · PDF 1쪽",
+      "source_id": "S801d6417519160af",
+      "url": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf#page=1",
+      "preview": "/documents/source-previews/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125-0001.webp"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "원본 알람/보호 확인 범위",
+      "name": "알람·보호·복구 근거",
+      "address": "현행 코드/임계값·정상극성 미확정",
+      "trigger": "연소 공기/가스·화염·배기/전환·내화물 손상은 원본을 찾기 위한 점검 범주입니다. 실제 알람 발생·한계값·전환 시간·복구/재점화 순서는 미확보입니다. 수리도는 내화물 작업의 문서 근거이며 이번 현장 작업 이력이 아닙니다.",
+      "reset": "실제 표시·원인·현행 승인 조건을 확인하기 전 임의 우회·강제출력·설정 변경/재기동을 수행하지 않음",
+      "source": "압연85톤 가스버너P&ID.pdf · PDF 1쪽",
+      "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "버너/가열 이상",
+      "check": "가스 P&ID·RSH 자료와 현재 계통 식별부터 확인",
+      "source": "압연85톤 가스버너P&ID.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/9d4839f2a4e99d62d1a0d13c94283029bb0303cca0542bd60ceae94a5aaa131c.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "내화물/본체 수리 검토",
+      "check": "Model1/2·2016/2024 수리도별 차이와 현재 실물 대조",
+      "source": "세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/7b310a0e479f6d213e5f6085aada567484eb350b97b32cf7eb23bec24f80f7b6.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "전기/PLC 점검 준비",
+      "check": "현행 반·CPU·전기도면 확보 후 동력/제어/안전 구분",
+      "source": "압연(85ton)도면.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/801d6417519160afea5c5bd8ba728583e06301564138ffa2b67c342838425125.pdf#page=1"
+    }
+  ],
+  "checks": [
+    {
+      "title": "현재 전기·PLC",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "기계/배관 자료 중심, 전체 전기/프로그램 미확정",
+      "next": "CPU·전기도면·래더·안전/알람 정의"
+    },
+    {
+      "title": "내화물 개정",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "2016 자료와 2024 수리도 및 Model1/2",
+      "next": "실제 최근 수리 범위·제작도"
+    },
+    {
+      "title": "버너/축열 적용",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "RSH-400GO 및 가스 P&ID와 실물 대응",
+      "next": "장착 모델·밸브/전환 계통 확인"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "evidence": "도면·설명서 범위로 정리",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "evidence": "파일 검토·로컬 문서화만 수행",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "evidence": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "현재 전기·PLC",
+      "status": "미확정·원문 차이 보존",
+      "source": "기계/배관 자료 중심, 전체 전기/프로그램 미확정",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "CPU·전기도면·래더·안전/알람 정의"
+    },
+    {
+      "title": "내화물 개정",
+      "status": "미확정·원문 차이 보존",
+      "source": "2016 자료와 2024 수리도 및 Model1/2",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 최근 수리 범위·제작도"
+    },
+    {
+      "title": "버너/축열 적용",
+      "status": "미확정·원문 차이 보존",
+      "source": "RSH-400GO 및 가스 P&ID와 실물 대응",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "장착 모델·밸브/전환 계통 확인"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "source": "도면·설명서 범위로 정리",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "source": "파일 검토·로컬 문서화만 수행",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "source": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본·압축 자료 보존",
+      "status": "파일검증 완료",
+      "evidence": "폴더 원본 복사 전후 bytes/SHA-256 및 압축 추출 바이트/해시 대조",
+      "source": "/documents/equipment-08/source-manifest.json"
+    },
+    {
+      "title": "문서 검토 범위",
+      "status": "핵심 자료 중심 문서화",
+      "evidence": "85톤-조립도 Model (1).pdf; 85톤-조립도 Model (2).pdf; RSH-400GO(압연85톤).pdf; 세진메탈 UBC 85톤 내화물 수리 도면 2024.06.17 - ALF.pdf; 압연85톤 가스버너P&ID.pdf; 압연(85ton)도면.pdf / 참고·대량 카탈로그 전체 상세 판독은 아님",
+      "source": "/documents/equipment-08/library.html?source=S9d4839f2a4e99d62"
+    },
+    {
+      "title": "현재 PLC·현장 시험",
+      "status": "미수행",
+      "evidence": "프로그램 현행 적용·통전/운전/안전/복구 시험·현장 설정 변경은 수행하지 않음",
+      "source": "사용자 지정 폴더 자료 범위"
+    }
+  ]
+}

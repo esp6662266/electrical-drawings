@@ -1,0 +1,14 @@
+{
+  "sha256": "9fe393d57570e5604bdcce2acbe97fb611327c09ead6f069a562c022d750ef24",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "4364(0~10mm)1차 0~30mm2차 0~10mm3500(10~40mm)3350(40~120mm)13000\n∅22001500P\nSCALEVIEWC/S APPROVED BYDATE     2018. 03. 09.A1REVSHEETDWG No.TITLEUNITSIZEmmA3CHECKDESIGN APPROVAL1 of1\nREV수 량REVISION DESCRIPTION품     명재 질REMARKS\nACE Tech Co.,Ltd세 진 메 탈 주 식 회 사Oh\n규   격\n체인 스프라켓160번 145T내경 스크류롤러 가이드\n롤러미끄럼 방지 롤러\n롤러 가이드\n1차 분리 0~30mm2차 분리 0~10mm1482",
+      "width": 841.92004,
+      "height": 1190.52002
+    }
+  ],
+  "page_count": 1
+}

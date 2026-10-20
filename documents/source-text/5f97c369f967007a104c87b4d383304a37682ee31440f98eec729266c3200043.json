@@ -1,0 +1,14 @@
+{
+  "sha256": "5f97c369f967007a104c87b4d383304a37682ee31440f98eec729266c3200043",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "1GEARED MOTOR1\nSCALEVIEWC/S APPROVED BYDATE     2018. 03. 09.A1REVSHEETDWG No.TITLEUNITSIZEmmA3CHECKDESIGN APPROVAL1 of1\nREV수 량REVISION DESCRIPTION품     명재 질REMARKS\nACE Tech Co.,Ltd세 진 메 탈 주 식 회 사Oh\n규   격\nC4-이송 컨베이어-규 격 : W1000 x L5.7M-전력 :3.75kW x 4P-전원 : 380V, 60Hz-기울기 각도 : 33°3.75kW*4P*1/302CHAIN SPROKET1RS80*15T SM45C3 CHAIN SPROKET 1RS80*22T SM45C4BEARING1UCF210 SS4005TAKE-UP BEARING1UCT210 SS400-형식 : 체인벨트식W.1000\n33.0°56722854.9\n2123.63550",
+      "width": 841.92004,
+      "height": 1190.52002
+    }
+  ],
+  "page_count": 1
+}

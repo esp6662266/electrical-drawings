@@ -14,7 +14,7 @@
   }
   function url(value){
     if(typeof value!=='string'||!value.trim())return '';
-    try{const u=new URL(value,'https://project.example/');return ['https:','http:'].includes(u.protocol)?u.href.replace('https://project.example/',''):'';}catch{return '';}
+    try{const u=new URL(value,'https://project.example/');if(!['https:','http:'].includes(u.protocol))return '';return /^[a-z][a-z0-9+.-]*:|^\/\//i.test(value)?u.href:value;}catch{return '';}
   }
   function equipment(value){
     if(!object(value)||typeof value.id!=='string'||!(/^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$/).test(value.id)||typeof value.name!=='string'||!value.name.trim())throw new Error('설비 ID(영문·숫자·밑줄·하이픈)와 설비명을 확인하세요.');
@@ -47,6 +47,10 @@
     result.layout ||= incoming.layout;return project(result);
   }
   function backup(p,notes){const parsed=project(p);root.EDNoteStore.decodeNotes(JSON.stringify(notes),new Set(parsed.equipment.map(e=>e.id)));return {...parsed,backup_scope:'project',exported:new Date().toISOString(),notes:clone(notes)};}
-  const api={APPLICATION,MAX_BYTES,listKeys,sectionKeys,equipment,project,parse,merge,url,backup};
+  function adoptPublished(published,local){
+    const shared=project(published),saved=project(local),ids=new Set(saved.equipment.map(e=>e.id)),urls=new Set(saved.resources.map(r=>r.url));
+    return project({...shared,...saved,version:shared.version,equipment:saved.equipment.concat(shared.equipment.filter(e=>!ids.has(e.id))),resources:saved.resources.concat(shared.resources.filter(r=>!urls.has(r.url))),layout:saved.layout||shared.layout});
+  }
+  const api={APPLICATION,MAX_BYTES,listKeys,sectionKeys,equipment,project,parse,merge,url,backup,adoptPublished};
   root.EDProjectModel=api;if(typeof module!=='undefined'&&module.exports)module.exports=api;
 })(typeof window!=='undefined'?window:globalThis);

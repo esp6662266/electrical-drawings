@@ -1,0 +1,14 @@
+{
+  "sha256": "8f2996d45bdbf9e8a7f8734e7f44fe4b3c688b94ae6c5ea8e5b36a2a6e40fe87",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "SCALEVIEW\nC/S APPROVED BYDATE     2018. 03. 09.\nA1REV SHEETDWG No.TITLE\nUNITSIZEmmA3\nCHECKDESIGNAPPROVAL\n1of1\nREV⣽REVISION DESCRIPTION⮹㫼REMARKS\n123456\nA\nB\nC\nD\n#%'\u00036GEJ\u0003%Q\u0010\u000e.VF㉬G㫸G⮈G䇼G㨰G㐑G䟀G㇠Oh\nᷝ\n27054.3\n3378C5C6\n3350\n3971 Fe\nFe\n3869.1\n8854\n3350\n22931.5\nFe\n3971\n2285.62498.2",
+      "width": 595.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 1
+}

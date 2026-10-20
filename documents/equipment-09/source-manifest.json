@@ -1,0 +1,37 @@
+{
+  "equipment_id": "LADLELIFT-09",
+  "number": 9,
+  "name": "9번 신설레들리프트 (합금)",
+  "source_folder": "\\\\192.168.20.250\\시설관리\\통합지원본부\\김범주(작업정리중)\\9번 신설레들리프트 (합금)",
+  "source_count": 2,
+  "unique_source_count": 2,
+  "sources": [
+    {
+      "id": "Sf0bdf26070d5ba84",
+      "name": "(주)세진메탈-산업용 리프트(1.5톤 래들 리프트)-전기판넬(CONTROL PANEL) 2026.08 접지계통도_합치기.pdf",
+      "relative_path": "2026년 신설 도면·심사자료/(주)세진메탈-산업용 리프트(1.5톤 래들 리프트)-전기판넬(CONTROL PANEL) 2026.08 접지계통도_합치기.pdf",
+      "file": "/documents/source-store/f0bdf26070d5ba8402ef47989fc38b8af01adc6cdc290bb7eb5953f68a19b1ec.pdf",
+      "sha256": "f0bdf26070d5ba8402ef47989fc38b8af01adc6cdc290bb7eb5953f68a19b1ec",
+      "bytes": 2661723,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/f0bdf26070d5ba8402ef47989fc38b8af01adc6cdc290bb7eb5953f68a19b1ec.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 18
+    },
+    {
+      "id": "Sb104d2a972c3b28f",
+      "name": "산업용리프트 서면심사-(주)세진메탈 (1).pdf",
+      "relative_path": "2026년 신설 도면·심사자료/산업용리프트 서면심사-(주)세진메탈 (1).pdf",
+      "file": "/documents/source-store/b104d2a972c3b28f8dcfedf4f854af3cda192d85e5de5765c692eb3027ecc702.pdf",
+      "sha256": "b104d2a972c3b28f8dcfedf4f854af3cda192d85e5de5765c692eb3027ecc702",
+      "bytes": 24433695,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/b104d2a972c3b28f8dcfedf4f854af3cda192d85e5de5765c692eb3027ecc702.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 131
+    }
+  ],
+  "excluded_cache_count": 0,
+  "archive_member_count": 0,
+  "coverage_note": "원본 해시 보존·정적 본문 추출·핵심 자료 중심 검토. 모든 부품 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님."
+}

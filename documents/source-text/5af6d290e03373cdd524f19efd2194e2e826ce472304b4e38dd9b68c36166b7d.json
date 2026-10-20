@@ -1,0 +1,44 @@
+{
+  "sha256": "5af6d290e03373cdd524f19efd2194e2e826ce472304b4e38dd9b68c36166b7d",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "㐔G⮹GmUhAUTOMATIC DEGAS&FLUX  PANELO㨰PG㉬㫸Ἴ㋁\n⣐㏘ㇵ䚌\nms|GḩἽ\n⣐㏘ㇵ䚌\nRPM METERms|GḩἽ\n⣐㏘ㇵ䚌\nms|GḩἽ\n⣐㏘䟀㤸",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 2,
+      "text": "㐔G⮹GmUhAUTOMATIC DEGAS&FLUX  PANELO㨰PG㉬㫸Ἴ㋁",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 3,
+      "text": "㐔G⮹GmUhAUTOMATIC DEGAS&FLUX  PANELO㨰PG㉬㫸Ἴ㋁\n⣐㏘䟀㤸㋁⓸\nTO : INVERTER\n䖐㐐㤸㟝⣐㏘Ḕ㋁䟀㤸㐐ᴸ\n&TOTAL TIMERms|GḩἽ㐐ᴸ\nM⣐㏘䟀㤸㥉U㜡⣐㏘Ḕ㋁䟀㤸㐐ᴸ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 4,
+      "text": "㐔G⮹GmUhAUTOMATIC DEGAS&FLUX  PANELO㨰PG㉬㫸Ἴ㋁\n䖐㐐㤸㟝\nᴴ㏘䍠㢹㷡㋀\n䖐㐐㤸㟝\nTO : INVERTER\nTO : ENCORDER\n㷡㋀ᴴ㏘䍠㢹FLUXMOTOR\n⣐㏘䟀㤸⣐㏘䚌ᵉ⣐㏘ㇵ㏭\n㷡㋀⯜䉤\n㤸㷌⫠㐐ᴸms|GḩἽ㐐ᴸ䟸㷌⫠㐐ᴸ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 5,
+      "text": "㐔G⮹GmUhAUTOMATIC DEGAS&FLUX  PANELO㨰PG㉬㫸Ἴ㋁\n㍌┍㣄┍⽸ㇵ㥉㫴⣐㏘ㇵ㏭⣐㏘䚌ᵉ⣐㏘䟀㤸㤴㋁⣐㏘䟀㤸Ḕ㋁ⵤ䖴ㇵ䚌ms|ḩἽGASCLEANING⣐㏘ㇵ㏭㥉㫴ḩἽ㚉⥙㢨ㇵ\n⣐㏘Ḕ㋁䟀㤸㐐ᴸ\n⣐㏘䚌ᵉ㥉㫴㜡㚉⥙㢨ㇵ㢬ⶸ䏬㢨ㇵ\nms|GḩἽ㐐ᴸ⣐㏘㤴㋁䟀㤸㐐ᴸBUZZER STOP\nms|GG㡔GTGⱨ",
+      "width": 595.0,
+      "height": 842.0
+    },
+    {
+      "page": 6,
+      "text": "㤸㷌⫠㐐ᴸms|GḩἽ㐐ᴸ䟸㷌⫠㐐ᴸ\nINVERTER RUN\nFLUX MOTORᴴ㏘䍠㢹㷡㋀zvsINVERTER SPEED⣐㏘䟀㤸⣐㏘䚌ᵉ⣐㏘ㇵ㏭BUZZER㣄┍㟨㤸㷡㋀⯜䉤\n㐔G⮹GmUhAUTOMATIC DEGAS&FLUX  PANELO㨰PG㉬㫸Ἴ㋁",
+      "width": 595.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 6
+}

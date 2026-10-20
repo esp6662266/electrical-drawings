@@ -1,0 +1,14 @@
+{
+  "sha256": "9902c6a97a8b80c59806eb68c37218ba3ce8bd72c3d55fbd17a0802345d759f6",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "사각 파이프\n세진메탈 로앞 받침대 2025. 09. 04.",
+      "width": 842.0,
+      "height": 1191.0
+    }
+  ],
+  "page_count": 1
+}

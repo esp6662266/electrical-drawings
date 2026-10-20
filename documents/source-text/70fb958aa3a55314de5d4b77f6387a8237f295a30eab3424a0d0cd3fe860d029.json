@@ -1,0 +1,14 @@
+{
+  "sha256": "70fb958aa3a55314de5d4b77f6387a8237f295a30eab3424a0d0cd3fe860d029",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "19-HJ01-2200-300\n주세진메탈 () \n-\n(주) 정일 플랜트\nA\n7 8\nD\nC\nB\n64 5\nF\nE\n7 864 5\n2 3\nA\n1\nD\nC\nB\n2 31\nF\nE\n",
+      "width": 841.68,
+      "height": 1190.64
+    }
+  ],
+  "page_count": 1
+}

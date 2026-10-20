@@ -1,0 +1,21 @@
+{
+  "sha256": "f9e3083eadba4141da73387e1948081c605c18d93013391f0c2eed78a893bb88",
+  "extension": ".pptx",
+  "status": "슬라이드 텍스트 추출; 배치 미재현",
+  "pages": [
+    {
+      "page": 1,
+      "text": "2\n동 \n6060 \n슈레더\n 계통도\n문제점\n가동시\n \n슈레더\n 모터 \n리액터\n 기동 후 \nVCS(\n진공전자접촉기\n) \n운전이 정상 작동 여부 판단 \n(\n코리아전력\n)\n \n800HP \n모터 절연 측정 \n5㏁~200\n \n㏁ \n일정값\n 유지 못함으로 정밀 측정기로 점검 예정\n (\n고려중전기\n)\n리액터\n 기동 후\nVCS \n운전 작동하는지\n모터 \n절연값\n 정밀 측정기 점검 "
+    }
+  ],
+  "page_count": 1,
+  "figures": [
+    {
+      "member": "ppt/media/image2.png",
+      "source_id": "Sf9e3083eadba4141",
+      "url": "/documents/source-figures/8492494b8b9e44735eff26ea43b3aad89415b07239a1a0765a6f4cd8438c2ff3.webp",
+      "width": 708,
+      "height": 824
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "sha256": "cc3e07aa28db1af2dbba385e1f3238f8ceb308e2e0e9a4b654ed87ba5fafba42",
+  "extension": ".tif",
+  "status": "이미지 메타데이터 확인; 시각 검토 별도",
+  "pages": [],
+  "image": {
+    "width": 3310,
+    "height": 2340,
+    "frames": 1
+  }
+}

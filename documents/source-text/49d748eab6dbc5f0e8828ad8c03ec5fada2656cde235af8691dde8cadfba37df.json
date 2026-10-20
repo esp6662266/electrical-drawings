@@ -1,0 +1,206 @@
+{
+  "sha256": "49d748eab6dbc5f0e8828ad8c03ec5fada2656cde235af8691dde8cadfba37df",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 2,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 3,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 4,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 5,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 6,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 7,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 8,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 9,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 10,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 11,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 12,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 13,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 14,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 15,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 16,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 17,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 18,
+      "text": "",
+      "width": 842.0,
+      "height": 1191.0
+    },
+    {
+      "page": 19,
+      "text": "M O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\nEOCR  Diagram\nAC 1Ø 220V 50Hz\nR201\n0 1 2 3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nT200\n149 10 11 12 13 15\nR201\n16\n2011-04\nEOCR 1\nNo.1 COMBUSTION  FAN\n18\nEOCR 1\nGTH-40\n9 6 7\nEOCR 2\nGTH-22\n1\n7\n8\n9 6\nP0007\nFROM PLC\nFrom Sheet E08\nP0006\nFROM PLC\nFrom Sheet E08\nN24 N24\nEOCR 2\nNo.2 DOOR  MOTOR\nEOCR 3\nGTH-22\n1\n7\n8\n9 6\nP0008\nFROM PLC\nFrom Sheet E08\nN24\nEOCR 3\nNo.3 MAPER MOTOR\nALCO - 0806 - E02-1 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 20,
+      "text": "Three Line Diagram - 2\nM O D I F I C A T I O N\nCOMBUSTION FAN\nAC 3Ø 440V 60Hz\n18.5KW x 4P\nNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nAC 3Ø 440V 60Hz\nTM0\nSM0\nRM0\n0 1 2 3 4 5\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\n6 7 8 9 10\nAC 3Ø 440V 60Hz\n11\nABS103\nNFB-02\n75A\nMC01\nGMC-40\nE\n~\nM1\nU1 W1V1 E\nS1\nT1\nR1\nMD01\nGMC-32 GMC-32\nMS01\nEOCR-GTH-40\nX1 Z1Y1\nDOOR MOTOR\nAC 3Ø 440V 60Hz\n3.7KW x 4P\nABS33A\nNFB-03\n20A\nMU01\nGMC-12\nE\n~\nM3\nU3 W3V3 E\nS2\nT2\nR2\nMD01\nGMC-12\nALCO - 20111 - E00\n2011.02\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nEOCR-GTH-22\nFURNACE DMPER MOTOR\nAC 3Ø 440V 60Hz\n1.5KW x 4P\nABS33A\nNFB-03\n10A\nMU01\nGMC-9\nE\n~\nM3\nU3 W3V3 E\nS3\nT3\nR3\nMD01\nGMC-9\nEOCR-GTH-22",
+      "width": 841.92,
+      "height": 595.2
+    },
+    {
+      "page": 21,
+      "text": "0-200A 300%\nThree Line Diagram - 1\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nALCO - 0801 - E01\n2008.05\n0-600V\nE\nPOWER SUPPLY\nAC 3Ø 440V 60Hz\n0\nS\nT\nR\n1\nV01\nF1 F2\nV0\n~\nV02\n100A\nNFB01\nABS103\n2 3 4\n5VA\nK L\n5\nCT x 1\n200/5A\nWL\nLS01\n이 문 규\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nDESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L\nAC 1Ø 220V 60Hz\nCONTROL POWER\nR200 T200\nREMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nCON01\nFL01\nFAN1H02\nH01\nCONCENT\n(AC220V/150W)\nA0\n~\nA01 A02\nNFB02\nBKM2-20\n440V/220V\n500 VA\nTR1\nABS32\n20A\nNFB06\nCT1\n6 7 8 9\nAC 3Ø 440V 50Hz\n10\nSM0\nTM0\nRM0\n11\nVOLT-METER AMPER-METER\nVORK LIMIT\nALCO ALCO TECH",
+      "width": 841.92,
+      "height": 595.2
+    },
+    {
+      "page": 22,
+      "text": "M O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\nControl power Diagram\nAC 1Ø 220V 50Hz\nR200\n0 1 2 3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nT200\n149 10 11 12 13 15\nR200\n16\n2008-06\nALCO - 0806 - E02\nR201\nBKM1b\n10A\nCP 01\nR203 R204R202\nPL\n01\nCONTROL POWER LAMP\nBKM1b\n10A\nCP 03\nBKM1b\n10A\nCP 04\nBKM1b\n10A\nCONTRPL SYTEM POWER\nBURNER SYSTEM POWER -01\nBURNER SYSTEM POWER -02\nP L C POWER\nCP 02\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nR205\nBKM1b\n10A\nCP 05P L C INLET POWER",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 23,
+      "text": "Sequence  Diagram-02\nM O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\nR201\n10 2 3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nORDER\nSCALE\nTITLE\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\n9 10 11 12 13 14 15 16\n2011-02\nALCO -2011 - E003\nTemp' Control Motor\nM7284F\n(+) (-)\n5\nGH-1000\n2\n1 7\nTH1+\nTHERMOCOUPLE\nTIC 01\n15 17\n10\nTH1-\nFUENACE-\"K\" TYPE\nP0004\n11\nN24\nTE101\nTo Seet E08\nRY012\nR201\nT200\nNO.\n2\n1\n3\nAIR CONTROL VALVE\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nEOCR 1\nNo.1 COMBUSTION  FAN\nPB02\n01\nMC\nPBL-01\n01\nTIM\nMC-01\n01\nMS\n01\nMD\nMS-01\nT-01\nPBL\n01\nFD-ON- LAMP\n10001\n10002\n10003 10004\n10005 10006\n10007\nRY100\nMD-01\n5\nGH-1000\n2\n1 7\nTH2+\nTHERMOCOUPLE\nTIC 02\n15 17\n10\nTH2-\nMELTING-\"K\" TYPE\nP0005\n11\nN24\nTE102\nTo Seet E08분위기 용탕\nRY002 RY002",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 24,
+      "text": "M O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\nFURNACE PRESS\"  Diagram\nAC 1Ø 220V 60Hz\nR201\n0 1 2 3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nT200\n149 10 11 12 13 15\nR201\n16\n2010-09\nALCO -  E06\n10\n한국울파\n01\n02\nFURNACE PRESURE CONTROL\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nCOM\nNC\nNO\nNO\nNC\nN 24\nP0019\nP001A\nMain Gas Valve\nMV 01\n16101\nRY001\nMV 02\n161101\nRY004\nMV 02\n161201\nRY005\nCylinder on\nCylinder off\n161301 161401\nRY003\nMeting Lamp\nFurnace Lamp\nPL\n002\nPL\n001\nMain gas  P B L\nPBL\n002\nRY\n001\nRY\n002\nRY\n003\n16102\n16102\nPB-03\nPB-04\nSS-01\n16401Meting /Furnace -Relay\nOutlet 4 ~ 20 mA\nMeting /Furnace LAMP-Relay",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 25,
+      "text": "Sequence  Diagram-02\nM O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\n IGNITION T/R\n GAS VALVE\nR203\n10 2\nMGV 101IG 101\n10101 10103\nRY006 RY007\n3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nORDER\nSCALE\nTITLE\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\n9 10 11 12 13 14 15 16\n2011-02\nALCO -2011 - E005\n BURNER -01\nPILOT  GAS VALVE\nPGV 101\n10102\nRY008\nR203\nT200\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nRE3\nFD-R-01\n4 3\nN24\n6 7\n2\n1\nP0009\nFrom P L C\nFrom Seet :08\nR-F001 R-G001\nFLAME DETECTOR\nUV SCANNER\n",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 26,
+      "text": "Sequence  Diagram-02\nM O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\n IGNITION T/R\n GAS VALVE\nR204\n10 2\nMGV 201IG 201\n10201 10203\nRY009 RY010\n3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nORDER\nSCALE\nTITLE\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\n9 10 11 12 13 14 15 16\n2011-02\nALCO -2011 - E006\n BURNER -02\nPILOT  GAS VALVE\nPGV 201\n10202\nRY011\nR200\nT200\nNO.\n2\n1\n3\n30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nRE3\nFD-R-02\n4 3\nN24\n6 7\n2\n1\nP00OA\nFrom P L C\nFrom Seet :08\nF-002 G-002\nFLAME DETECTOR\nUV SCANNER\n",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 27,
+      "text": "Power unit\nMaster k-80S\nAC220V\nLG MK-CPUA\nM O D I F I C A T I O NNO.\n2\n1\n3\nT200\nDATE\nDRAWING NO.\nDRAWING NAME\nDATE\nPLC Address Diagram\nP24 N24\nR202\n0 1 2\n250V AC Noise Filters\n15092\n15091\n3 4 5 6 7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nT200\n14\nPOWER\nCPU\n9 10 11 12 13 15\nR202\n16\nP010~\nP01F\nE\nE\nPOEWR SOPPLY\n220V/24V 5 A\nCH-0 CH-1\nP000~\nP00F\nDIGITAL INPUT MODUL\n2011-02\nALCO -2011 - E007 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nP020~\nP02F\nCH-2\nDIGITAL OUTPUT MODUL\nP030~\nP03F\nCH-3\nDIGITAL OUTPUT MODUL\nP040~\nP04F\nCH-4\nDIGITAL INPUT MODUL\nDIGITAL INPUT MODUL",
+      "width": 841.8,
+      "height": 595.2
+    },
+    {
+      "page": 28,
+      "text": "PLC Digital Input Diagram 1\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nN24\nP24\nP0000 P0001\nCH 011\n0\n2\n1 2\nPB07\nPB06\nP0002 P0003 P0004 P0005 P0006 P0007 P0008 P009\n3 4\n3\n5 6\n4 5\n7 8\n6\n9 10\n7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nP24\n14\nP000A P000B P24\n11 12\n9\n13 14\n10 11\n15 16\n12\n17 18\n13\nN24\nP24\nP24\n19\n15 16\n NO-01  BURNER ON\nPB05\nBurner Reset\nNO-01 Flame Detector\nP000C P00D P000E P000F\nFD-02\n NO-01  BURNER OFF\nAL-01\nPB008\nFD-01\nPB09\nT I C  01- AL-01\n NO-02  BURNER ON\n NO-02  BURNER OFF\nNO-02 Flame Detector\nROOM /LOCAL \n2011-02\nALCO -2011 - E008 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nAL-02T I C  01- AL-02\n메인판넬 및 로컬판넬 겸용\nF-D -TRIP-1\nDOOR-TRIP-2\nTRIP-3\nTRIP-2\nTRIP-1\nDAMPER-TRIP-3",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 29,
+      "text": "PLC Digital Input Diagram 1\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nDoor ON\nDoor OFF\nN24\nPB10\nP24\nPB11\nP0010 P0011\n17\n0\n18\n1 2\nP0012 P0013 P0014 P0015 P0016 P0017 P0018 P019\n19 20\n3\n21 22\n4 5\n23 24\n6\n25 26\n7 8\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nP24\n14\nP001A P001B P24\n27 28\n9\n29 30\n10 11\n31 32\n12\n17 18\n13\nN24\nP24\nP24\n19\n15 16\nSS-01\nDoor high limit s/w\nDoor low limit s/w\nP001C P01D P001E P0010F\nL-01 L-03\nL-02\nExhaust gas dmper A / M\nManual /stop .open.close\nExhaust gas dmper \nFurnace dmper high limit s/w\nFurnace dmper low limit s/w\n2011-02\nALCO -2011 - E009 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nPB12Cylinder ON\nCylinder OFF\nPB15 L-04\nPB13 PB14\nL-05Cylinder on linit\nCylinder off limit\nL-06\nAir Pressure Low\nGas Pressure Low\nGas Pressure High\nGPS01\nAPS01 GPS02",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 30,
+      "text": "T200\n02\nR205\n00\nCH 02\nP0040 P0041\n01\n10 2\n0604\nP0042 P0043\n03\nP0044 P0045\n05 COM\nP0046 P0047\n07\nR206 P0048\n08\n43 5 6 7 8\nT200\nP0049 P004A\n09 10\nP004B P004C\n11 12\nU200\nCOM\n9 10 11 12 13 14\nR205\n15 16\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nPLC Digital Output Diagram-01\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nMC-01\nDoor open\nDoor close\nExhaust ags dmper open\nNO-01- Ignition trans\nMD-01 MC-02 MD-02 RY-004 RY-005 RY-006 RY-007 RY-008 RY-009 RY-010 RY-011 RY-012\nExhaust ags dmper close\nNO-01- pilot solenoid valve\nNO-01- main solenoid valve\nNO-02- Ignition trans\nNO-02- pilot solenoid valve\nNO-02- main solenoid valve\n2011-02\nALCO -2011 - E010 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nCylinder on\nCylinder off\nAIR CONTROL VALVE OPRN",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 31,
+      "text": "T200\n15\nR205\n13\nP004D P004E\n14\n10 2\n1917\nP004F P0050\n16\nP0051 P0052\n18 COM\nP0053 P0054\n20\nR206 P0055\n21\n43 5 6 7 8\nT200\nP0056 P0057\n22 23\nP0058\n24\nR205\nCOM\n9 10 11 12 13 14\nR205\n15 16\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nPLC Digital Output Diagram-02\n이 문 규DESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\nY-02Y-01 G-01R-03 G-02 R-01G-03 R-02\nDoor Motor trip -02\nExhaust ags dmper Motor trip-03 \nGas pressure High\nGas pressure Low\nAir pressure Low\nNO-01 Burner on/off PBL\nNO-02 Burner on/off PBL\nNO-01 Burner Flame- O.K\nNO-01 Burner Flame- Miss\nNO-02 Burner Flame- O.K\nNO-02 Burner Flame- Miss\nR-03 G-04 G-05R-04\n2011-02\nALCO -2011 - E011 30TON/CH AL-HOLDING\n세진메탈-울산공장\nALCO ALCO TECH\nCombustipon Motor trip -01",
+      "width": 841.68,
+      "height": 595.2
+    },
+    {
+      "page": 32,
+      "text": "PLATE : DOOR 3.2t\nCOLOR : 7.5BG 6/1.5\nNote !\nOUTER 2.3t\nLOCAL  PANEL\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nALCO - 0041 - E000\n2011.04\n이 문 규\n30TON/CH AL-유지로\n세진메탈 -유지로\nDESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\n 1\nALCO ALCO TECH\n300\nDOOR-CLOSE\nBURNER-1\nDOOR-OPEN\nSIYINDER-ON\n∅30\n220\n650\n550\n80\n8080100 210\n400\n180\n3\n4\n5\n7\n8\n9 15\n10\n11\n12\nDAMPER-OPEN\n13\n14\nON\nBURNER-1\nOFF\nBURNER-2\nON\nBURNER-2\nOFF\n수동      자동\nDAMPER\nDAMPER-CLOSESIYINDER-OFF\n∅122",
+      "width": 792.0,
+      "height": 612.0
+    },
+    {
+      "page": 33,
+      "text": "BURNER CONTROL PANEL\nBLOWER\nOFF\nON\nBLOWER\nOFF\nON\nMAIN VALVE\nV A\nPLATE : DOOR 3.2t\nCOLOR : 7.5BG 6/1.5\nNote !\nOUTER 2.3t\nMAIN VALVE\nBURNER\nON\nBURNER-01\nRESET\nBURNER\nOFF\nMAIN PANEL\nM O D I F I C A T I O NNO.\n2\n1\n3 DATE\nDRAWING NO.\nDRAWING NAME\nDATE\nALCO - 0041 - E00\n2011.04\n이 문 규\n30TON/CH AL-유지로\n세진메탈 -유지로\nDESIGNED BY\nDRAWN BY\nSCALE\nTITLE\nORDER\nNO.\nAPPROVED BY\nCHECKED BY\nPARTS NAME MAT'L REMARKSSTANDARD\nDRAWING NO.\nTITLE\nQ'TY\n 1\nPOWER\nF-D-TRIP\nGAS HIGHGAS LOWAIR-LOW\nDOOR-TRIP DMPER-TRIP B-1-점화\nB-1-실화 B-2-실화\n용탕운존 분위기운전\nSPRE-1 SPRE-2\n65\n용탕/ 분위기\nBURNER-01\nON\nBURNER-02\nOFF\nBURNER-02\nDOOR-ON\nDOOR-OFF\n1901687515817075\n1400\n175175\n451\n3075\n225 93\n93 207\n301\n150\n750\n500\n2000\n1850\nALCO ALCO TECH\n판낼제작\n현장에서 앵굴 제작\nB-2-점화",
+      "width": 792.0,
+      "height": 612.0
+    }
+  ],
+  "page_count": 33
+}

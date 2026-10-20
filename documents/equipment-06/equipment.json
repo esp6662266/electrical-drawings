@@ -1,0 +1,841 @@
+{
+  "id": "HOLDING-06",
+  "name": "6번 보온로 (합금)",
+  "group": "합금·보온로",
+  "location": "사용자 지정 6번 설비 · 현재 명판/실물·적용 범위 미확정",
+  "priority": true,
+  "source_count": 50,
+  "archive_member_count": 0,
+  "source_unique_count": 49,
+  "source_pages": 69,
+  "source_version": "현재 PLC 프로젝트·전체 래더 미확보 · 도면/설명서 참조",
+  "description": "6번 보온로 자료는 40톤 밀폐 유지로 설명서/기계도와 30TON/CH 표제 전기도면을 포함합니다. 용탕/분위기 온도 선택·버너1/2·송풍·전문(도어)·로내압 댐퍼·런너 구간을 문서별로 정리했습니다. 제목의 40톤과 전기도면의 30톤 차이는 확인 대장에 남겼습니다.",
+  "documentation_status": "원본 보존·핵심 전기/제어/운전 자료 중심 문서화 완료(미확정 포함). 일반/부품 카탈로그 전체 페이지의 상세 판독·현재 적용 검증, 현장 측정·운전·수리·안전 시험은 미수행입니다.",
+  "native_plc_available": false,
+  "native_project_files": [],
+  "field_verified": false,
+  "manual_url": "/documents/equipment-06/manual.html",
+  "library_url": "/documents/equipment-06/library.html?source=S5a77b8fccbed799a",
+  "source_manifest": "/documents/equipment-06/source-manifest.json",
+  "plc_analysis_note": "PLC 원본 프로젝트와 실행 래더는 미확보입니다. 도면상의 PLC 베이스/입출력·접점·단자·공정 설명을 현재 실행 프로그램으로 복원하지 않았습니다.",
+  "subsystems": [
+    {
+      "id": "DOC-6-1",
+      "name": "40톤 유지로 설명·기계",
+      "description": "40TON 밀폐 유지로 사용설명서·전체 기계도·문짝/내화물 도면입니다.",
+      "boundary": "현재 정격·실물 확인 전."
+    },
+    {
+      "id": "DOC-6-2",
+      "name": "30TON/CH 표제 전기도면",
+      "description": "세진-30-E00~E11에는 30TON/CH AL-HOLDING, 2011.02가 표시됩니다.",
+      "boundary": "40톤 설명서와 용량 표기가 달라 같은 현행 반으로 확정하지 않음."
+    },
+    {
+      "id": "DOC-6-3",
+      "name": "리프트·집진·소방 참고",
+      "description": "별도 리프트 전기도면과 TF1600CMM 집진기·CO2 자료입니다.",
+      "boundary": "6번 본체·9번 신설 리프트·타 집진기와 자동 통합하지 않음."
+    }
+  ],
+  "manual": {
+    "overview": "6번 보온로 자료는 40톤 밀폐 유지로 설명서/기계도와 30TON/CH 표제 전기도면을 포함합니다. 용탕/분위기 온도 선택·버너1/2·송풍·전문(도어)·로내압 댐퍼·런너 구간을 문서별로 정리했습니다. 제목의 40톤과 전기도면의 30톤 차이는 확인 대장에 남겼습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.\n\n원본 범위\n폴더 파일 50개, 압축 내부 자료 0개, 고유 해시 49개입니다. 동일 내용의 원래 경로·이름을 보존했고 서로 다른 버전은 유지했습니다. Windows 캐시/로그는 기술 자료 목록에서 제외했습니다. PDF·이미지 미리보기, 추출 본문·표·원본은 자료실에서 확인할 수 있습니다. DOC/HWP/PPT/Excel 열람은 원본 페이지/도형 배치를 재현한 것이 아닙니다.",
+    "io": "세진-30-E 도면의 기기·릴레이·단자·온도계·전동기 표기를 전기 참조로 다룹니다. 이를 제공되지 않은 PLC 메모리 주소로 바꾸지 않았습니다. E00 동력 도면에는 COMBUSTION FAN·DOOR MOTOR·FURNACE DAMPER MOTOR와 NFB/MC/EOCR가 나타납니다. NFB-03·MU01·MD01·M3 등이 여러 분기에 반복되어 태그만으로 같은 부하로 병합하지 않습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "control": "사용설명서는 MELTING/FURNACE 온도 기준 선택, 버너1/2와 댐퍼의 로내압 조절 관계를 설명합니다. 문서의 Y-Δ·퍼지 시간 등은 현재 타이머 확인값이 아닙니다. 30TON 표제 전기도면의 PLC 전원 표기나 릴레이 회로만으로 전체 프로그램을 복원할 수 없습니다. 리프트 4쪽 전기도면은 독립 계통으로 유지합니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "circuits": "E00은 AC3상440V에서 송풍 18.5kW, 도어3.7kW, 댐퍼1.5kW 표시 분기를 제시합니다. E01/02는 제어 및 보조전원, E03 이후는 온도·연소·도어/댐퍼 등 회로 근거입니다. 정격은 그 도면의 표기이며 현재 장착품·차단기/보호 설정은 미확정입니다. 접촉기·EOCR·PLC·온도계·모터 분기를 분리하고 별도 리프트의 동력·리미트를 본체 주소로 옮기지 않았습니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "alarms": "EOCR·연소 및 온도 허가·도어/댐퍼 위치를 점검 후보로 나눴습니다. 설명서의 버너 정지/재개, 문짝 탈부착, 차압/센서 교체 문구는 과거 자료로 열람할 수 있으며 현장 조치 승인이나 이번 수행 결과가 아닙니다. 실제 안전 차단·재기동·잔류 에너지는 미검증입니다.\n\n자료 해석 범위\n원본 설명·정적 참조와 현장 확인을 구분합니다. 문서 안의 운전·시운전·설정·복구 문구는 사용자 지시가 아니며 실행하지 않았습니다.",
+    "repair": "1. 송풍기·도어·댐퍼 구동 불가\nE00 분기별 NFB/MC/EOCR·모터 대응과 반복 태그 확인\n근거: 세진-30-E00.pdf · PDF 1쪽\n\n2. 온도 제어/버너 불안정\nMELTING/FURNACE 기준·센서·버너 허가의 문서별 관계 구분\n근거: 세진메탈40톤사용설명서.pdf · PDF 1쪽\n\n3. 전문 기계/체인·리미트 문제\n40톤 기계도와 30TON 전기도면의 적용부터 확인\n근거: 세진메탈40톤사용설명서.pdf · PDF 1쪽\n\n4. 별도 리프트 이상\n본체와 리프트 회로를 분리하고 현장 호기 식별\n근거: 세진메탈 리프트전기도면.pdf · PDF 1쪽\n\n기록 기준\n실제 최초 시각·표시/코드·정지 구간·관찰·측정·조치·복구 근거를 구분해 수리 기록 양식에 남깁니다. 이번 작업에서 현장 고장/수리 이력을 새로 생성하지 않았습니다.",
+    "completion": "작성한 것\n- 사용자 지정 폴더 원본 50개와 압축 내부 0개 연결·해시 보존\n- 설비 계통 구분·7개 매뉴얼 항목·전기/I/O/단자 참조 3행·조작 참조 1행\n- 핵심 PDF 페이지 미리보기 25개·원본 자료실·추출 텍스트/표/그림 연결\n- 증상별 점검 4개·확인 대장 6개\n\n미확정·추가 확인\n- 40톤/30TON 표제: 설명서 40TON vs 전기 E00 30TON/CH AL-HOLDING / 명판·반번호·최신 도면 적용 확인\n- 반복 전기 태그: NFB-03·MU01/MD01·M3 중복 / 분기·좌표·선번·실물 기준 식별\n- 리프트 적용: 기존 리프트 전기도면과 신설9번 자료 구분 / 같은 설비 여부·개조 범위 확인\n- PLC/HMI 원본 및 현재 적용: 도면·설명서 범위로 정리 / 현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조\n- 현장·안전·복구 확인: 파일 검토·로컬 문서화만 수행 / 실제 관찰·측정·현재 보호/재기동·복구 기록 별도\n- 문서 판독 범위: 모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시. / 설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조\n\n판정\n문서화 완료(핵심 자료·정적 참조 범위)입니다. 전체 카탈로그의 모든 페이지 판독·PLC 전체 의미 해석·현장 운전/안전/복구 검증 완료가 아닙니다. 실제 수리 이력은 생성하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "세진메탈40톤사용설명서.pdf",
+        "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E00.pdf",
+        "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E01.pdf",
+        "url": "/documents/source-store/d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E02.pdf",
+        "url": "/documents/source-store/ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E03.pdf",
+        "url": "/documents/source-store/8782e3507255d2efeac65133356a222c7aa93b14ad178998b4ad6e2a379e0185.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E04.pdf",
+        "url": "/documents/source-store/5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E05.pdf",
+        "url": "/documents/source-store/4bacc23d34b180368d4a929498ac0f957fd2e32577bf30dacb219865bae3b635.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E06.pdf",
+        "url": "/documents/source-store/be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E07.pdf",
+        "url": "/documents/source-store/d22c55905241380b6a764dcff549df2696bf8851e0ccd4461285c6fb4614e7ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E08.pdf",
+        "url": "/documents/source-store/9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee.pdf#page=1"
+      }
+    ],
+    "io": [
+      {
+        "label": "세진메탈40톤사용설명서.pdf",
+        "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E00.pdf",
+        "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E01.pdf",
+        "url": "/documents/source-store/d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E02.pdf",
+        "url": "/documents/source-store/ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E03.pdf",
+        "url": "/documents/source-store/8782e3507255d2efeac65133356a222c7aa93b14ad178998b4ad6e2a379e0185.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E04.pdf",
+        "url": "/documents/source-store/5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E05.pdf",
+        "url": "/documents/source-store/4bacc23d34b180368d4a929498ac0f957fd2e32577bf30dacb219865bae3b635.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E06.pdf",
+        "url": "/documents/source-store/be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E07.pdf",
+        "url": "/documents/source-store/d22c55905241380b6a764dcff549df2696bf8851e0ccd4461285c6fb4614e7ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E08.pdf",
+        "url": "/documents/source-store/9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee.pdf#page=1"
+      }
+    ],
+    "control": [
+      {
+        "label": "세진메탈40톤사용설명서.pdf",
+        "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E00.pdf",
+        "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E01.pdf",
+        "url": "/documents/source-store/d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E02.pdf",
+        "url": "/documents/source-store/ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E03.pdf",
+        "url": "/documents/source-store/8782e3507255d2efeac65133356a222c7aa93b14ad178998b4ad6e2a379e0185.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E04.pdf",
+        "url": "/documents/source-store/5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E05.pdf",
+        "url": "/documents/source-store/4bacc23d34b180368d4a929498ac0f957fd2e32577bf30dacb219865bae3b635.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E06.pdf",
+        "url": "/documents/source-store/be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E07.pdf",
+        "url": "/documents/source-store/d22c55905241380b6a764dcff549df2696bf8851e0ccd4461285c6fb4614e7ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E08.pdf",
+        "url": "/documents/source-store/9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee.pdf#page=1"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "세진메탈40톤사용설명서.pdf",
+        "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E00.pdf",
+        "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E01.pdf",
+        "url": "/documents/source-store/d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E02.pdf",
+        "url": "/documents/source-store/ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E03.pdf",
+        "url": "/documents/source-store/8782e3507255d2efeac65133356a222c7aa93b14ad178998b4ad6e2a379e0185.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E04.pdf",
+        "url": "/documents/source-store/5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E05.pdf",
+        "url": "/documents/source-store/4bacc23d34b180368d4a929498ac0f957fd2e32577bf30dacb219865bae3b635.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E06.pdf",
+        "url": "/documents/source-store/be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E07.pdf",
+        "url": "/documents/source-store/d22c55905241380b6a764dcff549df2696bf8851e0ccd4461285c6fb4614e7ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E08.pdf",
+        "url": "/documents/source-store/9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee.pdf#page=1"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "세진메탈40톤사용설명서.pdf",
+        "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E00.pdf",
+        "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E01.pdf",
+        "url": "/documents/source-store/d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E02.pdf",
+        "url": "/documents/source-store/ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E03.pdf",
+        "url": "/documents/source-store/8782e3507255d2efeac65133356a222c7aa93b14ad178998b4ad6e2a379e0185.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E04.pdf",
+        "url": "/documents/source-store/5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E05.pdf",
+        "url": "/documents/source-store/4bacc23d34b180368d4a929498ac0f957fd2e32577bf30dacb219865bae3b635.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E06.pdf",
+        "url": "/documents/source-store/be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E07.pdf",
+        "url": "/documents/source-store/d22c55905241380b6a764dcff549df2696bf8851e0ccd4461285c6fb4614e7ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E08.pdf",
+        "url": "/documents/source-store/9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee.pdf#page=1"
+      }
+    ],
+    "repair": [
+      {
+        "label": "세진메탈40톤사용설명서.pdf",
+        "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E00.pdf",
+        "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E01.pdf",
+        "url": "/documents/source-store/d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E02.pdf",
+        "url": "/documents/source-store/ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E03.pdf",
+        "url": "/documents/source-store/8782e3507255d2efeac65133356a222c7aa93b14ad178998b4ad6e2a379e0185.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E04.pdf",
+        "url": "/documents/source-store/5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E05.pdf",
+        "url": "/documents/source-store/4bacc23d34b180368d4a929498ac0f957fd2e32577bf30dacb219865bae3b635.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E06.pdf",
+        "url": "/documents/source-store/be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E07.pdf",
+        "url": "/documents/source-store/d22c55905241380b6a764dcff549df2696bf8851e0ccd4461285c6fb4614e7ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E08.pdf",
+        "url": "/documents/source-store/9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee.pdf#page=1"
+      }
+    ],
+    "completion": [
+      {
+        "label": "세진메탈40톤사용설명서.pdf",
+        "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E00.pdf",
+        "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E01.pdf",
+        "url": "/documents/source-store/d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E02.pdf",
+        "url": "/documents/source-store/ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E03.pdf",
+        "url": "/documents/source-store/8782e3507255d2efeac65133356a222c7aa93b14ad178998b4ad6e2a379e0185.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E04.pdf",
+        "url": "/documents/source-store/5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E05.pdf",
+        "url": "/documents/source-store/4bacc23d34b180368d4a929498ac0f957fd2e32577bf30dacb219865bae3b635.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E06.pdf",
+        "url": "/documents/source-store/be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E07.pdf",
+        "url": "/documents/source-store/d22c55905241380b6a764dcff549df2696bf8851e0ccd4461285c6fb4614e7ae.pdf#page=1"
+      },
+      {
+        "label": "세진-30-E08.pdf",
+        "url": "/documents/source-store/9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee.pdf#page=1"
+      }
+    ]
+  },
+  "io": [
+    {
+      "system": "30TON/CH 표제 전기 · 40톤 적용 미확정",
+      "direction": "동력·보호 참조",
+      "address": "NFB-02 / MC01 / EOCR",
+      "name": "연소 송풍기 동력·보호",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "세진-30-E00.pdf · PDF 1쪽",
+      "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+    },
+    {
+      "system": "30TON/CH 표제 전기 · 40톤 적용 미확정",
+      "direction": "동력·보호 참조",
+      "address": "NFB-03 / MU01 / MD01",
+      "name": "도어모터 분기(태그 반복 주의)",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "세진-30-E00.pdf · PDF 1쪽",
+      "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+    },
+    {
+      "system": "30TON/CH 표제 전기 · 40톤 적용 미확정",
+      "direction": "동력·보호 참조",
+      "address": "NFB-03 / MU01 / MD01 / M3",
+      "name": "댐퍼모터 분기(태그 반복 주의)",
+      "type": "원본 표기; 현재 할당·실물 미확정",
+      "description": "해당 원본의 기능/접점·단자 참조입니다. 현재 정상극성·실배선·프로그램 확인값이 아닙니다.",
+      "source": "세진-30-E00.pdf · PDF 1쪽",
+      "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+    }
+  ],
+  "hmi": [
+    {
+      "system": "원본 조작/표시 참조",
+      "name": "조작반·온도 기준",
+      "address": "현행 내부 HMI 태그 미확정",
+      "screen": "세진메탈40톤사용설명서.pdf",
+      "description": "MELTING/FURNACE 및 버너/송풍·도어/댐퍼 자료",
+      "source": "세진메탈40톤사용설명서.pdf · PDF 7쪽",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=7"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [],
+  "drawings": [
+    {
+      "name": "세진메탈40톤사용설명서.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S5a77b8fccbed799a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈40톤사용설명서.pdf · PDF 1쪽",
+      "source_id": "S5a77b8fccbed799a",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1",
+      "preview": "/documents/source-previews/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9-0001.webp"
+    },
+    {
+      "name": "세진메탈40톤사용설명서.pdf · 2쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S5a77b8fccbed799a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "세진메탈40톤사용설명서.pdf · PDF 2쪽",
+      "source_id": "S5a77b8fccbed799a",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=2",
+      "preview": "/documents/source-previews/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9-0002.webp"
+    },
+    {
+      "name": "세진메탈40톤사용설명서.pdf · 3쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S5a77b8fccbed799a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "세진메탈40톤사용설명서.pdf · PDF 3쪽",
+      "source_id": "S5a77b8fccbed799a",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=3",
+      "preview": "/documents/source-previews/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9-0003.webp"
+    },
+    {
+      "name": "세진메탈40톤사용설명서.pdf · 4쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S5a77b8fccbed799a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "세진메탈40톤사용설명서.pdf · PDF 4쪽",
+      "source_id": "S5a77b8fccbed799a",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=4",
+      "preview": "/documents/source-previews/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9-0004.webp"
+    },
+    {
+      "name": "세진메탈40톤사용설명서.pdf · 5쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S5a77b8fccbed799a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 5,
+      "source": "세진메탈40톤사용설명서.pdf · PDF 5쪽",
+      "source_id": "S5a77b8fccbed799a",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=5",
+      "preview": "/documents/source-previews/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9-0005.webp"
+    },
+    {
+      "name": "세진메탈40톤사용설명서.pdf · 6쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S5a77b8fccbed799a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 6,
+      "source": "세진메탈40톤사용설명서.pdf · PDF 6쪽",
+      "source_id": "S5a77b8fccbed799a",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=6",
+      "preview": "/documents/source-previews/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9-0006.webp"
+    },
+    {
+      "name": "세진메탈40톤사용설명서.pdf · 7쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S5a77b8fccbed799a / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 7,
+      "source": "세진메탈40톤사용설명서.pdf · PDF 7쪽",
+      "source_id": "S5a77b8fccbed799a",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=7",
+      "preview": "/documents/source-previews/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9-0007.webp"
+    },
+    {
+      "name": "세진-30-E00.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S02389998450e8836 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E00.pdf · PDF 1쪽",
+      "source_id": "S02389998450e8836",
+      "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1",
+      "preview": "/documents/source-previews/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede-0001.webp"
+    },
+    {
+      "name": "세진-30-E01.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Sd532fd005b537bf9 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E01.pdf · PDF 1쪽",
+      "source_id": "Sd532fd005b537bf9",
+      "url": "/documents/source-store/d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e.pdf#page=1",
+      "preview": "/documents/source-previews/d532fd005b537bf9b4e9ce6263fa7f28365e15d3defdf2d44cb7bd39ff4d1c0e-0001.webp"
+    },
+    {
+      "name": "세진-30-E02.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Sca0ac7d8bde1fba7 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E02.pdf · PDF 1쪽",
+      "source_id": "Sca0ac7d8bde1fba7",
+      "url": "/documents/source-store/ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae.pdf#page=1",
+      "preview": "/documents/source-previews/ca0ac7d8bde1fba7a9d5e80f2d81b8346e0e3ee7de4c08f8faa70548cbc0c0ae-0001.webp"
+    },
+    {
+      "name": "세진-30-E03.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S8782e3507255d2ef / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E03.pdf · PDF 1쪽",
+      "source_id": "S8782e3507255d2ef",
+      "url": "/documents/source-store/8782e3507255d2efeac65133356a222c7aa93b14ad178998b4ad6e2a379e0185.pdf#page=1",
+      "preview": "/documents/source-previews/8782e3507255d2efeac65133356a222c7aa93b14ad178998b4ad6e2a379e0185-0001.webp"
+    },
+    {
+      "name": "세진-30-E04.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S5f7d04cc3693bc3e / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E04.pdf · PDF 1쪽",
+      "source_id": "S5f7d04cc3693bc3e",
+      "url": "/documents/source-store/5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816.pdf#page=1",
+      "preview": "/documents/source-previews/5f7d04cc3693bc3e333f8b9db4ca30e4123354f20a32ee36700e1d0de9c70816-0001.webp"
+    },
+    {
+      "name": "세진-30-E05.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S4bacc23d34b18036 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E05.pdf · PDF 1쪽",
+      "source_id": "S4bacc23d34b18036",
+      "url": "/documents/source-store/4bacc23d34b180368d4a929498ac0f957fd2e32577bf30dacb219865bae3b635.pdf#page=1",
+      "preview": "/documents/source-previews/4bacc23d34b180368d4a929498ac0f957fd2e32577bf30dacb219865bae3b635-0001.webp"
+    },
+    {
+      "name": "세진-30-E06.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Sbe98074cfb464d29 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E06.pdf · PDF 1쪽",
+      "source_id": "Sbe98074cfb464d29",
+      "url": "/documents/source-store/be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b.pdf#page=1",
+      "preview": "/documents/source-previews/be98074cfb464d2971363597292731a132ee67414bf1e5f64df3d060f751f36b-0001.webp"
+    },
+    {
+      "name": "세진-30-E07.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Sd22c55905241380b / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E07.pdf · PDF 1쪽",
+      "source_id": "Sd22c55905241380b",
+      "url": "/documents/source-store/d22c55905241380b6a764dcff549df2696bf8851e0ccd4461285c6fb4614e7ae.pdf#page=1",
+      "preview": "/documents/source-previews/d22c55905241380b6a764dcff549df2696bf8851e0ccd4461285c6fb4614e7ae-0001.webp"
+    },
+    {
+      "name": "세진-30-E08.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S9f67ac12a2891aa1 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E08.pdf · PDF 1쪽",
+      "source_id": "S9f67ac12a2891aa1",
+      "url": "/documents/source-store/9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee.pdf#page=1",
+      "preview": "/documents/source-previews/9f67ac12a2891aa1ca255576f73fb9d796781b24e04da959840219f4dd517aee-0001.webp"
+    },
+    {
+      "name": "세진-30-E09.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Sdb0e53140919dc62 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E09.pdf · PDF 1쪽",
+      "source_id": "Sdb0e53140919dc62",
+      "url": "/documents/source-store/db0e53140919dc62cc1be242c5ea07e77f55cf6958d8893c74cf0f49fa9cabfc.pdf#page=1",
+      "preview": "/documents/source-previews/db0e53140919dc62cc1be242c5ea07e77f55cf6958d8893c74cf0f49fa9cabfc-0001.webp"
+    },
+    {
+      "name": "세진-30-E10.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Sfb2d78278bda04ce / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E10.pdf · PDF 1쪽",
+      "source_id": "Sfb2d78278bda04ce",
+      "url": "/documents/source-store/fb2d78278bda04ceb509ec805dc2f688a315346035ef184bf319aab3eec95dfd.pdf#page=1",
+      "preview": "/documents/source-previews/fb2d78278bda04ceb509ec805dc2f688a315346035ef184bf319aab3eec95dfd-0001.webp"
+    },
+    {
+      "name": "세진-30-E11.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S24b0f58e57273d76 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-30-E11.pdf · PDF 1쪽",
+      "source_id": "S24b0f58e57273d76",
+      "url": "/documents/source-store/24b0f58e57273d764b0e984abc3c0f56d6191aa70c7f46273d4edc1a25bd11e9.pdf#page=1",
+      "preview": "/documents/source-previews/24b0f58e57273d764b0e984abc3c0f56d6191aa70c7f46273d4edc1a25bd11e9-0001.webp"
+    },
+    {
+      "name": "세진-로컬-01.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 Sca536404397f96d4 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-로컬-01.pdf · PDF 1쪽",
+      "source_id": "Sca536404397f96d4",
+      "url": "/documents/source-store/ca536404397f96d4b492f7dd3c87b9d95b8ad475703aa92c6cd0a9df3fc447cd.pdf#page=1",
+      "preview": "/documents/source-previews/ca536404397f96d4b492f7dd3c87b9d95b8ad475703aa92c6cd0a9df3fc447cd-0001.webp"
+    },
+    {
+      "name": "세진-메인-01.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S5cb0d8a4c29e45e0 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진-메인-01.pdf · PDF 1쪽",
+      "source_id": "S5cb0d8a4c29e45e0",
+      "url": "/documents/source-store/5cb0d8a4c29e45e03e94dd685fe001d5154e3237a2977c483c0e9251a7ca0036.pdf#page=1",
+      "preview": "/documents/source-previews/5cb0d8a4c29e45e03e94dd685fe001d5154e3237a2977c483c0e9251a7ca0036-0001.webp"
+    },
+    {
+      "name": "세진메탈 리프트전기도면.pdf · 1쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S580af0cf4483e9f2 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 1,
+      "source": "세진메탈 리프트전기도면.pdf · PDF 1쪽",
+      "source_id": "S580af0cf4483e9f2",
+      "url": "/documents/source-store/580af0cf4483e9f297dfa4a0d17499e243c7ab24e6272066eebee9e8ed0615c2.pdf#page=1",
+      "preview": "/documents/source-previews/580af0cf4483e9f297dfa4a0d17499e243c7ab24e6272066eebee9e8ed0615c2-0001.webp"
+    },
+    {
+      "name": "세진메탈 리프트전기도면.pdf · 2쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S580af0cf4483e9f2 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 2,
+      "source": "세진메탈 리프트전기도면.pdf · PDF 2쪽",
+      "source_id": "S580af0cf4483e9f2",
+      "url": "/documents/source-store/580af0cf4483e9f297dfa4a0d17499e243c7ab24e6272066eebee9e8ed0615c2.pdf#page=2",
+      "preview": "/documents/source-previews/580af0cf4483e9f297dfa4a0d17499e243c7ab24e6272066eebee9e8ed0615c2-0002.webp"
+    },
+    {
+      "name": "세진메탈 리프트전기도면.pdf · 3쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S580af0cf4483e9f2 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 3,
+      "source": "세진메탈 리프트전기도면.pdf · PDF 3쪽",
+      "source_id": "S580af0cf4483e9f2",
+      "url": "/documents/source-store/580af0cf4483e9f297dfa4a0d17499e243c7ab24e6272066eebee9e8ed0615c2.pdf#page=3",
+      "preview": "/documents/source-previews/580af0cf4483e9f297dfa4a0d17499e243c7ab24e6272066eebee9e8ed0615c2-0003.webp"
+    },
+    {
+      "name": "세진메탈 리프트전기도면.pdf · 4쪽",
+      "system": "40톤로",
+      "kind": "원본 PDF",
+      "version": "원본 S580af0cf4483e9f2 / 현재 적용 확인 전",
+      "path": "원본 도면/설명 참조. 기능·접점·배선의 현행 적용은 확인 전입니다.",
+      "page": 4,
+      "source": "세진메탈 리프트전기도면.pdf · PDF 4쪽",
+      "source_id": "S580af0cf4483e9f2",
+      "url": "/documents/source-store/580af0cf4483e9f297dfa4a0d17499e243c7ab24e6272066eebee9e8ed0615c2.pdf#page=4",
+      "preview": "/documents/source-previews/580af0cf4483e9f297dfa4a0d17499e243c7ab24e6272066eebee9e8ed0615c2-0004.webp"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "원본 알람/보호 확인 범위",
+      "name": "알람·보호·복구 근거",
+      "address": "현행 코드/임계값·정상극성 미확정",
+      "trigger": "EOCR·연소 및 온도 허가·도어/댐퍼 위치를 점검 후보로 나눴습니다. 설명서의 버너 정지/재개, 문짝 탈부착, 차압/센서 교체 문구는 과거 자료로 열람할 수 있으며 현장 조치 승인이나 이번 수행 결과가 아닙니다. 실제 안전 차단·재기동·잔류 에너지는 미검증입니다.",
+      "reset": "실제 표시·원인·현행 승인 조건을 확인하기 전 임의 우회·강제출력·설정 변경/재기동을 수행하지 않음",
+      "source": "세진메탈40톤사용설명서.pdf · PDF 1쪽",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "송풍기·도어·댐퍼 구동 불가",
+      "check": "E00 분기별 NFB/MC/EOCR·모터 대응과 반복 태그 확인",
+      "source": "세진-30-E00.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/02389998450e88369d50d5720fdca26f85d7ccd5d27b44e3b9d1c65e6546eede.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "온도 제어/버너 불안정",
+      "check": "MELTING/FURNACE 기준·센서·버너 허가의 문서별 관계 구분",
+      "source": "세진메탈40톤사용설명서.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "전문 기계/체인·리미트 문제",
+      "check": "40톤 기계도와 30TON 전기도면의 적용부터 확인",
+      "source": "세진메탈40톤사용설명서.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/5a77b8fccbed799ae0179dd3711a1e93e1cf56546a4b75fa21e2a5ac516e05e9.pdf#page=1"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "별도 리프트 이상",
+      "check": "본체와 리프트 회로를 분리하고 현장 호기 식별",
+      "source": "세진메탈 리프트전기도면.pdf · PDF 1쪽",
+      "unresolved": "실제 원인·측정·조치·복구 미확정. 현재 설비와 승인 절차 대조 전.",
+      "url": "/documents/source-store/580af0cf4483e9f297dfa4a0d17499e243c7ab24e6272066eebee9e8ed0615c2.pdf#page=1"
+    }
+  ],
+  "checks": [
+    {
+      "title": "40톤/30TON 표제",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "설명서 40TON vs 전기 E00 30TON/CH AL-HOLDING",
+      "next": "명판·반번호·최신 도면 적용 확인"
+    },
+    {
+      "title": "반복 전기 태그",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "NFB-03·MU01/MD01·M3 중복",
+      "next": "분기·좌표·선번·실물 기준 식별"
+    },
+    {
+      "title": "리프트 적용",
+      "status": "미확정·원문 차이 보존",
+      "evidence": "기존 리프트 전기도면과 신설9번 자료 구분",
+      "next": "같은 설비 여부·개조 범위 확인"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "evidence": "도면·설명서 범위로 정리",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "evidence": "파일 검토·로컬 문서화만 수행",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "evidence": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "40톤/30TON 표제",
+      "status": "미확정·원문 차이 보존",
+      "source": "설명서 40TON vs 전기 E00 30TON/CH AL-HOLDING",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "명판·반번호·최신 도면 적용 확인"
+    },
+    {
+      "title": "반복 전기 태그",
+      "status": "미확정·원문 차이 보존",
+      "source": "NFB-03·MU01/MD01·M3 중복",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "분기·좌표·선번·실물 기준 식별"
+    },
+    {
+      "title": "리프트 적용",
+      "status": "미확정·원문 차이 보존",
+      "source": "기존 리프트 전기도면과 신설9번 자료 구분",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "같은 설비 여부·개조 범위 확인"
+    },
+    {
+      "title": "PLC/HMI 원본 및 현재 적용",
+      "status": "현재 프로그램 미확보",
+      "source": "도면·설명서 범위로 정리",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "현재 CPU·반번호·프로그램/HMI·I/O/타이머·설정 백업 대조"
+    },
+    {
+      "title": "현장·안전·복구 확인",
+      "status": "미수행",
+      "source": "파일 검토·로컬 문서화만 수행",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "실제 관찰·측정·현재 보호/재기동·복구 기록 별도"
+    },
+    {
+      "title": "문서 판독 범위",
+      "status": "핵심 자료 중심 검토",
+      "source": "모든 제조사 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님. 스캔/전용 형식·그림/셀 배치 제한 표시.",
+      "observation": "추정값으로 덮어쓰지 않고 원본·현재 적용을 구분함",
+      "next": "설비별 최신 적용도·필요한 전용 형식의 정적 내보내기 대조"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본·압축 자료 보존",
+      "status": "파일검증 완료",
+      "evidence": "폴더 원본 복사 전후 bytes/SHA-256 및 압축 추출 바이트/해시 대조",
+      "source": "/documents/equipment-06/source-manifest.json"
+    },
+    {
+      "title": "문서 검토 범위",
+      "status": "핵심 자료 중심 문서화",
+      "evidence": "세진메탈40톤사용설명서.pdf; 세진-30-E00.pdf; 세진-30-E01.pdf; 세진-30-E02.pdf; 세진-30-E03.pdf; 세진-30-E04.pdf; 세진-30-E05.pdf; 세진-30-E06.pdf; 세진-30-E07.pdf; 세진-30-E08.pdf; 세진-30-E09.pdf; 세진-30-E10.pdf; 세진-30-E11.pdf; 세진-로컬-01.pdf; 세진-메인-01.pdf; 세진메탈 리프트전기도면.pdf; 세진-30-E00.dwg; 세진-30-E01.dwg; 세진-30-E02.dwg; 세진-30-E03.dwg; 세진-30-E04.dwg; 세진-30-E05.dwg; 세진-30-E06.dwg; 세진-30-E07.dwg; 세진-30-E08.dwg; 세진-30-E09.dwg; 세진-30-E10.dwg; 세진-30-E11.dwg / 참고·대량 카탈로그 전체 상세 판독은 아님",
+      "source": "/documents/equipment-06/library.html?source=S5a77b8fccbed799a"
+    },
+    {
+      "title": "현재 PLC·현장 시험",
+      "status": "미수행",
+      "evidence": "프로그램 현행 적용·통전/운전/안전/복구 시험·현장 설정 변경은 수행하지 않음",
+      "source": "사용자 지정 폴더 자료 범위"
+    }
+  ]
+}

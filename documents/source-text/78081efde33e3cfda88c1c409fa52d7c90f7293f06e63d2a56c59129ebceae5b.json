@@ -1,0 +1,14 @@
+{
+  "sha256": "78081efde33e3cfda88c1c409fa52d7c90f7293f06e63d2a56c59129ebceae5b",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "COVER 분활부",
+      "width": 1190.550048828125,
+      "height": 841.8900146484375
+    }
+  ],
+  "page_count": 1
+}

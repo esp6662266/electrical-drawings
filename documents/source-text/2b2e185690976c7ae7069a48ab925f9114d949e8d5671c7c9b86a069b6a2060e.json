@@ -1,0 +1,14 @@
+{
+  "sha256": "2b2e185690976c7ae7069a48ab925f9114d949e8d5671c7c9b86a069b6a2060e",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Sasang, Busan, KoreaWeb : http://alf.one/Tel :+82-51-311-4682Fax :+82-51-311-4684품  번품            명규            격재    질수    량비      고\n(주) 세 진 메 탈SE JINSEJIN METAL CO., LTD.ULSAN, KOREA합금 30톤 2호 용해로 버너CONTROL CIRCUIT  DIAGRAM\nPCC1연소FAN ON (R221)(T221)연소FAN OFF 버너1 ON 버너1 OFF 버너2 ON 버너2 OFF 도어열림 ON 도어닫힘 ON 배기댐퍼 열림COM\n(P001)(P002)(P014)(P015)(P016)(P017)(P012)(P013)(P010)(P011)(N24)(스위치내용)(PLC IO)\n(적색)(흑색)(흰색)(녹색)(노랑색)(밤색)(줄적색)(보라색)(줄흰색)(줄녹색)(줄청색)(CABLE 색상)\n(줄노랑)(청색)(회색)\n배기댐퍼 닫힘",
+      "width": 1191.0,
+      "height": 842.0
+    }
+  ],
+  "page_count": 1
+}

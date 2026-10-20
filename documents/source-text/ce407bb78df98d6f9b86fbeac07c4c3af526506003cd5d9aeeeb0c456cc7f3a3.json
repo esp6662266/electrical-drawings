@@ -1,0 +1,26 @@
+{
+  "sha256": "ce407bb78df98d6f9b86fbeac07c4c3af526506003cd5d9aeeeb0c456cc7f3a3",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": " \nCUTTER AND ANVIL REBUILDING \nSECTION \n \n5.11 \nPAGE \n \n1 \n \n \nSSI PRI-MAX \nTM \n Service Manual - 991831 Rev 0 \n \n \n \nAlways lock out and tag out all power to panels and electric components before \nservicing. \n \n \n \n \nOn diesel powered systems, disconnect the battery cables to prevent damage to \nthe waste reducer electrical system. \n \n \n \n \nBe sure to ground to the object you are welding on.   If you are working on a cutter, \nground to that cutter or elsewhere on the same cutter shaft.  If you are welding on \nthe anvils or elsewhere on the cutting table, ground to the cutting table.  Serious \ndamage to the bearings will result if welding current passes through them. \n \nFollowing the procedures below will give you optimal durability. However, it will not always be practicable. \nBefore welding is started, always \n check that there is room for both layers. If so, apply both layers and if \nnot, apply the wear layer only.  \n \nPreheating is always \n required to ensure long durability. This applies to both top and bottom layers. Before \nstarting up the machine check that the shaft turns and that the machine is operational. \n \nTOOLS REQUIRED \n• Propane heater torch and 400-degree heat crayon. \n• Welding equipment with max current = 120-175 Amp \n \nWELDING PROCEDURE \n \n \n \nEntering the hopper/cutting chamber without locking  out the machine could result \nin severe personal injury or death. \n \n1. Lock out the waste reducer (refer the  Locking Out the Waste Reducer section). \n \n2. Enter the hopper/cutting chamber (refer to the Entering the Chamber  section). ",
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 2,
+      "text": " \nCUTTER AND ANVIL REBUILDING \nSECTION \n \n5.11 \nPAGE \n \n2 \n \n \nSSI PRI-MAX \nTM \n Service Manual - 991831 Rev 0 \n \n3. Before welding is started, clean surface very carefu lly. \n \n \n \nFire Hazard. \n \nHydraulic fluids, oils and fuels that are used in the machine can ignite while \nwelding. \n \nClean the area to be welded very carefully to remove flammable fluids. \n \n \n \nFire Hazard. \n \nUn-processed material in the cutting chamber may ignite while welding \n \nRemove un-processed material prior to welding. \n \n4. When surface is clean, check extent of wear, and check w hich of the following conditions applies: \n \n1. It is the first time a wear layer has been welded  on, or \n2. A wear layer has been welded onto the part at an earlier time. \n \n \n \nBurn Hazard. \n \nMetal surfaces that have been welded are extremely hot. \n \nDo not touch any area of the welded surface until it has cooled. \n \nFor condition 1: \n1. Preheat the area to 400 degrees F.  \n \n2. Check the size of the worn surface. Build up the wor n area using CN 23/12-FD 309 stainless wire \nwith a 95%Ar/5%CO 2 shielding gas mixture. Weld approximately 3/8-inch b eyond the worn area.  \nBuild up the surface to within 1/8-inch of final dimensions.  \n \nNOTE: It is very important that the entire worn area is covered. \n \n3. Weld up to 2 layers on top of the buildup weld as  a wear layer. Use Eutectic/Castolin 6710 XHD, 1/8” \nrod. The number of welds depends on the size and the  shape of the worn area. See illustrations \nbelow. \n \nNOTE: It is very important that the buildup weld is  covered completely by the wear layer, but \nthe wear layer must NOT go beyond the bottom weld. \n \nFor condition 2: \nCheck whether the wear has spread beyond the area wher e a wear layer has previously been \nwelded. If this is the case, first make a buildup wel d on the new surface as described under \nCondition 1. Then weld a wear layer, also described u nder Condition 1. It is not necessary to cut \nor grind off the old weld material. ",
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 3,
+      "text": " \nCUTTER AND ANVIL REBUILDING \nSECTION \n \n5.11 \nPAGE \n \n3 \n \n \nSSI PRI-MAX \nTM \n Service Manual - 991831 Rev 0 \n \n \nCUTTER REBUILD EXAMPLE \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nMake a weld min. 3/8 in beyond the worn area in the d irection shown. Then weld all along the edges and \nthe cross must be min. 3/8 in wide. After welding, t he cutter width must not exceed original width. Check \nthat the shaft can turn prior to startup. \n \nANVIL REBUILD EXAMPLE \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nMake a weld all along the edge. The weld seam must be 3/8 inch wider than the worn area.  \nNOTE: Do NOT reduce the original gap between the an vil and cutter! Work inwards, towards the \ncenter of the anvil, following the arrows. Welding on both sides may be necessary. \n \n",
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "page_count": 3
+}

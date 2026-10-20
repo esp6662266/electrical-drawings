@@ -1,0 +1,2914 @@
+{
+  "id": "TOTALIZER-02",
+  "name": "2번 적산기",
+  "group": "주조·INGOT 자동 적재",
+  "location": "사용자 지정 2번 설비 · 현장 명판/현재 구성 미확인",
+  "priority": true,
+  "source_version": "PLC 원본 미제공 · P주소 전기도면과 X주소 설명서 별도 보존",
+  "description": "5kg INGOT를 받아 이송·집기·회전·적층·계량하는 자동 적산기 자료입니다. 원본 3개(PDF 20쪽, HWP 2개)를 보존했습니다. PDF의 광명금속 2004 표제, 세진메탈 2006 설명서, 시운전 문서에 섞인 두인 2015 자료를 구분했습니다. 현재 설치품·프로그램과의 일치는 확인 전입니다.",
+  "documentation_status": "도면·설명서 기반 정리 완료(불일치 포함). PDF 20쪽과 HWP 본문·그림 12개를 검토했습니다. HWP는 텍스트·그림 열람본이며 원본 페이지 배치를 재현한 것은 아닙니다. 실제 PLC 프로젝트·CPU·래더·현장 시험·수리 이력은 미확보/미수행입니다.",
+  "source_count": 3,
+  "source_pages": 20,
+  "source_pages_note": "PDF 20쪽만 집계. HWP 원본 페이지 수는 미확정.",
+  "native_plc_available": false,
+  "field_verified": false,
+  "manual_url": "/documents/totalizer-02/manual.html",
+  "subsystems": [
+    {
+      "id": "DRAWING-2004",
+      "name": "P주소 전기도면·반면도",
+      "description": "광명금속(주) / 2004-10-15 표제와 ALF AUTO STACKING MACHINE 도면입니다. 입력·출력·릴레이·계량·단자표를 포함합니다.",
+      "boundary": "파일명 220721을 도면 설계일이나 최신 개정일로 단정하지 않습니다. 현재 2번 설비 적용 범위 미확정."
+    },
+    {
+      "id": "MANUAL-2006",
+      "name": "세진메탈 사용 설명서",
+      "description": "2006년 2월 표제. 4P/7P 집게·이재기·X-LIFT·계량대·조작 화면과 X주소의 동작 설명이 있습니다.",
+      "boundary": "P주소와 X주소의 일대일 대응은 확인되지 않았습니다. 본문 300/600/1TON과 조작 설명 500/1000kg도 구분합니다."
+    },
+    {
+      "id": "REFERENCE-2015",
+      "name": "시운전 문서·타 업체 참고",
+      "description": "앞부분은 세진메탈 2006 연속주조기 5kg, 뒷부분은 두인 2015 자동적산기 500/1000kg입니다.",
+      "boundary": "타 업체 시운전 순서·압력·수량·인버터 설정을 현재 2번 적산기의 승인 운전값으로 채택하지 않습니다."
+    }
+  ],
+  "manual": {
+    "overview": "1. 대상과 문서 범위\n사용자가 지정한 ‘2번 적산기’로 등록했습니다. 여기서 적산기는 수치 적산계가 아니라 주조기에서 나온 INGOT를 자동으로 쌓는 AUTO STACKING MACHINE입니다. 원본 PDF 1개 20쪽과 한글 문서 2개를 원형 보존했습니다. PDF 전체, HWP 본문과 추출 그림 12개를 검토했습니다. HWP 열람본은 검색 가능한 텍스트·그림 추출본이며 원본 페이지나 표 배치의 재현은 아닙니다.\n\n2. 구성과 흐름\n자료상 1차 콘베어·INGUIDE·1/2차 스토퍼 → 4P/7P CATCH → 이재기(대차) → X-LIFT → 3차 콘베어 → 계량대·CAS 계량 인터페이스로 구성됩니다. 수동/자동·원위치·단수·적재량·반재/만재 조작 및 상태 표시가 있습니다. 이 흐름은 문서 설명의 요약이며 현장 시퀀스 시험 결과가 아닙니다.\n\n3. 서로 다른 자료 시점\nPDF 1쪽 표제는 광명금속(주), 2004년 10월 15일, ASM-04입니다. 파일명 ‘220721’은 문서 내용의 개정 확인 근거가 아닙니다. 사용 설명서는 (주)세진메탈, 2006년 2월 표제입니다. 시운전 요령은 세진메탈 연속주조기(2006)와 두인 자동적산기(2015)가 한 파일에 섞여 있습니다. 어느 자료가 현재 설비에 적용되는지 현장 확인 전입니다.\n\n4. 용량·정격의 경계\n사용 설명서 개요에는 300kg·600kg·1TON, 조작·자동 운전 설명에는 500kg·1000kg이 나타납니다. 두 표기를 보존하며 현장 정격으로 하나를 선택하지 않았습니다. 본문 전원 표기는 3상 380V 60Hz, 제어 AC220V, PLC 제어 AC110V, 입력 DC24V, 출력 AC220V입니다. 이는 설명서 표기이고 현재 명판·전원 측정값이 아닙니다. 공압 단위가 혼재된 원문 수치는 현행 설정값으로 변환하지 않았습니다. PDF의 DC24V 출력 릴레이 회로와 AC220V 부하 회로도 구분합니다. 통합 공정 배치도는 아직 제공되지 않았습니다.",
+    "io": "1. 주소 체계 분리\nI/O 표는 ‘PDF 전기도면’의 P주소, ‘2006 세진메탈 설명서’의 X주소, 불일치가 있는 PDF 단자표를 나눴습니다. 같은 기능명이 있어도 두 주소를 자동 변환하거나 현재 PLC 할당으로 확정하지 않았습니다. 빈 칸·판독 불명 수기는 임의 기능으로 채우지 않았습니다. NO/NC·정상극성·실제 입력 상태는 미확정입니다.\n\n2. PDF 입력\nPDF 4쪽 ASM-09는 P000~P01F의 비상정지·모드·기동/정지·단수·4P/7P 조작입니다. 5쪽 ASM-10은 P020~P03F의 회전·이재기·리프트·계량 조작, 모터과부하·인버터이상 및 계량/제품 센서입니다. 6쪽 ASM-11은 P040~P05F의 INGUIDE BE01~BE11, 이재기 PR01~04, X-LIFT PH01/02·LS02·PR05/06, CATCH RS01~10을 표시합니다.\n\n3. PDF 출력\n7쪽 ASM-12는 P060~P07F의 경보 RY01~03, 유압펌프·집게·리프트·스토퍼·계량대 릴레이입니다. 8쪽 ASM-13은 P080~P09F의 콘베어·회전·이재기·CAS 영점/프린트 및 운전 램프입니다. P080의 기능은 수기로 삭제되어 확정하지 않았고 P082 인쇄 원문은 ‘3차콘베어 감속’입니다. 9쪽 ASM-14는 P100~P11F 표시등, 10쪽 ASM-15는 P120~P127 적재 디스플레이 배선입니다. 디스플레이의 통신 규격·수치 코딩·현재 HMI 내부 태그는 미확보입니다.\n\n4. 단자표 불일치\n19쪽 대차 A4는 이재기 원위치/감속/이송/감속을 P048/P049/P04A/P04B로 기재하지만 6쪽은 P04B/P04C/P04D/P04E입니다. 19쪽 A3의 SOL01/02는 풀림/잡음, 11쪽 회로의 SOL01/02는 잡음/풀림입니다. 4P/7P 센서 주소는 표 간 비교할 수 있으나 SOL의 기능·배선은 이 차이를 먼저 해소해야 합니다. 수기본 13~16쪽도 정리본과 별도 보존했습니다.\n\n5. 설명서 주소와 오기 후보\n설명서에는 EPB01 X000, SEL06 X00B, 계수 센서 X047/X048/X103~108, CATCH X058~X081 등 별도 주소 체계가 있습니다. 같은 센서의 X080/X050, X084/X048 같은 표기 차이는 확인 대장에 남겼습니다. X 주소의 각 숫자를 P주소로 바꾸지 않았습니다. 조작 화면의 버튼은 이미지·문서 근거이며 현재 패널 태그·메모리 맵은 아닙니다.",
+    "control": "1. 문서 기반 공정 단계\n사용 설명서는 1차 콘베어에서 INGOT를 모으고, 7P CATCH가 하강·잡음·상승한 뒤 이재기 이송과 7P 회전, 하강·풀림·상승, X-LIFT 적층 높이 조절, 이재기 복귀, 적층 완료 후 3차 콘베어와 계량대로 배출하는 흐름을 서술합니다. 1000kg 설명에서는 4P와 7P를 함께 쓰는 구간이 있고 500kg 설명에는 7P 중심 구간이 있습니다. 실제 프로그램 조건·분기·타이머는 미확보입니다.\n\n2. 원위치와 허가 조건\n설명서 원위치 화면에는 7P 풀림/상승/원위치, 4P 풀림/상승, 이재기 원위치, X-LIFT 하강/원위치, 계량대 하강 항목이 보입니다. 제품 감지·카운터·앞 단계 위치 검출과 다음 단계 허가의 관계가 설명됩니다. 여기서는 이 관계만 정리했고 실제 센서 ON/OFF 극성·고장시 동작·허가 로직은 판정하지 않았습니다.\n\n3. 모드·운전 화면\n수동·원위치·이상·자동 화면, 500/1000kg, 단수·적재량, 반재/만재, 자동 RUN/STOP와 일시정지가 문서에 있습니다. 원문에 있는 시운전 모드의 제품 유무 가정, 단수 수정, 직접 리프트 조작, 비상정지 해제 후 재개 설명은 현장 작업 지시로 채택하지 않았습니다. 이 문서는 해당 조작의 현재 안전 조건이나 재기동 허가를 확인한 자료가 아닙니다.\n\n4. PLC 분석 범위\n파일명에 PLC가 있지만 실제 제공 PDF는 반면도·I/O·릴레이/부하·CAS 접점·단자표입니다. 11/12쪽의 사다리 모양 접점 회로는 전기 결선도이며 복원된 PLC 래더가 아닙니다. CPU 모델·원본 프로젝트·내부 릴레이·D레지스터·스캔 로직·타이머·네트워크·호출 블록은 미확보입니다. 래더와 호출 표는 빈 상태로 유지합니다. 신호 구조 탭은 확인된 외부 배선·문서상의 관계만 표시합니다.",
+    "circuits": "1. 입력 신호 경로\nPDF 4~6쪽은 P24V/N24V 공통과 조작 접점·BE/PR/PH/LS/RS 센서에서 P주소 입력으로 이어지는 도면입니다. P000 비상정지 입력이 있다는 사실만으로 동력 차단·안전등급·이중 안전회로가 검증되지는 않습니다. 단자표의 색상·기호는 해당 원본 참조이며 현재 케이블 색상이나 단자 번호를 새로 지정하지 않았습니다.\n\n2. PLC 출력과 중계 릴레이\nPDF 7/8쪽에서 P060~P089 일부 출력은 RY01~RY42 코일과 연결됩니다. 예: P069→RY10, P06A→RY11, P088→RY41, P089→RY42입니다. PDF 11쪽은 RL220/TL220에서 RY 접점을 거쳐 MG01/02와 SOL01~20 부하로 이어지는 별도 AC220V 결선입니다. 따라서 PLC 출력, 중계 릴레이 코일, 릴레이 접점, 실제 부하를 각각 구분합니다. SOL01/02 기능 상충은 현재 배선 확정 전입니다.\n\n3. 작동기·구동부\n11쪽에 4P/7P 잡음·풀림·상하·회전, X-LIFT 고속/저속 상하, 유압릴리프, INGOT UP, 1/2차 스토퍼, 계량대 상하의 SOL 부하가 표시됩니다. 20쪽 A6/A7에는 1/2차 콘베어측 센서와 해당 SOL이 있습니다. 이 자료 묶음에는 전체 주동력 회로·차단기/인버터 정격 및 현재 설정을 확정할 근거가 부족합니다.\n\n4. 표시·계량·경보\n8/9쪽 P098~P11D 일부는 운전·상태 램프, 10쪽 P120~P127은 적재 디스플레이 배선입니다. 12쪽 CASCOM은 RY41/42를 통해 CAS 영점/프린트 접점으로 이어지고 BZCOM은 RY01~03을 통해 BZ1~3 경보음으로 이어집니다. 이는 외부 접점 연결이며 계량 로드셀 배선·CAS 모델·교정값·통신 주소·각 부저의 프로그램 발생 조건은 확인 전입니다.",
+    "alarms": "1. 자료에 있는 이상 표시\nPDF P030 모터과부하, P031 인버터이상 입력과 P107/P108 램프를 구분했습니다. 설명서 이상 화면에는 1차 콘베어 인버터, 2차 콘베어 인버터, X-LIFT, 이재기, 유압 모터 관련 다섯 항목이 보입니다. 각 항목의 현재 고장 코드·대상 기기·트립 원인·래치·복구 로직은 미확보입니다.\n\n2. 경보와 경보 정지\nP014는 경보정지 조작 입력, P060~62→RY01~03→BZ1~3은 도면상의 경보 출력 경로입니다. 경보정지는 원인 제거 또는 보호기 리셋과 구분합니다. 세 경보음의 원인별 대응과 타이머는 PLC 원본이 있어야 확인할 수 있습니다.\n\n3. 정지·재기동의 해석\n설명서의 비상정지·일시정지 해제 후 동작 재개, ERROR RESET 또는 전원 재투입 문구는 과거 문서의 설명으로만 남깁니다. 현재 설비의 안전 회로·재기동·잔류 에너지·집게/리프트 유지 상태는 검증하지 않았습니다. 자동 복구나 반복 리셋을 점검 결과로 기록하지 않습니다.\n\n4. 기록 기준\n현장 고장이 발생하면 최초 시각·화면·기기 알람 코드·정지한 단계·센서 실물·실제 관찰과 조치를 각각 기록해야 합니다. 이번 작성에서는 실제 알람 발생·해제·운전 성공 또는 수리 완료 이력을 생성하지 않았습니다.",
+    "repair": "1. 공통 식별\n현재 설비 명판·반번호·프로그램 버전과 도면 적용 범위를 먼저 대조할 수 있도록 확인 대장을 만들었습니다. 아래 항목은 문서로 추린 점검 후보이며 실제 고장 원인이나 현장 조치 결과가 아닙니다. 현장 작업은 현행 작업 절차와 에너지 차단·잔류 에너지 확인 기준을 적용해야 합니다.\n\n2. 전체 동작 또는 자동 진입 불가\n수동/자동·정상/시운전·비상정지의 실제 상태, 보호기 표시, 원위치 조건과 어느 단계에서 정지했는지를 구분합니다. PDF P주소와 설명서 X주소는 해당 자료 안에서만 추적합니다. 시운전 모드 전환·센서 우회·강제 출력으로 원인을 판정하지 않습니다.\n\n3. 집게·이재기·리프트 정지\n4P/7P 센서, 이재기 위치/감속, X-LIFT 제품 감지/상하/회전과 선행 단계 검출을 별개 후보로 정리합니다. 릴레이 출력과 AC220V SOL 부하는 다른 회로입니다. 특히 A4 주소와 SOL01/02 기능 상충을 해소하기 전에는 한 표만으로 현장 배선을 단정하지 않습니다.\n\n4. INGOT 계수·적층·취출 불량\nINGUIDE BE01~11과 설명서 PH 계수 센서, 스토퍼, 4P/7P 집기 구성, X-LIFT와 3차 콘베어·계량대 위치를 구간별로 나눕니다. 문서에 나오는 단수·개수·500/1000kg 모드가 현재 설정인지 별도 확인해야 합니다. 계량은 CAS 접점 기능과 실제 중량 교정/로드셀 문제를 구분합니다.\n\n5. 정기 관리·기록\n설명서에는 광전 센서 오염, 볼트 풀림, 공압·유압, 리미트/센서 배선, 릴레이·퓨즈 등의 점검 항목이 있습니다. 이를 점검 후보로 옮겼으며 실제 점검 주기 승인이나 결과는 현장 기록으로 남겨야 합니다. 수리 기록 양식은 비워 두었습니다.",
+    "completion": "작성한 것\n- 사용자 지정 원본 3파일의 bytes/SHA-256 보존 대조\n- PDF 20쪽 렌더링·시각 검토와 개별 페이지 원본 연결\n- HWP 2문서 본문 추출·검토, 사용 설명서 그림 12개 열람본\n- 설비 구성·7개 매뉴얼 항목·P주소/X주소/단자표 분리·조작 화면·외부 신호·알람·증상별 점검\n- 자료 시점·업체·용량·주소·SOL 표기의 불일치 확인 대장\n\n추가 확인할 것\n- 현재 2번 적산기 명판·적재 정격·전원·공압/유압·실제 구성과 적용 도면\n- 현재 PLC CPU와 원본 프로젝트·실제 I/O·래더·타이머·인버터/HMI 백업\n- P주소 전기도면과 X주소 설명서의 버전 관계\n- 대차 A4 주소(P048~04B vs P04B~04E)와 SOL01/02 기능 상충\n- 설명서 X080/X050 및 X084/X048 등 오기 후보\n- 비상정지·일시정지·재기동·집게와 리프트 유지·보호 회로의 현재 검증 근거\n- 계량기 모델·로드셀·교정·디스플레이 코드와 현장 고장/복구 기록\n\n완료 판정\n도면·설명서 기반 문서화 완료(불일치 포함)입니다. HWP 원본 페이지 배치·페이지 수는 재현/확정하지 않았습니다. PLC 프로그램 분석, 실제 운전/시운전, 통전 측정, 안전 기능 시험과 수리는 수행하지 않았습니다."
+  },
+  "manual_sources": {
+    "overview": [
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 1쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=1"
+      },
+      {
+        "label": "사용 설명서 · 본문 추출본",
+        "url": "/documents/totalizer-02/user-manual-reader.html#text"
+      },
+      {
+        "label": "시운전 요령 · 혼합 자료 주의",
+        "url": "/documents/totalizer-02/commissioning-reader.html#text"
+      }
+    ],
+    "io": [
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 4쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 5쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 6쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 7쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 8쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 9쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 10쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 19쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+      },
+      {
+        "label": "설명서 · X주소 본문",
+        "url": "/documents/totalizer-02/user-manual-reader.html#text"
+      }
+    ],
+    "control": [
+      {
+        "label": "설명서 · 동작·원위치·자동 설명",
+        "url": "/documents/totalizer-02/user-manual-reader.html#text"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 11쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=11"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 12쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=12"
+      }
+    ],
+    "circuits": [
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 6쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 7쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 8쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 10쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 11쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=11"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 12쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=12"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 19쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 20쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=20"
+      }
+    ],
+    "alarms": [
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 5쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 9쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 12쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=12"
+      },
+      {
+        "label": "이상 화면 그림",
+        "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin0005"
+      },
+      {
+        "label": "ERROR 설명 그림",
+        "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin000b"
+      }
+    ],
+    "repair": [
+      {
+        "label": "사용 설명서 · 보수 점검",
+        "url": "/documents/totalizer-02/user-manual-reader.html#text"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 6쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 11쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=11"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 19쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+      }
+    ],
+    "completion": [
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 1쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=1"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 6쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+      },
+      {
+        "label": "220721 적산기 PLC.pdf · PDF 19쪽",
+        "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+      },
+      {
+        "label": "세진메탈 설명서·원본 연결",
+        "url": "/documents/totalizer-02/user-manual-reader.html#text"
+      },
+      {
+        "label": "시운전 자료·타 업체 구분",
+        "url": "/documents/totalizer-02/commissioning-reader.html#reference-other-customer"
+      }
+    ]
+  },
+  "io": [
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P000",
+      "name": "비상정지",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P001",
+      "name": "수동",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P002",
+      "name": "자동",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P003",
+      "name": "원위치요구",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P004",
+      "name": "자동운전",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P005",
+      "name": "자동정지",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P006",
+      "name": "유압펌프운전",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P007",
+      "name": "유압펌프정지",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P008",
+      "name": "500KG",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P009",
+      "name": "1000KG",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P00A",
+      "name": "단수설정",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P00B",
+      "name": "단수표시",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P00C",
+      "name": "설정 +",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P00D",
+      "name": "설정 -",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P00E",
+      "name": "정상",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P00F",
+      "name": "시운전",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P010",
+      "name": "INGUIDE UP",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P011",
+      "name": "1차스토퍼",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P012",
+      "name": "2차스토퍼",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P013",
+      "name": "RESET / 단자표 카운트 RESET",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P014",
+      "name": "경보정지",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P015",
+      "name": "3차콘베어 역회전(인쇄 원문·수기 변경 있음)",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P016",
+      "name": "3차콘베어운전",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P017",
+      "name": "3차콘베어정지",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P018",
+      "name": "4P 풀림",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P019",
+      "name": "4P 잡음",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P01A",
+      "name": "4P 상승",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P01B",
+      "name": "4P 하강",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P01C",
+      "name": "7P 풀림",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P01D",
+      "name": "7P 잡음",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P01E",
+      "name": "7P 상승",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P01F",
+      "name": "7P 하강",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P020",
+      "name": "7P 회전",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P021",
+      "name": "7P 원위치",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P022",
+      "name": "이재기 이송",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P023",
+      "name": "이재기 원위치",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P024",
+      "name": "X-LIFT 상승",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P025",
+      "name": "X-LIFT 하강",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P026",
+      "name": "X-LIFT 회전",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P028",
+      "name": "계량기 상승",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P029",
+      "name": "계량기 하강",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P02A",
+      "name": "반재",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P02B",
+      "name": "만재",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P02C",
+      "name": "강제취출",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P02D",
+      "name": "반재시작",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P030",
+      "name": "모터과부하",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P031",
+      "name": "인버터이상",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P038",
+      "name": "계량대 상승 · LS03",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P039",
+      "name": "계량대 하강 · LS04",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P03A",
+      "name": "제품감지 X-LIFT 상승 · BE12",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P03B",
+      "name": "3차콘베어 정지 · BE14",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P03C",
+      "name": "3차콘베어 감속 · BE15",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P040",
+      "name": "INGUIDE 01 · BE01",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P041",
+      "name": "INGUIDE 02 · BE02",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P042",
+      "name": "INGUIDE 03 · BE03",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P043",
+      "name": "INGUIDE 04 · BE04",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P044",
+      "name": "INGUIDE 05 · BE05",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P045",
+      "name": "INGUIDE 06 · BE06",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P046",
+      "name": "INGUIDE 07 · BE07",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P047",
+      "name": "INGUIDE 08 · BE08",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P048",
+      "name": "INGUIDE 09 · BE09",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P049",
+      "name": "INGUIDE 10 · BE10",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P04A",
+      "name": "INGUIDE 11 · BE11",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P04B",
+      "name": "이재기 원위치 · PR01",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P04C",
+      "name": "이재기 원위치 감속 · PR02",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P04D",
+      "name": "이재기 이송 · PR03",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P04E",
+      "name": "이재기 이송 감속 · PR04",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P050",
+      "name": "X-LIFT 제품감지 하강 · PH01",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P051",
+      "name": "X-LIFT 상승정지 · PH02",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P053",
+      "name": "X-LIFT 하강 · LS02",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P054",
+      "name": "X-LIFT 회전 · PR05",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P055",
+      "name": "X-LIFT 회전 감속 · PR06",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P056",
+      "name": "4P 풀림 · RS01",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P057",
+      "name": "4P 잡음 · RS02",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P058",
+      "name": "4P 상승 · RS03",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P059",
+      "name": "4P 하강 · RS04",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P05A",
+      "name": "7P 풀림 · RS05",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P05B",
+      "name": "7P 잡음 · RS06",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P05C",
+      "name": "7P 상승 · RS07",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P05D",
+      "name": "7P 하강 · RS08",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P05E",
+      "name": "7P 회전 · RS09",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "입력 참조",
+      "address": "P05F",
+      "name": "7P 원위치 · RS10",
+      "type": "P주소 · 도면 표기",
+      "description": "자료상 입력. 현재 할당·정상극성·실물 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P060",
+      "name": "BZ1",
+      "type": "P주소 · RY01",
+      "description": "중계 RY01 / 12쪽 RY01~03→BZ1~3. 경보 발생 조건은 미확보.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P061",
+      "name": "BZ2",
+      "type": "P주소 · RY02",
+      "description": "중계 RY02 / 12쪽 RY01~03→BZ1~3. 경보 발생 조건은 미확보.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P062",
+      "name": "BZ3",
+      "type": "P주소 · RY03",
+      "description": "중계 RY03 / 12쪽 RY01~03→BZ1~3. 경보 발생 조건은 미확보.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P068",
+      "name": "유압펌프",
+      "type": "P주소 · RY09",
+      "description": "중계 RY09 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P069",
+      "name": "4P 잡음",
+      "type": "P주소 · RY10",
+      "description": "중계 RY10 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P06A",
+      "name": "4P 풀림",
+      "type": "P주소 · RY11",
+      "description": "중계 RY11 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P06B",
+      "name": "4P 상승",
+      "type": "P주소 · RY12",
+      "description": "중계 RY12 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P06C",
+      "name": "4P 하강",
+      "type": "P주소 · RY13",
+      "description": "중계 RY13 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P06D",
+      "name": "7P 잡음",
+      "type": "P주소 · RY14",
+      "description": "중계 RY14 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P06E",
+      "name": "7P 풀림",
+      "type": "P주소 · RY15",
+      "description": "중계 RY15 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P06F",
+      "name": "7P 상승",
+      "type": "P주소 · RY16",
+      "description": "중계 RY16 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P070",
+      "name": "7P 하강",
+      "type": "P주소 · RY17",
+      "description": "중계 RY17 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P071",
+      "name": "7P 회전",
+      "type": "P주소 · RY18",
+      "description": "중계 RY18 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P072",
+      "name": "7P 원위치",
+      "type": "P주소 · RY19",
+      "description": "중계 RY19 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P073",
+      "name": "X-LIFT 상승 고속",
+      "type": "P주소 · RY20",
+      "description": "중계 RY20 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P074",
+      "name": "X-LIFT 하강 고속",
+      "type": "P주소 · RY21",
+      "description": "중계 RY21 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P075",
+      "name": "X-LIFT 상승 저속",
+      "type": "P주소 · RY22",
+      "description": "중계 RY22 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P076",
+      "name": "X-LIFT 하강 저속",
+      "type": "P주소 · RY23",
+      "description": "중계 RY23 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P077",
+      "name": "유압릴리프",
+      "type": "P주소 · RY24",
+      "description": "중계 RY24 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P078",
+      "name": "INGOT UP",
+      "type": "P주소 · RY25",
+      "description": "중계 RY25 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P079",
+      "name": "1차스토퍼",
+      "type": "P주소 · RY26",
+      "description": "중계 RY26 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P07A",
+      "name": "2차스토퍼",
+      "type": "P주소 · RY27",
+      "description": "중계 RY27 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P07B",
+      "name": "계량대 상승",
+      "type": "P주소 · RY28",
+      "description": "중계 RY28 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P07C",
+      "name": "계량대 하강",
+      "type": "P주소 · RY29",
+      "description": "중계 RY29 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P080",
+      "name": "기능 삭제/수기 변경 · 미확정",
+      "type": "P주소 · RY33",
+      "description": "중계 RY33 / 인쇄 원문과 수기 화살표를 함께 보존. 현재 대응 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P081",
+      "name": "3차콘베어 운전",
+      "type": "P주소 · RY34",
+      "description": "중계 RY34 / 인쇄 원문과 수기 화살표를 함께 보존. 현재 대응 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P082",
+      "name": "3차콘베어 감속",
+      "type": "P주소 · RY35",
+      "description": "중계 RY35 / 인쇄 원문과 수기 화살표를 함께 보존. 현재 대응 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P083",
+      "name": "X-LIFT 회전",
+      "type": "P주소 · RY36",
+      "description": "중계 RY36 / 인쇄 원문과 수기 화살표를 함께 보존. 현재 대응 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P084",
+      "name": "X-LIFT 회전 감속",
+      "type": "P주소 · RY37",
+      "description": "중계 RY37 / 인쇄 원문과 수기 화살표를 함께 보존. 현재 대응 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P085",
+      "name": "이재기 원위치",
+      "type": "P주소 · RY38",
+      "description": "중계 RY38 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P086",
+      "name": "이재기 이송",
+      "type": "P주소 · RY39",
+      "description": "중계 RY39 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P087",
+      "name": "이재기 감속 운전",
+      "type": "P주소 · RY40",
+      "description": "중계 RY40 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P088",
+      "name": "CAS 영점",
+      "type": "P주소 · RY41",
+      "description": "중계 RY41 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P089",
+      "name": "CAS 프린트",
+      "type": "P주소 · RY42",
+      "description": "중계 RY42 / 자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P098",
+      "name": "자동운전 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P099",
+      "name": "유압펌프운전 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P09A",
+      "name": "원위치요구 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P09C",
+      "name": "3차콘베어운전 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P100",
+      "name": "비상정지 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P101",
+      "name": "수동 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P102",
+      "name": "자동 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P103",
+      "name": "500KG 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P104",
+      "name": "1000KG 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P105",
+      "name": "강제취출 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P106",
+      "name": "원위치요구 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P107",
+      "name": "모터과부하 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P108",
+      "name": "인버터이상 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P109",
+      "name": "INGOT UP 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P10A",
+      "name": "이재기 원위치 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P10B",
+      "name": "4P 풀림 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P10C",
+      "name": "4P 상승 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P10D",
+      "name": "7P 풀림 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P10E",
+      "name": "7P 상승 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P10F",
+      "name": "7P 원위치 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P110",
+      "name": "X-LIFT 하강 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P111",
+      "name": "X-LIFT 원위치 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P112",
+      "name": "계량기 하강 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P113",
+      "name": "1차스토퍼 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P114",
+      "name": "이재기 이송 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P115",
+      "name": "4P 잡음 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P116",
+      "name": "4P 하강 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P117",
+      "name": "7P 잡음 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P118",
+      "name": "7P 하강 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P119",
+      "name": "7P 회전 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P11A",
+      "name": "X-LIFT 상승 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P11B",
+      "name": "X-LIFT 회전 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P11C",
+      "name": "계량기 상승 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P11D",
+      "name": "2차스토퍼 램프",
+      "type": "P주소 · 표시/배선",
+      "description": "자료상 출력. 현재 PLC·부하·정상 상태는 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P120",
+      "name": "적재 디스플레이 1 배선",
+      "type": "P주소 · 표시/배선",
+      "description": "외부 디스플레이 배선. 데이터 형식·통신·중량 실측값으로 해석하지 않음.",
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P121",
+      "name": "적재 디스플레이 1 배선",
+      "type": "P주소 · 표시/배선",
+      "description": "외부 디스플레이 배선. 데이터 형식·통신·중량 실측값으로 해석하지 않음.",
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P122",
+      "name": "적재 디스플레이 1 배선",
+      "type": "P주소 · 표시/배선",
+      "description": "외부 디스플레이 배선. 데이터 형식·통신·중량 실측값으로 해석하지 않음.",
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P123",
+      "name": "적재 디스플레이 1 배선",
+      "type": "P주소 · 표시/배선",
+      "description": "외부 디스플레이 배선. 데이터 형식·통신·중량 실측값으로 해석하지 않음.",
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P124",
+      "name": "적재 디스플레이 2 배선",
+      "type": "P주소 · 표시/배선",
+      "description": "외부 디스플레이 배선. 데이터 형식·통신·중량 실측값으로 해석하지 않음.",
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P125",
+      "name": "적재 디스플레이 2 배선",
+      "type": "P주소 · 표시/배선",
+      "description": "외부 디스플레이 배선. 데이터 형식·통신·중량 실측값으로 해석하지 않음.",
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P126",
+      "name": "적재 디스플레이 2 배선",
+      "type": "P주소 · 표시/배선",
+      "description": "외부 디스플레이 배선. 데이터 형식·통신·중량 실측값으로 해석하지 않음.",
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+    },
+    {
+      "system": "PDF 전기도면",
+      "direction": "출력 참조",
+      "address": "P127",
+      "name": "적재 디스플레이 2 배선",
+      "type": "P주소 · 표시/배선",
+      "description": "외부 디스플레이 배선. 데이터 형식·통신·중량 실측값으로 해석하지 않음.",
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X000",
+      "name": "EPB01 비상정지",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 117(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-117"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X00B",
+      "name": "SEL06 정상/시운전",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 80(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-80"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X047",
+      "name": "PH1-1 계수",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 230(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-230"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X048",
+      "name": "PH2-1 계수",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 104(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-104"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X049",
+      "name": "PH03 제품 감지",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 90(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-90"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X04A",
+      "name": "PH04 제품 감지",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 91(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-91"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X04B",
+      "name": "PH05 계량 콘베어 정지",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 201(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-201"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X04D",
+      "name": "PB12 강제취출",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 192(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-192"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X054",
+      "name": "PX01 이재기 이송",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 146(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-146"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X057",
+      "name": "PX04 이재기 원위치",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 111(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-111"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X058",
+      "name": "RPX02 4P 잡음",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 242(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-242"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X059",
+      "name": "RPX03 4P 풀림",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 303(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-303"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X05A",
+      "name": "RPX04 4P 상승",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 139(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-139"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X05B",
+      "name": "RPX05 4P 하강",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 234(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-234"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X05C",
+      "name": "RPX06 7P 잡음",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 126(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-126"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X05D",
+      "name": "RPX07 7P 풀림",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 122(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-122"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X05E",
+      "name": "RPX08 7P 상승",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 131(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-131"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X05F",
+      "name": "RPX09 7P 하강",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 114(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-114"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X080",
+      "name": "RPX10 7P 회전(다른 곳 X050 표기)",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 147(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-147"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X081",
+      "name": "RPX11 7P 원위치",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 142(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-142"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X083",
+      "name": "LS04 X-LIFT 하강",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 197(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-197"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X084",
+      "name": "PX05 X-LIFT 원위치(다른 곳 X048 표기)",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 92(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-92"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X088",
+      "name": "LS09 계량대 상승",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 209(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-209"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X089",
+      "name": "LS10 계량대 하강",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 205(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-205"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X08A",
+      "name": "LS11 콘베어 역회전",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 191(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-191"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X08B",
+      "name": "LS12 콘베어 정회전",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 200(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-200"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X103",
+      "name": "PH2-2 계수",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 105(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-105"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X104",
+      "name": "PH2-3 계수",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 106(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-106"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X105",
+      "name": "PH2-4 계수",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 107(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-107"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X106",
+      "name": "PH2-5 계수",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 108(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-108"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X107",
+      "name": "PH2-6 계수",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 109(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-109"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "direction": "설명서 입력 참조",
+      "address": "X108",
+      "name": "PH2-7 계수",
+      "type": "X주소 · 본문 표기",
+      "description": "P주소와 자동 대응하지 않음. 원문 오기·현재 프로그램 대조 필요.",
+      "source": "세진메탈-적산기 사용 설명서.hwp · 본문 추출본 · 추출 문단 110(해당 주소 첫 등장)",
+      "url": "/documents/totalizer-02/user-manual-reader.html#p-110"
+    },
+    {
+      "system": "PDF 단자표(차이 보존)",
+      "direction": "단자표 참조",
+      "address": "P048",
+      "name": "A4 이재기 원위치",
+      "type": "불일치 · 19쪽 원문",
+      "description": "6쪽의 P04B/P04C/P04D/P04E와 다름. 어느 쪽이 현재 배선인지 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 19쪽 / A3/A4",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+    },
+    {
+      "system": "PDF 단자표(차이 보존)",
+      "direction": "단자표 참조",
+      "address": "P049",
+      "name": "A4 이재기 원위치 감속",
+      "type": "불일치 · 19쪽 원문",
+      "description": "6쪽의 P04B/P04C/P04D/P04E와 다름. 어느 쪽이 현재 배선인지 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 19쪽 / A3/A4",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+    },
+    {
+      "system": "PDF 단자표(차이 보존)",
+      "direction": "단자표 참조",
+      "address": "P04A",
+      "name": "A4 이재기 이송",
+      "type": "불일치 · 19쪽 원문",
+      "description": "6쪽의 P04B/P04C/P04D/P04E와 다름. 어느 쪽이 현재 배선인지 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 19쪽 / A3/A4",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+    },
+    {
+      "system": "PDF 단자표(차이 보존)",
+      "direction": "단자표 참조",
+      "address": "P04B",
+      "name": "A4 이재기 이송 감속",
+      "type": "불일치 · 19쪽 원문",
+      "description": "6쪽의 P04B/P04C/P04D/P04E와 다름. 어느 쪽이 현재 배선인지 미확정.",
+      "source": "220721 적산기 PLC.pdf · PDF 19쪽 / A3/A4",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+    },
+    {
+      "system": "PDF 단자표(차이 보존)",
+      "direction": "단자표 참조",
+      "address": "SOL01",
+      "name": "A3 4P 풀림",
+      "type": "불일치 · 19쪽 원문",
+      "description": "11쪽 SOL01 잡음/SOL02 풀림과 반대. 현장 결선 확정 전.",
+      "source": "220721 적산기 PLC.pdf · PDF 19쪽 / A3/A4",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+    },
+    {
+      "system": "PDF 단자표(차이 보존)",
+      "direction": "단자표 참조",
+      "address": "SOL02",
+      "name": "A3 4P 잡음",
+      "type": "불일치 · 19쪽 원문",
+      "description": "11쪽 SOL01 잡음/SOL02 풀림과 반대. 현장 결선 확정 전.",
+      "source": "220721 적산기 PLC.pdf · PDF 19쪽 / A3/A4",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19"
+    }
+  ],
+  "hmi": [
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "수동 조작",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "manual",
+      "description": "유압펌프·콘베어·집게·이재기·리프트·스토퍼 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN0003",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin0003"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "원위치",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "home",
+      "description": "7P/4P 풀림·상승, 이재기·X-LIFT·계량대 위치 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN0004",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin0004"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "이상",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "alarm",
+      "description": "1/2차 콘베어 인버터·X-LIFT·이재기·유압모터 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN0005",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin0005"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "수동 설명",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "manual detail",
+      "description": "유압펌프와 리프트 조작의 문서상 관계 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN0006",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin0006"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "자동",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "auto",
+      "description": "500/1000kg·단수·적재량·카운터 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN0007",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin0007"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "원위치 설명",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "home detail",
+      "description": "정상/시운전 구분과 각 위치 설명 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN0008",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin0008"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "순차 동작",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "sequence",
+      "description": "앞 단계 위치 검출과 후속 단계 허가 설명 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN0009",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin0009"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "반재·패턴",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "pattern",
+      "description": "500kg·1000kg 단수/회전 패턴의 과거 예시 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN000A",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin000a"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "ERROR",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "error",
+      "description": "고장 화면 설명·현재 복구 승인 아님 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN000B",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin000b"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "메뉴",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "menu",
+      "description": "수동·원위치·이상·자동 메뉴 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN000C",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin000c"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "일시정지",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "pause",
+      "description": "현재 위치 정지와 재개에 대한 과거 설명 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN000D",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin000d"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "실제 조작반 사진",
+      "address": "내부 HMI 태그 미확보",
+      "screen": "photo",
+      "description": "단수·적재량·자동·각 장치 버튼 사진 / 현재 화면·운전 설정은 미확인.",
+      "source": "사용 설명서 삽입 그림 BIN0001",
+      "url": "/documents/totalizer-02/user-manual-reader.html#fig-bin0001"
+    }
+  ],
+  "networks": [],
+  "calls": [],
+  "signals": [
+    {
+      "system": "PDF 전기도면",
+      "name": "입력 센서·조작",
+      "address": "P000~P05F",
+      "writer": "조작 접점·BE/PR/PH/LS/RS",
+      "reader": "도면상의 PLC 입력",
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽; 220721 적산기 PLC.pdf · PDF 5쪽; 220721 적산기 PLC.pdf · PDF 6쪽"
+    },
+    {
+      "system": "PDF 전기도면",
+      "name": "중계 릴레이",
+      "address": "P060~P089 일부 → RY01~RY42",
+      "writer": "도면상의 PLC 출력",
+      "reader": "중계 릴레이 코일",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽; 220721 적산기 PLC.pdf · PDF 8쪽"
+    },
+    {
+      "system": "PDF 전기도면",
+      "name": "4P SOL 상충",
+      "address": "P069/06A → RY10/11 → SOL01/02",
+      "writer": "출력→중계접점",
+      "reader": "4P 집게 부하 / 기능상충",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽; 220721 적산기 PLC.pdf · PDF 11쪽 vs 220721 적산기 PLC.pdf · PDF 19쪽"
+    },
+    {
+      "system": "PDF 전기도면",
+      "name": "계량 접점",
+      "address": "P088/P089 → RY41/42 → CAS",
+      "writer": "PLC 출력·중계접점",
+      "reader": "CAS 영점/프린트 접점",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽; 220721 적산기 PLC.pdf · PDF 12쪽"
+    },
+    {
+      "system": "PDF 전기도면",
+      "name": "경보 접점",
+      "address": "P060~62 → RY01~03 → BZ1~3",
+      "writer": "PLC 출력·중계접점",
+      "reader": "BZCOM 경보음",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽; 220721 적산기 PLC.pdf · PDF 12쪽"
+    },
+    {
+      "system": "PDF 전기도면",
+      "name": "상태 표시",
+      "address": "P098~P11D 일부",
+      "writer": "도면상의 PLC 출력",
+      "reader": "패널 램프",
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽; 220721 적산기 PLC.pdf · PDF 9쪽"
+    },
+    {
+      "system": "PDF 전기도면",
+      "name": "적재 디스플레이",
+      "address": "P120~P127",
+      "writer": "도면상의 PLC 출력",
+      "reader": "디스플레이 1/2 외부 배선",
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽; 220721 적산기 PLC.pdf · PDF 18쪽"
+    }
+  ],
+  "drawings": [
+    {
+      "name": "조작반 반면도 · ASM-04",
+      "kind": "반면도",
+      "system": "PDF 전기도면",
+      "version": "광명금속(주) / 2004-10-15",
+      "path": "패널·선택/기동·표시 구성",
+      "page": 1,
+      "source": "220721 적산기 PLC.pdf · PDF 1쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=1",
+      "preview": "/documents/totalizer-02/previews/plc-01.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "조작반 조작부 · 수기본",
+      "kind": "반면도·수기",
+      "system": "PDF 전기도면",
+      "version": "작성/수기 시점 미상",
+      "path": "인쇄 버튼과 수기 변경을 구분",
+      "page": 2,
+      "source": "220721 적산기 PLC.pdf · PDF 2쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=2",
+      "preview": "/documents/totalizer-02/previews/plc-02.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "조작반 표시등 · 수기본",
+      "kind": "반면도·수기",
+      "system": "PDF 전기도면",
+      "version": "작성/수기 시점 미상",
+      "path": "표시등 수기 주소·원문 대조",
+      "page": 3,
+      "source": "220721 적산기 PLC.pdf · PDF 3쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=3",
+      "preview": "/documents/totalizer-02/previews/plc-03.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "입력 P000~P01F · ASM-09",
+      "kind": "입력",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "비상정지·모드·기동/정지·집게 조작",
+      "page": 4,
+      "source": "220721 적산기 PLC.pdf · PDF 4쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=4",
+      "preview": "/documents/totalizer-02/previews/plc-04.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "입력 P020~P03F · ASM-10",
+      "kind": "입력",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "이재기·리프트·계량·보호·센서",
+      "page": 5,
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=5",
+      "preview": "/documents/totalizer-02/previews/plc-05.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "입력 P040~P05F · ASM-11",
+      "kind": "입력",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "INGUIDE·이재기·X-LIFT·4P/7P 센서",
+      "page": 6,
+      "source": "220721 적산기 PLC.pdf · PDF 6쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=6",
+      "preview": "/documents/totalizer-02/previews/plc-06.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "출력 P060~P07F · ASM-12",
+      "kind": "출력·릴레이",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "경보·유압·집게·리프트·스토퍼·계량대",
+      "page": 7,
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=7",
+      "preview": "/documents/totalizer-02/previews/plc-07.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "출력 P080~P09F · ASM-13",
+      "kind": "출력·릴레이·표시",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "콘베어·회전·이재기·CAS·운전 램프",
+      "page": 8,
+      "source": "220721 적산기 PLC.pdf · PDF 8쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=8",
+      "preview": "/documents/totalizer-02/previews/plc-08.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "출력 P100~P11F · ASM-14",
+      "kind": "표시 램프",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "상태 램프 배선",
+      "page": 9,
+      "source": "220721 적산기 PLC.pdf · PDF 9쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=9",
+      "preview": "/documents/totalizer-02/previews/plc-09.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "출력 P120~P12F · ASM-15",
+      "kind": "디스플레이",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "P120~127 적재 디스플레이 배선",
+      "page": 10,
+      "source": "220721 적산기 PLC.pdf · PDF 10쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=10",
+      "preview": "/documents/totalizer-02/previews/plc-10.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "AC220V 부하 · ASM-16",
+      "kind": "릴레이·SOL",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "RL220/TL220 → RY접점 → MG/SOL",
+      "page": 11,
+      "source": "220721 적산기 PLC.pdf · PDF 11쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=11",
+      "preview": "/documents/totalizer-02/previews/plc-11.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "CAS·BZ 접점 · ASM-17",
+      "kind": "계량·경보",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "RY41/42→CAS영점/프린트, RY01~03→BZ1~3",
+      "page": 12,
+      "source": "220721 적산기 PLC.pdf · PDF 12쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=12",
+      "preview": "/documents/totalizer-02/previews/plc-12.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "단자대02 · 수기본",
+      "kind": "단자·수기",
+      "system": "PDF 전기도면",
+      "version": "수기 시점 미상",
+      "path": "로컬 B1/B2 표시·디스플레이",
+      "page": 13,
+      "source": "220721 적산기 PLC.pdf · PDF 13쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=13",
+      "preview": "/documents/totalizer-02/previews/plc-13.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "단자대01 · 수기본",
+      "kind": "단자·수기",
+      "system": "PDF 전기도면",
+      "version": "수기 시점 미상",
+      "path": "로컬 A1/A2 조작 입력",
+      "page": 14,
+      "source": "220721 적산기 PLC.pdf · PDF 14쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=14",
+      "preview": "/documents/totalizer-02/previews/plc-14.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "단자대04 · 수기본",
+      "kind": "단자·수기",
+      "system": "PDF 전기도면",
+      "version": "수기 시점 미상",
+      "path": "1차 A6 / 2차 A7",
+      "page": 15,
+      "source": "220721 적산기 PLC.pdf · PDF 15쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=15",
+      "preview": "/documents/totalizer-02/previews/plc-15.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "단자대03 · 수기본",
+      "kind": "단자·수기",
+      "system": "PDF 전기도면",
+      "version": "수기 시점 미상",
+      "path": "대차 A3/A4 / 3차 A5",
+      "page": 16,
+      "source": "220721 적산기 PLC.pdf · PDF 16쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=16",
+      "preview": "/documents/totalizer-02/previews/plc-16.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "로컬 A1/A2 단자표",
+      "kind": "단자표",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "입력·카운트RESET·계량/리프트 조작",
+      "page": 17,
+      "source": "220721 적산기 PLC.pdf · PDF 17쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=17",
+      "preview": "/documents/totalizer-02/previews/plc-17.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "로컬 B1/B2 단자표",
+      "kind": "단자표",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "램프·적재 디스플레이·BZ",
+      "page": 18,
+      "source": "220721 적산기 PLC.pdf · PDF 18쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=18",
+      "preview": "/documents/totalizer-02/previews/plc-18.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "대차 A3/A4·3차 A5 단자표",
+      "kind": "단자표·상충",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "A4 주소와 SOL01/02 기능 차이 미해소",
+      "page": 19,
+      "source": "220721 적산기 PLC.pdf · PDF 19쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=19",
+      "preview": "/documents/totalizer-02/previews/plc-19.webp",
+      "source_id": "totalizer-plc-20220721"
+    },
+    {
+      "name": "1차 A6·2차 A7 단자표",
+      "kind": "단자표",
+      "system": "PDF 전기도면",
+      "version": "개정 미확인",
+      "path": "INGUIDE·X-LIFT·SOL·계량대",
+      "page": 20,
+      "source": "220721 적산기 PLC.pdf · PDF 20쪽",
+      "url": "/documents/totalizer-02/source/totalizer-plc-20220721.pdf#page=20",
+      "preview": "/documents/totalizer-02/previews/plc-20.webp",
+      "source_id": "totalizer-plc-20220721"
+    }
+  ],
+  "alarms": [
+    {
+      "system": "PDF 전기도면",
+      "name": "모터과부하",
+      "address": "입력 P030 / 램프 P107",
+      "trigger": "도면상 보호 입력·표시. 실제 트립 코드·발생은 미확인.",
+      "reset": "대상 보호기·원인·현행 복구 기준 확인 전",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽; 220721 적산기 PLC.pdf · PDF 9쪽"
+    },
+    {
+      "system": "PDF 전기도면",
+      "name": "인버터이상",
+      "address": "입력 P031 / 램프 P108",
+      "trigger": "도면상 이상 입력·표시. 인버터별 코드·로직 미확보.",
+      "reset": "기기 코드·원인 대조 필요. 반복 리셋 지시 아님.",
+      "source": "220721 적산기 PLC.pdf · PDF 5쪽; 220721 적산기 PLC.pdf · PDF 9쪽"
+    },
+    {
+      "system": "PDF 전기도면",
+      "name": "경보음 1/2/3",
+      "address": "P060~P062 / RY01~03 / BZ1~3",
+      "trigger": "프로그램별 발생 조건·시간 미확보",
+      "reset": "P014 경보정지와 실제 보호 원인 해소를 구분",
+      "source": "220721 적산기 PLC.pdf · PDF 7쪽; 220721 적산기 PLC.pdf · PDF 12쪽"
+    },
+    {
+      "system": "2006 세진메탈 설명서",
+      "name": "이상 화면 5항목",
+      "address": "HMI 태그 미확보",
+      "trigger": "1/2차 콘베어 인버터·X-LIFT·이재기·유압모터 문서 화면",
+      "reset": "과거 ERROR 설명과 현재 현장 승인·안전조건을 구분",
+      "source": "사용 설명서 그림 BIN0005/BIN000B"
+    }
+  ],
+  "repair": [
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "전체 무동작",
+      "check": "명판/반번호 → 전원·모드·비상정지·보호 표시의 관찰 구간 구분",
+      "source": "PDF 4/5쪽; 설명서 보수점검",
+      "unresolved": "현재 전원·제어 회로 전체·안전 차단/재기동 미확정"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "자동 운전으로 진행 안 됨",
+      "check": "어느 단계에서 정지했는지와 원위치·제품 감지·카운트 관계 대조",
+      "source": "설명서 원위치/자동/순차 동작",
+      "unresolved": "프로그램 허가 조건·현재 설정 미확정"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "4P/7P 집게가 열리거나 닫히지 않음",
+      "check": "RS센서·X주소 설명·RY출력·SOL부하·실물 대응을 별개 대조",
+      "source": "PDF 6/7/11/19쪽; 설명서",
+      "unresolved": "SOL01/02 기능 상충·실제 공압/기계 상태 미확정"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "집게 상하 또는 회전 정지",
+      "check": "상하·회전·원위치 센서와 선행 단계 관계를 문서 안에서 추적",
+      "source": "PDF 6/7/11쪽; 설명서",
+      "unresolved": "주소 버전·위치/극성·실제 동작 미확정"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "이재기 위치/감속이 맞지 않음",
+      "check": "6쪽 PR01~04와 19쪽 A4 네 주소의 차이부터 기록",
+      "source": "PDF 6쪽 ASM-11 vs 19쪽 A4",
+      "unresolved": "현재 P048~04B인지 P04B~04E인지 미확정"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "X-LIFT 상승/하강/회전 정지",
+      "check": "제품 감지 PH·LS/PR, 고속/저속 SOL, 유압릴리프 경로 분리",
+      "source": "PDF 6/7/11/20쪽",
+      "unresolved": "현행 유압설정·하중유지·센서 극성·인터록 미확정"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "INGOT 계수 또는 정렬 불량",
+      "check": "BE01~11과 설명서 PH 계수 센서를 구분하고 스토퍼/인가이드 구간 식별",
+      "source": "PDF 6/20쪽; 설명서 계수/INGUIDE",
+      "unresolved": "P주소와 X주소 관계·현재 단수/패턴 미확정"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "적층 완료 후 취출 안 됨",
+      "check": "X-LIFT→3차 콘베어→계량대의 제품/위치 검출 구간 분리",
+      "source": "PDF 5/8/19쪽; 설명서",
+      "unresolved": "수기 변경·강제취출 허가·현재 순서 미확정"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "계량 또는 프린트 불량",
+      "check": "CAS 영점/프린트 접점과 계량대 상하 위치·실중량 표시를 구분",
+      "source": "PDF 8/12쪽; 설명서",
+      "unresolved": "CAS 모델·로드셀·교정·기록·통신 미확보"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "부저 또는 이상 램프 반복",
+      "check": "최초 발생 시각·기기 코드·정지 단계·경보 출력의 근거 수집",
+      "source": "PDF 5/7/9/12쪽; 설명서 이상 화면",
+      "unresolved": "경보정지를 원인 제거로 판단하지 않음"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "표시량·단수·적재 패턴 불일치",
+      "check": "P120~127 외부 디스플레이와 HWP 화면의 단수/적재량을 분리 대조",
+      "source": "PDF 10/18쪽; 설명서 자동/반재 그림",
+      "unresolved": "현재 HMI태그·코드·단수설정·정격 미확보"
+    },
+    {
+      "system": "문서 기반 점검 후보",
+      "symptom": "정기 점검 항목 정리",
+      "check": "센서 오염·볼트·공압/유압·리미트 배선·릴레이/퓨즈의 점검 후보 기록",
+      "source": "사용 설명서 보수점검",
+      "unresolved": "실제 점검 주기 승인·점검 결과는 별도 기록"
+    }
+  ],
+  "checks": [
+    {
+      "title": "현재 설비와 자료 적용",
+      "status": "미확정",
+      "evidence": "PDF 광명금속 2004 / HWP 세진메탈 2006 / 두인 2015 혼재",
+      "next": "명판·반번호·적용 도면·최신 개정 확인"
+    },
+    {
+      "title": "용량·적재 패턴",
+      "status": "표기 차이 보존",
+      "evidence": "개요 300/600/1TON, 조작 500/1000kg, 문서별 단수·개수 차이",
+      "next": "현재 정격·승인 패턴·HMI 설정 기록"
+    },
+    {
+      "title": "P주소와 X주소",
+      "status": "별도 체계",
+      "evidence": "PDF P000~ / 설명서 X000~; CPU·프로젝트 미제공",
+      "next": "현재 PLC 프로젝트·할당표로 관계 확인"
+    },
+    {
+      "title": "A4 이재기 주소 상충",
+      "status": "미확정",
+      "evidence": "19쪽 P048/P049/P04A/P04B vs 6쪽 P04B/P04C/P04D/P04E",
+      "next": "실물 단자·센서·프로그램 대조"
+    },
+    {
+      "title": "SOL01/02 기능 상충",
+      "status": "미확정",
+      "evidence": "19쪽 SOL01 풀림/02 잡음 vs 11쪽 SOL01 잡음/02 풀림",
+      "next": "실제 밸브·중계 릴레이·결선 확인"
+    },
+    {
+      "title": "설명서 주소 오기 후보",
+      "status": "원문 차이 보존",
+      "evidence": "7P회전 X080/X050, X-LIFT원위치 X084/X048 등",
+      "next": "동일 센서 실물·현재 프로그램 확인"
+    },
+    {
+      "title": "수기 변경·미기입",
+      "status": "확정하지 않음",
+      "evidence": "P015·P080~084 수기 수정, P03E/F 판독불명·공란",
+      "next": "수정 일자·수정자·최신도면/현장 대조"
+    },
+    {
+      "title": "집게 표시등 기능 상충",
+      "status": "원문별 보존",
+      "evidence": "3쪽 수기주소 P115/P117 위치의 인쇄는 열림, 9쪽/18쪽은 잡음",
+      "next": "램프 실제 명칭·출력 주소·현재 패널 대조"
+    },
+    {
+      "title": "타 업체 시운전 자료",
+      "status": "참고 자료",
+      "evidence": "시운전 HWP 후반 두인 2015 · 압력/수량/설정 설명",
+      "next": "현재 2번 설비 적용 승인 근거 확인"
+    },
+    {
+      "title": "PLC·HMI·인버터 원본",
+      "status": "미확보",
+      "evidence": "전기 I/O/결선도와 과거 조작 화면만 있음",
+      "next": "CPU·프로젝트·래더·타이머/파라미터·버전 백업"
+    },
+    {
+      "title": "전원·공압·유압 정격",
+      "status": "현재값 미확정",
+      "evidence": "설명서 전원·혼재된 압력 단위, 전체 동력도 부족",
+      "next": "명판·현행 정격/회로·승인 설정 대조"
+    },
+    {
+      "title": "계량·표시 인터페이스",
+      "status": "일부 접점만 확보",
+      "evidence": "CAS 영점/프린트, P120~127 디스플레이 배선",
+      "next": "CAS 모델·로드셀/교정·코드/통신 확인"
+    },
+    {
+      "title": "안전·정지·재기동",
+      "status": "미검증",
+      "evidence": "비상정지/일시정지/재개에 관한 과거 문서 설명",
+      "next": "현재 안전 회로·잔류 에너지·재기동 검증 기록"
+    },
+    {
+      "title": "HWP 페이지 배치",
+      "status": "미재현",
+      "evidence": "본문·그림 추출본. OLE/매크로 실행 안 함. 페이지 수 미확정",
+      "next": "원형 페이지 대조가 필요하면 정식 HWP PDF 내보내기 제공"
+    },
+    {
+      "title": "현장 고장·수리·운전",
+      "status": "미수행",
+      "evidence": "파일 검토와 문서화만 수행",
+      "next": "실제 관찰·측정·조치·복구 근거 별도 기록"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "현재 설비와 자료 적용",
+      "status": "미확정",
+      "source": "PDF 광명금속 2004 / HWP 세진메탈 2006 / 두인 2015 혼재",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "명판·반번호·적용 도면·최신 개정 확인"
+    },
+    {
+      "title": "용량·적재 패턴",
+      "status": "표기 차이 보존",
+      "source": "개요 300/600/1TON, 조작 500/1000kg, 문서별 단수·개수 차이",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "현재 정격·승인 패턴·HMI 설정 기록"
+    },
+    {
+      "title": "P주소와 X주소",
+      "status": "별도 체계",
+      "source": "PDF P000~ / 설명서 X000~; CPU·프로젝트 미제공",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "현재 PLC 프로젝트·할당표로 관계 확인"
+    },
+    {
+      "title": "A4 이재기 주소 상충",
+      "status": "미확정",
+      "source": "19쪽 P048/P049/P04A/P04B vs 6쪽 P04B/P04C/P04D/P04E",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "실물 단자·센서·프로그램 대조"
+    },
+    {
+      "title": "SOL01/02 기능 상충",
+      "status": "미확정",
+      "source": "19쪽 SOL01 풀림/02 잡음 vs 11쪽 SOL01 잡음/02 풀림",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "실제 밸브·중계 릴레이·결선 확인"
+    },
+    {
+      "title": "설명서 주소 오기 후보",
+      "status": "원문 차이 보존",
+      "source": "7P회전 X080/X050, X-LIFT원위치 X084/X048 등",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "동일 센서 실물·현재 프로그램 확인"
+    },
+    {
+      "title": "수기 변경·미기입",
+      "status": "확정하지 않음",
+      "source": "P015·P080~084 수기 수정, P03E/F 판독불명·공란",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "수정 일자·수정자·최신도면/현장 대조"
+    },
+    {
+      "title": "집게 표시등 기능 상충",
+      "status": "원문별 보존",
+      "source": "3쪽 수기주소 P115/P117 위치의 인쇄는 열림, 9쪽/18쪽은 잡음",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "램프 실제 명칭·출력 주소·현재 패널 대조"
+    },
+    {
+      "title": "타 업체 시운전 자료",
+      "status": "참고 자료",
+      "source": "시운전 HWP 후반 두인 2015 · 압력/수량/설정 설명",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "현재 2번 설비 적용 승인 근거 확인"
+    },
+    {
+      "title": "PLC·HMI·인버터 원본",
+      "status": "미확보",
+      "source": "전기 I/O/결선도와 과거 조작 화면만 있음",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "CPU·프로젝트·래더·타이머/파라미터·버전 백업"
+    },
+    {
+      "title": "전원·공압·유압 정격",
+      "status": "현재값 미확정",
+      "source": "설명서 전원·혼재된 압력 단위, 전체 동력도 부족",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "명판·현행 정격/회로·승인 설정 대조"
+    },
+    {
+      "title": "계량·표시 인터페이스",
+      "status": "일부 접점만 확보",
+      "source": "CAS 영점/프린트, P120~127 디스플레이 배선",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "CAS 모델·로드셀/교정·코드/통신 확인"
+    },
+    {
+      "title": "안전·정지·재기동",
+      "status": "미검증",
+      "source": "비상정지/일시정지/재개에 관한 과거 문서 설명",
+      "observation": "자료의 차이를 보존하고 현재 현장값으로 확정하지 않음",
+      "next": "현재 안전 회로·잔류 에너지·재기동 검증 기록"
+    }
+  ],
+  "tests": [
+    {
+      "title": "원본 3파일 보존",
+      "status": "문서검증 완료",
+      "evidence": "UNC 원본과 복사본 bytes/SHA-256 일치",
+      "source": "source-manifest.json"
+    },
+    {
+      "title": "PDF 전페이지 시각 검토",
+      "status": "문서검토 완료",
+      "evidence": "20쪽 렌더링·검토. 미리보기만 읽는 방향으로 회전.",
+      "source": "220721 적산기 PLC.pdf · PDF 1~20쪽"
+    },
+    {
+      "title": "HWP 본문·그림 검토",
+      "status": "문서검토 완료",
+      "evidence": "2문서 본문, 사용설명서 그림 12개. 텍스트/그림 추출본이며 원본 페이지 재현은 아님.",
+      "source": "HWP 원본 2개·추출 열람본"
+    },
+    {
+      "title": "실제 PLC·현장시험",
+      "status": "미수행",
+      "evidence": "CPU·프로젝트·실배선·운전·안전시험 근거 없음",
+      "source": "원본 3파일 범위"
+    }
+  ]
+}

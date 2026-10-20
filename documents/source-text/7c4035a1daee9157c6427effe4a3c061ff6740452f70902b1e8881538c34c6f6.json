@@ -1,0 +1,14 @@
+{
+  "sha256": "7c4035a1daee9157c6427effe4a3c061ff6740452f70902b1e8881538c34c6f6",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "width": 841.92,
+      "height": 1190.52
+    }
+  ],
+  "page_count": 1
+}

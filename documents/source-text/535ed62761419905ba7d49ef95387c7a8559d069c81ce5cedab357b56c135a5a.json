@@ -1,0 +1,14 @@
+{
+  "sha256": "535ed62761419905ba7d49ef95387c7a8559d069c81ce5cedab357b56c135a5a",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "PRIMARY WASTE REDUCER UNIT SPECIFICATIONS\nModel PR770 Customer Name Sejin\n200 HP (149 kW) Customer Order 411.1493\nSerial No. P0196 Job No 11.1399\nElectrical Cutting Table Dimensions\nVoltage/Phase/Freq. 440/3/60 Cutting Chamber Width 58 in (1467 mm)\nControl Voltage 24 VDC Sinking Inputs Cutting Chamber Length 74 in (1886 mm)\nOverall Width 89 in (2250 mm)\nPlanetary Gear Reducer RH Drive LH Drive Overall Length 163 in (4128 mm)\nManufacturer Brevini Brevini\nModel SL6003 SL6003\nRatio 85.28 85.28\nHydraulic Motors PARKER\nManufacturer V14-160 Weights\nForward Cross Port Relief 4,650 psi (321 Bar) Primary Reducer Assembly 21,805 lb (9,810 kg)\nReverse Cross Port Relief 4,650 psi (321 Bar) Heaviest Piece - Installation\nPart Name Cutting Table\nHydraulic Pumps 'A' Shaft B' Shaft Part Weight 21,675 lb (9,750 kg)\nManufacturer PARKER Maintenance weights\nModel #1 Pump P2-105 Motor and Reducer 1,140 lb (510 kg)\nModel #2 Pump P2-105 Shaft (drive) 2,850 lb (1,280 kg)\nTotal Displacement 12.8 cu.in./rev\n(210 ml/rev)\nCutters\nCutter Connection Welded Shaft Speeds\nCutter Configuration 2x5 'A' Shaft (Maximum) 41 rpm\nCutter Diameter 27.0 in (686 mm) B' Shaft (Maximum) 41 rpm\nThickness (Nominal) 3.00 in (76 mm)\nShaft Torque (Peak)\n'A' Shaft 49,700 ft-lb (67,400 Nm)\nB' Shaft 49,700 ft-lb (67,400 Nm)\nBearing Nut Torque\nBearing Lock Bolt Torque 18 ft-lb (25 Nm) Cutter Force at Tip (Peak)\n'A' Shaft 44,200 lbs (196,500 N)\nOil Capacities B' Shaft 44,200 lbs (196,500 N)\nHydraulic Power Unit 310 gal (1170 L)\nHydraulic Motor Case 1.0 gal\nPlanetary Gear Reducer 6.8 gal (26 L) Cutter Tip Speed at Tip\n'A' Shaft (Maximum) 290 ft/min (1.48 m/s)\nHPU Settings Open Loop Hydraulics B' Shaft (Maximum) 290 ft/min (1.48 m/s)\nMaximum Motor Flow 100 gpm (378 L/min)\nMax. Operating Pressure 4,500 psi (310 Bar) Interconnecting Hydraulic Hoses\nPump Safety Relief 4,650 psi (321 Bar) (4) 5000psi  hoses w/ 1-1/4\" SAE code 62 Flange Ends\nOverloaded Pressure Switch 4,200 psi (290 Bar) Case Drain - (1) 500psi hose w/ 3/4\" JIC Female Ends\nDelta P 350 psi (24 Bar)\nRevised: 10/24/11 TAW\nMotor Flushing Supply - (2) 500psi hoses w/1/2in. JIC \nFemale Ends\nspecs.XLS SSI Shredding Systems, Inc. Page 1 of 1",
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "page_count": 1
+}

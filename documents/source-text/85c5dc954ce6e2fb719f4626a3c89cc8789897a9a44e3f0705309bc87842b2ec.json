@@ -1,0 +1,14 @@
+{
+  "sha256": "85c5dc954ce6e2fb719f4626a3c89cc8789897a9a44e3f0705309bc87842b2ec",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "개요/적용\r\nPotentiometer 연결하여 4~20mA\r\n변경하는 Converters 입니다.\r\n사양\r\n1) 전원 전압 :110 / 220V AC\r\n2) 입력신호 :0~1KΩ\r\n3) 사용온도: -20 ~ +60\r\n4) 취부 형태 :Inside Mounting\r\n5) 출력신호 :DC 4~20mA\r\n6) LOAD :MAX 600Ω\r\n설정 방법\r\n1) 저항값을 0Ω 또는 가장 작은 저항값을\r\n맞추고 Zero 을 돌러 4mA를 맞춘다. 2) 저항값을 1kΩ 또는 가장 각 가운 저항값을\r\n맞추고 Span 을 돌러 20 mA를 맞춘다. 3) 1.항과2.항을 1번 반복하여 맞춘다\r\n모양\r\nInput \r\n- + 0V 110V 220V \r\nOutput Power \r\n결선도\r\nPotentiometer\r\n(SHA-R/I) \r\nL C\r\n6 5\r\nH\r\n4 3\r\n7 8 1 2\r\n경기도 부천시 오정로134번길24 \r\n TEL: 032)681-5817 \r\n032)682-2038\r\nFAX :032) 204-0172\r\nE-mail : shlevel@naver.com\r\nHTTP://www.shlevel.co.kr ",
+      "width": 595.3200073242188,
+      "height": 841.9200439453125
+    }
+  ],
+  "page_count": 1
+}

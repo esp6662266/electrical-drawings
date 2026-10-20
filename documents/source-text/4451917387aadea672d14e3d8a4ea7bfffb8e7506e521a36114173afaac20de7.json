@@ -1,0 +1,14 @@
+{
+  "sha256": "4451917387aadea672d14e3d8a4ea7bfffb8e7506e521a36114173afaac20de7",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "1 5 E 3 0 1 4 9\nCOMB. SYSTEM LAY-OUT\n시 스 템\nOIL FLOW METER\nPRESSURE S/W.(HIGH)\nPILOT BURNER \nBUTTERFLY V/V.\nMAIN BURNER\n2\n5\n12\nPRESSURE GAUGE\nOIL CONTROL V/V. & MOTOR\n15\n14\n13\n17\n18\n2\nAIR REGULATOR\n21\n19\n20\n22\n23\nOIL REGULATING COCK\nAIR CONTROL V/V.\nOCV-15, M7284\n20A\nPB-3S(L)\nDH-LNOG-20FS\nFLEXIBLE TUBE\nR-15D-8\n15A\n9\n1\n25\n29\n16 OIL SOL.V/V. 15A\n(0.5kg/cm )\n10\nAIR CONTROL V/V. & MOTOR\n24\n5\nPILOT GAS SOL.V/V.\n25\n50A\n(DH-LNOG-20FS) : CHIP건조로(1차)\n6\nFLEXIBLE TUBE 150Ax300L\n150A\nGAS\n2\n50A\n10A\n15A\n16 17 18\n3\n2\n4\n15\nCOMP.AIR\n   (4kg/cm )2\n19 20 21\n150A\n24\n(기존품 사용)\nU.V SENSOR\n3\n4\nTRANSFORMER & I/PLUG\n6 GAS FILTER\n9 PRESSURE S/W.(LOW)\nGAS REGULATOR\nBLOWER7\n8\nGAS CONTROL V/V. & MOTOR\nGAS MAIN SOL.V/V.\n11\n10\n8\nACV-15\n10Ax950L\n2\nFLEXIBLE HOSE26\n27\n2\n15Ax950L\n28\nFLEXIBLE HOSE\nFLEXIBLE HOSE\n27\n27\n26\n26\nCONTROL PANEL\n20A\n15A\n10A\n15A\n20A\nCHECK V/V.\n15A\n15A\n3. 화염 감지 장치\n2. 안전 차단 장치\n1. 자동 점화 장치\nCONTROL PANEL\n4. 자동 제어 장치\n22 (기존품 사용)\nFBV-150\n(기존품 사용)\n500mmAQx50m/min\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\n(기존품 사용)\nFBV-150AC\n(기존품 수정 및)\n(신규LOCAL별도 설치)\n15A\n(주)\n150Ax230L\n50Ax400L\n20A\n150A\n11\n3\n7\n14\n12 1328\n23\nPRESSURE GAUGE\n28 PRESSURE S/W.(LOW)\n(기존품 사용)\n2000mmAQ\nDU50\nOIL\n   (4kg/cm )2\nOIL RETURN\n25A\n25A\nSERVICE TANK\n(정제유)\nOIL RETURN\nRELIEF V/V.\n42\nOIL INLET\nGATE VALVE\nHEATER\n13\n7) (         ) PHANTOM LINE 및 청색선 : OUT OF SCOPE\n8)  PUMP 기동용 PANEL 및 1차 배관 : OUT OF SCOPE",
+      "width": 792.0,
+      "height": 612.0
+    }
+  ],
+  "page_count": 1
+}

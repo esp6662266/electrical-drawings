@@ -1,0 +1,14 @@
+{
+  "sha256": "81d4df8f4ec40cce38fa05be774cce1de425ca033a262356017c3b9fe9ec3c2f",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "6195 6500 6500 \n9600 \n6500 6500 \n5700 \n6500 6195 4500 \n35000 \n8669 9000 9000 9000 8669 \n51390 \n44338 \n6500 \n배수로 \n방지기 25A \n작업장 25A \nCOMP 25A \n32A 25A \n공무 작업장 \n25A \nAIR 80A \nLNG 80A \n타이어 교체 25A \n(4300) \n(5200) \n250 \n1150 \n타이어 보관장 \n                   L12M X H4.8M X W300 \n                   L12M X H4.8M X W300 \n                   \n자재 투입 \n 크레인 \n \n조정실 \n슈레드 \n700 \n(6300 X 5000) \nACB \nMCCB \nP-1 P-4 \nP-2 \nP-3 \nTR ",
+      "width": 720.0,
+      "height": 540.0
+    }
+  ],
+  "page_count": 1
+}

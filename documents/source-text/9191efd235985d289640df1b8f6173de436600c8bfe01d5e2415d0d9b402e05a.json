@@ -1,0 +1,1040 @@
+{
+  "sha256": "9191efd235985d289640df1b8f6173de436600c8bfe01d5e2415d0d9b402e05a",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Metasol \r\n배선용차단기 / 누전차단기\r\nMolded Case Circuit Breakers / \r\nEarth Leakage Circuit Breakers\r\nMetasol 배선용차단기 / 누전차단기",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 2,
+      "text": "배선용차단기/누전차단기\r\nMolded Case Circuit Breakers / Earth Leakage Circuit Breakers",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 3,
+      "text": "Contents\r\n외부 / 내부구조\r\n기종일람표 MCCB\r\n기종일람표 ELCB\r\n형명체계\r\n형명 및 정격 MCCB\r\n형명 및 정격 ELCB\r\n부속장치\r\n특성곡선\r\n외형치수\r\n기술자료\r\n1-1 ~ 1-20\r\n2-1 ~ 2-10\r\n3-1 ~ 3-4\r\n4-1 ~ 4-2\r\n5-1 ~ 5-24\r\n6-1 ~ 6-21\r\n7-1 ~ 7-27\r\n8-1 ~ 8-8\r\n9-1 ~ 9-31\r\n10-1 ~ 10-18\r\n배선용차단기/\r\n누전차단기\r\n전력 솔루션 분야 국내 1위를 넘어 글로벌 리더로 도약하고 있습니다�\r\nUpgraded for the \r\nGlobal Best Worth�",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 4,
+      "text": "1-3\r\nMeta Solution\r\nMCCB = ELCB\r\n저압 차단기의 新 표준\r\n\t… 시리즈 ",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 5,
+      "text": " 1-4\r\nMetasol MCCB/ELCB\r\nMetasol\r\n배선용차단기 / 누전차단기\r\n저압 차단기의 新 표준\r\n\t… 시리즈 \r\n• Ui = 1000V\r\n• Uimp = 8kV\r\n• 호환성 및 디자인 차별화\r\n- 기존 Meta-MEC과 취부호환 100%\r\n- 외관 차별화 Design\r\n• MCCB와 ELCB의 외형 치수 동일화\r\n• 선택차단 보호협조성능 향상\r\n- Susol / Meta-MEC 대용량과의 \r\n선택차단 보호협조 조합 사용성 증대\r\n• 외관 차별화 Design\r\n• 차단용량 향상 (AC460V기준)\r\n- N100AF : 10  18kA\r\n- S125AF : 25  37kA\r\n- S250AF : 25  37kA\r\n- H250AF : 35  50kA\r\n- N400AF : 25  37kA\r\n- S400AF : 35  50kA\r\n- S630AF : 50  65kA\r\n- S800AF : 50  65kA",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 6,
+      "text": "1-5\r\nMCCB/ELCB 차단용량 업그레이드\r\nABH50c\r\n30AF 60AF\r\n14kA\r\n50AF 100AF 125AF 250AF 400AF 630AF 800AF 1000AF 1200AF\r\nABS30c\r\nABS50c\r\nABN50c\r\nABS60c ABN100c\r\nABN100d\r\nABH250c\r\nABS250c\r\nABN250c\r\nABN60c\r\n18kA\r\n37kA\r\n26kA\r\n50kA\r\n65kA\r\n75kA\r\nABL400c\r\n85kA\r\nABH400c\r\nABS400c\r\nABN400c\r\nABL630c\r\n85kA\r\nABS630c\r\nABN630c\r\nABL800c\r\n85kA\r\nABS800c\r\nABN800c\r\n85kA\r\n460V\r\nABH125c\r\nABS125c\r\nABL1000b\r\n85kA\r\nABS1000b\r\nABL1200b\r\n85kA\r\nABS1200b ABL125c\r\n60kA\r\nABL250c\r\n60kA\r\n Metasol MCCB\r\n차단용량 비교표 - Up grade현황",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 7,
+      "text": " 1-6\r\nShort-circuit breaking capacity Metasol MCCB/ELCB\r\n60AF\r\nEBH125c\r\nEBS125c\r\n30AF 50AF 100AF 125AF 250AF 400AF 630AF 800AF 1000AF 1200AF\r\nEBS30c\r\nEBH50c\r\nEBS50c\r\nEBN50c\r\nEBS60c EBN100c\r\nEBH250c\r\nEBS250c\r\nEBL400c\r\n85kA\r\nEBN250c\r\nEBH400c\r\nEBS400c\r\nEBN400c\r\nEBL630c\r\n85kA\r\nEBS630c\r\nEBN630c\r\nEBS800c\r\nEBN800c\r\nEBN60c\r\n18kA\r\n37kA\r\n50kA\r\n65kA\r\n75kA\r\n85kA\r\n14kA\r\n26kA\r\n460V\r\nEBS1000b\r\n85kA\r\nEBS1200b\r\n85kA\r\nEBL800c\r\n85kA\r\n Metasol ELCB\r\n차단용량 비교표 - Up grade현황\r\n● N100AF : \r\n10 18kA\r\n● S125AF : \r\n25 37kA\r\n● S250AF : \r\n25 37kA\r\n● H250AF : \r\n35 50kA\r\n● N400AF : \r\n25 37kA\r\n● S400AF : \r\n35 50kA\r\n● S630AF : \r\n50 65kA\r\n● S800AF : \r\n50 65kA\r\n 차단용량 향상 (AC460V기준)\r\nABL\r\nABH\r\nABH\r\nABS\r\nABE\r\nABS\r\nABN",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 8,
+      "text": "1-7\r\n● 기존 Meta-MEC시리즈와 100% 취부 호환성을 가지고 있습니다\r\n● Panel가공시 사용될 주요치수 (Depth, Cutout등)도 표준화 되어 있습니다\r\nMCCB/ELCB 호환성 및 표준화\r\n105×165×60mm 90×155×60mm 75×130×60mm\r\n30AF AF\r\nType\r\n50AF 60AF 100AF 125AF 250AF 400AF 630AF 800AF 1000AF 1200AF\r\nMetasol MCCB\r\nABN\r\nABS\r\nABH\r\nABS60c\r\n18kA\r\nABN60c\r\n14kA\r\nABS400c\r\n50kA\r\nABH400c\r\n65kA\r\nABN400c\r\n37kA\r\nABN100c 18kA\r\nABN100d 26kA\r\nABN100e 31kA\r\nABS30c\r\n14kA\r\nABS50c\r\n18kA\r\nABN50c\r\n14kA\r\nABH50c\r\n50kA\r\nABH125c\r\n50kA\r\nABL125c\r\n60kA\r\nABS125c\r\n37kA\r\nABH250c\r\n50kA\r\nABL250c ABL 60kA\r\nABL400c\r\n85kA\r\nABS250c\r\n37kA\r\nABN250c\r\n26kA\r\nABS630c\r\n65kA\r\nABN630c\r\n37kA\r\nABS800c\r\n65kA\r\nABL630c\r\n85kA\r\nABL800c\r\n85kA\r\nABN800c\r\n37kA\r\nABL1000b\r\n85kA\r\nABS1200b\r\n65kA\r\nABL1200b\r\n85kA\r\nABS1000b\r\n65kA\r\n주) 치수는 3극 기준입니다. 차단용량은 AC460V기준입니다.",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 9,
+      "text": " 1-8\r\nMetasol MCCB/ELCB\r\n● MCCB와 ELCB의 외형 치수가 동일합니다\r\n50mm\r\n60mm\r\n75×130×60mm 90×155×60mm 105×165×60mm\r\n30AF AF\r\nType\r\n50AF 60AF 100AF 125AF 250AF 400AF 630AF 800AF 1000AF 1200AF\r\nMetasol ELCB\r\nEBN\r\nEBS\r\nEBH\r\nEBS60c\r\n18kA\r\nEBN60c\r\n14kA\r\nEBS400c\r\n50kA\r\nEBH400c\r\n65kA\r\nEBN400c\r\n37kA\r\nEBN100c\r\n18kA\r\nEBS30c\r\n14kA\r\nEBS50c\r\n18kA\r\nEBN50c\r\n14kA\r\nEBH50c\r\n50kA\r\nEBH125c\r\n50kA\r\nEBS125c\r\n37kA\r\nEBH250c\r\n50kA\r\nEBL EBL400c\r\n85kA\r\nEBS250c\r\n37kA\r\nEBN250c\r\n26kA\r\nEBS630c\r\n65kA\r\nEBN630c\r\n37kA\r\nEBS800c\r\n65kA\r\nEBL630c\r\n85kA\r\nEBL800c\r\n85kA\r\nEBN800c\r\n37kA\r\nEBS1000b\r\n85kA\r\nEBS1200b\r\n85kA\r\n주) 치수는 3극 기준입니다. 차단용량은 AC460V기준입니다.",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 10,
+      "text": "1-9\r\nMCCB/ELCB 부속장치\r\n 부속장치의 다양성-Metasol 차단기\r\n● 기존 Meta-MEC시리즈보다 다양한 부속장치를 제공합니다.\r\n● 부속장치는 취부 및 사용이 편리한 방식으로 되어 있습니다.\r\n● MCCB와 ELCB 공용으로 사용하며, 호환성 범위를 최대화 하였습니다.\r\n1-9",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 11,
+      "text": " 1-10\r\nMetasol MCCB/ELCB\r\n부속장치 개요\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n 배선용차단기/누전차단기\r\n내부부속장치\r\nPlug-in (누전차단기 사용불가)\r\n외부조작핸들 (직결형)\r\n외부조작핸들 (Keylock형)\r\n외부조작핸들 (연장형)\r\n이면형터미널\r\n터미널커버 (Short, Long)\r\n절연 Barrier\r\nHandle Lock\r\n전동개폐장치 (MOP)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 12,
+      "text": "1-11\r\n●\r\n●\r\n●\r\n Metasol 내부부속장치\r\n내부부속장치는 MCCB와 ELCB를 포함하여 전모델 (30~250AF) 공용으로 사용할 수 있습니다.\r\n● 30~250AF : MCCB/ELCB 전모델 공용사용 (ELCB는 SHT와 UVT를 사용할 수 없습니다)\r\n● 400~800AF : MCCB/ELCB 전모델 공용사용\r\nMCCB/ELCB 내부부속장치\r\n●\r\n1-11",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 13,
+      "text": " 1-12\r\nMetasol MCCB/ELCB\r\n경보접점 (Alarm Switch, AL)\r\nAL (경보접점) 은 차단기의 Trip 상태를 외부로 표시하기 위해 사용하는 장치입니다. 차단기가\r\n과부하, 단락 또는 SHT, UVT등으로 인해 트립된 경우 이를 외부로 표시하기 위해 사용하는\r\n장치입니다. 이 장치는 차단기가 사고에 의해 자동으로 트립된 경우 및 Trip 버튼을 누르는\r\n경우도 동작을 하고, 수동개폐시 (On/Off) 에는 동작하지 않습니다.\r\n보조접점 (Auxiliary Switch, AX)\r\nAX (보조접점) 은 차단기의 On, Off 상태를 외부로 표시하기 위해 사용하는 장치입니다. \r\n1개의 AX는 C접점으로 구성되어 있습니다.\r\n부족전압트립장치 (Under-voltage trip, UVT)\r\nUVT (부족전압트립장치) 는 선로 전압이 정격의 20~70% 정도까지 내려가면 차단기를 자동으로\r\n트립 (Trip) 시킬 수 있도록 제작된 장치입니다. 트립동작은 시간의 지연없이 순간적으로 실행되며\r\n전압이 정격의 85%까지 회복되지 않는 한 차단기는 재투입 (Reset 및 On) 되지 않습니다.\r\n전압트립장치 (Shunt Trip, SHT)\r\nSHT (전압트립장치) 는 외부에서 SHT로 특정 전압이 인가 (트립신호) 될 경우 차단기를 트립 (Trip) \r\n시킬 수 있도록 제작된 장치로써 연속 정격형 입니다. 트립동작은 시간의 지연없이 \r\n순간적으로 실행됩니다.\r\n내부 부속장치\r\n● 30~250AF : 전모델 공용\r\n● 400~800AF : 전모델 공용\r\nInternal Accessories\r\n53 103 203\r\nAX\u001d AL\u001d AL\u001d AX\u001d\r\nSHT/UVT\u001d\r\nAX\u001d AL\u001d AL\u001d AX\u001d\r\nSHT/UVT\u001d\r\nAX\u001d AL\u001d AL\u001d AX\u001d\r\nSHT/UVT\u001d",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 14,
+      "text": "1-13\r\nMCCB/ELCB 외부부속장치\r\n Metasol 외부부속장치\r\n안전성을 증대시키고 다양한 용도의 설치 및 사용에 적합하도록 \r\n설계되어 있습니다.\r\n1-13",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 15,
+      "text": " 1-14\r\nMetasol MCCB/ELCB\r\nExternal Accessories\r\n각종 터미널\r\n차단기에 연결할 전선이나 부스바의 크기, 모양에 따라 차단기의 단자를 선택할 수 있습니다. \r\n- 표면접속형 : 단자대\r\n- 이면접속형 : Flat형태, Round 형태\r\n단자커버\r\n차단기의 단자를 외부와 절연시켜 사람의 손이나 드라이버 등 도구가 통전부에 직접 닿아 발생할 \r\n수 있는 감전 및 단락사고를 방지해 줍니다.\r\n전동개폐장치 (MOP)\r\n차단기를 원방에서도 On/Off가 가능토록 하는 장치입니다. 차단기의 핸들을 손으로 직접 \r\n조작하지 않아도 되므로 안전하며, 자동화에 적합합니다.\r\n절연베리어\r\n차단기의 단자간 홈에 설치하여 상간 절연성능을 향상시켜줍니다.\r\n핸들잠금장치\r\n차단기의 잘못된 조작을 막기 위해 차단기핸들을 고정시키는 잠금장치입니다.\r\n고정형 (Fixed)과 키록부착형 외부 조작핸들이 있습니다.\r\n외부 조작핸들 \r\n차단기의 핸들을 패널의 도어에서 조작할 수 있는 회전식 (Rotary) 핸들입니다. \r\n차단기와 패널 도어의 위치에 따라 직결형과 확장형이 있습니다.\r\n플러그인 (Plug-in) 차단기\r\n차단기 교체 및 유지보수 시 단자부위를 접촉하지 않고 매우 빠르고 쉬운 작업이 가능합니다.",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 16,
+      "text": "1-15\r\nUi1000V\r\nUi1000V\r\nUi1000V\r\n차단성능 :\r\nIcs (o-co-co)=100%Icu (o-co)\r\n사고로 인해 정전되는 시간을 최소화하려면 차단된\r\nMCCB를 교체하지 않고 재사용이 가능해야 합니다.\r\n그러나 일반적인 MCCB는 단락사고시 50%정도 \r\n차단성능이 떨어지는 문제가 있었습니다.\r\n(Ics=50%Icu). 그래서 두번의 차단 (o-co) 후에는\r\n반드시 차단기를 바로 교체해야 했습니다.\r\nMetasol MCCB는 Susol MCCB와 함께 3번째\r\n차단 성능도 처음 성능 그대로를 보증합니다.\r\n(Ics=100%Icu). 이것은 사고시 정전시간을 최소화\r\n하는데 매우 도움이 됩니다.\r\n선로보호방식의 주목적은 연결된 기기가 손상되지 않도록 막는 것이고 또한 사고로 인해 정전되는\r\n영역과 시간을 최소화하는 것입니다.\r\n이를 위해 첫째로 고려해야 할 사항은 적용할 MCCB가 적합한가 하는 것이고 다음이 사용할 보호\r\n방식의 결정인데 이는 크게 선택차단 (Discrimination)과 종속차단 (Cascading) 두 가지로 \r\n구분되며 선택차단이 가능한 MCCB만이 사고로 인해 파급되는 영역을 최소화 시킬 수 있습니다.\r\nMetasol MCCB는 Susol MCCB와 최적의 선택차단협조를 할 수 있습니다.\r\nMCCB/ELCB 선택차단\r\nContinuous\r\nsupply\r\nShort-circuit \r\npoint\r\nMain breaker\r\nBranch breaker\r\nHealthy circuit",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 17,
+      "text": " 1-16\r\nMetasol MCCB/ELCB\r\nUi1000V\r\nUi1000V\r\nUi1000V\r\nDiscrimination",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 18,
+      "text": "1-17\r\n정격주파수 적용범위 적용규격\r\nIEC60947-2기준에 따른\r\n선로절연성능에 적합함의 표시\r\n제품명\r\n전원측단자\r\n인증규격표시\r\n제품의 Brand\r\n핸들 (On/Off조작)\r\n개로 (Off) 위치표시\r\n폐로 (On) 위치표시\r\n트립테스트버튼\r\n회사로고\r\n차단기 고정용 구멍\r\n차단기 고정용 구멍\r\n(A)\r\n0.10.2 0.51\r\n00.2 0.51\r\n[(s)\r\nUi1000V\r\n부하측단자\r\n차단기 형명\r\n• ABS\r\n• 250AF : 프레임크기\r\n차단기 성능\r\n• Ui : 정격절연전압\r\n• Uimp : 정격임펄스내전압\r\n• Ue : 정격사용전압\r\n• Icu : 극한차단전류\r\n• Ics : 서비스차단전류\r\n배선용차단기 / MCCB\r\nMCCB\r\n외부구조 및 표기사항",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 19,
+      "text": " 1-18\r\nMetasol MCCB/ELCB\r\n정격주파수 적용범위 적용규격\r\nIEC60947-2기준에 따른\r\n선로절연성능에 적합함의 표시\r\n차단기 고정용 구멍\r\n(A)\r\n0.10.2 0.51\r\n00.2 0.51\r\n[(s)\r\nUi1000V\r\n제품명\r\n전원측단자\r\n인증규격표시\r\n제품의 Brand\r\n핸들 (On/Off조작)\r\n폐로 (On) 위치표시\r\n개로 (Off) 위치표시\r\n트립테스트버튼\r\n(과전류 동작시험)\r\n트립테스트버튼(누전시험)\r\n회사로고\r\n차단기 고정용 구멍\r\n부하측단자\r\n누전 트립 트립창\r\n정격감도 전류설정스위치\r\n부동작시간 선택 스위치\r\n차단기 형명\r\n• EBH\r\n• 250AF : 프레임크기\r\n누전차단기 / ELCB\r\nELCB\r\n1",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 20,
+      "text": "1-19\r\n② 아크소호부(Arc-extinguishing unit)\r\n당사 특허기술인 PASQ형 \r\n아크소호장치 적용\r\nPASQ : Puffer Assisted Self-quenching\r\n•단시간 내에 아크전압을 억제시키는\r\n성능이 뛰어남\r\nHybrid\r\nChamber\r\nGrid\r\nAss’y\r\n① 핸들 (Handle)\r\n• On / Off / Reset 기능\r\n•Reset핸들이 트립위치에 있을 경우 핸들을 먼저 \r\nOff 위치로 전환하는 동작으로, 이 위치에서 \r\n On이 가능하게 됩니다.\r\n•트립프리 (Trip-free) \r\n핸들이 On위치에 고정되어 있어도 사고발생의 \r\n경우 차단기는 트립됩니다.\r\n③ 트립테스트버튼(Trip Button)\r\n이 버튼을 누르면 차단기는 트립되는데 이로써 \r\n다음과 같은 사항을 점검할 수 있습니다.\r\n• 경보접점 (AL)의 동작\r\n• 기구부의 정상동작\r\n• 수동 리셋동작\r\n배선용차단기 / MCCB\r\n① 핸들\r\n단자부\r\n접점부\r\n개폐기구부\r\n② 아크소호부\r\n트립부\r\n③ 트립테스트버튼\r\nPASQ 소호방식의 적용\r\n• 한류반발 극대화 구조 (U자형 고정구조)\r\n• 가동자 Toggle구조\r\n- 단락전류에 의해 가동대 반발동작 시\r\n 일정 각도이상에서 반전구조\r\n한류구조 적용- (개극/개리시간)\r\n•PASQ 소호방식 적용으로 \r\n단시간 내에 아크전압을 \r\n억제시켜 차단시간을 단축\r\n내부구조 및 적용기술",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 21,
+      "text": " 1-20\r\nMetasol MCCB/ELCB\r\n① 누전표시창\r\n•정상상태시 표시창에 노랑, 누전에 의한 트립시 \r\n표시창에 적색으로 표시됩니다.\r\n② 누전 Test Button\r\n• Button동작시 저항소손을 방지하기 위하여\r\n 특수 설계하여 신뢰성을 향상시켰습니다.\r\n③ 누전검출장치 (ZCT + 회로부)\r\n•신뢰성 향상을 위하여 3상 입력전원방식을 \r\n채택하였으며 사용시 계통전압의 이상시\r\n (어느 한상의 단선)에도 안전하게 누전전류를 \r\n 차단할 수 있도록 신뢰성을 강화 하였습니다.\r\n누전차단기 / ELCB\r\n① 누전표시창\r\n② 누전Test Button\r\n③ 누전검출장치 \r\n(ZCT + 회로부)\r\n3상 전원공급방식 적용\r\n• Trip Lever의 슬라이딩 \r\n구조 적용 \r\n• 해석을 통한 트립력 \r\n최적화 설계\r\n•Button방식 적용으로 누전 \r\n시험부 신뢰성 확보\r\n최적설계를 통한 코일 구동 신뢰성 확보\r\n• 1상 결상시에도 누전동작 \r\n신뢰성 확보\r\n• 신 IEC 규격 적용\r\n1",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 22,
+      "text": "2-1\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF\r\nType E-type S-type N-type S-type H-type N-type S-type N-type S-type H-type L-type N-type S-type H-type L-type\r\n형명 및 극수 2극 (2-pole) ABE32b ABS32c ABN52c ABS52c ABH52c ABN62c ABS62c ABN102c ABN102d ABN102e ABS102c ABH102c ABL102c ABN202c ABS202c ABH202c ABL202c\r\n3극 (3-pole) ABE33b ABS33c ABN53c ABS53c ABH53c ABN63c ABS63c ABN103c ABN103d ABN103e ABS103c ABH103c ABL103c ABN203c ABS203c ABH203c ABL203c\r\n4극 (4-pole) - ABS34c ABN54c ABS54c ABH54c ABN64c ABS64c ABN104c ABN104d ABN104e ABS104c ABH104c ABL104c ABN204c ABS204c ABH204c ABL204c\r\n정격전류, In A 3, 5, 10, 15,\r\n 20, 30\r\n(3, 5, 10),주1)\r\n15, 16, 20, 25, \r\n30\r\n15, 16, 20, 25, 30, 32, 40, 50 15, 16, 20, 25, \r\n30, 32, 40, 50, 60\r\n15, (16), 20, (25), 30, (32), \r\n40, 50, 60, (63), 75, (80), 100 주8)\r\n15, (16), 20, (25), 30, (32), 40, \r\n50, 60, (63), 75, (80), 100, 125 주9) 100, 125, 150, (160), 175, 200, 225, 250 주9)\r\n정격전압, Ue AC (V) 460 690 690 690 690 690 690 690 690 690 690 690 690 690 690 690 690\r\nDC (V) - 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500\r\n정격절연전압, Ui V 460 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000\r\n 정격임펄스전압, Uimp kV 6 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V - 2.5 2.5 5 10 2.5 5 5 7.5 (5) 7.5 (5) 8 10 10 (10) 8 8 10 10 (10)\r\n480/500V - 7.5 (5) 7.5 10 35 7.5 10 10 14 (10) 14 (10) 26 35 35 (35) 18 26 35 35 (35)\r\n415/460V 2.5 14 (10) 14 18 50 14 18 18 26 (18) 31 (18) 37 50 60 (50) 26 37 50 60 (50)\r\n380V 2.5 18 (14) 18 22 50 18 22 22 30 (22) 31 (22) 42 50 60 (50) 30 42 50 60 (50)\r\n220/250V 5 30 (25) 30 35 100 30 35 35 50 (35) 65 (35) 85 100 125 (100) 65 85 100 125 (100)\r\nDC 500V (3극) - 5 5 10 30 5 10 10 15 (10) 15 (10) 20 30 30 (30) 10 20 30 30 (30)\r\n250V (2극) - 5 5 10 30 5 10 10 15 (10) 15 (10) 20 30 30 (30) 10 20 30 30 (30)\r\nIcs=%×Icu 50 100 100 100 100 100 100 100 ( ) ( ) 100 100 ( ) 100 100 100 ( )\r\n외형치수 (mm) W×H×D\r\n75×96×60\r\n75×130×60 75×130×60 90×155×60 75×130×60 75×130×60 90×155×60 105×165×60\r\n (3극) (외형도 1) (외형도 1) (외형도 2) (외형도 1) (외형도 1) (외형도 2) (외형도 3)\r\n주 ) 1. S-type의 정격차단전류 중 ( )는 3, 5, 10A 정격전류 제품만 해당합니다. 2. 50/60Hz 공용사용 가능합니다. 3. 안전인증 취득정격은 220V, 460V 기준입니다. 4. DC 차단전류는 참고치 입니다. \r\n5. 개정된 KS('11, '12)규격에 의해 인증완료 (220V, 460V) 6. 신 KS에서는 3극 차단기의 2극 변형 제품에 대하여 정의하지 않습니다. 7. ABN100d, ABN100e, ABL125c, ABL250c Type의 경우 Ics=( )안의 kA임\r\n8. 100AF의 정격전류 중 ( )는 ABN100c/ABN100d 제품만 해당합니다.\r\n9. 125AF, 250AF의 정격전류 중 ( )는 L-Type은 해당되지 않습니다.\r\n* 상세 기술자료는 상세정격(5-1쪽 ~ 5-14쪽), 특성곡선(8-1쪽 ~ 8-3쪽), 외형치수(9-1쪽 ~ 9-4쪽)를 참고해주세요\r\n30AF AF\r\nType 50AF 60AF 100AF 125AF 250AF\r\nMetasol MCCB\r\nABH\r\nABL\r\nABH50c\r\n50kA\r\nABH125c\r\n50kA\r\nABL125c\r\n60kA\r\nABH250c\r\n50kA\r\nABL250c\r\n60kA\r\nABS ABS60c\r\n18kA\r\nABS30c\r\n14kA\r\nABS50c\r\n18kA\r\nABS125c\r\n37kA\r\nABS250c\r\n37kA\r\nABN ABN60c\r\n14kA\r\nABN100c\r\n18kA\r\nABN100d\r\n26kA\r\nABN100e\r\n31kA\r\nABN50c\r\n14kA\r\nABN250c\r\n26kA\r\n(외형도 1)\r\n75\r\n50 58\r\n50\r\n4.5\r\n60\r\n64\r\n68\r\n82\r\n50\r\n130\r\n84\r\n115\r\n7.4\r\n기종일람표 MCCB\r\n배선용차단기",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 23,
+      "text": "Metasol MCCB/ELCB\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF\r\nType E-type S-type N-type S-type H-type N-type S-type N-type S-type H-type L-type N-type S-type H-type L-type\r\n형명 및 극수 2극 (2-pole) ABE32b ABS32c ABN52c ABS52c ABH52c ABN62c ABS62c ABN102c ABN102d ABN102e ABS102c ABH102c ABL102c ABN202c ABS202c ABH202c ABL202c\r\n3극 (3-pole) ABE33b ABS33c ABN53c ABS53c ABH53c ABN63c ABS63c ABN103c ABN103d ABN103e ABS103c ABH103c ABL103c ABN203c ABS203c ABH203c ABL203c\r\n4극 (4-pole) - ABS34c ABN54c ABS54c ABH54c ABN64c ABS64c ABN104c ABN104d ABN104e ABS104c ABH104c ABL104c ABN204c ABS204c ABH204c ABL204c\r\n정격전류, In A 3, 5, 10, 15,\r\n 20, 30\r\n(3, 5, 10),주1)\r\n15, 16, 20, 25, \r\n30\r\n15, 16, 20, 25, 30, 32, 40, 50 15, 16, 20, 25, \r\n30, 32, 40, 50, 60\r\n15, (16), 20, (25), 30, (32), \r\n40, 50, 60, (63), 75, (80), 100 주8)\r\n15, (16), 20, (25), 30, (32), 40, \r\n50, 60, (63), 75, (80), 100, 125 주9) 100, 125, 150, (160), 175, 200, 225, 250 주9)\r\n정격전압, Ue AC (V) 460 690 690 690 690 690 690 690 690 690 690 690 690 690 690 690 690\r\nDC (V) - 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500 500\r\n정격절연전압, Ui V 460 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000\r\n 정격임펄스전압, Uimp kV 6 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V - 2.5 2.5 5 10 2.5 5 5 7.5 (5) 7.5 (5) 8 10 10 (10) 8 8 10 10 (10)\r\n480/500V - 7.5 (5) 7.5 10 35 7.5 10 10 14 (10) 14 (10) 26 35 35 (35) 18 26 35 35 (35)\r\n415/460V 2.5 14 (10) 14 18 50 14 18 18 26 (18) 31 (18) 37 50 60 (50) 26 37 50 60 (50)\r\n380V 2.5 18 (14) 18 22 50 18 22 22 30 (22) 31 (22) 42 50 60 (50) 30 42 50 60 (50)\r\n220/250V 5 30 (25) 30 35 100 30 35 35 50 (35) 65 (35) 85 100 125 (100) 65 85 100 125 (100)\r\nDC 500V (3극) - 5 5 10 30 5 10 10 15 (10) 15 (10) 20 30 30 (30) 10 20 30 30 (30)\r\n250V (2극) - 5 5 10 30 5 10 10 15 (10) 15 (10) 20 30 30 (30) 10 20 30 30 (30)\r\nIcs=%×Icu 50 100 100 100 100 100 100 100 ( ) ( ) 100 100 ( ) 100 100 100 ( )\r\n외형치수 (mm) W×H×D\r\n75×96×60\r\n75×130×60 75×130×60 90×155×60 75×130×60 75×130×60 90×155×60 105×165×60\r\n (3극) (외형도 1) (외형도 1) (외형도 2) (외형도 1) (외형도 1) (외형도 2) (외형도 3)\r\n(외형도 2) (외형도 3)\r\n60\r\n90\r\n50\r\n135\r\n100\r\n58\r\n60\r\n82\r\n155\r\n50\r\n64\r\n68\r\n8.2\r\n5\r\n47\r\n60\r\n64\r\n68.5\r\n86.85\r\n8.2\r\n35\r\n70\r\n105\r\n59.4\r\n50\r\n102\r\n126\r\n144\r\n165\r\n4.5\r\n2\r\n 2-2",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 24,
+      "text": "2-3\r\nAF 400AF 630AF 800AF 1000AF 1200AF\r\nType N-type S-type H-type L-type N-type S-type L-type N-type S-type L-type S-type L-type S-type L-type\r\n형명 및 극수 2극 (2-pole) ABN402c ABS402c ABH402c ABL402c ABN602c ABS602c ABL602c ABN802c ABS802c ABL802c - - - - -\r\n3극 (3-pole) ABN403c ABS403c ABH403c ABL403c ABN603c ABS603c ABL603c ABN803c ABS803c ABL803c ABS1003b ABL1003b ABS1203b ABS1203bE ABL1203b\r\n4극 (4-pole) ABN404c ABS404c ABH404c ABL404c ABN604c ABS604c ABL604c ABN804c ABS804c ABL804c ABS1004b ABL1004b ABS1204b - ABL1204b\r\n정격전류, In A 250, 300, 350, 400 500, 600, 630 700, 800 1000 1200\r\n정격전압, Ue AC (V) 690 690 690 690 690 690 690 690 690 690 600 600 600 600 600\r\nDC (V) 500 500 500 500 500 500 500 500 500 500 - - - - -\r\n정격절연전압, Ui V 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 690 690 690 690 690\r\n 정격임펄스전압, Uimp kV 8 8 8 8 8 8 8 8 8 8 6 6 6 6 6\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V 5 8 10 14 8 10 14 8 10 14 - - - - -\r\n480/500V 18 35 50 65 25 45 65 25 45 65 50 75 50 50 75\r\n415/460V 37 50 65 85 37 65 85 37 65 85 65 85 65 65 85\r\n380V 42 65 70 100 45 75 100 45 75 100 65 85 65 65 85\r\n220/250V 50 75 85 125 50 85 125 50 85 125 100 125 100 100 125\r\nDC 500V (3극) 10 20 40 40 10 20 40 10 20 40 - - - - -\r\n250V (2극) 10 20 40 40 10 20 40 10 20 40 - - - - -\r\nIcs=%×Icu 100 100 100 75 100 100 75 100 100 75 50 50 50 50 50\r\n외형치수 (mm) W×H×D 140×257×109 210×280×109 210×280×109 220×400×105 220×400×105\r\n (3극) (외형도 4) (외형도 5) (외형도 5) (외형도 6) (외형도 6)\r\n400AF AF\r\nType 630AF 800AF 1000AF 1200AF\r\nABN\r\nABS\r\nABH\r\nABN630c\r\n37kA\r\nABN400c\r\n37kA\r\nABL\r\nABN800c\r\n37kA\r\nABS630c\r\n65kA\r\nABS400c\r\n50kA\r\nABS800c\r\n65kA\r\nABH400c\r\n65kA\r\nABL630c\r\n85kA\r\nABL400c\r\n85kA\r\nABL800c\r\n85kA\r\nABL1000b\r\n85kA\r\nABS1200b\r\n65kA\r\nABL1200b\r\n85kA\r\nABS1000b\r\n65kA\r\n95\r\n105\r\n113\r\n145\r\n150\r\n215\r\n225\r\n257\r\n109\r\n52.5\r\n41\r\n48 48\r\nØ8\r\nØ13\r\n(외형도 4)\r\n주) 1. 50/60Hz 공용사용 가능합니다. (단, 1,000/1200AF 제품은 주파수에 따라 제품이 별도로 되어 있습니다. KS 미취득) 2. 안전인증 취득정격은 220V, 460V 기준입니다.\r\n3. DC 차단전류는 참고치 입니다. 4. KS ( ‘11, ‘12) 규격에 의해 인증완료 (220V, 460V) 5. 신 KS에서는 3극 차단기의 2극 변형 제품에 대하여 정의하지 않습니다.\r\n* 상세 기술자료는 상세정격(5-15쪽 ~ 5-24쪽), 특성곡선(8-4쪽 ~ 8-5쪽), 외형치수(9-5쪽 ~ 9-8쪽)를 참고해주세요\r\n기종일람표 MCCB\r\n배선용차단기",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 25,
+      "text": "Metasol MCCB/ELCB\r\nAF 400AF 630AF 800AF 1000AF 1200AF\r\nType N-type S-type H-type L-type N-type S-type L-type N-type S-type L-type S-type L-type S-type L-type\r\n형명 및 극수 2극 (2-pole) ABN402c ABS402c ABH402c ABL402c ABN602c ABS602c ABL602c ABN802c ABS802c ABL802c - - - - -\r\n3극 (3-pole) ABN403c ABS403c ABH403c ABL403c ABN603c ABS603c ABL603c ABN803c ABS803c ABL803c ABS1003b ABL1003b ABS1203b ABS1203bE ABL1203b\r\n4극 (4-pole) ABN404c ABS404c ABH404c ABL404c ABN604c ABS604c ABL604c ABN804c ABS804c ABL804c ABS1004b ABL1004b ABS1204b - ABL1204b\r\n정격전류, In A 250, 300, 350, 400 500, 600, 630 700, 800 1000 1200\r\n정격전압, Ue AC (V) 690 690 690 690 690 690 690 690 690 690 600 600 600 600 600\r\nDC (V) 500 500 500 500 500 500 500 500 500 500 - - - - -\r\n정격절연전압, Ui V 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 690 690 690 690 690\r\n 정격임펄스전압, Uimp kV 8 8 8 8 8 8 8 8 8 8 6 6 6 6 6\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V 5 8 10 14 8 10 14 8 10 14 - - - - -\r\n480/500V 18 35 50 65 25 45 65 25 45 65 50 75 50 50 75\r\n415/460V 37 50 65 85 37 65 85 37 65 85 65 85 65 65 85\r\n380V 42 65 70 100 45 75 100 45 75 100 65 85 65 65 85\r\n220/250V 50 75 85 125 50 85 125 50 85 125 100 125 100 100 125\r\nDC 500V (3극) 10 20 40 40 10 20 40 10 20 40 - - - - -\r\n250V (2극) 10 20 40 40 10 20 40 10 20 40 - - - - -\r\nIcs=%×Icu 100 100 100 75 100 100 75 100 100 75 50 50 50 50 50\r\n외형치수 (mm) W×H×D 140×257×109 210×280×109 210×280×109 220×400×105 220×400×105\r\n (3극) (외형도 4) (외형도 5) (외형도 5) (외형도 6) (외형도 6) 1596\r\n0\r\n243\r\n95\r\n109\r\n113\r\n145\r\n280\r\n105\r\n56\r\n53\r\n25\r\nØ\r\nØ\r\n8\r\n13.5\r\n(외형도 5)\r\n48.5\r\n17\r\n17\r\n230\r\n159\r\n122.5\r\n105\r\n102.5\r\n21.4\r\n48.5\r\n400116\r\n220\r\n70 70\r\n44\r\n93\r\n90 40 98.5\r\n110\r\n25\r\n20\r\n90\r\n(외형도 6)\r\n2\r\n 2-4",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 26,
+      "text": "2-5\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF\r\nType S-type N-type S-type H-type N-type S-type N-type S-type H-type S-type H-type\r\n형명 및 극수 3극 (3-pole) ABS33cM ABN53cM ABS53cM ABH53cM ABN63cM ABS63cM ABN103cM ABS103cM ABH103cM ABS203cM ABH203cM\r\n정격전류, In A 16, 24 16, 24, 32, 45 60 60, 75, 90 60, 75, 90 125, 150, 175, 225\r\n정격전압, Ue AC (V) 690 690 690 690 690 690 690 690 690 690 690\r\nDC (V) 500 500 500 500 500 500 500 500 500 500 500\r\n정격절연전압, Ui V 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000\r\n 정격임펄스전압, Uimp kV 8 8 8 8 8 8 8 8 8 8 8\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V 2.5 2.5 5 10 2.5 5 5 8 10 8 10\r\n480/500V 7.5 7.5 10 35 7.5 10 10 26 35 26 35\r\n415/460V 14 14 18 50 14 18 18 37 50 37 50\r\n380V 18 18 22 50 18 22 22 42 50 42 50\r\n220/250V 30 30 35 100 30 35 35 85 100 85 100\r\nDC 500V (3극) 5 5 10 30 5 10 10 20 30 20 30\r\nIcs=%×Icu 100 100 100 100 100 100 100 100 100 100 100\r\n외형치수 (mm) W×H×D 75×130×60 75×130×60 90×155×60 75×130×60 75×130×60 90×155×60 105×165×60\r\n (3극) (외형도 1) (외형도 1) (외형도 2) (외형도 1) (외형도 1) (외형도 2) (외형도 3)\r\n30AF AF\r\nType 50AF 60AF 100AF 125AF 250AF\r\nMetasol MCCB\r\nABN\r\nABS\r\nABH\r\nABS60cM\r\n18kA\r\nABN60cM\r\n14kA\r\nABN100cM\r\n18kA\r\nABS30cM\r\n14kA\r\nABS50cM\r\n18kA\r\nABN50cM\r\n14kA\r\nABH50cM\r\n50kA\r\nABH125cM\r\n50kA\r\nABS125cM\r\n37kA\r\nABH250cM\r\n50kA\r\nABS250cM\r\n37kA\r\n(외형도 1)\r\n75\r\n50 58\r\n50\r\n4.5\r\n60\r\n64\r\n68\r\n82\r\n50\r\n130\r\n84\r\n115\r\n7.4\r\n주) 1. 외형치수는 동급의 MCCB와 동일 크기임. 2. 내·외부 부속장치는 MCCB와 동일 적용.\r\n3. 50/60Hz 공용사용 가능합니다. 4. 안전인증 취득정격은 220V, 460V 기준입니다. \r\n5. DC 차단전류는 참고치 입니다.\r\n* 상세 기술자료는 상세정격(5-3쪽 ~ 5-14쪽), 특성곡선(8-7쪽 ~ 8-8쪽), 외형치수(9-2쪽 ~ 9-4쪽)를 참고해주세요\r\n기종일람표 모터보호용 MCCB\r\n배선용차단기",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 27,
+      "text": "Metasol MCCB/ELCB\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF\r\nType S-type N-type S-type H-type N-type S-type N-type S-type H-type S-type H-type\r\n형명 및 극수 3극 (3-pole) ABS33cM ABN53cM ABS53cM ABH53cM ABN63cM ABS63cM ABN103cM ABS103cM ABH103cM ABS203cM ABH203cM\r\n정격전류, In A 16, 24 16, 24, 32, 45 60 60, 75, 90 60, 75, 90 125, 150, 175, 225\r\n정격전압, Ue AC (V) 690 690 690 690 690 690 690 690 690 690 690\r\nDC (V) 500 500 500 500 500 500 500 500 500 500 500\r\n정격절연전압, Ui V 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000\r\n 정격임펄스전압, Uimp kV 8 8 8 8 8 8 8 8 8 8 8\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V 2.5 2.5 5 10 2.5 5 5 8 10 8 10\r\n480/500V 7.5 7.5 10 35 7.5 10 10 26 35 26 35\r\n415/460V 14 14 18 50 14 18 18 37 50 37 50\r\n380V 18 18 22 50 18 22 22 42 50 42 50\r\n220/250V 30 30 35 100 30 35 35 85 100 85 100\r\nDC 500V (3극) 5 5 10 30 5 10 10 20 30 20 30\r\nIcs=%×Icu 100 100 100 100 100 100 100 100 100 100 100\r\n외형치수 (mm) W×H×D 75×130×60 75×130×60 90×155×60 75×130×60 75×130×60 90×155×60 105×165×60\r\n (3극) (외형도 1) (외형도 1) (외형도 2) (외형도 1) (외형도 1) (외형도 2) (외형도 3)\r\n(외형도 2) (외형도 3)\r\n60\r\n90\r\n50\r\n135\r\n100\r\n58\r\n60\r\n82\r\n155\r\n50\r\n64\r\n68\r\n8.2\r\n5\r\n47\r\n60\r\n64\r\n68.5\r\n86.85\r\n8.2\r\n35\r\n70\r\n105\r\n59.4\r\n50\r\n102\r\n126\r\n144\r\n165\r\n4.5\r\n2\r\n 2-6",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 28,
+      "text": "2-7\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF\r\nType S-type N-type S-type H-type N-type S-type N-type S-type H-type N-type S-type H-type\r\n형명 및 극수 2극 (2-pole) - - - ABH52cZ - - - ABS102cZ ABH102cZ - - -\r\n3극 (3-pole) ABS33cZ ABN53cZ ABS53cZ ABH53cZ ABN63cZ ABS63cZ ABN103cZ ABS103cZ ABH103cZ ABN203cZ ABS203cZ ABH203cZ\r\n4극 (4-pole) ABS34cZ ABN54cZ ABS54cZ ABH54cZ ABN64cZ ABS64cZ ABN104cZ ABS104cZ ABH104cZ ABN204cZ ABS204cZ ABH204cZ\r\n정격전류, In A 15, 16, 20, 25, 30 15, 16, 20, 25, 30, 32, 40, 50 15, 16, 20, 25, 30, 32, 40, 50, 60 15, 16, 20, 25, 30, 32, 40, \r\n50, 60, 63, 75, 80, 100\r\n15, 16, 20, 25, 30, 32, 40, 50, \r\n60, 63, 75, 80, 100, 125 100, 125, 150, 160, 175, 200, 225, 250\r\n정격전압, Ue AC (V) 690 690 690 690 690 690 690 690 690 690 690 690\r\n정격절연전압, Ui V 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000\r\n 정격임펄스전압, Uimp kV 8 8 8 8 8 8 8 8 8 8 8 8\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V 2.5 2.5 5 10 2.5 5 5 8 10 8 8 10\r\n480/500V 7.5 7.5 10 35 7.5 10 10 26 35 18 26 35\r\n415/460V 14 14 18 50 14 18 18 37 50 26 37 50\r\n380V 18 18 22 50 18 22 22 42 50 30 42 50\r\n220/250V 30 30 35 100 30 35 35 85 100 65 85 100\r\nIcs=%×Icu 100 100 100 100 100 100 100 100 100 100 100 100\r\n외형치수 (mm) W×H×D 75×130×60 75×130×60 90×155×60 75×130×60 75×130×60 90×155×60 105×165×60\r\n (3극) (외형도 1) (외형도 1) (외형도 2) (외형도 1) (외형도 1) (외형도 2) (외형도 3)\r\n75\r\n50\r\n50\r\n130\r\n84\r\n115\r\n58\r\n50\r\nØ4.5\r\n60\r\n64\r\n68\r\n82\r\nØ7.4\r\n30AF AF\r\nType 50AF 60AF 100AF 125AF 250AF\r\nMetasol MCCB\r\nABN\r\nABS\r\nABH\r\nABS60cZ\r\n18kA\r\nABN60cZ\r\n14kA\r\nABN100cZ\r\n18kA\r\nABS30cZ\r\n14kA\r\nABS50cZ\r\n18kA\r\nABN50cZ\r\n14kA\r\nABH50cZ\r\n50kA\r\nABH125cZ\r\n50kA\r\nABS125cZ\r\n37kA\r\nABH250cZ\r\n50kA\r\nABS250cZ\r\n37kA\r\nABN250cZ\r\n26kA\r\n(외형도 1)\r\n주) 1. 외형치수는 동급의 MCCB와 동일 크기임. 2. 내·외부 부속장치는 MCCB와 동일 적용. 3. 50/60Hz 공용사용 가능합니다. 4. 안전인증 취득정격은 220V, 460V 기준입니다.\r\n5. ZCT내장형 MCCB ABH52c, ABS102c, ABH102c 제품크기는 60(W) X 155(H) X 60(D) mm 임. 6. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임\r\n* 상세 기술자료는 상세정격(5-3쪽 ~ 5-14쪽), 특성곡선(8-1쪽 ~ 8-3쪽), 외형치수(9-2쪽 ~ 9-4쪽)를 참고해주세요\r\n기종일람표 ZCT 내장형 MCCB\r\n배선용차단기",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 29,
+      "text": "Metasol MCCB/ELCB\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF\r\nType S-type N-type S-type H-type N-type S-type N-type S-type H-type N-type S-type H-type\r\n형명 및 극수 2극 (2-pole) - - - ABH52cZ - - - ABS102cZ ABH102cZ - - -\r\n3극 (3-pole) ABS33cZ ABN53cZ ABS53cZ ABH53cZ ABN63cZ ABS63cZ ABN103cZ ABS103cZ ABH103cZ ABN203cZ ABS203cZ ABH203cZ\r\n4극 (4-pole) ABS34cZ ABN54cZ ABS54cZ ABH54cZ ABN64cZ ABS64cZ ABN104cZ ABS104cZ ABH104cZ ABN204cZ ABS204cZ ABH204cZ\r\n정격전류, In A 15, 16, 20, 25, 30 15, 16, 20, 25, 30, 32, 40, 50 15, 16, 20, 25, 30, 32, 40, 50, 60 15, 16, 20, 25, 30, 32, 40, \r\n50, 60, 63, 75, 80, 100\r\n15, 16, 20, 25, 30, 32, 40, 50, \r\n60, 63, 75, 80, 100, 125 100, 125, 150, 160, 175, 200, 225, 250\r\n정격전압, Ue AC (V) 690 690 690 690 690 690 690 690 690 690 690 690\r\n정격절연전압, Ui V 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000\r\n 정격임펄스전압, Uimp kV 8 8 8 8 8 8 8 8 8 8 8 8\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V 2.5 2.5 5 10 2.5 5 5 8 10 8 8 10\r\n480/500V 7.5 7.5 10 35 7.5 10 10 26 35 18 26 35\r\n415/460V 14 14 18 50 14 18 18 37 50 26 37 50\r\n380V 18 18 22 50 18 22 22 42 50 30 42 50\r\n220/250V 30 30 35 100 30 35 35 85 100 65 85 100\r\nIcs=%×Icu 100 100 100 100 100 100 100 100 100 100 100 100\r\n외형치수 (mm) W×H×D 75×130×60 75×130×60 90×155×60 75×130×60 75×130×60 90×155×60 105×165×60\r\n (3극) (외형도 1) (외형도 1) (외형도 2) (외형도 1) (외형도 1) (외형도 2) (외형도 3)\r\n60\r\n90\r\n50\r\n135\r\n100\r\n155\r\n58\r\n60\r\n82\r\n50\r\n64\r\n68\r\nØ8.2\r\nØ5\r\n35\r\n70\r\n105\r\n59.4\r\n50\r\n102\r\n126\r\n144\r\n165\r\n47\r\n60\r\n64\r\n68.5\r\n86.85\r\nØ8.2\r\nØ4.5\r\n(외형도 2) (외형도 3)\r\n2\r\n 2-8",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 30,
+      "text": "2-9\r\nAF 400AF 630AF 800AF\r\nType N-type S-type H-type L-type N-type S-type L-type N-type S-type L-type\r\n형명 및 극수 2극 (2-pole) - - - - - - - - - -\r\n3극 (3-pole) ABN403cZ ABS403cZ ABH403cZ ABL403cZ ABN603cZ ABS603cZ ABL603cZ ABN803cZ ABS803cZ ABL803cZ\r\n4극 (4-pole) ABN404cZ ABS404cZ ABH404cZ ABL404cZ - - - - - -\r\n정격전류, In A 250, 300, 350, 400 500, 630 700, 800\r\n정격전압, Ue AC (V) 690 690 690 690 690 690 690 690 690 690\r\n정격절연전압, Ui V 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000\r\n 정격임펄스전압, Uimp kV 8 8 8 8 8 8 8 8 8 8\r\n정격차단전류(Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V 5 8 10 14 8 10 14 8 10 14\r\n480/500V 18 35 50 65 25 45 65 25 45 65\r\n415/460V 37 50 65 85 37 65 85 37 65 85\r\n380V 42 65 70 100 45 75 100 45 75 100\r\n220/250V 50 75 85 125 50 85 125 50 85 125\r\nIcs=%×Icu 100 100 100 75 100 100 75 100 100 75\r\n외형치수(mm) W×H×D 140×257×109 210×280×109 210×280×109\r\n(3극) (외형도 4) (외형도 5) (외형도 5)\r\n400AF AF\r\nType 630AF 800AF\r\nABN\r\nABS\r\nABH\r\nABN630c\r\n37kA\r\nABN400c\r\n37kA\r\nABL\r\nABN800c\r\n37kA\r\nABS630c\r\n65kA\r\nABS400c\r\n50kA\r\nABS800c\r\n65kA\r\nABH400c\r\n65kA\r\nABL630c\r\n85kA\r\nABL400c\r\n85kA\r\nABL800c\r\n85kA\r\n주) 1. 외형치수는 동급의 MCCB와 동일 크기임. 2. 내·외부 부속장치는 MCCB와 동일 적용. 3. 50/60Hz 공용사용 가능합니다.\r\n4. 안전인증 취득정격은 220V, 460V 기준입니다. 5. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임 \r\n* 상세 기술자료는 상세정격(5-15쪽 ~ 5-20쪽), 특성곡선(8-4쪽), 외형치수(9-5쪽 ~ 9-6쪽)를 참고해주세요 \r\n기종일람표 ZCT 내장형 MCCB\r\n배선용차단기",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 31,
+      "text": "Metasol MCCB/ELCB\r\nAF 400AF 630AF 800AF\r\nType N-type S-type H-type L-type N-type S-type L-type N-type S-type L-type\r\n형명 및 극수 2극 (2-pole) - - - - - - - - - -\r\n3극 (3-pole) ABN403cZ ABS403cZ ABH403cZ ABL403cZ ABN603cZ ABS603cZ ABL603cZ ABN803cZ ABS803cZ ABL803cZ\r\n4극 (4-pole) ABN404cZ ABS404cZ ABH404cZ ABL404cZ - - - - - -\r\n정격전류, In A 250, 300, 350, 400 500, 630 700, 800\r\n정격전압, Ue AC (V) 690 690 690 690 690 690 690 690 690 690\r\n정격절연전압, Ui V 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000\r\n 정격임펄스전압, Uimp kV 8 8 8 8 8 8 8 8 8 8\r\n정격차단전류(Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 690V 5 8 10 14 8 10 14 8 10 14\r\n480/500V 18 35 50 65 25 45 65 25 45 65\r\n415/460V 37 50 65 85 37 65 85 37 65 85\r\n380V 42 65 70 100 45 75 100 45 75 100\r\n220/250V 50 75 85 125 50 85 125 50 85 125\r\nIcs=%×Icu 100 100 100 75 100 100 75 100 100 75\r\n외형치수(mm) W×H×D 140×257×109 210×280×109 210×280×109\r\n(3극) (외형도 4) (외형도 5) (외형도 5) 150 257 225 215\r\n52.5\r\n41\r\n48 48\r\n95\r\n105\r\n113\r\n145\r\n109\r\nØ8\r\nØ13\r\n15\r\n96\r\n0\r\n243\r\n280\r\n56\r\n53\r\n25\r\n95\r\n109\r\n113\r\n145\r\n105\r\nØ\r\nØ\r\n8\r\n13.5\r\n(외형도 4) (외형도 5)\r\n2\r\n 2-10",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 32,
+      "text": "3-1\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF\r\nType S-type N-type S-type H-type N-type S-type N-type S-type H-type N-type S-type H-type\r\n형명 및 극수 2극 (2-pole) EBS32c EBN52c - - - - EBN102c - - EBN202c - -\r\n3극 (3-pole) EBS33c EBN53c EBS53c EBH53c EBN63c EBS63c EBN103c EBS103c EBH103c EBN203c EBS203c EBH203c\r\n4극 (4-pole) EBS34c - EBS54c EBH54c - EBS64c EBN104c EBS104c EBH104c - EBS204c EBH204c\r\n보호기능 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·\r\n단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용\r\n정격전류, In A (5, 10)주7), 15, 16, 20, 25, 30 15, 16, 20, 25, 30, 32, 40, 50 60 60, 63, 75, 80, 100 15, 16, 20, 25, 30, 32, 40, 50, 60, 63, 75, 80, 100, 125 100, 125, 150, 160, 175, 200, 225, 250\r\n정격임펄스전압, Uimp kV 6 6 6 6 6 6\r\n고속형 \r\n정격감도전류 mA 30, 100, 100/200/500 30, 100, 100/200/500 30, 100, 100/200/500 30, 100, 100/200/500 30, 100, 100/200/500 30, 100, 100/200/500\r\n동작시간(누전차단) s 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내\r\n정격전압, Ue AC (V) 220/460 220/460 220/460 220/460 220/460 220/460\r\n시연형 주8)\r\n정격감도전류 1A 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1\r\n관성부동작시간 1s 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 \r\n정격감도전류 2A 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2\r\n관성부동작시간 2s 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2\r\n정격차단전류(Icu) kA (Sym), KS C 4613, IEC 60947-2\r\nAC 415/460V 14(10) 14 18 50 14 18 18 37 50 26 37 50\r\n220/250V 30(25) 30 35 100 30 35 35 85 100 65 85 100\r\nIcs=%×Icu 100 100 100 100 100 100 100 100 100 100 100 100\r\n외형치수(mm) W×H×D 75×130×60mm 75×130×60mm 90×155×60mm 75×130×60mm 75×130×60mm 90×155×60mm 105×165×60mm\r\n(3극) (외형도 1) (외형도 1) (외형도 2) (외형도 1) (외형도 1) (외형도 2) (외형도 3)\r\n30AF AF\r\nType 50AF 60AF 100AF 125AF 250AF\r\nEBN\r\nEBS\r\nEBH\r\nEBS60c\r\n18kA\r\nEBN60c\r\n14kA\r\nEBN100c\r\n18kA\r\nEBN50c\r\n14kA\r\nEBH50c\r\n50kA\r\nEBH125c\r\n50kA\r\nEBS125c\r\n37kA\r\nEBH250c\r\n50kA\r\nEBN250c\r\n26kA\r\nEBS250c\r\n37kA\r\nEBS30c\r\n14kA\r\nEBS50c\r\n18kA\r\nØ7.4\r\nØ4.5\r\n8.3\r\n28.7\r\n(외형도 1)\r\n주) 1. 50/60Hz 공용사용 가능합니다. \r\n2. 안전인증 취득정격은 220V, 460V 기준입니다. \r\n3. 개정된 KS('11, '12) 규격에 의해 인증완료 (220V, 460V) \r\n4. 신 KS에서는 3극 차단기의 2극 변형 제품에 대하여 \r\n정의하지 않습니다. \r\n5. EBS30c 5, 10A는 KS 미취득 제품임.\r\n10. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 \r\n 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n11. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 \r\n오동작 우려가 있습니다.\r\n12. 250AF 이하 일부 ELCB는 원방시험을 위한 Test lead type이 있습니다. \r\n6. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n7. S-Type의 정격차단전류중 ( )는 5, 10A 정격전류 제품만 해당됩니다.\r\n8. 시연형 최대동작시간은 2배의 누전전류가 흐를 경우 \r\n관성부동작시간의 2배입니다. 단, 0초는 최대동작시간이 0.1초 이하입니다.\r\n9. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n* 상세 기술자료는 상세정격(6-1쪽 ~ 6-12쪽), 특성곡선(8-1쪽 ~ 8-3쪽), 외형치수(9-9쪽 ~ 9-11쪽)를 참고해주세요\r\n기종일람표 ELCB (AC Type)\r\n누전차단기",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 33,
+      "text": "Metasol MCCB/ELCB\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF\r\nType S-type N-type S-type H-type N-type S-type N-type S-type H-type N-type S-type H-type\r\n형명 및 극수 2극 (2-pole) EBS32c EBN52c - - - - EBN102c - - EBN202c - -\r\n3극 (3-pole) EBS33c EBN53c EBS53c EBH53c EBN63c EBS63c EBN103c EBS103c EBH103c EBN203c EBS203c EBH203c\r\n4극 (4-pole) EBS34c - EBS54c EBH54c - EBS64c EBN104c EBS104c EBH104c - EBS204c EBH204c\r\n보호기능 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·\r\n단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용\r\n정격전류, In A (5, 10)주7), 15, 16, 20, 25, 30 15, 16, 20, 25, 30, 32, 40, 50 60 60, 63, 75, 80, 100 15, 16, 20, 25, 30, 32, 40, 50, 60, 63, 75, 80, 100, 125 100, 125, 150, 160, 175, 200, 225, 250\r\n정격임펄스전압, Uimp kV 6 6 6 6 6 6\r\n고속형 \r\n정격감도전류 mA 30, 100, 100/200/500 30, 100, 100/200/500 30, 100, 100/200/500 30, 100, 100/200/500 30, 100, 100/200/500 30, 100, 100/200/500\r\n동작시간(누전차단) s 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내\r\n정격전압, Ue AC (V) 220/460 220/460 220/460 220/460 220/460 220/460\r\n시연형 주8)\r\n정격감도전류 1A 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1\r\n관성부동작시간 1s 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 \r\n정격감도전류 2A 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2\r\n관성부동작시간 2s 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2\r\n정격차단전류(Icu) kA (Sym), KS C 4613, IEC 60947-2\r\nAC 415/460V 14(10) 14 18 50 14 18 18 37 50 26 37 50\r\n220/250V 30(25) 30 35 100 30 35 35 85 100 65 85 100\r\nIcs=%×Icu 100 100 100 100 100 100 100 100 100 100 100 100\r\n외형치수(mm) W×H×D 75×130×60mm 75×130×60mm 90×155×60mm 75×130×60mm 75×130×60mm 90×155×60mm 105×165×60mm\r\n(3극) (외형도 1) (외형도 1) (외형도 2) (외형도 1) (외형도 1) (외형도 2) (외형도 3)\r\n60\r\n90\r\n50\r\n100\r\n135\r\n155\r\n58\r\n60\r\n82\r\nØ5\r\n50\r\n64\r\n68\r\nØ8.2\r\n8.5\r\n35.9 Ø4.5\r\n35\r\n47\r\n60\r\n64\r\n66.5\r\n68.5\r\n86.85\r\n50\r\n102\r\n144\r\n165\r\n70\r\n105\r\nØ8.2\r\n9.4 39.4\r\n(외형도 2) (외형도 3)\r\n3\r\n 3-2",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 34,
+      "text": "3-3\r\nAF 400AF 630AF 800AF 1000AF 1200AF\r\nType N-type S-dype H-type L-type N-type S-type L-type N-type S-type L-type S-type S-type\r\n3극 (3-pole) EBN403c EBS403c EBH403c EBL403c EBN603c EBS603c EBL603c EBN803c EBS803c EBL803c EBS1003b EBS1203b\r\n4극 (4-pole) EBN404c EBS404c EBH404c EBL404c - - - - - - - -\r\n보호기능 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용\r\n정격전류, In A 250, 300, 350, 400 500, 630 700, 800 1000 1200\r\n정격임펄스전압, Uimp kV 6 6 6 6 6 6 6 6 6 6 - -\r\n정격전압, Ue AC (V) 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460\r\n고속형 \r\n정격감도전류 mA 30, 100/200/500 30, 100/200/500 30, 100/200/500 100/200/500 100/200/500\r\n동작시간 (누전차단) s 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내\r\n시연형 \r\n주6)\r\n정격감도전류 A 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2 -\r\n관성부동작시간 s 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2 -\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 415/460V 37 50 65 85 37 65 85 37 65 85 85 85\r\n220/250V 50 75 85 125 50 85 125 50 85 125 125 125\r\nIcs=%×Icu 100 100 100 75 100 100 75 100 100 75 - -\r\n외형치수 (mm) W×H×D 140×257×109mm 210×280×109mm 210×280×109mm 220×565×105mm\r\n (3극) (외형도 4) (외형도 5) (외형도 5) (외형도 6)\r\n95\r\n105\r\n113\r\n145\r\n109\r\nØ7\r\nØ13\r\n257\r\n225\r\n150\r\n96\r\n400AF AF\r\nType 630AF 800AF 1000AF 1200AF\r\nEBN\r\nEBS\r\nEBH\r\nEBN630c\r\n37kA\r\nEBN400c\r\n37kA\r\nEBL\r\nEBN800c\r\n37kA\r\nEBS630c\r\n65kA\r\nEBS400c\r\n50kA\r\nEBS800c\r\n65kA\r\nEBH400c\r\n65kA\r\nEBL630c\r\n85kA\r\nEBL400c\r\n85kA\r\nEBL800c\r\n85kA\r\nEBS1000b\r\n85kA\r\nEBS1200b\r\n85kA\r\n(외형도 4)\r\n주) 1. 50/60Hz 공용사용 가능합니다. (단, 1,000/1200AF 제품은 주파수에 따라 제품이 별도로 되어 있습니다. KS 미취득)\r\n2. 안전인증 취득정격은 220V, 460V 기준입니다. \r\n3. 개정된 KS('11, '12) 규격에 의해 인증완료 (220V, 460V) \r\n4. 신 KS에서는 3극 차단기의 2극 변형 제품에 대하여 정의하지 않습니다. \r\n5. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n6. 시연형 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 2배입니다\r\n* 상세 기술자료는 상세정격(6-13쪽 ~ 6-20쪽), 특성곡선(8-4쪽 ~ 8-5쪽), 외형치수(9-12쪽 ~ 9-14쪽)를 참고해주세요\r\n7. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n8. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, \r\n사용상 문제는 없습니다.\r\n9. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다.\r\n10. 시연형 누전차단기가 정상적인 동작이 안될경우 MAL의 LED(적색)가 점멸합니다. \r\n누전발생시에도 정상적인 동작이 불가하니 즉시 교체하시기 바랍니다.\r\n기종일람표 ELCB (AC Type)\r\n누전차단기",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 35,
+      "text": "Metasol MCCB/ELCB\r\nAF 400AF 630AF 800AF 1000AF 1200AF\r\nType N-type S-dype H-type L-type N-type S-type L-type N-type S-type L-type S-type S-type\r\n3극 (3-pole) EBN403c EBS403c EBH403c EBL403c EBN603c EBS603c EBL603c EBN803c EBS803c EBL803c EBS1003b EBS1203b\r\n4극 (4-pole) EBN404c EBS404c EBH404c EBL404c - - - - - - - -\r\n보호기능 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용\r\n정격전류, In A 250, 300, 350, 400 500, 630 700, 800 1000 1200\r\n정격임펄스전압, Uimp kV 6 6 6 6 6 6 6 6 6 6 - -\r\n정격전압, Ue AC (V) 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460 220/460\r\n고속형 \r\n정격감도전류 mA 30, 100/200/500 30, 100/200/500 30, 100/200/500 100/200/500 100/200/500\r\n동작시간 (누전차단) s 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내 0.1이내\r\n시연형 \r\n주6)\r\n정격감도전류 A 0.1/0.4/1/2 0.1/0.4/1/2 0.1/0.4/1/2 -\r\n관성부동작시간 s 0.5/1/1.5/2 0.5/1/1.5/2 0.5/1/1.5/2 -\r\n정격차단전류 (Icu) kA (Sym), KS C 8321, IEC 60947-2\r\nAC 415/460V 37 50 65 85 37 65 85 37 65 85 85 85\r\n220/250V 50 75 85 125 50 85 125 50 85 125 125 125\r\nIcs=%×Icu 100 100 100 75 100 100 75 100 100 75 - -\r\n외형치수 (mm) W×H×D 140×257×109mm 210×280×109mm 210×280×109mm 220×565×105mm\r\n (3극) (외형도 4) (외형도 5) (외형도 5) (외형도 6)\r\nØ13.5\r\nØ8\r\n95\r\n105\r\n113\r\n145\r\n109\r\n275\r\n243\r\n150\r\n96\r\n(외형도 5)\r\n48.5\r\n17\r\n21.4\r\n17\r\n206\r\n48.5\r\n525\r\n360\r\n400\r\n110\r\n25\r\n98.5 40 20\r\n165 90 116\r\n90\r\n165\r\n220\r\n231\r\n159\r\n122.5\r\n105\r\n70 70 102.5\r\n44\r\n93\r\n(외형도 6)\r\n3\r\n 3-4",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 36,
+      "text": "3-5\r\n기종일람표 ELCB (A Type)\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF 400AF\r\nType S-type N-type S-type H-type N-type S-type N-type S-type H-type N-type S-type H-type N-type S-type H-type L-type\r\n형명 및 극수 3극 (3-pole) EBS33c EBN53c EBS53c EBH53c EBN63c EBS63c EBN103c EBS103c EBH103c EBN203c EBS203c EBH203c EBN403c EBS403c EBH403c EBL403c\r\n4극 (4-pole) EBS34c - EBS54c EBH54c - EBS64c EBN104c EBS104c EBH104c - EBS204c EBH204c EBN404c EBS404c EBH404c EBL404c\r\n보호기능 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용\r\n정격전류, In A (5, 10), 15, 16, 20, 25, 30 15, 16, 20, 25, 30, 32, 40, 50 60 60, 63, 75, 80, 100 15, 16, 20, 25, 30, 32, 40, 50, \r\n60, 63, 75, 80, 100, 125 100, 125, 150, 160, 175, 200, 225, 250 250, 300, 350, 400\r\n정격임펄스전압, Uimp kV 6 6 6 6 6 6 6\r\n누전동작 타입 A A A A A A A\r\n시연형 \r\n정격감도전류 0.5A 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 -\r\n관성부동작시간 1s 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 -\r\n정격감도전류 1A 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1\r\n0.1/0.3/0.5/1\r\n관성부동작시간 1s 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1\r\n정격차단전류(Icu) kA (Sym), KS C 4613, IEC 60947-2\r\nAC 415/460V 14(10) 14 18 50 14 18 18 37 50 26 37 50 37 50 65 85\r\n220/250V 30(25) 30 35 100 30 35 35 85 100 65 85 100 50 75 85 125\r\nIcs=%×Icu 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 75\r\n외형치수(mm) 3극 W×H×D 75×130×60mm 75×130×60mm 90×155×60mm 75×130×60mm 75×130×60mm 90×155×60mm 105×165×60mm 140×257×109mm\r\n4극 W×H×D 100×130×60mm 100×130×60mm 120×155×60mm 100×130×60mm 100×130×60mm 120×155×60mm 140×165×60mm 184×257×109mm\r\n주) 1. 50/60Hz 공용사용 가능합니다. \r\n2. 안전인증 취득정격은 220V, 460V 기준입니다. \r\n3. 개정된 KS('11, '12) 규격에 의해 인증완료 (220V, 460V) \r\n4. 신 KS에서는 3극 차단기의 2극 변형 제품에 대하여 \r\n정의하지 않습니다. \r\n5. EBS30c 5, 10A는 KS 미취득 제품임.\r\n11. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 \r\n변경될 수 있으나, 사용상 문제는 없습니다.\r\n12. 250AF이하 일부 ELCB는 원방트립을 위한 Test Lead type이 있습니다. \r\n13. 감도전류설정 0.03A에 위치에 놓을 경우 관성부동작시간 스위치에 \r\n관계없이 비시간지연형으로 동작합니다. \r\n6. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n7. S-Type의 정격차단전류중 ( )는 5, 10A 정격전류 제품만 해당됩니다.\r\n8. 시연형 최대동작시간은 2배의 누전전류가 흐를 경우 설정한 관성부동작 \r\n시간의 다음 Step 까지입니다. 단, 0초는 최대동작시간이 0.1초 이하입니다. \r\n9. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n10. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 \r\n오동작의 우려가 있습니다.\r\nA Type 누전차단기란?\r\n전기 계통에서 UPS, 정류기, 모터, 전기차충전기 등의 부하에서 발생하는 맥동 DC 형태의 누설 전류와 기존의 AC 누설 전류의 검출 및 차단이 \r\n가능한 누전차단기\r\nELCB 타입 검출 파형 트립전류 적용 부하\r\nAC Type\r\n0.5~1I△n\r\n• 일반부하\r\n• 전등부하\r\n• 전기히터\r\n• 수동소자로 구성된 전자장비\r\nAC Type\r\n누전차단기",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 37,
+      "text": "Metasol MCCB/ELCB\r\nAF 30AF 50AF 60AF 100AF 125AF 250AF 400AF\r\nType S-type N-type S-type H-type N-type S-type N-type S-type H-type N-type S-type H-type N-type S-type H-type L-type\r\n형명 및 극수 3극 (3-pole) EBS33c EBN53c EBS53c EBH53c EBN63c EBS63c EBN103c EBS103c EBH103c EBN203c EBS203c EBH203c EBN403c EBS403c EBH403c EBL403c\r\n4극 (4-pole) EBS34c - EBS54c EBH54c - EBS64c EBN104c EBS104c EBH104c - EBS204c EBH204c EBN404c EBS404c EBH404c EBL404c\r\n보호기능 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용 누전·과부하·단락보호겸용\r\n정격전류, In A (5, 10), 15, 16, 20, 25, 30 15, 16, 20, 25, 30, 32, 40, 50 60 60, 63, 75, 80, 100 15, 16, 20, 25, 30, 32, 40, 50, \r\n60, 63, 75, 80, 100, 125 100, 125, 150, 160, 175, 200, 225, 250 250, 300, 350, 400\r\n정격임펄스전압, Uimp kV 6 6 6 6 6 6 6\r\n누전동작 타입 A A A A A A A\r\n시연형 \r\n정격감도전류 0.5A 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 0.03/0.1/0.3/0.5 -\r\n관성부동작시간 1s 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 -\r\n정격감도전류 1A 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1 0.1/0.2/0.5/1\r\n0.1/0.3/0.5/1\r\n관성부동작시간 1s 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1 0/0.2/0.5/1\r\n정격차단전류(Icu) kA (Sym), KS C 4613, IEC 60947-2\r\nAC 415/460V 14(10) 14 18 50 14 18 18 37 50 26 37 50 37 50 65 85\r\n220/250V 30(25) 30 35 100 30 35 35 85 100 65 85 100 50 75 85 125\r\nIcs=%×Icu 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 75\r\n외형치수(mm) 3극 W×H×D 75×130×60mm 75×130×60mm 90×155×60mm 75×130×60mm 75×130×60mm 90×155×60mm 105×165×60mm 140×257×109mm\r\n4극 W×H×D 100×130×60mm 100×130×60mm 120×155×60mm 100×130×60mm 100×130×60mm 120×155×60mm 140×165×60mm 184×257×109mm\r\nELCB 타입 검출 파형 트립전류 적용 부하\r\nA Type\r\n0.5~1I△n\r\n• 일반부하\r\n• 전등부하\r\n• 전기히터\r\n• 수동소자로 구성된 전자장비\r\n0.35~1.4I△n\r\n• 단상 UPS\r\n• 단상 PV System\r\n• 모터 드라이브\r\n• 전기차 충전기 \r\n• 정류기를 포함한 부하\r\n0.25~1.4I△n\r\n0.11~1.4I△n\r\n6mA +\r\n0.35~1.4I△n \r\nA Type\r\n3\r\n 3-6",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 38,
+      "text": "4-1\r\n주) 2POLE 125AF 이하 악세서리 취부 불가\r\nAmpere Frame\r\n3 30AF\r\n5 50AF\r\n6 60AF\r\n10 100/125AF\r\n20 225/250AF\r\n40 400AF\r\n80 800AF\r\n100 1000AF\r\n120 1200AF\r\n기본형식 설치위치 및 형식\r\nT LWT 우측 설치 리드\r\nR LWT 좌측 설치 와이어\r\nT TBT 우측 설치 단자대 R TBT 좌측 설치\r\nType\r\nN N-type\r\nS S-type\r\nH H-type\r\nL L-type\r\n극수\r\n2 2극\r\n3 3극\r\n4 4극\r\n- 일반\r\n배선용\r\nM 전동기\r\n보호용\r\n동작특성 부속장치\r\nAX 보조접점\r\nAL 경보접점\r\nSHT 전압트립장치\r\nUVT 부족전압\r\n트립장치\r\nDH 외부조작핸들\r\n (표면부착형)\r\nEH 외부조작핸들\r\n (확장형)\r\nRTR 이면형 RTB\r\n부속장치의 전압\r\nSHT\r\nAC/DC 12V\r\nAC/DC 24V\r\nAC/DC 48V\r\nAC/DC 60V\r\nAC/DC \r\n100V~130V\r\nAC/DC \r\n200V~250V\r\nAC 380V~450V\r\nAC 440V~500V\r\nUVT\r\nAC/DC 24V\r\nAC/DC 48V\r\nAC/DC \r\n100V~110V\r\nAC/DC \r\n200V~220V\r\nAC 380V~440V\r\nAC 440V~480V\r\n형명체계\r\n배선용차단기 (MCCB)\r\nAB S 10 3 C M / 100A AX T SHT=220V\r\n제품구분 정격전류\r\n3A 150A\r\n5A 160A\r\n10A 175A\r\n15A 200A\r\n16A 225A\r\n20A 250A\r\n25A 300A\r\n30A 350A\r\n32A 400A\r\n40A 500A\r\n50A 600A\r\n60A 630A\r\n63A 700A\r\n75A 800A\r\n80A 1000A\r\n100A 1200A\r\n125A",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 39,
+      "text": "Metasol MCCB/ELCB\r\n주) 250AF 이하 악세서리 T 상 및 SHT, UVT\r\n4\r\n제품구분 부속장치\r\nAX 보조접점\r\nAL 경보접점\r\nDH 외부조작핸들\r\n (표면부착형)\r\nEH 외부조작핸들\r\n (확장형)\r\nRTR 이면형 RTB\r\n설치위치 및 형식\r\nR LWT 좌측 설치 리드\r\n와이어\r\nR TBT 좌측 설치 단자대\r\n정격감도전류, 관성부동작시간\r\n고속형\r\n30mA 30mA\r\n100mA 100mA\r\n100/200/500mA 100/200/500mA\r\n시연형\r\n(AC type)\r\n1A, 1s 0.1/0.2/0.5/1A, 0/0.2/0.5/1s\r\n2A, 2s 0.1/0.4/1/2A, 0.5/1/1.5/2s \r\n시연형\r\n(A type)\r\n0.03/0.1/0.3/0.5A,1s 0.03/0.1/0.3/0.5A, 0/0.2/0.2/1s\r\n0.1/0.2/0.5/1A,1s 0.1/0.2/0.5/1A,1s, 0/0.2/0.2/1s\r\n0.1/0.3/0.5/1A,1s 0.1/0.3/0.5/1A,1s, 0/0.2/0.2/1s\r\n누전전류검출 방식\r\n- AC Type\r\nA Type A Type\r\nAmpere Frame\r\n3 30AF\r\n5 50AF\r\n6 60AF\r\n10 100/125AF\r\n20 225/250AF\r\n40 400AF\r\n80 800AF\r\n100 1000AF\r\n120 1200AF\r\n기본형식\r\nType\r\nN N-type\r\nS S-type\r\nH H-type\r\nL L-type\r\n극수\r\n2 2극\r\n3 3극\r\n4 4극\r\n누전차단기 (ELCB)\r\nEB S 10 3 C / 100A 30mA A-TYPE AX R\r\n 4-2\r\n정격전류\r\n5A 150A\r\n10A 160A\r\n15A 175A\r\n16A 200A\r\n20A 225A\r\n25A 250A\r\n30A 300A\r\n32A 350A\r\n40A 400A\r\n50A 500A\r\n60A 630A\r\n63A 700A\r\n75A 800A\r\n80A 1000A\r\n100A 1200A\r\n125A",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 40,
+      "text": "5-1\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\nABE33b\r\nABE32b\r\n제품의 정격 및 사양\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-1쪽\r\n•외형치수 ▶ 9-1쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n프레임의 크기 30AF\r\n형명 및 극수 E-type\r\n2극 (2P2E) ABE32b\r\n3극 (3P3E) ABE33b\r\n4극 (4P3E) -\r\n정격전류, In 3-5-10-15-20-30A\r\n정격전압, Ue AC : 460V\r\n-\r\n정격절연전압, Ui AC : 460V\r\n정격임펄스전압, Uimp 6kV\r\n정격차단전류, Icu 주1)\r\nKS C 8321 (Sym) \r\nIEC 60947-2 (lcu)\r\nE-type\r\nAC 690V -\r\n480/500V -\r\n460V 2.5kA \r\n415V 2.5kA \r\n380V 2.5kA \r\n220/250V 5kA \r\nDC 500V (3극) - \r\n250V (2극) -\r\nlcs=%×Icu 50%\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 완전전자식 (ODP)\r\n순시트립동작특성 12In\r\n한계수명 기계적 8,500회\r\n(Life cycle) 주3) 전기적 1,500회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 -\r\n-\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극\r\na 50 75\r\nb 96 96\r\nc1 주2) 60 60\r\nc2 주2) - -\r\nd 80 80\r\n제품중량, kg 표준 0.5 0.7\r\n취득규격 극수 2극 3극\r\n전기용품안전관리법 ○ ○\r\nCE 마크 ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n30AF MCCB (ABE30b)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 41,
+      "text": "Metasol MCCB/ELCB\r\n선정 및 주문\r\n주) 상세정격 7-1쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n차단기본체 주문형명 부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\n외부부속장치류\r\nR T\r\nABE30b 부속장치명\r\nB-03B 절연베리어 (전원측은 기본제공)\r\nTBS23 단자커버 (Short Type)\r\nT상 (左극) 위 부속장치 가운데 1종\r\nR상 (左극) AX, AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nSHT 전압트립장치\r\nABE Type (2.5kA/460V)\r\n정격전류, In 2극 3극 \r\n3 A ABE32b/3 ABE33b/3\r\n5 A ABE32b/5 ABE33b/5\r\n10 A ABE32b/10 ABE33b/10\r\n15 A ABE32b/15 ABE33b/15\r\n20 A ABE32b/20 ABE33b/20\r\n30 A ABE32b/30 ABE33b/30\r\n5\r\n 5-2",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 42,
+      "text": "5-3\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. S-Type의 정격차단전류중 ( )는 3, 5, 10A 정격전류 제품만 해당됩니다.\r\n4. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n5. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\nABS33c\r\nABS32c\r\nABS34c\r\n프레임의 크기 30AF\r\n형명 및 극수 S-type \r\n2극 (2P2E) ABS32c\r\n3극 (3P3E) ABS33c\r\n4극 (4P3E) ABS34c\r\n정격전류, In (3-5-10) 주3) -15-16-20-25-30A\r\n정격전압, Ue AC: 690V\r\nDC: 500V\r\n정격절연전압, Ui AC: 1000V\r\n정격임펄스전압, Uimp 8kV\r\n정격차단전류, Icu \r\nKS C 8321 60947-\r\n2 (lcu)\r\nS-type\r\nAC 690V 2.5kA \r\n480/500V 7.5 (5)kA \r\n460V 14 (10)kA \r\n415V 14 (10)kA \r\n380V 18 (14)kA \r\n220/250V 30 (25)kA \r\nDC 500V (3극) 5kA \r\n250V (2극) 5kA\r\nlcs=%×Icu 100%\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 3~10A : 12In, 15~30A : 400A\r\n한계수명 기계적 25,000회\r\n(Life cycle) 주5) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n꽂음접속식 (Plug-in)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극\r\na 50 75 100\r\nb 130 130 130\r\nc1 주2) 60 60 60\r\nc2 주2) 64 64 64\r\nd 82 82 82\r\n제품중량, kg 표준 0.5 0.7 0.9\r\n취득규격 극수 2극 3극 4극\r\n전기용품안전관리법 ○ ○ ○\r\nCE 마크 ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-1쪽\r\n•외형치수 ▶ 9-2쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n30AF MCCB (ABS30c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 43,
+      "text": "Metasol MCCB/ELCB\r\n주) 상세정격 7-1쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n차단기본체 주문형명 부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\n외부부속장치류\r\nR T\r\nABS30c 부속장치명\r\nIB13 절연베리어 (전원측은 기본제공)\r\nTCL13 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS13 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-30c 외부조작핸들 (직결형)\r\n- 2, 3극 공용\r\nDH100 외부조작핸들 (직결형)\r\nDHK100 외부조작핸들 (직결형, 키록부착)\r\nEH100 외부조작핸들 (확장형)\r\nRTR1 이면형단자 (Round Type)\r\nPB-A3 Plug-in Kit\r\nHandle Lock 핸들잠금장치\r\nMOP-M1 전동개폐장치\r\nABS Type (10kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n3 A ABS32c/3 ABS33c/3 ABS34c/3\r\n5 A ABS32c/5 ABS33c/5 ABS34c/5\r\n10 A ABS32c/10 ABS33c/10 ABS34c/10\r\nABS Type (14kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABS32c/15 ABS33c/15 ABS34c/15\r\n16 A ABS32c/16 ABS33c/16 ABS34c/16\r\n20 A ABS32c/20 ABS33c/20 ABS34c/20\r\n25 A ABS32c/25 ABS33c/25 ABS34c/5\r\n30 A ABS32c/30 ABS33c/30 ABS34c/30\r\nT상 (左극) 위 부속장치 가운데 1종\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\n5\r\n선정 및 주문\r\n 5-4",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 44,
+      "text": "5-5\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n4. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\nABS53c\r\nABS54c\r\nABS52c\r\n프레임의 크기 50AF\r\n형명 및 극수 N-type S-type H-type\r\n2극 (2P2E) ABN52c ABS52c ABH52c\r\n3극 (3P3E) ABN53c ABS53c ABH53c\r\n4극 (4P3E) ABN54c ABS54c ABH54c\r\n정격전류, In 15-16-20-25-30-32-40-50A\r\n정격전압, Ue AC : 690V\r\nDC : 500V\r\n정격절연전압, Ui AC : 1000V\r\n정격임펄스전압, Uimp 8kV\r\n정격차단전류, Icu \r\nKS C 8321 (Sym) \r\nIEC 60947-2 (lcu)\r\nN-type S-type H-type\r\nAC 690V 2.5kA 5kA 10kA\r\n480/500V 7.5kA 10kA 35kA\r\n460V 14kA 18kA 50kA\r\n415V 14kA 18kA 50kA\r\n380V 18kA 22kA 50kA\r\n220/250V 30kA 35kA 100kA\r\nDC 500V (3극) 5kA 10kA 30kA\r\n250V (2극) 5kA 10kA 30kA\r\nlcs=%×Icu 100% 100% 100%\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 12×In (30 A 이하 : 400 A)\r\n한계수명 기계적 25,000회\r\n(Life cycle) 주4) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n꽂음접속식 (Plug-in)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\na 50 75 100 50 75 100 60 90 120\r\nb 130 130 155\r\nc1 주2) 60 60 60\r\nc2 주2) 64 64 64\r\nd 82 82 82\r\n제품중량, kg 표준 0.5 0.7 0.9 0.5 0.7 0.9 0.7 1 1.2\r\n취득규격 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\n전기용품안전관리법 ○ ○ ○\r\nCE 마크 ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-1쪽\r\n•외형치수 ▶ 9-2쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n50AF MCCB (ABN50c, ABS50c, ABH50c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 45,
+      "text": "Metasol MCCB/ELCB\r\n주) 상세정격 7-1쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n차단기본체 주문형명 부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\n외부부속장치류\r\nR T\r\nABN50c\r\nABS50c ABH50c 부속장치명\r\nIB13 IB23 절연베리어 (전원측은 기본제공)\r\nTCL13 TCL23 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS13 TCS23 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-30c N-40c 외부조작핸들 (직결형)\r\n- 2, 3극 공용\r\nDH100 DH125 외부조작핸들 (직결형)\r\nDHK100 DHK125 외부조작핸들 (직결형, 키록부착)\r\nEH100 EH125 외부조작핸들 (확장형)\r\n- RTB2 이면형단자 (Bar Type)\r\nRTR1 RTR2 이면형단자 (Round Type)\r\n PB-A3 PB-C3 Plug-in Kit\r\nHandle Lock 핸들잠금장치\r\nMOP-M1 MOP-M2 전동개폐장치\r\nABN Type (14kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABN52c/15 ABN53c/15 ABN54c/15\r\n16 A ABN52c/16 ABN53c/16 ABN54c/16\r\n20 A ABN52c/20 ABN53c/20 ABN54c/20\r\n25 A ABN52c/25 ABN53c/25 ABN54c/25\r\n30 A ABN52c/30 ABN53c/30 ABN54c/30\r\n32 A ABN52c/32 ABN53c/32 ABN54c/32\r\n40 A ABN52c/40 ABN53c/40 ABN54c/40\r\n50 A ABN52c/50 ABN53c/50 ABN54c/50\r\nABS Type (18kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABS52c/15 ABS53c/15 ABS54c/15\r\n16 A ABS52c/16 ABS53c/16 ABS54c/16\r\n20 A ABS52c/20 ABS53c/20 ABS54c/20\r\n25 A ABS52c/25 ABS53c/25 ABS54c/25\r\n30 A ABS52c/30 ABS53c/30 ABS54c/30\r\n32 A ABS52c/32 ABS53c/32 ABS54c/32\r\n40 A ABS52c/40 ABS53c/40 ABS54c/40\r\n50 A ABS52c/50 ABS53c/50 ABS54c/50\r\nABH Type (50kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABH52c/15 ABH53c/15 ABH54c/15\r\n16 A ABH52c/16 ABH53c/16 ABH54c/16\r\n20 A ABH52c/20 ABH53c/20 ABH54c/20\r\n25 A ABH52c/25 ABH53c/25 ABH54c/25\r\n30 A ABH52c/30 ABH53c/30 ABH54c/30\r\n32 A ABH52c/32 ABH53c/32 ABH54c/32\r\n40 A ABH52c/40 ABH53c/40 ABH54c/40\r\n50 A ABH52c/50 ABH53c/50 ABH54c/50\r\nT상 (左극) 위 부속장치 가운데 1종\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\n5\r\n선정 및 주문\r\n 5-6",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 46,
+      "text": "5-7\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n4. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\nABS63c\r\nABS62c\r\nABS64c\r\n프레임의 크기 60AF\r\n형명 및 극수 N-type S-type\r\n2극 (2P2E) ABN62c ABS62c\r\n3극 (3P3E) ABN63c ABS63c\r\n4극 (4P3E) ABN64c ABS64c\r\n정격전류, In 15-16-20-25-30-32-40-50-60A\r\n정격전압, Ue AC : 690V\r\nDC : 500V\r\n정격절연전압, Ui AC : 1000V\r\n정격임펄스전압, Uimp 8kV\r\n정격차단전류, Icu \r\nKS C 8321 (Sym) \r\nIEC 60947-2 (lcu)\r\nN-type S-type\r\nAC 690V 2.5kA 5kA\r\n480/500V 7.5kA 10kA\r\n460V 14kA 18kA\r\n415V 14kA 18kA\r\n380V 18kA 22kA\r\n220/250V 30kA 35kA\r\nDC 500V (3극) 5kA 10kA\r\n250V (2극) 5kA 10kA\r\nlcs=%×Icu 100% 100%\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 12×In (30 A 이하 : 400 A)\r\n한계수명 기계적 25,000회\r\n(Life cycle) 주4) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n꽂음접속식 (Plug-in)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극 2극 3극 4극\r\na 50 75 100 50 75 100\r\nb 130 130\r\nc1 주2) 60 60\r\nc2 주2) 64 64\r\nd 82 82\r\n제품중량, kg 표준 0.5 0.7 0.9 0.5 0.7 0.9\r\n취득규격 극수 2극 3극 4극 2극 3극 4극\r\n전기용품안전관리법 ○ ○\r\nCE 마크 ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-1쪽\r\n•외형치수 ▶ 9-2쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n60AF MCCB (ABN60c, ABS60c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 47,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 주문형명\r\n주) 상세정격 7-1쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\nR T\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n외부부속장치류\r\nABS60c\r\nABN60c 부속장치명\r\nIB13 절연베리어 (전원측은 기본제공)\r\nTCL13 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS13 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-30c 외부조작핸들 (직결형)\r\n- 2, 3극 공용\r\nDH100 외부조작핸들 (직결형)\r\nDHK100 외부조작핸들 (직결형, 키록부착)\r\nEH100 외부조작핸들 (확장형)\r\nRTB1 이면형단자 (Bar Type)\r\nRTR1 이면형단자 (Round Type)\r\nPB-A3 Plug-in Kit\r\nHandle Lock 핸들잠금장치\r\nMOP-M1 전동개폐장치\r\nABN Type (14kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABN62c/15 ABN63c/15 ABN64c/15\r\n16 A ABN62c/16 ABN63c/16 ABN64c/16\r\n20 A ABN62c/20 ABN63c/20 ABN64c/20\r\n25 A ABN62c/25 ABN63c/25 ABN64c/25\r\n30 A ABN62c/30 ABN63c/30 ABN64c/30\r\n32 A ABN62c/32 ABN63c/32 ABN64c/32\r\n40 A ABN62c/40 ABN63c/40 ABN64c/40\r\n50 A ABN62c/50 ABN63c/50 ABN64c/50\r\n60 A ABN62c/60 ABN63c/60 ABN64c/60\r\nABS Type (18kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABS62c/15 ABS63c/15 ABS64c/15\r\n16 A ABS62c/16 ABS63c/16 ABS64c/16\r\n20 A ABS62c/20 ABS63c/20 ABS64c/20\r\n25 A ABS62c/25 ABS63c/25 ABS64c/25\r\n30 A ABS62c/30 ABS63c/30 ABS64c/30\r\n32 A ABS62c/32 ABS63c/32 ABS64c/32\r\n40 A ABS62c/40 ABS63c/40 ABS64c/40\r\n50 A ABS62c/50 ABS63c/50 ABS64c/50\r\n60 A ABS62c/60 ABS63c/60 ABS64c/60\r\nT상 (左극) 위 부속장치 가운데 1종\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\n5\r\n선정 및 주문\r\n 5-8",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 48,
+      "text": "5-9\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. ABN100d Type의 경우 Ics=18kA임.\r\n4. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n5. ABN100e Type의 경우 Ics= ( )안의 kA임\r\n6. 100AF의 정격전류 중 ( )는 ABN100c/ABN100d 제품만 해당합니다. \r\n7. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\nABN103c\r\nABN102c\r\nABN104c\r\n프레임의 크기 100AF\r\n형명 및 극수 N-type\r\n2극 (2P2E) ABN102c ABN102d ABN102e\r\n3극 (3P3E) ABN103c ABN103d ABN103e\r\n4극 (4P3E) ABN104c ABN104d ABN104e\r\n정격전류, In 15, (16), 20, (25), 30, (32), 40, 50, 60, (63), 75, (80), 100A 주6)\r\n정격전압, Ue AC : 690V\r\nDC : 500V\r\n정격절연전압, Ui AC : 1000V\r\n정격임펄스전압, Uimp 8kV\r\n정격차단전류, Icu \r\nKS C 8321 (Sym) \r\nIEC 60947-2 (lcu)\r\nN-type\r\nAC 690V 5kA 7.5 (5)kA 7.5 (5)kA\r\n480/500V 10kA 14 (10)kA 14 (10)kA\r\n460V 18kA 26 (18)kA 31 (18)kA\r\n415V 18kA 26 (18)kA 31 (18)kA\r\n380V 22kA 30 (22)kA 31 (22)kA\r\n220/250V 35kA 50 (35)kA 65 (35)kA\r\nDC 500V (3극) 10kA 15 (10)kA 15 (10)kA\r\n250V (2극) 10kA 15 (10)kA 15 (10)kA\r\nlcs=%×Icu 100% ( ) ( )\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 12×In (30 A 이하 : 400 A)\r\n한계수명 기계적 25,000회\r\n(Life cycle) 주7) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n꽂음접속식 (Plug-in)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극\r\na 50 75 100\r\nb 130 130 130\r\nc1 주2) 60 60 60\r\nc2 주2) 64 64 64\r\nd 82 82 82\r\n제품중량, kg 표준 0.5 0.7 0.9\r\n취득규격 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\n전기용품안전관리법 ○ ○ ○\r\nCE 마크 ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-1쪽\r\n•외형치수 ▶ 9-2쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n100AF MCCB (ABN100c/ABN100d/ABN100e)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 49,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 주문형명\r\n주) 상세정격 7-1쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\n외부부속장치류\r\nR T\r\nABN100c 부속장치명\r\nIB13 절연베리어 (전원측은 기본제공)\r\nTCL13 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS13 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-30c 외부조작핸들 (직결형)\r\n- 2, 3극 공용\r\nDH100 외부조작핸들 (직결형)\r\nDHK100 외부조작핸들 (직결형, 키록부착)\r\nEH100 외부조작핸들 (확장형)\r\nRTB1 이면형단자 (Bar Type)\r\nRTR1 이면형단자 (Round Type)\r\nPB-A3 Plug-in Kit\r\nHandle Lock 핸들잠금장치\r\nMOP-M1 전동개폐장치\r\nABN-c Type (18kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABN102c/15 ABN103c/15 ABN104c/15\r\n16 A ABN102c/16 ABN103c/16 ABN104c/16\r\n20 A ABN102c/20 ABN103c/20 ABN104c/20\r\n25 A ABN102c/25 ABN103c/25 ABN104c/25\r\n30 A ABN102c/30 ABN103c/30 ABN104c/30\r\n32 A ABN102c/32 ABN103c/32 ABN104c/32\r\n40 A ABN102c/40 ABN103c/40 ABN104c/40\r\n50 A ABN102c/50 ABN103c/50 ABN104c/50\r\n60 A ABN102c/60 ABN103c/60 ABN104c/60\r\n63 A ABN102c/63 ABN103c/63 ABN104c/63\r\n75 A ABN102c/75 ABN103c/75 ABN104c/75\r\n80 A ABN102c/80 ABN103c/80 ABN104c/80\r\n100 A ABN102c/100 ABN103c/100 ABN104c/100\r\nABN-d Type (26kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABN102d/15 ABN103d/15 ABN104d/15\r\n16 A ABN102d/16 ABN103d/16 ABN104d/16\r\n20 A ABN102d/20 ABN103d/20 ABN104d/20\r\n25 A ABN102d/25 ABN103d/25 ABN104d/25\r\n30 A ABN102d/30 ABN103d/30 ABN104d/30\r\n32 A ABN102d/32 ABN103d/32 ABN104d/32\r\n40 A ABN102d/40 ABN103d/40 ABN104d/40\r\n50 A ABN102d/50 ABN103d/50 ABN104d/50\r\n60 A ABN102d/60 ABN103d/60 ABN104d/60\r\n63 A ABN102d/63 ABN103d/63 ABN104d/63\r\n75 A ABN102d/75 ABN103d/75 ABN104d/75\r\n80 A ABN102d/80 ABN103d/80 ABN104d/80\r\n100 A ABN102d/100 ABN103d/100 ABN104d/100\r\nABN-e Type (31kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABN102e/15 ABN103e/15 ABN104e/15\r\n20 A ABN102e/20 ABN103e/20 ABN104e/20\r\n30 A ABN102e/30 ABN103e/30 ABN104e/30\r\n40 A ABN102e/40 ABN103e/40 ABN104e/40\r\n50 A ABN102e/50 ABN103e/50 ABN104e/50\r\n60 A ABN102e/60 ABN103e/60 ABN104e/60\r\n75 A ABN102e/75 ABN103e/75 ABN104e/75\r\n100 A ABN102e/100 ABN103e/100 ABN104e/100\r\nT상 (左극) 위 부속장치 가운데 1종\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\n5\r\n선정 및 주문\r\n 5-10",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 50,
+      "text": "5-11\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n4. ABL Type의 경우 Ics= ( )안의 kA임.\r\n5. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n6. 정격전류 중 ( )는 L-Type은 해당되지 않습니다.\r\nABS103c\r\nABS102c\r\nABS104c\r\n프레임의 크기 125AF\r\n형명 및 극수 S-type H-type L-type\r\n2극 (2P2E) ABS102c ABH102c ABL102c\r\n3극 (3P3E) ABS103c ABH103c ABL103c\r\n4극 (4P3E) ABS104c ABH104c ABL104c\r\n정격전류, In 주6) 15-(16)-20-30-(32)-40-50-60-(63)-75-(80)-100-125A\r\n정격전압, Ue AC : 690V\r\nDC : 500V\r\n정격절연전압, Ui AC : 1000V\r\n정격임펄스전압, Uimp 8kV\r\n정격차단전류, Icu \r\nKS C 8321 (Sym) \r\nIEC 60947-2 (lcu)\r\nS-type H-type L-type\r\nAC 690V 8kA 10kA 10 (10)kA\r\n480/500V 26kA 35kA 35 (35)kA\r\n460V 37kA 50kA 60 (50)kA\r\n415V 37kA 50kA 60 (50)kA\r\n380V 42kA 50kA 60 (50)kA\r\n220/250V 85kA 100kA 125 (100)kA\r\nDC 500V (3극) 20kA 30kA 30 (30)kA\r\n250V (2극) 20kA 30kA 30 (30)kA\r\nlcs=%×Icu 100% 100% ( )\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 12×In (30A 이하 : 400A)\r\n한계수명 기계적 25,000회\r\n(Life cycle) 주5) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n꽂음접속식 (Plug-in)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\na 60 90 120 60 90 120 60 90 120\r\nb 155 155 155\r\nc1 주2) 60 60 60\r\nc2 주2) 64 64 64\r\nd 82 82 82\r\n제품중량, kg 표준 0.7 1 1.2 0.7 1 1.2 0.7 1 1.2\r\n취득규격 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\n전기용품안전관리법 ○ ○ ○\r\nCE 마크 ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-2쪽\r\n•외형치수 ▶ 9-3쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n125AF MCCB (ABS125c, ABH125c, ABL125c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 51,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 주문형명\r\n주) 상세정격 7-1쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\nR T\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n외부부속장치류\r\nABS125c\r\nABH125c 부속장치명\r\nIB23 절연베리어 (전원측은 기본제공)\r\nTCL23 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS23 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-40c 외부조작핸들 (직결형)\r\n- 2, 3극 공용\r\nDH125 외부조작핸들 (직결형)\r\nDHK125 외부조작핸들 (직결형, 키록부착)\r\nEH125 외부조작핸들 (확장형)\r\nRTB2 이면형단자 (Bar Type)\r\nRTR2 이면형단자 (Round Type)\r\nPB-C3 Plug-in Kit\r\nHandle Lock 핸들잠금장치\r\nABS Type (37kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABS102c/15 ABS103c/15 ABS104c/15\r\n16 A ABS102c/16 ABS103c/16 ABS104c/16\r\n20 A ABS102c/20 ABS103c/20 ABS104c/20\r\n30 A ABS102c/30 ABS103c/30 ABS104c/30\r\n32 A ABS102c/32 ABS103c/32 ABS104c/32\r\n40 A ABS102c/40 ABS103c/40 ABS104c/40\r\n50 A ABS102c/50 ABS103c/50 ABS104c/50\r\n60 A ABS102c/60 ABS103c/60 ABS104c/60\r\n63 A ABS102c/63 ABS103c/63 ABS104c/63\r\n75 A ABS102c/75 ABS103c/75 ABS104c/75\r\n80 A ABS102c/80 ABS103c/80 ABS104c/80\r\n100 A ABS102c/100 ABS103c/100 ABS104c/100\r\n125 A ABS102c/125 ABS103c/125 ABS104c/125\r\nABH Type (50kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABH102c/15 ABH103c/15 ABH104c/15\r\n16 A ABH102c/16 ABH103c/16 ABH104c/16\r\n20 A ABH102c/20 ABH103c/20 ABH104c/20\r\n30 A ABH102c/30 ABH103c/30 ABH104c/30\r\n32 A ABH102c/32 ABH103c/32 ABH104c/32\r\n40 A ABH102c/40 ABH103c/40 ABH104c/40\r\n50 A ABH102c/50 ABH103c/50 ABH104c/50\r\n60 A ABH102c/60 ABH103c/60 ABH104c/60\r\n63 A ABH102c/63 ABH103c/63 ABH104c/63\r\n75 A ABH102c/75 ABH103c/75 ABH104c/75\r\n80 A ABH102c/80 ABH103c/80 ABH104c/80\r\n100 A ABH102c/100 ABH103c/100 ABH104c/100\r\n125 A ABH102c/125 ABH103c/125 ABH104c/125\r\nABL Type (60kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n15 A ABL102c/15 ABL103c/15 ABL104c/15\r\n20 A ABL102c/20 ABL103c/20 ABL104c/20\r\n30 A ABL102c/30 ABL103c/30 ABL104c/30\r\n40 A ABL102c/40 ABL103c/40 ABL104c/40\r\n50 A ABL102c/50 ABL103c/50 ABL104c/50\r\n60 A ABL102c/60 ABL103c/60 ABL104c/60\r\n75 A ABL102c/75 ABL103c/75 ABL104c/75\r\n100 A ABL102c/100 ABL103c/100 ABL104c/100\r\n125 A ABL102c/125 ABL103c/125 ABL104c/125\r\nT상 (左극) 위 부속장치 가운데 1종\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\n5\r\n선정 및 주문\r\n 5-12",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 52,
+      "text": "5-13\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n4. ABL Type의 경우 Ics= ( )안의 kA임.\r\n5. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n6. 정격전류 중 ( )는 L-Type은 해당되지 않습니다.\r\nABS203c\r\nABS202c\r\nABS204c\r\n프레임의 크기 250AF\r\n형명 및 극수 N-type S-type H-type L-type\r\n2극 (2P2E) ABN202c ABS202c ABH202c ABL202c\r\n3극 (3P3E) ABN203c ABS203c ABH203c ABL203c\r\n4극 (4P3E) ABN204c ABS204c ABH204c ABL204c\r\n정격전류, In 주6) 100-125-150-(160)-175-200-225-250A\r\n정격전압, Ue AC : 690V\r\nDC : 500V\r\n정격절연전압, Ui AC : 1000V\r\n정격임펄스전압, Uimp 8kV\r\n정격차단전류, Icu \r\nKS C 8321 (Sym) \r\nIEC 60947-2 (lcu)\r\nN-type S-type H-type L-type\r\nAC 690V 8kA 8kA 10kA 10 (10)kA\r\n480/500V 18kA 26kA 35kA 35 (35)kA\r\n460V 26kA 37kA 50kA 60 (50)kA\r\n415V 26kA 37kA 50kA 60 (50)kA\r\n380V 30kA 42kA 50kA 60 (50)kA\r\n220/250V 65kA 85kA 100kA 125 (100)kA\r\nDC 500V (3극) 10kA 20kA 30kA 30 (30)kA\r\n250V (2극) 10kA 20kA 30kA 30 (30)kA\r\nlcs=%×Icu 100% 100% 100% ( )\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 12×In\r\n한계수명 기계적 20,000회\r\n(Life cycle) 주5) 전기적 5,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n꽂음접속식 (Plug-in)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\na 105 105 140 105 105 140 105 105 140 105 105 140\r\nb 165 165 165 165\r\nc1 주1) 60 60 60 60\r\nc2 주1) 64 64 64 64\r\nd 87 87 87 87\r\n제품중량, kg 표준 1.1 1.2 1.6 1.1 1.2 1.6 1.1 1.2 1.6 1.1 1.2 1.6\r\n취득규격 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\n전기용품안전관리법 ○ ○ ○ ○\r\nCE 마크 ○ ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-3쪽\r\n•외형치수 ▶ 9-4쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n250AF MCCB (ABN250c, ABS250c, ABH250c, ABL250c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 53,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 주문형명\r\n주) 상세정격 7-1쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\n외부부속장치류\r\nR T\r\nABN Type (26kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n100 A ABN202c/100 ABN203c/100 ABN204c/100\r\n125 A ABN202c/125 ABN203c/125 ABN204c/125\r\n150 A ABN202c/150 ABN203c/150 ABN204c/150\r\n160 A ABN202c/160 ABN203c/160 ABN204c/160\r\n175 A ABN202c/175 ABN203c/175 ABN204c/175\r\n200 A ABN202c/200 ABN203c/200 ABN204c/200\r\n225 A ABN202c/225 ABN203c/225 ABN204c/225\r\n250 A ABN202c/250 ABN203c/250 ABN204c/250\r\nABS Type (37kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n100 A ABS202c/100 ABS203c/100 ABS204c/100\r\n125 A ABS202c/125 ABS203c/125 ABS204c/125\r\n150 A ABS202c/150 ABS203c/150 ABS204c/150\r\n160 A ABS202c/160 ABS203c/160 ABS204c/160\r\n175 A ABS202c/175 ABS203c/175 ABS204c/175\r\n200 A ABS202c/200 ABS203c/200 ABS204c/200\r\n225 A ABS202c/225 ABS203c/225 ABS204c/225\r\n250 A ABS202c/250 ABS203c/250 ABS204c/250\r\nABH Type (50kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n100 A ABH202c/100 ABH203c/100 ABH204c/100\r\n125 A ABH202c/125 ABH203c/125 ABH204c/125\r\n150 A ABH202c/150 ABH203c/150 ABH204c/150\r\n160 A ABH202c/160 ABH203c/160 ABH204c/160\r\n175 A ABH202c/175 ABH203c/175 ABH204c/175\r\n200 A ABH202c/200 ABH203c/200 ABH204c/200\r\n225 A ABH202c/225 ABH203c/225 ABH204c/225\r\n250 A ABH202c/250 ABH203c/250 ABH204c/250\r\nABL Type (60kA/460V)\r\n정격전류, In 2극 3극 4극 \r\n100 A ABL202c/100 ABL203c/100 ABL204c/100\r\n125 A ABL202c/125 ABL203c/125 ABL204c/125\r\n150 A ABL202c/150 ABL203c/150 ABL204c/150\r\n175 A ABL202c/175 ABL203c/175 ABL204c/175\r\n200 A ABL202c/200 ABL203c/200 ABL204c/200\r\n225 A ABL202c/225 ABL203c/225 ABL204c/225\r\n250 A ABL202c/250 ABL203c/250 ABL204c/250\r\nT상 (左극) 위 부속장치 가운데 1종\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\nABH250c 부속장치명\r\nIB23 절연베리어 (전원측은 기본제공)\r\nTCL33 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS33 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-50c 외부조작핸들 (직결형)\r\nDH250 외부조작핸들 (직결형)\r\nDHK250 외부조작핸들 (직결형, 키록부착)\r\nEH250 외부조작핸들 (확장형)\r\nRTB3 이면형단자 (Bar Type)\r\nRTR3 이면형단자 (Round Type)\r\nPB-D3 Plug-in Kit\r\nHandle Lock 핸들잠금장치\r\nMOP-M3 전동개폐장치\r\n5\r\n선정 및 주문\r\n 5-14",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 54,
+      "text": "5-15\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임. (안정인증은 250~300A만 취득)\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n4. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\nABS403c\r\nABL404c\r\n프레임의 크기 400AF\r\n형명 및 극수 N-type S-type H-type L-type\r\n2극 (2P2E) ABN402c ABS402c ABH402c ABL402c\r\n3극 (3P3E) ABN403c ABS403c ABH403c ABL403c\r\n4극 (4P3E) ABN404c ABS404c ABH404c ABL404c\r\n정격전류, In 250-300-350-400A\r\n정격전압, Ue AC : 690V\r\nDC : 500V\r\n정격절연전압, Ui AC : 1000V\r\n정격임펄스전압, Uimp 8kV\r\n정격차단전류, Icu \r\nKS C 8321 (Sym) \r\nIEC 60947-2 (lcu)\r\nN-type S-type H-type L-type\r\nAC 690V 5kA 8kA 10kA 14kA\r\n480/500V 18kA 35kA 50kA 65kA\r\n415/460V 37kA 50kA 65kA 85kA\r\n380V 42kA 65kA 70kA 100kA\r\n220/250V 50kA 75kA 85kA 125kA\r\nDC 500V (3P) 10kA 20kA 40kA 40kA\r\n250V (2P) 10kA 20kA 40kA 40kA\r\nlcs=%×Icu 100% 100% 100% 75%\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic)\r\n순시트립동작특성 8~12In\r\n한계수명 기계적 4,000회\r\n(Life cycle) 주4) 전기적 1,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 꽂음접속식 (Plug-in)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\na 140 140 184 140 140 184 140 140 184 140 140 184\r\nb 257 257 257 257\r\nc1 주1) 109 109 109 109\r\nc2 주1) 113 113 113 113\r\nd 145 145 145 145\r\n제품중량, kg 표준 5.2 6.2 7.8 5.2 6.2 7.8 5.2 6.2 7.8 5.2 6.2 7.8\r\n취득규격 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\n전기용품안전관리법 ○ ○ ○ ○\r\nCE 마크 ○ ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-2쪽\r\n•특성곡선 ▶ 8-4쪽\r\n•외형치수 ▶ 9-5쪽\r\n•부착과 접속 ▶ 10-3쪽\r\n400AF MCCB (ABN400c, ABS400c, ABH400c, ABL400c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 55,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 주문형명\r\n주) 상세정격 7-2쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합 (최대)\r\nR T\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n외부부속장치류\r\nE-70U N-70 MOP-M4\r\nB-43B 절연배리어\r\nT1-43A 단자커버 (Long Type) - 2, 3극용\r\n- 단독형, N-Handle용 구분\r\nT1-44A 단자커버 (Long Type) - 4극용\r\nN-70 외부조작핸들 (직결형)\r\nE-70U 외부조작핸들 (확장형)\r\nMI-43 기계적 인터록 유닛- 2, 3극용\r\nMI-44 기계적 인터록 유닛- 4극용\r\nPB-I3-FR Plug-in Kit\r\nMOP-M4 전동개폐장치\r\nAX 보조스위치\r\nAL 경보스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\nT상 (右극) AX 2개, AL 2개, SHT 또는 UVT\r\nR상 (左극) AX 2개, AL 2개, SHT 또는 UVT\r\nABN Type (37kA/460V)\r\n정격전류, In 2극 3극 4극\r\n250 A ABN402c/250 ABN403c/250 ABN404c/250\r\n300 A ABN402c/300 ABN403c/300 ABN404c/300\r\n350 A ABN402c/350 ABN403c/350 ABN404c/350\r\n400 A ABN402c/400 ABN403c/400 ABN404c/400\r\nABS Type (50kA/460V)\r\n정격전류, In 2극 3극 4극\r\n250 A ABS402c/250 ABS403c/250 ABS404c/250\r\n300 A ABS402c/300 ABS403c/300 ABS404c/300\r\n350 A ABS402c/350 ABS403c/350 ABS404c/350\r\n400 A ABS402c/400 ABS403c/400 ABS404c/400\r\nABH Type (65kA/460V)\r\n정격전류, In 2극 3극 4극\r\n250 A ABH402c/250 ABH403c/250 ABH404c/250\r\n300 A ABH402c/300 ABH403c/300 ABH404c/300\r\n350 A ABH402c/350 ABH403c/350 ABH404c/350\r\n400 A ABH402c/400 ABH403c/400 ABH404c/400\r\nABL Type (85kA/460V)\r\n정격전류, In 2극 3극 4극\r\n250 A ABL402c/250 ABL403c/250 ABL404c/250\r\n300 A ABL402c/300 ABL403c/300 ABL404c/300\r\n350 A ABL402c/350 ABL403c/350 ABL404c/350\r\n400 A ABL402c/400 ABL403c/400 ABL404c/400\r\n5\r\n선정 및 주문\r\n 5-16",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 56,
+      "text": "5-17\r\n주) 1. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n2. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n3. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\nABS603c\r\nABL604c\r\n프레임의 크기 630AF\r\n형명 및 극수 N-type S-type L-type\r\n2극 (2P2E) ABN602c ABS602c ABL602c\r\n3극 (3P3E) ABN603c ABS603c ABL603c\r\n4극 (4P3E) ABN604c ABS604c ABL604c\r\n정격전류, In 500-600-630A\r\n정격전압, Ue AC : 600V\r\nDC : 500V\r\n정격절연전압, Ui AC : 1000V\r\n정격임펄스전압, Uimp 8kV\r\n정격차단전류, Icu \r\nKS C 8321 (Sym) \r\nIEC 60947-2 (lcu)\r\nN-type S-type L-type\r\nAC 690V 8kA 10kA 14kA\r\n480/500V 25kA 45kA 65kA\r\n415/460V 37kA 65kA 85kA\r\n380V 45kA 75kA 100kA\r\n220/250V 50kA 85kA 125kA\r\nDC 500V (3P) 10kA 20kA 40kA\r\n250V (2P) 10kA 20kA 40kA\r\nlcs=%×Icu 100% 100% 75%\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic)\r\n순시트립동작특성 8~12In\r\n한계수명 기계적 2,500회\r\n(Life cycle) 주3) 전기적 500회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 꽂음접속식 (Plug-in)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\na 210 210 280 210 210 280 210 210 280\r\nb 280 280 280\r\nc1 주1) 109 109 109\r\nc2 주1) 113 113 113\r\nd 145 145 145\r\n제품중량, kg 표준 11 11.5 18.2 11 11.5 18.2 11 11.5 18.2\r\n취득규격 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\nCE 마크 ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-2쪽\r\n•특성곡선 ▶ 8-4쪽\r\n•외형치수 ▶ 9-6쪽\r\n•부착과 접속 ▶ 10-3쪽\r\n630AF MCCB (ABN630c, ABS630c, ABL630c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 57,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 주문형명\r\n주) 상세정격 7-2쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합 (최대)\r\n외부부속장치류\r\nR T\r\nE-80U N-80\r\nABN Type (37kA/460V)\r\n정격전류, In 2극 3극 4극\r\n500 A ABN602c/500 ABN603c/500 ABN604c/500\r\n600 A ABN602c/600 ABN603c/600 ABN604c/600\r\n630 A ABN602c/630 ABN603c/630 ABN604c/630\r\nABS Type (65kA/460V)\r\n정격전류, In 2극 3극 4극\r\n500 A ABS602c/500 ABS603c/500 ABS604c/500\r\n600 A ABS602c/600 ABS603c/600 ABS604c/600\r\n630 A ABS602c/630 ABS603c/630 ABS604c/630\r\nABL Type (85kA/460V)\r\n정격전류, In 2극 3극 4극\r\n500 A ABL602c/500 ABL603c/500 ABL604c/500\r\n600 A ABL602c/600 ABL603c/600 ABL604c/600\r\n630 A ABL602c/630 ABL603c/630 ABL604c/630\r\nAX 보조스위치\r\nAL 경보스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\nT상 (右극) AX 2개, AL 2개, SHT 또는 UVT\r\nR상 (左극) AX 2개, AL 2개, SHT 또는 UVT\r\nB-33C 절연배리어\r\nT1-63A 단자커버 (Long Type) - 2, 3극용\r\n- 단독형, N-Handle용 구분\r\nT1-64A 단자커버 (Long Type) - 4극용\r\nN-80 외부조작핸들 (직결형)\r\nE-80U 외부조작핸들 (확장형)\r\nMI-83S 기계적 인터록 유닛- 2, 3극용\r\nMI-84S 기계적 인터록 유닛- 4극용\r\nPB-J3-FR Plug-in Kit\r\nMOP-M5 전동개폐장치\r\nMOP-M5\r\n5\r\n선정 및 주문\r\n 5-18",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 58,
+      "text": "5-19\r\n주) 1. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n2. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n3. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\na\r\nb\r\nd\r\nc2\r\nc1\r\nABS803c\r\nABL804c\r\n프레임의 크기 800AF\r\n형명 및 극수 N-type S-type L-type\r\n2극 (2P2E) ABN802c ABS802c ABL802c\r\n3극 (3P3E) ABN803c ABS803c ABL803c\r\n4극 (4P3E) ABN804c ABS804c ABL804c\r\n정격전류, In 700-800A\r\n정격전압, Ue AC : 600V\r\nDC : 500V\r\n정격절연전압, Ui AC : 1000V\r\n정격임펄스전압, Uimp 8kV\r\n정격차단전류, Icu \r\nKS C 8321 (Sym) \r\nIEC 60947-2 (lcu)\r\nN-type S-type L-type\r\nAC 690V 8kA 10kA 14kA\r\n480/500V 25kA 45kA 65kA\r\n415/460V 37kA 65kA 85kA\r\n380V 45kA 75kA 100kA\r\n220/250V 50kA 85kA 125kA\r\nDC 500V (3P) 10kA 20kA 40kA\r\n250V (2P) 10kA 20kA 40kA\r\nlcs=%×Icu 100% 100% 75%\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic)\r\n순시트립동작특성 8~12In\r\n한계수명 기계적 2,500회\r\n(Life cycle) 주3) 전기적 500회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 꽂음접속식 (Plug-in)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\na 210 210 280 210 210 280 210 210 280\r\nb 280 280 280\r\nc1 주1) 109 109 109\r\nc2 주1) 113 113 113\r\nd 145 145 145\r\n제품중량, kg 표준 11 11.5 18.2 11 11.5 18.2 11 11.5 18.2\r\n취득규격 극수 2극 3극 4극 2극 3극 4극 2극 3극 4극\r\nCE 마크 ○ ○ ○\r\na\r\nb\r\nd\r\nc\r\n기타 자료\r\n•부속장치 ▶ 7-2쪽\r\n•특성곡선 ▶ 8-4쪽\r\n•외형치수 ▶ 9-6쪽\r\n•부착과 접속 ▶ 10-3쪽\r\n800AF MCCB (ABN800c, ABS800c, ABL800c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 59,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 주문형명\r\n주) 상세정격 7-2쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-27쪽\r\n내부부속장치류\r\n설치 가능 조합 (최대)\r\n외부부속장치류\r\n부속장치 (Accessory)\r\nE-80U N-80\r\nR T\r\nB-33C 절연배리어\r\nT1-63A 단자커버 (Long Type) - 2, 3극용\r\n- 단독형, N-Handle용 구분\r\nT1-64A 단자커버 (Long Type) - 4극용\r\nN-80 외부조작핸들 (직결형)\r\nE-80U 외부조작핸들 (확장형)\r\nMI-83S 기계적 인터록 유닛- 2, 3극용\r\nMI-84S 기계적 인터록 유닛- 4극용\r\nPB-J3-FR Plug-in Kit\r\nMOP-M5 전동개폐장치\r\nABN Type (37kA/460V)\r\n정격전류, In 2극 3극 4극\r\n700 A ABN802c/700 ABN803c/700 ABN804c/700\r\n800 A ABN802c/800 ABN803c/800 ABN804c/800\r\nABS Type (65kA/460V)\r\n정격전류, In 2극 3극 4극\r\n700 A ABS802c/700 ABS803c/700 ABS804c/700\r\n800 A ABS802c/800 ABS803c/800 ABS804c/800\r\nABL Type (85kA/460V)\r\n정격전류, In 2극 3극 4극\r\n700 A ABL802c/700 ABL803c/700 ABL804c/700\r\n800 A ABL802c/800 ABL803c/800 ABL804c/800\r\nT상 (右극) AX 2개, AL 2개, SHT 또는 UVT\r\nR상 (左극) AX 2개, AL 2개, SHT 또는 UVT\r\nAX 보조스위치\r\nAL 경보스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\nMOP-M5\r\n5\r\n선정 및 주문\r\n 5-20",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 60,
+      "text": "5-21\r\n기타 자료\r\n•외형치수 ▶ 8-5쪽\r\n•특성곡선 ▶ 9-7쪽\r\n주) 1. 주파수에 따라 제품이 별도로 되어 있습니다.\r\n2. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n3. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n① 각 상별 순시트립\r\n 동작특성 설정가능 \r\n프레임의 크기 1000AF 1200AF\r\n형명 및 극수 S-type L-type S-type L-type\r\n2극 (2P2E) - - - -\r\n3극 (3P3E) ABS1003b ABL1003b ABS1203b ABL1203b\r\n4극 (4P3E) ABS1004b ABL1004b ABS1204b ABL1204b\r\n정격전류, In 1000A 1200A\r\n정격전압, Ue AC : 600V\r\n정격절연전압, Ui 690V\r\n정격임펄스전압, Uimp 6kV\r\n정격차단전류, Icu \r\nIEC 60947-2 (lcu)\r\nS-type L-type\r\nAC 600V 45kA 65kA\r\n480/500V 50kA 75kA\r\n415/460V 65kA 85kA\r\n380V 65kA 85kA\r\n220/250V 100kA 125kA\r\nlcs=%×Icu 50% 50%\r\n보호기능 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic)\r\n순시트립동작특성 (3~6)×In ...①\r\n내구수명 기계적 2,500회\r\n(Life cycle) 주3) 전기적 500회\r\n접속방식 표준 표면형 (Front Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 3극 4극 3극 4극\r\na 220 290 220 290\r\nb 400 400 400 400\r\nc 105 105 105 105\r\nd 159 159 159 159\r\n제품중량, kg 표준 19.6 25.7 19.6 25.7\r\n취득규격 극수 3극 4극 3극 4극\r\nCE 마크 ABS1003b ABS1004b ABS1203b ABS1204b\r\n○ × ○ ×\r\nABL1003b ABL1004b ABL1203b ABL1204b\r\n× × × ×\r\na\r\nb\r\nd\r\nc\r\n1000/1200AF MCCB (ABS1000b/1200b, ABL1000b/1200b)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 61,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 주문형명\r\nT상 (右극) 설치용 (아래 항목중 택일)\r\n보조·경보접점의 동작\r\nR상 (左극) 설치용 (아래 항목중 택일)\r\nR T\r\n보조접점 및 경보접점의 사용전압별 정격\r\n전압트립장치 (SHT) 정격\r\n부족전압트립장치 (UVT)정격\r\nSHT 정격전압 시간정격 동작전압\r\nAC\r\n100~110V\r\n125V\r\n200~220V\r\n380~440V\r\n480~550V\r\n연속 정격전압의 85~110%\r\nDC\r\n24V\r\n48V\r\n100~110V\r\n125V\r\n200~220V\r\n정격전압의 75~125%\r\nSHT 정격전압 시간정격 사용전압 동작전압\r\nAC\r\n100~110V\r\n125V\r\n200~220V\r\n380~440V\r\n연속 정격전압의\r\n85~110%\r\n정격전압의 \r\n20~70%\r\nAX1 보조스위치 (1c접점)\r\nAX2 보조스위치 (2c접점)\r\nAL1 경보스위치 (1c접점)\r\nAL2 경보스위치 (2c접점)\r\nAX1+AL 보조 (1c)+경보 (1c)스위치\r\nAX2+AL 보조 (2c)+경보 (1c)스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\nABS Type (65kA/460V)\r\n정격전류, In 3극 4극\r\n1000 A ABS1003b/1000 ABS1004b/1000\r\n1200 A ABS1203b/1200 ABS1204b/1200\r\nABL Type (85kA/460V)\r\n정격전류, In 3극 4극\r\n1000 A ABL1003b/1000 ABL1004b/1000\r\n1200 A ABL1203b/1200 ABL1204b/1200\r\n구 분\r\n차단기 핸들 상태\r\nOn Off Tripped\r\n보조접점\r\n (AX)\r\n경보접점\r\n (AL)\r\nAC DC\r\n사용\r\n전압 (V)\r\n계폐전류 (A) 사용\r\n전압 (V)\r\n계폐전류 (A)\r\n저항 부하 유도 부하 저항 부하 유도 부하\r\n125 20 20 30 6 5\r\n250 20 20 125 0.4 0.05\r\n500 10 5 250 0.2 0.03\r\n주) 3극 기준, 상세사양 7-26쪽\r\n외부부속장치류\r\nMOP-M6 전동개폐장치\r\nMOP-M6\r\n5\r\n선정 및 주문\r\n 5-22",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 62,
+      "text": "6-1\r\nEBS33c\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n4. S-Type의 정격차단전류 중 ( )는 5, 10A 정격전류 제품만 해당됩니다.\r\n5. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n6. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n7. 시연형 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 2배입니다. 단, 0초는 최대동작시간이 0.1초 이하입니다.\r\n8. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n9. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n10. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다.\r\n11. 한계수명은 보증 횟수가 아닙니다. (품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n프레임의 크기 30AF\r\n형명 및 극수 S-type\r\n2극 (2P2E) EBS32c\r\n3극 (3P3E) EBS33c\r\n4극 (4P3E) EBS34c\r\n정격전류, In (5-10)주4)-15-16-20-25-30A\r\n정격임펄스전압, Uimp 6kV\r\n고속형\r\n정격감도전류 30, 100, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n정격전압, Ue AC : 220/460V\r\n시연형 주7)\r\n(AC Type)\r\n정격감도전류 0.1/0.2/0.5/1A, 0.1/0.4/1/2A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s, 0.5/1/1.5/2s (가조정)\r\n시연형\r\n(A Type)\r\n정격감도전류 0.03/0.1/0.3/0.5A, 0.1/0.2/0.5/1A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s (가조정)\r\n사용가능 \r\n상선수 \r\n2극 (2P2E) 1Ø2W\r\n3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n4극 (4P3E) 1Ø2W, 1Ø3W, 3Ø3W, 3Ø4W\r\n정격차단전류, Icu 주1)\r\nKS C 4613 (Sym)\r\nIEC 60947-2 (lcu)\r\nS-type\r\nAC 460V 14 (10)kA\r\n415V 14 (10)kA\r\n220/250V 30 (25)kA\r\nlcs=%×Icu 100%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 400A\r\n내구수명 기계적 25,000회\r\n(Life cycle) 주11) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극\r\na 75 100\r\nb 130 130\r\nc1 주2) 60 60\r\nc2 주2) 64 64\r\nd 82 82\r\n제품중량, kg 표준 0.5 0.7 0.9\r\n취득규격 극수 2극 3극 4극\r\n전기용품안전관리법 ○ ○\r\nCE 마크 ○ ○\r\n사용전압범위\r\n주) 사용 가능 전압 범위를 초과하는 전압 인가시 \r\n제품의 성능을 보장할 수 없습니다.\r\n정격전압 사용가능 전압범위\r\n220/460V 176~506V a\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-1쪽\r\n•외형치수 ▶ 9-9쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n30AF ELCB (EBS30c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 63,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 (ELCB) 주문형명\r\n주) 상세정격 7-1쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-24쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\n외부부속장치류\r\nR T\r\nEBS30c 부속장치명\r\nIB13 절연베리어 (전원측은 기본제공)\r\nTCL13 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS13 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-30c 외부조작핸들 (직결형)\r\nDH100 외부조작핸들 (직결형)\r\nDHK100 외부조작핸들 (직결형, 키록부착)\r\nEH100 외부조작핸들 (확장형)\r\nRTR1 이면형단자 (Round Type)\r\nHandle Lock 핸들잠금장치\r\nT상 (右극) 사용불가\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\n6\r\n고속형\r\n코드 프레임/극수\r\nEBS32c EBS 30AF 2P\r\nEBS33c EBS 30AF 3P\r\nEBS34c EBS 30AF 4P\r\n코드 프레임/극수\r\nEBS32c EBS 30AF 2P\r\nEBS33c EBS 30AF 3P\r\nEBS34c EBS 30AF 4P\r\n코드 프레임/극수\r\nEBS33c EBS 30AF 3P\r\nEBS34c EBS 30AF 4P\r\n코드 정격전류\r\n5 5A\r\n10 10A\r\n15 15A\r\n16 16A\r\n20 20A\r\n25 25A\r\n30 30A\r\n코드 정격감도전류\r\n30 30mA\r\n100 100mA\r\n100/200/500 100/200/500mA\r\nEBS33c\r\nEBS33c\r\nEBS33c\r\n5 30\r\n주) EBS32c/5/30 : EBS32c, 정격전류 5A, 정격감도전류 30mA 주문형명\r\n시연형 (AC Type)\r\n시연형 (A Type)\r\n코드 정격전류\r\n5 5A\r\n10 10A\r\n15 15A\r\n16 16A\r\n20 20A\r\n25 25A\r\n30 30A\r\n코드 정격전류\r\n5 5A\r\n10 10A\r\n15 15A\r\n16 16A\r\n20 20A\r\n25 25A\r\n30 30A\r\n코드 정격감도전류 관성부\r\n동작시간\r\n1A1s 1A 1s\r\n2A2s 2A 2s\r\n5\r\n5\r\n1A1s\r\n주) EBS32c/5/1A1s : EBS32c, 정격전류 5A, 시연형 1A1s 주문형명\r\n/\r\n/\r\n/\r\n/\r\n/\r\n선정 및 주문\r\n코드 정격\r\n감도전류\r\n관성부\r\n동작시간\r\n0.03/0.1\r\n0.3/0.5A,1s\r\n0.03/0.1/\r\n0.3/0.5A\r\n0/0.2/\r\n0.5/1s\r\n0.1/0.2/\r\n0.5/1A, 1s\r\n0.1/0.2/\r\n0.5/1A\r\n0/0.2/\r\n0.5/1s\r\n/ 1A1s / A Type\r\n 6-2",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 64,
+      "text": "6-3\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n4. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n5. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n6. 시연형 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 2배입니다. 단, 0초는 최대동작시간이 0.1초 이하입니다.\r\n7. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n8. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n9. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다.\r\n10. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\nEBN53c\r\nEBS53c\r\n사용전압범위\r\n주) 사용 가능 전압 범위를 초과하는 전압 인가시 \r\n제품의 성능을 보장할 수 없습니다.\r\n정격전압 사용가능 전압범위\r\n220/460V 176~506V\r\n프레임의 크기 50AF\r\n형명 및 극수 N-type S-type H-type\r\n2극 (2P2E) EBN52c - -\r\n3극 (3P3E) EBN53c EBS53c EBH53c\r\n4극 (4P3E) - EBS54c EBH54c\r\n정격전류, In 15-16-20-25-30-32-40-50A\r\n정격임펄스전압, Uimp 6kV\r\n고속형\r\n정격감도전류 30, 100, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n정격전압, Ue AC : 220/460V \r\n시연형 주6)\r\n(AC Type)\r\n정격감도전류 0.1/0.2/0.5/1A, 0.1/0.4/1/2A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s, 0.5/1/1.5/2s (가조정)\r\n시연형\r\n(A Type)\r\n정격감도전류 0.03/0.1/0.3/0.5A, 0.1/0.2/0.5/1A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s (가조정)\r\n사용가능 \r\n상선수 \r\n2극 (2P2E) 1Ø2W\r\n3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n4극 (4P3E) 1Ø2W, 1Ø3W, 3Ø3W, 3Ø4W\r\n정격차단전류, Icu 주1)\r\nKS C 4613 (Sym)\r\nIEC 60947-2 (lcu)\r\nN-type S-type H-type\r\nAC 460V 14kA 18kA 50kA\r\n415V 14kA 18kA 50kA\r\n220/250V 30kA 35kA 100kA\r\nlcs=%×Icu 100% 100% 100%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 400A\r\n내구수명 기계적 25,000회\r\n(Life cycle) 주10) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 3극 4극 3극 4극\r\na 75 75 75 100 90 120\r\nb 130 130 155\r\nc1 주2) 60 60 60\r\nc2 주2) 64 64 64\r\nd 82 82 82\r\n제품중량, kg 표준 0.5 0.7 0.7 0.9 1 1.2\r\n취득규격 극수 2극 3극 4극\r\n전기용품안전관리법 ○ ○ ○\r\nCE 마크 ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-1쪽 ~ 8-2쪽\r\n•외형치수 ▶ 9-9쪽 ~ 9-10쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n50AF ELCB (EBN50c, EBS50c, EBH50c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 65,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 (ELCB) 주문형명\r\n주) 상세정격 7-1쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-24쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\n외부부속장치류\r\nR T\r\nT상 (右극) 사용불가\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nEBN50c\r\nEBS50c EBH50c 부속장치명\r\nIB13 IB23 절연베리어 (전원측은 기본제공)\r\nTCL13 TCL23 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS13 TCS23 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-30c N-40c 외부조작핸들 (직결형)\r\nDH100 DH125 외부조작핸들 (직결형)\r\nDHK100 DHK125 외부조작핸들 (직결형, 키록부착)\r\nEH100 EH125 외부조작핸들 (확장형)\r\n- RTB2 이면형단자 (Bar Type)\r\nRTR1 RTR2 이면형단자 (Round Type)\r\nHandle Lock 핸들잠금장치\r\n6\r\n고속형\r\n시연형 (AC Type)\r\n코드 정격전류\r\n15 15A\r\n16 16A\r\n20 20A\r\n25 25A\r\n30 30A\r\n32 32A\r\n40 40A\r\n50 50A\r\n코드 정격전류\r\n15 15A\r\n16 16A\r\n20 20A\r\n25 25A\r\n30 30A\r\n32 32A\r\n40 40A\r\n50 50A\r\n코드 정격전류\r\n15 15A\r\n16 16A\r\n20 20A\r\n25 25A\r\n30 30A\r\n32 32A\r\n40 40A\r\n50 50A\r\n코드 정격감도전류 관성부\r\n동작시간\r\n1A1s 1A 1s\r\n2A2s 2A 2s\r\n20\r\n20 1A1s\r\n주) EBS53c/20/30 : EBS53c, 정격전류 20A, 정격감도전류 30mA 주문형명\r\n주) EBS53c/20/1A1s : EBS53c, 정격전류 20A, 시연형 1A1s 주문형명\r\n코드 프레임/극수\r\nEBN52c EBN 50AF 2P\r\nEBN53c EBN 50AF 3P\r\nEBS53c EBS 50AF 3P\r\nEBS54c EBS 50AF 4P\r\nEBH53c EBH 50AF 3P\r\nEBH54c EBH 50AF 4P\r\n코드 프레임/극수\r\nEBN52c EBN 50AF 2P\r\nEBN53c EBN 50AF 3P\r\nEBS53c EBS 50AF 3P\r\nEBS54c EBS 50AF 4P\r\nEBH53c EBH 50AF 3P\r\nEBH54c EBH 50AF 4P\r\n코드 정격감도전류\r\n30 30mA\r\n100 100mA\r\n100/200/500 100/200/500mA\r\nEBN53c\r\nEBN53c\r\n/ 30\r\n/\r\n/\r\n/\r\n선정 및 주문\r\nEBN53c\r\n시연형 (A Type)\r\n/ 20\r\n코드 프레임/극수\r\nEBN53c EBN 50AF 3P\r\nEBS53c EBS 50AF 3P\r\nEBS54c EBS 50AF 4P\r\nEBH53c EBH 50AF 3P\r\nEBH54c EBH 50AF 4P\r\n코드 정격\r\n감도전류\r\n관성부\r\n동작시간\r\n0.03/0.1\r\n0.3/0.5A,1s\r\n0.03/0.1/\r\n0.3/0.5A\r\n0/0.2/\r\n0.5/1s\r\n0.1/0.2/\r\n0.5/1A, 1s\r\n0.1/0.2/\r\n0.5/1A\r\n0/0.2/\r\n0.5/1s\r\n/ 1A1s / A Type\r\n 6-4",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 66,
+      "text": "6-5\r\nEBN63c\r\nEBS63c\r\n프레임의 크기 60AF\r\n형명 및 극수 N-type S-type \r\n2극 (2P2E) - -\r\n3극 (3P3E) EBN63c EBS63c\r\n4극 (4P3E) - EBS64c\r\n정격전류, In 60A\r\n정격임펄스전압, Uimp 6kV\r\n고속형\r\n정격감도전류 30, 100, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n정격전압, Ue AC : 220/460V\r\n시연형 주6)\r\n(AC Type)\r\n정격감도전류 0.1/0.2/0.5/1A, 0.1/0.4/1/2A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s, 0.5/1/1.5/2s (가조정)\r\n시연형\r\n(A Type)\r\n정격감도전류 0.03/0.1/0.3/0.5A, 0.1/0.2/0.5/1A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s (가조정)\r\n사용가능 \r\n상선수\r\n2극 (2P2E) -\r\n3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n4극 (4P3E) 1Ø2W, 1Ø3W, 3Ø3W, 3Ø4W\r\n정격차단전류, Icu 주1)\r\nKS C 4613 (Sym)\r\nIEC 60947-2 (lcu)\r\nN-type S-type\r\nAC 460V 14kA 18kA\r\n415V 14kA 18kA\r\n220/250V 30kA 35kA\r\nlcs=%×Icu 100% 100%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 12×In\r\n내구수명 기계적 25,000회\r\n(Life cycle) 주10) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 3극 3극 4극\r\na 75 75 100\r\nb 130 130 130\r\nc1 주2) 60 60 60\r\nc2 주2) 64 64 64\r\nd 82 82 82\r\n제품중량, kg 표준 0.7 0.7 0.9\r\n취득규격 극수 3극 3극 4극\r\n전기용품안전관리법 ○ ○\r\nCE 마크 ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n사용전압범위\r\n주) 사용 가능 전압 범위를 초과하는 전압 인가시 \r\n제품의 성능을 보장할 수 없습니다.\r\n정격전압 사용가능 전압범위\r\n220/460V 176~506V\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n4. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n5. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n6. 시연형 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 2배입니다. 단, 0초는 최대동작시간이 0.1초 이하입니다.\r\n7. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n8. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n9. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다.\r\n10. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-1쪽 \r\n•외형치수 ▶ 9-9쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n60AF ELCB (EBN60c, EBS60c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 67,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 (ELCB) 주문형명\r\n주) 상세정격 7-1쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\nR T\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-24쪽\r\n외부부속장치류\r\nT상 (右극) 사용불가\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nEBS60c\r\nEBN60c 부속장치명\r\nIB13 절연베리어 (전원측은 기본제공)\r\nTCL13 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS13 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-30c 외부조작핸들 (직결형)\r\nDH100 외부조작핸들 (직결형)\r\nDHK100 외부조작핸들 (직결형, 키록부착)\r\nEH100 외부조작핸들 (확장형)\r\nRTB1 이면형단자 (Bar Type)\r\nRTR1 이면형단자 (Round Type)\r\nHandle Lock 핸들잠금장치\r\n6\r\n고속형\r\n시연형 (AC Type) \r\n코드 정격전류\r\n60 60A\r\n60\r\n60 1A1s\r\n주) EBS63c/60/30 : EBS 63c, 정격전류 60A, 정격감도전류 30mA 주문형명\r\n주) EBS63c/60/1A1s : EBS 63c, 정격전류 60A, 시연형 1A1s 주문형명\r\n코드 프레임/극수\r\nEBN63c EBN 60AF 3P\r\nEBS63c EBS 60AF 3P\r\nEBS64c EBS 60AF 4P\r\n코드 정격감도전류\r\n30 30mA\r\n100 100mA\r\n100/200/500 100/200/500mA\r\nEBN63c\r\nEBN63c\r\n/ 30\r\n/\r\n/\r\n/\r\n선정 및 주문\r\nEBN63c\r\n시연형 (A Type)\r\n/ 60\r\n코드 정격전류\r\n60 60A\r\n코드 정격전류\r\n60 60A\r\n코드 정격감도전류 관성부\r\n동작시간\r\n1A1s 1A 1s\r\n2A2s 2A 2s\r\n코드 프레임/극수\r\nEBN63c EBN 60AF 3P\r\nEBS63c EBS 60AF 3P\r\nEBS64c EBS 60AF 4P\r\n코드 프레임/극수\r\nEBN63c EBN 60AF 3P\r\nEBS63c EBS 60AF 3P\r\nEBS64c EBS 60AF 4P\r\n코드 정격\r\n감도전류\r\n관성부\r\n동작시간\r\n0.03/0.1\r\n0.3/0.5A,1s\r\n0.03/0.1/\r\n0.3/0.5A\r\n0/0.2/\r\n0.5/1s\r\n0.1/0.2/\r\n0.5/1A, 1s\r\n0.1/0.2/\r\n0.5/1A\r\n0/0.2/\r\n0.5/1s\r\n/ 1A1s / A Type\r\n 6-6",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 68,
+      "text": "6-7\r\nEBN103c\r\n정격전압\r\n220/460V\r\n사용가능 전압범위\r\n176~506V\r\n사용전압범위\r\n주) 사용 가능 전압 범위를 초과하는 전압 인가시 \r\n제품의 성능을 보장할 수 없습니다.\r\n프레임의 크기 100AF\r\n형명 및 극수 N-type\r\n2극 (2P2E) EBN102c\r\n3극 (3P3E) EBN103c\r\n4극 (4P3E) EBN104c\r\n정격전류, In 60-63-75-80-100A\r\n정격임펄스전압, Uimp 6kV\r\n고속형\r\n정격감도전류 30, 100, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n정격전압, Ue AC : 220/460V\r\n시연형 주6)\r\n(AC Type)\r\n정격감도전류 1A 0.1/0.2/0.5/1A, 0.1/0.4/1/2A (가조정)\r\n관성부동작시간 1s 0/0.2/0.5/1s, 0.5/1/1.5/2s (가조정)\r\n시연형\r\n(A Type)\r\n정격감도전류 0.03/0.1/0.3/0.5A, 0.1/0.2/0.5/1A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s (가조정)\r\n사용가능\r\n상선수 \r\n2극 (2P2E) 1Ø2W\r\n3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n4극 (4P3E) 1Ø2W, 1Ø3W, 3Ø3W, 3Ø4W\r\n정격차단전류, Icu 주1)\r\nKS C 4613 (Sym)\r\nIEC 60947-2 (lcu)\r\nN-type\r\nAC 460V 18kA\r\n415V 18kA\r\n220/250V 35kA\r\nlcs=%×Icu 100%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 12×In\r\n내구수명 기계적 25,000회\r\n(Life cycle) 주10) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 4극\r\na 75 75 100\r\nb 130 130 130\r\nc1 주2) 60 60 60\r\nc2 주2) 64 64 64\r\nd 82 82 82\r\n제품중량, kg 표준 0.5 0.7 0.9\r\n취득규격 극수 2극 3극 4극\r\n전기용품안전관리법 ○ ○ ○\r\nCE 마크 ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n4. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n5. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n6. 시연형 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 2배입니다. 단, 0초는 최대동작시간이 0.1초 이하입니다.\r\n7. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n8. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n9. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다.\r\n10. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-1쪽 \r\n•외형치수 ▶ 9-9쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n100AF ELCB (EBN100c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 69,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 (ELCB) 주문형명\r\n주) 상세정격 7-1쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-24쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\n외부부속장치류\r\nR T\r\nT상 (右극) 사용불가\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nEBN100c 부속장치명\r\nIB13 절연베리어 (전원측은 기본제공)\r\nTCL13 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS13 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-30c 외부조작핸들 (직결형)\r\nDH100 외부조작핸들 (직결형)\r\nDHK100 외부조작핸들 (직결형, 키록부착)\r\nEH100 외부조작핸들 (확장형)\r\nRTB1 이면형단자 (Bar Type)\r\nRTR1 이면형단자 (Round Type)\r\nHandle Lock 핸들잠금장치\r\n6\r\n1A1s\r\n고속형\r\n시연형 (AC Type)\r\n코드 정격전류\r\n60 60A\r\n63 63A\r\n75 75A\r\n80 80A\r\n100 100A\r\n코드 정격감도전류 관성부\r\n동작시간\r\n1A1s 1A 1s\r\n2A2s 2A 2s\r\n100\r\n100\r\n주) EBN103c/100/30 : EBN103c, 정격전류 100A, 정격감도전류 30mA 주문형명\r\n주) EBN103c/100/1A1s : EBN103c, 정격전류 100A, 시연형 1A1s 주문형명\r\n코드 프레임/극수\r\nEBN102c EBN 100AF 2P\r\nEBN103c EBN 100AF 3P\r\nEBN104c EBN 100AF 4P\r\n코드 정격감도전류\r\n30 30mA\r\n100 100mA\r\n100/200/500 100/200/500mA\r\nEBN103c\r\nEBN103c\r\n/ 30\r\n/\r\n/\r\n/\r\n선정 및 주문\r\nEBN103c\r\n시연형 (A Type)\r\n/ 100\r\n코드 정격전류\r\n60 60A\r\n63 63A\r\n75 75A\r\n80 80A\r\n100 100A\r\n코드 정격전류\r\n60 60A\r\n63 63A\r\n75 75A\r\n80 80A\r\n100 100A\r\n코드 프레임/극수\r\nEBN102c EBN 100AF 2P\r\nEBN103c EBN 100AF 3P\r\nEBN104c EBN 100AF 4P\r\n코드 프레임/극수\r\nEBN103c EBN 100AF 3P\r\nEBN104c EBN 100AF 4P\r\n코드 정격\r\n감도전류\r\n관성부\r\n동작시간\r\n0.03/0.1\r\n0.3/0.5A,1s\r\n0.03/0.1/\r\n0.3/0.5A\r\n0/0.2/\r\n0.5/1s\r\n0.1/0.2/\r\n0.5/1A, 1s\r\n0.1/0.2/\r\n0.5/1A\r\n0/0.2/\r\n0.5/1s\r\n/ 1A1s / A Type\r\n 6-8",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 70,
+      "text": "6-9\r\nEBS103c\r\nEBH103c\r\n정격전압\r\n220/460V\r\n사용가능 전압범위\r\n176~506V\r\n사용전압범위\r\n주) 사용 가능 전압 범위를 초과하는 전압 인가시 \r\n제품의 성능을 보장할 수 없습니다.\r\n프레임의 크기 125AF\r\n형명 및 극수 S-type H-type \r\n2극 (2P2E) - -\r\n3극 (3P3E) EBS103c EBH103c\r\n4극 (4P3E) EBS104c EBH104c\r\n정격전류, In 15-16-20-25-30-32-40-50-60-63-75-80-100-125A\r\n정격임펄스전압, Uimp 6kV\r\n고속형\r\n정격감도전류 30, 100, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n정격전압, Ue AC : 220/460V\r\n시연형 주6)\r\n(AC Type)\r\n정격감도전류 0.1/0.2/0.5/1A, 0.1/0.4/1/2A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s, 0.5/1/1.5/2s (가조정)\r\n시연형\r\n(A Type)\r\n정격감도전류 0.03/0.1/0.3/0.5A, 0.1/0.2/0.5/1A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s (가조정)\r\n사용가능 \r\n상선수\r\n2극 (2P2E) -\r\n3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n4극 (4P3E) 1Ø2W, 1Ø3W, 3Ø3W, 3Ø4W\r\n정격차단전류, Icu 주1)\r\nKS C 4613 (Sym)\r\nIEC 60947-2 (lcu)\r\nS-type H-type\r\nAC 460V 37kA 50kA\r\n415V 37kA 50kA\r\n220/250V 85kA 100kA\r\nlcs=%×Icu 100% 100%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 12×In (30A 이하 : 400A)\r\n내구수명 기계적 25,000회\r\n(Life cycle) 주10) 전기적 10,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 3극 4극 3극 4극\r\na 90 120 90 120\r\nb 155 155 155 155\r\nc1 주2) 60 60 60 60\r\nc2 주2) 64 64 64 64\r\nd 82 82 82 82\r\n제품중량, kg 표준 1 1.2 1 1.2\r\n취득규격 극수 3극 4극 3극 4극\r\n전기용품안전관리법 ○ ○ ○ ○\r\nCE 마크 ○ ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n4. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n5. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n6. 시연형 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 2배입니다. 단, 0초는 최대동작시간이 0.1초 이하입니다.\r\n7. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n8. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n9. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다. \r\n10. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-2쪽\r\n•외형치수 ▶ 9-10쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n125AF ELCB (EBS125c, EBH125c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 71,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 (ELCB) 주문형명\r\n주) 상세정격 7-1쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\nR T\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-24쪽\r\n외부부속장치류\r\nT상 (右극) 사용불가\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nEBS125c\r\nEBH125c 부속장치명\r\nIB23 절연베리어 (전원측은 기본제공)\r\nTCL23 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS23 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-40c 외부조작핸들 (직결형)\r\nDH125 외부조작핸들 (직결형)\r\nDHK125 외부조작핸들 (직결형, 키록부착)\r\nEH125 외부조작핸들 (확장형)\r\nRTB2 이면형단자 (Bar Type)\r\nRTR2 이면형단자 (Round Type)\r\nHandle Lock 핸들잠금장치\r\n6\r\n고속형\r\n시연형 (AC Type)\r\n코드 정격전류\r\n15 15A\r\n16 16A\r\n20 20A\r\n25 25A\r\n30 30A\r\n32 32A\r\n40 40A\r\n50 50A\r\n60 60A\r\n63 63A\r\n75 75A\r\n80 80A\r\n100 100A\r\n125 125A\r\n코드 정격감도전류 관성부\r\n동작시간\r\n1A1s 1A 1s\r\n2A2s 2A 2s\r\n100\r\n100 1A1s\r\n주) EBS103c/100/30 : EBS103c, 정격전류 100A, 정격감도전류 30mA 주문형명\r\n주) EBS103c/100/1A1s : EBS103c, 정격전류 100A, 시연형 1A1s 주문형명\r\n코드 프레임/극수\r\nEBS103c EBS 125AF 3P\r\nEBS104c EBS 125AF 4P\r\nEBH103c EBH 125AF 3P\r\nEBH104c EBH 125AF 4P\r\n코드 프레임/극수\r\nEBS103c EBS 125AF 3P\r\nEBS104c EBS 125AF 4P\r\nEBH103c EBH 125AF 3P\r\nEBH104c EBH 125AF 4P\r\n코드 정격감도전류\r\n30 30mA\r\n100 100mA\r\n100/200/500 100/200/500mA\r\nEBS103c\r\nEBS103c\r\n/ 30\r\n/\r\n/\r\n/\r\n선정 및 주문\r\nEBS103c\r\n시연형 (A Type)\r\n/ 100\r\n코드 프레임/극수\r\nEBS103c EBS 125AF 3P\r\nEBS104c EBS 125AF 4P\r\nEBH103c EBH 125AF 3P\r\nEBH104c EBH 125AF 4P\r\n코드 정격\r\n감도전류\r\n관성부\r\n동작시간\r\n0.03/0.1\r\n0.3/0.5A,1s\r\n0.03/0.1/\r\n0.3/0.5A\r\n0/0.2/\r\n0.5/1s\r\n0.1/0.2/\r\n0.5/1A, 1s\r\n0.1/0.2/\r\n0.5/1A\r\n0/0.2/\r\n0.5/1s\r\n/ 1A1s / A Type\r\n 6-10\r\n코드 정격전류\r\n15 15A\r\n16 16A\r\n20 20A\r\n25 25A\r\n30 30A\r\n32 32A\r\n40 40A\r\n50 50A\r\n60 60A\r\n63 63A\r\n75 75A\r\n80 80A\r\n100 100A\r\n125 125A\r\n코드 정격전류\r\n15 15A\r\n16 16A\r\n20 20A\r\n25 25A\r\n30 30A\r\n32 32A\r\n40 40A\r\n50 50A\r\n60 60A\r\n63 63A\r\n75 75A\r\n80 80A\r\n100 100A\r\n125 125A",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 72,
+      "text": "6-11\r\n프레임의 크기 250AF\r\n형명 및 극수 N-type S-type H-type\r\n2극 (2P2E) EBN202c - -\r\n3극 (3P3E) EBN203c EBS203c EBH203c\r\n4극 (4P3E) - EBS204c EBH204c\r\n정격전류, In 100-125-150-160-175-200-225-250A\r\n정격임펄스전압, Uimp 6kV\r\n고속형\r\n정격감도전류 30, 100, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n정격전압, Ue AC : 220/460V\r\n시연형 주6)\r\n(AC Type)\r\n정격감도전류 0.1/0.2/0.5/1A, 0.1/0.4/1/2A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s, 0.5/1/1.5/2s (가조정)\r\n시연형\r\n(A Type)\r\n정격감도전류 0.03/0.1/0.3/0.5A, 0.1/0.2/0.5/1A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s (가조정)\r\n사용가능 \r\n상선수\r\n2극 (2P2E) 1Ø2W\r\n3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n4극 (4P3E) 1Ø2W, 1Ø3W, 3Ø3W, 3Ø4W\r\n정격차단전류, Icu 주1)\r\nKS C 4613 (Sym)\r\nIEC 60947-2 (lcu)\r\nN-type S-type H-type\r\nAC 460V 26kA 37kA 50kA\r\n415V 26kA 37kA 50kA\r\n220/250V 65kA 85kA 100kA\r\nlcs=%×Icu 100% 100% 100%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 12×In\r\n내구수명 기계적 20,000회\r\n(Life cycle) 주10) 전기적 5,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n선택 이면형 (Rear Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 2극 3극 3극 4극 3극 4극\r\na 105 105 105 140 105 140\r\nb 165 165 165\r\nc1 주2) 60 60 60\r\nc2 주2) 64 64 64\r\nd 87 87 87\r\n제품중량, kg 표준 1.1 1.2 1.2 1.5 1.2 1.5\r\n취득규격 극수 2극 3극 3극 4극 3극 4극\r\n전기용품안전관리법 ○ ○ ○\r\nCE 마크 ○ ○ ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\nEBN203c\r\nEBS203c\r\n정격전압\r\n220/460V\r\n사용가능 전압범위\r\n176~506V\r\n사용전압범위\r\n주) 사용 가능 전압 범위를 초과하는 전압 인가시 \r\n제품의 성능을 보장할 수 없습니다.\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임.\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n4. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n5. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n6. 시연형 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 2배입니다. 단, 0초는 최대동작시간이 0.1초 이하입니다.\r\n7. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다. \r\n8. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n9. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다.\r\n10. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n기타 자료\r\n•부속장치 ▶ 7-1쪽\r\n•특성곡선 ▶ 8-3쪽\r\n•외형치수 ▶ 9-11쪽\r\n•부착과 접속 ▶ 10-2쪽\r\n250AF ELCB (EBN250c, EBS250c, EBH250c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 73,
+      "text": "Metasol MCCB/ELCB\r\n차단기본체 (ELCB) 주문형명\r\n주) 상세정격 7-1쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-24쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합\r\n외부부속장치류\r\nR T\r\nT상 (右극) 사용불가\r\nR상 (左극) AX, AL, AX+AL 가운데 1종\r\nAX 보조스위치\r\nAL 경보스위치\r\nAX+AL 조합스위치\r\nEBN250c\r\nEBS250c\r\nEBH250c\r\n부속장치명\r\nIB23 절연베리어 (전원측은 기본제공)\r\nTCL33 단자커버 (Long Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nTCS33 단자커버 (Short Type)\r\n- 단독형, D-handle용, N-handle용 구분\r\nN-50c 외부조작핸들 (직결형)\r\nDH250 외부조작핸들 (직결형)\r\nDHK250 외부조작핸들 (직결형, 키록부착)\r\nEH250 외부조작핸들 (확장형)\r\nRTB3 이면형단자 (Bar Type)\r\nRTR3 이면형단자 (Round Type)\r\nPHL250 핸들잠금장치\r\n6\r\n고속형\r\n코드 정격전류\r\n100 100A\r\n125 125A\r\n150 150A\r\n160 160A\r\n175 175A\r\n200 200A\r\n225 225A\r\n250 250A\r\n코드 정격전류\r\n100 100A\r\n125 125A\r\n150 150A\r\n160 160A\r\n175 175A\r\n200 200A\r\n225 225A\r\n250 250A\r\n코드 정격전류\r\n100 100A\r\n125 125A\r\n150 150A\r\n160 160A\r\n175 175A\r\n200 200A\r\n225 225A\r\n250 250A\r\n250\r\n주) EBS203c/250/30 : EBS203c, 정격전류 250A, 정격감도전류 30mA 주문형명\r\n시연형 (AC Type)\r\n코드 정격감도전류 관성부\r\n동작시간\r\n1A1s 1A 1s\r\n2A2s 2A 2s\r\n250 1A1s\r\n주) EBS203c/250/1A1s : EBS203c, 정격전류 250A, 시연형 1A1s 주문형명\r\n코드 프레임/극수\r\nEBN202c EBN 250AF 2P\r\nEBN203c EBN 250AF 3P\r\nEBS203c EBS 250AF 3P\r\nEBS204c EBS 250AF 4P\r\nEBH203c EBH 250AF 3P\r\nEBH204c EBH 250AF 4P\r\n코드 정격감도전류\r\n30 30mA\r\n100 100mA\r\n100/200/500 100/200/500mA\r\nEBS203c\r\nEBS203c\r\n/ 30\r\n/\r\n/\r\n/\r\n선정 및 주문\r\nEBS203c\r\n시연형 (A Type)\r\n/ 250\r\n코드 프레임/극수\r\nEBN202c EBN 250AF 2P\r\nEBN203c EBN 250AF 3P\r\nEBS203c EBS 250AF 3P\r\nEBS204c EBS 250AF 4P\r\nEBH203c EBH 250AF 3P\r\nEBH204c EBH 250AF 4P\r\n코드 프레임/극수\r\nEBN203c EBN 250AF 3P\r\nEBS203c EBS 250AF 3P\r\nEBS204c EBS 250AF 4P\r\nEBH203c EBH 250AF 3P\r\nEBH204c EBH 250AF 4P\r\n코드 정격\r\n감도전류\r\n관성부\r\n동작시간\r\n0.03/0.1\r\n0.3/0.5A,1s\r\n0.03/0.1/\r\n0.3/0.5A\r\n0/0.2/\r\n0.5/1s\r\n0.1/0.2/\r\n0.5/1A, 1s\r\n0.1/0.2/\r\n0.5/1A\r\n0/0.2/\r\n0.5/1s\r\n/ 1A1s / A Type\r\n 6-12",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 74,
+      "text": "6-13\r\nEBS403c\r\nEBL404c\r\n정격전압\r\n220/460V\r\n사용가능 전압범위\r\n176~506V\r\n사용전압범위\r\n주) 사용 가능 전압 범위를 초과하는 전압 인가시 \r\n제품의 성능을 보장할 수 없습니다.\r\n기타 자료\r\n•부속장치 ▶ 7-2쪽\r\n•특성곡선 ▶ 8-4쪽\r\n•외형치수 ▶ 9-12쪽\r\n•부착과 접속 ▶ 10-3쪽\r\n프레임의 크기 400AF\r\n형명 및 극수 N-type S-type H-type L-type\r\n3극 (3P3E) EBN403c EBS403c EBH403c EBL403c\r\n4극 (4P3E) EBN404c EBS404c EBH404c EBL404c\r\n정격전류, In 250-300-350-400A\r\n정격임펄스전압, Uimp 6kV\r\n정격전압, Ue AC : 220/460V\r\n고속형 정격감도전류 30, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n시연형 주6)\r\n(AC Type)\r\n정격감도전류 0.1/0.4/1/2A (가조정)\r\n관성부동작시간 0.5/1/1.5/2s (가조정)\r\n시연형\r\n(A Type)\r\n정격감도전류 0.1/0.2/0.5A, 0.1/0.3/0.5/1A (가조정)\r\n관성부동작시간 0/0.2/0.5/1s (가조정)\r\n사용가능 \r\n상선수 주11)\r\n2극 (2P2E) -\r\n3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n4극 (4P3E) 1Ø2W, 1Ø3W, 3Ø3W, 3Ø4W\r\n정격차단전류, Icu 주1)\r\nKS C 4613 (Sym)\r\nIEC 60947-2 (lcu)\r\nN-type S-type H-type L-type\r\nAC 415V/460V 37kA 50kA 65kA 85kA\r\n220/250V 50kA 75kA 85kA 125kA\r\nlcs=%×Icu 100% 100% 100% 75%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 8~12In\r\n내구수명 기계적 4,000회\r\n(Life cycle) 주12) 전기적 1,000회\r\n접속방식 표준 표면형 (Front Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 3극 4극 3극 4극 3극 4극 3극 4극\r\na 140 184 140 184 140 184 140 184\r\nb 257 257 257 257\r\nc1 주2) 109 109 109 109\r\nc2 주2) 113 113 113 113\r\nd 145 145 145 145\r\n제품중량, kg 표준 7 8.4 7 8.4 7 8.4 7 8.4\r\n취득규격 극수 3극 4극 3극 4극 3극 4극 3극 4극\r\n전기용품안전관리법 ○ ○ ○ ○\r\nCE 마크 ○ ○ ○ ○\r\n주) 1. 정격차단전류중 안전인증 (형식승인) 취득정격은 빨간색 글씨부분이고 나머지 전압의 차단전류는 참고 정격임. (안전인증은 250~300A만 취득)\r\n2. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n3. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n4. 4극형 제품의 경우 N상의 통전전류는 정격전류의 최대 50%임.\r\n5. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n6. 시연형 누전차단기 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 최대 2배입니다. (누전 가조정 특성곡선 참조)\r\n7. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n8. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n9. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다.\r\n10. 시연형 누전차단기가 정상적인 동작이 안될경우 MAL의 LED(적색)가 점멸합니다.\r\n누전발생시에도 정상적인 동작이 불가하니 즉시 교체하시기 바랍니다.\r\n11. 시연형 누전차단기 사용가능 상선수는 3극(3P3E) 3Ø3W, 4극(4P3E) 3Ø3W, 3Ø4W만 적용가능합니다.\r\n12. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n400AF ELCB (EBN400c, EBS400c, EBH400c, EBL400c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 75,
+      "text": "Metasol MCCB/ELCB\r\n주) 상세정격 7-2쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-24쪽\r\n부속장치 (Accessory)\r\n설치 가능 조합 (최대)\r\n외부부속장치류\r\nR T\r\nE-70U N-70\r\n내부부속장치류\r\nT상 (右극) 사용불가\r\nR상 (左극) AX 2개, AL 2개, SHT 또는 UVT\r\nAX 보조스위치\r\nAL 경보스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\nB-43B 절연베리어\r\nT1-43A 단자커버 (Long Type) - 2, 3극용\r\n- 단독형, N-Handle용 구분\r\nT1-44A 단자커버 (Long Type) - 4극용\r\nN-70 외부조작핸들 (직결형)\r\nE-70U 외부조작핸들 (확장형)\r\nMI-43S 기계적 인터록 유닛- 2, 3극용\r\nMI-44S 기계적 인터록 유닛- 4극용\r\n6\r\n차단기본체 (ELCB) 주문형명\r\n고속형\r\n코드 정격전류\r\n250 250A\r\n300 300A\r\n350 350A\r\n400 400A\r\n400\r\n주) EBS403c/400/30 : EBS403c, 정격전류 400A, 정격감도전류 30mA 주문형명\r\n시연형 (AC Type)\r\n코드 정격감도전류 관성부\r\n동작시간\r\n2A2s 2A 2s\r\n400 2A2s\r\n코드 프레임/극수\r\nEBN403c EBN 400AF 3P\r\nEBN404c EBN 400AF 4P\r\nEBS403c EBS 400AF 3P\r\nEBS404c EBS 400AF 4P\r\nEBH403c EBH 400AF 3P\r\nEBH404c EBH 400AF 4P\r\nEBL403c EBL 400AF 3P\r\nEBL404c EBL 400AF 4P\r\n코드 정격감도전류\r\n30 30mA\r\n100/200/500 100/200/500mA\r\nEBS403c\r\nEBS403c\r\n/ 30\r\n/\r\n/\r\n/\r\n주) EBS403c/400/2A2s : EBS403c, 정격전류 400A, 시연형 2A2s 주문형명\r\n선정 및 주문\r\nEBS403c\r\n시연형 (A Type)\r\n코드 정격\r\n감도전류\r\n관성부\r\n동작시간\r\n0.1/0.2/\r\n0.5/1A, 1s\r\n0.1/0.2/\r\n0.5/1A\r\n0/0.2/\r\n0.5/1s\r\n0.1/0.3/\r\n0.5/1A, 1s\r\n0.1/0.3/\r\n0.5/1A\r\n0/0.2/\r\n0.5/1s\r\n/ 400 / 1A1s / A Type\r\n코드 정격전류\r\n250 250A\r\n300 300A\r\n350 350A\r\n400 400A\r\n코드 정격전류\r\n250 250A\r\n300 300A\r\n350 350A\r\n400 400A\r\n코드 프레임/극수\r\nEBN403c EBN 400AF 3P\r\nEBN404c EBN 400AF 4P\r\nEBS403c EBS 400AF 3P\r\nEBS404c EBS 400AF 4P\r\nEBH403c EBH 400AF 3P\r\nEBH404c EBH 400AF 4P\r\nEBL403c EBL 400AF 3P\r\nEBL404c EBL 400AF 4P\r\n코드 프레임/극수\r\nEBN403c EBN 400AF 3P\r\nEBN404c EBN 400AF 4P\r\nEBS403c EBS 400AF 3P\r\nEBS404c EBS 400AF 4P\r\nEBH403c EBH 400AF 3P\r\nEBH404c EBH 400AF 4P\r\nEBL403c EBL 400AF 3P\r\nEBL404c EBL 400AF 4P\r\n 6-14",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 76,
+      "text": "6-15\r\nEBS603c\r\n정격전압\r\n220/460V\r\n사용가능 전압범위\r\n176~506V\r\n사용전압범위\r\n주) 사용 가능 전압 범위를 초과하는 전압 인가시 \r\n제품의 성능을 보장할 수 없습니다.\r\n기타 자료\r\n•부속장치 ▶ 7-2쪽\r\n•특성곡선 ▶ 8-4쪽\r\n•외형치수 ▶ 9-14쪽\r\n•부착과 접속 ▶ 10-3쪽\r\n프레임의 크기 630AF\r\n형명 및 극수 N-type S-type L-type\r\n3극 (3P3E) EBN603c EBS603c EBL603c\r\n4극 (4P3E) - - -\r\n정격전류, In 500-630A\r\n정격임펄스전압, Uimp 6kV\r\n정격전압, Ue AC : 220/460V\r\n고속형 정격감도전류 30, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n시연형 주4)\r\n정격감도전류 0.1/0.4/1/2A (가조정)\r\n관성부동작시간 0.5/1/1.5/2s (가조정)\r\n사용가능 \r\n상선수 주9)\r\n3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n4극 (4P3E) -\r\n정격차단전류, Icu \r\nKS C 4613 (Sym)\r\nIEC 60947-2 (lcu)\r\nN-type S-type L-type\r\nAC 415/460V 37kA 65kA 85kA\r\n220/250V 50kA 85kA 125kA\r\nlcs=%×Icu 100% 100% 75%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 8~12In\r\n내구수명 기계적 2,500회\r\n(Life cycle) 주10) 전기적 500회\r\n접속방식 표준 표면형 (Front Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 3극\r\na 210\r\nb 280\r\nc1 주1) 109\r\nc2 주1) 113\r\nd 145\r\n제품중량, kg 표준 11.5\r\n취득규격 극수 3극\r\nCE 마크 ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n주) 1. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n2. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n3. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n4. 시연형 누전차단기 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 최대 2배입니다. (누전 가조정 특성곡선 참조)\r\n5. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n6. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n7. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다.\r\n8. 시연형 누전차단기가 정상적인 동작이 안될경우 MAL의 LED(적색)가 점멸합니다.\r\n누전발생시에도 정상적인 동작이 불가하니 즉시 교체하시기 바랍니다.\r\n9. 시연형 누전차단기 사용가능 상선수는 3극(3P3E) 3Ø3W만 적용가능합니다.\r\n10. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n630AF ELCB (EBN630c, EBS630c, EBL630c)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 77,
+      "text": "Metasol MCCB/ELCB\r\n주) 상세정격 7-2쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-24쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합 (최대)\r\n외부부속장치류\r\nE-80U N-80\r\nR T\r\nT상 (右극) 사용불가\r\nR상 (左극) AX 2개, AL 2개, SHT 또는 UVT\r\nAX 보조스위치\r\nAL 경보스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\nB-33C 절연베리어\r\nT1-63A 단자커버 (Long Type) - 2, 3극용\r\n- 단독형, N-Handle용 구분\r\nT1-64A 단자커버 (Long Type) - 4극용\r\nN-80 외부조작핸들 (직결형)\r\nE-80U 외부조작핸들 (확장형)\r\nMI-83S 기계적 인터록 유닛- 2, 3극용\r\nMI-84S 기계적 인터록 유닛- 4극용\r\n6\r\n차단기본체 (ELCB) 주문형명\r\n고속형\r\n코드 정격전류\r\n500 500A\r\n630 630A\r\n코드 정격전류\r\n500 500A\r\n630 630A\r\n630\r\n주) EBS603c/630/30 : EBS603c, 정격전류 630A, 정격감도전류 30mA 주문형명\r\n시연형\r\n코드 정격감도전류 관성부\r\n동작시간\r\n2A2s 2A 2s\r\n630 2A2s\r\n코드 프레임/극수\r\nEBN603c EBN 630AF 3P\r\nEBS603c EBS 630AF 3P\r\nEBL604c EBL 630AF 3P\r\n코드 프레임/극수\r\nEBN603c EBN 630AF 3P\r\nEBS603c EBS 630AF 3P\r\nEBL604c EBL 630AF 3P\r\n코드 정격감도전류\r\n30 30mA\r\n100/200/500 100/200/500mA\r\nEBS603c\r\nEBS603c\r\n/ 30\r\n/\r\n/\r\n/\r\n주) EBS603c/630/2A2s : EBS603c, 정격전류 630A, 시연형 2A2s 주문형명\r\n선정 및 주문\r\n 6-16",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 78,
+      "text": "6-17\r\n800AF ELCB (EBN803c, EBS803c, EBL803c)\r\nEBS803c\r\n정격전압\r\n220/460V\r\n사용가능 전압범위\r\n176~506V\r\n사용전압범위\r\n주) 사용 가능 전압 범위를 초과하는 전압 인가시 \r\n제품의 성능을 보장할 수 없습니다.\r\n기타 자료\r\n•부속장치 ▶ 7-2쪽\r\n•특성곡선 ▶ 8-4쪽\r\n•외형치수 ▶ 9-14쪽\r\n•부착과 접속 ▶ 10-3쪽\r\n프레임의 크기 800AF\r\n형명 및 극수 N-type S-type L-type\r\n3극 (3P3E) EBN803c EBS803c EBL803c\r\n4극 (4P3E) - - -\r\n정격전류, In 700-800A\r\n정격임펄스전압, Uimp 6kV\r\n정격전압, Ue AC : 220/460V\r\n고속형 정격감도전류 30, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n시연형 주4)\r\n정격감도전류 0.1/0.4/1/2A (가조정)\r\n관성부동작시간 0.5/1/1.5/2s (가조정)\r\n사용가능 \r\n상선수\r\n3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n4극 (4P3E) -\r\n정격차단전류, Icu \r\nKS C 4613 (Sym)\r\nIEC 60947-2 (lcu)\r\nN-type S-type L-type\r\nAC 415/460V 37kA 65kA 85kA\r\n220/250V 50kA 85kA 125kA\r\nlcs=%×Icu 100% 100% 75%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 8~12In\r\n내구수명 기계적 2,500회\r\n(Life cycle) 주10) 전기적 500회\r\n접속방식 표준 표면형 (Front Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 3극\r\na 210\r\nb 280\r\nc1 주1) 109\r\nc2 주1) 113\r\nd 145\r\n제품중량, kg 표준 11.5\r\n취득규격 극수 3극\r\nCE 마크 ○\r\na\r\nb\r\nd\r\nc2\r\nc1\r\n주) 1. c1 : 명판 노출 방법, c2 : 핸들 노출 방법\r\n2. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n3. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n4. 시연형 누전차단기 최대동작시간은 2배의 누전전류가 흐를 경우 관성부동작시간의 최대 2배입니다. (누전 가조정 특성곡선 참조)\r\n5. 테스트 버튼 동작시 관성부동작시간 이상 눌러야 동작합니다.\r\n6. 누전차단기 Off 상태에서 Trip 버튼을 누를 경우 누전 표시창의 색상이 변경될 수 있으나, 사용상 문제는 없습니다.\r\n7. 감도전류 및 관성부동작시간 스위치를 정위치에 설정하지 않을 경우 오동작 우려가 있습니다.\r\n8. 시연형 누전차단기가 정상적인 동작이 안될경우 MAL의 LED(적색)가 점멸합니다.\r\n누전발생시에도 정상적인 동작이 불가하니 즉시 교체하시기 바랍니다.\r\n9. 시연형 누전차단기 사용가능 상선수는 3극(3P3E) 3Ø3W만 적용가능합니다.\r\n10. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 79,
+      "text": "Metasol MCCB/ELCB\r\n주) 상세정격 7-2쪽\r\n주) 3극 기준, 상세사양 7-9쪽 ~ 7-24쪽\r\n부속장치 (Accessory)\r\n내부부속장치류\r\n설치 가능 조합 (최대)\r\n외부부속장치류\r\nE-80U N-80\r\nR T\r\nT상 (右극) 사용불가\r\nR상 (左극) AX 2개, AL 2개, SHT 또는 UVT\r\nAX 보조스위치\r\nAL 경보스위치\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\nB-33C 절연베리어\r\nT1-63A 단자커버 (Long Type) - 2, 3극용\r\n- 단독형, N-Handle용 구분\r\nT1-64A 단자커버 (Long Type) - 4극용\r\nN-80 외부조작핸들 (직결형)\r\nE-80U 외부조작핸들 (확장형)\r\nMI-83S 기계적 인터록 유닛- 2, 3극용\r\nMI-84S 기계적 인터록 유닛- 4극용\r\n차단기본체 (ELCB) 주문형명\r\n고속형\r\n코드 정격전류\r\n700 700A\r\n800 800A\r\n코드 정격전류\r\n700 700A\r\n800 800A\r\n800\r\n주) EBS803c/800/30 : EBS803c, 정격전류 800A, 정격감도전류 30mA 주문형명\r\n시연형\r\n코드 정격감도전류 관성부\r\n동작시간\r\n2A2s 2A 2s\r\n800 2A2s\r\n코드 프레임/극수\r\nEBN803c EBN800AF 3P\r\nEBS803c EBS800AF 3P\r\nEBL804c EBL800AF 3P\r\n코드 프레임/극수\r\nEBN803c EBN800AF 3P\r\nEBS803c EBS800AF 3P\r\nEBL804c EBL800AF 3P\r\n코드 정격감도전류\r\n30 30mA\r\n100/200/500 100/200/500mA\r\nEBS803c\r\nEBS803c\r\n/ 30\r\n/\r\n/\r\n/\r\n주) EBS803c/800/2A2s : EBS803c, 정격전류 800A, 시연형 2A2s 주문형명\r\n선정 및 주문\r\n6\r\n 6-18",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 80,
+      "text": "5-23\r\n프레임의 크기 1200AF\r\n형명 및 극수 S-type\r\n2극 (2P2E) -\r\n3극 (3P3E) ABS1203bE\r\n4극 (4P3E) -\r\n정격전류, In 1200A\r\n정격전압, Ue AC : 600V\r\n정격절연전압, Ui AC : 600V\r\n정격임펄스전압, Uimp 6kV\r\n동작특성 장한시 트립전류, IR (0.5, 0.6, 0.7, 0.8, 0.9, 1.0)×In, 가조정...①\r\n동작시간 5sec ±20% (6×Ir에서), 고정\r\n단한시 트립전류, Im (2, 3, 4, 5, 6, 8, 10)×ln, 가조정...②\r\n동작시간 (0.1, 0.2, 0.3)sec 이하, 가조정…③\r\n순시 트립전류, It 11×ln, 고정\r\n동작시간 0.03 sec 이하, 고정\r\n⑤LED Pre-Alarm 장한시설정전류의 70~110% : LED점멸\r\n (과부하표시) 장한시설정전류의 110% 과 : LED점등\r\n④주파수선택스위치 50/60Hz절환가능 (출하시 60Hz설정)\r\n정격차단전류, Icu \r\nIEC 60947-2\r\n (lcu)\r\nS-type\r\nAC 600V 45kA\r\n480/500V 50kA\r\n460V 65kA\r\n380V 65kA\r\n220/240V 100kA\r\nlcs=%×Icu 50%\r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 전자식 (Electronic Type)\r\n내구수명 기계적 2,500회\r\n(Life cycle) 주1) 전기적 500회\r\n접속방식 표준 표면형 (Front Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 3극\r\na 220\r\nb 400\r\nc 105\r\nd 159\r\n제품중량, kg 표준 21\r\na\r\nb\r\nd\r\nc\r\n기타 자료\r\n•외형치수 ▶ 8-5쪽\r\n•특성곡선 ▶ 9-8쪽\r\n주) 1. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n1200AF 전자식 MCCB (ABS1203bE)\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 81,
+      "text": "Metasol MCCB/ELCB\r\n구 분\r\n차단기 핸들 상태\r\nOn Off Tripped\r\n보조접점\r\n (AX)\r\n경보접점\r\n (AL)\r\nAC DC\r\n사용\r\n전압 (V)\r\n계폐전류 (A) 사용\r\n전압 (V)\r\n계폐전류 (A)\r\n저항 부하 유도 부하 저항 부하 유도 부하\r\n125 20 20 30 6 5\r\n250 20 20 125 0.4 0.05\r\n500 10 5 250 0.2 0.03\r\n차단기본체 주문형명\r\nT상 (右극) 설치용 (아래 항목중 택일)\r\n보조·경보접점의 동작\r\nR상 (左극) 설치용 (아래 항목중 택일)\r\nR T\r\n보조접점 및 경보접점의 사용전압별 정격\r\n전압트립장치 (SHT) 정격\r\n부족전압트립장치 (UVT)정격\r\nSHT 정격전압 시간정격 동작전압\r\nAC\r\n100~110V\r\n125V\r\n200~220V\r\n380~440V\r\n480~550V\r\n연속 정격전압의 85~110%\r\nDC\r\n24V\r\n48V\r\n100~110V\r\n125V\r\n200~220V\r\n정격전압의 75~125%\r\nSHT 정격전압 시간정격 사용전압 동작전압\r\nAC\r\n100~110V\r\n125V\r\n200~220V\r\n380~440V\r\n연속 정격전압의\r\n85~110%\r\n정격전압의 \r\n20~70%\r\nABS Type (65kA/460V)\r\n정격전류, In 3극\r\n1200 A ABS1203bE\r\nSHT 전압트립장치\r\nUVT 부족전압트립장치\r\nAX1 보조스위치 (1c접점)\r\nAX2 보조스위치 (2c접점)\r\nAL1 경보스위치 (1c접점)\r\nAL2 경보스위치 (2c접점)\r\nAX1+AL 보조 (1c)+경보 (1c)스위치\r\nAX2+AL 보조 (2c)+경보 (1c)스위치\r\n5\r\n선정 및 주문\r\n 5-24",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 82,
+      "text": "6-19\r\n1000/1200AF ELCB (EBS1003b, EBS1203b)\r\n기타 자료\r\n•외형치수 ▶ 8-5쪽\r\n•특성곡선 ▶ 9-14쪽\r\n① 각 상별 순시트립\r\n 동작특성 설정가능 \r\n주) 1. 각 극간 내전압/절연저항 시험 시 PCB 회로 손상되므로 시험하지 마십시오.\r\n2. 정격부동작감도전류는 정격감도전류의 50% 이하임.\r\n3. 한계수명은 보증 횟수가 아닙니다. \r\n(품질 보증: 보증 기간 내 IEC60947-2에 정의된 개폐 회수를 보증합니다.)\r\n프레임의 크기 1000AF 1200AF\r\n형명 및 극수 S-type S-type \r\n3극 (3P3E) EBS1003b EBS1203b\r\n4극 (4P3E) - -\r\n정격전류, In 1000A 1200A\r\n정격감도전류 30, 100/200/500mA (가조정)\r\n동작시간 (누전차단) 0.1초 이내\r\n정격전압, Ue AC : 220/460V\r\n사용가능 상선수 3극 (3P3E) 1Ø2W, 1Ø3W, 3Ø3W\r\n정격차단전류, Icu\r\nIEC 60947-2 (lcu)\r\nS-type S-type\r\nAC 415/460V 85kA \r\n220/250V 25kA \r\n보호기능 누전, 과부하, 순시 및 단락전류\r\n과전류트립방식 열동전자식 (Thermal-magnetic, TM)\r\n순시트립동작특성 (3~6)×In ...①\r\n내구수명 기계적 2,500회\r\n(Life cycle) 주3) 전기적 500회\r\n접속방식 표준 표면형 (Front Connection)\r\n설치방식 표준 나사취부\r\n외형치수 (mm) 극수 3극\r\na 220\r\nb 565\r\nc 105\r\nd 159\r\n제품중량, kg 표준 27.1\r\na\r\nb\r\nd\r\nc\r\n제품의 정격 및 사양",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 83,
+      "text": "Metasol MCCB/ELCB\r\n구 분\r\n차단기 핸들 상태\r\nOn Off Tripped\r\n보조접점\r\n (AX)\r\n경보접점\r\n (AL)\r\n차단기본체 주문형명\r\nT상 (右극) 설치용 (아래 항목중 택일)\r\n보조 • 경보접점의 동작\r\nR T\r\n보조접점 및 경보접점의 사용전압별 정격\r\n주) R상 (左극) : 사용불가\r\nEBS Type (85kA/460V)\r\n정격전류, In 3극\r\n1000 A EBS1003b/1000/100\r\n1200 A EBS1203b/1200/100\r\nAX1 보조스위치 (1c접점)\r\nAL1 경보스위치 (1c접점)\r\nAX1+AL1 보조 (1c)+경보 (1c)스위치\r\nAC DC\r\n사용\r\n전압 (V)\r\n계폐전류 (A) 사용\r\n전압 (V)\r\n계폐전류 (A)\r\n저항 부하 유도 부하 저항 부하 유도 부하\r\n125 20 20 30 6 5\r\n250 20 20 125 0.4 0.05\r\n500 10 5 250 0.2 0.03\r\n선정 및 주문\r\n6\r\n 6-20",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 84,
+      "text": "6-21\r\n주의사항\r\n●전원이 인가된 상태에서 Test lead선이 인체에 직접 접촉시에는 감전사고의 위험이 있습니다.\r\n●Test lead선 양단에 별도의 전원을 공급하지 마십시오.\r\n●Test lead선을 과도하게 잡아당기거나 제품에 충격을 가하지 마십시오.\r\n●Lead wire 양단에 상간 전압이 인가되므로 사용시 유의하여 주시기 바랍니다.\r\nTest lead 선 (TL)\r\nTest 선 short 시 \r\n전자회로부\r\nTrip Ass'y\r\n• 목적 : ELCB에 원방 Trip 기능을 추가하기 위해 Trip coil에 Lead wire를 부착한 형태로 전압트립장치(SHT)와 기능이 같습니다.\r\n• 동작원리 : 단자 양단에 Lead Wire 를 연결 후, Lead Wire Short 시 트립 코일 회로가 폐회로(Closed Circuit)가 되면서, \r\n트립코일에 전류가 흘러 누전차단기가 TRIP 됩니다. \r\n* Lead Wire 양단에 50V 이상의 전압이 인가되니 주의 하시기 바랍니다.\r\n주) Test-Lead type은 250AF 이하 고속형, 시연형 일부 ELCB 제품에 한해 제공가능합니다.\r\nTL1\r\nZCT 테스트버튼 Thy\r\n트립코일\r\n감도선택장치\r\nTL2\r\n노이즈제거회로\r\n전용\r\nIC\r\n노이즈제거회로\r\n전원회로\r\n충격파흡수회로\r\nTL1\r\nZCT 테스트버튼 Thy\r\n트립코일\r\n감도선택장치\r\nTL2\r\n노이즈제거회로\r\n전용\r\nIC\r\n노이즈제거회로\r\n전원회로\r\n충격파흡수회로\r\nTest-Lead type ELCB\r\nTest-Lead type",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 85,
+      "text": " 7-1\r\nMetasol MCCB/ELCB\r\n7\r\n내부 부속장치의 사용 가능한 조합\r\n주) T상의 경우 AX/AL, SHT, UVT 중 1종만 설치 가능합니다.\r\n위치\r\n핸들왼쪽 \r\n (R상)\r\n핸들오른쪽 \r\n (T상)\r\n부속장치\r\nAX\r\nAL\r\nAX+AL\r\nAX\r\nAL\r\nAX+AL\r\nSHT/UVT\r\nABN100c\r\n2극 3/4극\r\n- 1\r\n- 1\r\n- 1\r\n1 1\r\n1 1\r\n1 1\r\n1 1\r\nABH125c\r\n2극 3/4극\r\n- 1\r\n- 1\r\n- 1\r\n1 1\r\n1 1\r\n1 1\r\n1 1\r\nABH250c\r\n2/3/4극\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\nEBN100c\r\n2/3/4극\r\n1\r\n1\r\n1\r\n-\r\n-\r\n-\r\n-\r\nEBH125c\r\n3/4극\r\n1\r\n1\r\n1\r\n-\r\n-\r\n-\r\n-\r\nEBH250c\r\n2/3/4극\r\n1\r\n1\r\n1\r\n-\r\n-\r\n-\r\n-\r\n차단기 (MCCB)의 우극 (T상)에 사용 가능한 \r\n부속장치. 위 장치 가운데 1종만 설치 \r\n가능합니다. (단, ELCB에는 사용불가)\r\n전압\r\n트립장치\r\n부족전압\r\n트립장치\r\n보조접점\r\n경보접점\r\n보조+\r\n경보접점\r\n보조접점\r\n경보접점\r\n보조+경보접점\r\n차단기 (MCCB, ELCB)의 좌극 (R상)에 \r\n사용 가능한 부속장치. 위 장치 가운데 \r\n1종만 설치 가능합니다\r\nAX\r\nSHT\r\nUVT\r\nAX\r\nAL\r\nAX+AL\r\nAX+AL\r\nAL\r\n左극 (R상) 右극 (T상)\r\n내부부속장치\r\n내부부속장치류 (Internal Auxiliaries) - 30~250AF",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 86,
+      "text": "7-2\r\n내부부속장치류 (Internal Auxiliaries) - 400~800AF\r\n내부 부속장치의 사용 가능한 조합\r\n위치\r\n핸들왼쪽 \r\n (R상) \r\n핸들오른쪽 \r\n (T상)\r\n부속장치\r\nAX\r\nAL\r\nSHT/UVT\r\nAX\r\nAL\r\nSHT/UVT\r\nMCCB \r\n (400~800AF)\r\n2\r\n2\r\n1\r\n2\r\n2\r\n1\r\nELCB \r\n (400~800AF)\r\n2\r\n2\r\n1\r\n-\r\n-\r\n-\r\n차단기 (MCCB, ELCB)의 좌극 (R상)에 \r\n사용 가능 한 부속장치\r\n차단기 (MCCB)의 우극 (T상)에 \r\n사용 가능\r\nAL\r\nSHT\r\nUVT\r\nAX\r\nAL\r\nSHT\r\nUVT\r\nAX\r\nAL\r\nSHT\r\nUVT\r\nAX\r\nAL\r\nSHT\r\nUVT\r\nAX\r\n경보접점\r\n전압트립장치\r\n부족전압트립장치\r\n보조접점\r\n경보접점\r\n전압트립장치\r\n부족전압트립장치\r\n보조접점\r\n내부부속장치",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 87,
+      "text": " 7-3\r\nMetasol MCCB/ELCB\r\n내부부속장치 일람표 (MCCB)\r\n7\r\n주1) 기존의 부속장치가 부착된 차단기에 추가로 부속장치를 부착시는 다음 사항에 유의하여 주십시오. (부착예 : , ) \r\n주2) 는 주문시 R상용 (좌측), T상용 (우측)을 구분해 주십시오. 주3) ABE32b, 33b 제품은 UVT가 없습니다.\r\nSeries MCCB (30~250AF) MCCB (400~800AF) MCCB (1000~1200AF)\r\n형\r\n명\r\nN-type ABE 32b ABE 33b\r\nABN 52c\r\nABN 62c\r\nABN \r\n102c/102d/102e\r\nABN 53c/54c\r\nABN 63c/64c\r\nABN 103c/104c, ABN 103d/104d, ABN 103e/104e\r\nABN 202c/203c/204c\r\nABN 402c/403c/404c\r\nABN 602c/603c/604c\r\nABN 802c/803c/804c\r\n-\r\nS-type - -\r\nABS 32c\r\nABS 52c\r\nABS 62c\r\nABS 102c\r\nABS 33c/34c\r\nABS 53c/54c\r\nABS 63c/64c\r\nABS 103c/104c\r\nABS 202c/203c/204c\r\nABS 402c/403c/404c\r\nABS 602c/603c/604c\r\nABS 802c/803c/804c\r\nABS 1003b\r\nABS 1004b\r\nABS 1203b\r\nABS 1204b\r\nABS 1203bE\r\nH-type - - ABH 52c\r\nABH 102c\r\nABH 53c/54c\r\nABH 103c/104c\r\nABH202c/203c/204c\r\nABH 402c/403c/404c -\r\nL-type - - ABL 102c ABL 103c/104c\r\nABL 202c/203c/204c\r\nABL 402c/403c/404c\r\nABL 602c/603c/604c\r\nABL 802c/803c/804c\r\nABL 1003b\r\nABL 1004b\r\nABL 1203b\r\nABL 1204b\r\n극수 2극 주3) 3극 주3) 2극 2, 3, 4극 주1), 주2) 2, 3, 4극 3, 4극\r\nAX\r\nAX2\r\nAX3 (4)\r\nAL\r\nAL2\r\nAL3 (4)\r\nSHT (UVT)\r\nSHT (UVT)2\r\nAX+AL\r\nAX+AL2\r\nAX+AL3 (4)\r\nAX2+AL\r\nAX2+AL2\r\nAX2+AL3 (4)\r\nAX3 (4)+AL\r\nAX3 (4)+AL2\r\nAX3 (4)+AL3 (4)\r\nAX+SHT (UVT)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 88,
+      "text": "7-4\r\n주1) 기존의 부속장치가 부착된 차단기에 추가로 부속장치를 부착시는 다음 사항에 유의하여 주십시오. (부착예 : , ) \r\n주2) 는 주문시 R상용 (좌측), T상용 (우측)을 구분해 주십시오. 주3) ABE32b, 33b 제품은 UVT가 없습니다.\r\nSeries MCCB (30~250AF) MCCB (400~800AF) MCCB (1000~1200AF)\r\n형\r\n명\r\nN-type ABE 32b ABE 33b\r\nABN 52c\r\nABN 62c\r\nABN \r\n102c/102d/102e\r\nABN 53c/54c\r\nABN 63c/64c\r\nABN 103c/104c, ABN 103d/104d, ABN 103e/104e\r\nABN 202c/203c/204c\r\nABN 402c/403c/404c\r\nABN 602c/603c/604c\r\nABN 802c/803c/804c\r\n-\r\nS-type - -\r\nABS 32c\r\nABS 52c\r\nABS 62c\r\nABS 102c\r\nABS 33c/34c\r\nABS 53c/54c\r\nABS 63c/64c\r\nABS 103c/104c\r\nABS 202c/203c/204c\r\nABS 402c/403c/404c\r\nABS 602c/603c/604c\r\nABS 802c/803c/804c\r\nABS 1003b\r\nABS 1004b\r\nABS 1203b\r\nABS 1204b\r\nABS 1203bE\r\nH-type - - ABH 52c\r\nABH 102c\r\nABH 53c/54c\r\nABH 103c/104c\r\nABH202c/203c/204c\r\nABH 402c/403c/404c -\r\nL-type - - ABL 102c ABL 103c/104c\r\nABL 202c/203c/204c\r\nABL 402c/403c/404c\r\nABL 602c/603c/604c\r\nABL 802c/803c/804c\r\nABL 1003b\r\nABL 1004b\r\nABL 1203b\r\nABL 1204b\r\n극 수 2극 주3) 3극 주3) 2극 2, 3, 4극 주1), 주2) 2, 3, 4극 3, 4극\r\nAX+SHT (UVT)2\r\nAX2+SHT (UVT)\r\nAX2+SHT (UVT)2\r\nAX3 (4)+SHT (UVT)\r\nAX3 (4)+SHT (UVT)2\r\nAL+SHT (UVT)\r\nAL+SHT (UVT)2\r\nAL2+SHT (UVT)\r\nAL2+SHT (UVT)2\r\nAL3 (4)+SHT (UVT)\r\nAL3 (4)+SHT (UVT)2\r\nAX+AL+SHT (UVT)\r\nAX+AL+SHT (UVT)2\r\nAX2+AL2+SHT (UVT)\r\nAX2+AL2+SHT (UVT)2\r\nAX3 (4)+AL3 (4)+SHT (UVT)\r\nAX3 (4)+AL3 (4)+SHT (UVT)2\r\n내부부속장치\r\n내부부속장치 일람표 (MCCB)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 89,
+      "text": " 7-5\r\nMetasol MCCB/ELCB\r\n7\r\n내부부속장치 일람표 (ELCB)\r\n EBN 52c/53c/54c EBN 403c/404c\r\nN-type EBN 63c EBN 603c EBN 102c/103c/104c EBN 803c EBN 202c/203c\r\nEBS 32c/33c/34c\r\nEBS 53c/54c EBS 403c/404c EBS 1003b S-type EBS 63c/64c EBS 603c EBS 1203b EBS 103c/104c ABS 803c\r\nEBS 203c/204c \r\nEBH 53c/54c\r\nH-type EBH 53c/54c EBH 403c/404c \r\nEBH 103c/104c \r\nEBL 403c/404c\r\nL-type EBL 603c EBL 803c\r\n 3, 4극 3극 3극\r\n \r\n Series ELCB (30~250AF) ELCB (400~800AF) ELCB (1000~1200AF)\r\nAX\r\nAX2\r\nAL\r\nAL2\r\nSHT (UVT)\r\nAX+AL\r\nAX+AL2\r\nAX2+AL\r\nAX2+AL2\r\nAX+SHT (UVT)\r\nAX2+SHT (UVT)\r\nAL+SHT (UVT)\r\nAL2+SHT (UVT)\r\nAX+AL+SHT (UVT)\r\nAX2+AL2+SHT (UVT)\r\n형\r\n명\r\n주1) 기존의 부속장치가 부착된 차단기에 추가로 부속장치를 부착시는 다음 사항에 유의하여 주십시오. (부착예 : ) \r\n주2) 는 주문시 R상용 (좌측), T상용 (우측)을 구분해 주십시오.\r\n주) 1. 적용제품 : 30~250AF\r\n2. 전원이 인가된 상태에서 테스트 리드선이 인체에 직접 접촉시에는\r\n감전사고의 위험이 있습니다.\r\n3. 테스트 리드선 양단에 별도 전원을 공급하지 마십시오.\r\n4. 테스트 리드선을 과도하게 잡아 당기거나 제품에 충격을 가하지 \r\n마십시오.\r\n극수 주1), 주2)\r\n-\r\n-\r\n-\r\n-\r\nTerminal block type 단자\r\nTest Lead 선 (TL)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 90,
+      "text": "7-6\r\n보조 (AX), 경보 (AL) 접점\r\nAX (보조접점)은 차단기의 On, Off상태를 외부로 표시하기 위해 사용하는 장치입니다. 1개의 AX는 C접점으로 \r\n구성되어 있어 한 접점이 On되면 다른 접점은 Off상태가 됩니다. (접점 동작상태 참조)\r\nAL (경보접점)은 차단기의 Trip 상태를 외부로 표시하기 위해 사용하는 장치입니다. 차단기가 과부하, 단락 또는\r\nSHT, UVT등으로 인해 트립된 경우 이를 외부로 표시하기 위해 사용하는 장치입니다.\r\n이 장치는 차단기가 사고에 의해 자동으로 트립된 경우 및 Trip 버튼을 누르는 경우도 동작을 하고, 수동개폐시\r\n (On/Off)에는 동작하지 않습니다.\r\n1개의 AL은 C접점으로 구성되어 있어 한 접점이 On되면 다른 접점은 Off상태가 됩니다. (접점 동작상태 참조)\r\n차단기에서 AX (보조접점)과 AL (경보접점)을 한 곳 (R 또는 T상)에 설치할 경우 사용합니다.\r\n통전전류, Ith 5A\r\n전압별 정격전류 (le) 전격전압 (Ue) 정격전류 (le) 적용 MCCB/ELCB 저항부하 코일부하 최소부하전류\r\nAC 50/60Hz 125V 5 3\r\n5V DC 160mA\r\n30V DC 30mA\r\nMetasol MCCB/ELCB\r\n30~250AF\r\n400~800AF\r\n250V 3 2\r\n500V - -\r\nDC 30V 4 3\r\n125V 0.4 0.4\r\n250V 0.2 0.2\r\n내부부속장치\r\n접점 (AX+AL)의 정격\r\n접점 (AX+AL)의 \r\n동작상태\r\n보조+경보접점 \r\n(AX+AL)\r\n보조접점 (Auxiliary \r\nSwitch, AX)\r\n경보접점 (Alarm \r\nSwitch, AL)\r\nMCCB On Off Trip\r\nAX의 동작\r\nAL의 동작",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 91,
+      "text": " 7-7\r\nMetasol MCCB/ELCB\r\n7\r\n전압트립장치 (SHT)\r\nSHT (전압트립장치) 는 외부에서 SHT로 특정 전압이 인가 (트립신호) 될 경우 차단기를 트립 (Trip) 시킬 수 있도록 \r\n제작된 장치입니다.\r\n트립동작은 시간의 지연없이 순간적으로 실행되며 일단 차단기가 트립되면 트립신호는 자동으로 소멸 됩니다.\r\n30~250AF ELCB에서는 설치가 불가능합니다.\r\n터미널블럭 Type (TBT)\r\n리드와이어 Type (LWT)\r\n리드와이어 Type (LWT)\r\n정격전압 (Ue) 소비전력 적용 MCCB/ELCB AC (VA) DC (W)\r\n정격전압 및 \r\n소비전력\r\nDC 12V - 1.5\r\nMetasol MCCB 전기종\r\nABN100c\r\nABH125c\r\nABH250c\r\nAC/DC 24~30V 1.5 1.5\r\nAC/DC 48~60V 1.5 1.5\r\nAC/DC 100~130V 1.5 1.5\r\nAC/DC 200~250V 1.5 1.5\r\nAC 380~440V 1.5 -\r\nAC 440~500V 1.5 -\r\n동작 (개방)시간 50ms (최대)\r\n단자체결토크 8.2 kgf·cm\r\n주) 1. 동작 (트립신호)조건 : 정격의 70~110%로 전압 인가 시 적용주파수 : 45~65Hz\r\n정격전압 (Ue) 소비전력\r\n인가전압 (V) 소비전류 (mA) 소비전력 (W)\r\nAC/DC 24~48 주1) AC 24 14 0.3\r\nAC 100~240/DC 100~220 주2) DC 24 15.4 0.4\r\nAC 380~550 주2) AC 48 14 0.7\r\n동작전압\r\n주1) 정격전압의 85~110%\r\n주2) 정격전압의 70~110%\r\nDC 48 16 0.8\r\nAC 110 6 0.7\r\nDC 110 6.6 0.7\r\nAC 220 6.8 1.5\r\nDC 200 7.6 1.5\r\nAC 440 4.3 1.9\r\nAC 480 4.4 3.3\r\nAC 550 4.6 2.4\r\n전압트립장치 (SHT) 의 \r\n정격 (30~250AF)\r\n전압트립장치 (SHT) 의 \r\n정격 (400~800AF)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 92,
+      "text": "7-8\r\n 전압트립장치 (UVT)\r\nUVT (부족전압트립장치) 는 선로 전압이 정격의 20~70%정도까지 내려가면 차단기를 자동으로 트립(Trip)시킬 수 있도록 \r\n제작된 장치입니다.\r\n트립동작은 시간의 지연없이 순간적으로 실행되며 전압이 정격의 85%까지 회복되지 않는 한 차단기는 재투입 \r\n(Reset 및 On) 되지 않습니다.\r\n차단기를 재투입하려면 먼저 UVT에 공급되는 전압이 정격의 85%이상으로 계속 유지 되도록 한 후에 차단기를 리셋 (Reset) \r\n시킨 후 투입 (On) 시키면 됩니다.\r\n30~250AF ELCB에서는 설치가 불가능 합니다.\r\n- 트립조건 : 정격의 20~70%로 전압 강하 시\r\n- 리셋/재투입 조건 : 정격의 85%이상으로 전압 회복 시\r\n- 적용주파수 : 45~65Hz\r\n부족전압트립장치(UVT)의 \r\n정격 (400~800AF)\r\n부족전압트립장치 (UVT) 의\r\n정격 (30~250AF)\r\n내부부속장치 단자번호 보조접점 (AX) 경보접점 (AL) 전압트립장치 (SHT) 부족전압트립장치 (UVT) \r\nAC/DC용\r\n정격전압 (Ue) 사용 전압 동작 전압 시간 정격\r\nAC/DC 24\r\n·AC : 정격조작전압의\r\n 85~110%\r\n·DC : 정격조작전압의\r\n 85~125%\r\n·AC : 정격조작전압의\r\n 20~70%\r\n·DC : 정격조작전압의\r\n 20~70%\r\nMetasol MCCB 전기종\r\n연속\r\nAC/DC 48\r\nAC/DC 100~125\r\nAC 200~240 / DC 200~220\r\nAC 380~440\r\nAC 440~480\r\n내부부속장치\r\n정격전압 (Ue) 소비전력\r\nAC (VA) DC (W) mA\r\n정격전압 및 \r\n소비전력\r\nAC/DC 24V 0.64 0.65 27\r\nAC/DC 48V 1.09 1.1 23\r\nAC/DC 100~110V 0.73 0.75 5.8\r\nAC/DC 200~220V 1.21 1.35 5.4\r\nAC 380~440V 1.67 - 3.8\r\nAC 440~480V 1.68 - 3.5\r\n동작 (개방)시간 50ms (최대)\r\n단자체결토크 8.2 kgf·cm\r\n동작전압\r\n차단기 트립 20~70% Vn\r\n차단기 리셋/재투입 85% Vn 이상",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 93,
+      "text": " 7-9\r\nMetasol MCCB/ELCB\r\n7\r\n외부부속장치류 (External Accessories)\r\nMetasol 시리즈 차단기의 외부 부속장치는 다양한 용도에 적용할 수 있고 취부 및 사용이 편리한 User Friendly 방식으로 되어있습니다.\r\nMCCB와 ELCB 공용으로 사용하며 호환성 범위를 최대화 하였습니다.\r\n단자커버\r\n단자커버\r\n이면형단자\r\n이면형단자\r\nPlug-in\r\n외부조작핸들\r\n전동개폐장치\r\n절연베리어\r\n절연베리어\r\nhandle Lock\r\n외부부속장치",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 94,
+      "text": "7-10\r\n외부조작핸들 (Rotary Handle)\r\n외부조작핸들 (Rotary Handle)은 패널도어를 닫은 상태에서도 차단기의 상태 (On, Off, Trip)를 확인하고 \r\n조작 할 수 있는 장치입니다. 기본적으로 핸들의 고리에 외부의 자물쇠를 설치하여 On 또는 Off상태로 잠글 수 있습니다.\r\n핸들의 부착위치에 따라 아래와 같이 구분됩니다.\r\n표면부착형 핸들 (D-handle, N-handle)\r\n• D-handle : 차단기에 직접 부착함. 자물쇠가 내장된 키록 (Key Lock) Type도 가능. Trip Button기능 있음.\r\n• N-handle : 차단기에 직접 부착함. Off 상태에서도 Door 잠김. D-handle보다 Handle 크기가 큼.\r\n확장형 핸들 (E-handle)\r\n차단기와패널도어와의거리가길어핸들을패널도어에설치함.\r\n차단기의 설치 형태에따른 표면부착형 핸들 (D-handle, N-handle)의 종류\r\nS-type L-type R-type\r\nLine\r\nLine Load Load Line\r\nOn On\r\nLoad\r\n (30~250AF)\r\n (400~S00AF)\r\n (DH 32~250AF)\r\n (N 32~250AF)\r\n키록부착\r\n (DH 32~250AF)\r\n (N 400~800AF)\r\n종류 및 형명\r\n표면부착형 표면부착형\r\n (키록부착) 확장형 적용차단기\r\nMCCB ELCB **\r\nN-30c - - ABN50c/60c/100c/100d/100e* EBN50c/60c/100c\r\nDH100 DHK100 EH100 ABS30c/50c/60c* EBS30c/50c/60c\r\nN-40c - - ABS125c*\r\nABH50c/125c*\r\nABL125c*\r\nEBS125c\r\nDH125 DHK125 EH125 EBH50c/125c\r\nN-50c - - ABN/S/H/L250c EBN/S/H250c\r\nDH250 DHK250 EH250\r\nN-70 - E-70U ABN/S/H/L400c EBN/S/H/L400c\r\nN-80 - E-80U ABN/S/L630c/800c EBN/S/L630c/800c\r\n주) N-handle은 On 또는 Off상태 잠금형 (On/Off Lock)과 Off상태에서만 잠금형 제품 (Off Lock)이 있습니다.\r\n Off Lock 핸들은 N핸들 (~800AF)과 E핸들 (~250AF)이 존재하며 형명 뒤에 ‘Semi’가 추가됩니다. 주문 시 유의해 주시기 바랍니다.\r\n* DH100, DH125는 2극(2-Pole) 제품에 취부할 수 없습니다. (N-30c, N-40c 가능)\r\n** ELCB는 외부조작핸들 취부 시 감도전류 및 관성부동작시간 스위치와 테스트 버튼 조작이 불가능합니다. \r\n표면부착형\r\n확장형\r\n외부부속장치",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 95,
+      "text": " 7-11\r\nMetasol MCCB/ELCB\r\n7\r\n외부조작핸들 (Rotary Handle) - D핸들\r\nD핸들 구조\r\nD핸들 종류\r\nL-type S-type R-type\r\nLine\r\nLine\r\nLoad\r\n트립상태\r\n트립버튼 누름\r\nLoad Line\r\nLoad\r\nOn On On\r\nABN100c ABH125c ABH250c",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 96,
+      "text": "7-12\r\nABN100c, EBN100c ABH125c, EBH125c ABH250c, EBH250c\r\nD-handle A (mm) B (mm) C (mm) D (mm) E (mm) 비고\r\nDH100 110.5 78 90 92 103.4 100AF\r\nDH125 132 94 105 108 120 125AF\r\nDH250 126 108 121 110 122 250AF\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\n패널 절단 치수\r\nD핸들 설치 방법\r\n외부조작핸들 (Rotary Handle) - D핸들\r\n외부부속장치",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 97,
+      "text": " 7-13\r\nMetasol MCCB/ELCB\r\nD핸들 동작 검사 방법\r\n7\r\nn\r\nn\r\n\u001f\r\n\u001f\r\nD핸들 잠금장치\r\nO\u001f\r\nKey\r\nOn 상태에서 패널 도어를 열 때 On, Off 상태에서 잠금장치 설치\r\n키락 잠금장치\r\nTrip 상태 : 패널 도어 열리지 않음\r\n 주 의\r\nOn 또는 Trip 상태에서 무리한 \r\n힘으로 문을 열면 잠금레버가\r\n 손상됩니다.\r\nO\u001f\r\nKey\r\nO\u001f\r\nKey\r\nO\u001f\r\nKey",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 98,
+      "text": "7-14\r\n외부조작핸들 (Rotary Handle) - E핸들\r\nE핸들 구조\r\nE핸들 종류\r\nL-type S-type R-type\r\nLine\r\nLine\r\nLoad\r\n트립상태\r\n트립버튼 누름\r\nLoad Line\r\nLoad\r\nOn On On\r\n외부부속장치\r\nABN100c ABH125c ABH250c",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 99,
+      "text": " 7-15\r\nMetasol MCCB/ELCB\r\nABN100c, EBN100c ABH125c, EBH125c ABH250c, EBH250c\r\n7\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\nO\u001f\r\nE핸들 설치 방법\r\n패널 절단 치수\r\nE-handle A (mm) B (mm) C (mm) 비고\r\nEH100 min 150, max 573.5 (SHAFT469mm) 47 Ø53 100AF\r\nEH125 min 150, max 573.5 (SHAFT469mm) 47 Ø53 125AF\r\nEH250 min 150, max 571.5 (SHAFT469mm) 47 Ø53 250AF\r\n주) 바닥 면에서 패널도어 사이의 거리에 맞게 확장샤프트를 조정하시기 바랍니다.",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 100,
+      "text": "7-16\r\n외부조작핸들 (Rotary Handle) - E핸들\r\nE핸들 동작 검사 방법\r\nE핸들 잠금장치\r\nO\u001f\r\nO\u001f\r\nOn\r\nOn 상태에서 패널 도어를 열 때 On, Off 상태에서 잠금장치 설치\r\n주) EH100/125/250 Semi type 은 Off 위치에서만 잠금장치 설치 가능합니다.\r\n자물쇠 지름 6mm 사용 할 것\r\nTrip 상태 : 패널 도어 열리지 않음\r\n 주 의\r\nOn 또는 Trip 상태에서 무리한 \r\n힘으로 문을 열면 잠금레버가\r\n 손상됩니다.\r\nO\u001f\r\nKey\r\n외부부속장치",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 101,
+      "text": " 7-17\r\nMetasol MCCB/ELCB\r\n7\r\n외부조작핸들 (Rotary Handle) - N핸들\r\nb) 차단기의 핸들과 N핸들의 레버가 \r\n <그림 4>와 같이 마주 물리도록 하여 \r\n주십시오.\r\n<그림 1>\r\n<그림 2>\r\n<그림 3>\r\n<그림 4>\r\n (N-30c, 40c, 50c) (N-70, N-80)\r\n (N-30c, 40c, 50c)\r\n (N-30c, 40c, 50c)\r\n (N-30c, 40c, 50c)\r\n (N-70, N-80)\r\n (N-70, N-80)\r\n (N-70, N-80)\r\n※ S : 수직 부착형\r\nN핸들 부착방법\r\n (1) 패널도어의 부착 구멍 뚫기\r\n① N핸들의 형식에 관계없이 도어의 부착 \r\n 구멍치수는 동일 합니다.\r\n② <그림 1>에 따라 정확히 뚫어주십시오.\r\n (2) 차단기 부착대 제작\r\n① 패널도어의 내측면에서 차단기 \r\n부착면까지의 거리가 <그림 2>와 같이 \r\n되도록 부착대를 만들어 주십시오.\r\n② 수평부착의 경우에는 차단기 부착 구멍 위치만\r\n 90도 돌려 주십시오.\r\n (3) 부착\r\n① 차단기와 N핸들을 함께 부착하는 경우 \r\na) 첨부한 나사 중에서 <9장>를 참조하여 \r\n 부착나사 4개를 골라 N핸들과 차단기를 \r\n 함께 부착대에 체결하여 주십시오.",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 102,
+      "text": "7-18\r\n외부조작핸들 (Rotary Handle) - N핸들\r\n<그림 5>\r\n② 차단기를 부착하기 전에 먼저 N핸들을 고정하는 경우 \r\na) 차단기 커버의 부착구멍을 막고 있는 얇은 Mold막이 있을\r\n 경우 제거하여 주십시오.\r\nb) 차단기의 핸들과 N핸들의 레버가 <그림 4>과 같이 맞물리게\r\n 하여 주십시오.\r\nc) 첨부한 나사중에서 <10-1쪽>을 참조하여 고정용 나사 2개를 \r\n 골라 N핸들과 차단기를 고정하여 주십시오.\r\nd) 첨부한 나사중에서 <10-1쪽>을을 참조하여 부착나사 2개를 \r\n골라 N핸들을 고정한 차단기를 부착대에 체결하여 주십시오.\r\n<그림 6>\r\n (4) 외장판, 잠금판의 부착\r\n① 외장판과 잠금판을 패널도어를 사이에 두고 체결하십시오.\r\n,OPC\u0001'SBNF\r\n'SPOU\u00011MBUF\r\n$MFBSBODF\r\n<그림 7>\r\n② <그림 7>와 같이 외장판과 핸들의 간격이 균일하게 되고 \r\n차단기에 대하여 기울어짐이 없도록 조정하여 주십시오.\r\n<그림 8>\r\n③ 잠금판과 잠금레버가 패널도어를 닫은 상태 에서 잘 물려지는\r\n 가를 확인하여 주십시오. 위치의 수정은 다음과 같이 하여 \r\n 주십시오.\r\n<그림 9>\r\na) 부착후 패널도어가 완전히 닫히지 않는 경우는 패널도어의\r\n 뒷면으로부터 차단기 부착면 까지의 치수 (외형치수도의 \r\n A치수)가 기준에 비하여 짧기 때문입니다. 따라서 잠금판의 \r\n 조정나사를 풀어 록 플레이트를 <그림 9>의 화살표 방향으로\r\n 이동 시켜주십시오.\r\n<그림 10>\r\nb) 패널도어를 닫은후 도어의 잠김이 되지 않는 경우 패널도어의\r\n 뒷면으로부터 차단기 부착면까지의 치수가 기준에 비하여 큰\r\n 것이므로 잠금판의 조정나사를 풀어 록 플레이트를 <그림 10>의 \r\n 화살표 방향으로 이동시켜 주십시오.\r\n외부부속장치",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 103,
+      "text": " 7-19\r\nMetasol MCCB/ELCB\r\n7\r\n조작방법\r\n (1) 패널도어를 닫은 상태에서의 차단기의 조작\r\n① 핸들을 수직으로 되게 하면 차단기는 On상태로 됩니다. <그림 11>\r\n② 핸들을 수평으로 되게 하면 차단기는 Off상태로 됩니다. <그림 12>\r\n③ 차단기가 자동차단된 경우는 Trip 위치를 가리키게 됩니다.\r\n④ 핸들을 Reset방향으로 회전하면 차단기는 Off상태로 복귀됩니다.\r\n (2) 패널도어의 잠김해제\r\n① 차단기가 On, Off, Trip 상태에서는 로크되어 도어는 열리지 않습니다.\r\n② 차단기가 Off, Trip 상태에서는 핸들을 Open 으로 회전하면 로크가 해제됩니다.\r\n (핸들을 놓아도 해제 상태는 유지됩니다.)\r\n③ 차단기를 On상태로 한 채 도어를 열 경우에는 Release 나사를 시계방향으로\r\n 회전하면 로크가 해제됩니다. <그림 13>\r\n (3) 패널도어를 연 상태에서의 차단기의 조작\r\n① 패널도어를 연 상태에서는 로크되어 차단기는 On되지 않습니다.\r\n② 로크레버를 당겨 거의 수평이 되도록 하면 On조작이 가능합니다. <그림 14>\r\n③ 해제 상태로 된 레버는 도어를 닫으면 자동적으로 복귀됩니다.\r\n핸들로크\r\n① N-handle은 On 또는 Off상태 잠금형 (On/Off Lock)과 \r\nOff상태에서만 잠금형 제품 (Off Lock)이 있습니다.\r\n② 핸들 전면의 로크플레이트를 잡아당겨 자물쇠를 걸어 주십시오. <그림 15>\r\n③ On 로크 상태에서 차단기가 자동차단된 경우, 핸들은 Trip을 가리키게 됩니다.\r\n④ 자물쇠는 고리의 굵기가 3.5~6mm의 것을 사용하여 주십시오.\r\nN-핸들 힌지(경첩) 거리 \r\n<그림 11>\r\n<그림 12>\r\nOn\r\nOff\r\nOn\r\nOff\r\n<그림 13>\r\n-PDL\u0001-FWFS\r\n<그림 14>\r\n흰지(경첩) \r\nX X\r\nH\r\nCL\r\n<그림 15>\r\n (N-30, 40, 50)\r\n (N-70, N-80)\r\nN 핸들\r\n좌/우측 힌지\r\nH X\r\nN-30c\r\nN-40c\r\nN-50c\r\n0 이상 5H+110 이상\r\nN-70\r\nN-80 0 이상 5H+100 이상\r\n단위 : mm",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 104,
+      "text": "7-20\r\n기종별 잠금장치 종류 \r\n(고정형 잠금장치)\r\n부착 방법\r\n잠금장치 [Handle Lock]\r\n차단기 본체에 고정시켜서 사용하는 핸들 잠금장치입니다. 차단기를 On이나 Off 위치에서 잠금장치를\r\n설치할 수 있습니다.\r\n핸들 잠금장치는 차단기의 전면에 쉽게 부착할 수 있도록 설계되었습니다.\r\n (1) 차단기의 핸들을 Off 위치로 설정합니다. (그림 1, 2)\r\n (2) 핸들 잠금장치를 차단기의 커버에 고정을 시킵니다. (그림 1, 2)\r\n (3) 자물쇠를 사용하여 On 또는 Off 위치에서 잠금을 할 수 있습니다. (그림 3, 4, 5)\r\n100AF/125AF/250AF 부착방법\r\n<그림1>\r\n<그림2>\r\n<그림3>\r\n<그림4>\r\n<그림5>\r\n400AF/800AF 부착방법\r\n형 명 배선용 차단기 누전 차단기\r\nHandle Lock, ABN100c\r\nABS30c, ABS50c, ABS60c,\r\nABN50c, ABN60c, ABN100c,\r\nABN100d, ABN100e\r\nEBS30c, EBS50c, EBS60c,\r\nEBN50c, EBN60c, EBN100c\r\nHandle Lock, ABH125c ABS125c, ABH50c, ABH125c, ABL125c EBS125c, EBH50c, EBH125c\r\nHandle Lock, ABH250c ABN250c, ABS250c, ABH250c, ABL250c EBN250c, EBS250c, EBH250c\r\nHandle Lock, ABE/S/H/L400b~800b ABN400c, ABS400c, ABH400c, \r\nABL400cABN800c, ABS800c, ABL800c\r\nEBN400c, EBS400c, EBH400c, \r\nEBL400cEBN800c, EBS800c, EBL800c\r\nON LOCK OFF LOCK\r\n외부부속장치",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 105,
+      "text": " 7-21\r\nMetasol MCCB/ELCB\r\n7\r\n단자커버 (Terminal Cover)\r\n단자커버는 차단기의 전원, 부하측 단자를 외부와 절연시켜 (보호등급 IP20) 사람의 손이나 드라이버등 도구가 통전부\r\n(단자 및 전선과의 접속부)에 직접 닿아 발생할 수 있는 감전 및 단락사고를 사전에 방지해 줍니다.\r\n단자커버는 절연베리어와 같이 사용할 수 없습니다.\r\n차단기의 접속방식에 따라 긴 것 (Long Type)과 짧은 것 (Short Type)두 가지로 구분됩니다.\r\n또한, D-handle이나 N-handle과 조합 사용시에도 단자커버 착탈이 가능하도록 한 제품이 구분되어 있습니다.\r\nTCS (Short Type)\r\nTCS/T (Short Type)\r\nTCL (Long Type)\r\nShort Type 조립후 Long Type 조립후 \r\nA\r\nA\r\nA\r\n주) 1. 400AF 이상 제품의 단자커버는 아크릴 재질의 단자커버입니다. A\r\n 2. '/T' 가 추가된 제품은 투명재질 커버입니다\r\n단자커버 형명\r\n극수\r\n적용차단기 제품 돌출수치 (A),\r\nShort Type Long Type mm\r\n단독형 D-handle용 N-handle용 단독형 D-handle용 N-handle용 MCCB ELCB Short Type Long Type\r\nTBS22 - - - - - 2P ABE30b - 10 - TBS23 - - - - - 3P\r\nTCS12 - - TCL12 - - 2P\r\nABN50c/60c/100c/\r\n100d/100e\r\nABS30c/50c/60c\r\n-\r\n5.5 30\r\nTCS/T-12 - - TCL/T-12 - -\r\nTCS13 TCS13 TCS13 TCL13 TCL13 TCL13 3P EBN50c/60c/100c\r\nEBS30c/50c/60c\r\nTCS/T-13 TCS/T-13 TCS/T-13 TCL/T-13 TCL/T-13 TCL/T-13\r\nTCS14 TCS14 TCS14 TCL14 TCS14 TCS14 4P TCS/T-14 TCS/T-14 TCS/T-14 TCL/T-14 TCL/T-14\r\nTCS22 - - TCL22 - - 2P\r\nABS125c \r\nABH50c/125c\r\nABL125c\r\n-\r\n5.5 40\r\nTCS/T-22 - - TCL/T-22 - -\r\nTCS23 TCS23 TCL23 TCL23 3P EBS125c\r\nEBH50c/125c\r\nTCS/T-23 TCS/T-23 TCL/T-23 TCL/T-23\r\nTCS24 TCS24 TCL24 TCL24 4P TCS/T-24 TCS/T-24 TCL/T-24\r\nTCS33 TCS33 TCL33 TCL33 2, 3P ABN250c, ABS250c\r\nABH250c, ABL250c\r\nEBN250c, EBS250c\r\nEBH250c\r\n5.5 50 TCS/T-33 TCS/T-33 TCL/T-33 TCL/T-33\r\nTCS34 TCS34 TCL34 TCL34 4P TCS/T-34 TCS/T-34 TCL/T-34\r\n- - - T1-43A - T1/T-43A 2, 3P ABN/S/H/L400c EBN/S/H/L400c - 120 - - - T1-44A - - 4P\r\n- - - T1-63A - T1/T-63A 2, 3P ABN/S/L630c/800c EBN/S/L630c/800c - 141 - - - T1-64A - - 4P\r\nTCL/T (Long Type)\r\nA\r\nA\r\nA",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 106,
+      "text": "7-22\r\n절연베리어 (Insulation)\r\n절연베리어는 차단기의 단자간 홈에 설치하여 상간 절연성능을 향상시켜줍니다.\r\n차단기가 이미 설치되어 있는 경우에도 간단히 조립할 수 있습니다.\r\n두대의 차단기를 옆으로 나란히 붙여 설치한 경우 두 차단기간의 틈에도 조립이 가능합니다. \r\n전원측의 경우 표준품으로 제공되며 부하측에도 사용할 경우 추가로 구입이 필요합니다.\r\n절연베리어는 단자커버류와 같이 사용할 수 없습니다.\r\n절연베리어의 부착은 아래의 그림과 같이 차단기의 절연베리어 취부 홈에 끼워 주면 됩니다.\r\n전원측의 절연베리어는 표준품으로 제공됩니다.\r\n절연베리어 형명 적용차단기\r\nMCCB ELCB\r\nIB-13 ABN50c/60c/100c/100d/100e\r\nABS30c/50c/60c \r\nEBN50c/60c/100c\r\nEBS30c/50c/60c\r\nIB-23\r\nABS125c\r\nABH50c/125c\r\nABN250c, ABS250c\r\nABH250c\r\nABL125c\r\nABL250c\r\nEBS125c\r\nEBH50c/125c\r\nEBN250c, EBS250c\r\nEBH250c\r\nB-43B ABN/S/H/L400c EBN/S/H/L400c\r\nB-33C ABN/S/L630c\r\nABN/S/L800c\r\nEBN/S/L630c\r\nEBN/S/L800c\r\n외부부속장치",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 107,
+      "text": " 7-23\r\nMetasol MCCB/ELCB\r\n7\r\n이면형 단자 (Rear Connection Terminals)\r\n차단기의 단자접속을 표면 (앞면)이 아닌 이면 (뒷면)에서 할 필요가 있는 경우에 적용합니다.\r\n단자의 접속방식 (모양)에 따라 Flat Type과 Round Type이 있습니다.\r\nCL CL\r\n기종별 Bar Type \r\n이면형 단자 유형\r\n기종별 Round Type \r\n이면형 단자 유형\r\nCL CL\r\n적용 차단기 2극 차단기 3극 차단기 4극 차단기\r\nABN/EBN30c~100c RTB1-102 RTB1-103 RTB1-104\r\nABH/EBH125c RTB2-102 RTB2-103 RTB2-104\r\nABH/EBH250c RTB3-202 RTB3-203 RTB3-204\r\n적용 차단기 2극 차단기 3극 차단기 4극 차단기\r\nABN/EBN30c~50c RTR1-52 RTR1-53 RTR1-54\r\nABN/EBN60c~100c RTR1-102 RTR1-103 RTR1-104\r\nABH/EBH125c RTR2-102 RTR2-103 RTR2-104\r\nABH/EBH250c RTR3-202 RTR3-203 RTR3-204",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 108,
+      "text": "7-24\r\n기계식 interlock (Mechanical Interlock)\r\n두대의 차단기를 가지고 주전원과 예비전원에 사용할때 전원이 동시에 투입되는 것을 기계적으로 방지하기 위한 장치입니다.\r\n형명 및 체계\r\n판넬커팅\r\n※ 굵기 ø5 이하의 자물쇠 사용\r\n (자물쇠는 별도 구입품입니다)\r\nBB\r\nA\r\nA\r\nBB\r\nA\r\nA\r\nMCCB 취부홀 치수\r\nC EC\r\nD\r\nD\r\nMI-13, 14 MI-23, 24 MI-33, 34 MI-43, 44 MI-83, 84\r\nA B A B A B A B A B\r\n핸들 노출시 52 66 52 66 52 66 100 111 100 111\r\n보조커버 노출시 86 62 102 62 104 62 152 97 152 97\r\n간격\r\n적용\r\n (단위 : mm)\r\nType MCCB ELCB\r\nMI-13, 14 ABS30c, ABS50c, ABS60c, ABN50c, ABN60c, \r\nABN100c, ABN100d, ABN100e\r\nEBS30c, EBS50c, EBS60c, EBN50c, EBN60c,\r\nEBN100c\r\nMI-23, 24 ABS125c, ABH50c, ABH125c, ABL125c EBS125c, EBH50c, EBH125c\r\nMI-33, 34 ABN/S/H/L250c EBN/S/H250c\r\nMI-43, 44 ABN/S/H/L400c EBN/S/H/L400c\r\nMI-83, 84 ABN/S/L600c, 800c EBN/S/L600c, 800c\r\n주) MCCB100, 125AF 2P 제품은 MI 적용이 불가함.\r\n간격\r\n적용프레임\r\n (단위 : mm)\r\n C D E\r\n3극 4극 3극 4극 3극 4극\r\n100AF 25 25 110.5 110.5 70 95\r\n125AF 30 30 132 132 84 114\r\n250AF 35 35 126 126 99 134\r\n400AF 44 44 215 215 166 210\r\n800AF 70 70 243 243 210 280\r\n외부부속장치\r\n외형도\r\nMI 4 3\r\n극 수\r\n3 3극\r\n4 4극\r\nAF\r\n1 100AF\r\n2 125AF\r\n3 250AF\r\n4 400AF\r\n8 800AF\r\n기본형식\r\nMechanical \r\nInterlock",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 109,
+      "text": " 7-25\r\nMetasol MCCB/ELCB\r\n7\r\nPlug-in단자\r\nPlug-In (플러그인)방식은 단자연결부위를 접촉하지 않고도 차단기를 신속하게 제거 또는 교체가 가능하도록\r\n만든 접속 및 설치 방식입니다.\r\n선박 및 방송국등 중요 전기시설에 Plug-in방식 MCCB를 설치하면 모선의 단전 없이 차단기의 교체 및\r\n유지 보수를 간단하고 빠르게 할 수 있습니다.\r\n일반형\r\n정격전류 800A까지 다양한 차단용량의 제품으로 구비되어 있어 배전반에 널리 적용이 가능한 모델입니다.\r\n분전반 2열 배열용\r\n분전반의 분기용 차단기를 2열 배열이 가능하도록 설계된 제품으로 정격전류 125A까지 구비되어 있어 분기용으로\r\n널리 적용이 가능한 모델입니다.\r\nPlug-in 베이스\r\nABH103c Plug-in Type\r\nABH203c Plug-in Type\r\n일반형 2열 배열용\r\nPlug-in MCCB\r\n (Plug-in전용단자부착)\r\n기종별 Plug-in \r\n부속장치 종류\r\n적용 차단기 종 류 Plug-in 베이스 형명 비 고\r\nABN100c\r\n일반형 PB-A3-FR\r\n1열배열용 PB-A3-1DB\r\n2열배열용 PB-A3-2DB 분전반 2열배열용\r\n라인전용 PB-A3-FRL\r\nABH125c\r\n일반형 PB-C3-FR\r\n1열배열용 PB-C3-1DB\r\n2열배열용 PB-C3-2DB 분전반 2열배열용\r\n라인전용 PB-C3-FRL\r\nABH250c 일반형 PB-D3-FR\r\n400AF 일반형/라인전용 PB-I3-FR/PB-I3-FRL\r\n630/800AF 일반형 PB-J3-FR",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 110,
+      "text": "7-26\r\n전동개폐장치 (Motor Operator)\r\nMetasol차단기는 원방에서 차단기 개폐가 가능한 전동개폐장치를 부속장치로 사용할 수 있습니다.\r\n이 장치는 전동기를 이용한 메카니즘으로 차단기를 원격으로 조작하여 On 및 Off/Reset이 가능하도록\r\n만든 장치로서 전력 시스템의 자동화에 매우 요긴하게 사용이 가능합니다.\r\n기종 및 정격 적용차단기 형명 개폐장치\r\n형명 조작전압 조작전류\r\n동작시간 (ms) 기계적\r\n수명\r\n (회)\r\n개폐빈도\r\n (회/시간) 2P 3P 4P Closing Opening\r\n-\r\nABN53c,\r\nABN63c,\r\nABN103c,\r\nABN103d, \r\nABN103e, \r\nABS33c,\r\nABS53c,\r\nABS63c\r\nABN54c,\r\nABN64c, \r\nABN104c,\r\nABN104d, \r\nABN104e,\r\nABS34c,\r\nABS54c,\r\nABS64c\r\nMOP-M1\r\n① DC24V\r\n② AC110V/DC110V\r\n③ AC230V/DC220V\r\n≤3A (DC24V)\r\n≤0.5A (AC) 700 700 10,000 120\r\n-\r\nABS103c,\r\nABH53c,\r\nABH103c\r\nABL103c\r\nABS104c,\r\nABH54c,\r\nABH104c\r\nABL104c\r\nMOP-M2\r\n① DC24V\r\n② AC110V/DC110V\r\n③ AC230V/DC220V\r\n≤3A (DC24V)\r\n≤0.5A (AC) 840 840 10,000 120\r\nABN202c,\r\nABS202c,\r\nABH202c\r\nABL202c\r\nABN203c,\r\nABS203c,\r\nABH203c\r\nABL203c\r\nABN204c,\r\nABS204c,\r\nABH204c\r\nABL204c\r\nMOP-M3\r\n① DC24V\r\n② AC110V/DC110V\r\n③ AC230V/DC220V\r\n≤3A (DC24V)\r\n≤0.5A (AC) 840 840 10,000 120\r\nABN402c, \r\nABS402c,\r\nABH402c,\r\nABL402c\r\nABN403c,\r\nABS403c,\r\nABH403c,\r\nABL403c\r\nABN404c,\r\nABS404c,\r\nABH404c,\r\nABL404c\r\nMOP-M4\r\n① DC24V\r\n② AC110/DC110V\r\n③ AC230V/DC220V\r\n≤6A (DC24V)\r\n≤0.8A (AC) 1,200 1,200 4,000 60\r\nABN602c, \r\nABN802c,\r\nABS602c,\r\nABS802c,\r\nABL602c,\r\nABL802c\r\nABN603c,\r\nABN803c,\r\nABS603c,\r\nABS803c,\r\nABL603c,\r\nABL803c\r\nABN604c,\r\nABN804c,\r\nABS604c,\r\nABS804c,\r\nABL604c,\r\nABL804c\r\nMOP-M5\r\n① DC24V\r\n② AC110/DC110V\r\n③ AC230V/DC220V\r\n≤6A (DC24V)\r\n≤0.8A (AC) 1,200 1,200 2,500 60\r\n-\r\nABS1003b, \r\nABS1203b\r\nABL1003b, \r\nABL1203b\r\nABS1004b, \r\nABS1204b\r\nABL1004b, \r\nABL1204b\r\nMOP-M6 ① AC230V/DC220V ≤6A (DC24V)\r\n≤0.8A (AC) 1,500 1,500 2,500 20\r\n1) MCCB On,Off 원격 제어 및 수동 조작\r\n2) DC24V는 (+), (-) 극성에 주의하십시오.\r\n전동개폐장치 결선도\r\nAL 조합 결선\r\n1) SHT or UVT를 조합하지 않고 AL을 이용하는 방법으로 사고에 의한 Trip이 발생하거나\r\nTrip Button 동작시 원격 리셋을 막아줍니다.\r\n2) 반드시 사고의 원인을 제거하고 수동으로 리셋동작 후 사용하세요.\r\n표준 결선\r\nE E\r\nS1 S2 S4\r\nUe\r\nON OFF\r\nP1(+) P2(-)\r\nE E Ue\r\nALa\r\nALc ALb\r\nP1(+)\r\nON OFF\r\nP2(-) S1 S2 S4\r\n외부부속장치\r\n주) S1, S2, S4의 케이블 길이는 10m 이하를 권장합니다.",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 111,
+      "text": " 7-27\r\nMetasol MCCB/ELCB\r\n7\r\n수동 조작 \r\n(Manual Operation)\r\n자동 조작 (Automatic \r\nOperation)\r\n1) 수동 조작 핸들을 그림과 같이 전면의 구멍에 넣고 시계 방향으로 돌립니다.\r\n2) 제품 내부의 마이크로 스위치가 동작하기까지 반바퀴(180도)를 돌려야 합니다.\r\n3) 수동 조작 후에는 핸들을 본래의 위치로 돌립니다.\r\n4) 수동/자동 레버를 본래의 위치로 놓습니다.\r\n주의 : Off상태에서 트립버튼에 의한 트립동작시 표시창은 Off (Green)로 표시되지만 차단기는 트립상태입니다. 수동으로 리셋시켜 주십시오.\r\n1) 수동/자동 레버를 Auto측으로 절환합니다. 이때 조작 전원이 자동으로 인가 됩니다.\r\n2) 원방에서 On/Off 조작시 아래의 최대개폐빈도수를 넘기지 말아야 합니다.\r\n MOP-M1~M3 (120회/시간), MOP-M4, M5 (60회/시간), MOP-M6 (20회/시간) \r\n3) On/Off 스위치는 동작 전류에 맞는 것을 사용하십시오.\r\n4) Switching 전원을 내장하고 있기 때문에 주변에 사용되어지는 통신기기 (AM라디오)에 장애를 주는\r\n 경우가 있습니다. 이러한 경우에는 전원 입력측에 Noise Filter를 사용하십시오.\r\n5) Motor Operator 사용시 On/Off 신호를 동시에 인가하지 마십시오. 기기 고장 및 사고의 원인이 될 수 있습니다.\r\n6) UVT를 사용할 경우 정격전압을 인가 후에 Motor Operator를 동작하십시오.\r\n수동 조작 핸들\r\n외관설명\r\n②\r\n①\r\n⑥\r\n⑤\r\n③\r\n④\r\n1. On표시 (적색)\r\n2. 트립 (Trip)표시 (백색)\r\n3. Off표시 (녹색)\r\n4. 트립테스트버튼\r\n5. On, Off/Reset 선택레버\r\n6. 수동/자동 조작레버\r\nMOP-M1\r\nMOP-M2, M3\r\nMOP-M4/M5/M6",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 112,
+      "text": "8-1\r\n샎헒삶킪맒\r\n헒윦\t헣멷헒윦픦\u0001\u0001짾쿦\n\r\n솧\r\n핟\r\n킪\r\n맒\r\n\r\n쭒\r\n샎맠\r\n콚맠\r\n쿪킪\u0001잋\u0001쩢퓒\r\n(960~1440 %)\r\n정격전류 : 3~30A (ABE)\r\n80\r\n1\r\n0.01\r\n1 1.5 2 3 4 5 6 7\r\n0.1\r\n0.02\r\n0.04\r\n0.08\r\n0.06\r\n0.2\r\n0.8\r\n0.6\r\n0.4\r\n8 9 10 15 20 30 40 50 60\r\n8\r\n2\r\n6\r\n4\r\n10\r\n20\r\n1\r\n40\r\n4\r\n2\r\n10\r\n8\r\n6\r\n20\r\n40\r\n100\r\n80\r\n60\r\n240\r\n120\r\n180\r\n150\r\n100\r\n15A \r\n최대전차단시간\r\n최대값\r\n최소값\r\n전류(정격전류의 배수)\r\n동\r\n작\r\n시\r\n간\r\n초\r\n분\r\n순시 트립 범위\r\n3~10A : 960~1440 %\r\n15~32A : 400A ± 20%\r\n20A \r\n30A \r\n3~10A \r\n16A \r\n25A \r\n32A \r\n정격전류 : 3~32A (ABN/S,EBN/S) 정격전류 : 40~100A (ABN/S,EBN/S)\r\n온도 보정 곡선표\r\n온도 보정 곡선표\r\n적용모델\r\n적용모델\r\nABE30b\r\nMCCB ABN/S, EBN/S\r\nABN50c/60c/100c/100d/100e\r\nABS30c/50c/60c\r\nELCB\r\nEBN50c/60c/100c\r\nEBS30c/50c/60c\r\nMCCB\r\nABE30b\r\n특성곡선",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 113,
+      "text": "Metasol MCCB/ELCB\r\n 8-2\r\n8\r\n최대값\r\n최소값\r\n동\r\n작\r\n시\r\n간\r\n초\r\n분\r\n최대전차단시간\r\n순시 트립 범위\r\n15~32A : 400A ± 20%\r\n40~100A : 960~1440% 40~100A \r\n15A \r\n20A \r\n30A \r\n16A \r\n25A \r\n32A \r\n80\r\n1\r\n전류(정격전류의 배수)\r\n0.01\r\n1 1.5 2 3 4 5 6 7\r\n0.1\r\n0.02\r\n0.04\r\n0.08\r\n0.06\r\n0.2\r\n0.8\r\n0.6\r\n0.4\r\n8 9 10 15 20 30 40 50 60\r\n8\r\n2\r\n6\r\n4\r\n10\r\n20\r\n1\r\n40\r\n4\r\n2\r\n10\r\n8\r\n6\r\n20\r\n40\r\n100\r\n80\r\n60\r\n240\r\n120\r\n180\r\n150\r\n100\r\n정격전류 : 15~32A, 40~100A\r\n정격전류 : 125A\r\n적용모델\r\n온도 보정 곡선표\r\n정격전류 : 15~100A\r\n정격전류 : 125A\r\nMCCB\r\nABS125c\r\nABH50c/125c\r\nABL125c\r\nELCB\r\nEBS125c\r\nEBH50c/125c",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 114,
+      "text": "8-3\r\n정격전류 : 100~225A\r\n정격전류 : 250A\r\n적용모델\r\n온도 보정 곡선표\r\n정격전류 : 100~225A\r\n정격전류 : 250A\r\nMCCB\r\nABN250c, ABS250c\r\nABH250c, ABL250c\r\nELCB\r\nEBN250c, EBS250c\r\nEBH250c\r\n특성곡선",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 115,
+      "text": "Metasol MCCB/ELCB\r\n 8-4\r\n8\r\n정격전류 : 250~400A\r\n정격전류 : 500~800A\r\n적용모델\r\nMCCB\r\nABN400c, ABS400c, ABH400c, ABL400c\r\nABN630c, ABS630c, ABL630c\r\nABN800c, ABS800c, ABL800c\r\nELCB\r\nEBN400c, EBS400c, EBH400c, EBL400c\r\nEBN630c, EBS630c, EBL630c\r\nEBN800c, EBS800c, EBL800c\r\n온도 보정 곡선표\r\n정격전류 : 250~400A\r\n정격전류 : 500~800A",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 116,
+      "text": "8-5\r\n정격전류 : 1000~1200A\r\n정격전류 : 1200A\r\n온도 보정 곡선표\r\n적용모델\r\nMCCB\r\nABS1000b, ABL1000b\r\nABS1200b, ABL1200b\r\nELCB\r\nEBS1003b, EBS1203b\r\n적용모델\r\nMCCB\r\nABS1200bE\r\n정격전류 : 1000~1200A\r\n특성곡선",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 117,
+      "text": "Metasol MCCB/ELCB\r\n 8-6\r\n8\r\n시연형 시연형 시연형 시연형\r\n고속형/시연형 시연형\r\n0.2 0.5\r\n누전전류 배수 (%) \r\n누전전류 배수 (%) \r\n시연형 시연형\r\n누전동작시간 \r\n분 초 \r\n누전동작시간 \r\n분 초 \r\n0.5 1.5\r\n정격부동작전류 \r\n정격부동작전류 \r\n정격부동작전류 \r\n정격부동작전류 \r\n정격감도전류 \r\n정격부동작전류 \r\n정격부동작전류 \r\n정격부동작전류 \r\n정격감도전류 \r\n정격감도전류 \r\n정격감도전류 \r\n정격감도전류 \r\n정격감도전류 \r\n정격감도전류 \r\n누전전류 배수 (%) \r\n500ms 1000ms 1500ms 2000ms\r\n정격부동작전류 \r\n정격감도전류 \r\n정격부동작전류 \r\n정격감도전류 \r\n정격부동작전류 \r\n정격감도전류 \r\n정격부동작전류 \r\n정격감도전류 \r\n정격부동작전류 \r\n정격감도전류 \r\n누전동작시간 \r\n분 초 \r\n시연형 시연형 시연형 시연형\r\n1A, 1s\r\n2A, 2s\r\n2A, 2s\r\n적용모델\r\n적용모델\r\n특성곡선 (누전 가조정형)\r\nELCB\r\nEBN50c/60c/100c/250c\r\nEBS30c/50c/60c/125c/250c\r\nEBH50c/125c/250c\r\nELCB\r\nEBN400c, EBS400c\r\nEBH400c, EBL400c\r\nEBN630c, EBS630c, EBL630c\r\nEBN800c, EBS800c, EBL800c",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 118,
+      "text": "8-7\r\n정격전류 : 16~32A\r\n정격전류 : 45~90A\r\n적용모델\r\nMCCB\r\nABN50cM/60cM/100cM/100dM\r\nABS30cM/50cM/60cM\r\n45A~90A\r\n16A~32A\r\n45A~90A\r\n16A~32A\r\n온도 보정 곡선표\r\n정격전류 : 16~32A\r\n정격전류 : 45~90A\r\n특성곡선 (모터보호용)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 119,
+      "text": "Metasol MCCB/ELCB\r\n 8-8\r\n정격전류 : 16~90A\r\n정격전류 : 125~225A\r\n온도 보정 곡선표\r\n정격전류 : 125~225A\r\n16A~32A\r\n45A~90A\r\n온도 보정 곡선표\r\n정격전류 : 16~90A\r\n80\r\n1\r\n0.01\r\n11.5 23 45 67\r\n0.1\r\n0.02\r\n0.04\r\n0.08\r\n0.06\r\n0.2\r\n0.8\r\n0.6\r\n0.4\r\n81 9 10 52030406 50 0\r\n8\r\n2\r\n6\r\n4\r\n10\r\n20\r\n1\r\n40\r\n4\r\n2\r\n10\r\n8\r\n6\r\n20\r\n40\r\n100\r\n80\r\n60\r\n240\r\n120\r\n180\r\n150\r\n100\r\n1 1.5 7\r\n0.01\r\n0.02\r\n23 45 6\r\n0.1\r\n0.06\r\n0.08\r\n0.04\r\n0.4\r\n0.6\r\n0.8\r\n1\r\n0.2\r\n8\r\n4\r\n6\r\n2\r\n40\r\n20\r\n10\r\n2\r\n4\r\n1\r\n20\r\n6\r\n8\r\n10\r\n150\r\n180\r\n60\r\n80\r\n100\r\n120\r\n40\r\n240\r\n89 10 15 20 30 40 50 60 80 100\r\n적용모델\r\nMCCB\r\nABS125cM\r\nABH50cM/125cM\r\n적용모델\r\nMCCB\r\nABN250cM, ABS250cM\r\nABH250cM\r\n8",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 120,
+      "text": "9-1\r\nOn\r\nOn\r\nOn\r\n단자부 상세도\r\n2극 3극\r\n2극 3극\r\n패널설치치수 패널커버절단치수\r\nABE30b\r\n※ 단자커버는 별도 주문 사양입니다.\r\n주) Holder는 별도 주문 사양입니다.\r\n(단위 : mm)\r\n외형치수\r\nMCCB",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 121,
+      "text": "Metasol MCCB/ELCB\r\n 9-2\r\n9\r\n단자부 상세도 접속도체 가공도\r\n2극 3극 4극\r\n2극 3극 4극 2극 3극 4극\r\n패널설치치수 패널커버절단치수\r\n (50A 이하)\r\n (60A 이상)\r\n (50A 이하) (60A 이상)\r\nABN50c ABS30c\r\nABN60c ABS50c\r\nABN100c/100d/100e ABS60c\r\n(단위 : mm)\r\nMCCB",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 122,
+      "text": "9-3\r\n단자부 상세도 접속도체 가공도\r\n2극 3극 4극\r\n2극 3극 4극 2극 3극 4극\r\n패널설치치수 패널커버절단치수\r\nABS125c ABH50c\r\nABH125c ABL125c\r\n(단위 : mm)\r\n외형치수\r\nMCCB",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 123,
+      "text": "Metasol MCCB/ELCB\r\n 9-4\r\n9\r\nABN250c ABS250c ABH250c\r\n단자부 상세도 접속도체 가공도\r\n2, 3극 4극\r\n2, 3극 4극 2, 3극 4극\r\n패널설치치수 패널커버절단치수\r\nABL250c\r\n(단위 : mm)\r\nMCCB",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 124,
+      "text": "9-5\r\n단자부 상세도 접속도체 가공도\r\n2극 3극 4극\r\n2, 3극 4극 2, 3, 4극 3, 4극 3, 4극\r\n패널설치치수 패널커버절단치수\r\n<핸들/Test Button 노출>\r\nABN400c ABS400c ABH400c ABL400c\r\n(단위 : mm)\r\n외형치수\r\nMCCB\r\nM4 orØ5 M4 orØ5",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 125,
+      "text": "Metasol MCCB/ELCB\r\n100\r\n59\r\n100\r\n212(3극)\r\n282(4극)\r\n152\r\nA B C\r\n97\r\n111\r\n112\r\n패널커버 A\r\n패널커버 B\r\n패널커버 C\r\n243\r\n70\r\nM6\r\n70\r\n243\r\n70\r\n95\r\n109\r\n113\r\n145\r\nØ13.5\r\nØ8\r\n275\r\n70\r\n210\r\n70\r\n280\r\n96\r\n243\r\n150\r\n96\r\n243\r\n150\r\n275\r\n56\r\n53\r\n25\r\n70\r\n210\r\n280\r\n44\r\n29\r\n11\r\nM12×35 34.5\r\n44\r\n15.5\r\nØ14\r\n34.5\r\nt\r\n76\r\n15\r\n37\r\n8\r\n70 70\r\n76\r\n44\r\n76\r\n44\r\n70 70 70\r\n76\r\n53 53\r\n70 70\r\n56 56\r\n243\r\n150\r\n96 15\r\n37\r\n8\r\n15\r\n37\r\n8\r\n275 76 76\r\n25\r\n25\r\n트립\r\n테스트 버튼\r\n트립\r\n테스트 버튼\r\n트립\r\n테스트 버튼\r\nM6\r\n212(3극)\r\n282(4극)\r\n 9-6\r\n9\r\nABL630c\r\nABN800c ABS800c ABL800c\r\nABN630c ABS630c\r\n단자부 상세도 접속도체 가공도\r\n2극 3극 4극\r\n2, 3극 4극 2, 3, 4극 3, 4극 3, 4극\r\n패널설치치수 패널커버절단치수\r\nt= 630AF : 7\r\n800AF : 10\r\n<핸들노출> <핸들/Test Button 노출> <보조커버노출>\r\n(단위 : mm)\r\nMCCB\r\n100\r\n59\r\n100\r\n212(3극)\r\n282(4극)\r\n152\r\nA B C\r\n97\r\n111\r\n112\r\n패널커버 A\r\n패널커버 B\r\n패널커버 C\r\n243\r\n70\r\nM6\r\n70\r\n243\r\n70\r\n95\r\n109\r\n113\r\n145\r\nØ13.5\r\nØ8\r\n275\r\n70\r\n210\r\n70\r\n280\r\n96\r\n243\r\n150\r\n96\r\n243\r\n150\r\n275\r\n56\r\n53\r\n25\r\n70\r\n210\r\n280\r\n44\r\n29\r\n11\r\nM12×35 34.5\r\n44\r\n15.5\r\nØ14\r\n34.5\r\nt\r\n76\r\n15\r\n37\r\n8\r\n70 70\r\n76\r\n44\r\n76\r\n44\r\n70 70 70\r\n76\r\n53 53\r\n70 70\r\n56 56\r\n243\r\n150\r\n96 15\r\n37\r\n8\r\n15\r\n37\r\n8\r\n275 76 76\r\n25\r\n25\r\n트립\r\n테스트 버튼\r\n트립\r\n테스트 버튼\r\n트립\r\n테스트 버튼\r\nM6\r\n212(3극)\r\n282(4극)\r\n100\r\n59\r\n100\r\n212(3극)\r\n282(4극)\r\n152\r\nA B C\r\n97\r\n111\r\n112\r\n패널커버 A\r\n패널커버 B\r\n패널커버 C\r\n243\r\n70\r\nM6\r\n70\r\n243\r\n70\r\n95\r\n109\r\n113\r\n145\r\nØ13.5\r\nØ8\r\n275\r\n70\r\n210\r\n70\r\n280\r\n96\r\n243\r\n150\r\n96\r\n243\r\n150\r\n275\r\n56\r\n53\r\n25\r\n70\r\n210\r\n280\r\n44\r\n29\r\n11\r\nM12×35 34.5\r\n44\r\n15.5\r\nØ14\r\n34.5\r\nt\r\n76\r\n15\r\n37\r\n8\r\n70 70\r\n76\r\n44\r\n76\r\n44\r\n70 70 70\r\n76\r\n53 53\r\n70 70\r\n56 56\r\n243\r\n150\r\n96 15\r\n37\r\n8\r\n15\r\n37\r\n8\r\n275 76 76\r\n25\r\n25\r\n트립\r\n테스트 버튼\r\n트립\r\n테스트 버튼\r\n트립\r\n테스트 버튼\r\nM6\r\n212(3극)\r\n282(4극)\r\nA (핸들노출) B (테스트버튼 노출) C (보조커버 노출)\r\n111\r\n97\r\n243\r\n100\r\n59\r\n100\r\n212\r\n152\r\n70 212\r\n150\r\n96\r\n70 70\r\n15\r\n44\r\n56\r\n54.1\r\n16.5\r\n25\r\n275\r\n243\r\n90.8\r\n패널커버 B\r\n패널커버 C\r\n패널커버 A\r\n112\r\n7\r\n210\r\n70\r\nM6\r\n280\r\n34.5\r\nØ13.5\r\nØ\r\n84 8\r\n93.5\r\n95\r\n113\r\n145\r\n215\r\n109\r\n45\r\n83.5\r\n117.5\r\nØ14\r\n44\r\n44 34.5\r\n34.5\r\n16\r\nØ14\r\n15.5\r\nM12×L35\r\n누전 트립 표시창\r\n절연 배리어\r\n부착 홀\r\n누전 테스트 버튼\r\n트립 테스트 버튼\r\n감도전류 선택 스위치\r\n부동작시간 선택 스위치\r\n10\r\n280\r\n34.5\r\nØ13.5\r\nØ\r\n84 8\r\n93.5\r\n95\r\n113\r\n145\r\n215\r\n109",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 126,
+      "text": "9-7\r\nABL1000b\r\nABS1200b ABL1200b\r\nABS1000b\r\n3극 4극\r\n3극 4극 3극 4극\r\n패널설치치수 패널커버절단치수\r\n(단위 : mm)\r\n외형치수\r\nMCCB",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 127,
+      "text": "Metasol MCCB/ELCB\r\n 9-8\r\n9\r\nABS1203bE\r\n패널설치치수 패널커버절단치수\r\n3극\r\n3극 3극\r\n(단위 : mm)\r\nMCCB",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 128,
+      "text": "9-9\r\n단자부 상세도 접속도체 가공도\r\n (50A 이하)\r\n (60A 이상)\r\n (50A 이하) (60A 이상)\r\nEBN50c EBS30c\r\nEBN60c EBS50c\r\nEBN100c EBS60c\r\n4극\r\n4극 2극 3극 4극\r\n패널설치치수 패널커버절단치수\r\n(단위 : mm)\r\n외형치수\r\nELCB\r\n25\r\n75\r\n100\r\n누전 트립 표시창\r\n절연 베리어 절연 베리어\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n25\r\n75\r\n100\r\n누전 트립 표시창\r\n절연 베리어 절연 베리어\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n25\r\n75\r\n100\r\n누전 트립 표시창\r\n절연 베리어 절연 베리어\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n25\r\n75\r\n100\r\n누전 트립 표시창\r\n절연 베리어 절연 베리어\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 129,
+      "text": "Metasol MCCB/ELCB\r\n 9-10\r\n9\r\n단자부 상세도 접속도체 가공도\r\n3극 4극\r\nEBS125c EBH50c\r\nEBH125c\r\n3극 4극 3극 4극\r\n패널설치치수 패널커버절단치수\r\n(단위 : mm)\r\nELCB\r\n60\r\n90\r\n90\r\n120\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n부착 Hole 부착 Hole\r\n절연 배리어 절연 배리어\r\n60\r\n90\r\n90\r\n120\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n부착 Hole 부착 Hole\r\n절연 배리어 절연 배리어\r\n60\r\n90\r\n90\r\n120\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n부착 Hole 부착 Hole\r\n절연 배리어 절연 배리어\r\n60\r\n90\r\n90\r\n120\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n부착 Hole 부착 Hole\r\n절연 배리어 절연 배리어",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 130,
+      "text": "9-11\r\n단자부 상세도 접속도체 가공도\r\n패널설치치수 패널커버절단치수\r\n4극 4극\r\nEBN250c EBS250c EBH250c\r\n(단위 : mm)\r\n외형치수\r\nELCB\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n부착 Hole\r\n절연 배리어\r\n부착 Hole\r\n절연 배리어\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n*( ) 내용은 시연형 제품에 해당함 *( ) 내용은 시연형 제품에 해당함\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n(부동작시간 선택 스위치)\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n부착 Hole\r\n절연 배리어\r\n부착 Hole\r\n절연 배리어\r\n4극",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 131,
+      "text": "Metasol MCCB/ELCB\r\n 9-12\r\n9\r\n<핸들/Test Button 노출>\r\n감도전류 선택 스위치\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n패널커버 A\r\n패널커버 B\r\n패널커버 C\r\n누전 트립 표시창\r\n257\r\n225\r\n150\r\n140\r\n51\r\n96\r\n46.9\r\n16.5\r\n41.4\r\n57.9\r\n184\r\n44 44\r\n45\r\n8\r\n90\r\nØ7\r\nØ13\r\n84.3\r\n44\r\n30\r\n29\r\n215\r\n44 44\r\nM6 M6\r\n215\r\n100\r\n100\r\n152\r\n13\r\n37\r\n44 44\r\n56.5 56.5 157\r\n52.5\r\n부착 홀\r\n절연 배리어\r\n25\r\n26.5\r\n41.5\r\nØ12.5\r\n25\r\n98\r\n95\r\n109\r\n113\r\n145\r\n215\r\n부착 홀\r\n절연 배리어\r\n257\r\n225\r\n150\r\n96\r\n26.5\r\n41.5\r\nØ12.5\r\nØ10.5\r\n98\r\n감도전류 선택 스위치\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창 51\r\n46.9\r\n57.9\r\nM10×L30\r\n29.5\r\n12.5\r\n97 53 142(3극)\r\n187(4극)\r\n142(3극)\r\n187(4극) 111\r\n112\r\n단자부 상세도 접속도체 가공도\r\n패널설치치수 패널커버절단치수\r\n3극 4극\r\nEBN400c EBS400c EBH400c EBL400c\r\n2, 3극 4극 2, 3, 4극 3, 4극 3, 4극\r\n(단위 : mm)\r\nELCB (고속형)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 132,
+      "text": "9-13\r\nA(핸들노출) B(테스트버튼 노출) C(보조커버 노출)\r\n184\r\n44\r\n257\r\n225\r\n150\r\n96\r\n45\r\n8\r\n97\r\n111\r\n112\r\n90\r\nØ13\r\nØ7\r\n84.3\r\n46.9\r\n57.9\r\n44 44\r\n157\r\n52.5\r\n25 Ø12.5\r\n51\r\n26.5\r\n41.5\r\n98\r\n95\r\n109\r\n113\r\n145\r\n215\r\n257\r\n225\r\n150\r\n140\r\n51\r\n96\r\n46.9\r\n16.5\r\n41.4\r\n57.9\r\n44\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n부동작시간 선택 스위치\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n44\r\n56.5 56.5\r\n25\r\n26.5\r\n41.5\r\nØ12.5\r\n부착 Hole\r\n절연 배리어\r\n98\r\n누전 트립 표시창\r\n감도전류 선택 스위치\r\n부동작시간 선택 스위치\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n부착 Hole\r\n절연 배리어\r\n단자부 상세도 접속도체 가공도\r\n패널설치치수 패널커버절단치수\r\n3극 4극\r\nEBN400c EBS400c EBH400c EBL400c\r\n2, 3극 4극 2, 3, 4극 3, 4극 3, 4극\r\n(단위 : mm)\r\n외형치수\r\nELCB (시연형)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 133,
+      "text": "Metasol MCCB/ELCB\r\n 9-14\r\n9\r\nEBL630c\r\nEBS800c EBL800c\r\nEBS630c\r\nEBN800c\r\nEBN630c\r\n3 극\r\n(단위 : mm)\r\nELCB (고속형)\r\nA (핸들노출) B (핸들 & Test button 노출) C (보조커버 노출)\r\n패널커버 B\r\n패널커버 C\r\n패널커버 A\r\n150\r\n96\r\n56\r\n54.1\r\n16.5\r\n25\r\n275\r\n243\r\n90.8\r\n210\r\n70\r\n280\r\n34.5\r\nØ13.5\r\nØ8\r\nØ\r\n84 8\r\n93.5\r\n95\r\n113\r\n145\r\n215\r\n109\r\n117.5\r\n70 70\r\n15\r\n37\r\n8\r\n76\r\n44\r\n7\r\n280\r\n34.5\r\n84\r\n93.5\r\n95\r\n113\r\n145\r\n215\r\n109\r\n10 Ø14\r\nØ13.5\r\nØ14\r\n부착 홀\r\n절연 배리어\r\n감도전류 선택 스위치\r\n누전 테스트 버튼\r\n트립 데스트 버튼\r\n누전 트립 표시창\r\n44\r\n44\r\n15.5\r\n34.5\r\n16\r\n34.5\r\nM12×L35\r\n111\r\nM6\r\n243\r\n70 59 212 212 100 100 152\r\n97\r\n112\r\n패널설치치수 패널커버절단치수\r\n단자부 상세도 접속도체 가공도\r\n3극\r\n630AF 800AF",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 134,
+      "text": "9-15\r\nA (핸들노출) B (테스트버튼 노출) C (보조커버 노출)\r\n111\r\n97\r\n243\r\n100\r\n59\r\n100\r\n212\r\n152\r\n70 212\r\n150\r\n96\r\n70 70\r\n15\r\n44\r\n56\r\n54.1\r\n16.5\r\n25\r\n275\r\n243\r\n90.8\r\n패널커버 B\r\n패널커버 C\r\n패널커버 A\r\n112\r\n7\r\n210\r\n70\r\nM6\r\n280\r\n34.5\r\nØ13.5\r\nØ\r\n84 8\r\n93.5\r\n95\r\n113\r\n145\r\n215\r\n109\r\n45\r\n83.5\r\n117.5\r\nØ14\r\n44\r\n44 34.5\r\n34.5\r\n16\r\nØ14\r\n15.5\r\nM12×L35\r\n누전 트립 표시창\r\n절연 배리어\r\n부착 홀\r\n누전 테스트 버튼\r\n트립 테스트 버튼\r\n감도전류 선택 스위치\r\n부동작시간 선택 스위치\r\n10\r\n280\r\n34.5\r\nØ13.5\r\nØ\r\n84 8\r\n93.5\r\n95\r\n113\r\n145\r\n215\r\n109\r\n단자부 상세도 접속도체 가공도\r\n패널설치치수 패널커버절단치수\r\n3극\r\nEBL630c\r\nEBS800c EBL800c\r\nEBS630c\r\nEBN800c\r\nEBN630c\r\n3 극\r\n630AF 800AF\r\n(단위 : mm)\r\n외형치수\r\nELCB (시연형)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 135,
+      "text": "Metasol MCCB/ELCB\r\n 9-16\r\n9\r\nEBS1000b\r\nEBS1200b\r\n60\r\n60\r\n3극\r\n3극 3극\r\n패널설치치수 패널커버절단치수\r\n(단위 : mm)\r\nELCB",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 136,
+      "text": "9-17\r\n이면형 단자\r\nBar Type\r\nD\r\nEEE EE E\r\nB\r\nC\r\nA\r\nB\r\nC\r\nCL CL A\r\nØD\r\nE\r\nRound Type\r\nD\r\nEEE EE E\r\nB\r\nC\r\nA\r\nB\r\nC\r\nCL CL A\r\nØD\r\nE\r\n외형치수\r\n적용 차단기 A B C D E\r\nABN/EBN30c~100c 115 37 87 Ø8.5 25\r\nABH/EBH125c 135 37 87 Ø8.5 30\r\nABH/EBH250c 144 57.5 93.5 Ø8.5 35\r\n적용 차단기 A B C D E\r\nABN/EBN30c~50c 115 42 92 M6 25\r\nABN/EBN60c~100c 115 52 102 M8 25\r\nABH/EBH125c 135 52 102 M8 30\r\nABH/EBH250c 144 70 106 M8 35",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 137,
+      "text": "Metasol MCCB/ELCB\r\n 9-18\r\n9\r\n외부 조작핸들\r\n표면부착형 핸들 \r\n(D-handle, \r\n30~250AF)\r\n표면부착형 핸들 \r\n(N-handle, \r\n30~250AF)\r\n표면부착형 핸들 \r\n(N-handle, \r\n400~800AF)\r\n2-Ø6\r\nB\r\nB\r\nA\r\nt1.2~3.2\r\nD 4-Ø5\r\n104\r\nA\r\nB\r\nC\r\n℃\r\nt1.2~3.2\r\n60\r\nE\r\n2-Ø6\r\nB\r\nB\r\nA\r\nt1.2~3.2\r\nD 4-Ø5\r\n104\r\nA\r\nB\r\nC\r\n℃\r\nt1.2~3.2\r\n60\r\nE\r\n150\r\n51\r\nt1.2~3.2\r\n75 113\r\nN-70, N-80\r\nN-30c, 40c, 50c\r\n105\r\n52.5 52.5\r\nt1.2~3.2\r\nPanel\r\ndoor\r\n43\r\n105\r\n105\r\n52.5 52.5\r\nt1.2~3.2\r\nPanel\r\ndoor\r\n43\r\n105\r\nN-handle N-30c N-40c N-50c\r\n비고 100AF 125AF 250AF\r\nA (mm) 103 103 103\r\nD-handle A (mm) B (mm) C (mm) D (mm) E (mm) 비고\r\nDH100 110.5 78 90 92 103.4 100AF\r\nDH125 132 94 105 108 120 125AF\r\nDH250 126 108 121 110 122 250AF",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 138,
+      "text": "9-19\r\n외부 조작핸들\r\n확장형 핸들 \r\n(E-handle) \r\n(30~250AF)\r\n확장형 핸들 \r\n(E-handle, \r\n400~800AF)\r\n2-Ø6\r\nB\r\nB\r\nA\r\nt1.2~3.2\r\nD 4-Ø5\r\n104\r\nA\r\nB\r\nC\r\n℃\r\nt1.2~3.2\r\n60\r\nE\r\nE-70U (400AF)\r\nE-80U (600/800AF)\r\n외형치수\r\nE-handle A (mm) B (mm) C (mm) 비고\r\nEH100 min 150, max 573.5 (Shaft469mm) 47 Ø53 100AF\r\nEH125 min 150, max 573.5 (Shaft469mm) 47 Ø53 125AF\r\nEH250 min 150, max 571.5 (Shaft469mm) 47 Ø53 250AF",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 139,
+      "text": "Metasol MCCB/ELCB\r\n 9-20\r\nPlug-in MCCB (ABN100c)\r\nNormal type (PB-A3-FR)\r\nDetail for conductor Mounting dimensions\r\nDetail for connection\r\n(단위 : mm)\r\n9",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 140,
+      "text": "9-21\r\nSingle-row type (PB-A3-1DB)\r\nMounting dimensions\r\n(단위 : mm)\r\n외형치수\r\nPlug-in MCCB (ABN100c)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 141,
+      "text": "Metasol MCCB/ELCB\r\n 9-22\r\nDouble-row type (PB-A3-2DB)\r\nMounting dimensions\r\n(단위 : mm)\r\n9\r\nPlug-in MCCB (ABN100c)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 142,
+      "text": "9-23\r\nLine-only type (PB-A3-FRL)\r\nMounting dimensions\r\n(단위 : mm)\r\n외형치수\r\nPlug-in MCCB (ABN100c)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 143,
+      "text": "Metasol MCCB/ELCB\r\n 9-24\r\nNormal type (PB-C3-FR)\r\nDetailed conductor Mounting dimensions\r\nDetailed connection\r\n(단위 : mm)\r\n9\r\nPlug-in MCCB (ABH125c)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 144,
+      "text": "9-25\r\nSingle-row type (PB-C3-1DB)\r\nMounting dimensions\r\n(단위 : mm)\r\n외형치수\r\nPlug-in MCCB (ABH125c)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 145,
+      "text": "Metasol MCCB/ELCB\r\n 9-26\r\nDouble-row type (PB-C3-2DB)\r\nMounting dimensions\r\n(단위 : mm)\r\n9\r\nPlug-in MCCB (ABH125c)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 146,
+      "text": "9-27\r\nLine-only type (PB-C3-FRL)\r\nMounting dimensions\r\n(단위 : mm)\r\n외형치수\r\nPlug-in MCCB (ABH125c)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 147,
+      "text": "Metasol MCCB�ELCB\r\n 9-28\r\nNormal type (PB-D3-FR/FRL)\r\nMounting dimensions\r\nDetail for connection\r\nPB-D3-FRL\r\n(단위 : mm)\r\n9\r\nPlug-in MCCB (ABH250c, 400AF)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 148,
+      "text": "9-29\r\nNormal type (PB-I3-FR/FRL)\r\nMounting dimensions\r\nDetail for connection\r\nPB-I3-FRL\r\n(단위 : mm)\r\n외형치수\r\nPlug-in MCCB (400AF)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 149,
+      "text": "Metasol MCCB/ELCB\r\n 9-30\r\nNormal type (PB-J3-FR)\r\nLOAD\r\nLINE\r\nMounting angle\r\nM10 mounting screw\r\nAuxiliary circuit terminals PBA-225L\r\n95\r\n110\r\n113\r\n145\r\n64 45\r\n90\r\n70 70\r\n210\r\n143\r\n149.5\r\n243\r\n303\r\n16 21\r\n65 60\r\nM16 screw\r\nConductor\r\n(Width 40mm max.)\r\n143\r\n25 25\r\n11\r\n90\r\nDetail for connection\r\nMounting dimensions\r\n(단위 : mm)\r\n9\r\nPlug-in MCCB (800AF)",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 150,
+      "text": "9-31\r\nA1 A2 A3 B1 B2 B3 B4 C1 C2\r\nMOP-M1 110.5 102 51 75 37.5 100 37.5 128 60\r\nMOP-M2 132 116 58 90 45 120 45 122 60\r\nMOP-M3 126 116 55 105 52.5 140 52.5 125 60\r\nMOP-M4 215 176 88 140 70 184 70 198 109\r\nMOP-M5 243 176 88 210 105 280 105 198 109\r\nMOP-M6 322.5 176 65.5 220 110 289 110 210 105 11.4 A2 A3\r\nC1\r\nC2 B4\r\nB3\r\nA1\r\nB2\r\nB1\r\n 개폐장치\r\n외형치수",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 151,
+      "text": "Metasol MCCB/ELCB\r\n 10-1\r\n10\r\n기종별 표준 부속품\r\n외부조작핸들 형식 및 부착나사\r\nMetasol 시리즈 차단기 설치를 위해 필요한 아래의 표준 부속품은 차단기와 함께 포장 되어 공급됩니다. \r\n* 이외의 부속장치에 대해서는 당사제공 Metasol 차단기 카탈로그를 참조하세요.\r\n기술자료\r\n구분 100AF 125AF 250AF 400AF 630/800AF\r\n고정용 볼트\r\n2극 : 2개 (M4×60)\r\n3극 : 2개 (M4×60)\r\n4극 : 4개 (M4×60)\r\n2극 : 2개 (M4×60)\r\n3극 : 2개 (M4×60)\r\n4극 : 4개 (M4×60)\r\n2극 : 2개 (M4×55)\r\n3극 : 2개 (M4×55)\r\n4극 : 4개 (M4×55)\r\n2극 : 4개 (M6×100)\r\n3극 : 4개 (M6×100)\r\n4극 : 4개 (M6×100)\r\n2극 : 4개 (M6×100)\r\n3극 : 4개 (M6×100)\r\n4극 : 4개 (M6×100)\r\n단자용볼트\r\n3~50A\r\n2극 : 4개 (M5×14)\r\n3극 : 6개 (M5×14)\r\n4극 : 8개 (M5×14)\r\n60~100A\r\n2극 : 4개 (M8×14)\r\n3극: 6개 (M8×14)\r\n4극 : 8개 (M8×14)\r\n2극 : 4개 (M8×14)\r\n3극 : 6개 (M8×14)\r\n4극 : 8개 (M8×14)\r\n2극 : 4개 (M8×20)\r\n3극 : 6개 (M8×20)\r\n4극 : 8개 (M8×20)\r\n2극 : 4개 (M10×30)\r\n3극 : 6개 (M10×30)\r\n4극 : 8개 (M10×30)\r\n2극 : 4개 (M12×35)\r\n3극 : 6개 (M12×35)\r\n4극 : 8개 (M12×35)\r\n절연베리어\r\n2극 : 1개\r\n3극 : 2개\r\n4극 : 3개\r\n2극 : 1개\r\n3극 : 2개\r\n4극 : 3개\r\n2극 : 1개\r\n3극 : 2개\r\n4극 : 3개\r\n2극 : 1개\r\n3극 : 2개\r\n4극 : 3개\r\n2극 : 1개\r\n3극 : 2개\r\n4극 : 3개\r\nIB-23 IB-13 IB-23 IB-13 IB-23 IB-13\r\n핸들형식 N-30c N-40c N-50c N-70 N-80\r\n적용 MCCB\r\nABN 50c/60c/100c\r\nABS 30c/50c/60c\r\nABN103d/103e \r\nABS 125c \r\nABH 50c\r\nABH 125c\r\nABL 125c\r\nABN 250c\r\nABS 250c\r\nABH 250c\r\nABL 250c\r\nABN 400c \r\nABS 400c \r\nABH 400c\r\nABL 400c\r\nABN 630c/800c\r\nABS 630c/800c\r\nABL 630c/800c\r\n적용 ELCB EBN 50c/60c/100c\r\nEBS 30c/50c/60c\r\nEBS 125c \r\nEBH 50c\r\nEBH 125c\r\nEBN 250c\r\nEBS 250c\r\nEBH 250c\r\nEBN 400c\r\nEBS 400c\r\nEBH 400c\r\nEBL 400c\r\nEBN 630c/800c\r\nEBS 630c/800c\r\nEBL 630c/800c\r\n고정용 나사 - - - M6×16 M6×16\r\n부착 나사 M4×85 M4×85 M4×85 M6×110 M6×110\r\n핸들형식 DH/EH100 DH/EH125 DH/EH250\r\n부착 나사 M4×70 M4×70 M4×70",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 152,
+      "text": "Frame\r\nSize\r\n단자 (Terminal)\r\nmm\r\n체결토크\r\n (kgf·cm)\r\n도체 (Conductor)\r\nmm\r\n100AF\r\n[3~50A] M5 : 23 ~ 28\r\nM8 : 55 ~ 75\r\n[3~50A] \r\n[60~100A] [60~100A]\r\n125AF\r\nM8 : 55 ~ 75\r\n250AF\r\nM8 : 80 ~ 130\r\n10-2\r\n기종별 단자체결 방법\r\n11.5 7\r\nØ 5.5\r\n16 16\r\n7\r\nØ 9 Ø 9\r\n7\r\n18 18\r\n8\r\nØ 9 Ø 9\r\n8\r\n25 25\r\n10\r\nØ 9 Ø 9\r\n10\r\n18\r\n18\r\n18\r\n287.5 7.5\r\n10\r\n21\r\n8.2 8.2 8 M5× 14\r\nM8× 14\r\nM8× 14\r\nM8× 20\r\n24\r\n24\r\n24\r\n24\r\n11.5 7\r\nØ 5.5\r\n11.5 7\r\nØ 5.5\r\n16 16\r\n7\r\nØ 9 Ø 9\r\n7\r\n18 18\r\n8\r\nØ 9 Ø 9\r\n8\r\n25 25\r\n10\r\nØ 9 Ø 9\r\n10\r\n18\r\n18\r\n18\r\n287.5 7.5\r\n10\r\n21\r\n8.2 8.2 8 M5× 14\r\nM8× 14\r\nM8× 14\r\nM8× 20\r\n24\r\n24\r\n24\r\n24\r\n11.5 7\r\nØ 5.5\r\n11.5 7\r\nØ 5.5\r\n16 16\r\n7\r\nØ 9 Ø 9\r\n7\r\n18 18\r\n8\r\nØ 9 Ø 9\r\n8\r\n25 25\r\n10\r\nØ 9 Ø 9\r\n10\r\n18\r\n18\r\n18\r\n287.5 7.5\r\n10\r\n21\r\n8.2 8.2 8 M5× 14\r\nM8× 14\r\nM8× 14\r\nM8× 20\r\n24\r\n24\r\n24\r\n24\r\n11.5 7\r\nØ 5.5\r\n11.5 7\r\nØ 5.5\r\n16 16\r\n7\r\nØ 9 Ø 9\r\n7\r\n18 18\r\n8\r\nØ 9 Ø 9\r\n8\r\n25 25\r\n10\r\nØ 9 Ø 9\r\n10\r\n18\r\n18\r\n18\r\n287.5 7.5\r\n10\r\n21\r\n8.2 8.2 8 M5× 14\r\nM8× 14\r\nM8× 14\r\nM8× 20\r\n24\r\n24\r\n24\r\n24\r\n11.5 7\r\nØ 5.5\r\n11.5 7\r\nØ 5.5\r\n16 16\r\n7\r\nØ 9 Ø 9\r\n7\r\n18 18\r\n8\r\nØ 9 Ø 9\r\n8\r\n25 25\r\n10\r\nØ 9 Ø 9\r\n10\r\n18\r\n18\r\n18\r\n287.5 7.5\r\n10\r\n21\r\n8.2 8.2 8 M5× 14\r\nM8× 14\r\nM8× 14\r\nM8× 20\r\n24\r\n24\r\n24\r\n24\r\n11.5 7\r\nØ 5.5\r\n11.5 7\r\nØ 5.5\r\n16 16\r\n7\r\nØ 9 Ø 9\r\n7\r\n18 18\r\n8\r\nØ 9 Ø 9\r\n8\r\n25 25\r\n10\r\nØ 9 Ø 9\r\n10\r\n18\r\n18\r\n18\r\n287.5 7.5\r\n10\r\n21\r\n8.2 8.2 8 M5× 14\r\nM8× 14\r\nM8× 14\r\nM8× 20\r\n24\r\n24\r\n24\r\n24\r\n11.5 7\r\nØ 5.5\r\n11.5 7\r\nØ 5.5\r\n16 16\r\n7\r\nØ 9 Ø 9\r\n7\r\n18 18\r\n8\r\nØ 9 Ø 9\r\n8\r\n25 25\r\n10\r\nØ 9 Ø 9\r\n10\r\n18\r\n18\r\n18\r\n287.5 7.5\r\n10\r\n21\r\n8.2 8.2 8 M5× 14\r\nM8× 14\r\nM8× 14\r\nM8× 20\r\n24\r\n24\r\n24\r\n24\r\n11.5 7\r\nØ 5.5\r\n11.5 7\r\nØ 5.5\r\n16 16\r\n7\r\nØ 9 Ø 9\r\n7\r\n18 18\r\n8\r\nØ 9 Ø 9\r\n8\r\n25 25\r\n10\r\nØ 9 Ø 9\r\n10\r\n18\r\n18\r\n18\r\n287.5 7.5\r\n10\r\n21\r\n8.2 8.2 8 M5× 14\r\nM8× 14\r\nM8× 14\r\nM8× 20\r\n24\r\n24\r\n24\r\n24\r\n11.5 7\r\nØ 5.5\r\n기술자료",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 153,
+      "text": "Metasol MCCB/ELCB\r\n 10-3\r\n10\r\n기종별 단자체결 방법\r\n보조커버(Aux cover) 나사 체결방법\r\nFrame\r\nSize\r\n체결토크\r\n (kgf·cm) 나사 위치\r\n30AF\r\n50AF\r\n60AF\r\n100AF\r\n125AF\r\n250AF\r\n15\r\n400AF\r\n630AF\r\n800AF\r\n21\r\nFrame\r\nSize\r\n단자 (Terminal)\r\nmm\r\n체결토크\r\n (kgf·cm)\r\n도체 (Conductor)\r\nmm\r\n400AF\r\nM10 : 240~300 (단자부)\r\nM12 : 400~500 (부스바)\r\n630AF\r\n800AF\r\nM12 : 400~500 \r\n (단자부, 부스바)\r\n44\r\n15.5\r\nØ14\r\n44 34.5\r\n16\r\n34.5\r\nM12X35\r\n44\r\n29.5\r\n11\r\nM12X35",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 154,
+      "text": "10-4\r\n절연 거리\r\n안전을 위해 반드시 절연 거리를 확보하여 설치해야 합니다.\r\n차단기를 설치할 경우 차단기간 또는 차단기와 패널, 부스바 및 기타 인접한 장치간에 안전을 위한 거리를 확보할 필요가 \r\n있습니다. 이러한 절연거리는 차단기의 차단 용량에 따라 달라지는데 이런 사항은 IEC60947-2의 규격에 정해져 있고 \r\n시험을 통해 확인 됩니다. 단락전류가 발생하여 차단기가 동작하게 되면 고온의 이온화된 가스가 발생하며 가스는 \r\n차단기의 전원측에 설치된 방출구로 배출됩니다. 이 가스에 의해 단락이나 지락 사고가 발생할 수 있으므로 차단기와 \r\n패널간에 충분한 절연거리가 필요합니다.\r\n철재패널인 경우 (천정판까지 절연거리)\r\nA\r\nF\r\nA\r\nA\r\nFrame\r\nSize Description A (mm)\r\n460V 250V\r\n100AF\r\nABN50c 40 25\r\nABN60c 40 25\r\nABN100c 50 30\r\nABN100d 50 30\r\nABN100e 50 30\r\nABS30c 30 25\r\nABS50c 40 30\r\nABS60c 40 30\r\n125AF\r\nABS125c 50 40\r\nABH50c 50 40\r\nABH125c 100 80\r\nABL125c 100 80\r\n250AF\r\nABN250c 100 80\r\nABS250c 100 80\r\nABH250c 100 80\r\nABL250c 100 80\r\n400AF\r\nABN400c 100 80\r\nABS400c 100 80\r\nABH400c 100 80\r\nABL400c 100 80\r\n630AF\r\nABN630c 120 80\r\nABS630c 120 80\r\nABL630c 120 80\r\n800AF\r\nABN800c 120 80\r\nABS800c 120 80\r\nABL800c 120 80\r\n기술자료",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 155,
+      "text": "Metasol MCCB/ELCB\r\n 10-5\r\n10\r\n차단기 위쪽에 다른 차단기가 있는 경우\r\n• C1 : 위측 차단기 충전부까지 최단거리\r\n• C : C1+ 충전부위 노출 길이\r\nC1\r\nC1\r\nC\r\nC\r\nC1\r\nC\r\nC1\r\nC1\r\nC\r\nC\r\nC1\r\nC\r\nC1\r\nC1\r\nC\r\nC\r\nC1\r\nC\r\n전선을 \r\n직접\r\n접속한 경우\r\n압착단자를\r\n사용하여 전선을\r\n접속한 경우\r\n차단기의 부스바\r\n단자에 압착단자로 \r\n전선을 접속한 경우\r\n절연 거리\r\nFrame\r\nSize Description C1 (mm) C (mm) 460V 250V\r\n100AF\r\nABN50c 40 25\r\n충\r\n전\r\n부\r\n위\r\n노\r\n출\r\n길\r\n이\r\n+\r\nC1\r\nABN60c 40 25\r\nABN100c 50 30\r\nABN100d 50 30\r\nABN100e 50 30\r\nABS30c 30 25\r\nABS50c 40 30\r\nABS60c 40 30\r\n125AF\r\nABS125c 50 40\r\nABH50c 50 40\r\nABH125c 100 80\r\nABL125c 100 80\r\n250AF\r\nABN250c 100 80\r\nABS250c 100 80\r\nABH250c 100 80\r\nABL250c 100 80\r\n400AF\r\nABN400c 100 80\r\nABS400c 100 80\r\nABH400c 100 80\r\nABL400c 100 80\r\n630AF\r\nABN630c 100 80\r\nABS630c 100 80\r\nABL630c 100 80\r\n800AF\r\nABN800c 100 80\r\nABS800c 100 80\r\nABL800c 100 80",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 156,
+      "text": "10-6\r\n차단기 주단자의 절연길이\r\n• D1 : 테이프로 감고 압착단자로 연결한 경우\r\n• D2 : 테이프로 감고 부스바로 연결한 경우\r\n• D3 : 절연베리어를 부착하고 압착단자로 연결한 경우\r\n• D4 : 절연베리어를 부착하고 부스바로 연결한 경우\r\nD1\r\nD3\r\nD2\r\nD4\r\n절연 거리\r\nFrame\r\nSize Description D1\r\n (mm)\r\nD2\r\n (mm)\r\nD3\r\n (mm)\r\nD4\r\n (mm)\r\n100AF\r\nABN50c\r\n충\r\n전\r\n부\r\n위\r\n노\r\n출\r\n길\r\n이\r\n+\r\n20\r\n40\r\n충\r\n전\r\n부\r\n위\r\n노\r\n출\r\n길\r\n이\r\n+\r\n20\r\n40\r\nABN60c 40 40\r\nABN100c 50 50\r\nABN100d 50 50\r\nABN100e 50 50\r\nABS30c 30 30\r\nABS50c 40 40\r\nABS60c 40 40\r\n125AF\r\nABS125c 50 50\r\nABH50c 50 50\r\nABH125c 50 50\r\nABL125c 50 50\r\n250AF\r\nABN250c 50 50\r\nABS250c 50 50\r\nABH250c 50 50\r\nABL250c 50 50\r\n400AF\r\nABN400c 100 100\r\nABS400c 100 100\r\nABH400c 100 100\r\nABL400c 100 100\r\n630AF\r\nABN630c 150 150\r\nABS630c 150 150\r\nABL630c 150 150\r\n800AF\r\nABN800c 150 150\r\nABS800c 150 150\r\nABL800c 150 150\r\n기술자료",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 157,
+      "text": "Metasol MCCB/ELCB\r\n 10-7\r\n10\r\n철재패널인 경우 (측면판까지 절연 거리)\r\nE E\r\n절연 거리\r\nFrame\r\nSize Description E (mm)\r\n460V 250V\r\n100AF\r\nABN50c 25 15\r\nABN60c 25 15\r\nABN100c 25 15\r\nABN100d 25 15\r\nABN100e 25 15\r\nABS30c 20 15\r\nABS50c 25 15\r\nABS60c 25 15\r\n125AF\r\nABS125c 25 15\r\nABH50c 25 15\r\nABH125c 50 20\r\nABL125c 50 20\r\n250AF\r\nABN250c 50 15\r\nABS250c 50 15\r\nABH250c 50 15\r\nABL250c 50 15\r\n400AF\r\nABN400c 80 40\r\nABS400c 80 40\r\nABH400c 80 40\r\nABL400c 80 40\r\n630AF\r\nABN630c 80 40\r\nABS630c 80 40\r\nABL630c 80 40\r\n800AF\r\nABN800c 80 40\r\nABS800c 80 40\r\nABL800c 80 40",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 158,
+      "text": "10-8\r\n전선 노출 길이\r\nF\r\n절연 거리\r\nFrame\r\nSize Description F (mm)\r\n100AF\r\nABN50c 10\r\nABN60c 10\r\nABN100c - \r\nABN100d -\r\nABN100e -\r\nABS30c 5\r\nABS50c 10\r\nABS60c 10\r\n125AF\r\nABS125c -\r\nABH50c 10\r\nABH125c 20\r\nABL125c\r\n250AF\r\nABN250c -\r\nABS250c -\r\nABH250c -\r\nABL250c\r\n400AF\r\nABN400c 10\r\nABS400c 10\r\nABH400c 10\r\nABL400c 10\r\n630AF\r\nABN630c 10\r\nABS630c 10\r\nABL630c 10\r\n800AF\r\nABN800c 10\r\nABS800c 10\r\nABL800c 10\r\n기술자료",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 159,
+      "text": "Metasol MCCB/ELCB\r\n 10-9\r\n10\r\n차단기가 나란히 옆으로 설치된 경우 이격거리 (단자커버를 사용한 경우)\r\nG\r\n절연 거리\r\nFrame\r\nSize Description G (mm)\r\n100AF\r\nABN50c 0\r\nABN60c 0\r\nABN100c 0 \r\nABN100d 0\r\nABN100e 0\r\nABS30c 0\r\nABS50c 0\r\nABS60c 0\r\n125AF\r\nABS125c 0\r\nABH50c 0\r\nABH125c 0\r\nABL125c 0\r\n250AF\r\nABN250c 0\r\nABS250c 0\r\nABH250c 0\r\nABL250c 0\r\n400AF\r\nABN400c 0\r\nABS400c 0\r\nABH400c 0\r\nABL400c 0\r\n630AF\r\nABN630c 0\r\nABS630c 0\r\nABL630c 0\r\n800AF\r\nABN800c 0\r\nABS800c 0\r\nABL800c 0",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 160,
+      "text": "10-10\r\n절연저항 측정 및 내전압 시험 (누전차단기의 경우)\r\n절연저항 측정\r\n표1에서 △표시의 절연저항은 500V 절연저항계로 측정하면 파괴되지 않지만 1000V를 인가하면 파괴됩니다.\r\n절연저항계의 지침이 심하게 흔들리는 경우가 있으며, 누전차단기가 Off 상태일때 측정하십시오.\r\n내전압 시험\r\n절연 저항 및 내전압 측정시험에서 × 표시된 곳은 전압인가를 하지 마십시오.\r\n표1. 절연 저항 및 내전압 측정시험\r\n절연저항 측정 내전압 시험\r\nHandle 상태 On Off On Off\r\n충전부 - 대지간 ○ ○ ○ ○\r\nR상-S상, S상-T상, R-T상간 전원측 △ △ × ○\r\n부하측 △ △ × ×\r\n전원-부하 단자간 - ○ - ○\r\n적용차단기 적용차단기\r\n기술자료",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 161,
+      "text": "Metasol MCCB/ELCB\r\n 10-11\r\n10\r\n규격 인증 및 승인\r\nMetasol 시리즈 배선용 차단기와 누전 차단기는 다음의 국제 규격에 따릅니다.\r\n• IEC 60947-1\r\n Low-voltage Switchgear and Controlgear - Part 1: General Rules\r\n• IEC 60947-2\r\n Low-voltage Zwitchgear and Controlgear - Part 2: Circuit-breakers\r\nMetasol 차단기는 다음의 인증서들을 취득하였으며 요청에 따라 적합한 경우 \r\n인증서를 제공할 수 있습니다.\r\n• CB 인증서 (KEMA - IEC 60947)\r\n• Test report (KEMA)\r\nCE 승인 마크\r\nCE 승인 마크는 CE 마크의 첨부를 위한 유럽공동체의 지령에 따라 제조자로서 제품에 있어서의\r\n모든 의무에 합일하였다는 것을 나타냅니다.\r\nCE 마크가 제품에 붙여질 때, 제품이 제품 평가 과정을 포함하는 모든 적절한 준비들에 따르는 제조업자\r\n또는 그 공인된 대표자의 의사표시를 나타냅니다.",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 162,
+      "text": "10-12\r\n표준 사용 환경\r\n배선용 차단기는 주위환경의 조건의 차이에 따라 동작특성 (단락 및 과부하), 내구성능, 절연 성능에 큰 영향을 주는 경우도\r\n있으므로 사용장소의 조건을 명확히 하여 적용해야 합니다. 특히 열동 전자식 트립장치 (FTU, FMU, ATU)가 적용된\r\n차단기의 경우 주위온도에 따라 약간의 동작 특성이 변화하므로 실제 사용시 이에 따른 정격전류 값을 보정해 주어야\r\n합니다.\r\n1) 주위온도 : -5℃~+40℃의 범위 내 (단, 24시간의 평균치는 35℃를 초과하지 않을 것.)\r\n2) 상대습도 : 45~85%의 범위 내\r\n3) 표고 : 2000m 이하 (단, 1000m를 넘을 때는 습도시험 및 내전압 시험을 하여 기압 보정을 고려할 수 있음.)\r\n4) 과도한 수증기, 기름증기, 연기, 먼지, 염분, 부식성 물질, 전도성 이물질, 철분 등이 존재하지 않는 분위기\r\n■ 표준 차단기가 40℃를 초과하는 고온상태에서 사용될 경우\r\n카탈로그의 주위 온도별 보정된 전류에 따라 사용 하십시오.\r\n■ 다습조건에서 사용하면 절연내력이나 전기적 성능이 떨어질\r\n우려가 있습니다.\r\n■ -20℃에서도 통전개폐, Trip, 단락차단에는 지장이 없습니다.\r\n■\u0007-40℃한냉지통과, 또는 보관에는 지장이 없습니다.\r\n■ 열동전자식 트립 장치를 사용하는 경우 기준 주위 온도가\r\n40℃로 조정되어 있기 때문에 동작특성이 변화합니다.\r\n■ 먼지나 습기가 많은 곳에 둘 경우 먼지덮개나 습기 방지제를\r\n적극 권장합니다.\r\n■ 지나친 진동은 기계적 부품에 연결이나 손상 등의 트립 차단을\r\n유발할 수 있습니다.\r\n■\u0007장기간 On 또는 Off로 방치하는 경우에는 정기적으로\r\n부하전류를 개폐하는 것이 좋습니다.\r\n■ 부식성 Gas가 많은 경우에는 밀폐된 보호구조에 넣을 필요가\r\n있습니다.\r\n기술자료\r\nMetasol 배선용 \r\n차단기의 표준 \r\n사용 환경",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 163,
+      "text": "Metasol MCCB/ELCB\r\n 10-13\r\n10\r\n특수 사용 환경\r\n배선용 차단기 각 부의 온도는 통전에 의한 온도 상승분과 주위온도와의 합이기 때문에 주위온도가 40℃를 초과 하는 \r\n경우에는 MCCB의 내부 절연물 등의 온도가 그 허용온도를 넘지 않도록 통과전류를 저감 시킬 필요가 있습니다.\r\nMetasol 차단기는 기준 주위 온도가 40℃로 되어 있어 이보다 높은 온도에서 사용 시 정격전류 변동표와 같이 \r\n정격전류를 약간 낮춰서 적용시켜야 합니다.\r\nMetasol MCCB 사용주위 온도별 정격전류 보정표\r\nAmpere\r\nFrame\r\n정격\r\n전류 차단기 형명 정격\r\n전류\r\n사용주위온도별 정격전류 보정표 (A)\r\n10℃ 20℃ 30℃ 40℃ 45℃ 50℃ 55℃\r\n30\r\n3\r\nABS30c\r\n3 3 3 3 3 3 3 3\r\n5 5 5 5 5 5 5 5 4\r\n10 10 10 10 10 10 10 9 9\r\n15 15 15 15 15 15 15 14 13\r\n20 20 20 20 20 20 19 19 18\r\n30 30 30 30 30 30 29 28 27\r\n50\r\n40\r\nABN50c, ABS50c\r\n40 40 40 40 40 39 38 36\r\n50 50 50 50 50 50 49 47 45\r\n60 60 ABN60c, ABS60c 60 60 60 60 60 58 56 55\r\n100\r\n75 ABN100c,\r\nABN100d, ABN100e\r\n75 75 75 75 75 73 71 68\r\n100 100 100 100 100 100 97 94 91\r\n125 125 ABH50c, ABS125c, \r\nABH125c, ABL125c\r\n125 125 125 125 125 121 116 107\r\n250\r\n150\r\nABN250c, ABS250c,\r\nABH250c, ABL250c\r\n150 150 150 150 150 145 140 128\r\n175 175 175 175 175 175 169 163 150\r\n200 200 200 200 200 200 193 186 171\r\n225 225 225 225 225 225 217 209 193\r\n250 250 250 250 250 250 241 233 214\r\n400\r\n250\r\nABN400c, ABS400c\r\nABH400c, ABL400c\r\n250 250 250 250 250 246 242 238\r\n300 300 300 300 300 300 295 291 287\r\n350 350 350 350 350 350 345 339 332\r\n400 400 400 400 400 400 394 388 381\r\n630\r\n500\r\nABN630c, ABS630c\r\nABL630c\r\n500 500 500 500 500 492 485 477\r\n600 600 600 600 600 600 590 582 572\r\n630 630 630 630 630 630 621 611 602\r\n800\r\n700 ABN800c, ABS800c\r\nABL800c\r\n700 700 700 700 700 689 679 668\r\n800 800 800 800 800 800 788 776 764\r\n주위온도가 40℃를 \r\n초과하는 경우",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 164,
+      "text": "10-14\r\n특수 사용 환경\r\nMetasol ELCB 사용주위 온도별 정격전류 보정표\r\nAmpere\r\nFrame\r\n정격\r\n전류 차단기 형명 정격\r\n전류\r\n사용주위온도별 정격전류 보정표 (A)\r\n10℃ 20℃ 30℃ 40℃ 45℃ 50℃ 55℃\r\n30\r\n15\r\nEBS30c\r\n15 15 15 15 15 15 15 15\r\n20 20 20 20 20 20 19 19 18\r\n30 30 30 30 30 30 29 28 27\r\n50\r\n40\r\nEBN50c, EBS50c\r\n40 40 40 40 40 39 38 36\r\n50 50 50 50 50 50 49 47 45\r\n60 60 EBN60c, EBS60c 60 60 60 60 60 58 56 55\r\n100\r\n75\r\nEBN100c\r\n75 75 75 75 75 73 71 68\r\n100 100 100 100 100 100 97 94 91\r\n125 125 EBH50c, EBS125c, EBH125c 125 125 125 125 125 121 116 107\r\n250\r\n150\r\nEBN250c, EBS250c,\r\nEBH250c\r\n150 150 150 150 150 145 140 128\r\n175 175 175 175 175 175 169 163 150\r\n200 200 200 200 200 200 193 186 171\r\n225 225 225 225 225 225 217 209 193\r\n250 250 250 250 250 250 241 233 214\r\n400\r\n250\r\nEBN400c, EBS400c,\r\nEBH400c, EBL400c\r\n250 250 250 250 246 242 238 238\r\n300 300 300 300 300 295 291 287 287\r\n350 350 350 350 350 345 339 332 332\r\n400 400 400 400 400 394 388 381 381\r\n630\r\n500 EBN630c, EBS630c\r\nEBL630c\r\n500 500 500 500 492 485 477 477\r\n630 630 630 630 630 621 611 602 602\r\n800\r\n700 EBN800c, EBS800c\r\nEBL800c\r\n700 700 700 700 689 679 668 668\r\n800 800 800 800 800 788 776 764 764\r\n기술자료",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 165,
+      "text": "Metasol MCCB/ELCB\r\n 10-15\r\n10\r\n특수 사용 환경\r\n배선용 차단기 내부의 금속부와 절연물의 저온 취성의 영향, 또는 기구부의 윤활유의 점도 변화 등을 무시할 수 없기 \r\n때문에 Space Heater등에 의해 극단적으로 온도가 내려가지 않도록 배려할 필요가 있습니다. 또 열동식 트립장치 (FTU, \r\nFMU, ATU)의 경우에는 동작이 어려운 쪽으로 특성이 변화하므로 보호의 관계를 확인하여 보정해 줄 필요가 있습니다.\r\nMCCB는 -20℃에서 통전개폐, 트립, 단락차단에 특히 지장은 없으나, 저온에 영향을 되도록 피하기 위해, Space \r\nHeater등을 시설하는 것이 바람직합니다. 또한 한냉지 수송, 통과 등의 경우 일반적으로 -40℃까지는 특별히 이상이 \r\n없으나, 저온에 의한 취성의 영향을 최소화하기 위해 MCCB를 Off 또는 Trip상태로 놓는 것이 필요합니다.\r\n과도하게 습도가 높은 장소에서의 배선용 차단기의 사용은 절연물의 절연저하 및 기구 부속 부품의 부식에 의한 \r\n문제점을 방지하기 위해 방습 구조물 내에 설치하던가 보수점검을 충분히 행할 필요가 있습니다. 또, 밀폐 기구물 내에 \r\nMCCB를 설치한 경우, 설비의 운전, 정지에 의해 배전반 및 분전반내 온도가 급격히 변화하여 결로 현상이 발생할 수 \r\n있기 때문에 내부에 Space Heater를 설치할 필요가 있습니다.\r\n배선용 차단기의 접점 재료는 은 또는 은합금을 사용하고 있어, 이것이 유화 Gas에 접촉하면 접촉면에 유화피막이 \r\n형성되어, 접점부의 접촉불량을 일으킬 가능성이 있습니다. 그러나 유화피막은 기계적으로 벗겨지기 쉬운 성질이 있기 \r\n때문에 개폐가 많은 경우에는 특히 문제가 되지 않지만, 개폐가 적은 경우에는 정기적으로 개폐를 행할 필요가 \r\n있습니다. 유화 Gas에 의해 배선용 차단기의 가동접촉자의 Lead wire 등이 부식, 경화되어 단선되기 쉽게 됩니다.\r\n이에 대한 대책으로서는 은도금이 효과가 있고, 만일 유화 Gas의 농도가 높은 분위기에서 사용하는 경우에는 \r\nLead선에 은도금이 되어 있어 내식성을 증대 시킨 MCCB를 사용할 필요가 있습니다.\r\n이와같은 위험한 장소에서는 원칙적으로 전류를 개폐 또는 차단하는 배선용 차단기의 설치를 하지 말아야 합니다.\r\n해발 2000m를 초과하는 고도에서 MCCB를 사용할 경우, 대기압 및 온도의 저하로 차단기의 동작성능이 영향을 받게 \r\n됩니다. 예를 들면, 2200m에서는 기압이 80%로, 5500m에서는 50%로 저하 됩니다. 그러나, 단락성능은 영향을 받지 \r\n않습니다. 고도가 높은 곳에 사용할 때는 높은 고도에서의 보정 계수표를 참조하여 아래와 같이 계산할 수 있습니다.\r\n*높은 고도에서의 보정 계수표 (ANSI C37. 29-1970)참조.\r\n1) 전압 보정 계산법\r\n- 고도 4000m에서 정격 전압이 AC600V인 경우,\r\n 600V (정격전압) × 0.82 (보정계수) = 492V 로 됩니다.\r\n2) 전류 보정 계산법\r\n - 고도 4000m에서 정격 전류가 800A 인 경우,\r\n 800A (정격 전류) × 0.96 (보정계수) = 768A 로 됩니다. \r\n주위온도가 -5℃ \r\n이하의 경우\r\n다습 상태 (상대\r\n습도 85%이상)\r\n유화 Gas가 \r\n존재하는 상태\r\n폭발 가능성 Gas가 \r\n존재하는 상태\r\n고도에 의한 영향",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 166,
+      "text": "10-16\r\n과도한 진동 및 충격은 차단기의 파손 및 고장에 대한 동적 강도, 통전 및 동작특성의 안전성 등에 문제가 됩니다.\r\n배선용 차단기의 선정에 있어서는 이들 환경 Stress에 대한 적절한 고려가 필요합니다.\r\n한편 이들 Stress는 수송 중의 지농, 개폐조작시의 자기 충격 및 인접한 기기의 영향에 의해 발생 합니다.\r\n전기기에 있어서 진동, 충격에 관한 규격으로는 [소형 전기기기의 진동 시험방법]등이 있으며, 배선용 차단기의 내진, \r\n내충격성은 위의 상황을 고려하여 이 규격을 준하여 시험하고 있습니다.\r\n진동의 크기는 복진폭 (復振幅), 진동수에 의해 표시되고, 가속도와의 관계는 다음과 같습니다.\r\n*αg =0.002×진동수 (Hz)×복진폭 (mm)\r\n*αg : 중력가속도 (g=9.8m/sec2\r\n)의 배수\r\n진동 시험에는 공진시험, 진동내구시험, 오동작시혐의 3가지 항목이 있고, 다음의 시험을 실시 합니다.\r\n1) 공진 시험\r\n 복진폭 0.5 ~ 1mm에서 정현파의 주파수 0~55Hz의 범위를 서서히 변화시켜\r\n MCCB의 특정 부분에 진동이 일어 나는가를 확인합니다.\r\n2) 진동내구 시험\r\n 복진폭 0.5 ~ 1mm에서 주파스 55Hz (만일 공진점이 있으면 전 항목에서 조사한 공진 주파수)의\r\n 정현파 진동을 2시간 가하여 이상 유무를 확인합니다.\r\n3) 오동작 시험\r\n 복진폭, 주파수를 바꾸어 각 조건마다 10분간 진동을 가하여 MCCB가 오동작하지 않는가를 확인합니다.\r\n충격의 크기는 기기 및 부품에 가해지는 최대 가속도를 중력 가속도 g (9.8m/sec2\r\n)의 배수로 나타냅니다.\r\n시험은 낙하식 충격시험에 의해 시험합니다.\r\n고주파 전류의 경우 도체의 표피효과와 구조체의 철손등에 의한 발열로 인하여 열동전자식 트립장치가\r\n내장된 차단기의 경우는 정격전류를 저감하여 사용하여야 합니다. 저감율은 Frame Size, 정격전류에 의해\r\n약간의 차이는 있으나 400Hz에서 70~80%로 저하된다. 또 철손은 흡인력을 작게하기 때문에\r\n순시 트립 전류는 증가합니다.\r\n* 철손 (Core Loss) : 시간적으로 변화하는 자화력 때문에 생기는 자심의 전력손실을 말하며, 히스테리시스손과\r\n 전류손 (맴돌이 전류손)으로 구분됩니다.\r\n* 히스테리시스손 (Hystersis Loss) : 전기기기의 무부하손의 대부분을 점하는 손실로서 다름과 같은 실험식으로 구합니다.\r\n Ph = σfBmn\r\n Bm : 자속밀도의 최대값, n : 상수 (1.6~2.0), f : 주파수, σ : 히스테리시스 상수\r\n* 와전류손 (Eddy Current) : 도체 내부의 자속변화에 의해 유도된 전압에 의해 유도된 전압에 의해 흐르는 전류. 변압기의\r\n권선이나 철심에 생기는 맴돌이 전류는 여자전류의 일부로서 변압기 손실의 하나로 고려됩니다. \r\n맴돌이 전류손이라고도 합니다.\r\n진동 및 충격이 가해지는 사용 환경\r\n기술자료\r\n진동, 충격에 의한 \r\n영향\r\n진동\r\n충격\r\n고주파에 의한 영향",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 167,
+      "text": "Metasol MCCB/ELCB\r\n 10-17\r\n10\r\n진동 및 충격이 가해지는 사용 환경\r\n[내진성능 및 내충격 성능표]\r\nn\r\nn\r\nn\r\nn\r\n내진성 내충격성\r\n시험 조건 취부 자세\r\n진동, 충격의 \r\n방향\r\nMCCB의 상태\r\n• 수직 취부\r\n• 상하, 좌우, 전후\r\n(1) 무통전 (On 상태 및 Off 상태)\r\n(2) 정격전류를 MCCB의 온도가 일정해질 때까지 \r\n통전하고, 계속하여 통전을 지속한 상태\r\n• 그림 1, 2, 3, 4\r\n (→는 낙하의 방향을 표시)\r\n무통전 (On 상태 및 Off 상태)\r\n시험결과 판정 조건 • On일 때 Off되지 않을 것\r\n• Off일 때 On되지 않을 것\r\n• 파손, 변형, 나사부의 풀림 등의 이상이 없을 것\r\n• 시험 후 개폐조작 및 트립 특성이 정상일 것",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 168,
+      "text": "10-18\r\n인버터 회로용 차단기 선정\r\n예1)\r\n예2)\r\n인버터 회로용 누전차단기 정격 감도전류의 선정\r\n고조파, Surge 부하에 적용할 경우 : 정격감도전류 IΔn≥10×{Ig1+Ign+Ig2+Igm}\r\n일반부하에 적용할경우 : 정격감도전류 IΔn≥10×{Ig1+Ign+3× (Ig2+Igm)}\r\n인버터 회로용 차단기의 선정\r\n고조파 성분이 포함된 통전전류는 인버터 입력전류의 약1.4배의 정격\r\n전류입니다.\r\n (3Φ220V 60㎐)\r\nCV 케이블을 금속배선한 경우의 \r\n전선선로의 누설전류 예\r\n (220V 60㎐)\r\n삼상 유도 전동기의 누설 전류 예\r\n주) 차단기의 인버터 1차측 회로의 투입수명횟수는 과도돌입전류의 영향으로 \r\n 저하되므로 개폐기를 설치하여 주십시오.\r\nIg1, Ig2 : 선로 누설전류\r\nIgn : 인버터 입력측\r\nIgm : 상용전원 운전시 누설전류\r\n1)고조파,Surge 부하의 경우, 인버터\r\n2차측의 지락 검출은 운전 주파수 120Hz\r\n이하의 경우에 가능합니다.\r\nY결선 중성점 접지방식의 경우에는 인버터\r\n2차측의 지락에 대해 감도전류가 둔화되므로, \r\n부하기기의 보호접지를 특별 제3종 접지\r\n (10Ω이하)로 하여 주십시오.\r\n2)일반 부하의 경우 인버터와 전동기간의\r\n선로누설전류는 고조파 분을 가미한\r\n상용주파수 때의 3배로 계산합니다.\r\n3)MCCB, ELB는 인버터의 1차측 (전원측)에\r\n설치하여 주십시오.\r\n2차측에는 설치하지 말아 주십시오.\r\n인버터\r\n인버터\r\n인버터\r\n모터\r\n전\r\n원\r\n예1 예2\r\n기술자료\r\n인버터입력용량\r\n삼상 200V[kVA]\r\n차단기의\r\n정격전류[A]\r\n인버터 입력용량\r\n삼상200V[kVA]\r\n차단기의\r\n정격전류[A]\r\n5 20 32 125\r\n8 30 40 150\r\n10 40 50 200\r\n12.5 50 63 250\r\n16 60 80 300\r\n20 75 100 400\r\n25 100\r\n전선굵기\r\n[㎟]\r\n1km마다의\r\n누설전류[㎃]\r\n5.5 33\r\n8 38\r\n14 48\r\n22 50\r\n30 56\r\n38 64\r\n50 64\r\n60 64\r\n100 70\r\n전동기 출력\r\n[㎾]\r\n누설전류\r\n[㎃]\r\n2.2 0.18\r\n3.7 0.16\r\n5.5 0.29\r\n7.5 0.38\r\n11 0.50\r\n15 0.57\r\n18.5 0.65\r\n22 0.72\r\n30 0.87\r\n37 1.00\r\n고조파, Surge 부하 일반 부하 \r\n누설전류 Ig1 33× = 0.17 33× = 0.17\r\n누설전류 Ign0 (Noise 필터가 없는 경우)\r\n누설전류 Ig2 33× = 0.66 33× ×3 = 1.98\r\n누설전류 Igm 0.18 0.18×3 = 0.54\r\n합계누설전류 Ig 1.01 2.69\r\n정격감도전류\r\n(＞ Ig×10) (15), 30 30\r\n고조파, Surge 부하 일반 부하 \r\n누설전류 Ig1 64× = 0.32 64× = 0.32\r\n누설전류 Ign0 (Noise 필터가 없는 경우)\r\n누설전류 Ig2 64× = 1.28 64× ×3 = 3.84\r\n누설전류 Igm 0.72 0.72×3 = 2.16\r\n합계누설전류 Ig 2.32 6.32\r\n정격감도전류\r\n(＞ Ig×10) 30 1000\r\n5\r\n1000\r\n5\r\n1000\r\n5\r\n1000\r\n5\r\n1000\r\n20\r\n1000\r\n20\r\n1000\r\n20\r\n1000\r\n20\r\n1000",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 169,
+      "text": "Metasol MCCB/ELCB\r\n 10-19\r\n10\r\nMemo",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 170,
+      "text": "10-20\r\nMemo",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 171,
+      "text": "Metasol MCCB/ELCB\r\n 10-21\r\n10",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    },
+    {
+      "page": 172,
+      "text": "※ 본 제품의 규격은 품질개선을 위하여 예고없이 변경될 수 있으므로 제품구입시 문의 바랍니다. \r\nⓒ 2008. 10 LS ELECTRIC Co., Ltd. All rights reserved. / (34) 2025. 01 Staffcom\r\n구입문의\r\n서울영업\r\n저압/고압기기 TEL: (02)2034-4489 \r\n계전/계측기기 TEL: (02)2034-4980\r\n계량기/원격검침 TEL: (02)2034-4581\r\n변압기 TEL: (02)2034-4581\r\n수배전반 TEL: (02)2034-4974\r\n부스덕트 TEL: (02)2034-4777\r\n초고압 TEL: (02)2034-4807\r\nFACTS TEL: (02)2034-4380\r\n진단 TEL: (02)2034-4596\r\n철도 TEL: (02)2034-4387\r\n대전영업 TEL: (042)820-4203 \r\nFAX: (042)820-4298\r\n대구영업 TEL: (053)603-7711\r\nFAX: (053)603-7777\r\n나주영업 TEL: (062)510-1815\r\nFAX: (062)526-3262\r\n부산영업 TEL: (051)310-6811\r\nFAX: (051)310-6827\r\nA/S문의\r\n서울/경기/강원 TEL: (031)8085-2870~2\r\nFAX: (031)8085-2873\r\n대전 TEL: (042)826-2080\r\nFAX: (042)826-2081\r\n대구 TEL: (053)954-5241\r\nFAX: (053)954-5242\r\n나주 TEL: (061)333-2080 \r\nFAX: (061)333-2081\r\n부산 TEL: (070)8691-1077 \r\nFAX: (070)7589-1078\r\n기술문의\r\n기술상담센터 TEL: 1544-2080\r\n교육/세미나 문의\r\n연수원 (청주) TEL: (043)261-6994\r\nFAX: (043)261-6996\r\n세미나 TEL: (02)2034-4579\r\nseminar@ls-electric.com\r\n본사\r\n경기도 안양시 동안구 엘에스로 127 LS타워\r\nwww.ls-electric.com\r\n전력기기 챗봇 서비스\r\n언제든지 전력기기에 대한 \r\n도움이 필요할 땐 챗봇 \r\n서비스를 이용해주세요.\r\n전력기기 제품총람\r\nQR코드를 통해 언제 \r\n어디서든 카탈로그를 \r\n다운로드할 수 있습니다.\r\n서울 사무소\r\n서울특별시 용산구 한강대로 92 LS용산타워",
+      "width": 595.2760009765625,
+      "height": 841.8900146484375
+    }
+  ],
+  "page_count": 172
+}

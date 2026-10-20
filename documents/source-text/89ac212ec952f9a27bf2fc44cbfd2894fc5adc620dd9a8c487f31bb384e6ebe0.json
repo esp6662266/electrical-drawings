@@ -1,0 +1,14 @@
+{
+  "sha256": "89ac212ec952f9a27bf2fc44cbfd2894fc5adc620dd9a8c487f31bb384e6ebe0",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "온도센스구 온도센스구",
+      "width": 841.0,
+      "height": 595.0
+    }
+  ],
+  "page_count": 1
+}

@@ -1,0 +1,224 @@
+{
+  "sha256": "2dff39616d937f6d272fd4886b0a974924d5335e04ac8b4fac4dcb267d4eef48",
+  "extension": ".pptx",
+  "status": "슬라이드 텍스트 추출; 배치 미재현",
+  "pages": [
+    {
+      "page": 1,
+      "text": "전처리\n 프라이머리 \n슈레더\n 철거작업 \n(1)"
+    },
+    {
+      "page": 2,
+      "text": "전처리\n 프라이머리 \n슈레더\n 철거작업 \n(2)\n1-1\n1-2\n1-1\n1-2\n3-2"
+    },
+    {
+      "page": 3,
+      "text": "전처리\n 프라이머리 \n슈레더\n 철거작업 \n(3)\n2-1\n2-2\n2-1\n2-2\n3-1"
+    },
+    {
+      "page": 4,
+      "text": "전처리\n 프라이머리 \n슈레더\n 철거작업 \n(4)\n도로쪽\n공장쪽"
+    },
+    {
+      "page": 5,
+      "text": "전처리\n 프라이머리 \n슈레더\n 철거작업 \n(5)\n4-2\n4-1\n도로쪽\n공장쪽"
+    },
+    {
+      "page": 6,
+      "text": "전처리\n 프라이머리 \n슈레더\n 철거작업 \n(6)\n1.\n 유압호스 철거\n2. \n상부 커버 및 \n난간대\n 절단"
+    },
+    {
+      "page": 7,
+      "text": "전처리\n 프라이머리 \n슈레더\n 철거작업 \n(7)\n3. \n상부 커버 및 \n난간대\n 철거\n4. \n양옆\n 커버 절단\n5. \n양옆\n 커버 철거\n* \n철거 전 전기작업필요\n6. \n도로측 하부 전기 배선 철거"
+    },
+    {
+      "page": 8,
+      "text": "전처리\n 프라이머리 \n슈레더\n 철거작업 \n(8)\n7. \n슈레더\n 회전 축 철거\n8. \n호퍼\n 철거\n9. \n쿨링펌프\n 철거\n10. \n쿨링 펌프 교체"
+    }
+  ],
+  "page_count": 8,
+  "figures": [
+    {
+      "member": "ppt/media/image24.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/78c4767135f7f92871fe335bd0ce5e2b5fa721fef4f16ff0e48479b60bd73e4a.webp",
+      "width": 925,
+      "height": 694
+    },
+    {
+      "member": "ppt/media/image25.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/3a9f2f8a52c2b16aa1351733592b59ad6d28a4f582166901f5e94b436cd6a674.webp",
+      "width": 520,
+      "height": 694
+    },
+    {
+      "member": "ppt/media/image26.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/8ec82af1a16b5503ba8e9f6237366d83482b357515508acdbee942119ecd071b.webp",
+      "width": 540,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image27.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/15fbd3ea48d55c0fa903f28046d072eadad0a54e50f2e53013529824195a6e78.webp",
+      "width": 960,
+      "height": 720
+    },
+    {
+      "member": "ppt/media/image21.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/e4280a1fed051cc8ed02cd7c871d4d698803a90b0a7d4fe1e4c27f937a21ad85.webp",
+      "width": 575,
+      "height": 766
+    },
+    {
+      "member": "ppt/media/image22.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/3f853d4acdfd47847365f861af6b115e46e9b1175a6e7b8cc8b131e6650bef34.webp",
+      "width": 1023,
+      "height": 767
+    },
+    {
+      "member": "ppt/media/image6.jpg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/bc54e0dcda37c36eb0ede36da8d68e23e54c6865bcad945cba6d4d7459d82795.webp",
+      "width": 1050,
+      "height": 1400
+    },
+    {
+      "member": "ppt/media/image7.jpg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/505e43ba6bfad6172fb2553599287b23c5f0152dc341f13c5ca1a2ab28599fc0.webp",
+      "width": 1050,
+      "height": 1400
+    },
+    {
+      "member": "ppt/media/image8.jpg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/f80ddb11d12bdfc7de9575afd530270a8a78e9cfdfd664549625fb0b522edb6c.webp",
+      "width": 1050,
+      "height": 1400
+    },
+    {
+      "member": "ppt/media/image9.jpg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/812a2b90bfecfae9485cf0d92172e37c683fc67cdb83ed7ec35cd5b46fd1fe9a.webp",
+      "width": 1050,
+      "height": 1400
+    },
+    {
+      "member": "ppt/media/image5.jpg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/21c799cbd73698f8193a8039f688bf6b9133b3e2bd45d02c39e9a0e4211f447c.webp",
+      "width": 1050,
+      "height": 1400
+    },
+    {
+      "member": "ppt/media/image4.jpg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/f8a47b013e40df50d89a28d1d38006e0fbbeca50251b92ef3c24127049524242.webp",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "member": "ppt/media/image3.jpg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/10090d57ff2d8fc007cd2b581506a90603968176fe832b9b3bdf73aa376bc8f7.webp",
+      "width": 1050,
+      "height": 1400
+    },
+    {
+      "member": "ppt/media/image2.jpg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/75465e9479d06465d16a63de984a9d902b2bac71585995f8e65cdf2c002cff3a.webp",
+      "width": 1050,
+      "height": 1400
+    },
+    {
+      "member": "ppt/media/image23.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/c4fa123c44445943a7e6df3ca2f9c517db9d47692cb5a62880e292f220c57546.webp",
+      "width": 1023,
+      "height": 767
+    },
+    {
+      "member": "ppt/media/image10.jpg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/104c904be75ac9d51f287695831c8adc63e241b617427ef8fac3f6162fbc3ba2.webp",
+      "width": 1050,
+      "height": 1400
+    },
+    {
+      "member": "ppt/media/image12.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/708701f87c187d5d29a18a21663db53e550154dff98aecf7b0b20559508b9218.webp",
+      "width": 494,
+      "height": 658
+    },
+    {
+      "member": "ppt/media/image20.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/b164409d8d832bb6a1cc62814f82d2a0cf83697c2da64a72fb30ef7dad7e4516.webp",
+      "width": 575,
+      "height": 766
+    },
+    {
+      "member": "ppt/media/image19.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/fec69c8ccda6cbc03e6ff5c9b7d26308c316cf2c883c286948121221748f3ca3.webp",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "member": "ppt/media/image18.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/c54e10cb0f5d5114fc1b3222d91e159e5b439b3936ae4dc6d5566e268665fc8f.webp",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "member": "ppt/media/image17.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/642067a8ca9517f61400b7e37eb0e888ec448b96b8b5b198cd8e48d4c156d6a0.webp",
+      "width": 853,
+      "height": 640
+    },
+    {
+      "member": "ppt/media/image11.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/4ebae3810459e0b770130278ab010a04be05b39919af295e1ec1f3c352edad7c.webp",
+      "width": 494,
+      "height": 658
+    },
+    {
+      "member": "ppt/media/image13.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/6e982cc07da2243e6fd181d1e64648872b1234a64a5b97b0e80256426b48a2b2.webp",
+      "width": 951,
+      "height": 658
+    },
+    {
+      "member": "ppt/media/image16.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/857ccc8202bf5f8abd16d21d16d5c36f63e11a2b645727075038c4e044694331.webp",
+      "width": 835,
+      "height": 626
+    },
+    {
+      "member": "ppt/media/image15.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/e06541dc55c5e2e84d5238cb6aecc4c6bdd205b71d51b20415deec84b9b05193.webp",
+      "width": 835,
+      "height": 626
+    },
+    {
+      "member": "ppt/media/image14.jpeg",
+      "source_id": "S2dff39616d937f6d",
+      "url": "/documents/source-figures/faa124105ac1dc7aa74d9b0c25ce11d3c63feb5468dccac1667e7c55ba391d13.webp",
+      "width": 835,
+      "height": 626
+    }
+  ]
+}

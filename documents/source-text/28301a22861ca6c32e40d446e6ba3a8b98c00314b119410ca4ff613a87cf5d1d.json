@@ -1,0 +1,14 @@
+{
+  "sha256": "28301a22861ca6c32e40d446e6ba3a8b98c00314b119410ca4ff613a87cf5d1d",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "열교환기 세진메탈 본사 (주) 정일플랜트\nㄷ 150x65x8EA\nㄷ 150x75",
+      "width": 595.2,
+      "height": 841.92
+    }
+  ],
+  "page_count": 1
+}

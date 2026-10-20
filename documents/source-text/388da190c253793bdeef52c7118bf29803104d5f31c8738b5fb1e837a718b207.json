@@ -1,0 +1,116 @@
+{
+  "sha256": "388da190c253793bdeef52c7118bf29803104d5f31c8738b5fb1e837a718b207",
+  "extension": ".zip",
+  "status": "압축 목록만 정적 확인; 실행하지 않음",
+  "pages": [],
+  "archive_entries": [
+    {
+      "name": "1988180643_NM5RFqxG_WYFS06TD_WYFS10TD_WYFS15TD_WYFS20TD-260819.pdf",
+      "bytes": 1169471,
+      "compressed_bytes": 961900,
+      "encrypted": false
+    },
+    {
+      "name": "30TON 용해로 2호기 전기도면202609_합치기.pdf",
+      "bytes": 2444740,
+      "compressed_bytes": 2222185,
+      "encrypted": false
+    },
+    {
+      "name": "A2-5-3. [분전반] 산업용 차단기.pdf",
+      "bytes": 6442084,
+      "compressed_bytes": 5019662,
+      "encrypted": false
+    },
+    {
+      "name": "AT8SDN_KO_TCD220053AB_INST_W.pdf",
+      "bytes": 375878,
+      "compressed_bytes": 311165,
+      "encrypted": false
+    },
+    {
+      "name": "AT8SDN_KO_TCD220053AB_MANUAL_W.pdf",
+      "bytes": 635153,
+      "compressed_bytes": 558723,
+      "encrypted": false
+    },
+    {
+      "name": "C7027 BC1000.pdf",
+      "bytes": 1159685,
+      "compressed_bytes": 1079148,
+      "encrypted": false
+    },
+    {
+      "name": "DMPi MANUAL_KR_EN.pdf",
+      "bytes": 2423435,
+      "compressed_bytes": 2401830,
+      "encrypted": false
+    },
+    {
+      "name": "G100 Series_Catalog_KR_202506.pdf",
+      "bytes": 8229379,
+      "compressed_bytes": 4952208,
+      "encrypted": false
+    },
+    {
+      "name": "G100(C)_사용설명서_KR_V4.03_250731.pdf",
+      "bytes": 16976350,
+      "compressed_bytes": 13191868,
+      "encrypted": false
+    },
+    {
+      "name": "M7284.pdf",
+      "bytes": 684399,
+      "compressed_bytes": 622100,
+      "encrypted": false
+    },
+    {
+      "name": "SPB-A_KO_TCD230001AG_20260730_INST_W.pdf",
+      "bytes": 381369,
+      "compressed_bytes": 373347,
+      "encrypted": false
+    },
+    {
+      "name": "SPB-A_KO_TCD230001AG_20260730_MANUAL_W.pdf",
+      "bytes": 506026,
+      "compressed_bytes": 490316,
+      "encrypted": false
+    },
+    {
+      "name": "ST590,580,570,540.pdf",
+      "bytes": 3620580,
+      "compressed_bytes": 3152757,
+      "encrypted": false
+    },
+    {
+      "name": "[Metasol_MCCB]_KO_C01031-34-202501.pdf",
+      "bytes": 46453915,
+      "compressed_bytes": 38611353,
+      "encrypted": false
+    },
+    {
+      "name": "[Metasol_MS]_KO_C04001-36-202605.pdf",
+      "bytes": 32807097,
+      "compressed_bytes": 24326517,
+      "encrypted": false
+    },
+    {
+      "name": "세진30톤 버너LAY-0UT.pdf",
+      "bytes": 76359,
+      "compressed_bytes": 63997,
+      "encrypted": false
+    },
+    {
+      "name": "세진메탈30톤 사용 설명서20260904.pdf",
+      "bytes": 177151,
+      "compressed_bytes": 145570,
+      "encrypted": false
+    },
+    {
+      "name": "용해로40TON 12.17.xgwx",
+      "bytes": 13528,
+      "compressed_bytes": 13197,
+      "encrypted": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "sha256": "77a4d6ae392536387708cff88caba590789cfaac51b620dd4db3e39fa6d08b4e",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "width": 841.0,
+      "height": 1190.0
+    },
+    {
+      "page": 2,
+      "text": "",
+      "width": 841.0,
+      "height": 1190.0
+    },
+    {
+      "page": 3,
+      "text": "",
+      "width": 841.0,
+      "height": 1190.0
+    },
+    {
+      "page": 4,
+      "text": "",
+      "width": 841.0,
+      "height": 1190.0
+    },
+    {
+      "page": 5,
+      "text": "",
+      "width": 841.0,
+      "height": 1190.0
+    },
+    {
+      "page": 6,
+      "text": "",
+      "width": 841.0,
+      "height": 1190.0
+    }
+  ],
+  "page_count": 6
+}

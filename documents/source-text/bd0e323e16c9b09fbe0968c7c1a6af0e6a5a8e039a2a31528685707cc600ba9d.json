@@ -1,0 +1,248 @@
+{
+  "sha256": "bd0e323e16c9b09fbe0968c7c1a6af0e6a5a8e039a2a31528685707cc600ba9d",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Molded Case Breakers / \nEarth Leakage Circuit Breakers\n분전반용\n배선용차단기 / 누전차단기\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 2,
+      "text": "전력공급의 효율성과 안전성을 극대화할 수 있는 \n첨단 전력 솔루션 기술을 바탕으로 세계적인 기업들과 \n견줄 수 있는 글로벌 경쟁력을 키워 갑니다.\n600V 이하 저압에서 24KV까지 IEC, ANSI, JEM 등 각종 규격에 따라 설계되고 \n콤팩트한 사이즈로 구현된 수배전반은 고차단/고신뢰성을 확보하고 있으며, \n전력회사의 발 ㆍ 변전설비부터 수배전반 설비까지 광범위하게 적용 중입니다. \n특히, LS의 프리미엄 브랜드 Susol은 최적의 계통보호 및 \n기기보호, 다양한 기능을 제공함으로써 세계적 수준의 성능을 구현하고 있습니다.\n2 ",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 3,
+      "text": "COntents 04 기종일람표 분전반용기기\n06 분전반용 소형차단기 (BK63H Series)  \n08 분전반용 누전차단기 (KGR Series)\n09 분전반용 배선용차단기 (BS Series) \n10 분전반용 누전차단기 (GR Series)\n11 분전반용 배선용차단기 (BKE Series)\n12 분전반용 누전차단기 (EGR Series)\n13 분전반용 배선용차단기 (BF Series)\n14 분전반용 배선용차단기 (ABE30Fb/50Fb/100Fb)\n16 분전반용배선용차단기 (ABS30Fb/50Fb/100Fb) \n18 분전반용 누전차단기 (EBE30Fb/50Fb/100Fb)\n20 분전반용 누전차단기 (EBS30Fb/50Fb/100Fb)\n25 분전반용 배선용차단기/누전차단기 특성곡선 \n32 분전반용 배선용차단기/누전차단기 외형치수\n \n   3",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 4,
+      "text": " \n   54 \n기종일람표 분전반용 기기\n제품명 BK63H Series BS Series BKE Series BK63H DC BF Series AB-Fb Series\n프레임 63AF 30AF 30AF 50AF 63AF 50AF 100AF 30AF 50AF 100AF\n형명 및 극수 1극(1-pole)\nBK63H\n- - - -\nBK63H DC\nBF51a BF51c BF101a BF101c - - -\n2극(2-pole) BS32c BS32d 32BKE 52BKE BF52a BF52c BF102a BF102c ABE32Fb ABS32Fb ABE52Fb ABS52Fb ABE102Fb ABS102Fb\n3극(3-pole) - - - - BF53a BF53c BF103a BF103c ABE33Fb ABS33Fb ABE53Fb ABS53Fb ABE103Fb ABS103Fb\n4극(3-pole) - - - -\n정격전류, In 1, 2, 3, 4, 6, 10, 16, 20, 25, 32, 40, 50, 63A6, 10, 15,\n20, 30A\n10, 15, 2\n0, 30A 15, 20, 30A 40, 50A 1, 2, 3, 4, 6, 10, 16, 20, 25, 32, 40, 50, 63A 10, 15, 20, 30, 40, 50A 50, 75, 100A 3, 5, 10, 15, 20, 30A 5, 10, 15, 20, 30, 40, 50A 60, 75, 100A\n정격전압, Ue AC AC : 240V AC : 240/415V AC : 110/220V AC : 220V - AC : 460V AC : 220/460V AC : 220/460V AC : 220/460V\nDC DC: 60V DC: 125V - -  DC : 250V(1P), 500V(2P), 750V(3P), 1000V(4P) - - - -\n정격차단전류, AC 460V - - - - - 2극, 3극: 2.5kA 1.5kA 2.5kA 1.5kA 2.5kA 2.5kA 5kA\n415V - 10kA - - -\nDC 250V : 10kA, DC 500V : 10kA, \nDC 750V : 10kA, DC 1000V : 10kA\n- 1.5kA 2.5kA 1.5kA 2.5kA 2.5kA 5kA\n380V - - - - 2극, 3극: 2.5kA 2극, 3극: 2.5kA 2극, 3극: 2.5kA 2극, 3극: 2.5kA 1.5kA 2.5kA 1.5kA 2.5kA 2.5kA 5kA\n240V 10kA - - - - - - - - - -\n220V - 1.5kA 2.5kA 5kA 10kA 5kA 10kA 5kA 2.5kA 5kA 2.5kA 5kA 5kA 10kA\n설치방식 나사 × ○ ○ × ○ (홀더사용) ○ ○ ○\nDIN rail ○ ○ ○ ○ × ○ ○ ○\n외형치수 극수 1극 2극 3극 4극 2극 2극 1극 2극 3극 4극 1극 2극 3극 2극 3극 2극 3극 2극 3극\na 18 36 54 72 33 35 18 36 54 72 25 50 75 50 75 50 75 75 75\nb 81 81 81 81 70 80 81 81 81 81 97 97 97 96 96 96 96 96 96\nc 60 60 60 60 42 62.3 60 60 60 60 60 60 60 60 60 60 60 60 60\nd 68 68 68 68 59.2 79.5 68 68 68 68 77 77 77 80 80 80 80 80 80\n취득규격 CE, UL1077, 안전인증(KC), \n선급(ABS, BV, DNV, GL, KR, LR, RINA) ㉿ ㉿ CE, SEMKO CB ㉿ - ㉿ - ○ ○ ○\n배선용차단기\n누전차단기\n* BS32c/d 단자커버 별도 전개 되어 있습니다. (100EA/1Box)\n* 분전반용 AC220V 누전차단기는 각 극간 내전압/절연저항(500V이상)  \n   시험시 PCB회로가 손상되므로 시험 하지 마십시오.\n제품명 KGR Series GR Series EGR Series EB-Fb Series\n프레임 30AF 30AF 50AF 30AF 50AF 30AF 50AF 100AF\n형명 및 극수 2극(2-pole) 32KGRc 32KGRd 32GRhN 32GRhS 32GRhH 32GRc 32GRd 52GRb 32EGR 52EGR EBE32Fb EBS32Fb EBE52Fb EBS52Fb EBE102Fb EBS102Fb\n3극(3-pole) - - - - - - - - - - EBE33Fb EBS33Fb EBE53Fb EBS53Fb EBE103Fb EBS103Fb\n정격전류, In 15, 20, 30A 15, 20, 30A 15, 20, 30,\n40, 50A 15, 20, 30A 40, 50A 3, 5, 10, 15, 20, 30A 5, 10, 15, 20, 30, 40, 50A 60, 75, 100A\n정격감도전류 2극(2-pole) 15, 30mA 15, 30mA 30mA 15, 30mA 30, *50mA 15, 30mA 30, *50mA 15, 30mA 30, 100mA\n3극(3-pole) - - - - 15, 30mA 15, 30, 100mA 15, 30mA 15, 30, 100mA 30, 100mA\n정격전압, Ue AC : 110/220V AC : 110/220/230V AC : 110/220V AC : 220V AC : 220V 2극 : 110/220, 3극 : 220/380 2극 : 110/220, 3극 : 220/380 2극 : 220, 3극 : 220/380\n정격차단전류, AC 380V (3극) - - - - - - - - - 3극 : 1.5kA 3극 : 2.5kA 3극 : 1.5kA 3극 : 2.5kA 3극 : 2.5kA 3극 : 5kA\n230V - - 1.5kA 2.5kA 3.5kA - - - - - - - - - -\n220V 1.5kA 2.5kA 1.5kA 2.5kA 3.5kA 1.5kA 2.5kA 2.5kA 5kA 2극, 3극 : 2.5kA 2극, 3극 : 5kA 2극, 3극 : 2.5kA 2극, 3극 : 5kA 2극, 3극 : 5kA 2극, 3극 : 10kA\n110V - - 1.5kA 2.5kA 3.5kA - - - - - - - - - -\n설치방식 나사 ○ ○ ○ ○ ○ ○ ○\nDIN rail ○ ○ ○ ○ ○ ○ ○\n외형치수 극수 2극 2극 2극 2극 2극 2극 3극 2극 3극 2극 3극\na 35 32 62 75 35 50 75 50 75 75 75\nb 80 70 82 96 80 96 96 96 96 96 96\nc 62.3 42 42 60 62.3 60 60 60 60 60 60\nd 79.5 59.2 59.2 80 79.5 80 80 80 80 80 80\n취득규격 ㉿ CB ㉿ ㉿ ㉿ ○ ○ ○\n* 32GRhN/S/H 커버 별도 전개\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 5,
+      "text": " \n   54 \n제품명 BK63H Series BS Series BKE Series BK63H DC BF Series AB-Fb Series\n프레임 63AF 30AF 30AF 50AF 63AF 50AF 100AF 30AF 50AF 100AF\n형명 및 극수 1극(1-pole)\nBK63H\n- - - -\nBK63H DC\nBF51a BF51c BF101a BF101c - - -\n2극(2-pole) BS32c BS32d 32BKE 52BKE BF52a BF52c BF102a BF102c ABE32Fb ABS32Fb ABE52Fb ABS52Fb ABE102Fb ABS102Fb\n3극(3-pole) - - - - BF53a BF53c BF103a BF103c ABE33Fb ABS33Fb ABE53Fb ABS53Fb ABE103Fb ABS103Fb\n4극(3-pole) - - - -\n정격전류, In 1, 2, 3, 4, 6, 10, 16, 20, 25, 32, 40, 50, 63A6, 10, 15,\n20, 30A\n10, 15, 2\n0, 30A 15, 20, 30A 40, 50A 1, 2, 3, 4, 6, 10, 16, 20, 25, 32, 40, 50, 63A 10, 15, 20, 30, 40, 50A 50, 75, 100A 3, 5, 10, 15, 20, 30A 5, 10, 15, 20, 30, 40, 50A 60, 75, 100A\n정격전압, Ue AC AC : 240V AC : 240/415V AC : 110/220V AC : 220V - AC : 460V AC : 220/460V AC : 220/460V AC : 220/460V\nDC DC: 60V DC: 125V - -  DC : 250V(1P), 500V(2P), 750V(3P), 1000V(4P) - - - -\n정격차단전류, AC 460V - - - - - 2극, 3극: 2.5kA 1.5kA 2.5kA 1.5kA 2.5kA 2.5kA 5kA\n415V - 10kA - - -\nDC 250V : 10kA, DC 500V : 10kA, \nDC 750V : 10kA, DC 1000V : 10kA\n- 1.5kA 2.5kA 1.5kA 2.5kA 2.5kA 5kA\n380V - - - - 2극, 3극: 2.5kA 2극, 3극: 2.5kA 2극, 3극: 2.5kA 2극, 3극: 2.5kA 1.5kA 2.5kA 1.5kA 2.5kA 2.5kA 5kA\n240V 10kA - - - - - - - - - -\n220V - 1.5kA 2.5kA 5kA 10kA 5kA 10kA 5kA 2.5kA 5kA 2.5kA 5kA 5kA 10kA\n설치방식 나사 × ○ ○ × ○ (홀더사용) ○ ○ ○\nDIN rail ○ ○ ○ ○ × ○ ○ ○\n외형치수 극수 1극 2극 3극 4극 2극 2극 1극 2극 3극 4극 1극 2극 3극 2극 3극 2극 3극 2극 3극\na 18 36 54 72 33 35 18 36 54 72 25 50 75 50 75 50 75 75 75\nb 81 81 81 81 70 80 81 81 81 81 97 97 97 96 96 96 96 96 96\nc 60 60 60 60 42 62.3 60 60 60 60 60 60 60 60 60 60 60 60 60\nd 68 68 68 68 59.2 79.5 68 68 68 68 77 77 77 80 80 80 80 80 80\n취득규격 CE, UL1077, 안전인증(KC), \n선급(ABS, BV, DNV, GL, KR, LR, RINA) ㉿ ㉿ CE, SEMKO CB ㉿ - ㉿ - ○ ○ ○\n* BKE/EGR Series의 경우는 Ring type 제품이 \n    별도로 전개되어 있습니다.\n* 감도전류 50mA의 경우는 3, 5, 10A 제품은 전개되지 않았습니다.\n제품명 KGR Series GR Series EGR Series EB-Fb Series\n프레임 30AF 30AF 50AF 30AF 50AF 30AF 50AF 100AF\n형명 및 극수 2극(2-pole) 32KGRc 32KGRd 32GRhN 32GRhS 32GRhH 32GRc 32GRd 52GRb 32EGR 52EGR EBE32Fb EBS32Fb EBE52Fb EBS52Fb EBE102Fb EBS102Fb\n3극(3-pole) - - - - - - - - - - EBE33Fb EBS33Fb EBE53Fb EBS53Fb EBE103Fb EBS103Fb\n정격전류, In 15, 20, 30A 15, 20, 30A 15, 20, 30,\n40, 50A 15, 20, 30A 40, 50A 3, 5, 10, 15, 20, 30A 5, 10, 15, 20, 30, 40, 50A 60, 75, 100A\n정격감도전류 2극(2-pole) 15, 30mA 15, 30mA 30mA 15, 30mA 30, *50mA 15, 30mA 30, *50mA 15, 30mA 30, 100mA\n3극(3-pole) - - - - 15, 30mA 15, 30, 100mA 15, 30mA 15, 30, 100mA 30, 100mA\n정격전압, Ue AC : 110/220V AC : 110/220/230V AC : 110/220V AC : 220V AC : 220V 2극 : 110/220, 3극 : 220/380 2극 : 110/220, 3극 : 220/380 2극 : 220, 3극 : 220/380\n정격차단전류, AC 380V (3극) - - - - - - - - - 3극 : 1.5kA 3극 : 2.5kA 3극 : 1.5kA 3극 : 2.5kA 3극 : 2.5kA 3극 : 5kA\n230V - - 1.5kA 2.5kA 3.5kA - - - - - - - - - -\n220V 1.5kA 2.5kA 1.5kA 2.5kA 3.5kA 1.5kA 2.5kA 2.5kA 5kA 2극, 3극 : 2.5kA 2극, 3극 : 5kA 2극, 3극 : 2.5kA 2극, 3극 : 5kA 2극, 3극 : 5kA 2극, 3극 : 10kA\n110V - - 1.5kA 2.5kA 3.5kA - - - - - - - - - -\n설치방식 나사 ○ ○ ○ ○ ○ ○ ○\nDIN rail ○ ○ ○ ○ ○ ○ ○\n외형치수 극수 2극 2극 2극 2극 2극 2극 3극 2극 3극 2극 3극\na 35 32 62 75 35 50 75 50 75 75 75\nb 80 70 82 96 80 96 96 96 96 96 96\nc 62.3 42 42 60 62.3 60 60 60 60 60 60\nd 79.5 59.2 59.2 80 79.5 80 80 80 80 80 80\n취득규격 ㉿ CB ㉿ ㉿ ㉿ ○ ○ ○\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 6,
+      "text": " \n   76 \n분전반용 소형차단기 (BK63H Series)\nBK63H\n제품의 정격 및 사양 \n제품명  분전반용 소형차단기\n형명 BK63H\n극수 1극 2극 3극 4극\n정격전류, In 1, 2, 3, 4, 6, 10, 16, 20, 25, 32, 40, 50, 63A\n정격차단전류 1P 2P, 3P, 4P\nIEC 60947-2, Icu AC 415V - 10kA\nAC 240V 10kA -\nIcs (=%Icu) 75% 75%\nIEC 60898 AC 240V 10kA -\nAC 415V - 10kA\n정격전압 AC 240V 240/415V\nDC 60V 125V\n정격절연전압 (Ui) AC 500V\n정격임펄스전압 (Uimp) AC 6kV\n보호기능 과부하, 순시 및 단락전류\n과전류트립방식 열동전자식(Thermal-Coil Magnetic)\n누전검출트립방식 -\n순시트립동작특성 B(4In), C(7.5In), D(12In)\n내구수명 기계적 20,000회\n전기적 10,000회\n설치방식 DIN rail 부착\n사용주위 온도 노출시 -25°C~+55°C\n접속전선 사용범위 18-4AWG (0.75···25mm²)\n외형치수 (mm) 극수 1극 2극 3극 4극\na 18 36 54 72\nb 81 81 81 81\nc 65.5 65.5 65.5 65.5\nd 77 77 77 77\nBK63H Series / 분전반용 소형차단기\nBK63H는 국내 안전인증 및 7대 선급 취득을 통한 신뢰성 확보와 보다 강화된 기능 및 \n옵션을 통한 차별화한 분전반용 소형 차단기 입니다.\n• 보호기능: 과전류보호, 순시 및 단락보호\n• 상태 표시창 및 Dual Termianl 적용  \n• 극수: 1P, 2P, 3P, 4P\n• 정격차단용량: 10kA \n• 정격전압(Ue): 240/415Vac\n• 트립특성: B, C, D",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 7,
+      "text": " \n   76 \n형명 AX-H AL-H\n정격조작전류 AC 6A@240V / 3A@415V\nDC 1A@110V / 2A@48V\n개폐수명 10,000회\n접속전선 사용범위 0.75~2.5mm\n2\n접점동작\n기능 차단기의 ON / OFF 신호출력 차단기의 Trip 신호출력\n제품중량 (g) 48 48\n적용규격 IEC60947-5-1\n부속장치 [보조, 경보접점]\nOFF\nMCB\nAX\nTrip ON OFF\nMCB\nAX\nTrip ON\n형명 SHT-H OVT-H UVT-H\n정격전압 (Ue) Rated Voltage DC 60 ~ 220V\nAC 110 ~ 380V\n* DC 24 ~ 220V\nAC 220V\nAC 110V\nAC 220V\nAC 380V\nWiring Voltage 85%·110% Ue - -\nTripping Voltage - 280V±5% 35%·70% Ue\n접속전선 사용범위 ≤ 2.5mm\n2\n부접작접촉방식 본체에 Hook (Click) 외부부착\n제품중량 (g) 100 100 110\n적용규격 IEC60947-5-1\n* DC 24V 전용 SHT 제품입니다. 주문 시 유의해 주십시오.\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 8,
+      "text": " \n   98 \n분전반용누전차단기 (KGR Series)\n32KGRc\n제품명 누전차단기\n형명 32KGRc 32KGRd\n극수 2극 (2P2E)\n정격전류, In 15, 20, 30A\n정격전압, Ue AC : 110/220V\n정격차단전류, Icu 32KGRc 32KGRd\nAC 380V - -\nAC 220V 1.5kA 2.5kA\n보호기능 과부하, 순시 및 누전, 과부하, 순시 및 단락전류\n과전류트립방식 열동전자식\n누전검출트립방식 전자식, 전류동작형\n설치방식 나사 및 DIN rail 부착 겸용\n외형치수 (mm) 극수 2극\na 35\nb 80\nc 62.3\nd 79.5\n제품중량, kg 표준 0.13\n취득규격 2극\n KS 4613 ㉿ ○\n기타 32KGRa (기존제품 형명) 32KGRb (기존제품 형명)\n제품의 정격 및 사양 \n32KGRc, 32KGRd/ 소형 누전차단기\n• BK-시리즈 (배선용차단기)와 조합된 분전반에 적합\n• DIN rail 및 Screw겸용 설치\n• KS취득 제품\n주 1)  * 분전반용 AC220V 누전차단기는 각 극간 내전압/절연저항(500V이상) 시험시 PCB회로가 손상되므로 시험 하지 마십시오.\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 9,
+      "text": " \n   98 \n분전반용배선용차단기 (BS Series)\nBS32c\n제품명 배선용차단기\n형명 BS32c BS32d\n극수 2극 (2P2E)\n정격전류, In 6, 10, 15, 20, 30A 10, 15, 20, 30A\n정격전압, Ue AC : 110/220V\n정격차단전류, Icu BS32c BS32d\nAC 220V 1.5kA 2.5kA\n보호기능 과부하, 순시 및 단락전류\n과전류트립방식 열동전자식\n설치방식 나사 및 DIN rail 부착겸용\n외형치수 (mm) 극수 2극\na 33\nb 70\nc 42\nd 59.2\n제품중량, kg 표준 0.1\n취득규격 2극\nKS8321 ㉿ ○ ○\n기존제품형명 BS32a BS32b\n제품의 정격 및 사양 \nBS Series 분전반용 배선용차단기\n• 주택 분기회로용으로 적합\n• 소형, 경제형\n• GR-시리즈 (누전차단기)와 조합된 분전반에 적합 (Size호환)\n• DIN rail 및 Screw겸용 설치\n• KS취득 제품\n• 단자커버 적용을 통한 안정성/신뢰성 향상 (적용기종 : BS32c, BS32d)\n   - 수량 : 100ea /1Box\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 10,
+      "text": " \n   1110 \n분전반용누전차단기 (GR Series)\n32GRhN\n32GRc\n제품명 누전차단기\n형명 32GRhN 32GRhS 32GRhH 32GRc 32GRd 52GRb\n극수 2극 2극 (2P2E) 2극 (2P2E)\n정격전류, In 15, 20, 30A 15, 20, 30, 40, 50A\n정격감도전류 15, 30mA 30mA\n정격전압, Ue AC : 110/220/230V AC : 110/220V AC : 220V\n정격차단전류, Icu 32GRhN 32GRhS 32GRhH 32GRc 32GRd 52GRb\nAC 220/230V 1.5kA 2.5kA 3.5kA - - -\nAC 220V - - - 1.5kA 2.5kA 2.5kA\n보호기능 누전, 과부하, 순시 및 단락전류 누전, 과부하, 순시 및 단락전류\n과전류트립방식 열동전자식 완전전자식\n누전검출트립방식 전자식, 전류동작형 전자식, 전류동작형\n설치방식 나사 및 DIN rail 부착 겸용 나사 및 DIN rail 부착 겸용\n외형치수 (mm) a 32 62 75\nb 70 82 96\nc 42 42 60\nd 59.2 59.2 80\n제품중량, kg 표준 - 0.21 0.5\n취득규격 2극 2극 2극\n KS 4613 ㉿ ○ ○ ○ ○\n기존제품형명 32GRhc, 32GRhd 32GRa 32GRb 52GRa\n제품의 정격 및 사양 \n주 1)  분전반용 AC220V 누전차단기는 각 극간 내전압/절연저항(500V이상) 시험시 PCB회로가 손상되므로 시험 하지 마십시오.\nGR Series 분전반용 누전차단기\n• 주택 분기회로에 적합  \n• BS-시리즈 (배선용차단기)와 조합된 분전반에 적합\n• DIN rail 및 Screw겸용 설치  \n• KS취득 제품\n• 단자커버 적용을 통한 안정성/신뢰성 향상 (적용기종 : 32GRhN/S/H)\n   - 수량 : 100EA/1Box\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 11,
+      "text": " \n   1110 \n분전반용배선용차단기 (BKE Series)\n52BKE\n프레임의 크기 30AF 50AF\n형명 32BKE 52BKE\n극수 2극 (2P2E)\n정격전류, In 15, 20, 30A 40, 50A\n정격전압, Ue AC : 220V\n정격차단전류, Icu 32BKE 52BKE\nAC 220V 5kA\n보호기능 과부하, 순시 및 단락전류\n과전류트립방식 열동식\n누전검출트립방식 (14~40)×In (8~15)×In\n설치방식 나사 및 DIN rail 부착 겸용\n외형치수 (mm) 극수 2극\na 35\nb 80\nc 62.3\nd 79.5\n제품중량, kg 표준 0.15\n취득규격 2극\n KS 8321 ㉿ ○ ○\n제품의 정격 및 사양 \nBKE Series/분전반용 배선용차단기\n• 차단용량향상 : 5kA AC220V 기준 (기존 2.5kA)\n• 정격전류 용량 확대 : 40, 50A 확대전개 (기존 15, 20, 30A)\n• 한시 및 순시 특성 보유 설치방식 다양화 : DIN rail 및 Screw 취부 가능\n• 터미널 단자 체결방식 : Ring type 단자 지원, 별도 제품 전개\n• KS 취득 제품\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 12,
+      "text": "분전반용누전차단기 (EGR Series)\n \n   1312 \n52EGR\n프레임의 크기 30AF 50AF\n형명 32EGR 52EGR\n극수 2극 (2P2E)\n정격전류, In 15, 20, 30A 40, 50A\n정격감도전류 15, 30mA\n동작시간 0.03  이내\n정격전압, Ue AC : 220V\n정격차단전류, Icu 32EGR 52EGR\nAC 220V 5kA\n보호기능 누전, 과부하, 순시 및 단락전류\n과전류트립방식 열동식\n누전검출트립방식 전자식, 전류동작형\n설치방식 나사 및 DIN rail 부착 겸용\n외형치수 (mm) 극수 2극\na 35\nb 80\nc 62.3\nd 79.5\n제품중량, kg 표준 0.15\n취득규격 2극\n KS4613 ㉿ ○ ○\n제품의 정격 및 사양 \nEGR Series/분전반용 배선용차단기\n• 차단용량향상 : 5kA AC220V 기준 (기존 2.5kA)\n• 정격전류 용량 확대 : 40, 50A 확대전개 (기존 15, 20, 30A)\n• 한시 및 순시 특성 보유 설치방식 다양화 : DIN rail 및 Screw 취부 가능\n• 터미널 단자 체결방식 : Ring type 단자 지원, 별도 제품 전개\n• KS 취득 제품\n주 1)  분전반용 AC220V 누전차단기는 각 극간 내전압/절연저항(500V이상) 시험시 PCB회로가 손상되므로 시험 하지 마십시오.",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 13,
+      "text": " \n   1312 \n분전반용배선용차단기 (BF Series)\n프레임의 크기 BF-a BF-c\n프레임 (AF) 50AF 100AF 50AF 100AF\n형명 BF 51a BF 52a BF 53a BF 101aBF 102a BF 103a BF 51c BF 52c BF 53c BF 101c BF 102c  BF 103c\n극수 (Pole) 1 2 3 1 2 3 1 2 3 1 2 3\n정격전류 (A) 10,15,20,30,40,50 60,75,100 10,15,20,30,40,50 60,75,100\n정격전압 (V) AC 460V\n차단전류 (KA) AC 460V 2.5 (2, 3pole)\n220V 10 5\n110V -\nDC 125V 주) 1 5 7.5 1 5 7.5 1 5 7.5 1 5 7.5\n외형치수 (mm) a 25 50 75 25 50 75 25 50 75 25 50 75\nb 97\nc1 60\nc2 65\nd 77\n제품중량, kg 0.11 0.23 0.35 0.11 0.23 0.35 0.11 0.23 0.35 0.11 0.23 0.35\n관전류 트립(Trip) 방식 열동전자식\n부착방식 홀더\n취득규격 AC 220V - ○ ○ ○\n KS8321 AC 380V - ○ ○ - ○ ○ - ○ ○ - ○ ○\nAC 460V - ○ ○ - - ○ ○ -\n제품의 정격 및 사양 \nBF Series 분전반용 배선용차단기\n• 다양한 정격전류 보유 (10~100A)\n• 1P, 2P, 3P 가능\n• 일반 배선용차단기와 동일 높이인 60mm로 규격화 함 \n• 다양한 차단 용량 보유 (220V, 10kA/5kA)\n주)  DC정격은 참고치입니다. ",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 14,
+      "text": " \n   1514 \n분전반용배선용차단기 (ABE30Fb/50Fb/100Fb)\n프레임의 크기 30AF 50AF 100AF\n형명 및 극수 경제형 경제형 경제형\n2극 (2-pole) ABE32Fb ABE52Fb ABE102Fb\n3극 (3-pole) ABE33Fb ABE53Fb ABE103Fb\n정격전류, In 3, 5, 10, 15, 20, 30A 5, 10, 15, 20, 30, 40, 50A 60, 75, 100A\n정격전압, Ue AC : 220 / 460\n정격차단전류, Icu 경제형 경제형 경제형\nKSC 8321(Sym) AC460V 1.5 kA 1.5 kA 2.5 kA\nIEC 60947-2(Icu) 415V 1.5 kA 1.5 kA 2.5 kA\n380V 1.5 kA 1.5 kA 2.5 kA\n220V 2.5 kA 2.5 kA 5 kA\n보호기능 누전, 과부하, 순시 및 단락전류\n과전류트립방식 완전전자식 (Hydraulic-Magnetic)\n순시트립동작특성 (7~15)×In\n내구수명 기계적 -\n전기적 -\n접속방식 표준 표면형 (Front connection)\n설치방식 표준 나사 및 DIN rail 부착 겸용\n외형치수 (mm) 극수 2극 3극 2극 3극 2극 3극\na 50 75 50 75 75 75\nb 96 96 96 96 96 96\nc 60 60 60 60 60 60\nd 80 80 80 80 80 80\n제품중량, kg 0.3 0.42 0.3 0.42 0.47 0.5\n취득규격 ABE30Fb ABE50Fb ABE100Fb\n KS8321 ㉿ ○ ○ - ○\n제품의 정격 및 사양 \n* 정격전류 3, 5, 10A 제품은 안전인증 제품 입니다.\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 15,
+      "text": " \n   1514 \nR T\n보조접점, AX\n2/3P 공용\n경보접점, AL\n2/3P 별도\n선정 및 주문\n차단기본체 주문형명 부속장치 (Accessory)\nR상 (左극) 설치용 (아래 항목중 택일)\nT상 (右극) 설치용\n30AF\n정격전류, In 2극 3극 \n3 A ABE32Fb/3 ABE33Fb/3\n5 A ABE32Fb/5 ABE33Fb/5\n10 A ABE32Fb/10 ABE33Fb/10\n15 A ABE32Fb/15 ABE33Fb/15\n20 A ABE32Fb/20 ABE33Fb/20\n30 A ABE32Fb/30 ABE33Fb/30\n50AF\n정격전류, In 2극 3극 \n5 A ABE52Fb/5 ABE53Fb/5\n10 A ABE52Fb/10 ABE53Fb/10\n15 A ABE52Fb/15 ABE53Fb/15\n20 A ABE52Fb/20 ABE53Fb/20\n30 A ABE52Fb/30 ABE53Fb/30\n40 A ABE52Fb/40 ABE53Fb40\n50 A ABE52Fb/50 ABE53Fb/50\n100AF\n정격전류, In 2극 3극 \n60 A ABE102Fb/60 ABE103Fb/60\n75 A ABE102Fb/75 ABE103Fb/75\n100 A ABE102Fb/100 ABE103Fb/100\n ABE32Fb \nABE52Fb\n-\n-\nABE33Fb\nABE53Fb \nABE102Fb \nABE103Fb\n부속장치명\n TBS-22 TBS-23 단자커버\nB B 절연배리어(전원측 표준공급)\nAX1 AX1 보조스위치(1c접점)\nAL1 AL1 경보스위치(1c접점)\n- AX1+AL1 보조(1c)+경보(1c)스위치\nSHT SHT 전압트립장치\nAX1 보조스위치 (1c접점)\nAL1 경보스위치 (1c접점)\nAX1+AL1 보조 (1c) + (1c) 스위치 \n(30/50AF 2극에는 적용불가)\nSHT 전압트립장치\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 16,
+      "text": " \n   1716 \n분전반용배선용차단기 (ABS30Fb/50Fb/100Fb)\n프레임의 크기 30AF 50AF 100AF\n형명 및 극수 표준형 표준형 표준형\n2극 (2-pole) ABS32Fb ABS52Fb ABS102Fb\n3극 (3-pole) ABS33Fb ABS53Fb ABS103Fb\n정격전류, In 3, 5, 10, 15, 20, 30A 5, 10, 15, 20, 30, 40, 50A 60, 75, 100A\n정격전압, Ue AC : 220 / 460\n정격차단전류, Icu 표준형 표준형 표준형\nKSC 8321(Sym) AC460V 2.5 kA 2.5 kA 5 kA\nIEC 60947-2(Icu) 415V 2.5 kA 2.5 kA 5 kA\n380V 2.5 kA 2.5 kA 5 kA\n220V 5 kA 5 kA 10 kA\n보호기능 누전, 과부하, 순시 및 단락전류\n과전류트립방식 완전전자식 (Hydraulic-Magnetic)\n순시트립동작특성 (7~15)×In\n내구수명 기계적 -\n전기적 -\n접속방식 표준 표면형 (Front connection)\n설치방식 표준 나사 및 DIN rail 부착 겸용\n외형치수 (mm) 극수 2극 3극 2극 3극 2극 3극\na 50 75 50 75 75 75\nb 96 96 96 96 96 96\nc 60 60 60 60 60 60\nd 80 80 80 80 80 80\n제품중량, kg 0.3 0.42 0.3 0.42 0.47 0.5\n취득규격 ABS30Fb ABS50Fb ABS100Fb\n KS8321 ㉿ ○ ○ - ○\n제품의 정격 및 사양 \n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 17,
+      "text": " \n   1716 \n보조접점, AX\n2/3P 공용\n경보접점, AL\n2/3P 별도\nR T\n선정 및 주문\n차단기본체 주문형명\n30AF\n정격전류, In 2극 3극 \n3 A ABS32Fb/3 ABS33Fb/3\n5 A ABS32Fb/5 ABS33Fb/5\n10 A ABS32Fb/10 ABS33Fb/10\n15 A ABS32Fb/15 ABS33Fb/15\n20A ABS32Fb/20 ABS33Fb/20\n30 A ABS32Fb/30 ABS33Fb/30\n50AF\n정격전류, In 2극 3극 \n5 A ABS52Fb/5 ABS53Fb/5\n10 A ABS52Fb/10 ABS53Fb/10\n15 A ABS52Fb/15 ABS53Fb/15\n20 A ABS52Fb/20 ABS53Fb/20\n30 A ABS52Fb/30 ABS53Fb/30\n40 A ABS52Fb/40 ABS53Fb40\n50 A ABS52Fb/50 ABS53Fb/50\n100AF\n정격전류, In 2극 3극 \n60 A ABS102Fb/60 ABS103Fb/60\n75 A ABS102Fb/75 ABS103Fb/75\n100 A ABS102Fb/100 ABS103Fb/100\n부속장치 (Accessory)\nABS32Fb\nABS52Fb\n-\n-\nABS33Fb\nABS53Fb\nABS102Fb\nABS103Fb\n부속장치명\nTBS-22 TBS-23 단자커버\nB B 절연배리어 (전원측 표준공급)\nAX1 AX1 보조스위치 (1c접점)\nAL1 AL1 경보스위치 (1c접점)\n- AX1+AL1 보조 (1c)+경보 (1c)스위치\nSHT SHT 전압트립장치\nR상 (左극) 설치용 (아래 항목중 택일)\nT상 (右극) 설치용\nAX1 보조스위치 (1c접점)\nAL1 경보스위치 (1c접점)\nAX1+AL1 보조 (1c) + (1c) 스위치\n(30/50AF 2극에는 적용불가)\nSHT 전압트립장치\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 18,
+      "text": " \n   1918 \n분전반용 누전차단기 (EBE30Fb/50Fb/100Fb)\n제품의 정격 및 사양\n프레임의 크기 30AF 50AF 100AF\n형명 및 극수 경제형 경제형 경제형\n2극 (2-pole) EBE32Fb EBE52Fb EBE102Fb\n3극 (3-pole) EBE33Fb EBE53Fb EBE103Fb\n정격전류, In 3, 5, 10, 15, 20, 30A 5, 10, 15, 20, 30, 40, 50A 60, 75, 100A\n정격감도전류 mA 30, *50(2극) 15, 30(3극) 30, *50(2극) 15, 30(3극) 30, 100 (2, 3극)\n정격전압, Ue 2극 (2P2E) AC : 110/220 V AC : 220 V\n3극 (3P3E) AC : 220/380 V\n정격차단전류, Icu 경제형 경제형 경제형\nKSC 8321 (Sym) AC 380V 1.5 kA (3극) 1.5 kA (3극) 2.5 kA (3극) \nIEC 60947-2 (Icu) 220V 2.5 kA (2, 3극) 2.5 kA (2, 3극) 5 kA (2, 3극)\n보호기능 누전, 과부하, 순시 및 단락전류\n과전류트립방식 완전전자식 (Hydraulic-Magnetic)\n누전검출트립방식 전자식 전류동작형\n순시트립동작특성 (7~15)×In\n내구수명 기계적 8,500회\n전기적 1,500회\n접속방식 표준 표면형 (Front connection)\n설치방식 표준 나사 및 DIN rail 부착 겸용\n외형치수 (mm) 극수 2극 3극 2극 3극 2극 3극\na 50 75 50 75 75 75\nb 96 96 96 96 96 96\nc 60 60 60 60 60 60\nd 80 80 80 80 80 80\n제품중량, kg 0.3 0.5 0.4 0.5 0.5 0.6\n취득규격 2극 3극 2극 3극 2극 3극\nKSC 4613 ㉿ ○ ○ - ○\n* 감도전류 50mA의 경우는 3, 5, 10A 제품은 전개되지 않습니다.\n* 정격전류 3, 5, 10A 제품은 안전인증 제품입니다.\n* 각 극간 내전압/절연저항(500V이상) 시험시 PCB회로가 손상되므로 시험하지 마십시오.\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 19,
+      "text": " \n   1918 \nR T\n보조접점, AX\n2/3P 공용\n경보접점, AL\n2/3P 별도\n선정 및 주문\n차단기본체 주문형명\n30AF (정격감도전류 : 30mA )\n정격전류, In 2극 3극 \n3 A EBE32Fb/3/30 EBE33Fb/3/30\n5 A EBE32Fb/5/30 EBE33Fb/5/30\n10 A EBE32Fb/10/30 EBE33Fb/10/30\n15 A EBE32Fb/15/30 EBE33Fb/15/30\n20A EBE32Fb/20/30 EBE33Fb/20/30\n30 A EBE32Fb/30/30 EBE33Fb/30/30\n30AF (정격감도전류 : 50mA )\n15 A EBE32Fb/15/50 EBE33Fb/15/50\n20 A EBE32Fb/20/50 EBE33Fb/20/50\n30 A EBE32Fb/30/50 EBE33Fb/30/50\n50AF (정격감도전류 : 30mA )\n정격전류, In 2극 3극 \n5 A EBE32Fb/5/30 EBE33Fb/5/30\n10 A EBE32Fb/10/30 EBE33Fb/10/30\n15 A EBE32Fb/15/30 EBE33Fb/15/30\n20 A EBE32Fb/20/30 EBE33Fb/20/30\n30 A EBE32Fb/30/30 EBE33Fb/30/30\n40 A EBE32Fb/40/30 EBE33Fb/40/30\n50 A EBE32Fb/50/30 EBE33Fb/50/30\n50AF (정격감도전류 : 50mA )\n15 A EBE52Fb/15/50 EBE53Fb/15/50\n20 A EBE52Fb/20/50 EBE53Fb/20/50\n30 A EBE52Fb/30/50 EBE53Fb/30/50\n40 A EBE52Fb/40/50 EBE53Fb/40/50\n50 A EBE52Fb/50/50 EBE53Fb/50/50\n100AF (정격감도전류 : 30mA )\n정격전류, In 2극 3극 \n60 A EBE102Fb/60/30 EBE103Fb/60/30\n75 A EBE102Fb/75/30 EBE103Fb/75/30\n100 A EBE102Fb/100/30 EBE103Fb/100/30\n100AF (정격감도전류 : 100mA )\n60 A EBE102Fb/60/100 EBE103Fb/60/100\n75 A EBE102Fb/75/100 EBE103Fb/75/100\n100 A EBE102Fb/100/100 EBE103Fb/100/100\n부속장치 (Accessory)\nEBE32Fb\nEBE52Fb\n-\n-\nEBE33Fb\nEBE53Fb\nEBE102Fb\nEBE103Fb\n부속장치명\nTBS-22 TBS-23 단자커버\nB B 절연배리어 (전원측 표준공급)\nAX1 AX1 보조스위치 (1c접점)\nAL1 AL1 경보스위치 (1c접점)\n- AX1+AL1 보조 (1c) + 경보 (1c) 스위치\nR상 (左극) 설치용 (아래 항목중 택일)\nAX1 보조스위치 (1c접점)\nAL1 경보스위치 (1c접점)\nAX1+AL1 보조 (1c) + (1c) 스위치\n(30/50AF 2극에는 적용불가)\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 20,
+      "text": " \n   2120 \n분전반용 누전차단기  (EBS30Fb/50Fb/100Fb)\n제품의 정격 및 사양\n프레임의 크기 30AF 50AF 100AF\n형명 및 극수 표준형 표준형 표준형\n2극 (2-pole) EBS32Fb EBS52Fb EBS102Fb\n3극 (3-pole) EBS33Fb EBS53Fb EBS103Fb\n정격전류, In 3, 5, 10, 15, 20, 30A 5, 10, 15, 20, 30, 40, 50A 60, 75, 100A\n정격감도전류 mA 15, 30*(2극) 15, 30 100*(3극) 15, 30*(2극) 15, 30 100*(3극) 30, 100 (2, 3극)\n정격전압, Ue 2극 (2P2E) AC : 110/220 V AC : 220 V\n3극 (3P3E) AC : 220/380 V\n정격차단전류, Icu 표준형 표준형 표준형\nKSC 8321 (Sym) AC 380V 2.5 kA (3극) 2.5 kA (3극) 5 kA (3극) \nIEC 60947-2 (Icu) 220V 5 kA (2, 3극) 5 kA (2, 3극) 10 kA (2, 3극)\n보호기능 누전, 과부하, 순시 및 단락전류\n과전류트립방식 완전전자식 (Hydraulic-Magnetic)\n누전검출트립방식 전자식 전류동작형\n순시트립동작특성 (7~15)×In\n내구수명 기계적 -\n전기적 -\n접속방식 표준 표면형 (Front connection)\n설치방식 표준 나사 및 DIN rail 부착 겸용\n외형치수 (mm) 극수 2극 3극 2극 3극 2극 3극\na 50 75 50 75 75 75\nb 96 96 96 96 96 96\nc 60 60 60 60 60 60\nd 80 80 80 80 80 80\n제품중량, kg 0.33 0.44 0.33 0.44 0.46 0.63\n취득규격 2극 3극 2극 3극 2극 3극\n        KS 4613 ㉿ ○ ○ - ○\n        IEC 60947-2 ○ ○ ○\n일본 PSE ○ (30mA) ○ (30mA) ○\nJIS ○ ○ ○\n* 각 극간 내전압/절연저항(500V이상) 시험시 PCB회로가 손상되므로 시험하지 마십시오.\n* 3, 5, 10A 제품은 안전인증 제품 입니다.\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 21,
+      "text": " \n   2120 \nR T\n보조접점, AX\n2/3P 공용\n경보접점, AL\n2/3P 별도\n선정 및 주문\n차단기본체 주문형명 부속장치 (Accessory)\nR상 (左극) 설치용 (아래 항목중 택일)\n30AF (정격감도전류 : 15mA )\n정격전류, In 2극 3극 \n3 A EBS32Fb/3/15 EBS33Fb/3/15\n5 A EBS32Fb/5/15 EBS33Fb/5/15\n10 A EBS32Fb/10/15 EBS33Fb/10/15\n15 A EBS32Fb/15/15 EBS33Fb/15/15\n20 A EBS32Fb/20/15 EBS33Fb/20/15\n30 A EBS32Fb/30/15 EBS33Fb/30/15\n30AF (정격감도전류 : 30mA )\n3 A EBS32Fb/3/30 EBS33Fb/3/30\n5 A EBS32Fb/5/30 EBS33Fb/5/30\n10 A EBS32Fb/10/30 EBS33Fb/10/30\n15 A EBS32Fb/15/30 EBS33Fb/15/30\n20 A EBS32Fb/20/30 EBS33Fb/20/30\n30 A EBS32Fb/30/30 EBS33Fb/30/30\n30AF (정격감도전류 : 100mA )\n3 A - EBS33Fb/3/100\n5 A - EBS33Fb/5/100\n10 A - EBS33Fb/10/100\n15 A - EBS33Fb/15/100\n20 A - EBS33Fb/20/100\n30 A - EBS33Fb/30/100\n50AF (정격감도전류 : 15mA )\n정격전류, In 2극 3극 \n5 A EBS52Fb/5/15 EBE53Fb/5/15\n10 A EBS52Fb/10/15 EBE53Fb/10/15\n15 A EBS52Fb/15/15 EBE53Fb/15/15\n20 A EBS52Fb/20/15 EBE53Fb/20/15\n30 A EBS52Fb/30/15 EBE53Fb/30/15\n40 A EBS52Fb/40/15 EBE53Fb/40/15\n50 A EBS52Fb/50/15 EBE53Fb/50/15\n50AF (정격감도전류 : 30mA )\n5 A EBS52Fb/15/30 EBS53Fb/5/30\n10 A EBS52Fb/10/30 EBS53Fb/10/30\n15 A EBS52Fb/15/30 EBS53Fb/15/30\n20 A EBS52Fb/20/30 EBS53Fb/20/30\n30 A EBS52Fb/30/30 EBS53Fb/30/30\n40 A EBS52Fb/40/30 EBS53Fb/40/30\n50 A EBS52Fb/50/30 EBS53Fb/50/30\n50AF (정격감도전류 : 100mA)\n5 A - EBS53Fb/5/100\n10 A - EBS53Fb/10/100\n15 A - EBS53Fb/15/100\n20 A - EBS53Fb/20/100\n30 A - EBS53Fb/30/100\n40 A - EBS53Fb/40/100\n50 A - EBS53Fb/50/100\n100AF (정격감도전류 : 30mA )\n정격전류, In 2극 3극 \n60 A EBS102Fb/60/30 EBS103Fb/60/30\n75 A EBS102Fb/75/30 EBS103Fb/75/30\n100 A EBS102Fb/100/30 EBS103Fb/100/30\n100AF (정격감도전류 : 100mA )\n60 A EBS102Fb/60/100 EBS103Fb/60/100\n75 A EBS102Fb/75/100 EBS103Fb/75/100\n100 A EBS102Fb/100/100 EBS103Fb/100/100\nEBS32Fb\nEBS52Fb\n-\n-\nEBS33Fb\nEBS53Fb\nEBS102Fb\nEBS103Fb\n부속장치명\nTBS-22 TBS-23 단자커버\nB B 절연배리어 (전원측 표준공급)\nAX1 AX1 보조스위치 (1c접점)\nAL1 AL1 경보스위치 (1c접점)\n- AX1+AL1 보조 (1c) + 경보 (1c) 스위치\nAX1 보조스위치 (1c접점)\nAL1 경보스위치 (1c접점)\nAX1+AL1 보조 (1c) + (1c) 스위치\n(30/50AF 2극에는 적용불가)\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 22,
+      "text": " \n   2322 \n분전반용 배선용차단기/누전차단기 (Fb Series)\n보조접점, AX\n2/3P 공용\n경보접점, AL\n2/3P 별도\n단자커버를 사용하면\nIEC60204-1에따른\nIP20 수준의 보호등급으로\n안전성이 향상됩니다.\n(선택사양)\n2극 3극\n보조접점의 및 경보접점의 정격\n배선용차단기 형명체계\n단자커버 (Terminal Cover)\n2 Fb 303ABE\nAmpere Frame\n3 30AF\n5 50AF\n10 100AF\n극수\n2 2극\n3 3극\n정격전류\n30AF 3, 5, 10, 15, 20, 30A\n50AF 5, 10, 15, 20, 30, 40, 50A\n100AF 60, 75, 100A\n분전반용\n누전차단기 형명체계\n2 Fb 30 30mA3EBE\nAmpere Frame\n3 30AF\n5 50AF\n10 100AF\n극수\n2 2극\n3 3극\nType\nEBE 경제형\nEBS 표준형\nType\nABE 경제형\nABS 표준형\n정격전류\n30AF 3, 5, 10, 15, 20, 30A\n50AF 5, 10, 15, 20, 30, 40, 50A\n100AF 60, 75, 100A\n정격감도전류\n30mA\n50mA\n100mA\n분전반용\nAC DC\n사용전압 (V) \n개폐전류 (A)\n사용전압 (V) \n개폐전류 (A)\n저항부하 유도부하 저항부하 유도부하\n125 5 3 30 4 3\n250 3 2 125 0.4 0.4\n500 - - 250 0.2 0.2\n형식 적용차단기\n외형치수 (mm)\nA B C\nTBS-22\nABE32Fb ABS32Fb EBE32Fb EBS32Fb \n50 25.5 56\nABE52Fb ABS52Fb EBE52Fb EBS52Fb\nTBS-23\nABE33Fb ABS33Fb EBE33Fb EBS33Fb\n75 25.5 56\nABE53Fb ABS53Fb EBE53Fb EBS53Fb\nABE102Fb ABS102Fb EBE102Fb EBS102Fb\nABE103Fb ABS103Fb EBE103Fb EBS103Fb\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 23,
+      "text": " \n   2322 \nDC 회로용 차단기 (BK63H DC)\nBK63H DC\n제품명 DC 회로용 차단기\n형명 BK63H DC\n극수 1P, 2P, 3P, 4P\n정격전류, In 1, 2, 3, 4, 6, 10, 16, 20, 25, 32, 40, 50, 63A\nIEC 60947-2 극수 1극 2극 3극 4극\n정격전압 (VDC) 250 500 750 1000\n정격차단전류 (Icu), kA 10 10 10 10\n서비스차단전류 (Ics), kA 7.5 7.5 7.5 7.5\n정격절연전압 (Ui) DC1000V\n정격임펄스전압 (Uimp) 6kV\n순시트립 동작특성 B(5In), C(8In)\n보호기능 과부하,  단락전류\n내구수명 전기적 1,500회\n기계적 20,000회\n보호등급 IP20\n전선수치/체결토크 18~4AWG (0.75···25mm²)20kgf.cm\n설치방식 35mm DIN rail 부착\n단자구조 Lug/Screw 이중구조\n과전류트립방식 열동전자식(Thermal-Magnetic)\n사용주위 온도 -35°C~+70°C\n인증현황 CE, SEMKO CB\n외형치수 \n(mm) 극수 1극 2극 3극 4극\na 18 36 54 72\nb 81 81 81 81\nc 65.5 65.5 65.5 65.5\nd 77 77 77 77\nBK63H DC / DC 회로용 차단기\n• 태양광발전, 신재생 등 직류 전원용 적합\n• SEMKO CB 취득\n• 최대사용전압 : DC 1,000V\n• 정격 및 극수 : 1~63A, 1 / 2 / 3 / 4극형\n• 정격전압  : DC 250 / 500 / 750 / 1,000V\n• 정격차단용량 : 10kA\n• 트립특성 : B, C\n• 부속장치 : AX, AL, SHT\n제품의 정격 및 사양 ",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 24,
+      "text": " \n   2524 \nBK63H DC 부속장치\n형명 AX-H AL-H\n정격조작전류 AC 6A@240V / 3A@415V\nDC 1A@110V / 2A@48V\n개폐수명 10,000회\n접속전선 사용범위 0.75~2.5mm\n2\n접점동작\n기능 차단기의 ON / OFF 신호출력 차단기의 Trip 신호출력\n제품중량 (g) 48 48\n적용규격 IEC60947-5-1\nOFF\nMCB\nAX\nTrip ON OFF\nMCB\nAX\nTrip ON\n* DC 24V 전용 SHT 제품입니다. 주문 시 유의해 주십시오.\n형명 SHT-H\n정격전압 (Ue) Rated Voltage DC 60~220V\nAC 110~380V\n* DC 24~220V\nWiring Voltage 85%·110% Ue\nTripping Voltage -\n접속전선 사용범위 ≤ 2.5mm\n2\n부접작접촉방식 본체에 Hook (Click) 외부부착\n제품중량 (g) 100\n적용규격 IEC60947-5-1",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 25,
+      "text": " \n   2524 \n분전반용 배선용차단기/누전차단기 특성곡선\n정격전류 : 1~63A\n정격전류 : 15~30A\n온도 보정 곡선표\n적용모델\n적용모델\n정격전류 : 1~63A\n온도 보정 곡선표\n정격전류 : 15~30A\nBK63H Series\nBK63H\nKGR Series\n32KGRc, 32KGRd",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 26,
+      "text": " \n   2726 \n분전반용 배선용차단기/누전차단기 특성곡선\n적용모델\n적용모델\n온도 보정 곡선표\nBS Series\nBS32c, BS32d\nFb Series\nABE32Fb, 33Fb, ABS32Fb, 33Fb\nABE52Fb, 53Fb, ABS52Fb, 53Fb\nEBE32Fb, 33Fb, EBS32Fb, 33Fb\nEBE52Fb, 53Fb, EBS52Fb, 53Fb\n정격전류 : 6~30A\n정격전류 : 3~30A\n온도 보정 곡선표\n정격전류 : 6~30A\n정격전류 : 3~30A",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 27,
+      "text": " \n   2726 \n온도 보정 곡선표\n적용모델\n적용모델\n정격전류 : 40~50A\n정격전류 : 60~100A\n정격전류 : 40~50A\n온도 보정 곡선표\n정격전류 : 60~100A\nFb Series\nABE52Fb, 53Fb, ABS52Fb, 53Fb\nEBE52Fb, 53Fb, EBS52Fb, 53Fb\nFb Series\nABE102Fb, 103Fb, ABS102Fb, 103Fb\nEBE102Fb, 103Fb, EBS102Fb, 103Fb",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 28,
+      "text": " \n   2928 \n분전반용 배선용차단기/누전차단기 특성곡선\n온도 보정 곡선표\n적용모델\n정격전류 : 15~30A\nGRh Series\n32GRhN, 32GRhS, 32GRhH  \n정격전류 : 15~30A\n적용모델\n온도 보정 곡선표\n정격전류 : 16~32A\nGR Series\n32GRc, 32GRd\n정격전류 : 16~32A",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 29,
+      "text": " \n   2928 \n적용모델\n온도 보정 곡선표\n정격전류 : 15~50A\n정격전류 : 15~50A\nGR Series\n52GRb\n적용모델\nBK63H DC\nBK63H DC\n정격전류 : 1~63A",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 30,
+      "text": " \n   3130 \n분전반용 배선용차단기/누전차단기 특성곡선\n정격전류 : 15~30A\n정격전류 : 40~50A\n적용모델\nBKE Series\n32BKE, 52BKE, 32EGR, 52EGR",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 31,
+      "text": " \n   3130 \n정격전류 : 10~50A\n정격전류 : 60~100A\n온도 보정 곡선표\n적용모델\nBF Series\nBF-a, BF-c",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 32,
+      "text": "분전반용 배선용차단기/누전차단기 외형치수\n \n   3332 \nBk63H, BK63H DC\n부속장치 (보조, 경보접점)\nBk63HBk63H Series",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 33,
+      "text": " \n   3332 \n32KGRc 32KGRd\nBS32c BS32d\n[패널절단치수]\n[부򍰦수]\n[패널절단치수]\n[부򍰦수]\nBS32c, BS32d\n32KGRc, 32KGRd\nKGR Series/BS Series",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 34,
+      "text": "GR Series\n분전반용 배선용차단기/누전차단기 외형치수\n \n   3534 \n32GRhN 32GRhS\n32GRhH 32GRc\n32GRd 52GRb\n[부򍰦수]\n[부򍰦수]\n[부򍰦수]\n32GRc/32GRd\n32GRhN/32GRhS/32GRhH\n52GRb\n[패널절단치수]\n[패널절단치수]\n[패널절단치수]",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 35,
+      "text": "BKE Series/EGR Series\n \n   3534 \n32BkE 52BkE\n32EGR 52EGR\n[부򍰦수][패널절단치수]\n[부򍰦수][패널절단치수]\n[단자부 상세도]\n32BKE, 52BKE\n32EGR, 52EGR\n[단자부 상세도]\n",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 36,
+      "text": "분전반용 배선용차단기/누전차단기 외형치수\n \n   3736 \nBF-a BF-c\n[단자부 상세도]\nBF-a, BF-c\nBF Series",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 37,
+      "text": " \n   3736 \nEBE52Fb\nABE52Fb\nEBS52Fb\nABS52Fb\nEBE53Fb\nABE53Fb\nEBS53Fb\nABS53Fb\nEBE32Fb\nABE32Fb\nEBS32Fb\nABS32Fb\nEBE33Fb\nABE33Fb\nEBS33Fb\nABS33Fb\n30AF, 50AF\nFb Series\n[패널절단치수] [부򍰦수]\n[단자부 상세도]",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 38,
+      "text": "분전반용 배선용차단기/누전차단기 외형치수\n \n   3938 \nEBE102Fb\nABE102Fb\nEBS102Fb\nABS102Fb\nEBE103Fb\nABE103Fb\nEBS103Fb\nABS103Fb\n100AF\nFb Series\n[패널절단치수] [부򍰦수]\n[단자부 상세도]",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 39,
+      "text": " \n   3938 \nMemo",
+      "width": 595.276,
+      "height": 841.89
+    },
+    {
+      "page": 40,
+      "text": "※ 본 제품의 규격은 품질개선을 위하여 예고없이 변경될 수 있으므로 제품구입시 문의 바랍니다. \n©2008. 10 LS ELECTRIC Co., Ltd. All rights reserved. (19) 2026. 08 HumanPower\n구입문의\n서울영업\n저압/고압기기 TEL: (02)2034-4489  \n계전/계측기기 TEL: (02)2034-4980 \n계량기/원격검침 TEL: (02)2034-4581 \n변압기 TEL: (02)2034-4581 \n수배전반  TEL: (02)2034-4974 \n부스덕트 TEL: (02)2034-4777 \n초고압 TEL: (02)2034-4807 \nFACTS TEL: (02)2034-4380 \n진단  TEL: (02)2034-4596 \n철도 TEL: (02)2034-4387\n대전영업  TEL: (042)820-4203  \n  FAX: (042)820-4298\n대구영업 TEL: (053)603-7711 \n  FAX: (053)603-7777\n나주영업 TEL: (062)510-1815  \n  FAX: (062)526-3262\n부산영업 TEL: (051)310-6811  \n  FAX: (051)310-6827\nA/S문의\n서울/경기/강원 TEL: (031)8085-2870~2 \n  FAX: (031)8085-2873\n대전 TEL: (042)826-2080\n  FAX: (042)826-2081 \n대구 TEL: (053)954-5241 \n  FAX: (053)954-5242\n나주 TEL: (061)333-2080    \n  FAX: (061)333-2081\n부산 TEL: (070)8691-1077  \n  FAX: (070)7589-1078\n기술문의\n기술상담센터 TEL: 1544-2080\n교육/세미나 문의\n연수원 (청주) TEL: (043)261-6994 \n  FAX: (043)261-6996\n세미나 TEL: (02)2034-4579 \n  seminar@ls-electric.com\n본사  \n경기도 안양시 동안구 엘에스로 127 LS타워\nwww.ls-electric.com\n전력기기 챗봇 서비스\n언제든지 전력기기에 대한 \n도움이 필요할 땐 챗봇 \n서비스를 이용해주세요.\n전력기기 제품총람\nQR코드를 통해 언제 \n어디서든 카탈로그를 \n다운로드할 수 있습니다.\n서울 사무소 \n서울특별시 용산구 한강대로 92 LS용산타워\n",
+      "width": 595.276,
+      "height": 841.89
+    }
+  ],
+  "page_count": 40
+}

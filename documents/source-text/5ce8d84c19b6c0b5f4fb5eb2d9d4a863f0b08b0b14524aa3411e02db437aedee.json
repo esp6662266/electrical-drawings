@@ -1,0 +1,14 @@
+{
+  "sha256": "5ce8d84c19b6c0b5f4fb5eb2d9d4a863f0b08b0b14524aa3411e02db437aedee",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "#A-3\n내경:\u00002.14m\n높이:\u000010.25m",
+      "width": 841.0,
+      "height": 595.0
+    }
+  ],
+  "page_count": 1
+}

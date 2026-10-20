@@ -1,0 +1,113 @@
+{
+  "equipment_id": "GBF-10",
+  "number": 10,
+  "name": "10번 GBF",
+  "source_folder": "\\\\192.168.20.250\\시설관리\\통합지원본부\\김범주(작업정리중)\\10번 GBF",
+  "source_count": 8,
+  "unique_source_count": 8,
+  "sources": [
+    {
+      "id": "S5af6d290e03373cd",
+      "name": "GBF전기도면.pdf",
+      "relative_path": "GBF/GBF전기도면.pdf",
+      "file": "/documents/source-store/5af6d290e03373cdd524f19efd2194e2e826ce472304b4e38dd9b68c36166b7d.pdf",
+      "sha256": "5af6d290e03373cdd524f19efd2194e2e826ce472304b4e38dd9b68c36166b7d",
+      "bytes": 238502,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/5af6d290e03373cdd524f19efd2194e2e826ce472304b4e38dd9b68c36166b7d.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 6
+    },
+    {
+      "id": "S27a3062e495d05b5",
+      "name": "R.D.M  설명.pptx",
+      "relative_path": "GBF/R.D.M  설명.pptx",
+      "file": "/documents/source-store/27a3062e495d05b5e37e4fb3003be76cad37626683b373e445dcb61ccbd0f0fb.pptx",
+      "sha256": "27a3062e495d05b5e37e4fb3003be76cad37626683b373e445dcb61ccbd0f0fb",
+      "bytes": 7189322,
+      "extension": ".pptx",
+      "inspection": "/documents/source-text/27a3062e495d05b5e37e4fb3003be76cad37626683b373e445dcb61ccbd0f0fb.json",
+      "inspection_status": "슬라이드 텍스트 추출; 배치 미재현",
+      "page_count": 22
+    },
+    {
+      "id": "S9a1538f8df299206",
+      "name": "부창엔지니어링 RDM매뉴얼.pdf",
+      "relative_path": "GBF/부창엔지니어링 RDM매뉴얼.pdf",
+      "file": "/documents/source-store/9a1538f8df2992067f3b4f29c7897935ccd75deeaab2fa97b18cb92022c5764c.pdf",
+      "sha256": "9a1538f8df2992067f3b4f29c7897935ccd75deeaab2fa97b18cb92022c5764c",
+      "bytes": 470980,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/9a1538f8df2992067f3b4f29c7897935ccd75deeaab2fa97b18cb92022c5764c.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 10
+    },
+    {
+      "id": "S06c61b5fa1a29837",
+      "name": "세진메탈(기계도면).pdf",
+      "relative_path": "GBF/세진메탈(기계도면).pdf",
+      "file": "/documents/source-store/06c61b5fa1a298371b1d7da997edc091e5891fdd534ae8a1b83a5262fd7215a0.pdf",
+      "sha256": "06c61b5fa1a298371b1d7da997edc091e5891fdd534ae8a1b83a5262fd7215a0",
+      "bytes": 386978,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/06c61b5fa1a298371b1d7da997edc091e5891fdd534ae8a1b83a5262fd7215a0.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S070119060af7257d",
+      "name": "세진메탈견적서(부창).pdf",
+      "relative_path": "GBF/세진메탈견적서(부창).pdf",
+      "file": "/documents/source-store/070119060af7257d52343b0cc81acc48a56eac5450f06bca32fb72cfa5da9d4d.pdf",
+      "sha256": "070119060af7257d52343b0cc81acc48a56eac5450f06bca32fb72cfa5da9d4d",
+      "bytes": 387695,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/070119060af7257d52343b0cc81acc48a56eac5450f06bca32fb72cfa5da9d4d.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S04134ac4d441d479",
+      "name": "세진메탈 GBF.pdf",
+      "relative_path": "생산부공용 추가도면/GBF 기계도면/세진메탈 GBF.pdf",
+      "file": "/documents/source-store/04134ac4d441d47944237901d5d477a73bcb442364f587da6342307d3650df3e.pdf",
+      "sha256": "04134ac4d441d47944237901d5d477a73bcb442364f587da6342307d3650df3e",
+      "bytes": 375389,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/04134ac4d441d47944237901d5d477a73bcb442364f587da6342307d3650df3e.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 1
+    },
+    {
+      "id": "S7c0af33fec2e67b8",
+      "name": "탈가스기 도면.tif",
+      "relative_path": "생산부공용 추가도면/탈가스기 참고자료(GBF 적용확인필요)/탈가스기 도면.tif",
+      "file": "/documents/source-store/7c0af33fec2e67b8f587af944cf977b6c2448d0659386600afcd784d89e14feb.tif",
+      "sha256": "7c0af33fec2e67b8f587af944cf977b6c2448d0659386600afcd784d89e14feb",
+      "bytes": 80472,
+      "extension": ".tif",
+      "inspection": "/documents/source-text/7c0af33fec2e67b8f587af944cf977b6c2448d0659386600afcd784d89e14feb.json",
+      "inspection_status": "이미지 메타데이터 확인; 시각 검토 별도",
+      "image": {
+        "width": 1654,
+        "height": 2340,
+        "frames": 1
+      }
+    },
+    {
+      "id": "Sb20231d665f897c6",
+      "name": "탈가스기 메뉴얼.pdf",
+      "relative_path": "생산부공용 추가도면/탈가스기 참고자료(GBF 적용확인필요)/탈가스기 메뉴얼.pdf",
+      "file": "/documents/source-store/b20231d665f897c6c239b0f8b0f1b9ed77465e35921735f2af6303339c1f75aa.pdf",
+      "sha256": "b20231d665f897c6c239b0f8b0f1b9ed77465e35921735f2af6303339c1f75aa",
+      "bytes": 1102251,
+      "extension": ".pdf",
+      "inspection": "/documents/source-text/b20231d665f897c6c239b0f8b0f1b9ed77465e35921735f2af6303339c1f75aa.json",
+      "inspection_status": "PDF 본문 추출; 시각 검토 별도",
+      "page_count": 3
+    }
+  ],
+  "excluded_cache_count": 0,
+  "archive_member_count": 0,
+  "coverage_note": "원본 해시 보존·정적 본문 추출·핵심 자료 중심 검토. 모든 부품 카탈로그 페이지의 상세 판독/현재 적용 검증은 아님."
+}

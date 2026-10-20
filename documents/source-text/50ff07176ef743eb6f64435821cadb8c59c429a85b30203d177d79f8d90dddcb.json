@@ -1,0 +1,14 @@
+{
+  "sha256": "50ff07176ef743eb6f64435821cadb8c59c429a85b30203d177d79f8d90dddcb",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "85톤 용해로 기초반사로 바닥 베이스\nTURBO FAN출입문\n85톤 용해로 기초송풍기실(평면도)MAIN50TON전기실(평면도)CON'VCON'V\n출입문",
+      "width": 842.0,
+      "height": 1191.0
+    }
+  ],
+  "page_count": 1
+}

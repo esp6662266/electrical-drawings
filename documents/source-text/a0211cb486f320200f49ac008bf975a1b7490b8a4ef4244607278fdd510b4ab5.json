@@ -1,0 +1,68 @@
+{
+  "sha256": "a0211cb486f320200f49ac008bf975a1b7490b8a4ef4244607278fdd510b4ab5",
+  "extension": ".pdf",
+  "status": "PDF 본문 추출; 시각 검토 별도",
+  "pages": [
+    {
+      "page": 1,
+      "text": "CONTROL PNL 외형도(주) 세진메탈300마력 집진설비옥외 2중 DOOR\n아크릴 3t빗물 보호 COVER\n도면함빗물 보호 COVER\n300마력 집진기 제어판넬",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 2,
+      "text": "명판도\n 적산전력계제어전원표시등BAG 필터 입구 온도\nOFF-O N제어전원OFF - ON에어펄스로타리 V/V과부하기 동NO1 S/C정 지NO1 S/C기 동NO2 S/C정 지NO2 S/C\n(주) 세진메탈300마력 집진설비\n주 전 류 계주 전 압 계메인팬 모터과부하메인팬 모터RUN O.K비상정지기 동메인팬 모터정 지메인팬 모터수동 - 자동SYSTEM기 동예 비예 비정 지\n리셋트이상 발생기 동NO3 S/C정 지NO3 S/C기 동NO4 S/C정 지NO4 S/C기 동NO1 R/V정 지NO1 R/V기 동NO2 R/V정 지NO2 R/V기 동NO3 R/V정 지NO3 R/V기 동NO4 R/V정 지NO4 R/V\n스크류 콘베어과부하",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 3,
+      "text": "(주) 세진메탈300마력 집진설비",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 4,
+      "text": "(주) 세진메탈300마력 집진설비",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 5,
+      "text": "NO1 SCREW CONVEYOR∅3 440V 2.2KW 4P∅3 440V 2.2KW 4P∅3 440V 2.2KW 4P\n(주) 세진메탈300마력 집진설비\nNO2 SCREW CONVEYORNO3 SCREW CONVEYOR∅3 440V 2.2KW 4PNO3 SCREW CONVEYOR",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 6,
+      "text": "(주) 세진메탈300마력 집진설비\nNO1   ROTARY V/V∅3 440V 0.75KW 4PNO2   ROTARY V/V∅3 440V 0.75KW 4PNO1 예 비NO2 예 비",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 7,
+      "text": "표시등제어전원\nOFF-ON제어전원S/S1비상정지S/S2\n전 원EOCRO N제어전원\n자동선택시스템수 동시스템S/S2\nPULSEAIROUT 온도DUCT\nRESET이상발생\n리셋트이상발생\nPBLS\n(주) 세진메탈300마력 집진설비\nOFF-ON에어 펄스S/S3\n자동운전콘베어스크류자동운전밸 브로타리OUT 온도DUCT상 승 온도상승DUCT경광등 온도상승DUCTBUZZER",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 8,
+      "text": "MOTORFAN과부하FAN기 동MOTOR\n기 동PBL0정 지집진기PB0\nMOTOR 표시등운 전 표시등MOTORRUN O.K\n(주) 세진메탈300마력 집진설비\n메인팬\n이상발생표시등메인팬모 터과부하로타리과부하VALVE스크류과부하콘베어FAN운 전MOTOR",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 9,
+      "text": "NO1CON'VSCREW표시등기 동기 동CON'V\n(주) 세진메탈300마력 집진설비\nNO1 S/C기 동PBL1\nPB1\nNO1 S/C정 지\nSCREW과부하CON'VNO2CON'VSCREW표시등기 동기 동CON'V\nNO2 S/C기 동PB2\nPB2\nNO2 S/C정 지\nNO3CON'VSCREW표시등기 동기 동CON'V\nNO3 S/C기 동PB3\nPB3\nNO3 S/C정 지\nNO4CON'VSCREW표시등기 동기 동CON'V\nNO4 S/C기 동PB4\nPB4\nNO4 S/C정 지",
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 10,
+      "text": "(주) 세진메탈300마력 집진설비\nNO1VALVEROTARY표시등기 동기 동ROTARY\nNO1 R/V기 동PBL5\nPB5\nNO1 R/V정 지\nROTARY과부하VALVENO2VALVEROTARY표시등기 동기 동ROTARY\nNO2 R/V기 동PBL6\nPB6\nNO2 R/V정 지\nNO3VALVEROTARY표시등기 동기 동ROTARY\nNO3 R/V기 동PBL7\nPB7\nNO3 R/V정 지\nNO4VALVEROTARY표시등기 동기 동ROTARY\nNO4 R/V기 동PBL8\nPB8\nNO4 R/V정 지",
+      "width": 595.32,
+      "height": 841.92
+    }
+  ],
+  "page_count": 10
+}
