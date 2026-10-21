@@ -8,6 +8,8 @@
   "initial_equipment": 0,
   "initial_records": 0,
   "prepared_equipment": 15,
-  "publication_status": "approved-publication-prepared",
-  "published_equipment": 15
+  "publication_status": "published-verified",
+  "published_equipment": 15,
+  "netlify_published_commit": "a7743d9dab839cd758a4846335d3edb21392e5aa",
+  "netlify_deploy_id": "6ad80cc054e0981735c7da70"
 }

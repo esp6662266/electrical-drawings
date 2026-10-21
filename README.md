@@ -1,6 +1,6 @@
 # 전기도면
 
-2026-10-21: **v1.3.1 · 15개 설비 게시 검토본**. [Netlify 작업실](https://sejin-electrical-drawings.netlify.app/all-in-one/) · [설비별 매뉴얼/자료실](https://sejin-electrical-drawings.netlify.app/documents/batch-index.html). 사용자의 공개 게시 요청을 반영했습니다. 접근정보 원본 2개 및 민감 화면은 로컬 보존하며 공개본에서 제외합니다. 합계 861개 출처 경로/730개 원본 해시에는 공개 제외 자료도 포함됩니다. 공개 범위는 [정책](publication-policy.json), 게시 검토 이력은 [게시 상태](PUBLICATION_STATUS.md)를 확인하세요. 아래 2026-10-20 승인 대기 설명은 이전 기록입니다.
+2026-10-21: **v1.3.1 · 15개 설비 GitHub·Netlify 공개 게시 완료**. [Netlify 작업실](https://sejin-electrical-drawings.netlify.app/all-in-one/) · [설비별 매뉴얼/자료실](https://sejin-electrical-drawings.netlify.app/documents/batch-index.html). 사용자의 공개 게시 요청을 반영했습니다. 접근정보 원본 2개 및 민감 화면은 로컬 보존하며 공개본에서 제외합니다. 합계 861개 출처 경로/730개 원본 해시에는 공개 제외 자료도 포함됩니다. 공개 범위는 [정책](publication-policy.json), 게시 검토 이력은 [게시 상태](PUBLICATION_STATUS.md)를 확인하세요. Netlify 게시 커밋은 `a7743d9`이며 후속 도구·기록 커밋과 구분합니다. 아래 2026-10-20 승인 대기 설명은 이전 기록입니다.
 
 대용량 파일은 **Git LFS**입니다. 체크아웃 후 `node scripts/hydrate-lfs.mjs`를 실행하고 테스트/빌드하세요. Git LFS 기본 다운로드를 쓰려면 `git lfs pull --exclude=""`로 저장소의 자동 수신 제외 설정을 재정의할 수 있습니다. `.lfsconfig`는 초기 체크아웃에서 자동 수신을 건너뛰고, Netlify는 UI 환경변수 `GIT_LFS_SKIP_SMUDGE=1`을 사용합니다. `scripts/hydrate-lfs.mjs`가 빌드 전에 전체 LFS 파일을 병렬 수신하고 SHA-256을 검증합니다. 로컬 메모·수리기록은 브라우저에 저장되며 자동 공유되지 않습니다.
 
