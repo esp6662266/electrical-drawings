@@ -6,6 +6,8 @@ node_modules/
 qa/
 __pycache__/
 *.pyc
+.netlify-lfs-cache/
+*.lfs-partial
 
 /documents/source-figures/42031040c99e3154cf422f60a4f2c75c7e03fd3fc4615a244146ba190bf3bc6c.png
 /documents/source-figures/42031040c99e3154cf422f60a4f2c75c7e03fd3fc4615a244146ba190bf3bc6c.webp

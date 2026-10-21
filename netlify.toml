@@ -1,5 +1,5 @@
 [build]
-  command = "node --test tests/*.test.mjs && node scripts/build.mjs"
+  command = "node scripts/hydrate-lfs.mjs && node --test tests/*.test.mjs && node scripts/build.mjs"
   publish = "dist"
 [build.environment]
   NODE_VERSION = "24"
