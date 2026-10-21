@@ -2,7 +2,7 @@
 
 2026-10-21: **v1.3.1 · 15개 설비 게시 검토본**. [Netlify 작업실](https://sejin-electrical-drawings.netlify.app/all-in-one/) · [설비별 매뉴얼/자료실](https://sejin-electrical-drawings.netlify.app/documents/batch-index.html). 사용자의 공개 게시 요청을 반영했습니다. 접근정보 원본 2개 및 민감 화면은 로컬 보존하며 공개본에서 제외합니다. 합계 861개 출처 경로/730개 원본 해시에는 공개 제외 자료도 포함됩니다. 공개 범위는 [정책](publication-policy.json), 게시 검토 이력은 [게시 상태](PUBLICATION_STATUS.md)를 확인하세요. 아래 2026-10-20 승인 대기 설명은 이전 기록입니다.
 
-대용량 파일은 **Git LFS**입니다. 체크아웃 후 `git lfs pull`을 실행하고 테스트/빌드하세요. Netlify는 UI 환경변수 `GIT_LFS_SKIP_SMUDGE=1`을 사용하며, `scripts/hydrate-lfs.mjs`가 빌드 전에 전체 LFS 파일을 병렬 수신하고 SHA-256을 검증합니다. 로컬 메모·수리기록은 브라우저에 저장되며 자동 공유되지 않습니다.
+대용량 파일은 **Git LFS**입니다. 체크아웃 후 `node scripts/hydrate-lfs.mjs`를 실행하고 테스트/빌드하세요. Git LFS 기본 다운로드를 쓰려면 `git lfs pull --exclude=""`로 저장소의 자동 수신 제외 설정을 재정의할 수 있습니다. `.lfsconfig`는 초기 체크아웃에서 자동 수신을 건너뛰고, Netlify는 UI 환경변수 `GIT_LFS_SKIP_SMUDGE=1`을 사용합니다. `scripts/hydrate-lfs.mjs`가 빌드 전에 전체 LFS 파일을 병렬 수신하고 SHA-256을 검증합니다. 로컬 메모·수리기록은 브라우저에 저장되며 자동 공유되지 않습니다.
 
 2026-10-20: **3~15번을 추가한 로컬 검토본 v1.3.0**입니다. [설비별 작성 목록](documents/batch-index.html) · [집계 JSON](documents/batch-summary.json). 원본759개·압축 내부102개를 861개 출처 경로로 보존했고 730개 고유 해시로 대조했습니다. Windows 캐시/로그7개는 기술자료 목록에서 제외했습니다. 기존1·2번 정의와 원본·개인 기록을 유지합니다. 각 설비의 7개 매뉴얼 항목·전기/PLC 확인 범위·점검/불일치·원본 자료실을 연결했습니다. 핵심 전기·제어·운전 자료 중심 검토이며 대량 제조사 카탈로그의 모든 페이지 상세 판독·전체 PLC 의미 해석·현장 시험을 완료한 것은 아닙니다. 공개 상태는 아래와 별도로 [게시 상태](PUBLICATION_STATUS.md)를 따릅니다.
 
