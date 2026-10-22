@@ -2,7 +2,7 @@ window.ED_PROJECT = {
   "schema_version": 1,
   "application": "Electrical Drawings",
   "name": "전기도면",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "equipment": [
     {
       "id": "SALT-01",

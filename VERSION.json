@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.1",
   "name": "전기도면",
   "date": "2026-10-22",
   "repository": "https://github.com/esp6662266/electrical-drawings",
@@ -8,7 +8,7 @@
   "initial_equipment": 0,
   "initial_records": 0,
   "prepared_equipment": 15,
-  "publication_status": "published-verified",
+  "publication_status": "search-improvements-ready",
   "published_equipment": 15,
   "netlify_published_commit": "b49c661ea62ee75ec75aa2f30282aa52b0284038",
   "netlify_deploy_id": "6ad9d53a4855a22a1bc3bea4"

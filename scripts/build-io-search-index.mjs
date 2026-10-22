@@ -41,8 +41,51 @@ export async function buildSearchIndex(root){
   const photo=JSON.parse(await readFile(resolve(root,'data/io-reference-notes.json'),'utf8'));
   return {schema_version:1,version:ctx.window.ED_PROJECT.version,coverage,records:[...photo.records,...unique.values()]};
 }
+
+// Keep the authoring/search model as normal records. Only the published payload
+// uses tuples and shared source metadata; no source text or evidence is removed.
+const recordFields=['id','title','text','url','reader','page'];
+function commonPrefix(values){
+  let prefix=String(values[0]??'');
+  for(const value of values.slice(1)){
+    const text=String(value??'');let i=0;
+    while(i<prefix.length&&i<text.length&&prefix[i]===text[i])i++;
+    prefix=prefix.slice(0,i);
+  }
+  return prefix;
+}
+export function packSearchIndex(index,{includePhotos=true}={}){
+  if(index.schema_version!==1||!Array.isArray(index.records))throw new Error('Unsupported search index');
+  const groups=[],byMetadata=new Map();
+  for(const record of index.records){
+    if(!includePhotos&&record.kind==='photo')continue;
+    const meta=Object.fromEntries(Object.entries(record).filter(([key])=>!recordFields.includes(key)));
+    const fields=recordFields.filter(key=>Object.hasOwn(record,key)),key=JSON.stringify([meta,fields]);
+    if(!byMetadata.has(key)){byMetadata.set(key,groups.length);groups.push({meta,fields,records:[]});}
+    groups[byMetadata.get(key)].records.push(record);
+  }
+  const sources=groups.map(group=>{
+    const pdf=group.fields.length===recordFields.length&&group.records.every(record=>
+      typeof record.page==='number'&&record.title===record.source+' · PDF '+record.page+'쪽'&&
+      record.url.endsWith('#page='+record.page)&&record.reader.endsWith('&page='+record.page));
+    const prefixes=['id','title','url','reader'].map(key=>commonPrefix(group.records.map(record=>record[key])));
+    if(pdf){prefixes[1]=group.meta.source+' · ';prefixes[2]=group.records[0].url.slice(0,-String(group.records[0].page).length);prefixes[3]=group.records[0].reader.slice(0,-String(group.records[0].page).length);}
+    return {meta:group.meta,fields:group.fields,prefixes,...(pdf?{mode:'pdf'}:{})};
+  });
+  // Preserve global order, including the six independently loadable photo notes.
+  const records=[];
+  for(const record of index.records){
+    if(!includePhotos&&record.kind==='photo')continue;
+    const meta=Object.fromEntries(Object.entries(record).filter(([key])=>!recordFields.includes(key)));
+    const fields=recordFields.filter(key=>Object.hasOwn(record,key)),source=byMetadata.get(JSON.stringify([meta,fields]));
+    const descriptor=sources[source],prefixes=descriptor.prefixes;
+    records.push(descriptor.mode==='pdf'?[source,record.id.slice(prefixes[0].length),record.page,record.text]:
+      [source,record.id?.slice(prefixes[0].length)??null,record.title?.slice(prefixes[1].length)??null,record.text??null,record.url?.slice(prefixes[2].length)??null,record.reader?.slice(prefixes[3].length)??null,record.page??null]);
+  }
+  return {schema_version:2,format:'ed-io-source-tuples',version:index.version,coverage:index.coverage,sources,records};
+}
 if(process.argv[1]&&pathToFileURL(resolve(process.argv[1])).href===import.meta.url){
   const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),index=await buildSearchIndex(root);
-  await writeFile(resolve(root,'data/io-search-index.json'),JSON.stringify(index)+'\n');
+  await writeFile(resolve(root,'data/io-search-index.json'),JSON.stringify(packSearchIndex(index,{includePhotos:false}))+'\n');
   console.log('I/O 검색: '+index.records.length+'개 원본 본문, '+index.coverage.length+'개 설비 색인 생성');
 }
