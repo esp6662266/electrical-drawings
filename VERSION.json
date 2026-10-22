@@ -8,8 +8,8 @@
   "initial_equipment": 0,
   "initial_records": 0,
   "prepared_equipment": 15,
-  "publication_status": "search-improvements-ready",
+  "publication_status": "published-verified",
   "published_equipment": 15,
-  "netlify_published_commit": "b49c661ea62ee75ec75aa2f30282aa52b0284038",
-  "netlify_deploy_id": "6ad9d53a4855a22a1bc3bea4"
+  "netlify_published_commit": "43eb3244e90ffa6afb90fd790fcf38e6c96865e1",
+  "netlify_deploy_id": "6ad9f70cbfa07ed31c774d1a"
 }
